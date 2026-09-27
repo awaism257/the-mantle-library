@@ -15,7 +15,8 @@
   var state = {
     works: null,        // array of work objects once loaded
     loadError: null,    // error message string if fetch failed
-    query: ''           // current search query (persists across hash changes)
+    query: '',          // current search query (persists across hash changes)
+    searchOpen: false   // whether the app-bar search field is showing
   };
 
   /* ---------------------------------------------------------------- helpers */
@@ -119,18 +120,77 @@
     return haystack.indexOf(query) !== -1;
   }
 
-  function buildCard(work) {
-    var children = [
-      el('p', { class: 'card-title-ar', lang: 'ar', dir: 'rtl', text: work.title_ar }),
-      el('h3', { class: 'card-title-en', text: work.title_en }),
-      el('p', {
-        class: 'card-meta',
-        text: work.author + (work.author_dates ? ' (' + work.author_dates + ')' : '')
-      })
-    ];
-    return el('li', { class: 'card' }, [
-      el('a', { class: 'card-link', href: '#/work/' + encodeURIComponent(work.id) }, children)
+  /* App-style menu rows: circular icon left, bold title + subtitle, chevron
+     right — the same pattern the sibling apps (JustQuran, Munajaat Maqbool)
+     use on their home screens. */
+  var ROW_ICONS = {
+    'dalail-al-khayrat': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>',
+    'banat-suad': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><path d="M16 8L2 22"/><path d="M17.5 15H9"/></svg>',
+    'about': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>'
+  };
+
+  function rowIcon(id) {
+    return ROW_ICONS[id] || ROW_ICONS['dalail-al-khayrat'];
+  }
+
+  function buildMenuRow(work) {
+    return el('li', { class: 'menu-row' }, [
+      el('a', {
+        class: 'menu-row-link',
+        href: '#/work/' + encodeURIComponent(work.id)
+      }, [
+        el('span', { class: 'menu-row-icon', html: rowIcon(work.id) }),
+        el('span', { class: 'menu-row-text' }, [
+          el('span', { class: 'menu-row-title', text: work.title_en }),
+          el('span', { class: 'menu-row-sub', text: work.title_ar + ' · ' + work.author })
+        ]),
+        el('span', { class: 'menu-row-chevron', 'aria-hidden': 'true', text: '›' })
+      ])
     ]);
+  }
+
+  function buildAboutRow() {
+    return el('li', { class: 'menu-row' }, [
+      el('a', { class: 'menu-row-link', href: '#/about' }, [
+        el('span', { class: 'menu-row-icon', html: rowIcon('about') }),
+        el('span', { class: 'menu-row-text' }, [
+          el('span', { class: 'menu-row-title', text: 'About' }),
+          el('span', { class: 'menu-row-sub', text: 'Free · ad-free · offline-first · privacy policy' })
+        ]),
+        el('span', { class: 'menu-row-chevron', 'aria-hidden': 'true', text: '›' })
+      ])
+    ]);
+  }
+
+  /* -------------------------------------------------- app-bar search toggle */
+
+  var searchToggleBtn = document.getElementById('search-toggle');
+
+  function syncSearchToggle() {
+    if (searchToggleBtn) {
+      searchToggleBtn.setAttribute('aria-expanded', state.searchOpen ? 'true' : 'false');
+    }
+  }
+
+  if (searchToggleBtn) {
+    searchToggleBtn.addEventListener('click', function () {
+      state.searchOpen = !state.searchOpen;
+      if (!state.searchOpen) state.query = '';
+      syncSearchToggle();
+      var onHome = !window.location.hash || window.location.hash === '#/';
+      if (onHome) {
+        renderHome();
+        if (state.searchOpen) {
+          var input = document.getElementById('search-input');
+          if (input) input.focus();
+        } else {
+          searchToggleBtn.focus();
+        }
+      } else {
+        // route() -> renderHome() honours state.searchOpen on arrival.
+        window.location.hash = '#/';
+      }
+    });
   }
 
   /* --------------------------------------------- recording tiles & detail sheet */
@@ -260,31 +320,19 @@
     document.title = 'The Mantle Library';
     clearView();
 
-    appEl.appendChild(el('img', {
-      class: 'app-logo',
-      src: 'icons/icon-192.png',
-      alt: 'The Mantle Library logo — a golden mantle in a red medallion',
-      width: '92',
-      height: '92'
-    }));
-    appEl.appendChild(el('h1', { class: 'app-title', text: 'The Mantle Library' }));
-    appEl.appendChild(el('p', {
-      class: 'notice',
-      style: 'padding-top:0;padding-bottom:1.25rem;',
-      text: 'Classical devotional qasidas with historic public-domain recordings — free, ad-free, and fully offline.'
-    }));
-
-    var searchWrap = el('div', { class: 'search-wrap' });
+    // The search field stays hidden behind the app-bar search button.
+    var searchWrap = el('div', { class: 'search-wrap', id: 'search-wrap' });
+    if (!state.searchOpen) searchWrap.setAttribute('hidden', '');
     var input = el('input', {
       class: 'search-input',
       id: 'search-input',
       type: 'search',
       placeholder: 'Search Arabic or English…',
       autocomplete: 'off',
+      'aria-label': 'Search the library',
       'aria-describedby': 'search-help'
     });
     input.value = state.query;
-    searchWrap.appendChild(el('label', { class: 'search-label', for: 'search-input', text: 'Search the library' }));
     searchWrap.appendChild(input);
     searchWrap.appendChild(el('p', {
       class: 'visually-hidden',
@@ -293,8 +341,9 @@
     }));
     appEl.appendChild(searchWrap);
 
-    var grid = el('ul', { class: 'card-grid', id: 'work-grid' });
-    appEl.appendChild(grid);
+    // Main sections as full-width app-style menu rows.
+    var rows = el('ul', { class: 'menu-rows', id: 'work-rows' });
+    appEl.appendChild(rows);
     var noResults = el('p', { class: 'no-results', text: 'No works match your search.', hidden: '' });
     appEl.appendChild(noResults);
 
@@ -313,13 +362,13 @@
     function applyFilter() {
       if (!state.works) return;
       var q = normalize(state.query);
-      grid.textContent = '';
+      rows.textContent = '';
       mediaList.textContent = '';
       var count = 0;
       var mediaCount = 0;
       state.works.forEach(function (work) {
         if (hasAudio(work)) {
-          // audio collections are listed as media tiles, not as cards
+          // audio collections are listed as media tiles, not as menu rows
           work.audio.forEach(function (rec) {
             var item = buildRecordingTile(rec);
             if (!q || item.dataset.haystack.indexOf(q) !== -1) {
@@ -328,10 +377,12 @@
             }
           });
         } else if (!q || workMatches(work, q)) {
-          grid.appendChild(buildCard(work));
+          rows.appendChild(buildMenuRow(work));
           count++;
         }
       });
+      // The About row is part of the main menu; it hides while searching.
+      if (!q) rows.appendChild(buildAboutRow());
       if (count === 0) {
         noResults.removeAttribute('hidden');
       } else {
@@ -354,6 +405,9 @@
     loadWorks().then(function (works) {
       if (works) applyFilter();
     });
+
+    // Arriving via the app-bar search button lands here with the field open.
+    if (state.searchOpen) input.focus();
   }
 
   /* --------------------------------------------------- disc label overlay */
@@ -610,6 +664,13 @@
     closeRecOverlay();
     var hash = window.location.hash || '#/';
     var path = hash.replace(/^#/, '');
+
+    // The search field only lives on the home view; leaving home closes it.
+    if (path !== '/' && path !== '' && state.searchOpen) {
+      state.searchOpen = false;
+      state.query = '';
+    }
+    syncSearchToggle();
 
     if (path === '/' || path === '') {
       renderHome();

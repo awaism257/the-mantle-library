@@ -115,7 +115,7 @@
   }
 
   function buildTools() {
-    var nav = document.querySelector('.site-nav');
+    var nav = document.querySelector('.app-bar-actions') || document.querySelector('.site-nav');
     if (!nav) return;
 
     var tools = el('span', { class: 'header-tools' });

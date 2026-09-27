@@ -11,16 +11,18 @@
    ========================================================================== */
 
 /* ---------- Font-face slots ----------------------------------------------
-   The font files are NOT bundled yet — drop them into fonts/ later
-   (see fonts/README.txt). Until then, local() and the system serif
-   fallbacks keep the app fully readable. Font-family names are stable.
+   DigitalKhatt V2 ("DigitalKhatt New Madina") IS bundled as
+   fonts/DigitalKhattV2.ttf (SIL OFL 1.1 — see fonts/README.txt) and is the
+   primary Arabic face. Amiri Quran / Noto Naskh remain optional drop-in
+   fallbacks; until added, local() and the system serif keep those slots
+   readable. Font-family names are stable.
    ------------------------------------------------------------------------- */
 
 @font-face {
-  font-family: 'DigitalKhatt IndoPak';
-  src: local('DigitalKhatt IndoPak'),
-       local('DigitalKhatt-IndoPak'),
-       url('../fonts/digitalkhatt-indopak-v2.otf') format('opentype');
+  font-family: 'DigitalKhatt V2';
+  src: local('DigitalKhatt New Madina'),
+       local('DigitalKhattV2'),
+       url('../fonts/DigitalKhattV2.ttf') format('truetype');
   font-display: swap;
 }
 
@@ -76,7 +78,7 @@
   /* Typography */
   --serif-display: Georgia, 'Times New Roman', serif;
   --serif-body: Georgia, 'Times New Roman', 'Nimbus Roman', serif;
-  --arabic-stack: 'DigitalKhatt IndoPak', 'Amiri Quran', 'Noto Naskh', serif;
+  --arabic-stack: 'DigitalKhatt V2', 'Amiri Quran', 'Noto Naskh', serif;
 
   --radius: 14px;
   --max-width: 46rem;
@@ -186,10 +188,98 @@ a:hover { text-decoration: underline; }
   border: 0;
 }
 
-/* ---------- Header / nav ---------- */
+/* ---------- Header / app bar ----------
+   JustQuran-style app bar: brand block left, circular outline icon buttons
+   right, full-width red underline. Sticky so it behaves like a native app
+   header. privacy.html still uses the legacy .site-nav (rules kept below). */
 
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--bg);
+  border-bottom: 2px solid var(--red);
+}
+
+.app-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.55rem 1rem;
+}
+
+.app-bar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-width: 0;
+  color: inherit;
+}
+.app-bar-brand:hover { text-decoration: none; }
+
+.app-bar-logo {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.app-bar-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.app-bar-name {
+  font-family: var(--serif-display);
+  font-size: 1.05rem;
+  line-height: 1.25;
+  color: var(--fg);
+  white-space: nowrap;
+}
+
+.app-bar-sub {
+  font-size: 0.72rem;
+  color: var(--faint);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.app-bar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+/* Circular outline icon buttons (search / display / theme). */
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: 0;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  color: var(--dim);
+  cursor: pointer;
+  transition: color 160ms ease, border-color 160ms ease;
+}
+.icon-btn:hover,
+.icon-btn[aria-expanded="true"] {
+  color: var(--red-text);
+  border-color: var(--red);
+}
+.icon-btn svg { width: 1.1rem; height: 1.1rem; display: block; }
+
+/* privacy.html legacy nav (static page without the app bar) */
+.site-header:has(> .site-nav) {
   position: relative;
+  border-bottom: none;
   padding: 1rem 1.25rem 0;
 }
 
@@ -219,15 +309,19 @@ a:hover { text-decoration: underline; }
   align-items: center;
 }
 
+/* In the app bar the tool buttons are circular icon-only buttons,
+   matching .icon-btn; their text labels are visually hidden there. */
 .tool-button {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: 0;
   background: transparent;
   border: 1px solid var(--border);
-  border-radius: 999px;
+  border-radius: 50%;
   color: var(--dim);
-  padding: 0.3rem 0.7rem;
   font: inherit;
   font-size: 0.85rem;
   line-height: 1.4;
@@ -239,7 +333,19 @@ a:hover { text-decoration: underline; }
   color: var(--red-text);
   border-color: var(--red);
 }
-.tool-button svg { width: 1rem; height: 1rem; display: block; }
+.tool-button svg { width: 1.1rem; height: 1.1rem; display: block; flex-shrink: 0; }
+.tool-text { display: none; }
+
+/* privacy.html keeps the old pill layout with visible labels */
+.site-header:has(> .site-nav) .tool-button {
+  width: auto;
+  height: auto;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  gap: 0.35rem;
+}
+.site-header:has(> .site-nav) .tool-text { display: inline; }
+.site-header:has(> .site-nav) .tool-button svg { width: 1rem; height: 1rem; }
 
 .display-panel {
   position: absolute;
@@ -328,15 +434,7 @@ h1, h2, h3 {
 
 /* ---------- Search ---------- */
 
-.search-wrap { margin: 0 auto 1.75rem; max-width: 32rem; }
-
-.search-label {
-  display: block;
-  text-align: center;
-  color: var(--dim);
-  margin-bottom: 0.5rem;
-  font-size: 0.95rem;
-}
+.search-wrap { margin: 0 auto 1.5rem; max-width: 32rem; }
 
 .search-input {
   width: 100%;
@@ -354,70 +452,76 @@ h1, h2, h3 {
   box-shadow: 0 0 0 2px var(--selection);
 }
 
-/* ---------- Cards ---------- */
+/* ---------- Menu rows (app-style home) ----------
+   Full-width rows: circular icon left, bold title + dim subtitle,
+   gold chevron right — the pattern used by the sibling apps. */
 
-.card-grid {
+.menu-rows {
   list-style: none;
-  margin: 0;
+  margin: 0 0 1.75rem;
   padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;   /* main works sit side-by-side, even on phones */
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.menu-row-link {
+  display: flex;
+  align-items: center;
   gap: 0.85rem;
-}
-
-@media (min-width: 40rem) {
-  .card-grid { gap: 1.1rem; }
-}
-
-.card {
+  padding: 0.7rem 0.9rem;
   background: var(--card);
-  border: 1px solid var(--red);      /* main sections carry the red frame */
+  border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1.1rem 0.9rem;
-  text-align: center;
+  color: inherit;
   transition: border-color 160ms ease, box-shadow 160ms ease;
 }
-.card:hover {
+.menu-row-link:hover {
+  text-decoration: none;
   border-color: var(--red-strong);
-  box-shadow: 0 3px 14px var(--shadow);
+  box-shadow: 0 2px 10px var(--shadow);
 }
 
-.card a.card-link {
-  display: block;
-  color: inherit;
+.menu-row-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  border: 1px solid var(--red);
+  border-radius: 50%;
+  color: var(--gold);
 }
-.card a.card-link:hover { text-decoration: none; }
+.menu-row-icon svg { width: 1.15rem; height: 1.15rem; display: block; }
 
-.card-title-ar {
-  font-family: var(--arabic-stack);
-  font-size: calc(1.3rem * var(--fs-ar));
-  line-height: 1.9;
-  color: var(--vc-ar);
-  margin: 0 0 0.15rem;
+.menu-row-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
 }
 
-.card-title-en {
+.menu-row-title {
   font-family: var(--serif-display);
-  font-size: calc(1.05rem * var(--fs-en));
-  margin: 0 0 0.35rem;
-  color: var(--vc-en);
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: var(--fg);
 }
 
-.card-meta {
-  margin: 0;
+.menu-row-sub {
+  font-size: 0.82rem;
   color: var(--dim);
-  font-size: 0.85rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.badge {
-  display: inline-block;
-  margin-top: 0.7rem;
-  padding: 0.2rem 0.7rem;
-  font-size: 0.8rem;
-  letter-spacing: 0.04em;
-  color: var(--badge-fg);
-  background: var(--red);
-  border-radius: 999px;
+.menu-row-chevron {
+  margin-left: auto;
+  flex-shrink: 0;
+  color: var(--gold);
+  font-size: 1.35rem;
+  line-height: 1;
 }
 
 /* ---------- Reader view ---------- */

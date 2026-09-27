@@ -1,22 +1,32 @@
-The Mantle Library — font drop-in folder
-=========================================
+The Mantle Library — fonts
+==========================
 
-The stylesheet (css/styles.css) already contains @font-face declarations
-pointing at this folder. The app looks fine with system serif fallbacks
-until the files below are added; once they are dropped in, they take
-effect automatically (no other change needed).
+Bundled (primary Arabic face)
+-----------------------------
 
-Drop in EXACTLY these files (names must match):
+  DigitalKhattV2.ttf   -> CSS family 'DigitalKhatt V2'
 
-  digitalkhatt-indopak-v2.otf   Arabic primary    -> 'DigitalKhatt IndoPak'
-  AmiriQuran.ttf                Arabic fallback   -> 'Amiri Quran'
-  NotoNaskh.ttf                 Arabic fallback   -> 'Noto Naskh'
+  "DigitalKhatt New Madina" (Digital Khatt V2), the font used for the
+  Madina Mushaf (1441 AH). Copyright (c) 2020-2024 Amine Anane,
+  Copyright (c) 2024 Tarteel Inc. Licensed under the SIL Open Font
+  License, Version 1.1 (https://scripts.sil.org/OFL) — the licence text
+  is declared inside the font's own metadata. Source:
+  github.com/DigitalKhatt (official project repositories).
+
+Optional drop-in fallbacks (not bundled — system serif is used instead)
+-----------------------------------------------------------------------
+
+Drop these into this folder with EXACTLY these names; the @font-face
+slots in css/styles.css pick them up automatically:
+
+  AmiriQuran.ttf   Arabic fallback   -> 'Amiri Quran'
+  NotoNaskh.ttf    Arabic fallback   -> 'Noto Naskh'
 
 Notes
+-----
 - Only use fonts with licences that permit web redistribution
-  (e.g. OFL). Keep licence files alongside if the licence requires it.
+  (e.g. OFL). Keep licence info alongside, as done above.
 - The font-family names used in CSS are stable and must NOT be renamed:
-  'DigitalKhatt IndoPak', 'Amiri Quran', 'Noto Naskh'.
-- After adding font files, bump CACHE_VERSION in sw.js and (optionally)
-  add the font files to the sw.js precache list so they work offline
-  on first install.
+  'DigitalKhatt V2', 'Amiri Quran', 'Noto Naskh'.
+- After adding or replacing font files, bump CACHE_VERSION in sw.js so
+  returning visitors pick up the new files.

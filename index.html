@@ -15,12 +15,25 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <nav class="site-nav" aria-label="Primary">
-      <a href="#/" class="nav-link" data-nav="home">Library</a>
-      <a href="#/about" class="nav-link" data-nav="about">About</a>
-      <a href="privacy.html" class="nav-link">Privacy</a>
-    </nav>
+  <header class="site-header app-bar">
+    <a href="#/" class="app-bar-brand">
+      <img src="icons/icon-192.png" class="app-bar-logo" alt="" width="40" height="40">
+      <span class="app-bar-text">
+        <span class="app-bar-name">The Mantle Library</span>
+        <span class="app-bar-sub">Qasidas · historic recordings</span>
+      </span>
+    </a>
+    <div class="app-bar-actions">
+      <button type="button" class="icon-btn" id="search-toggle"
+              aria-expanded="false" aria-controls="search-wrap"
+              aria-label="Search the library" title="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+             stroke-linecap="round" aria-hidden="true" focusable="false">
+          <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>
+        </svg>
+      </button>
+      <!-- settings.js injects Display + theme buttons here -->
+    </div>
   </header>
 
   <main id="main" tabindex="-1">
