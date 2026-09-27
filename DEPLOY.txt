@@ -1,0 +1,32 @@
+THE MANTLE LIBRARY — DEPLOYMENT (repo-linked Netlify, no build step)
+====================================================================
+
+The site deploys automatically: Netlify is linked to the GitHub repo
+(github.com/awaism257/the-mantle-library), so every commit to the main
+branch publishes itself. There is nothing to build.
+
+1. UPDATE THE SITE
+   Upload the changed files to the repo (web UI or git). Keep the folder
+   structure exactly as in this folder: index.html, sw.js, css/, js/,
+   content/, audio/, icons/, privacy.html at the repo root.
+   Within a minute or two of your commit, Netlify publishes the new version.
+
+2. AFTER ANY CHANGE — THE CACHE VERSION MUST GO UP
+   The service worker (sw.js) caches files aggressively for offline use.
+   sw.js must carry a NEW cache version in every release, or returning
+   visitors keep seeing old files from their offline cache:
+      - Open sw.js
+      - Change  const CACHE_VERSION = 'mantle-v7';
+        to a new value, e.g. 'mantle-v8'.
+   When uploading a batch of changed files to GitHub through the web UI,
+   upload sw.js LAST (as its own commit) so the new cache version lands
+   after all the files it covers.
+
+3. PRIVACY POLICY IS INCLUDED
+   privacy.html lives in the repo, so it stays live at /privacy.html
+   automatically. Point app-store listings at that URL.
+
+OPTIONAL LOCAL CHECK BEFORE COMMITTING
+   python3 tools/validate_content.py
+   (verifies works.json parses, required fields exist, and every
+   referenced audio file is present on disk.)

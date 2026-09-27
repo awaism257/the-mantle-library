@@ -1,0 +1,36 @@
+{
+  "name": "The Mantle Library",
+  "short_name": "Mantle",
+  "description": "A free, ad-free, offline-first library of classical Islamic devotional qasidas with historic public-domain audio.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#101613",
+  "theme_color": "#101613",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

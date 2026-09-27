@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Mantle Library</title>
+  <meta name="description" content="A free, ad-free, offline-first library of classical Islamic devotional qasidas with historic public-domain audio.">
+  <meta name="theme-color" content="#101613">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="icon" href="icons/favicon-64.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#/" class="nav-link" data-nav="home">Library</a>
+      <a href="#/about" class="nav-link" data-nav="about">About</a>
+      <a href="privacy.html" class="nav-link">Privacy</a>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div id="app" class="view" aria-live="polite">
+      <noscript>
+        <p class="notice">The Mantle Library requires JavaScript to render its views.
+        All content is bundled locally and works fully offline once loaded.</p>
+      </noscript>
+      <p class="loading" id="initial-loading">Loading the library&hellip;</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>The Mantle Library &mdash; free, ad-free, offline-first. No tracking, no accounts.</p>
+    <p class="footer-credit">Historic recordings courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.</p>
+    <p class="footer-netlify"><a href="https://www.netlify.com" rel="noopener">This site is powered by Netlify</a></p>
+  </footer>
+
+  <script src="js/settings.js"></script>
+  <script src="js/normalize.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
