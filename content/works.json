@@ -367,7 +367,8 @@
           ]
         }
       ],
-      "audio": []
+      "audio": [],
+      "source_en": "Classical public-domain text of Imam al-Jazūlī (d. 1465), as circulated in standard editions. The English translation is an original rendering made for this project (in progress)."
     },
     {
       "id": "banat-suad",
@@ -745,7 +746,115 @@
           "note": "After reciting the ode, Kaʿb was told the Prophet ﷺ wished he had praised the Anṣār too — so he added these verses in their honour."
         }
       ],
-      "audio": []
+      "audio": [],
+      "source_en": "Arabic text follows the recension transmitted in Ibn Hishām's Sīra. The English translation is an original rendering made for this project."
+    },
+    {
+      "id": "tala-al-badru",
+      "title_ar": "طَلَعَ الْبَدْرُ عَلَيْنَا",
+      "title_en": "Ṭalaʿa al-Badru ʿAlaynā (The Full Moon Has Risen)",
+      "author": "The people of Madinah",
+      "author_dates": "622 CE",
+      "description_en": "The welcome sung by the people of Madinah — tradition holds, by its young girls — as the Prophet ﷺ entered the city at the end of the Hijrah, coming over the mountain passes known as the Thaniyyāt al-Wadāʿ, the Passes of Farewell. Perhaps the oldest and most beloved devotional song in Islam.",
+      "source_en": "Traditional text sung at the Prophet’s ﷺ arrival in Madinah, as transmitted in the sīra literature. The English rendering is original to this project.",
+      "audio": [],
+      "sections": [
+        {
+          "heading": "The Welcome Song",
+          "note": "Sung at Qubā, on the outskirts of Madinah, in September 622.",
+          "units": [
+            {
+              "ar": "طَلَعَ الْبَدْرُ عَلَيْنَا — مِنْ ثَنِيَّاتِ الْوَدَاعِ",
+              "en": "The full moon has risen upon us — from the Passes of Farewell;",
+              "n": 1
+            },
+            {
+              "ar": "وَجَبَ الشُّكْرُ عَلَيْنَا — مَا دَعَا لِلَّهِ دَاعِ",
+              "en": "and thanks is owed from us — as long as a caller calls to Allah.",
+              "n": 2
+            },
+            {
+              "ar": "أَيُّهَا الْمَبْعُوثُ فِينَا — جِئْتَ بِالْأَمْرِ الْمُطَاعِ",
+              "en": "O you who were sent among us — you came with a command to be obeyed;",
+              "n": 3
+            },
+            {
+              "ar": "جِئْتَ شَرَّفْتَ الْمَدِينَةَ — مَرْحَبًا يَا خَيْرَ دَاعٍ",
+              "en": "you came and honoured Madinah — welcome, O best of callers.",
+              "n": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hassan-poems",
+      "title_ar": "مِنْ مَدَائِحِ حَسَّانَ بْنِ ثَابِتٍ",
+      "title_en": "Poems of Ḥassān ibn Thābit",
+      "author": "Ḥassān ibn Thābit",
+      "author_dates": "d. c. 674",
+      "description_en": "Ḥassān ibn Thābit of Madinah was the Prophet’s ﷺ own poet, given a minbar in the mosque from which to answer those who lampooned him — “Jibrīl is with you as long as you defend the Messenger of Allah.” These short pieces are among the most famous madih verses in the language.",
+      "source_en": "Arabic texts as transmitted in Ḥassān’s dīwān and, for the minbar poem, in Ṣaḥīḥ Muslim. The English renderings are original to this project.",
+      "audio": [],
+      "sections": [
+        {
+          "heading": "The Celebrated Quatrain",
+          "note": "The most famous lines of prophetic praise in Arabic — Ḥassān’s eyewitness description of the Prophet ﷺ.",
+          "units": [
+            {
+              "ar": "وَأَحْسَنُ مِنْكَ لَمْ تَرَ قَطُّ عَيْنِي",
+              "en": "My eye has never seen anyone more excellent than you,",
+              "n": 1
+            },
+            {
+              "ar": "وَأَجْمَلُ مِنْكَ لَمْ تَلِدِ النِّسَاءُ",
+              "en": "and no woman has ever borne one more beautiful than you;",
+              "n": 2
+            },
+            {
+              "ar": "خُلِقْتَ مُبَرَّأً مِنْ كُلِّ عَيْبٍ",
+              "en": "you were created free of every fault,",
+              "n": 3
+            },
+            {
+              "ar": "كَأَنَّكَ قَدْ خُلِقْتَ كَمَا تَشَاءُ",
+              "en": "as though you were created just as you wished.",
+              "n": 4
+            }
+          ]
+        },
+        {
+          "heading": "The Defence from the Minbar",
+          "note": "From Ṣaḥīḥ Muslim: Ḥassān’s answer, from the minbar set up for him in the mosque, to the poets of Quraysh who lampooned the Prophet ﷺ.",
+          "units": [
+            {
+              "ar": "هَجَوْتَ مُحَمَّدًا فَأَجَبْتُ عَنْهُ — وَعِنْدَ اللَّهِ فِي ذَاكَ الْجَزَاءُ",
+              "en": "You lampooned Muḥammad — and I answered for him; with Allah lies the reward for that.",
+              "n": 1
+            },
+            {
+              "ar": "هَجَوْتَ مُحَمَّدًا بَرًّا حَنِيفًا — رَسُولَ اللَّهِ شِيمَتُهُ الْوَفَاءُ",
+              "en": "You lampooned Muḥammad: a righteous, upright man, the Messenger of Allah, whose nature is loyalty.",
+              "n": 2
+            },
+            {
+              "ar": "فَإِنَّ أَبِي وَوَالِدَهُ وَعِرْضِي — لِعِرْضِ مُحَمَّدٍ مِنْكُمْ وِقَاءُ",
+              "en": "So my father, my mother, and my honour are a shield for Muḥammad’s honour against you.",
+              "n": 3
+            },
+            {
+              "ar": "فَمَنْ يَهْجُو رَسُولَ اللَّهِ مِنْكُمْ — وَيَمْدَحُهُ وَيَنْصُرُهُ سَوَاءُ",
+              "en": "Whoever of you lampoons the Messenger of Allah — or praises him or aids him — it is all the same:",
+              "n": 4
+            },
+            {
+              "ar": "وَجِبْرِيلُ رَسُولُ اللَّهِ فِينَا — وَرُوحُ الْقُدُسِ لَيْسَ لَهُ كِفَاءُ",
+              "en": "Jibrīl, Allah’s messenger, is among us, and the Holy Spirit has no equal.",
+              "n": 5
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "historic-recordings",
@@ -764,7 +873,8 @@
           "label": "Favorite 1-55584",
           "art": "audio/art/art_Tawshih_Fatana_Shrub_al-Hana_Ahmad_al-Ajami_1905.jpg",
           "credit": "Historic recording courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.",
-          "description": "A tawshīḥ — a devotional poem in praise of the Prophet ﷺ sung to a measured melody — recorded in Cairo in 1905 for the Favorite label, in the very first years of commercial Arabic recording."
+          "description": "A tawshīḥ — a devotional poem in praise of the Prophet ﷺ sung to a measured melody — recorded in Cairo in 1905 for the Favorite label, in the very first years of commercial Arabic recording.",
+          "genre": "tawshih"
         },
         {
           "file": "audio/Tawshih_Ya_Ghazalan_Ahmad_al-Ajami_1905.mp3",
@@ -774,7 +884,8 @@
           "label": "Favorite 1-55585",
           "art": "audio/art/art_Tawshih_Ya_Ghazalan_Ahmad_al-Ajami_1905.jpg",
           "credit": "Historic recording courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.",
-          "description": "A second tawshīḥ in praise of the Prophet ﷺ by Aḥmad al-Ajamī, from the same 1905 Cairo sessions for the Favorite label."
+          "description": "A second tawshīḥ in praise of the Prophet ﷺ by Aḥmad al-Ajamī, from the same 1905 Cairo sessions for the Favorite label.",
+          "genre": "tawshih"
         },
         {
           "file": "audio/Qasida_Ala_Fi_Sabil_Allah_Pt1_Said_al-Safti_1905.mp3",
@@ -784,7 +895,8 @@
           "label": "Favorite 2-55515",
           "art": "audio/art/art_Qasida_Ala_Fi_Sabil_Allah_Pt1_Said_al-Safti_1905.jpg",
           "credit": "Historic recording courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.",
-          "description": "The first side of a qaṣīda by the celebrated Egyptian reciter Saʿīd al-Saftī, recorded in Cairo in 1905. The poem runs across both sides of the disc — part 2 completes it."
+          "description": "The first side of a qaṣīda by the celebrated Egyptian reciter Saʿīd al-Saftī, recorded in Cairo in 1905. The poem runs across both sides of the disc — part 2 completes it.",
+          "genre": "qasida"
         },
         {
           "file": "audio/Qasida_Ala_Fi_Sabil_Allah_Pt2_Said_al-Safti_1905.mp3",
@@ -794,7 +906,8 @@
           "label": "Favorite 2-55519",
           "art": "audio/art/art_Qasida_Ala_Fi_Sabil_Allah_Pt2_Said_al-Safti_1905.jpg",
           "credit": "Historic recording courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.",
-          "description": "The second side of Saʿīd al-Saftī's qaṣīda — together with part 1 it makes up the complete recording, cut in Cairo in 1905."
+          "description": "The second side of Saʿīd al-Saftī's qaṣīda — together with part 1 it makes up the complete recording, cut in Cairo in 1905.",
+          "genre": "qasida"
         },
         {
           "file": "audio/Qasidat_Allahu_Akbar_Ahmad_al-Mir_1907-1911.mp3",
@@ -804,7 +917,8 @@
           "label": "Baida 200a",
           "art": "audio/art/art_Qasidat_Allahu_Akbar_Ahmad_al-Mir_1907-1911.jpg",
           "credit": "Historic recording courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.",
-          "description": "A qaṣīda opening with the takbīr, recorded around 1907–1911 for Baidaphon — the Beirut-based label whose discs circulated across the eastern Mediterranean."
+          "description": "A qaṣīda opening with the takbīr, recorded around 1907–1911 for Baidaphon — the Beirut-based label whose discs circulated across the eastern Mediterranean.",
+          "genre": "qasida"
         },
         {
           "file": "audio/Hayyamatni_Tayyamatni_Ahmad_al-Mir_1907-1911.mp3",
@@ -814,7 +928,8 @@
           "label": "Baida 245",
           "art": "audio/art/art_Hayyamatni_Tayyamatni_Ahmad_al-Mir_1907-1911.jpg",
           "credit": "Historic recording courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.",
-          "description": "A further devotional disc by Aḥmad al-Mīr from the same Baidaphon period, around 1907–1911."
+          "description": "A further devotional disc by Aḥmad al-Mīr from the same Baidaphon period, around 1907–1911.",
+          "genre": "tawshih"
         },
         {
           "file": "audio/Surat_Yusuf_Pt1_Wadudah_al-Minyalawi_1915.mp3",
@@ -824,7 +939,8 @@
           "label": "Victor 73429-A",
           "art": "audio/art/art_Surat_Yusuf_Pt1_Wadudah_al-Minyalawi_1915.jpg",
           "credit": "Historic recording courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.",
-          "description": "Recitation from Sūrat Yūsuf by Wadūdah al-Minyalāwī, recorded for Victor in Cairo in 1915 — a rare surviving example of a commercially released Quranic disc by a female reciter in the 78rpm era. Part 2 carries the second side."
+          "description": "Recitation from Sūrat Yūsuf by Wadūdah al-Minyalāwī, recorded for Victor in Cairo in 1915 — a rare surviving example of a commercially released Quranic disc by a female reciter in the 78rpm era. Part 2 carries the second side.",
+          "genre": "quran"
         },
         {
           "file": "audio/Surat_Yusuf_Pt2_Wadudah_al-Minyalawi_1915.mp3",
@@ -834,7 +950,8 @@
           "label": "Victor 73429-A",
           "art": "audio/art/art_Surat_Yusuf_Pt2_Wadudah_al-Minyalawi_1915.jpg",
           "credit": "Historic recording courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.",
-          "description": "The second side of Wadūdah al-Minyalāwī's 1915 Victor recording of Sūrat Yūsuf."
+          "description": "The second side of Wadūdah al-Minyalāwī's 1915 Victor recording of Sūrat Yūsuf.",
+          "genre": "quran"
         },
         {
           "file": "audio/Quran_Suras_1_112_114_110_Benhamouda_1921_Sorbonne.mp3",
@@ -844,7 +961,8 @@
           "label": "Archives de la Parole (Pathé) 296",
           "art": "audio/art/art_Quran_Suras_1_112_114_110_Benhamouda_1921_Sorbonne.jpg",
           "credit": "Historic recording courtesy of the Bibliothèque nationale de France (Gallica) — Archives de la Parole, Université de Paris. Public domain.",
-          "description": "Short chapters of the Qur'an recited in Paris in 1921 for the Archives de la Parole — the Sorbonne's sound archive, which documented the languages and recitation traditions of the time."
+          "description": "Short chapters of the Qur'an recited in Paris in 1921 for the Archives de la Parole — the Sorbonne's sound archive, which documented the languages and recitation traditions of the time.",
+          "genre": "quran"
         },
         {
           "file": "audio/Poeme_Farazdaq_Benhamouda_1921_Sorbonne.mp3",
@@ -855,7 +973,8 @@
           "art": "audio/art/art_Poeme_Farazdaq_Benhamouda_1921_Sorbonne.jpg",
           "credit": "Historic recording courtesy of the Bibliothèque nationale de France (Gallica) — Archives de la Parole, Université de Paris. Public domain.",
           "note": "Classical Arabic poetry — content under editorial review",
-          "description": "A classical ode by the Umayyad-era poet al-Farazdaq, recited in the basīṭ metre and recorded in Paris in 1921 as a specimen of classical Arabic recitation for the Archives de la Parole."
+          "description": "A classical ode by the Umayyad-era poet al-Farazdaq, recited in the basīṭ metre and recorded in Paris in 1921 as a specimen of classical Arabic recitation for the Archives de la Parole.",
+          "genre": "qasida"
         },
         {
           "file": "audio/Biaini_Alexis_Ben_Kori_1914_Sorbonne.mp3",
@@ -866,7 +985,8 @@
           "art": "audio/art/art_Biaini_Alexis_Ben_Kori_1914_Sorbonne.jpg",
           "credit": "Historic recording courtesy of the Bibliothèque nationale de France (Gallica) — Archives de la Parole, Université de Paris. Public domain.",
           "note": "Content under editorial review",
-          "description": "A recording from the Archives de la Parole's North African sessions in Paris, 1914."
+          "description": "A recording from the Archives de la Parole's North African sessions in Paris, 1914.",
+          "genre": "qasida"
         },
         {
           "file": "audio/Surat_Al-Fatiha_Alexis_Ben_Kori_1914_Sorbonne.mp3",
@@ -876,7 +996,8 @@
           "label": "Archives de la Parole I.189",
           "art": "audio/art/art_Surat_Al-Fatiha_Alexis_Ben_Kori_1914_Sorbonne.jpg",
           "credit": "Historic recording courtesy of the Bibliothèque nationale de France (Gallica) — Archives de la Parole, Université de Paris. Public domain.",
-          "description": "Sūrat al-Fātiḥa, the opening chapter of the Qur'an, recited in Paris in 1914 for the Archives de la Parole."
+          "description": "Sūrat al-Fātiḥa, the opening chapter of the Qur'an, recited in Paris in 1914 for the Archives de la Parole.",
+          "genre": "quran"
         },
         {
           "file": "audio/Taravikh_Tatar_Trio_Kazan_1901_Berliner_24023.mp3",
@@ -887,7 +1008,8 @@
           "label": "E. Berliner's Gramophone 24023",
           "credit": "Public-domain recording (1901). Transfer courtesy of Excavated Shellac (Jonathan Ward).",
           "note": "Among the oldest Islamic devotional recordings known to survive — captured at Fred Gaisberg's Kazan sessions, June 1901.",
-          "description": "A tarawīḥ prayer chant recorded in Kazan in June 1901 during Fred Gaisberg's recording expedition for the Gramophone Company — among the oldest Islamic devotional recordings known to survive."
+          "description": "A tarawīḥ prayer chant recorded in Kazan in June 1901 during Fred Gaisberg's recording expedition for the Gramophone Company — among the oldest Islamic devotional recordings known to survive.",
+          "genre": "quran"
         }
       ]
     }

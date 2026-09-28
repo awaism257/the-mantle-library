@@ -11,12 +11,21 @@
    ========================================================================== */
 
 /* ---------- Font-face slots ----------------------------------------------
-   DigitalKhatt V2 ("DigitalKhatt New Madina") IS bundled as
-   fonts/DigitalKhattV2.ttf (SIL OFL 1.1 — see fonts/README.txt) and is the
-   primary Arabic face. Amiri Quran / Noto Naskh remain optional drop-in
-   fallbacks; until added, local() and the system serif keep those slots
-   readable. Font-family names are stable.
+   Both DigitalKhatt faces ARE bundled (SIL OFL 1.1 — see fonts/README.txt):
+   'DigitalKhatt IndoPak' (13-line IndoPak mushaf style) is the primary
+   Arabic face; 'DigitalKhatt V2' (New Madina) is the bundled fallback.
+   Amiri Quran / Noto Naskh remain optional drop-in fallbacks; until added,
+   local() and the system serif keep those slots readable. Family names
+   are stable.
    ------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: 'DigitalKhatt IndoPak';
+  src: local('DigitalKhatt IndoPak'),
+       local('DigitalKhatt-IndoPak'),
+       url('../fonts/DigitalKhattIndoPak.otf') format('opentype');
+  font-display: swap;
+}
 
 @font-face {
   font-family: 'DigitalKhatt V2';
@@ -78,7 +87,7 @@
   /* Typography */
   --serif-display: Georgia, 'Times New Roman', serif;
   --serif-body: Georgia, 'Times New Roman', 'Nimbus Roman', serif;
-  --arabic-stack: 'DigitalKhatt V2', 'Amiri Quran', 'Noto Naskh', serif;
+  --arabic-stack: 'DigitalKhatt IndoPak', 'DigitalKhatt V2', 'Amiri Quran', 'Noto Naskh', serif;
 
   --radius: 14px;
   --max-width: 46rem;
@@ -347,26 +356,49 @@ a:hover { text-decoration: underline; }
 .site-header:has(> .site-nav) .tool-text { display: inline; }
 .site-header:has(> .site-nav) .tool-button svg { width: 1rem; height: 1rem; }
 
-.display-panel {
-  position: absolute;
-  top: calc(100% + 0.4rem);
-  right: 1.25rem;
-  z-index: 60;
-  width: 17rem;
-  max-width: calc(100vw - 2.5rem);
+/* ---------- Settings page ---------- */
+
+.settings-card {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 0.9rem 1rem 0.7rem;
-  box-shadow: 0 10px 28px var(--shadow);
+  padding: 1.1rem 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
-.display-panel-title {
-  margin: 0 0 0.4rem;
-  font-size: 0.85rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+.settings-heading {
+  font-size: 1.1rem;
   color: var(--red-text);
+  margin: 0 0 0.75rem;
+}
+
+.theme-choices {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.theme-choice {
+  flex: 1;
+  padding: 0.55rem 0.9rem;
+  font: inherit;
+  color: var(--dim);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: color 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+.theme-choice:hover { border-color: var(--border-hover); }
+.theme-choice[aria-pressed="true"] {
+  color: var(--badge-fg);
+  background: var(--red);
+  border-color: var(--red);
+}
+
+.settings-note {
+  color: var(--faint);
+  font-size: 0.85rem;
+  text-align: center;
 }
 
 .fs-row {
@@ -524,6 +556,89 @@ h1, h2, h3 {
   line-height: 1;
 }
 
+.menu-rows-util { margin-bottom: 2rem; }
+
+/* ---------- Work tiles (main sections, medallion style) ----------
+   Square tiles matching the album grid below, but with icon medallions
+   instead of disc photos, ringed in red so the works stand out. */
+
+.work-tile-grid {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.1rem 0.9rem;
+}
+
+@media (min-width: 34rem) {
+  .work-tile-grid { grid-template-columns: repeat(4, 1fr); }
+}
+
+.work-tile { min-width: 0; }
+
+.work-tile-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: inherit;
+  height: 100%;
+}
+.work-tile-link:hover { text-decoration: none; }
+
+.work-tile-medallion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--card);
+  border: 2px solid var(--red);
+  border-radius: var(--radius);
+  color: var(--gold);
+  box-shadow: 0 2px 10px var(--shadow);
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+.work-tile-medallion svg { width: 34%; height: 34%; }
+.work-tile-link:hover .work-tile-medallion,
+.work-tile-link:focus-visible .work-tile-medallion {
+  border-color: var(--red-strong);
+  box-shadow: 0 3px 14px var(--shadow);
+}
+
+.work-tile-title {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.work-tile-sub {
+  display: block;
+  font-family: var(--arabic-stack);
+  font-size: calc(1.05rem * var(--fs-ar));
+  line-height: 1.8;
+  color: var(--dim);
+  margin-top: 0.1rem;
+}
+
+/* ---------- Genre groups within Historic Recordings ---------- */
+
+.genre-group { margin-top: 1.35rem; }
+.genre-group:first-of-type { margin-top: 0.9rem; }
+
+.genre-heading {
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--red-text);
+  margin: 0 0 0.7rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.35rem;
+}
+
 /* ---------- Reader view ---------- */
 
 .back-link {
@@ -545,12 +660,65 @@ h1, h2, h3 {
 .work-author { color: var(--dim); margin: 0.25rem 0; }
 .work-description { color: var(--dim); max-width: 36rem; margin: 0.75rem auto 0; }
 
-.section-card {
+.work-source {
+  color: var(--faint);
+  font-size: 0.85rem;
+  max-width: 36rem;
+  margin: 1rem auto 0;
+}
+.work-source strong { color: var(--dim); font-weight: bold; }
+
+/* ---------- Reader: verse-per-card (Munajaat-style) ---------- */
+
+.verse-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.verse-card {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1.35rem 1.5rem;
-  margin-bottom: 1.25rem;
+  padding: 1.1rem 1.25rem 1.2rem;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+.verse-card:hover {
+  border-color: var(--border-hover);
+  box-shadow: 0 2px 10px var(--shadow);
+}
+
+.verse-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+
+.verse-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2rem;
+  height: 2rem;
+  padding: 0 0.3rem;
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: var(--badge-fg);
+  background: var(--red);
+  border-radius: 50%;
+  font-variant-numeric: tabular-nums;
+}
+
+.verse-copy {
+  width: 2rem;
+  height: 2rem;
+}
+.verse-copy svg { width: 0.95rem; height: 0.95rem; }
+.verse-copy.is-copied {
+  color: var(--gold);
+  border-color: var(--gold);
 }
 
 .arabic-text {

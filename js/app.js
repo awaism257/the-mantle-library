@@ -126,36 +126,39 @@
   var ROW_ICONS = {
     'dalail-al-khayrat': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>',
     'banat-suad': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><path d="M16 8L2 22"/><path d="M17.5 15H9"/></svg>',
-    'about': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>'
+    'tala-al-badru': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="11" r="7.5"/><path d="M9.5 8.5h.01"/><path d="M14.5 10h.01"/><path d="M10 13.5h.01"/><path d="M4 21h16"/></svg>',
+    'hassan-poems': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 13h6"/><path d="M9 17h6"/></svg>',
+    'about': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>',
+    'settings': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h.01a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.01a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>'
   };
 
   function rowIcon(id) {
     return ROW_ICONS[id] || ROW_ICONS['dalail-al-khayrat'];
   }
 
-  function buildMenuRow(work) {
-    return el('li', { class: 'menu-row' }, [
+  /* Works are presented as square medallion tiles — the same grid language
+     as the album tiles below them, but icon medallions ringed in red so the
+     main sections still stand out. */
+  function buildWorkTile(work) {
+    return el('li', { class: 'work-tile' }, [
       el('a', {
-        class: 'menu-row-link',
+        class: 'work-tile-link',
         href: '#/work/' + encodeURIComponent(work.id)
       }, [
-        el('span', { class: 'menu-row-icon', html: rowIcon(work.id) }),
-        el('span', { class: 'menu-row-text' }, [
-          el('span', { class: 'menu-row-title', text: work.title_en }),
-          el('span', { class: 'menu-row-sub', text: work.title_ar + ' · ' + work.author })
-        ]),
-        el('span', { class: 'menu-row-chevron', 'aria-hidden': 'true', text: '›' })
+        el('span', { class: 'work-tile-medallion', html: rowIcon(work.id) }),
+        el('span', { class: 'work-tile-title', text: work.title_en }),
+        el('span', { class: 'work-tile-sub', lang: 'ar', dir: 'rtl', text: work.title_ar })
       ])
     ]);
   }
 
-  function buildAboutRow() {
+  function buildUtilRow(id, href, title, sub) {
     return el('li', { class: 'menu-row' }, [
-      el('a', { class: 'menu-row-link', href: '#/about' }, [
-        el('span', { class: 'menu-row-icon', html: rowIcon('about') }),
+      el('a', { class: 'menu-row-link', href: href }, [
+        el('span', { class: 'menu-row-icon', html: rowIcon(id) }),
         el('span', { class: 'menu-row-text' }, [
-          el('span', { class: 'menu-row-title', text: 'About' }),
-          el('span', { class: 'menu-row-sub', text: 'Free · ad-free · offline-first · privacy policy' })
+          el('span', { class: 'menu-row-title', text: title }),
+          el('span', { class: 'menu-row-sub', text: sub })
         ]),
         el('span', { class: 'menu-row-chevron', 'aria-hidden': 'true', text: '›' })
       ])
@@ -341,20 +344,40 @@
     }));
     appEl.appendChild(searchWrap);
 
-    // Main sections as full-width app-style menu rows.
-    var rows = el('ul', { class: 'menu-rows', id: 'work-rows' });
-    appEl.appendChild(rows);
+    // Main works as square medallion tiles (matching the album grid).
+    var workGrid = el('ul', { class: 'work-tile-grid', id: 'work-tiles' });
+    appEl.appendChild(workGrid);
     var noResults = el('p', { class: 'no-results', text: 'No works match your search.', hidden: '' });
     appEl.appendChild(noResults);
 
-    // Media section: recordings from audio-only collections, as a tile grid
+    // Utility links (About, Settings) as app-style menu rows.
+    var utilRows = el('ul', { class: 'menu-rows menu-rows-util' });
+    utilRows.appendChild(buildUtilRow('about', '#/about', 'About', 'Free · ad-free · offline-first · privacy policy'));
+    utilRows.appendChild(buildUtilRow('settings', '#/settings', 'Settings', 'Text size · theme'));
+    appEl.appendChild(utilRows);
+
+    // Media section: recordings grouped by genre, as tile grids.
+    var GENRES = [
+      { key: 'quran',   label: "Qur'anic recitation & prayer chant" },
+      { key: 'qasida',  label: 'Qasidas & madih' },
+      { key: 'tawshih', label: 'Tawshīḥ & Sufi chant' }
+    ];
+
     var mediaSection = el('section', { class: 'audio-block home-media', 'aria-labelledby': 'home-media-heading' }, [
       el('h2', { id: 'home-media-heading', text: 'Historic Recordings' }),
       el('p', { class: 'media-sub',
         text: 'Public-domain 78rpm discs from 1901–1921 — tap a disc to read about it and play it.' })
     ]);
-    var mediaList = el('ul', { class: 'tile-grid' });
-    mediaSection.appendChild(mediaList);
+    var genreLists = {};
+    GENRES.forEach(function (genre) {
+      var list = el('ul', { class: 'tile-grid' });
+      var group = el('div', { class: 'genre-group', hidden: '' }, [
+        el('h3', { class: 'genre-heading', text: genre.label }),
+        list
+      ]);
+      genreLists[genre.key] = { group: group, list: list };
+      mediaSection.appendChild(group);
+    });
     appEl.appendChild(mediaSection);
     var mediaEmpty = el('p', { class: 'no-results', text: 'No recordings match your search.', hidden: '' });
     appEl.appendChild(mediaEmpty);
@@ -362,32 +385,38 @@
     function applyFilter() {
       if (!state.works) return;
       var q = normalize(state.query);
-      rows.textContent = '';
-      mediaList.textContent = '';
+      workGrid.textContent = '';
+      GENRES.forEach(function (genre) { genreLists[genre.key].list.textContent = ''; });
       var count = 0;
       var mediaCount = 0;
       state.works.forEach(function (work) {
         if (hasAudio(work)) {
-          // audio collections are listed as media tiles, not as menu rows
+          // audio collections are listed as media tiles, grouped by genre
           work.audio.forEach(function (rec) {
             var item = buildRecordingTile(rec);
             if (!q || item.dataset.haystack.indexOf(q) !== -1) {
-              mediaList.appendChild(item);
+              var bucket = genreLists[rec.genre] || genreLists.qasida;
+              bucket.list.appendChild(item);
               mediaCount++;
             }
           });
         } else if (!q || workMatches(work, q)) {
-          rows.appendChild(buildMenuRow(work));
+          workGrid.appendChild(buildWorkTile(work));
           count++;
         }
       });
-      // The About row is part of the main menu; it hides while searching.
-      if (!q) rows.appendChild(buildAboutRow());
+      // Utility rows hide while searching.
+      if (q) { utilRows.setAttribute('hidden', ''); } else { utilRows.removeAttribute('hidden'); }
       if (count === 0) {
         noResults.removeAttribute('hidden');
       } else {
         noResults.setAttribute('hidden', '');
       }
+      GENRES.forEach(function (genre) {
+        var bucket = genreLists[genre.key];
+        if (bucket.list.firstChild) { bucket.group.removeAttribute('hidden'); }
+        else { bucket.group.setAttribute('hidden', ''); }
+      });
       if (mediaCount === 0) {
         mediaSection.setAttribute('hidden', '');
         if (q) { mediaEmpty.removeAttribute('hidden'); } else { mediaEmpty.setAttribute('hidden', ''); }
@@ -465,24 +494,82 @@
 
   /* -------------------------------------------------- shared content builders */
 
-  // Render one section's units (Arabic + translation/pending line, verse numbers).
+  /* Render one section's units as individual verse cards — each card holds
+     its number medallion, a copy button, the Arabic, and the translation
+     (or a pending note), like the Munajaat Maqbool reader. */
+  function copyText(text, done) {
+    function legacy() {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'absolute';
+      ta.style.left = '-9999px';
+      document.body.appendChild(ta);
+      ta.select();
+      var ok = false;
+      try { ok = document.execCommand('copy'); } catch (e) { /* unsupported */ }
+      document.body.removeChild(ta);
+      done(ok);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () { done(true); }, legacy);
+    } else {
+      legacy();
+    }
+  }
+
+  var ICON_COPY = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
+  var ICON_CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"/></svg>';
+
   function buildUnitNodes(section) {
     var nodes = [];
     var units = Array.isArray(section.units) ? section.units : [];
-    units.forEach(function (unit) {
+    units.forEach(function (unit, idx) {
+      var num = unit.n != null ? unit.n : idx + 1;
+
+      var copyBtn = el('button', {
+        class: 'verse-copy icon-btn',
+        type: 'button',
+        'aria-label': 'Copy verse ' + num + ' (Arabic and English)',
+        title: 'Copy verse',
+        html: ICON_COPY
+      });
+      copyBtn.addEventListener('click', function () {
+        var text = unit.ar + (unit.en ? '\n\n' + unit.en : '');
+        copyText(text, function (ok) {
+          if (!ok) return;
+          copyBtn.classList.add('is-copied');
+          copyBtn.innerHTML = ICON_CHECK;
+          copyBtn.setAttribute('aria-label', 'Verse ' + num + ' copied');
+          setTimeout(function () {
+            copyBtn.classList.remove('is-copied');
+            copyBtn.innerHTML = ICON_COPY;
+            copyBtn.setAttribute('aria-label', 'Copy verse ' + num + ' (Arabic and English)');
+          }, 1400);
+        });
+      });
+
       var arChildren = [document.createTextNode(unit.ar)];
       if (unit.n != null) {
         arChildren.push(el('span', { class: 'verse-num', text: ' ' + toArabicNum(unit.n) }));
       }
-      nodes.push(el('p', { class: 'arabic-text', lang: 'ar', dir: 'rtl' }, arChildren));
+
+      var cardChildren = [
+        el('div', { class: 'verse-card-head' }, [
+          el('span', { class: 'verse-badge', text: String(num) }),
+          copyBtn
+        ]),
+        el('p', { class: 'arabic-text', lang: 'ar', dir: 'rtl' }, arChildren)
+      ];
       if (unit.en) {
-        nodes.push(el('p', { class: 'translation', text: unit.en }));
+        cardChildren.push(el('p', { class: 'translation', text: unit.en }));
       } else {
-        nodes.push(el('p', {
+        cardChildren.push(el('p', {
           class: 'translation-pending',
           text: 'English translation coming in a future update.'
         }));
       }
+      nodes.push(el('section', { class: 'verse-card' }, cardChildren));
     });
     return nodes;
   }
@@ -506,6 +593,12 @@
     ];
     if (work.description_en) {
       nodes.push(el('p', { class: 'work-description', text: work.description_en }));
+    }
+    if (work.source_en) {
+      nodes.push(el('p', { class: 'work-source' }, [
+        el('strong', { text: 'Text source: ' }),
+        document.createTextNode(work.source_en)
+      ]));
     }
     return nodes;
   }
@@ -599,7 +692,7 @@
       }
       appEl.appendChild(el('header', { class: 'work-header' }, headerChildren));
 
-      appEl.appendChild(el('section', { class: 'section-card' }, buildUnitNodes(section)));
+      appEl.appendChild(el('div', { class: 'verse-stack' }, buildUnitNodes(section)));
 
       // Previous / next navigation between sections.
       var workUrl = '#/work/' + encodeURIComponent(work.id) + '/section/';
@@ -652,9 +745,87 @@
         el('li', { text: 'Copyright-safe — texts are classical works in the public domain, and all audio consists of pre-1923 commercial 78rpm recordings in the public domain.' })
       ]),
       el('p', { text: 'The Arabic texts are classical public-domain works; every English translation here is an original rendering made for this project. The library grows carefully: every addition is checked for copyright status before inclusion.' }),
+      el('h2', { class: 'section-heading', text: 'Text sources' }),
+      el('ul', {}, [
+        el('li', { text: 'Dalā\'il al-Khayrāt — classical public-domain text of Imam al-Jazūlī (d. 1465), as circulated in standard editions. English translation: original, made for this project (in progress).' }),
+        el('li', { text: 'Banat Suʿād — the recension transmitted in Ibn Hishām\'s Sīra. English translation: original, made for this project.' }),
+        el('li', { text: 'Ṭalaʿa al-Badru ʿAlaynā — the traditional text as transmitted in the sīra literature. English rendering: original.' }),
+        el('li', { text: 'Poems of Ḥassān ibn Thābit — as transmitted in his dīwān and, for the minbar poem, in Ṣaḥīḥ Muslim. English renderings: original.' })
+      ]),
+      el('p', { text: 'Arabic is set in the DigitalKhatt IndoPak typeface (SIL Open Font License 1.1), with DigitalKhatt V2 as fallback.' }),
       el('p', { class: 'credit-line', text: 'Historic recordings courtesy of the Harvard Loeb Music Library (Arabic 78 Collection), the Bibliothèque nationale de France (Gallica), and Excavated Shellac.' }),
       el('p', {}, [el('a', { href: 'privacy.html', text: 'Read the privacy policy' })])
     ]));
+  }
+
+  /* ----------------------------------------------------------- settings view */
+
+  function renderSettings() {
+    setNavCurrent('settings');
+    document.title = 'Settings — The Mantle Library';
+    clearView();
+
+    var settings = window.MantleSettings;
+
+    appEl.appendChild(el('a', { class: 'back-link', href: '#/', text: '← Back to the library' }));
+    appEl.appendChild(el('h1', { class: 'page-title', text: 'Settings' }));
+
+    if (!settings) {
+      appEl.appendChild(el('p', { class: 'notice', text: 'Settings are unavailable in this browser.' }));
+      return;
+    }
+
+    // --- Text size sliders (persisted by settings.js) ---
+    var sizeCard = el('section', { class: 'settings-card', 'aria-labelledby': 'settings-size-heading' }, [
+      el('h2', { class: 'settings-heading', id: 'settings-size-heading', text: 'Text size' })
+    ]);
+
+    [{ key: 'ar', label: 'Arabic' }, { key: 'en', label: 'English' }].forEach(function (script) {
+      var value = el('span', { class: 'fs-value', text: settings.getScale(script.key) + '%' });
+      var slider = el('input', {
+        type: 'range',
+        min: String(settings.SCALE_MIN),
+        max: String(settings.SCALE_MAX),
+        step: '5',
+        value: String(settings.getScale(script.key)),
+        'aria-label': script.label + ' text size (percent)'
+      });
+      slider.addEventListener('input', function () {
+        var v = parseInt(slider.value, 10);
+        if (isNaN(v)) return;
+        settings.setScale(script.key, v);
+        value.textContent = v + '%';
+      });
+      sizeCard.appendChild(el('label', { class: 'fs-row' }, [
+        el('span', { text: script.label }),
+        slider,
+        value
+      ]));
+    });
+    appEl.appendChild(sizeCard);
+
+    // --- Theme switch ---
+    var darkBtn = el('button', { class: 'theme-choice', type: 'button', text: 'Dark' });
+    var lightBtn = el('button', { class: 'theme-choice', type: 'button', text: 'Light' });
+
+    function syncThemeButtons() {
+      var isLight = settings.getTheme() === 'light';
+      darkBtn.setAttribute('aria-pressed', String(!isLight));
+      lightBtn.setAttribute('aria-pressed', String(isLight));
+    }
+    darkBtn.addEventListener('click', function () { settings.setTheme('dark'); syncThemeButtons(); });
+    lightBtn.addEventListener('click', function () { settings.setTheme('light'); syncThemeButtons(); });
+    syncThemeButtons();
+
+    appEl.appendChild(el('section', { class: 'settings-card', 'aria-labelledby': 'settings-theme-heading' }, [
+      el('h2', { class: 'settings-heading', id: 'settings-theme-heading', text: 'Theme' }),
+      el('div', { class: 'theme-choices', role: 'group', 'aria-label': 'Theme' }, [darkBtn, lightBtn])
+    ]));
+
+    appEl.appendChild(el('p', {
+      class: 'settings-note',
+      text: 'Settings are stored on this device only.'
+    }));
   }
 
   /* ------------------------------------------------------------------ router */
@@ -686,6 +857,8 @@
       }
     } else if (path === '/about') {
       renderAbout();
+    } else if (path === '/settings') {
+      renderSettings();
     } else {
       renderHome();
     }

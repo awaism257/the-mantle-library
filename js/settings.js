@@ -1,12 +1,15 @@
-/* The Mantle Library — theme toggle & display (per-script font scaling).
-   Vanilla, no dependencies. Works on index.html and privacy.html:
-   it injects its controls into the shared .site-nav header.
+/* The Mantle Library — theme & display (per-script font scaling) settings.
+   Vanilla, no dependencies. Works on index.html and privacy.html.
 
    Theme: dark (default) / light, persisted in localStorage, honouring
    prefers-color-scheme on first visit. Light mode = html.light class.
 
    Font scaling: --fs-ar / --fs-en (70–160%, default 100%),
-   persisted in localStorage and applied to the root element. */
+   persisted in localStorage and applied to the root element.
+
+   The Settings PAGE (#/settings, rendered by app.js) drives everything
+   through the window.MantleSettings API below; the app bar carries only
+   a compact theme toggle button. */
 (function () {
   'use strict';
 
@@ -69,6 +72,12 @@
     }
   }
 
+  function setTheme(theme) {
+    if (theme !== 'light' && theme !== 'dark') return;
+    safeSet(LS_THEME, theme);
+    applyTheme(theme);
+  }
+
   // Apply immediately so the first paint already uses the right theme.
   applyTheme(currentTheme());
 
@@ -103,6 +112,23 @@
   // Apply immediately so content renders at the saved size on first paint.
   applyScale();
 
+  /* ------------------------------------------------ public API (Settings page) */
+
+  window.MantleSettings = {
+    SCALE_MIN: SCALE_MIN,
+    SCALE_MAX: SCALE_MAX,
+    getScale: function (script) { return scale[script] != null ? scale[script] : SCALE_DEFAULT; },
+    setScale: function (script, value) {
+      var v = parseInt(value, 10);
+      if (isNaN(v)) return;
+      scale[script] = Math.min(SCALE_MAX, Math.max(SCALE_MIN, v));
+      applyScale();
+      saveScale();
+    },
+    getTheme: function () { return root.classList.contains('light') ? 'light' : 'dark'; },
+    setTheme: setTheme
+  };
+
   /* ------------------------------------------------------------ header tools */
 
   function el(tag, attrs, html) {
@@ -120,19 +146,7 @@
 
     var tools = el('span', { class: 'header-tools' });
 
-    // Display (font scaling) toggle + panel
-    var displayButton = el('button', {
-      type: 'button',
-      class: 'tool-button',
-      id: 'display-toggle',
-      'aria-expanded': 'false',
-      'aria-controls': 'display-panel',
-      'aria-label': 'Display settings: text size for Arabic and English',
-      title: 'Display settings'
-    }, '<span aria-hidden="true" style="font-weight:bold;">Aa</span>' +
-       '<span class="tool-text" aria-hidden="true">Display</span>');
-
-    // Theme toggle
+    // Theme toggle (text size lives on the Settings page now)
     themeButton = el('button', { type: 'button', class: 'tool-button', id: 'theme-toggle' });
     themeButton.addEventListener('click', function () {
       var next = root.classList.contains('light') ? 'dark' : 'light';
@@ -140,74 +154,9 @@
       applyTheme(next);
     });
 
-    tools.appendChild(displayButton);
     tools.appendChild(themeButton);
     nav.appendChild(tools);
     applyTheme(currentTheme()); // refresh the button label/icon
-
-    // Display panel with the two sliders
-    var panel = el('div', {
-      class: 'display-panel',
-      id: 'display-panel',
-      role: 'group',
-      'aria-label': 'Text size settings',
-      hidden: ''
-    });
-    panel.appendChild(el('p', { class: 'display-panel-title' }, 'Text size'));
-
-    SCRIPTS.forEach(function (s) {
-      var row = el('label', { class: 'fs-row' });
-      row.appendChild(el('span', {}, s.label));
-      var slider = el('input', {
-        type: 'range',
-        min: String(SCALE_MIN),
-        max: String(SCALE_MAX),
-        step: '5',
-        value: String(scale[s.key]),
-        'data-script': s.key,
-        'aria-label': s.label + ' text size (percent)'
-      });
-      var value = el('span', { class: 'fs-value' }, scale[s.key] + '%');
-      slider.addEventListener('input', function () {
-        var v = parseInt(slider.value, 10);
-        if (isNaN(v)) return;
-        scale[s.key] = v;
-        value.textContent = v + '%';
-        applyScale();
-        saveScale();
-      });
-      row.appendChild(slider);
-      row.appendChild(value);
-      panel.appendChild(row);
-    });
-
-    var header = document.querySelector('.site-header') || nav.parentNode;
-    header.appendChild(panel);
-
-    function closePanel() {
-      panel.setAttribute('hidden', '');
-      displayButton.setAttribute('aria-expanded', 'false');
-    }
-    function openPanel() {
-      panel.removeAttribute('hidden');
-      displayButton.setAttribute('aria-expanded', 'true');
-    }
-
-    displayButton.addEventListener('click', function () {
-      if (panel.hasAttribute('hidden')) openPanel(); else closePanel();
-    });
-    document.addEventListener('keydown', function (event) {
-      if (event.key === 'Escape' && !panel.hasAttribute('hidden')) {
-        closePanel();
-        displayButton.focus();
-      }
-    });
-    document.addEventListener('click', function (event) {
-      if (panel.hasAttribute('hidden')) return;
-      if (!panel.contains(event.target) && !displayButton.contains(event.target)) {
-        closePanel();
-      }
-    });
   }
 
   if (document.readyState === 'loading') {
