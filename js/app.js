@@ -1,22 +1,16 @@
 /* The Mantle Library — single-page app: hash router, library view, work index
-   view, section reader view, about view, live bilingual (Arabic/English)
-   search, and an album-tile grid whose tiles open a recording detail sheet
-   with the player. All data is fetched from the bundled content/works.json
-   (works offline via sw.js). */
+   view, section reader view, settings view, and an album-tile grid whose
+   tiles open a recording detail sheet with the player. All data is fetched
+   from the bundled content/works.json (works offline via sw.js). */
 (function () {
   'use strict';
-
-  var normalize = (window.MantleNormalize && window.MantleNormalize.normalize) ||
-    function (s) { return String(s == null ? '' : s).toLowerCase(); };
 
   var appEl = document.getElementById('app');
   var mainEl = document.getElementById('main');
 
   var state = {
     works: null,        // array of work objects once loaded
-    loadError: null,    // error message string if fetch failed
-    query: '',          // current search query (persists across hash changes)
-    searchOpen: false   // whether the app-bar search field is showing
+    loadError: null     // error message string if fetch failed
   };
 
   /* ---------------------------------------------------------------- helpers */
@@ -112,14 +106,6 @@
 
   /* --------------------------------------------------------------- home view */
 
-  function workMatches(work, query) {
-    var haystack = [
-      work.title_ar, work.title_en,
-      work.author, work.description_en
-    ].map(normalize).join(' ');
-    return haystack.indexOf(query) !== -1;
-  }
-
   /* App-style menu rows: circular icon left, bold title + subtitle, chevron
      right — the same pattern the sibling apps (JustQuran, Munajaat Maqbool)
      use on their home screens. */
@@ -136,64 +122,23 @@
     return ROW_ICONS[id] || ROW_ICONS['dalail-al-khayrat'];
   }
 
-  /* Works are presented as square medallion tiles — the same grid language
-     as the album tiles below them, but icon medallions ringed in red so the
-     main sections still stand out. */
-  function buildWorkTile(work) {
-    return el('li', { class: 'work-tile' }, [
+  /* Works are presented as full-width menu rows — circular red-ringed icon
+     left, English title with the Arabic title beneath, gold chevron right —
+     the same list language as the About/Settings rows in the sibling apps. */
+  function buildWorkRow(work) {
+    return el('li', { class: 'menu-row' }, [
       el('a', {
-        class: 'work-tile-link',
+        class: 'menu-row-link',
         href: '#/work/' + encodeURIComponent(work.id)
       }, [
-        el('span', { class: 'work-tile-medallion', html: rowIcon(work.id) }),
-        el('span', { class: 'work-tile-title', text: work.title_en }),
-        el('span', { class: 'work-tile-sub', lang: 'ar', dir: 'rtl', text: work.title_ar })
-      ])
-    ]);
-  }
-
-  function buildUtilRow(id, href, title, sub) {
-    return el('li', { class: 'menu-row' }, [
-      el('a', { class: 'menu-row-link', href: href }, [
-        el('span', { class: 'menu-row-icon', html: rowIcon(id) }),
+        el('span', { class: 'menu-row-icon', html: rowIcon(work.id) }),
         el('span', { class: 'menu-row-text' }, [
-          el('span', { class: 'menu-row-title', text: title }),
-          el('span', { class: 'menu-row-sub', text: sub })
+          el('span', { class: 'menu-row-title', text: work.title_en }),
+          el('span', { class: 'menu-row-sub', lang: 'ar', dir: 'rtl', text: work.title_ar })
         ]),
         el('span', { class: 'menu-row-chevron', 'aria-hidden': 'true', text: '›' })
       ])
     ]);
-  }
-
-  /* -------------------------------------------------- app-bar search toggle */
-
-  var searchToggleBtn = document.getElementById('search-toggle');
-
-  function syncSearchToggle() {
-    if (searchToggleBtn) {
-      searchToggleBtn.setAttribute('aria-expanded', state.searchOpen ? 'true' : 'false');
-    }
-  }
-
-  if (searchToggleBtn) {
-    searchToggleBtn.addEventListener('click', function () {
-      state.searchOpen = !state.searchOpen;
-      if (!state.searchOpen) state.query = '';
-      syncSearchToggle();
-      var onHome = !window.location.hash || window.location.hash === '#/';
-      if (onHome) {
-        renderHome();
-        if (state.searchOpen) {
-          var input = document.getElementById('search-input');
-          if (input) input.focus();
-        } else {
-          searchToggleBtn.focus();
-        }
-      } else {
-        // route() -> renderHome() honours state.searchOpen on arrival.
-        window.location.hash = '#/';
-      }
-    });
   }
 
   /* --------------------------------------------- recording tiles & detail sheet */
@@ -216,12 +161,7 @@
     btn.addEventListener('click', function () {
       openRecordingOverlay(rec, btn);
     });
-    var item = el('li', { class: 'tile' }, [btn]);
-    // stash normalized haystack for home-page search
-    item.dataset.haystack = normalize(
-      [rec.title, rec.artist, rec.date, rec.label, rec.description].filter(Boolean).join(' ')
-    );
-    return item;
+    return el('li', { class: 'tile' }, [btn]);
   }
 
   var recOverlay = null;            // open recording sheet (null when closed)
@@ -323,38 +263,9 @@
     document.title = 'The Mantle Library';
     clearView();
 
-    // The search field stays hidden behind the app-bar search button.
-    var searchWrap = el('div', { class: 'search-wrap', id: 'search-wrap' });
-    if (!state.searchOpen) searchWrap.setAttribute('hidden', '');
-    var input = el('input', {
-      class: 'search-input',
-      id: 'search-input',
-      type: 'search',
-      placeholder: 'Search Arabic or English…',
-      autocomplete: 'off',
-      'aria-label': 'Search the library',
-      'aria-describedby': 'search-help'
-    });
-    input.value = state.query;
-    searchWrap.appendChild(input);
-    searchWrap.appendChild(el('p', {
-      class: 'visually-hidden',
-      id: 'search-help',
-      text: 'Results filter as you type. Arabic diacritics and spelling variants are ignored.'
-    }));
-    appEl.appendChild(searchWrap);
-
-    // Main works as square medallion tiles (matching the album grid).
-    var workGrid = el('ul', { class: 'work-tile-grid', id: 'work-tiles' });
-    appEl.appendChild(workGrid);
-    var noResults = el('p', { class: 'no-results', text: 'No works match your search.', hidden: '' });
-    appEl.appendChild(noResults);
-
-    // Utility links (About, Settings) as app-style menu rows.
-    var utilRows = el('ul', { class: 'menu-rows menu-rows-util' });
-    utilRows.appendChild(buildUtilRow('about', '#/about', 'About', 'Free · ad-free · offline-first · privacy policy'));
-    utilRows.appendChild(buildUtilRow('settings', '#/settings', 'Settings', 'Text size · theme'));
-    appEl.appendChild(utilRows);
+    // Main works as full-width menu rows.
+    var workRows = el('ul', { class: 'menu-rows', id: 'work-rows' });
+    appEl.appendChild(workRows);
 
     // Media section: recordings grouped by genre, as tile grids.
     var GENRES = [
@@ -379,64 +290,28 @@
       mediaSection.appendChild(group);
     });
     appEl.appendChild(mediaSection);
-    var mediaEmpty = el('p', { class: 'no-results', text: 'No recordings match your search.', hidden: '' });
-    appEl.appendChild(mediaEmpty);
 
-    function applyFilter() {
-      if (!state.works) return;
-      var q = normalize(state.query);
-      workGrid.textContent = '';
-      GENRES.forEach(function (genre) { genreLists[genre.key].list.textContent = ''; });
-      var count = 0;
-      var mediaCount = 0;
-      state.works.forEach(function (work) {
+    loadWorks().then(function (works) {
+      if (!works) return;
+      works.forEach(function (work) {
         if (hasAudio(work)) {
           // audio collections are listed as media tiles, grouped by genre
           work.audio.forEach(function (rec) {
-            var item = buildRecordingTile(rec);
-            if (!q || item.dataset.haystack.indexOf(q) !== -1) {
-              var bucket = genreLists[rec.genre] || genreLists.qasida;
-              bucket.list.appendChild(item);
-              mediaCount++;
-            }
+            var bucket = genreLists[rec.genre] || genreLists.qasida;
+            bucket.list.appendChild(buildRecordingTile(rec));
           });
-        } else if (!q || workMatches(work, q)) {
-          workGrid.appendChild(buildWorkTile(work));
-          count++;
+        } else {
+          workRows.appendChild(buildWorkRow(work));
         }
       });
-      // Utility rows hide while searching.
-      if (q) { utilRows.setAttribute('hidden', ''); } else { utilRows.removeAttribute('hidden'); }
-      if (count === 0) {
-        noResults.removeAttribute('hidden');
-      } else {
-        noResults.setAttribute('hidden', '');
-      }
       GENRES.forEach(function (genre) {
         var bucket = genreLists[genre.key];
         if (bucket.list.firstChild) { bucket.group.removeAttribute('hidden'); }
-        else { bucket.group.setAttribute('hidden', ''); }
       });
-      if (mediaCount === 0) {
+      if (!mediaSection.querySelector('.genre-group:not([hidden])')) {
         mediaSection.setAttribute('hidden', '');
-        if (q) { mediaEmpty.removeAttribute('hidden'); } else { mediaEmpty.setAttribute('hidden', ''); }
-      } else {
-        mediaSection.removeAttribute('hidden');
-        mediaEmpty.setAttribute('hidden', '');
       }
-    }
-
-    input.addEventListener('input', function () {
-      state.query = input.value;
-      applyFilter();
     });
-
-    loadWorks().then(function (works) {
-      if (works) applyFilter();
-    });
-
-    // Arriving via the app-bar search button lands here with the field open.
-    if (state.searchOpen) input.focus();
   }
 
   /* --------------------------------------------------- disc label overlay */
@@ -721,43 +596,6 @@
     });
   }
 
-  /* -------------------------------------------------------------- about view */
-
-  function renderAbout() {
-    setNavCurrent('about');
-    document.title = 'About — The Mantle Library';
-    clearView();
-
-    appEl.appendChild(el('img', {
-      class: 'app-logo',
-      src: 'icons/icon-192.png',
-      alt: 'The Mantle Library logo — a golden mantle in a red medallion',
-      width: '92',
-      height: '92'
-    }));
-    appEl.appendChild(el('h1', { class: 'page-title', text: 'About' }));
-    appEl.appendChild(el('div', { class: 'prose' }, [
-      el('p', { text: 'The Mantle Library is a free, ad-free, offline-first library of classical Islamic devotional poetry (qasidas and madih), paired with historic public-domain recordings from the earliest decades of the gramophone era.' }),
-      el('ul', {}, [
-        el('li', { text: 'Free — no cost, ever, and no paywalls.' }),
-        el('li', { text: 'Ad-free and tracking-free — no analytics, no accounts, no third-party requests of any kind.' }),
-        el('li', { text: 'Offline-first — once loaded, the entire app and its content work without a network connection.' }),
-        el('li', { text: 'Copyright-safe — texts are classical works in the public domain, and all audio consists of pre-1923 commercial 78rpm recordings in the public domain.' })
-      ]),
-      el('p', { text: 'The Arabic texts are classical public-domain works; every English translation here is an original rendering made for this project. The library grows carefully: every addition is checked for copyright status before inclusion.' }),
-      el('h2', { class: 'section-heading', text: 'Text sources' }),
-      el('ul', {}, [
-        el('li', { text: 'Dalā\'il al-Khayrāt — classical public-domain text of Imam al-Jazūlī (d. 1465), as circulated in standard editions. English: opening devotions, intention and Hizb 1 — original, made for this project; Hizbs 2–8 — historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain.' }),
-        el('li', { text: 'Banat Suʿād — the recension transmitted in Ibn Hishām\'s Sīra. English translation: original, made for this project.' }),
-        el('li', { text: 'Ṭalaʿa al-Badru ʿAlaynā — the traditional text as transmitted in the sīra literature. English rendering: original.' }),
-        el('li', { text: 'Poems of Ḥassān ibn Thābit — as transmitted in his dīwān and, for the minbar poem, in Ṣaḥīḥ Muslim. English renderings: original.' })
-      ]),
-      el('p', { text: 'Arabic is set in the DigitalKhatt IndoPak typeface (SIL Open Font License 1.1), with DigitalKhatt V2 as fallback.' }),
-      el('p', { class: 'credit-line', text: 'Historic recordings courtesy of the Harvard Loeb Music Library (Arabic 78 Collection), the Bibliothèque nationale de France (Gallica), and Excavated Shellac.' }),
-      el('p', {}, [el('a', { href: 'privacy.html', text: 'Read the privacy policy' })])
-    ]));
-  }
-
   /* ----------------------------------------------------------- settings view */
 
   function renderSettings() {
@@ -836,13 +674,6 @@
     var hash = window.location.hash || '#/';
     var path = hash.replace(/^#/, '');
 
-    // The search field only lives on the home view; leaving home closes it.
-    if (path !== '/' && path !== '' && state.searchOpen) {
-      state.searchOpen = false;
-      state.query = '';
-    }
-    syncSearchToggle();
-
     if (path === '/' || path === '') {
       renderHome();
     } else if (path.indexOf('/work/') === 0) {
@@ -855,8 +686,6 @@
       } else {
         renderWork(decodeURIComponent(rest));
       }
-    } else if (path === '/about') {
-      renderAbout();
     } else if (path === '/settings') {
       renderSettings();
     } else {

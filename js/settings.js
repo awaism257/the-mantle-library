@@ -1,5 +1,6 @@
 /* The Mantle Library — theme & display (per-script font scaling) settings.
-   Vanilla, no dependencies. Works on index.html and privacy.html.
+   Vanilla, no dependencies. Works on index.html, privacy.html and
+   support.html.
 
    Theme: dark (default) / light, persisted in localStorage, honouring
    prefers-color-scheme on first visit. Light mode = html.light class.
@@ -8,8 +9,8 @@
    persisted in localStorage and applied to the root element.
 
    The Settings PAGE (#/settings, rendered by app.js) drives everything
-   through the window.MantleSettings API below; the app bar carries only
-   a compact theme toggle button. */
+   through the window.MantleSettings API below — the app bar carries no
+   theme button; the saved theme simply applies on every page. */
 (function () {
   'use strict';
 
@@ -26,19 +27,6 @@
 
   var root = document.documentElement;
 
-  var ICON_SUN = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">' +
-    '<circle cx="12" cy="12" r="4.2" fill="currentColor"/>' +
-    '<g stroke="currentColor" stroke-width="1.8" stroke-linecap="round">' +
-    '<path d="M12 2.6v2.6"/><path d="M12 18.8v2.6"/>' +
-    '<path d="M2.6 12h2.6"/><path d="M18.8 12h2.6"/>' +
-    '<path d="M5.3 5.3l1.8 1.8"/><path d="M16.9 16.9l1.8 1.8"/>' +
-    '<path d="M18.7 5.3l-1.8 1.8"/><path d="M7.1 16.9l-1.8 1.8"/>' +
-    '</g></svg>';
-
-  var ICON_MOON = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">' +
-    '<path fill="currentColor" d="M20.2 13.4A8.3 8.3 0 0 1 10.6 3.8 8.4 8.4 0 1 0 20.2 13.4Z"/>' +
-    '</svg>';
-
   function safeGet(key) {
     try { return window.localStorage.getItem(key); } catch (e) { return null; }
   }
@@ -47,8 +35,6 @@
   }
 
   /* ------------------------------------------------------------------ theme */
-
-  var themeButton = null;
 
   function currentTheme() {
     var saved = safeGet(LS_THEME);
@@ -63,13 +49,6 @@
     root.classList.toggle('light', theme === 'light');
     var meta = document.querySelector('meta[name="theme-color"]');
     if (meta) meta.setAttribute('content', theme === 'light' ? '#f3ecd8' : '#101613');
-    if (themeButton) {
-      var toLight = theme !== 'light';
-      themeButton.setAttribute('aria-label', toLight ? 'Switch to light theme' : 'Switch to dark theme');
-      themeButton.setAttribute('title', toLight ? 'Switch to light theme' : 'Switch to dark theme');
-      themeButton.innerHTML = (toLight ? ICON_SUN : ICON_MOON) +
-        '<span class="tool-text" aria-hidden="true">' + (toLight ? 'Light' : 'Dark') + '</span>';
-    }
   }
 
   function setTheme(theme) {
@@ -128,40 +107,4 @@
     getTheme: function () { return root.classList.contains('light') ? 'light' : 'dark'; },
     setTheme: setTheme
   };
-
-  /* ------------------------------------------------------------ header tools */
-
-  function el(tag, attrs, html) {
-    var node = document.createElement(tag);
-    if (attrs) {
-      Object.keys(attrs).forEach(function (key) { node.setAttribute(key, attrs[key]); });
-    }
-    if (html != null) node.innerHTML = html;
-    return node;
-  }
-
-  function buildTools() {
-    var nav = document.querySelector('.app-bar-actions') || document.querySelector('.site-nav');
-    if (!nav) return;
-
-    var tools = el('span', { class: 'header-tools' });
-
-    // Theme toggle (text size lives on the Settings page now)
-    themeButton = el('button', { type: 'button', class: 'tool-button', id: 'theme-toggle' });
-    themeButton.addEventListener('click', function () {
-      var next = root.classList.contains('light') ? 'dark' : 'light';
-      safeSet(LS_THEME, next);
-      applyTheme(next);
-    });
-
-    tools.appendChild(themeButton);
-    nav.appendChild(tools);
-    applyTheme(currentTheme()); // refresh the button label/icon
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', buildTools);
-  } else {
-    buildTools();
-  }
 })();

@@ -24,15 +24,20 @@
       </span>
     </a>
     <div class="app-bar-actions">
-      <button type="button" class="icon-btn" id="search-toggle"
-              aria-expanded="false" aria-controls="search-wrap"
-              aria-label="Search the library" title="Search">
+      <a class="icon-btn" href="support.html"
+         aria-label="About and support" title="About &amp; support">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
              stroke-linecap="round" aria-hidden="true" focusable="false">
-          <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>
+          <circle cx="12" cy="12" r="9"/><path d="M12 16v-4.5"/><path d="M12 8h.01"/>
         </svg>
-      </button>
-      <!-- settings.js injects Display + theme buttons here -->
+      </a>
+      <a class="icon-btn" href="#/settings"
+         aria-label="Settings" title="Settings">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h.01a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.01a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+        </svg>
+      </a>
     </div>
   </header>
 
@@ -53,7 +58,6 @@
   </footer>
 
   <script src="js/settings.js"></script>
-  <script src="js/normalize.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
