@@ -128,16 +128,20 @@
      left, English title with the Arabic title beneath, gold chevron right —
      the same list language as the About/Settings rows in the sibling apps. */
   function buildWorkRow(work) {
+    /* Split the bracketed English gloss onto its own line under the title. */
+    var title = work.title_en, gloss = null;
+    var paren = title.indexOf(' (');
+    if (paren > 0) { gloss = title.slice(paren + 1); title = title.slice(0, paren); }
+    var textKids = [el('span', { class: 'menu-row-title', text: title })];
+    if (gloss) textKids.push(el('span', { class: 'menu-row-gloss', text: gloss }));
+    textKids.push(el('span', { class: 'menu-row-sub', lang: 'ar', dir: 'rtl', text: work.title_ar }));
     return el('li', { class: 'menu-row' }, [
       el('a', {
         class: 'menu-row-link',
         href: '#/work/' + encodeURIComponent(work.id)
       }, [
         el('span', { class: 'menu-row-icon', html: rowIcon(work.id) }),
-        el('span', { class: 'menu-row-text' }, [
-          el('span', { class: 'menu-row-title', text: work.title_en }),
-          el('span', { class: 'menu-row-sub', lang: 'ar', dir: 'rtl', text: work.title_ar })
-        ]),
+        el('span', { class: 'menu-row-text' }, textKids),
         el('span', { class: 'menu-row-chevron', 'aria-hidden': 'true', text: '›' })
       ])
     ]);
