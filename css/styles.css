@@ -2,7 +2,7 @@
    The Mantle Library — stylesheet (v2 design system)
 
    Family base tokens (shared with sibling apps) + Mantle identity:
-   oasis TEAL + antique GOLD on dark (default); illuminated manuscript
+   logo GREEN + antique GOLD on dark (default); illuminated manuscript
    GREEN + GOLD on paper for the light theme.
 
    Every colour flows through the CSS variables below — no hard-coded
@@ -55,26 +55,26 @@
 /* ---------- Design tokens: dark theme (default) ---------- */
 
 :root {
-  /* Family base (dark) — Oasis Dawn */
-  --bg: rgb(12, 25, 26);
+  /* Family base (dark) — Family Green (matches the app icon's deep green) */
+  --bg: rgb(16, 22, 19);
   --cream: rgb(240, 235, 220);
   --fg: var(--cream);
-  --card: rgb(34, 47, 49);
-  --border: rgb(58, 76, 78);            /* muted, derived from --card */
-  --border-hover: rgb(100, 124, 120);   /* warmed card derivative */
+  --card: rgb(30, 41, 34);
+  --border: rgb(54, 68, 58);            /* muted, derived from --card */
+  --border-hover: rgb(100, 118, 100);   /* warmed card derivative */
   --dim: rgba(240, 235, 220, 0.72);
   --faint: rgba(240, 235, 220, 0.48);
 
-  /* Mantle identity: oasis teal + antique gold */
+  /* Mantle identity: logo green + antique gold */
   --gold: rgb(214, 174, 94);            /* primary accent / underlines / links */
-  --accent: rgb(30, 106, 108);          /* headers / badges / buttons / active */
-  --accent-strong: rgb(42, 130, 132);   /* hover & emphasis teal */
-  --accent-text: rgb(126, 201, 199);    /* teal brightened for text on dark */
+  --accent: rgb(36, 90, 62);            /* logo green: badges / buttons / active */
+  --accent-strong: rgb(46, 112, 78);    /* hover & emphasis green */
+  --accent-text: rgb(167, 201, 137);    /* family light green for text on dark */
 
   /* Utility shades */
   --selection: rgba(214, 174, 94, 0.35);
   --shadow: rgba(0, 0, 0, 0.4);
-  --overlay: rgba(7, 13, 14, 0.82);
+  --overlay: rgba(9, 13, 10, 0.82);
   --badge-fg: rgb(240, 235, 220);
 
   /* Per-channel text colours */

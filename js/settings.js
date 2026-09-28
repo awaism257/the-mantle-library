@@ -48,7 +48,7 @@
   function applyTheme(theme) {
     root.classList.toggle('light', theme === 'light');
     var meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute('content', theme === 'light' ? '#f6f0e0' : '#0c191a');
+    if (meta) meta.setAttribute('content', theme === 'light' ? '#f6f0e0' : '#101613');
   }
 
   function setTheme(theme) {
