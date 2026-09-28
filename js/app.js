@@ -124,7 +124,7 @@
     return ROW_ICONS[id] || ROW_ICONS['dalail-al-khayrat'];
   }
 
-  /* Works are presented as full-width menu rows — circular red-ringed icon
+  /* Works are presented as full-width menu rows — circular accent-ringed icon
      left, English title with the Arabic title beneath, gold chevron right —
      the same list language as the About/Settings rows in the sibling apps. */
   function buildWorkRow(work) {

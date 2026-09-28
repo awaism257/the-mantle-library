@@ -2,7 +2,8 @@
    The Mantle Library — stylesheet (v2 design system)
 
    Family base tokens (shared with sibling apps) + Mantle identity:
-   Ottoman-inspired RED + antique GOLD on the family's dark/light base.
+   oasis TEAL + antique GOLD on dark (default); illuminated manuscript
+   GREEN + GOLD on paper for the light theme.
 
    Every colour flows through the CSS variables below — no hard-coded
    hex/rgb values appear anywhere else in this file.
@@ -54,26 +55,26 @@
 /* ---------- Design tokens: dark theme (default) ---------- */
 
 :root {
-  /* Family base (dark) */
-  --bg: rgb(16, 22, 19);
+  /* Family base (dark) — Oasis Dawn */
+  --bg: rgb(12, 25, 26);
   --cream: rgb(240, 235, 220);
   --fg: var(--cream);
-  --card: rgb(43, 44, 47);
-  --border: rgb(70, 71, 73);            /* muted, derived from --card */
-  --border-hover: rgb(112, 108, 96);    /* warmed card derivative */
+  --card: rgb(34, 47, 49);
+  --border: rgb(58, 76, 78);            /* muted, derived from --card */
+  --border-hover: rgb(100, 124, 120);   /* warmed card derivative */
   --dim: rgba(240, 235, 220, 0.72);
   --faint: rgba(240, 235, 220, 0.48);
 
-  /* Mantle identity: red + antique gold */
-  --gold: rgb(201, 166, 88);            /* primary accent / underlines / links */
-  --red: rgb(158, 42, 43);              /* headers / badges / buttons / active */
-  --red-strong: rgb(186, 56, 52);       /* hover & emphasis red */
-  --red-text: rgb(214, 96, 88);         /* red brightened for text on dark */
+  /* Mantle identity: oasis teal + antique gold */
+  --gold: rgb(214, 174, 94);            /* primary accent / underlines / links */
+  --accent: rgb(30, 106, 108);          /* headers / badges / buttons / active */
+  --accent-strong: rgb(42, 130, 132);   /* hover & emphasis teal */
+  --accent-text: rgb(126, 201, 199);    /* teal brightened for text on dark */
 
   /* Utility shades */
-  --selection: rgba(201, 166, 88, 0.35);
+  --selection: rgba(214, 174, 94, 0.35);
   --shadow: rgba(0, 0, 0, 0.4);
-  --overlay: rgba(9, 12, 10, 0.82);
+  --overlay: rgba(7, 13, 14, 0.82);
   --badge-fg: rgb(240, 235, 220);
 
   /* Per-channel text colours */
@@ -96,28 +97,28 @@
 /* ---------- Design tokens: light theme ---------- */
 
 html.light {
-  /* Family base (light) */
-  --paper: rgb(243, 236, 216);
-  --ink: rgb(38, 32, 22);
+  /* Family base (light) — Illuminated manuscript */
+  --paper: rgb(246, 240, 224);
+  --ink: rgb(40, 34, 24);
   --bg: var(--paper);
   --fg: var(--ink);
-  --card: rgb(231, 222, 198);           /* warm, paper-darkened */
-  --border: rgb(212, 199, 168);         /* muted, derived from --card */
+  --card: rgb(255, 252, 243);           /* lifted parchment card */
+  --border: rgb(214, 200, 168);         /* muted, derived from --paper */
   --border-hover: rgb(176, 158, 118);
-  --dim: rgba(38, 32, 22, 0.74);
-  --faint: rgba(38, 32, 22, 0.5);
+  --dim: rgba(40, 34, 24, 0.74);
+  --faint: rgba(40, 34, 24, 0.5);
 
-  /* Mantle identity, darkened for contrast on paper */
-  --gold: rgb(130, 98, 36);
-  --red: rgb(128, 30, 30);
-  --red-strong: rgb(105, 22, 22);
-  --red-text: rgb(128, 30, 30);
+  /* Mantle identity: deep green + antique gold on paper */
+  --gold: rgb(146, 112, 44);
+  --accent: rgb(36, 90, 62);
+  --accent-strong: rgb(28, 72, 50);
+  --accent-text: rgb(36, 90, 62);
 
   /* Utility shades */
-  --selection: rgba(130, 98, 36, 0.3);
-  --shadow: rgba(38, 32, 22, 0.22);
-  --overlay: rgba(38, 32, 22, 0.82);
-  --badge-fg: rgb(243, 236, 216);
+  --selection: rgba(146, 112, 44, 0.3);
+  --shadow: rgba(40, 34, 24, 0.22);
+  --overlay: rgba(40, 34, 24, 0.82);
+  --badge-fg: rgb(246, 240, 224);
 
   /* Per-channel text colours */
   --vc-ar: var(--ink);
@@ -162,7 +163,7 @@ a { color: var(--gold); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 :focus-visible {
-  outline: 2px solid var(--red-strong);
+  outline: 2px solid var(--accent-strong);
   outline-offset: 3px;
   border-radius: 4px;
 }
@@ -175,7 +176,7 @@ a:hover { text-decoration: underline; }
   position: absolute;
   left: -9999px;
   top: 0;
-  background: var(--red);
+  background: var(--accent);
   color: var(--badge-fg);
   padding: 0.6rem 1rem;
   border-radius: 0 0 var(--radius) 0;
@@ -199,7 +200,7 @@ a:hover { text-decoration: underline; }
 
 /* ---------- Header / app bar ----------
    JustQuran-style app bar: brand block left, circular outline icon buttons
-   right, full-width red underline. Sticky so it behaves like a native app
+   right, full-width accent underline. Sticky so it behaves like a native app
    header. privacy.html still uses the legacy .site-nav (rules kept below). */
 
 .site-header {
@@ -207,7 +208,7 @@ a:hover { text-decoration: underline; }
   top: 0;
   z-index: 50;
   background: var(--bg);
-  border-bottom: 2px solid var(--red);
+  border-bottom: 2px solid var(--accent);
 }
 
 .app-bar {
@@ -280,8 +281,8 @@ a:hover { text-decoration: underline; }
 }
 .icon-btn:hover,
 .icon-btn[aria-expanded="true"] {
-  color: var(--red-text);
-  border-color: var(--red);
+  color: var(--accent-text);
+  border-color: var(--accent);
 }
 .icon-btn svg { width: 1.1rem; height: 1.1rem; display: block; }
 
@@ -308,7 +309,7 @@ a:hover { text-decoration: underline; }
   border-bottom: 2px solid transparent;
 }
 .nav-link:hover { color: var(--fg); text-decoration: none; border-bottom-color: var(--border-hover); }
-.nav-link[aria-current="page"] { color: var(--red-text); border-bottom-color: var(--red-text); }
+.nav-link[aria-current="page"] { color: var(--accent-text); border-bottom-color: var(--accent-text); }
 
 /* ---------- Settings page ---------- */
 
@@ -322,7 +323,7 @@ a:hover { text-decoration: underline; }
 
 .settings-heading {
   font-size: 1.1rem;
-  color: var(--red-text);
+  color: var(--accent-text);
   margin: 0 0 0.75rem;
 }
 
@@ -345,8 +346,8 @@ a:hover { text-decoration: underline; }
 .theme-choice:hover { border-color: var(--border-hover); }
 .theme-choice[aria-pressed="true"] {
   color: var(--badge-fg);
-  background: var(--red);
-  border-color: var(--red);
+  background: var(--accent);
+  border-color: var(--accent);
 }
 
 .settings-note {
@@ -367,7 +368,7 @@ a:hover { text-decoration: underline; }
 .fs-row input[type="range"] {
   width: 100%;
   margin: 0;
-  accent-color: var(--red-strong);
+  accent-color: var(--accent-strong);
 }
 .fs-value {
   text-align: right;
@@ -408,13 +409,13 @@ h1, h2, h3 {
   width: 3.5rem;
   height: 3px;
   margin: 0.7rem auto 0;
-  background: var(--red);
+  background: var(--accent);
   border-radius: 2px;
 }
 
 .section-heading {
   font-size: 1.25rem;
-  color: var(--red-text);
+  color: var(--accent-text);
   margin: 0 0 0.75rem;
 }
 
@@ -444,7 +445,7 @@ h1, h2, h3 {
 }
 .menu-row-link:hover {
   text-decoration: none;
-  border-color: var(--red-strong);
+  border-color: var(--accent-strong);
   box-shadow: 0 2px 10px var(--shadow);
 }
 
@@ -455,7 +456,7 @@ h1, h2, h3 {
   width: 2.5rem;
   height: 2.5rem;
   flex-shrink: 0;
-  border: 1px solid var(--red);
+  border: 1px solid var(--accent);
   border-radius: 50%;
   color: var(--gold);
 }
@@ -506,7 +507,7 @@ h1, h2, h3 {
   font-size: 0.95rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: var(--red-text);
+  color: var(--accent-text);
   margin: 0 0 0.7rem;
   border-bottom: 1px solid var(--border);
   padding-bottom: 0.35rem;
@@ -579,7 +580,7 @@ h1, h2, h3 {
   font-weight: bold;
   font-size: 0.95rem;
   color: var(--badge-fg);
-  background: var(--red);
+  background: var(--accent);
   border-radius: 50%;
   font-variant-numeric: tabular-nums;
 }
@@ -656,11 +657,11 @@ h1, h2, h3 {
   transition: border-color 160ms ease;
 }
 .section-item-link:hover {
-  border-color: var(--red);
+  border-color: var(--accent);
   text-decoration: none;
 }
 
-.section-item-text { flex: 1; min-width: 0; }
+.section-item-text { flex: 1; min-width: 0; text-align: center; }
 
 .section-item-heading {
   display: block;
@@ -704,8 +705,8 @@ h1, h2, h3 {
   color: var(--dim);
 }
 .section-nav-link:hover {
-  color: var(--red-text);
-  border-color: var(--red);
+  color: var(--accent-text);
+  border-color: var(--accent);
   text-decoration: none;
 }
 .section-nav-link.is-disabled { visibility: hidden; }
@@ -746,7 +747,7 @@ h1, h2, h3 {
   width: 2.25rem;
   height: 2px;
   margin: 0.5rem auto 0;
-  background: var(--red);
+  background: var(--accent);
   border-radius: 2px;
 }
 
@@ -791,7 +792,7 @@ audio {
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
-  border: 2px solid var(--red);
+  border: 2px solid var(--accent);
   border-radius: var(--radius);
   background: var(--bg);
   box-shadow: 0 2px 10px var(--shadow);
@@ -799,7 +800,7 @@ audio {
 }
 .tile-button:hover .tile-art,
 .tile-button:focus-visible .tile-art {
-  border-color: var(--red-strong);
+  border-color: var(--accent-strong);
   box-shadow: 0 3px 14px var(--shadow);
 }
 
@@ -826,7 +827,7 @@ audio {
   max-height: 88vh;
   overflow-y: auto;
   background: var(--card);
-  border: 1px solid var(--red);
+  border: 1px solid var(--accent);
   border-radius: var(--radius);
   padding: 1.5rem 1.5rem 1.25rem;
   box-shadow: 0 12px 40px var(--shadow);
@@ -838,14 +839,14 @@ audio {
   width: min(55vw, 12.5rem);
   margin: 0 auto 1rem;
   padding: 0;
-  border: 2px solid var(--red);
+  border: 2px solid var(--accent);
   border-radius: var(--radius);
   overflow: hidden;
   background: var(--bg);
   cursor: zoom-in;
   transition: border-color 160ms ease;
 }
-.rec-dialog-art:hover { border-color: var(--red-strong); }
+.rec-dialog-art:hover { border-color: var(--accent-strong); }
 .rec-dialog-art img {
   display: block;
   width: 100%;
@@ -946,12 +947,12 @@ audio {
   font-size: 1.35rem;
   line-height: 1;
   color: var(--badge-fg);
-  background: var(--red);
-  border: 1px solid var(--red-strong);
+  background: var(--accent);
+  border: 1px solid var(--accent-strong);
   border-radius: 50%;
   cursor: pointer;
 }
-.rec-dialog-close:hover { background: var(--red-strong); }
+.rec-dialog-close:hover { background: var(--accent-strong); }
 
 /* Full-size label viewer overlay (opened from the thumbnail). */
 .art-overlay {
@@ -968,7 +969,7 @@ audio {
 .art-overlay-img {
   max-width: min(92vw, 40rem);
   max-height: 82vh;
-  border: 2px solid var(--red);
+  border: 2px solid var(--accent);
   border-radius: var(--radius);
   box-shadow: 0 12px 40px var(--shadow);
 }
@@ -983,12 +984,12 @@ audio {
   font-size: 1.5rem;
   line-height: 1;
   color: var(--badge-fg);
-  background: var(--red);
-  border: 1px solid var(--red-strong);
+  background: var(--accent);
+  border: 1px solid var(--accent-strong);
   border-radius: 50%;
   cursor: pointer;
 }
-.art-overlay-close:hover { background: var(--red-strong); }
+.art-overlay-close:hover { background: var(--accent-strong); }
 
 /* ---------- Notices / states ---------- */
 
@@ -1003,7 +1004,7 @@ audio {
   border-radius: var(--radius);
   background: var(--card);
 }
-.error-box strong { color: var(--red-text); }
+.error-box strong { color: var(--accent-text); }
 
 /* ---------- About page ---------- */
 
@@ -1034,7 +1035,7 @@ audio {
   margin: 0 0 0.6rem;
 }
 .support-badges {
-  color: var(--red-text);
+  color: var(--accent-text);
   font-size: 0.9rem;
   margin: 0;
 }
@@ -1062,7 +1063,7 @@ audio {
 .kofi-btn {
   display: inline-block;
   padding: 0.6rem 1.1rem;
-  background: var(--red);
+  background: var(--accent);
   color: var(--badge-fg);
   border-radius: 999px;
   font-weight: bold;
@@ -1070,7 +1071,7 @@ audio {
   transition: background 160ms ease;
 }
 .kofi-btn:hover {
-  background: var(--red-strong);
+  background: var(--accent-strong);
   text-decoration: none;
 }
 
