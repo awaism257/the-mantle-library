@@ -2101,8 +2101,8 @@
       "title_en": "Poems of Ḥassān ibn Thābit",
       "author": "Ḥassān ibn Thābit",
       "author_dates": "d. c. 674",
-      "description_en": "Ḥassān ibn Thābit of Madinah was the Prophet’s ﷺ own poet, given a minbar in the mosque from which to answer those who lampooned him — “Jibrīl is with you as long as you defend the Messenger of Allah.” These short pieces are among the most famous madih verses in the language.",
-      "source_en": "Arabic texts as transmitted in Ḥassān’s dīwān and, for the minbar poem, in Ṣaḥīḥ Muslim. The English renderings are original to this project.",
+      "description_en": "Ḥassān ibn Thābit of Madinah was the Prophet’s ﷺ own poet, given a minbar in the mosque from which to answer those who lampooned him — “Jibrīl is with you as long as you defend the Messenger of Allah.” These short pieces are among the most famous madih verses in the language. The two elegies were composed after the Prophet’s ﷺ death in 632.",
+      "source_en": "Arabic texts as transmitted in Ḥassān’s dīwān (following Hirschfeld’s 1910 edition) and, for the minbar poem, in Ṣaḥīḥ Muslim. The English renderings are original to this project.",
       "audio": [],
       "sections": [
         {
@@ -2159,6 +2159,184 @@
               "ar": "وَجِبْرِيلُ رَسُولُ اللَّهِ فِينَا — وَرُوحُ الْقُدُسِ لَيْسَ لَهُ كِفَاءُ",
               "en": "Jibrīl, Allah’s messenger, is among us, and the Holy Spirit has no equal.",
               "n": 5
+            }
+          ]
+        },
+        {
+          "heading": "The Elegy of Madinah",
+          "note": "Ḥassān’s lament after the Prophet’s ﷺ death in Madinah in 632 — poem 133 of his dīwān, also transmitted in Ibn Hishām’s Sīra.",
+          "units": [
+            {
+              "ar": "مَا بَالُ عَيْنِي لَا تَكَادُ كَأَنَّمَا — كُحِلَتْ مَآقِيهَا بِكُحْلِ الْأَرْمَدِ",
+              "en": "What ails my eye? It is all but as though its corners had been lined with the kohl of the sore-eyed,",
+              "n": 1
+            },
+            {
+              "ar": "جَزَعًا عَلَى الْمَهْدِيِّ أَضْحَى ثَاوِيًا — يَا خَيْرَ مَنْ وَطِئَ الْحَصَى لَا تَبْعَدِ",
+              "en": "in anguish for the rightly-guided one who now lies in the earth: O best of all who ever trod the gravel, do not be far.",
+              "n": 2
+            },
+            {
+              "ar": "جَنْبِي يَقِيكَ الثَّرَى لَهْفِي لَيْتَنِي — غُيِّبْتُ قَبْلَكَ فِي بَقِيعِ الْغَرْقَدِ",
+              "en": "May my side shield you from the soil; alas — would that I had been buried before you in Baqīʿ al-Gharqad.",
+              "n": 3
+            },
+            {
+              "ar": "أَأَقِيمُ بَعْدَكَ بِالْمَدِينَةِ بَيْنَهُمْ — يَا لَهْفَ نَفْسِي لَيْتَنِي لَمْ أُولَدِ",
+              "en": "Shall I remain in Madinah among them after you? Alas for my soul — would that I had never been born.",
+              "n": 4
+            },
+            {
+              "ar": "بِأَبِي وَأُمِّي مَنْ شَهِدْتُ وَفَاتَهُ — فِي يَوْمِ الْإِثْنَيْنِ النَّبِيِّ الْمُهْتَدِي",
+              "en": "May my father and my mother be ransom for the one whose death I witnessed on the Monday: the Prophet, the rightly-guided.",
+              "n": 5
+            },
+            {
+              "ar": "فَظَلِلْتُ بَعْدَ وَفَاتِهِ مُتَلَدِّدًا — يَا لَيْتَنِي أُعْطِيتُ سَمَّ الْأَسْوَدِ",
+              "en": "After his passing I remained writhing — would that I had been given the venom of the black viper,",
+              "n": 6
+            },
+            {
+              "ar": "أَوْ حَلَّ أَمْرُ اللَّهِ فِينَا عَاجِلًا — مِنْ يَوْمِنَا فِي رَوْحَةٍ أَوْ فِي غَدِ",
+              "en": "or that Allah's decree had fallen on us at once that very day, in an evening or a morning,",
+              "n": 7
+            },
+            {
+              "ar": "فَسَقُومُ سَاعَتَنَا فَنَلْقَى طَيِّبًا — مَحْضًا صَرَائِفُهُ كَرِيمَ الْمَحْتِدِ",
+              "en": "then I would rise at our Hour and we would meet the Pure One — unmixed in his character, noble in his origin.",
+              "n": 8
+            },
+            {
+              "ar": "يَا بَكْرَ آمِنَةَ الْمُبَارَكُ ذِكْرُهُ — وَلَدَتْكَ مُحْصَنَةٌ بِسَعْدِ الْأَسْعَدِ",
+              "en": "O firstborn of Āmina, blessed is his mention — a chaste woman bore you with the fortune of the most fortunate,",
+              "n": 9
+            },
+            {
+              "ar": "نُورًا أَضَاءَ عَلَى الْبَرِيَّةِ كُلِّهَا — مَنْ يُهْدَ لِلنُّورِ الْمُبَارَكِ يَهْتَدِ",
+              "en": "a light that shone out over all creation; whoever is brought to the blessed light is guided aright.",
+              "n": 10
+            },
+            {
+              "ar": "يَا رَبِّ فَاجْمَعْنَا مَعًا وَبَوِّئْنَا — فِي جَنَّةٍ تُثْنِي عُيُونَ الْحُسَّادِ",
+              "en": "O Lord, gather us together and settle us in a Garden that turns away the eyes of the envious,",
+              "n": 11
+            },
+            {
+              "ar": "فِي جَنَّةِ الْفِرْدَوْسِ وَاكْتُبْهَا لَنَا — يَا ذَا الْجَلَالِ وَذَا الْعُلَا وَالسُّؤْدَدِ",
+              "en": "in the Garden of Firdaws — and write it for us, O Lord of majesty, of sublimity and of dominion.",
+              "n": 12
+            },
+            {
+              "ar": "وَاللَّهِ أَسْمَعْ مَا حَيِيتُ بِهَا إِلَهِي — إِلَّا بَكَيْتُ عَلَى النَّبِيِّ مُحَمَّدِ",
+              "en": "By Allah — as long as I live, I hear nothing in Madinah, my God, without weeping for the Prophet Muḥammad.",
+              "n": 13
+            },
+            {
+              "ar": "ضَاقَتْ بِالْأَنْصَارِ الْبِلَادُ فَأَصْبَحُوا — سُرًى وُجُوهُهُمْ كُلُّهُمُ الْإِثْمِدِ",
+              "en": "The land grew too narrow for the Anṣār; they became keepers of the night-vigil, all their faces dark as antimony.",
+              "n": 14
+            },
+            {
+              "ar": "وَلَقَدْ وَلَدَنَاهُ وَفِينَا قَبِرُهُ — وَفُضُولُ نِعْمَتِهِ بَدَا لِلْعِبَادِ",
+              "en": "Among us he was born, and among us is his grave; and the overflowing of his bounty was plain to all people.",
+              "n": 15
+            },
+            {
+              "ar": "صَلَّى اللَّهُ وَمَنْ يَحُفُّ بِعَرْشِهِ — وَالطَّيِّبُونَ عَلَى الْمُبَارَكِ أَحْمَدِ",
+              "en": "May Allah bless — and those who surround His Throne, and the pure ones — the blessed one, Aḥmad.",
+              "n": 16
+            },
+            {
+              "ar": "فَرِحَتْ نَصَارَى يَثْرِبَ وَيَهُودُهَا — لَمَّا تُوَارَى فِي الضَّرِيحِ الْمُلْحَدِ",
+              "en": "The Christians of Yathrib and its Jews rejoiced when he was hidden away in the grave’s side-niche.",
+              "n": 17
+            }
+          ]
+        },
+        {
+          "heading": "The Oath",
+          "note": "A sworn elegy — that no woman ever bore his like: poem 134 of the dīwān, also transmitted in Ibn Hishām’s Sīra; its fifth verse survives only in the dīwān.",
+          "units": [
+            {
+              "ar": "آلَيْتُ حَلْفَةَ بَرٍّ غَيْرَ ذِي دَخْلٍ — مِنِّي آلِيَّةُ بَرٍّ غَيْرِ إِفْنَادِ",
+              "en": "I have sworn an oath of piety free of defect — an oath of piety from me, free of falsehood:",
+              "n": 1
+            },
+            {
+              "ar": "بِاللهِ مَا حَمَلَتْ أُنْثَى وَلَا وَضَعَتْ — مِثْلَ النَّبِيِّ رَسُولِ الرَّحْمَةِ الْهَادِي",
+              "en": "By Allah, no woman has ever carried or borne the like of the Prophet, the messenger of mercy, the guide,",
+              "n": 2
+            },
+            {
+              "ar": "وَلَا مَشَى فَوْقَ ظَهْرِ الْأَرْضِ مِنْ أَحَدِ — أَوْفَى بِذِمَّةِ جَارٍ أَوْ بِمِيعَادِ",
+              "en": "nor has anyone walked upon the face of the earth more true to a neighbour's protection or to a promise,",
+              "n": 3
+            },
+            {
+              "ar": "مِنَ الَّذِي كَانَ نُورًا يُسْتَضَاءُ بِهِ — مُبَارَكُ الْأَمْرِ ذَا حَزْمٍ وَإِرْشَادِ",
+              "en": "than the one who was a light by which light is sought, blessed in his affair, a man of resolve and right guidance,",
+              "n": 4
+            },
+            {
+              "ar": "مُصَدِّقًا لِلتَّبِيِّنِ الْأُولَى تَلَقَّوْا — وَأَبْدَلَ النَّاسَ لِلْمَعْرُوفِ لِلْجَارِي",
+              "en": "confirming what the first followers received; and he recompensed people with goodness for whoever sought it,",
+              "n": 5
+            },
+            {
+              "ar": "خَيْرَ الْبَرِيَّةِ التَّقِيَّ كُنْتُ فِي نَهْرٍ — جَارٍ فَأَصْبَحْتُ مِثْلَ الْمُفْرَدِ الضَّادِي",
+              "en": "the best of creation, the God-fearing. I was once in a flowing river; now I have become like a lone, thirsty man.",
+              "n": 6
+            },
+            {
+              "ar": "أَمْسَى نِسَاؤُكَ عَطْلَى الْبُيُوتِ فَمَا — يَضْرِبْنَ فَوْقَ قَفَا سِتْرٍ بِأَوْتَادِ",
+              "en": "Your womenfolk’s houses now stand empty: they pitch no curtained shelter with tent-pegs,",
+              "n": 7
+            },
+            {
+              "ar": "مِثْلَ الرَّوَاهِبِ يَلْبَسْنَ الْمُسُوحَ فَقَدْ — أَيْقَنَّ بِالْبُوسِ بَعْدَ النِّعْمَةِ الْبَادِي",
+              "en": "like nuns who have donned hair-cloth, certain now of ruin after the blessing that had been plain to see.",
+              "n": 8
+            }
+          ]
+        },
+        {
+          "heading": "The Years in Makkah",
+          "note": "A retrospective on the Prophet’s ﷺ life, probably composed after his death — poem 19 of the dīwān, ending with the confession of faith in verse. Much of it is also ascribed to Abū Qays ibn Ṣirma.",
+          "units": [
+            {
+              "ar": "نَوَى بِمَكَّةَ بِضْعَ عَشَرَةَ حِجَّةً — يُذَكِّرُ لَوْ يَلْقَى خَلِيلًا مُؤَاتِيًا",
+              "en": "He dwelt in Makkah some thirteen years, ever reminding — hoping yet to meet a true friend who would take him in,",
+              "n": 1
+            },
+            {
+              "ar": "وَيَعْرِضُ فِي أَهْلِ الْمَوَاسِمِ نَفْسَهُ — فَلَمْ يَرَ مَنْ يُؤَاوِي وَلَمْ يَرَ دَاعِيَا",
+              "en": "and he would offer himself to the people of the pilgrimage seasons, yet saw none who would shelter him, and saw no caller.",
+              "n": 2
+            },
+            {
+              "ar": "فَلَمَّا أَتَانَا وَأَطْمَأَنَّتْ بِهِ النَّوَى — فَأَضْبَحَ مَسْرُورًا بِطَيْبَةَ رَاضِيَا",
+              "en": "Then when he came to us and the people settled at rest with him, he awoke joyful in Ṭaybah, well-pleased,",
+              "n": 3
+            },
+            {
+              "ar": "وَأَصْبَحَ لَا يَخْشَى عَدَاوَةَ ظَالِمٍ — قَرِيبٍ وَلَا يَخْشَى مِنَ النَّاسِ بَاغِيَا",
+              "en": "and he came to fear no oppressor’s enmity near at hand, nor any aggressor among the people.",
+              "n": 4
+            },
+            {
+              "ar": "بَذَلْنَا لَهُ الْأَمْوَالَ مِنْ مُحِلِّ مَالِنَا — وَأَنْفُسَنَا عِنْدَ الْوَغَى وَالْعَانِيَا",
+              "en": "We spent for him our wealth from the lawful portion of our property, and our very selves in the battle’s heat and in hardship,",
+              "n": 5
+            },
+            {
+              "ar": "نُحَارِبُ مَنْ عَادَى مِنَ النَّاسِ كُلِّهِمْ — جَمِيعًا وَإِنْ كَانَ الْحَبِيبُ الْمُصَافِيَا",
+              "en": "fighting whoever shows enmity among all people, all together — even were he the dearest, most intimate friend.",
+              "n": 6
+            },
+            {
+              "ar": "وَنَعْلَمُ أَنَّ اللَّهَ لَا رَبَّ غَيْرُهُ — وَأَنَّ كِتَابَ اللهِ أَضْحَى هَادِيَا",
+              "en": "And we know that Allah — there is no Lord but Him — and that the Book of Allah has become our guide.",
+              "n": 7
             }
           ]
         }
