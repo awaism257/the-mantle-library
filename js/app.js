@@ -36,7 +36,9 @@
 
   var AR_DIGITS = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
   function toArabicNum(n) {
-    return String(n).split('').map(function (d) { return AR_DIGITS[+d]; }).join('');
+    return String(n).split('').map(function (d) {
+      return /[0-9]/.test(d) ? AR_DIGITS[+d] : d;
+    }).join('');
   }
 
   function clearView() {
@@ -234,6 +236,27 @@
       'Your browser does not support the audio element. The recording "' + rec.title + '" cannot be played.'
     ));
     children.push(player);
+
+    // Identified text and translation (verse cards, like the reader view).
+    if (rec.text && Array.isArray(rec.text.sections) && rec.text.sections.length) {
+      var textBody = [];
+      if (rec.text.source) {
+        textBody.push(el('p', { class: 'rec-text-source', text: rec.text.source }));
+      }
+      rec.text.sections.forEach(function (grp) {
+        if (grp.heading) {
+          textBody.push(el('h3', { class: 'rec-text-heading', text: grp.heading }));
+        }
+        buildUnitNodes(grp).forEach(function (node) { textBody.push(node); });
+      });
+      if (rec.text.translation_credit) {
+        textBody.push(el('p', { class: 'rec-text-credit', text: rec.text.translation_credit }));
+      }
+      children.push(el('details', { class: 'rec-text' }, [
+        el('summary', { class: 'rec-text-summary', text: rec.text.title || 'Text and translation' }),
+        el('div', { class: 'rec-text-body' }, textBody)
+      ]));
+    }
 
     if (rec.credit) {
       children.push(el('p', { class: 'rec-dialog-credit', text: rec.credit }));

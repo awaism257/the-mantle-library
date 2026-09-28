@@ -891,6 +891,51 @@ audio {
   font-style: italic;
 }
 
+/* Identified text & translation inside the recording sheet */
+.rec-text {
+  margin: 1rem 0 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-align: left;
+}
+
+.rec-text-summary {
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--vc-en);
+  user-select: none;
+}
+
+.rec-text-summary:hover { color: var(--fg); }
+
+.rec-text[open] .rec-text-summary { border-bottom: 1px solid var(--border); }
+
+.rec-text-body {
+  display: grid;
+  gap: 0.9rem;
+  padding: 1rem;
+}
+
+.rec-text-source {
+  margin: 0;
+  color: var(--dim);
+  font-size: 0.85rem;
+}
+
+.rec-text-heading {
+  margin: 0.2rem 0 0;
+  font-size: 1rem;
+  color: var(--fg);
+}
+
+.rec-text-credit {
+  margin: 0.25rem 0 0;
+  color: var(--faint);
+  font-size: 0.78rem;
+  font-style: italic;
+}
+
 .rec-dialog-close {
   position: absolute;
   top: 0.6rem;

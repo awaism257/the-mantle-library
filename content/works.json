@@ -2248,7 +2248,8 @@
           "art": "audio/art/art_Surat_Yusuf_Pt1_Wadudah_al-Minyalawi_1915.jpg",
           "credit": "Historic recording courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.",
           "description": "Recitation from Sūrat Yūsuf by Wadūdah al-Minyalāwī, recorded for Victor in Cairo in 1915 — a rare surviving example of a commercially released Quranic disc by a female reciter in the 78rpm era. Part 2 carries the second side.",
-          "genre": "quran"
+          "genre": "quran",
+          "note": "The label gives no verse numbers, and the passage recited on this side has not yet been identified; text and translation will follow once it is."
         },
         {
           "file": "audio/Surat_Yusuf_Pt2_Wadudah_al-Minyalawi_1915.mp3",
@@ -2259,7 +2260,8 @@
           "art": "audio/art/art_Surat_Yusuf_Pt2_Wadudah_al-Minyalawi_1915.jpg",
           "credit": "Historic recording courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.",
           "description": "The second side of Wadūdah al-Minyalāwī's 1915 Victor recording of Sūrat Yūsuf.",
-          "genre": "quran"
+          "genre": "quran",
+          "note": "The label gives no verse numbers, and the passage recited on this side has not yet been identified; text and translation will follow once it is."
         },
         {
           "file": "audio/Quran_Suras_1_112_114_110_Benhamouda_1921_Sorbonne.mp3",
@@ -2270,7 +2272,55 @@
           "art": "audio/art/art_Quran_Suras_1_112_114_110_Benhamouda_1921_Sorbonne.jpg",
           "credit": "Historic recording courtesy of the Bibliothèque nationale de France (Gallica) — Archives de la Parole, Université de Paris. Public domain.",
           "description": "Short chapters of the Qur'an recited in Paris in 1921 for the Archives de la Parole — the Sorbonne's sound archive, which documented the languages and recitation traditions of the time.",
-          "genre": "quran"
+          "genre": "quran",
+          "text": {
+            "title": "Text and translation",
+            "source": "Qur'an — Sūrat al-Fātiḥa (The Opening, 1), the chapter heard on this recording; the reciter announces it by name at the start.",
+            "translation_credit": "Translation: Marmaduke Pickthall, The Meaning of the Glorious Koran (1930). Public domain.",
+            "sections": [
+              {
+                "heading": "Sūrat al-Fātiḥa (1)",
+                "units": [
+                  {
+                    "n": "1:1",
+                    "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+                    "en": "In the name of Allah, the Beneficent, the Merciful."
+                  },
+                  {
+                    "n": "1:2",
+                    "ar": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
+                    "en": "Praise be to Allah, Lord of the Worlds,"
+                  },
+                  {
+                    "n": "1:3",
+                    "ar": "ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+                    "en": "The Beneficent, the Merciful."
+                  },
+                  {
+                    "n": "1:4",
+                    "ar": "مَـٰلِكِ يَوْمِ ٱلدِّينِ",
+                    "en": "Master of the Day of Judgment,"
+                  },
+                  {
+                    "n": "1:5",
+                    "ar": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+                    "en": "Thee (alone) we worship; Thee (alone) we ask for help."
+                  },
+                  {
+                    "n": "1:6",
+                    "ar": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+                    "en": "Show us the straight path,"
+                  },
+                  {
+                    "n": "1:7",
+                    "ar": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+                    "en": "The path of those whom Thou hast favoured; Not the (path) of those who earn Thine anger nor of those who go astray."
+                  }
+                ]
+              }
+            ]
+          },
+          "note": "The label lists sūras 1, 112, 114 and 110, but this 30-second transfer contains the Fātiḥa only; the remaining sūras are not present in the surviving audio."
         },
         {
           "file": "audio/Poeme_Farazdaq_Benhamouda_1921_Sorbonne.mp3",
@@ -2293,7 +2343,7 @@
           "art": "audio/art/art_Biaini_Alexis_Ben_Kori_1914_Sorbonne.jpg",
           "credit": "Historic recording courtesy of the Bibliothèque nationale de France (Gallica) — Archives de la Parole, Université de Paris. Public domain.",
           "note": "Content under editorial review",
-          "description": "A recording from the Archives de la Parole's North African sessions in Paris, 1914.",
+          "description": "An Arabic love song on an Egyptian melody — “Ḥabībī illī jāraḥ ʿaynī” (“My beloved who wounded my eyes”) — sung by Alexis (Abdullah) Ben Kori, born in Tripoli (then Ottoman Syria), at the Sorbonne’s Archives de la Parole on 28 January 1914; the session sheet names engineer Ravenet and director Ferdinand Brunot.",
           "genre": "qasida"
         },
         {
@@ -2305,7 +2355,54 @@
           "art": "audio/art/art_Surat_Al-Fatiha_Alexis_Ben_Kori_1914_Sorbonne.jpg",
           "credit": "Historic recording courtesy of the Bibliothèque nationale de France (Gallica) — Archives de la Parole, Université de Paris. Public domain.",
           "description": "Sūrat al-Fātiḥa, the opening chapter of the Qur'an, recited in Paris in 1914 for the Archives de la Parole.",
-          "genre": "quran"
+          "genre": "quran",
+          "text": {
+            "title": "Text and translation",
+            "source": "Qur'an — Sūrat al-Fātiḥa (The Opening, 1).",
+            "translation_credit": "Translation: Marmaduke Pickthall, The Meaning of the Glorious Koran (1930). Public domain.",
+            "sections": [
+              {
+                "heading": "Sūrat al-Fātiḥa (1)",
+                "units": [
+                  {
+                    "n": "1:1",
+                    "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+                    "en": "In the name of Allah, the Beneficent, the Merciful."
+                  },
+                  {
+                    "n": "1:2",
+                    "ar": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
+                    "en": "Praise be to Allah, Lord of the Worlds,"
+                  },
+                  {
+                    "n": "1:3",
+                    "ar": "ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+                    "en": "The Beneficent, the Merciful."
+                  },
+                  {
+                    "n": "1:4",
+                    "ar": "مَـٰلِكِ يَوْمِ ٱلدِّينِ",
+                    "en": "Master of the Day of Judgment,"
+                  },
+                  {
+                    "n": "1:5",
+                    "ar": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+                    "en": "Thee (alone) we worship; Thee (alone) we ask for help."
+                  },
+                  {
+                    "n": "1:6",
+                    "ar": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+                    "en": "Show us the straight path,"
+                  },
+                  {
+                    "n": "1:7",
+                    "ar": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+                    "en": "The path of those whom Thou hast favoured; Not the (path) of those who earn Thine anger nor of those who go astray."
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "file": "audio/Taravikh_Tatar_Trio_Kazan_1901_Berliner_24023.mp3",
