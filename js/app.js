@@ -124,6 +124,42 @@
     return ROW_ICONS[id] || ROW_ICONS['dalail-al-khayrat'];
   }
 
+  /* In-column page header — the pattern used on the sibling apps' home
+     screens (Munajaat Maqbool, JustQuran): round logo + large serif title
+     with circular icon buttons at the right of the row, a small italic
+     gold subtitle, and a thin accent rule beneath (rule drawn in CSS). */
+  function buildHomeHeader() {
+    return el('header', { class: 'view-header' }, [
+      el('div', { class: 'view-header-row' }, [
+        el('img', {
+          class: 'view-header-logo',
+          src: 'icons/icon-192.png',
+          alt: '',
+          width: '44',
+          height: '44'
+        }),
+        el('h1', { class: 'view-header-title', text: 'The Mantle Library' }),
+        el('div', { class: 'view-header-actions' }, [
+          el('a', {
+            class: 'icon-btn',
+            href: 'support.html',
+            'aria-label': 'About and support',
+            title: 'About & support',
+            html: ROW_ICONS.about
+          }),
+          el('a', {
+            class: 'icon-btn',
+            href: '#/settings',
+            'aria-label': 'Settings',
+            title: 'Settings',
+            html: ROW_ICONS.settings
+          })
+        ])
+      ]),
+      el('p', { class: 'view-header-sub', text: 'Qasidas · historic recordings' })
+    ]);
+  }
+
   /* Works are presented as full-width menu rows — circular accent-ringed icon
      left, English title with the Arabic title beneath, gold chevron right —
      the same list language as the About/Settings rows in the sibling apps. */
@@ -289,6 +325,9 @@
     setNavCurrent('home');
     document.title = 'The Mantle Library';
     clearView();
+
+    // In-column page header (logo + title + actions + subtitle + rule).
+    appEl.appendChild(buildHomeHeader());
 
     // Main works as full-width menu rows.
     var workRows = el('ul', { class: 'menu-rows', id: 'work-rows' });

@@ -198,73 +198,64 @@ a:hover { text-decoration: underline; }
   border: 0;
 }
 
-/* ---------- Header / app bar ----------
-   JustQuran-style app bar: brand block left, circular outline icon buttons
-   right, full-width accent underline. Sticky so it behaves like a native app
-   header. privacy.html still uses the legacy .site-nav (rules kept below). */
+/* ---------- Header ----------
+   In-column page header (the pattern used by the sibling apps, Munajaat
+   Maqbool and JustQuran): no full-width app bar — the header lives inside
+   the centred content column, so the site already presents like the
+   planned mobile app. Round logo + large serif title with circular icon
+   buttons at the right of the row, a small italic gold subtitle, and a
+   thin accent rule beneath. Rendered by app.js (.view-header).
+   privacy.html / support.html still use the legacy .site-nav (rules kept
+   below). */
 
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  background: var(--bg);
-  border-bottom: 2px solid var(--accent);
+.view-header { margin: 0.25rem 0 1.75rem; }
+
+.view-header::after {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0.85rem;
+  background: var(--accent);
 }
 
-.app-bar {
+.view-header-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 0.75rem;
-  padding: 0.55rem 1rem;
 }
 
-.app-bar-brand {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  min-width: 0;
-  color: inherit;
-}
-.app-bar-brand:hover { text-decoration: none; }
-
-.app-bar-logo {
+.view-header-logo {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
   flex-shrink: 0;
 }
 
-.app-bar-text {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-}
-
-.app-bar-name {
-  font-family: var(--serif-display);
-  font-size: 1.05rem;
-  line-height: 1.25;
-  color: var(--fg);
-  white-space: nowrap;
-}
-
-.app-bar-sub {
-  font-size: 0.72rem;
-  color: var(--faint);
+.view-header-title {
+  font-size: clamp(1.3rem, 5.5vw, 1.9rem);
+  margin: 0;
+  letter-spacing: 0.01em;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.app-bar-actions {
+.view-header-actions {
+  margin-left: auto;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   flex-shrink: 0;
 }
 
-/* Circular outline icon buttons (search / display / theme). */
+.view-header-sub {
+  font-style: italic;
+  color: var(--gold);
+  font-size: 0.95rem;
+  margin: 0.3rem 0 0;
+}
+
+/* Circular outline icon buttons (header actions / verse copy). */
 .icon-btn {
   display: inline-flex;
   align-items: center;
@@ -286,7 +277,7 @@ a:hover { text-decoration: underline; }
 }
 .icon-btn svg { width: 1.1rem; height: 1.1rem; display: block; }
 
-/* privacy.html legacy nav (static page without the app bar) */
+/* privacy.html / support.html legacy nav (static pages without the view header) */
 .site-header:has(> .site-nav) {
   position: relative;
   border-bottom: none;
@@ -436,7 +427,7 @@ h1, h2, h3 {
   display: flex;
   align-items: center;
   gap: 0.85rem;
-  padding: 0.7rem 0.9rem;
+  padding: 0.9rem 1rem;
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
