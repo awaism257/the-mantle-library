@@ -267,14 +267,14 @@ a:hover { text-decoration: underline; }
   background: transparent;
   border: 1px solid var(--border);
   border-radius: 50%;
-  color: var(--dim);
+  color: var(--gold);
   cursor: pointer;
   transition: color 160ms ease, border-color 160ms ease;
 }
 .icon-btn:hover,
 .icon-btn[aria-expanded="true"] {
-  color: var(--accent-text);
-  border-color: var(--accent);
+  color: var(--gold);
+  border-color: var(--gold);
 }
 .icon-btn svg { width: 1.1rem; height: 1.1rem; display: block; }
 
@@ -448,7 +448,7 @@ h1, h2, h3 {
   width: 2.5rem;
   height: 2.5rem;
   flex-shrink: 0;
-  border: 1px solid var(--accent);
+  border: 1px solid var(--gold);
   border-radius: 50%;
   color: var(--gold);
 }
