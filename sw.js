@@ -15,6 +15,7 @@ const PRECACHE_URLS = [
   'js/normalize.js',
   'js/settings.js',
   'content/works.json',
+  'fonts/DigitalKhattIndoPak.otf',
   'fonts/DigitalKhattV2.ttf',
   'manifest.webmanifest',
   'icons/favicon.ico',
