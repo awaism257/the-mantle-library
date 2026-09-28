@@ -229,6 +229,7 @@ a:hover { text-decoration: underline; }
   height: 2.5rem;
   border-radius: 50%;
   flex-shrink: 0;
+  border: 2px solid var(--gold);   /* echoes the gold mantle in the app icon */
 }
 
 .view-header-title {
