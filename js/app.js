@@ -747,7 +747,7 @@
       el('p', { text: 'The Arabic texts are classical public-domain works; every English translation here is an original rendering made for this project. The library grows carefully: every addition is checked for copyright status before inclusion.' }),
       el('h2', { class: 'section-heading', text: 'Text sources' }),
       el('ul', {}, [
-        el('li', { text: 'Dalā\'il al-Khayrāt — classical public-domain text of Imam al-Jazūlī (d. 1465), as circulated in standard editions. English translation: original, made for this project (in progress).' }),
+        el('li', { text: 'Dalā\'il al-Khayrāt — classical public-domain text of Imam al-Jazūlī (d. 1465), as circulated in standard editions. English: opening devotions, intention and Hizb 1 — original, made for this project; Hizbs 2–8 — historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain.' }),
         el('li', { text: 'Banat Suʿād — the recension transmitted in Ibn Hishām\'s Sīra. English translation: original, made for this project.' }),
         el('li', { text: 'Ṭalaʿa al-Badru ʿAlaynā — the traditional text as transmitted in the sīra literature. English rendering: original.' }),
         el('li', { text: 'Poems of Ḥassān ibn Thābit — as transmitted in his dīwān and, for the minbar poem, in Ṣaḥīḥ Muslim. English renderings: original.' })
