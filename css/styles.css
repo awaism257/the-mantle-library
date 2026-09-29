@@ -499,7 +499,7 @@ h1, h2, h3 {
 }
 
 .block-gloss { display: block; }
-/* Modern rendering beneath the historical (Victorian) translation. */
+/* Modern simplification beneath the historical (Victorian) translation. */
 .translation-modern {
   margin-top: 0.6rem;
   padding-top: 0.55rem;

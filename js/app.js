@@ -513,7 +513,7 @@
         cardChildren.push(el('p', { class: 'translation', text: unit.en }));
         if (unit.en2) {
           cardChildren.push(el('p', { class: 'translation translation-modern' }, [
-            el('span', { class: 'translation-modern-label', text: 'Modern rendering' }),
+            el('span', { class: 'translation-modern-label', text: 'Modern simplification' }),
             document.createTextNode(unit.en2)
           ]));
         }
@@ -656,7 +656,7 @@
       if (hasModern) {
         headerChildren.push(el('p', {
           class: 'modern-layer-note',
-          text: 'Note: every “Modern rendering” below simplifies the Victorian translation directly above it; it is not a new translation of the Arabic.'
+          text: 'Note: every “Modern simplification” below simplifies the Victorian translation directly above it; it is not a new translation of the Arabic.'
         }));
       }
       appEl.appendChild(el('header', { class: 'work-header' }, headerChildren));
