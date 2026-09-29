@@ -857,7 +857,7 @@ audio {
 }
 .tile-button:hover .tile-art,
 .tile-button:focus-visible .tile-art {
-  border-color: var(--accent-strong);
+  border-color: var(--gold);
   box-shadow: 0 3px 14px var(--shadow);
 }
 
@@ -903,7 +903,7 @@ audio {
   cursor: zoom-in;
   transition: border-color 160ms ease;
 }
-.rec-dialog-art:hover { border-color: var(--accent-strong); }
+.rec-dialog-art:hover { border-color: var(--gold); }
 .rec-dialog-art img {
   display: block;
   width: 100%;
