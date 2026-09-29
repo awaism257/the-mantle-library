@@ -650,6 +650,15 @@
       if (section.note) {
         headerChildren.push(el('p', { class: 'work-description', text: section.note }));
       }
+      var hasModern = (Array.isArray(section.units) ? section.units : []).some(function (unit) {
+        return unit.en2;
+      });
+      if (hasModern) {
+        headerChildren.push(el('p', {
+          class: 'modern-layer-note',
+          text: 'Note: every “Modern rendering” below simplifies the Victorian translation directly above it; it is not a new translation of the Arabic.'
+        }));
+      }
       appEl.appendChild(el('header', { class: 'work-header' }, headerChildren));
 
       appEl.appendChild(el('div', { class: 'verse-stack' }, buildUnitNodes(section)));

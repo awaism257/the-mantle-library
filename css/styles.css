@@ -503,6 +503,16 @@ h1, h2, h3 {
   margin-bottom: 0.25rem;
 }
 
+/* Explains the modern layer's status on pages that contain it. */
+.modern-layer-note {
+  font-size: 0.78rem;
+  color: var(--dim);
+  border-left: 2px solid var(--gold);
+  padding-left: 0.6rem;
+  margin-top: 0.6rem;
+  line-height: 1.5;
+}
+
 
 /* English gloss (the bracketed translation) on its own line under the title. */
 .menu-row-gloss {
