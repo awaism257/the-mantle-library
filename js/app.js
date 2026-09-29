@@ -483,7 +483,7 @@
         html: ICON_COPY
       });
       copyBtn.addEventListener('click', function () {
-        var text = unit.ar + (unit.en ? '\n\n' + unit.en : '');
+        var text = unit.ar + (unit.en ? '\n\n' + unit.en : '') + (unit.en2 ? '\n\n' + unit.en2 : '');
         copyText(text, function (ok) {
           if (!ok) return;
           copyBtn.classList.add('is-copied');
@@ -511,6 +511,12 @@
       ];
       if (unit.en) {
         cardChildren.push(el('p', { class: 'translation', text: unit.en }));
+        if (unit.en2) {
+          cardChildren.push(el('p', { class: 'translation translation-modern' }, [
+            el('span', { class: 'translation-modern-label', text: 'Modern rendering' }),
+            document.createTextNode(unit.en2)
+          ]));
+        }
       } else {
         cardChildren.push(el('p', {
           class: 'translation-pending',
