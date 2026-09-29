@@ -2427,7 +2427,7 @@
           "credit": "Historic recording courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.",
           "description": "Recitation from Sūrat Yūsuf by the Egyptian mezzo-soprano al-Sitt Wadūdah al-Minyalāwī — the label styles her 'Set Wedouda el Menialaweya, Cairo' — recorded for Victor in Cairo in 1915 (label 73429-A, marked 'Mezzo-Soprano Arabic-Syrian'). Harvard's Loeb Music Library describes her disc as a rare surviving example of a commercially released Quranic recording by a woman in the 78rpm era. Part 2 carries the second side.",
           "genre": "quran",
-          "note": "The label gives no verse numbers — only 'Part 1' and 'Part 2' — so the exact passage on each side is being identified by ear; text and translation will follow once confirmed."
+          "note": "The label gives no verse numbers — only 'Part 1' — and the recitation begins partway into the sūra rather than at its opening; the side is presented as audio only, without text or translation."
         },
         {
           "file": "audio/Surat_Yusuf_Pt2_Wadudah_al-Minyalawi_1915.mp3",
@@ -2439,7 +2439,7 @@
           "credit": "Historic recording courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.",
           "description": "The second side of Wadūdah al-Minyalāwī's 1915 Victor recording of Sūrat Yūsuf (label 73429-B; the Arabic label reads سورة يوسف (قرآن) ٢, 'Sūrat Yūsuf (Qur'an), 2').",
           "genre": "quran",
-          "note": "The label gives no verse numbers — only 'Part 1' and 'Part 2' — so the exact passage on each side is being identified by ear; text and translation will follow once confirmed."
+          "note": "The second side, labelled 'Part 2'; like the first, it is presented as audio only, without text or translation."
         },
         {
           "file": "audio/Quran_Suras_1_112_114_110_Benhamouda_1921_Sorbonne.mp3",
@@ -2502,14 +2502,14 @@
         },
         {
           "file": "audio/Poeme_Farazdaq_Benhamouda_1921_Sorbonne.mp3",
-          "title": "Poem of al-Farazdaq (basīṭ metre)",
+          "title": "Al-Farazdaq: Ode for ʿAlī Zayn al-ʿĀbidīn",
           "artist": "M. Benhamouda",
           "date": "Paris, 1921",
           "label": "Archives de la Parole (Pathé) 297",
           "art": "audio/art/art_Poeme_Farazdaq_Benhamouda_1921_Sorbonne.jpg",
           "credit": "Historic recording courtesy of the Bibliothèque nationale de France (Gallica) — Archives de la Parole, Université de Paris. Public domain.",
-          "note": "Classical Arabic poetry — content under editorial review",
-          "description": "A classical ode by the Umayyad-era poet al-Farazdaq, recited in the basīṭ metre and recorded in Paris in 1921 as a specimen of classical Arabic recitation for the Archives de la Parole.",
+          "note": "Identified by ear from its opening line: al-Farazdaq's ode in praise of ʿAlī Zayn al-ʿĀbidīn.",
+          "description": "Al-Farazdaq's celebrated ode in praise of ʿAlī Zayn al-ʿĀbidīn — the Prophet's ﷺ great-grandson — sung in the basīṭ metre to a melody of the Algiers region, recorded in Paris in 1921 for the Archives de la Parole. The ode opens: “Hādhā'lladhī taʿrifu'l-baṭḥāʾu waṭʾah” — “This is he whose tread the valley of Makka knows, whom the House knows, in sanctuary and in sacred ground.” Tradition recounts that al-Farazdaq recited it when the Umayyad prince Hishām ibn ʿAbd al-Malik, unable to reach the Kaʿba for the crowds, watched the people part instead for ʿAlī Zayn al-ʿĀbidīn — and had the poet imprisoned for it. The recording presents the ode's opening verses; no text is shown, as no public-domain English translation of the poem exists.",
           "genre": "qasida"
         },
         {
