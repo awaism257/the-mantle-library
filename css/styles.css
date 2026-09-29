@@ -440,8 +440,13 @@ h1, h2, h3 {
 }
 .menu-row-link:hover {
   text-decoration: none;
-  border-color: var(--accent-strong);
+  border-color: var(--gold);
   box-shadow: 0 2px 10px var(--shadow);
+}
+.menu-row-link:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+  text-decoration: none;
 }
 
 .menu-row-icon {
