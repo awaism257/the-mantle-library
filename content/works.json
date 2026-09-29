@@ -6065,7 +6065,44 @@
           "credit": "Historic recording courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.",
           "description": "Recitation from Sūrat Yūsuf by the Egyptian mezzo-soprano al-Sitt Wadūdah al-Minyalāwī — the label styles her 'Set Wedouda el Menialaweya, Cairo' — recorded for Victor in Cairo in 1915 (label 73429-A, marked 'Mezzo-Soprano Arabic-Syrian'). Harvard's Loeb Music Library describes her disc as a rare surviving example of a commercially released Quranic recording by a woman in the 78rpm era. Part 2 carries the second side.",
           "genre": "quran",
-          "note": "The label gives no verse numbers — only 'Part 1' — and the recitation begins partway into the sūra rather than at its opening; the side is presented as audio only, without text or translation."
+          "note": "The label gives no verse numbers — only 'Part 1'. The recitation begins at verse 4 (Joseph's dream) and runs to verse 8; the Arabic text and Pickthall's translation are shown alongside.",
+          "text": {
+            "title": "Text and translation",
+            "source": "Qur'an — Sūrat Yūsuf (Joseph, 12:4-8).",
+            "translation_credit": "Translation: Marmaduke Pickthall, The Meaning of the Glorious Koran (1930). Public domain.",
+            "sections": [
+              {
+                "heading": "Sūrat Yūsuf (12:4-8)",
+                "units": [
+                  {
+                    "n": "12:4",
+                    "ar": "إِذْ قَالَ يُوسُفُ لِأَبِيهِ يَٓأَبَتِ إِنِّى رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًۭا وَٱلشَّمْسَ وَٱلْقَمَرَ رَأَيْتُهُمْ لِى سَجِدِينَ",
+                    "en": "When Joseph said unto his father: O my father! Lo! I saw in a dream eleven planets and the sun and the moon, I saw them prostrating themselves unto me."
+                  },
+                  {
+                    "n": "12:5",
+                    "ar": "قَالَ يَبُنَىَّ لَا تَقْصُصْ رُءْيَاكَ عَلَىٰٓ إِخْوَتِكَ فَيَكِيدُوا۟ لَكَ كَيْدًا ۖ إِنَّ ٱلشَّيْطَنَ لِلْإِنسَنِ عَدُوٌّۭ مُّبِينٌۭ",
+                    "en": "He said: O my dear son! Tell not thy brethren of thy vision, lest they plot a plot against thee. Lo! Satan is for man an open foe."
+                  },
+                  {
+                    "n": "12:6",
+                    "ar": "وَكَذَلِكَ يَجْتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِن تَأْوِيلِ ٱلْأَحَادِيثِ وَيُتِمُّ نِعْمَتَهُۥ عَلَيْكَ وَعَلَىٰٓ ءَالِ يَعْقُوبَ كَمَآ أَتَمَّهَا عَلَىٰٓ أَبَوَيْكَ مِن قَبْلُ إِبْرَهِيمَ وَإِسْحَقَ ۚ إِنَّ رَبَّكَ عَلِيمٌ حَكِيمٌۭ",
+                    "en": "Thus thy Lord will prefer thee and will teach thee the interpretation of events, and will perfect His grace upon thee and upon the family of Jacob as He perfected it upon thy forefathers, Abraham and Isaac. Lo! thy Lord is Knower, Wise."
+                  },
+                  {
+                    "n": "12:7",
+                    "ar": "لَّقَدْ كَانَ فِى يُوسُفَ وَإِخْوَتِهِۦٓ ءَايَتٌۭ لِّلسَّآئِلِينَ",
+                    "en": "Verily in Joseph and his brethren are signs (of Allah's Sovereignty) for the inquiring."
+                  },
+                  {
+                    "n": "12:8",
+                    "ar": "إِذْ قَالُوا۟ لَيُوسُفُ وَأَخُوهُ أَحَبُّ إِلَىٰٓ أَبِينَا مِنَّا وَنَحْنُ عُصْبَةٌ إِنَّ أَبَانَا لَفِى ضَلَلٍۢ مُّبِينٍ",
+                    "en": "When they said: Verily Joseph and his brother are dearer to our father than we are, many though we be. Lo! our father is in plain aberration."
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "file": "audio/Surat_Yusuf_Pt2_Wadudah_al-Minyalawi_1915.mp3",
@@ -6077,7 +6114,54 @@
           "credit": "Historic recording courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.",
           "description": "The second side of Wadūdah al-Minyalāwī's 1915 Victor recording of Sūrat Yūsuf (label 73429-B; the Arabic label reads سورة يوسف (قرآن) ٢, 'Sūrat Yūsuf (Qur'an), 2').",
           "genre": "quran",
-          "note": "The second side, labelled 'Part 2'; like the first, it is presented as audio only, without text or translation."
+          "note": "The second side, labelled 'Part 2' — the recitation runs from verse 9 (the brothers' plot) to verse 15 (the pit, and God's word to Joseph); the Arabic text and Pickthall's translation are shown alongside.",
+          "text": {
+            "title": "Text and translation",
+            "source": "Qur'an — Sūrat Yūsuf (Joseph, 12:9-15).",
+            "translation_credit": "Translation: Marmaduke Pickthall, The Meaning of the Glorious Koran (1930). Public domain.",
+            "sections": [
+              {
+                "heading": "Sūrat Yūsuf (12:9-15)",
+                "units": [
+                  {
+                    "n": "12:9",
+                    "ar": "ٱقْتُلُوا۟ يُوسُفَ أَوِ ٱطْرَحُوهُ أَرْضًۭا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ وَتَكُونُوا۟ مِنۢ بَعْدِهِۦ قَوْمًۭا صَلِحِينَ",
+                    "en": "(One said): Kill Joseph or cast him to some (other) land, so that your father's favour may be all for you, and (that) ye may afterward be righteous folk."
+                  },
+                  {
+                    "n": "12:10",
+                    "ar": "قَالَ قَآئِلٌۭ مِّنْهُمْ لَا تَقْتُلُوا۟ يُوسُفَ وَأَلْقُوهُ فِى غَيَبَتِ ٱلْجُبِّ يَلْتَقِطْهُ بَعْضُ ٱلسَّيَّارَةِ إِن كُنتُمْ فَعِلِينَ",
+                    "en": "One among them said: Kill not Joseph but, if ye must be doing, fling him into the depth of the pit; some caravan will find him."
+                  },
+                  {
+                    "n": "12:11",
+                    "ar": "قَالُوا۟ يَٓأَبَانَا مَا لَكَ لَا تَأْمَ۫نَّا عَلَىٰ يُوسُفَ وَإِنَّا لَهُۥ لَنَصِحُونَ",
+                    "en": "They said: O our father! Why wilt thou not trust us with Joseph, when lo! we are good friends to him?"
+                  },
+                  {
+                    "n": "12:12",
+                    "ar": "أَرْسِلْهُ مَعَنَا غَدًۭا يَرْتَعْ وَيَلْعَبْ وَإِنَّا لَهُۥ لَحَفِظُونَ",
+                    "en": "Send him with us to-morrow that he may enjoy himself and play. And lo! we shall take good care of him."
+                  },
+                  {
+                    "n": "12:13",
+                    "ar": "قَالَ إِنِّى لَيَحْزُنُنِىٓ أَن تَذْهَبُوا۟ بِهِۦ وَأَخَافُ أَن يَأْكُلَهُ ٱلذِّئْبُ وَأَنتُمْ عَنْهُ غَفِلُونَ",
+                    "en": "He said: Lo! in truth it saddens me that ye should take him with you, and I fear less the wolf devour him while ye are heedless of him."
+                  },
+                  {
+                    "n": "12:14",
+                    "ar": "قَالُوا۟ لَىِٕنْ أَكَلَهُ ٱلذِّئْبُ وَنَحْنُ عُصْبَةٌ إِنَّآ إِذًۭا لَّخَسِرُونَ",
+                    "en": "They said: If the wolf should devour him when we are (so strong) a band, then surely we should have already perished."
+                  },
+                  {
+                    "n": "12:15",
+                    "ar": "فَلَمَّا ذَهَبُوا۟ بِهِۦ وَأَجْمَعُوٓا۟ أَن يَجْعَلُوهُ فِى غَيَبَتِ ٱلْجُبِّ ۚ وَأَوْحَيْنَآ إِلَيْهِ لَتُنَبِّئَنَّهُم بِأَمْرِهِمْ هَذَا وَهُمْ لَا يَشْعُرُونَ",
+                    "en": "Then, when they led him off, and were of one mind that they should place him in the depth of the pit, We inspired in him: Thou wilt tell them of this deed of theirs when they know (thee) not."
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "file": "audio/Quran_Suras_1_112_114_110_Benhamouda_1921_Sorbonne.mp3",
