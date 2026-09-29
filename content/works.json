@@ -6,7 +6,7 @@
       "title_en": "Dalā'il al-Khayrāt (Guide to Blessings)",
       "author": "Imam al-Jazūlī",
       "author_dates": "d. 1465",
-      "description_en": "The celebrated manual of blessings upon the Prophet Muḥammad ﷺ composed by the Moroccan Sufi Imam Muḥammad ibn Sulaymān al-Jazūlī, recited daily by communities across the Muslim world for five centuries. The Arabic text is in the public domain and complete here in eight parts; the opening devotions, intention and first part are rendered in an original translation made for this project, and Hizbs 2–8 in the public-domain 1907 translation of Rev. John B. Pearson.",
+      "description_en": "The celebrated manual of blessings upon the Prophet Muḥammad ﷺ composed by the Moroccan Sufi Imam Muḥammad ibn Sulaymān al-Jazūlī, recited daily by communities across the Muslim world for five centuries. The Arabic text is in the public domain and complete here in eight parts; the opening devotions, intention and supplication of completion are rendered in an original translation made for this project, and Hizbs 1–8 in the public-domain 1907 translation of Rev. John B. Pearson.",
       "sections": [
         {
           "heading": "The Opening Supplication",
@@ -67,211 +67,263 @@
           "units": [
             {
               "ar": "بِسْمِ اللَّهِ الرَّحْمَـٰنِ الرَّحِيمِ",
-              "en": "In the name of God, the All-Merciful, the Ever-Merciful."
+              "en": "In the Name of Allah, the Compassionate, the Merciful.",
+              "en2": "In the name of Allah, the Compassionate, the Merciful."
             },
             {
               "ar": "صَلَّى اللَّهُ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ.",
-              "en": "May God bless our master and liege Muḥammad, and his family and his companions, and grant them peace."
+              "en": "The blessing of Allah and perfect peace be on our master and our lord Muhammad, and his Family and Companions.",
+              "en2": "The blessing of Allah and perfect peace be upon our master and our lord Muhammad, and his family and Companions."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَأَزْوَاجِهِ وَذُرِّيَّتِهِ كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَأَزْوَاجِهِ وَذُرِّيَّتِهِ كَمَا بَارَكْتَ عَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O God, bless our master Muḥammad, his wives and his progeny, as You blessed our master Abraham; and bestow grace upon our master Muḥammad, his wives and his progeny, as You bestowed grace upon the family of our master Abraham. You are the Praiseworthy, the Glorious."
+              "en": "O Allah, bless our master Muhammad, and his wives, and his descendants, as Thou didst bless our master Abraham, and favour our master Muhammad and his wives and his descendants as Thou didst favour our master Abraham; for Thou art Laudable and Glorious.",
+              "en2": "O Allah, bless our master Muhammad, his wives, and his descendants, as You blessed our master Abraham; and favour our master Muhammad, his wives, and his descendants, as You favoured our master Abraham — for You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِ سَيِّدِنَا مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ فِي العَالَمِينَ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O God, bless our master Muḥammad and his family, as You blessed our master Abraham; and bestow grace upon our master Muḥammad and the family of our master Muḥammad, as You bestowed grace upon the family of our master Abraham among all the worlds. You are the Praiseworthy, the Glorious."
+              "en": "O Allah, bless our master Muhammad and his Family, as Thou didst bless our master Abraham, and favour our master Muhammad and the Family of our master Muhammad as Thou didst favour our master Abraham in the ages; for Thou art Laudable and Glorious.",
+              "en2": "O Allah, bless our master Muhammad and his family, as You blessed our master Abraham; and favour our master Muhammad and the family of our master Muhammad, as You favoured our master Abraham throughout the ages — for You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِ سَيِّدِنَا مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِ سَيِّدِنَا مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O God, bless our master Muḥammad and the family of our master Muḥammad, as You blessed our master Abraham; and bestow grace upon our master Muḥammad and the family of our master Muḥammad, as You bestowed grace upon our master Abraham. You are the Praiseworthy, the Glorious."
+              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad, as Thou didst bless our master Abraham, and favour our master Muhammad and the Family of our master Muhammad, as Thou didst favour our master Abraham; for Thou art Laudable and Glorious.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad, as You blessed our master Abraham; and favour our master Muhammad and the family of our master Muhammad, as You favoured our master Abraham — for You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ النَّبِيِّ الأُمِّيِّ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ.",
-              "en": "O God, bless our master Muḥammad, the unlettered Prophet, and the family of our master Muḥammad."
+              "en": "O Allah, bless our master Muhammad, the Unlettered Prophet, and the Family of our master Muhammad.",
+              "en2": "O Allah, bless our master Muhammad, the unlettered Prophet, and the family of our master Muhammad."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ عَبْدِكَ وَرَسُولِكَ.",
-              "en": "O God, bless our master Muḥammad, Your servant and Your messenger."
+              "en": "O Allah, bless our master Muhammad, Thy Servant and Thy Apostle.",
+              "en2": "O Allah, bless our master Muhammad, Your servant and Your messenger."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O God, bless our master Muḥammad and the family of our master Muḥammad, as You blessed our master Abraham and the family of our master Abraham. You are the Praiseworthy, the Glorious."
+              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad, as Thou didst bless our master Abraham and the Family of our master Abraham; for Thou art Laudable and Glorious.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad, as You blessed our master Abraham and the family of our master Abraham — for You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ بَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O God, bestow grace upon our master Muḥammad and the family of our master Muḥammad, as You bestowed grace upon our master Abraham and the family of our master Abraham. You are the Praiseworthy, the Glorious."
+              "en": "O Allah, favour our master Muhammad and the Family of our master Muhammad, as Thou didst favour our master Abraham and the Family of our master Abraham; for Thou art Laudable and Glorious.",
+              "en2": "O Allah, favour our master Muhammad and the family of our master Muhammad, as You favoured our master Abraham and the family of our master Abraham — for You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ وَتَرَحَّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا تَرَحَّمْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O God, have mercy upon our master Muḥammad and the family of our master Muḥammad, as You had mercy upon our master Abraham and the family of our master Abraham. You are the Praiseworthy, the Glorious."
+              "en": "And, O Allah, have mercy on our master Muhammad and on the Family of our master Muhammad, as Thou hadst mercy on our master Abraham and the Family of our master Abraham; for Thou art Laudable and Glorious.",
+              "en2": "And, O Allah, have mercy on our master Muhammad and the family of our master Muhammad, as You had mercy on our master Abraham and the family of our master Abraham — for You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ وَتَحَنَّنْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا تَحَنَّنْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O God, be tender toward our master Muḥammad and the family of our master Muḥammad, as You were tender toward our master Abraham and the family of our master Abraham. You are the Praiseworthy, the Glorious."
+              "en": "And, O Allah, show compassion to our master Muhammad and the Family of our master Muhammad, as Thou didst show compassion to our master Abraham and the Family of our master Abraham; for Thou art Laudable and Glorious.",
+              "en2": "And, O Allah, show compassion to our master Muhammad and the family of our master Muhammad, as You showed compassion to our master Abraham and the family of our master Abraham — for You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا سَلَّمْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O God, grant peace upon our master Muḥammad and the family of our master Muḥammad, as You granted peace upon our master Abraham and the family of our master Abraham. You are the Praiseworthy, the Glorious."
+              "en": "O Allah, and send peace to our master Muhammad and the Family of our master Muhammad, as Thou didst send peace to our master Abraham, and the Family of our master Abraham; for Thou art Laudable and Glorious.",
+              "en2": "O Allah, send peace upon our master Muhammad and the family of our master Muhammad, as You sent peace upon our master Abraham and the family of our master Abraham — for You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ وَارْحَمْ سَيِّدَنَا مُحَمَّدًا وَآلَ سَيِّدِنَا مُحَمَّدٍ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا صَلَّيْتَ وَرَحِمْتَ وَبَارَكْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ فِي العَالَمِينَ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O God, bless our master Muḥammad and the family of our master Muḥammad; have mercy on our master Muḥammad and the family of our master Muḥammad; and bestow grace upon our master Muḥammad and the family of our master Muḥammad, as You blessed, had mercy upon, and bestowed grace upon our master Abraham and the family of our master Abraham among all the worlds. You are the Praiseworthy, the Glorious."
+              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad, and have mercy on our master Muhammad and the Family of our master Muhammad, and show favour on our master Muhammad and the Family of our master Muhammad, as Thou didst show blessing and mercy and favour to our master Abraham and the Family of our master Abraham in the ages; for Thou art Laudable and Glorious.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad, have mercy on our master Muhammad and the family of our master Muhammad, and show favour to our master Muhammad and the family of our master Muhammad, as You showed blessing, mercy, and favour to our master Abraham and the family of our master Abraham throughout the ages — for You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ النَّبِيِّ وَأَزْوَاجِهِ أُمَّهَاتِ المُؤْمِنِينَ وَذُرِّيَّتِهِ وَأَهْلِ بَيْتِهِ كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O God, bless our master Muḥammad the Prophet, and his wives, the Mothers of the Believers, and his progeny and the people of his household, as You blessed our master Abraham. You are the Praiseworthy, the Glorious."
+              "en": "O Allah, bless our master Muhammad the Prophet, and his wives who are Mothers of the Faithful, and his descendants and the people of his House, as Thou didst bless our master Abraham, for Thou art Laudable and Glorious.",
+              "en2": "O Allah, bless our master Muhammad the Prophet, his wives who are the Mothers of the Faithful, his descendants, and the people of his house, as You blessed our master Abraham — for You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ بَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O God, bestow grace upon our master Muḥammad and the family of our master Muḥammad, as You bestowed grace upon our master Abraham. You are the Praiseworthy, the Glorious."
+              "en": "O Allah, show favour to our master Muhammad and the Family of our master Muhammad, as Thou didst show favour to our master Abraham; for Thou art Laudable and Glorious.",
+              "en2": "O Allah, show favour to our master Muhammad and the family of our master Muhammad, as You showed favour to our master Abraham — for You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ دَاحِيَ المَدْحُوَّاتِ، وَبَارِئَ المَسْمُوكَاتِ، وَجَبَّارَ القُلُوبِ عَلَى فِطْرَتِهَا شَقِيِّهَا وَسَعِيدِهَا، اجْعَلْ شَرَائِفَ صَلَوَاتِكَ وَنَوَامِيَ بَرَكَاتِكَ وَرَأْفَةَ تَحَنُّنِكَ عَلَى سَيِّدِنَا مُحَمَّدٍ عَبْدِكَ وَرَسُولِكَ الفَاتِحِ لِمَا أُغْلِقَ، وَالخَاتِمِ لِمَا سَبَقَ، وَالمُعْلِنِ الحَقَّ بِالحَقِّ، وَالدَّامِغِ لِجَيْشَاتِ الأَبَاطِيلِ كَمَا حُمِّلَ، فَاضْطَلَعَ بِأَمْرِكَ بِطَاعَتِكَ، مُسْتَوْفِزًا فِي مَرْضَاتِكَ، وَاعِيًا لِوَحْيِكَ، حَافِظًا لِعَهْدِكَ، مَاضِيًا عَلَى نَفَاذِ أَمْرِكَ، حَتَّى أَوْرَى قَبَسًا لِقَابِسٍ، آلَاءُ اللَّهِ تَصِلُ بِأَهْلِهِ أَسْبَابَهُ، بِهِ هُدِيَتِ القُلُوبُ بَعْدَ خَوْضَاتِ الفِتَنِ وَالإِثْمِ، وَأَبْهَجَ مُوضِحَاتِ الأَعْلَامِ، وَنَائِرَاتِ الأَحْكَامِ، وَمُنِيرَاتِ الإِسْلَامِ، فَهُوَ أَمِينُكَ المَأْمُونُ، وَخَازِنُ عِلْمِكَ المَخْزُونِ، وَشَهِيدُكَ يَوْمَ الدِّينِ، وَبَعِيثُكَ نِعْمَةً، وَرَسُولُكَ بِالْحَقِّ رَحْمَةً.",
-              "en": "O God, Spreader of the earths spread out, Creator of the heavens raised high, who forms hearts upon their inborn nature — the wretched and the felicitous among them — bestow the noblest of Your blessings, the most abundant of Your graces, and the most tender of Your compassion upon our master Muḥammad: Your servant and Your messenger, the opener of what was closed, the seal of what came before, the proclaimer of truth by the truth, and the crusher of the armies of falsehoods, as he was charged. He took up Your command in obedience to You, hastening to Your pleasure, preserving Your revelation, keeping Your covenant, and carrying out the fulfilment of Your command, until he kindled a brand for every seeker of fire — God's blessings reaching their kin through him. By him hearts were guided after plunges into trials and sin, and he raised bright, manifest signs, radiant rulings, and the lights of Islam. He is Your trustworthy keeper of trust, the guardian of Your treasured knowledge, Your witness on the Day of Judgement, Your envoy as a favour, and Your messenger, in truth, as a mercy."
+              "en": "O Allah, Thou who didst level the plains and create the heights, and art Controller of hearts in their imaginations, be they wretched or be they happy, give the most excellent of Thy blessings and the kindest of Thy favours and the gentlest of Thy graces to Muhammad, Thy Servant and Apostle, who reveals whatever is most closed and secret, and seals whatever is past, and manifests the truth by the truth, and destroys the armies of folly, even as he was supported and enabled to bear his burthen in Thy work in obedience to Thee, maintaining himself promptly in Thy good favour, mindful of Thy revelation, observant of the promise, ever forward in the advance of Thy work, till he kindled the light for those who aspired to receiving the light, and access was gained through him to the blessings of Allah: when hearts were guided by him after discussions upon trials and sins, and the finest arguments of the learned, and the brilliant thoughts of the wise, and the enlightenments of self-surrender: verily he is Thy trusted trustee, and the treasure of Thy valued knowledge, and Thy Witness on the Day of Judgment, and Thy Envoy as a favour, and Thy Apostle too, in truth, as a mercy.",
+              "en2": "O Allah, You who levelled the plains and created the heights, who govern hearts according to their inborn nature, wretched or happy: give the most excellent of Your blessings, the kindest of Your favours, and the gentlest of Your graces to Muhammad, Your servant and messenger — who opened what was closed, sealed what came before, proclaimed the truth by the truth, and crushed the armies of falsehood, bearing his burden in Your work as he was charged: in obedience to You, hastening to Your good pleasure, mindful of Your revelation, keeping Your covenant, ever pressing forward with Your command, until he kindled a light for everyone who aspired to receive it, and through him people gained access to the blessings of Allah; hearts were guided by him after plunging into trials and sins, after the finest arguments of the learned, the brilliant thoughts of the wise, and the lights of self-surrender. Truly he is Your trusted trustee, the treasure of Your valued knowledge, Your witness on the Day of Judgement, Your envoy as a favour, and Your messenger, in truth, as a mercy."
             },
             {
               "ar": "اللَّهُمَّ افْسَحْ لَهُ فِي عَدْنِكَ، وَاجْزِهِ مُضَاعَفَاتِ الخَيْرِ مِن فَضْلِكَ مُهَنَّئَاتٍ لَهُ غَيْرَ مُكَدَّرَاتٍ، مِنْ فَوْزِ ثَوَابِكَ المَحْلُولِ، وَجَزِيلِ عَطَائِكَ المَعْلُولِ.",
-              "en": "O God, make room for him in Your Eden, and reward him with multiplied good from Your bounty — rewards that gladden him and are never troubled, from the triumph of Your lawful reward and Your generous, ever-renewed gift."
+              "en": "O Allah, give him free place in Thy Eden, and double his reward in the best of Thy favour, made pleasant and unalloyed for him, from the bounty of Thy manifest recompense, and the greatness of Thy repeated gifts.",
+              "en2": "O Allah, give him a spacious place in Your Eden, and double his reward from the best of Your favour — made pleasant and untroubled for him — from the bounty of Your manifest recompense and the greatness of Your repeated gifts."
             },
             {
               "ar": "اللَّهُمَّ أَعْلِ عَلَى بِنَاءِ النَّاسِ بِنَاءَهُ، وَأَكْرِمْ مَثْوَاهُ لَدَيْكَ وَنُزُلَهُ، وَأَتْمِمْ لَهُ نُورَهُ، وَاجْزِهِ مِنِ ابْتِعَاثِكَ لَهُ مَقْبُولَ الشَّهَادَةِ، وَمَرْضِيَّ المَقَالَةِ، ذَا مَنْطِقٍ عَدْلٍ، وَخُطَّةٍ فَصْلٍ، وَبُرْهَانٍ عَظِيمٍ، ﴿\nإِنَّ اللَّهَ وَمَلَـٰٓئِكَتَهُۥ يُصَلُّونَ عَلَى النَّبِىِّ ۚ يَـٰٓأَيُّهَا الَّذِينَ ءَامَنُواْ صَلُّواْ عَلَيْهِ وَسَلِّمُواْ تَسْلِيمًا  ﴾، لَبَّيْكَ اللَّهُمَّ رَبِّى وَسَعْدَيْكَ صَلَوَاتُ اللَّهِ البَرِّ الرَّحِيمِ، وَالمَلَائِكَةِ المُقَرَّبِينَ، وَالنَّبِيِّينَ وَالصِّدِّيقِينَ، وَالشُّهَدَاءِ وَالصَّالِحِينَ، وَمَا سَبَّحَ لَكَ مِنْ شَيْءٍ يَا رَبَّ العَالَمِينَ، عَلَى سَيِّدِنَا مُحَمَّدِ بْنِ عَبْدِ اللَّهِ، خَاتِمِ النَّبِيِّينَ، وَسَيِّدِ المُرْسَلِينَ، وَإِمَامِ المُتَّقِينَ، وَرَسُولِ رَبِّ العَالَمِينَ، الشَّاهِدِ البَشِيرِ، الدَّاعِي إِلَيْكَ بِإِذْنِكَ، السِّرَاجِ المُنِيرِ، وَعَلَيْهِ السَّلَامُ.",
-              "en": "O God, raise his edifice above the edifices of mankind; honour his resting place and abode with You; perfect his light for him; and reward him, for Your sending him forth, with accepted testimony and pleasing speech — a tongue of justice, a decisive way, and a mighty proof. «God and His angels bless the Prophet. O you who believe, bless him and greet him with peace.» At Your service, O God, my Lord, and gladly at Your service! The blessings of God, the Benign, the Merciful, and of the angels brought near, and of the prophets, the truthful, the martyrs and the righteous, and of everything that glorifies You, Lord of the worlds, be upon our master Muḥammad son of ʿAbd Allāh — the Seal of the Prophets, the master of the messengers, the leader of the God-conscious, the messenger of the Lord of the worlds, the witness, the bearer of glad tidings, the caller to You by Your leave, the radiant lamp — and upon him be peace."
+              "en": "O Allah, exalt his followers over all mankind and honour his abode and his sojourn in Thy Presence, and give him perfect light, and when Thou recallest him to life, reward him by Thy witness to the reception and by Thy approval of the address awarded him, so that he becomes the author of upright speech, gracious conduct, and prevailing reason; Verily Allah and His Angels bless the Prophet. O ye who believe, pray Allah to bless him, and grant him abundant peace; I am Thy servant; O Allah, my Lord, in the name of Thy own felicity, the blessings of the True and Merciful Allah, and the angels who have the privilege of access to the Presence, and the Prophets and the Just, and the Witnesses, and the Upright, and whatever else offers Thee praise; yea, Thou Lord of the ages, may these blessings be on our master Muhammad, son of Abdullah, Seal of the Prophets, and master of the Apostles, Imam of the Devout, and Apostle of the Lord of the Worlds; the Witness, the Evangelist, the one who invoked mankind towards Thee by Thy leave, the Lamp of the Brightness, and on him be peace.",
+              "en2": "O Allah, raise his edifice above the edifices of mankind; honour his resting-place and his lodging with You; perfect his light; and when You call him back to life, reward him with accepted testimony and approved speech — a tongue of justice, a decisive word, and a mighty proof. Truly, Allah and His angels bless the Prophet; O you who believe, call blessings upon him and greet him with abundant peace. At Your service, O Allah, my Lord, and at Your service again: may the blessings of Allah, the Benign, the Merciful, and of the angels brought near to the Presence, and of the prophets, the truthful, the witnesses, and the upright, and of everything that glorifies You — O Lord of the worlds — be upon our master Muhammad, son of ʿAbdullāh, the Seal of the Prophets, the master of the messengers, the imam of the devout, the messenger of the Lord of the worlds, the witness, the bearer of good news, the caller to You by Your leave, the luminous lamp — and upon him be peace."
             },
             {
               "ar": "اللَّهُمَّ اجْعَلْ صَلَوَاتِكَ وَبَرَكَاتِكَ وَرَحْمَتَكَ عَلَى سَيِّدِ المُرْسَلِينَ، وَإِمَامِ المُتَّقِينَ، وَخَاتِمِ النَّبِيِّينَ، سَيِّدِنَا مُحَمَّدٍ عَبْدِكَ وَرَسُولِك، إِمَامِ الخَيْرِ، وَقَائِدِ الخَيْرِ، وَرَسُولِ الرَّحْمَةِ.",
-              "en": "O God, bestow Your blessings, Your grace and Your mercy upon the master of the messengers, the leader of the God-conscious, and the Seal of the Prophets — our master Muḥammad, Your servant and Your messenger, the leader of goodness, the guide to goodness, and the messenger of mercy."
+              "en": "O Allah, give effect to Thy Blessings and Thy Gracious Favours and Thy Mercy on the master of Apostles, the Imam of the Devout, the Seal of the Prophets, Muhammad Thy Servant and Apostle, the good Imam, the good Ruler, and Apostle of Mercy.",
+              "en2": "O Allah, bestow Your blessings, Your gracious favours, and Your mercy upon the master of the messengers, the imam of the devout, the Seal of the Prophets — Muhammad, Your servant and messenger, the good imam, the good leader, and the messenger of mercy."
             },
             {
               "ar": "اللَّهُمَّ ابْعَثْهُ مَقَامًا مَّحْمُودًا يَغْبِطُهُ فِيهِ الأَوَّلُونَ وَالآخِرُونَ.",
-              "en": "O God, raise him to a Praised Station in which the first and the last will envy him."
+              "en": "O Allah, send him to an honourable place, so that the First and the Last will envy him in it.",
+              "en2": "O Allah, raise him to an honoured station in which the first and the last will envy him."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O God, bless our master Muḥammad and the family of our master Muḥammad, as You blessed our master Abraham. You are the Praiseworthy, the Glorious."
+              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad, even as Thou didst bless our master Abraham; for Thou art Laudable and Glorious.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad, as You blessed our master Abraham — for You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ بَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O God, bestow grace upon our master Muḥammad and the family of our master Muḥammad, as You bestowed grace upon our master Abraham. You are the Praiseworthy, the Glorious."
+              "en": "O Allah, grant favour to our master Muhammad and the Family of our master Muhammad, as Thou didst to the Family of our master Abraham; for Thou art Laudable and Glorious.",
+              "en2": "O Allah, grant favour to our master Muhammad and the family of our master Muhammad, as You granted favour to the family of our master Abraham — for You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَأَصْحَابِهِ وَأَوْلَادِهِ، وَأَزْوَاجِهِ وَذُرِّيَّتِهِ، وَأَهْلِ بَيْتِهِ وَأَصْهَارِهِ، وَأَنْصَارِهِ وَأَشْيَاعِهِ، وَمُحِبِّيهِ وَأُمَّتِهِ وَعَلَيْنَا مَعَهُمْ أَجْمَعِينَ يَا أَرْحَمَ الرَّاحِمِينَ.",
-              "en": "O God, bless our master Muḥammad, and his family and his companions, his children, his wives and his progeny, the people of his household and his in-laws, his helpers and his followers, those who love him, and his community — and us together with them all, Most Merciful of the merciful."
+              "en": "Bless our master Muhammad and his Family, and his Comrades, and his children, and his wives, and his descendants, and the men of his house, and his relatives by marriage, and those who aided him, and his partisans, and those who were attached to him, and are of his creed, and ourselves in union with them, one and all, Thou Merciful and Compassionate.",
+              "en2": "Bless our master Muhammad, his family, his Companions, his children, his wives, his descendants, the people of his house, his relatives by marriage, those who aided him, his partisans, those who were attached to him and follow his creed — and ourselves together with them all, O Merciful and Compassionate."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَنْ صَلَّى عَلَيْهِ، وَصَلِّ عَلَي سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَنْ لَّمْ يُصَلِّ عَلَيْهِ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ كَمَا أَمَرْتَنَا بِالصَّلاةِ عَلَيْهِ، وَصَلِّ عَلَيْهِ كَمَا يُحِبُّ أَنْ يُصَلَّى عَلَيْهِ.",
-              "en": "O God, bless our master Muḥammad as many times as those who have blessed him; bless our master Muḥammad as many times as those who have not blessed him; bless our master Muḥammad as You commanded us to bless him; and bless him as he loves to be blessed."
+              "en": "O Allah, bless our master Muhammad in every one who blesses him, and bless our master Muhammad in every one who does not bless him, and bless our master Muhammad as Thou hast enjoined us, in prayer to him; and bless our master Muhammad even as it is meet that he should be blessed.",
+              "en2": "O Allah, bless our master Muhammad in everyone who blesses him; bless our master Muhammad in everyone who does not bless him; bless our master Muhammad as You commanded us to, in prayer for him; and bless our master Muhammad as it is fitting that he should be blessed."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا أَمَرْتَنَا أَنْ نُصَلِّيَ عَلَيْهِ.",
-              "en": "O God, bless our master Muḥammad and the family of our master Muḥammad, as You commanded us to bless him."
+              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad, even as Thou hast enjoined that we bless him.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad, as You commanded us to bless him."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا هُوَ أَهْلُهُ.",
-              "en": "O God, bless our master Muḥammad and the family of our master Muḥammad, as befits him."
+              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad as much as he deserves.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad as much as he deserves."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا تُحِبُّ وَتَرْضَاهُ لَهُ.",
-              "en": "O God, bless our master Muḥammad and the family of our master Muḥammad, as You love and are pleased for him."
+              "en": "Bless our master Muhammad and the Family of our master Muhammad even as Thou desirest, and art pleased to approve for him.",
+              "en2": "Bless our master Muhammad and the family of our master Muhammad as You desire and are pleased to approve for him."
             },
             {
               "ar": "اللَّهُمَّ يَا رَبَّ سَيِّدِنَا مُحَمَّدٍ وَآلِ سَيِّدِنَا مُحَمَّدٍ، صَلِّ عَلَي سَيِّدِنَا مُحَمَّدٍ وَآلِ سَيِّدِنَا مُحَمَّدٍ وَأَعْطِ سَيِّدَنَا مُحَمَّدًا الدَّرَجَةَ وَالوَسِيلَةَ فِي الجَنَّةِ.",
-              "en": "O God, Lord of our master Muḥammad and of the family of our master Muḥammad, bless our master Muḥammad and the family of our master Muḥammad, and grant our master Muḥammad the Degree and the Means in Paradise."
+              "en": "O Allah, yea, Thou Lord of our master Muhammad and the Family of our master Muhammad, bless our master Muhammad and the Family of our master Muhammad, and give our master Muhammad rank and influence in Paradise.",
+              "en2": "O Allah — Lord of our master Muhammad and the family of our master Muhammad — bless our master Muhammad and the family of our master Muhammad, and give our master Muhammad rank and intercession in Paradise."
             },
             {
               "ar": "اللَّهُمَّ يَا رَبَّ سَيِّدِنَا مُحَمَّدٍ وَآلِ سَيِّدِنَا مُحَمَّدٍ، اجْزِ سَيِّدَنَا مُحَمَّدًا صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ مَا هُوَ أَهْلُهُ.",
-              "en": "O God, Lord of our master Muḥammad and of the family of our master Muḥammad, reward our master Muḥammad, may God bless him and grant him peace, as he deserves."
+              "en": "O Allah, yea, Thou Lord of our master Muhammad and the Family of our master Muhammad, reward our master Muhammad — Allah bless him and give him peace — even as he deserves.",
+              "en2": "O Allah — Lord of our master Muhammad and the family of our master Muhammad — reward our master Muhammad, Allah bless him and grant him peace, as richly as he deserves."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ وَعَلَى أَهْلِ بَيْتِهِ.",
-              "en": "O God, bless our master Muḥammad and the family of our master Muḥammad and the people of his household."
+              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad, and the people of his house.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad, and the people of his house."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ حَتَّى لَا يَبْقَى مِنَ الصَّلَاةِ شَيْءٌ، وَارْحَمْ سَيِّدَنَا مُحَمَّدًا وَآلَ سَيِّدِنَا مُحَمَّدٍ حَتَّى لَا يَبْقَى مِنَ الرَّحْمَةِ شَيْءٌ، وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ حَتَّى لَا يَبْقَى مِنَ البَرَكَةِ شَيْءٌ، وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ حَتَّى لَا يَبْقَى مِنَ السَّلَامِ شَيْءٌ.",
-              "en": "O God, bless our master Muḥammad and the family of our master Muḥammad until nothing of blessing remains; have mercy on our master Muḥammad and the family of our master Muḥammad until nothing of mercy remains; bestow grace upon our master Muḥammad and the family of our master Muḥammad until nothing of grace remains; and grant peace upon our master Muḥammad and the family of our master Muḥammad until nothing of peace remains."
+              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad, until there is no sort of blessing left; and have mercy upon our master Muhammad and the Family of our master Muhammad, until there is no sort of mercy left; and show favour to our master Muhammad and the Family of our master Muhammad, until there is no sort of favour left; and grant peace to our master Muhammad and the family of our master Muhammad, until there is no form of peace left.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad until no blessing of any kind is left; have mercy on our master Muhammad and the family of our master Muhammad until no mercy of any kind is left; show favour to our master Muhammad and the family of our master Muhammad until no favour of any kind is left; and grant peace to our master Muhammad and the family of our master Muhammad until no peace of any kind is left."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ فِي الأَوَّلِينَ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ فِي الآخِرِينَ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ فِي النَّبِيِّينَ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ فِي المُرْسَلِينَ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ فِي المَلَإِ الأَعْلَى إِلَى يَوْمِ الدِّينِ.",
-              "en": "O God, bless our master Muḥammad among the first; bless our master Muḥammad among the last; bless our master Muḥammad among the prophets; bless our master Muḥammad among the messengers; and bless our master Muḥammad in the Highest Assembly until the Day of Judgement."
+              "en": "O Allah, bless our master Muhammad among the First, and bless our master Muhammad among the Last; and bless our master Muhammad among the Prophets, and bless our master Muhammad among the Apostles, and bless our master Muhammad among the Exalted Assembly until the Day of Judgment.",
+              "en2": "O Allah, bless our master Muhammad among the first; bless our master Muhammad among the last; bless our master Muhammad among the prophets; bless our master Muhammad among the messengers; and bless our master Muhammad in the Exalted Assembly until the Day of Judgement."
             },
             {
               "ar": "اللَّهُمَّ أَعْطِ سَيِّدَنَا مُحَمَّدًا الوَسِيلَةَ وَالفَضِيلَةَ، وَالشَّرَفَ وَالدَّرَجَةَ الكَبِيرَةَ.",
-              "en": "O God, grant our master Muḥammad the Means, the Excellence, the honour and the great Degree."
+              "en": "O Allah, give our master Muhammad influence, and grace, and grandeur, and powerful rank.",
+              "en2": "O Allah, give our master Muhammad intercession, grace, grandeur, and mighty rank."
             },
             {
               "ar": "اللَّهُمَّ إِنِّي آمَنْتُ بِسَيِّدِنَا مُحَمَّدٍ وَلَمْ أَرَهُ، فَلَا تَحْرِمْنِي فِي الجِنَانِ رُؤْيَتَهُ، وَارْزُقْنِي صُحْبَتَهُ، وَتَوَفَّنِي عَلَى مِلَّتِهِ، وَاسْقِنِي مِنْ حَوْضِهِ مَشْرَبًا رَوِيًّا، سَائِغًا هَنِيًّا، لَا نَظْمَأُ بَعْدَهُ أَبَدًا، إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ.",
-              "en": "O God, I have believed in our master Muḥammad without having seen him, so do not deprive me of the sight of him in the Gardens; provide me with his company; take my soul upon his creed; and give me to drink from his Basin a quenching draught, palatable and sweet, after which I shall never thirst. You are powerful over all things."
+              "en": "For, O Allah, I believe in our master Muhammad, and I have not beheld him; so do not Thou exclude me from the gardens where his friends are found; grant me the privilege of his company, and at last receive me into his society, and suffer me to drink from his cistern a refreshing, palatable, wholesome draught, after which we shall never thirst; for Thou art in everything all Powerful.",
+              "en2": "For, O Allah, I believe in our master Muhammad though I have not seen him — so do not exclude me from the gardens where his friends are found; grant me the privilege of his company, receive me at last into his society, and let me drink from his Pool a refreshing, palatable, wholesome draught after which we will never thirst — for You are powerful over all things."
             },
             {
               "ar": "اللَّهُمَّ أَبْلِغْ رُوحَ سَيِّدِنَا مُحَمَّدٍ مِنِّي تَحِيَّةً وَسَلَامًا.",
-              "en": "O God, convey to the spirit of our master Muḥammad my greeting and salutation."
+              "en": "O Allah, let the spirit of our master Muhammad receive from me salutation and peace.",
+              "en2": "O Allah, let the spirit of our master Muhammad receive greeting and peace from me."
             },
             {
               "ar": "اللَّهُمَّ وَكَمَا آمَنْتُ بِسَيِّدِنَا مُحَمَّدٍ وَلَمْ أَرَهُ، فَلَا تَحْرِمْنِي فِي الجِنَانِ رُؤْيَتَهُ.",
-              "en": "O God, as I have believed in our master Muḥammad without having seen him, do not deprive me of the sight of him in the Gardens."
+              "en": "And, O Allah, even as I have believed in our master Muhammad and have not beheld him, so do not Thou exclude me from the gardens where his friends are found.",
+              "en2": "And, O Allah, as I have believed in our master Muhammad without seeing him, do not exclude me from the gardens where his friends are found."
             },
             {
               "ar": "اللَّهُمَّ تَقَبَّلْ شَفَاعَةَ سَيِّدِنَا مُحَمَّدٍ الكُبْرَى، وَارْفَعْ دَرَجَتَهُ العُلْيَا، وَآتِهِ سُؤْلَهُ فِي الآخِرَةِ وَالأُولَى، كَمَا آتَيْتَ سَيِّدَنَا إِبْرَاهِيمَ وَسَيِّدَنَا مُوسَى.",
-              "en": "O God, accept the greatest intercession of our master Muḥammad; raise his highest degree; and grant him his petition in the Hereafter and in this world, as You granted our master Abraham and our master Moses."
+              "en": "O Allah, receive the intercession of our master Muhammad the great, and advance his already exalted rank, and grant his prayer in the Hereafter and in this Present life, even as Thou didst with our master Abraham and our master Moses.",
+              "en2": "O Allah, accept the great intercession of our master Muhammad, raise his already exalted rank still higher, and grant him his petition in the hereafter and in this present life, as You granted our master Abraham and our master Moses."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ، وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O God, bless our master Muḥammad and the family of our master Muḥammad, as You blessed our master Abraham and the family of our master Abraham; and bestow grace upon our master Muḥammad and the family of our master Muḥammad, as You bestowed grace upon our master Abraham and the family of our master Abraham. You are the Praiseworthy, the Glorious."
+              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad, even as Thou didst bless our master Abraham and the Family of our master Abraham, and show favour to our master Muhammad and the family of our master Muhammad, even as Thou hast shown favour to our master Abraham and the Family of our master Abraham; for Thou art Laudable and Glorious.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad, as You blessed our master Abraham and the family of our master Abraham; and show favour to our master Muhammad and the family of our master Muhammad, as You showed favour to our master Abraham and the family of our master Abraham — for You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ نَبِيِّكَ وَرَسُولِكَ، وَسَيِّدِنَا إِبْرَاهِيمَ خَلِيلِكَ وَصَفِيِّكَ، وَسَيِّدِنَا مُوسَى كَلِيمِكَ وَنَجِيِّكَ، وَسَيِّدِنَا عِيسَى رُوحِكَ وَكَلِمَتِكَ، وَعَلَى جَمِيعِ مَلَائِكَتِكَ وَرُسُلِكَ وَأَنْبِيَائِكَ، وَخِيرَتِكَ مِنْ خَلْقِكَ وَأَصْفِيَائِكَ، وَخَاصَّتِكَ وَأَوْلِيَائِكَ مِنْ أَهْلِ أَرْضِكَ وَسَمَائِكَ، وَصَلَّى اللَّهُ عَلَى سَيِّدِنَا مُحَمَّدٍ عَدَدَ خَلْقِهِ وَرِضَاءَ نَفْسِهِ، وَزِنَةَ عَرْشِهِ وَمِدَادَ كَلِمَاتِهِ، وَكَمَا هُوَ أَهْلُهُ، وَكُلَّمَا ذَكَرَهُ الذَّاكِرُونَ، وَغَفَلَ عَنْ ذِكْرِهِ الغَافِلُونَ، وَعَلَى أَهْلِ بَيْتِهِ، وَعِتْرَتِهِ الطَّاهِرِينَ وَسَلَّمَ تَسْلِيمًا.",
-              "en": "O God, bless, grant peace, and bestow grace upon our master Muḥammad, Your prophet and Your messenger; and upon our master Abraham, Your intimate friend and Your chosen one; and our master Moses, Your interlocutor and Your confidant; and our master Jesus, Your spirit and Your word; and upon all Your angels, Your messengers and Your prophets, the elect of Your creation and Your purest, Your intimate ones and Your saints among the people of Your earth and Your heaven. And may God bless our master Muḥammad as many times as the number of His creation, to His own pleasure, in the weight of His Throne and the ink of His words, and as befits him, and as often as those who remember mention him and the heedless neglect his mention — and upon the people of his household and his pure progeny, and grant them abundant peace."
+              "en": "O Allah, show blessing and peace and favour to our master Muhammad, Thy Prophet and Apostle, and to our master Abraham, Thy Friend and Chosen ally, and to our master Moses, Thy Friend in converse and confidence, and to our master Jesus, Thy Spirit and Thy spokesman, and to Thy angels one and all, and to Thy Apostles, and Thy Prophets, and to the best Thou hast in Thy creation, and to the chief of Thy elect, and to Thy attendants, and to those who aid Thee of the denizens of Thy earth and Thy heaven; and may Allah bless our master Muhammad in all His creation and in His own special favour, and the embellishment of His Throne, and the form of His Words, and even as they are his people; so often as his memory is renewed by those who renew it, or neglected by those who neglect its renewal; blessing on the people of his house, and on the pure descendants, and perfect peace to all.",
+              "en2": "O Allah, show blessing, peace, and favour to our master Muhammad, Your prophet and messenger; to our master Abraham, Your friend and chosen ally; to our master Moses, Your friend in converse and confidence; to our master Jesus, Your spirit and Your word; and to all Your angels, Your messengers, and Your prophets, the best of Your creation, the chief of Your elect, Your attendants, and those who aid You among the dwellers of Your earth and Your heaven. And may Allah bless our master Muhammad as many times as all His creation, to His own pleasure, to the measure of the adornment of His Throne and the form of His words, and as befits him, as often as his memory is renewed by those who renew it and neglected by those who neglect it — blessings on the people of his house and his pure descendants, and perfect peace upon all."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى أَزْوَاجِهِ وَذُرِّيَّتِهِ، وَعَلَى جَمِيعِ النَّبِيِّينَ وَالمُرْسَلِينَ، وَالمَلَائِكَةِ وَالمُقَرَّبِينَ، وَجَمِيعِ عِبَادِ اللَّهِ الصَّالِحِينَ، عَدَدَ مَا أَمْطَرَتِ السَّمَاءُ مُنْذُ بَنَيْتَهَا، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا أَنبَتَتِ الأَرْضُ مُنْذُ دَحَوْتَهَا، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ عَدَدَ النُّجُومِ فِي السَّمَاءِ فَإِنَّكَ أَحْصَيْتَهَا، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا تَنَفَّسَتِ الأَرْوَاحُ مُنْذُ خَلَقْتَهَا، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا خَلَقْتَ وَمَا تَخْلُقُ، وَمَا أَحَاطَ بِهِ عِلْمُكَ وَأَضْعَافَ ذَلِكَ.",
-              "en": "O God, bless our master Muḥammad, and his wives and his progeny, and all the prophets and messengers, and the angels and those brought near, and all of God's righteous servants — as many times as the sky has rained since You built it; and bless our master Muḥammad as many times as the earth has brought forth since You spread it; and bless our master Muḥammad as many times as the stars in the sky, for You have counted them; and bless our master Muḥammad as many times as the spirits have breathed since You created them; and bless our master Muḥammad as many times as what You have created and what You will create, and what Your knowledge encompasses, and many times more than that."
+              "en": "O Allah, bless our master Muhammad and his wives and his descendants, and all the Prophets and Apostles, and the angels, and those who have the privilege of access, and all the upright servants of Allah, in all that the heavens have blessed with rain ever since Thou hast framed them; O Allah, bless our master Muhammad in all that the earth has produced, ever since Thou didst form its plains; and bless our master Muhammad in all the stars in the Heaven, even as Thou hast set them in order; and bless our master Muhammad in all the breezes that have breathed, ever since Thou createdst them; and bless our master Muhammad in all that Thou hast created, and that Thou wilt create, and that Thy knowledge includes, aye, and twice as much.",
+              "en2": "O Allah, bless our master Muhammad, his wives, and his descendants, and all the prophets and messengers, the angels and those brought near, and all the upright servants of Allah, as many times as the heavens have rained since You framed them; O Allah, bless our master Muhammad in all the earth has produced since You spread out its plains; bless our master Muhammad in all the stars of heaven, as You set them in order; bless our master Muhammad in all the breezes that have blown since You created them; and bless our master Muhammad in all You have created, all You will create, and all Your knowledge encompasses — yes, and twice as much again."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَيْهِمْ عَدَدَ خَلْقِكَ، وَرِضَاءَ نَفْسِكَ، وَزِنَةَ عَرْشِكَ، وَمِدَادَ كَلِمَاتِكَ، وَمَبْلَغَ عِلْمِكَ وَآيَاتِكَ.",
-              "en": "O God, bless them as many times as the number of Your creation, to Your own pleasure, in the weight of Your Throne, in the ink of Your words, and to the utmost of Your knowledge and Your signs."
+              "en": "O Allah, bless them in all Thy creation, and whatever Thy Soul favoureth, and the embellishment of Thy Throne, and the form of Thy Words, and the extent of Thy knowledge, and Thy Signs, and the beauty of all Thy created works.",
+              "en2": "O Allah, bless them in all Your creation, to the pleasure of Your Self, to the measure of the adornment of Your Throne, the form of Your words, the extent of Your knowledge and Your signs, and the beauty of all Your created works."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَيْهِمْ صَلَاةً تَفُوقُ وَتَفْضُلُ صَلَاةَ المُصَلِّينَ عَلَيْهِمْ مِنَ الخَلْقِ أَجْمَعِينَ، كَفَضْلِكَ عَلَى جَمِيعِ خَلْقِكَ.",
-              "en": "O God, bless them with a blessing that surpasses and exceeds the blessing of all those among creation who bless them — as Your excellence surpasses all Your creation."
+              "en": "O Allah, bless them in a blessing that will surpass and be full of grace, the blessing of those who bless them, one and all in creation, like Thy Grace upon all Thy creation.",
+              "en2": "O Allah, bless them with a blessing that surpasses and overflows with grace beyond the blessing of all in creation who bless them — as Your grace surpasses all Your creation."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَيْهِمْ صَلَاةً دَائِمَةً مُسْتَمِرَّةَ الدَّوَامِ، عَلَى مَرِّ اللَّيَالِي وَالأَيَّامِ، مُتَّصِلَةَ الدَّوَامِ، لَا انْقِضَاءَ لَهَا وَلَا انْصِرَامَ، عَلَى مَرِّ اللَّيَالِي وَالأَيَّامِ، عَدَدَ كُلِّ وَابِلٍ وَطَلٍّ.",
-              "en": "O God, bless them with an everlasting blessing, enduring in its continuity through the passing of nights and days, unbroken in its persistence, never ending and never ceasing, through the passing of nights and days — as many times as every downpour and drizzle."
+              "en": "O Allah, bless them in a continuous blessing that endures to eternity in the progress of nights and days, bringing a blessing through an eternity that never terminates and has no cessation, in the progress of nights and days, in all showers of rain, severe and soft.",
+              "en2": "O Allah, bless them with a continuous blessing that endures into eternity through the passing of nights and days — a blessing through an eternity that never ends and never ceases, through the passing of nights and days, as many as all showers of rain, heavy and soft."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ نَبِيِّكَ، وَسَيِّدِنَا إِبْرَاهِيمَ خَلِيلِكَ، وَعَلَى جَمِيعِ أَنْبِيَائِكَ وَأَصْفِيَائِكَ، مِنْ أَهْلِ أَرْضِكَ وَسَمَائِكَ، عَدَدَ خَلْقِكَ وَرِضَاءَ نَفْسِكَ وَزِنَةَ عَرْشِكَ وَمِدَادَ كَلِمَاتِكَ وَمُنْتَهَى عِلْمِكَ، وَزِنَةَ جَمِيعِ مَخْلُوقَاتِكَ، صَلَاةً مُكَرَّرَةً أَبَدًا، عَدَدَ مَا أَحْصَى عِلْمُكَ، وَمِلْءَ مَا أَحْصَى عِلْمُكَ، وَأَضْعَافَ مَا أَحْصَى عِلْمُكَ، صَلَاةً تَزِيدُ وَتَفُوقُ وَتَفْضُلُ صَلَاةَ المُصَلِّينَ عَلَيْهِمْ مِنَ الخَلْقِ أَجْمَعِينَ، كَفَضْلِكَ عَلَى جَمِيعِ خَلْقِكَ.",
-              "en": "O God, bless our master Muḥammad, Your prophet, and our master Abraham, Your intimate friend, and all Your prophets and Your chosen ones among the people of Your earth and Your heaven — as many times as Your creation, to Your pleasure, in the weight of Your Throne and the ink of Your words, to the utmost of Your knowledge, and in the weight of all Your creatures — a blessing repeated forever, as many times as Your knowledge has counted, filling what Your knowledge has counted, and manifold what Your knowledge has counted — a blessing that increases, surpasses and exceeds the blessing of all those among creation who bless them, as Your excellence surpasses all Your creation."
+              "en": "O Allah, bless Muhammad Thy Prophet, and Abraham Thy friend, and all Thy Prophets and Thy elect, of the people of Thy earth and Thy heavens, throughout all Thy creation, and all that Thy soul favours, and the embellishment of Thy Throne, and the form of Thy Words, and the utmost limits of Thy knowledge, and the beauty of all Thy created works; a blessing that repeats itself evermore in everything of which Thy knowledge takes account; yea, give a blessing to all that Thy knowledge comprehends; and the double that Thy knowledge comprehends; a blessing that will increase and exceed and be full of grace; the blessing of those in creation who bless them, one and all, even as Thy favour is upon all Thy creation.",
+              "en2": "O Allah, bless Muhammad Your prophet, Abraham Your friend, and all Your prophets and Your elect among the people of Your earth and Your heavens, throughout all Your creation, to the pleasure of Your Self, to the measure of the adornment of Your Throne, the form of Your words, the utmost limits of Your knowledge, and the beauty of all Your created works — a blessing repeating itself forever in everything Your knowledge takes account of; yes, bless them as much as all Your knowledge comprehends, and double what Your knowledge comprehends — a blessing that increases, surpasses, and overflows with grace beyond the blessing of all in creation who bless them, as Your favour is upon all Your creation."
             },
             {
               "ar": "اللَّهُمَّ اجْعَلْنِي مِمَّنْ لَزِمَ مِلَّةَ نَبِيِّكَ سَيِّدِنَا مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، وَعَظَّمَ حُرْمَتَهُ، وَأَعَزَّ كَلِمَتَهُ، وَحَفِظَ عَهْدَهُ وَذِمَّتَهُ، وَنَصَرَ حِزْبَهُ وَدَعْوَتَهُ، وَكَثَّرَ تَابِعِيهِ وَفِرْقَتَهُ، وَوَافَى زُمْرَتَهُ، وَلَمْ يُخَالِفْ سَبِيلَهُ وَسُنَّتَهُ.",
-              "en": "O God, make me one who holds fast to the creed of Your prophet, our master Muḥammad, may God bless him and grant him peace; who magnifies his sanctity, exalts his word, keeps his covenant and his protection, supports his party and his call, multiplies his followers and his company, keeps pace with his throng, and does not oppose his way and his Sunna."
+              "en": "O Allah, make me of those who are attached to the religion of Thy Prophet and our master Muhammad — Allah bless him and give him peace — and sanctify his ordinance, and give force to his word, and to the observance of his promise, and his protection, and the aid of his company, and his prayer, and multiply his followers, and his association, and those who answer for his association, and do not quit his path or his law.",
+              "en2": "O Allah, make me one of those who hold fast to the religion of Your prophet, our master Muhammad — Allah bless him and grant him peace — who sanctify his ordinance, give force to his word, keep his covenant and his protection, aid his company and his call, multiply his followers and his party, keep pace with his throng, and never leave his path or his law."
             },
             {
               "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الاسْتِمْسَاكَ بِسُنَّتِهِ، وَأَعُوذُ بِكَ مِنَ الانْحِرَافِ عَمَّا جَاءَ بِهِ.",
-              "en": "O God, I ask You for firm adherence to his Sunna, and I seek refuge in You from deviating from what he brought."
+              "en": "For, O Allah, I entreat Thee that I may establish myself in his law, and take refuge with Thee, so that I may never deviate from whatever comes to me through him.",
+              "en2": "For, O Allah, I ask You to establish me firmly in his law, and I take refuge with You from ever deviating from whatever comes to me through him."
             },
             {
               "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ خَيْرِ مَا سَأَلَكَ مِنْهُ سَيِّدُنَا مُحَمَّدٌ نَّبِيُّكَ وَرَسُولُكَ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا اسْتَعَاذَكَ مِنْهُ سَيِّدُنَا مُحَمَّدٌ نَّبِيُّكَ وَرَسُولُكَ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ.",
-              "en": "O God, I ask You for all the good that our master Muḥammad, Your prophet and Your messenger, may God bless him and grant him peace, asked of You; and I seek refuge in You from all the evil from which our master Muḥammad, Your prophet and Your messenger, may God bless him and grant him peace, sought refuge in You."
+              "en": "For, O Allah, I entreat Thee for every blessing that our master Muhammad entreated of Thee, he Thy Prophet and Apostle — Allah bless him and give him peace; and I take refuge with Thee against the evil against which our master Muhammad appealed to Thee, he Thy Prophet and Apostle — Allah bless him and give him peace.",
+              "en2": "For, O Allah, I ask You for every blessing that our master Muhammad asked of You — Your prophet and messenger, Allah bless him and grant him peace; and I take refuge with You from every evil from which our master Muhammad sought Your protection — Your prophet and messenger, Allah bless him and grant him peace."
             },
             {
               "ar": "اللَّهُمَّ اعْصِمْنِي مِنْ شَرِّ الفِتَنِ، وَعَافِنِي مِنْ جَمِيعِ المِحَنِ، وَأَصْلِحْ مِنِّي مَا ظَهَرَ وَمَا بَطَنَ، وَنَقِّ قَلْبِي مِنَ الحِقْدِ وَالحَسَدِ، وَلَا تَجْعَلْ عَلَيَّ تِبَاعَةً لِأَحَدٍ.",
-              "en": "O God, protect me from the evil of tribulations; grant me well-being from all trials; set right my outward and my inward; purify my heart from rancour and envy; and do not lay upon me any burden owed to another."
+              "en": "O Allah, preserve me from the worst temptations, and spare me all trials, and render harmless to me whatever of them is seen or is unseen, and cleanse my heart from hatred and envy, so that Thou wilt not bring on me any consequence, not even one.",
+              "en2": "O Allah, preserve me from the worst temptations, spare me all trials, render harmless to me whatever of them is seen or unseen, and cleanse my heart of hatred and envy, so that You do not bring upon me any consequence, not even one."
             },
             {
               "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الأَخْذَ بِأَحْسَنِ مَا تَعْلَمُ، وَالتَّرْكَ لِسَيِّئِ مَا تَعْلَمُ، وَأَسْأَلُكَ التَّكَفُّلَ بِالرِّزْقِ وَالزُّهْدَ فِي الكَفَافِ وَالمَخْرَجَ بِالْبَيَانِ مِنْ كُلِّ شُبْهَةٍ، وَالفَلَجَ بِالصَّوَابِ فِي كُلِّ حُجَّةٍ، وَالعَدْلَ فِي الغَضَبِ وَالرِّضَىٰ، وَالتَّسْلِيمَ لِمَا يَجْرِي بِهِ القَضَا، وَالاقْتِصَادَ فِي الفَقْرِ وَالغِنَىٰ، وَالتَّوَاضُعَ فِي القَوْلِ وَالفِعْلِ، وَالصِّدْقَ فِي الجِدِّ وَالهَزْلِ.",
-              "en": "O God, I ask You for the taking up of the best that You know, and the leaving of the worst that You know; and I ask You for the guarantee of provision, and contentment with sufficiency, and a way out through clarity from every doubt, and triumph through rightness in every argument, and justice in anger and in pleasure, and submission to whatever the decree brings about, and moderation in poverty and wealth, and humility in word and deed, and truthfulness in earnest and in jest."
+              "en": "O Allah, for I entreat Thee that I may lay hold on the best that Thou knowest, and that I may forsake the evil that Thou knowest; and I entreat of Thee that Thou wilt secure me the necessaries of life, and self-restraint in everything, and success in speech in every doubt, and victory in decision in every discussion, and justice in anger, and a willing assent to whatever Providence may award; and that I may keep moderation in poverty and wealth, and modesty in speech and action, and sincerity in earnestness or mirth.",
+              "en2": "O Allah, I ask You to let me lay hold of the best that You know and forsake the evil that You know; and I ask You to secure me the necessities of life, self-restraint in everything, clarity of speech in every doubt, victory through rightness in every dispute, justice in anger, and willing assent to whatever the decree awards; and to let me keep moderation in poverty and wealth, modesty in speech and action, and sincerity in earnest and in jest."
             },
             {
               "ar": "اللَّهُمَّ إِنَّ لِي ذُنُوبًا فِيمَا بَيْنِي وَبَيْنَكَ، وَذُنُوبًا فِيمَا بَيْنِي وَبَيْنَ خَلْقِكَ.",
-              "en": "O God, I have sins in what is between me and You, and sins in what is between me and Your creation."
+              "en": "O Allah, if there be offences in anything between me and Thee, or offences in anything between me and Thy creation,",
+              "en2": "O Allah, if there are offences in anything between me and You, or offences in anything between me and Your creation —"
             },
             {
               "ar": "اللَّهُمَّ مَا كَانَ لَكَ مِنْهَا فَاغْفِرْهُ لِي، وَمَا كَانَ مِنْهَا لِخَلْقِكَ فَتَحَمَّلْهُ عَنِّي، وَأَغْنِنِي بِفَضْلِكَ إِنَّكَ وَاسِعُ المَغْفِرَةِ.",
-              "en": "O God, those of them that are Yours, forgive them for me; and those of them that belong to Your creation, bear them on my behalf; and enrich me by Your bounty — You are vast in forgiveness."
+              "en": "O Allah, whatever share Thou hast in them, pardon it, and whatever share Thy creation has in them, take the burden of it away from me, and make me rich in Thy grace, for Thou hast pardon in Thy Power.",
+              "en2": "O Allah, whatever share is Yours in them, pardon it; and whatever share belongs to Your creation, lift its burden from me; and make me rich in Your grace, for pardon is in Your power."
             },
             {
               "ar": "اللَّهُمَّ نَوِّرْ بِالْعِلْمِ قَلْبِي، وَاسْتَعْمِلْ بِطَاعَتِكَ بَدَنِي، وَخَلِّصْ مِنَ الفِتَنِ سِرِّي، وَاشْغَلْ بِالاعْتِبَارِ فِكْرِي، وَقِنِي شَرَّ وَسَاوِسِ الشَّيْطَانِ، وَأَجِرْنِي مِنْهُ يَا رَحْمٰنُ حَتَّى لَا يَكُونَ لَهُ عَلَيَّ سُلْطَانٌ.",
-              "en": "O God, illumine my heart with knowledge; employ my body in Your obedience; deliver my innermost self from tribulations; occupy my thoughts with reflection; shield me from the evil of Satan's whisperings; and grant me refuge from him, All-Merciful One, until he has no sway over me."
+              "en": "O Allah, illuminate my heart with knowledge, and employ my person in Thy obedience, and make my secret thoughts pure of temptation, and foster in my thoughts reflection, and avoidance of evil and of the power of Satan, and enable me to escape him, Thou Merciful One, until he has no power over me.",
+              "en2": "O Allah, illumine my heart with knowledge, employ my body in Your obedience, purify my secret thoughts from temptation, occupy my mind with reflection and with shunning evil and the power of Satan, and enable me to escape him, O Merciful One, until he has no power over me."
             }
           ]
         },
@@ -2010,7 +2062,7 @@
         }
       ],
       "audio": [],
-      "source_en": "Classical public-domain Arabic text of Imam al-Jazūlī (d. 1465), as circulated in standard editions. English: the opening devotions, intention and first part are an original translation made for this project; Hizbs 2–8 use the historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain. A modern rendering in present-day English, made for this project, appears beneath the Victorian text throughout Hizbs 2-8 as a reading aid; the Pearson translation remains the citable text."
+      "source_en": "Classical public-domain Arabic text of Imam al-Jazūlī (d. 1465), as circulated in standard editions. English: the opening devotions, intention and supplication of completion are an original translation made for this project; Hizbs 1–8 use the historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain. A modern rendering in present-day English, made for this project, appears beneath the Victorian text throughout Hizbs 1-8 as a reading aid; the Pearson translation remains the citable text."
     },
     {
       "id": "banat-suad",
