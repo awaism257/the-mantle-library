@@ -164,11 +164,17 @@
   /* Works are presented as full-width menu rows — circular accent-ringed icon
      left, English title with the Arabic title beneath, gold chevron right —
      the same list language as the About/Settings rows in the sibling apps. */
+  /* Split a title like "Name (Gloss)" so the bracketed translation is
+     always rendered on its own line beneath the main title. */
+  function splitTitleGloss(titleEn) {
+    var paren = titleEn.indexOf(' (');
+    if (paren > 0) return { main: titleEn.slice(0, paren), gloss: titleEn.slice(paren + 1) };
+    return { main: titleEn, gloss: null };
+  }
+
   function buildWorkRow(work) {
-    /* Split the bracketed English gloss onto its own line under the title. */
-    var title = work.title_en, gloss = null;
-    var paren = title.indexOf(' (');
-    if (paren > 0) { gloss = title.slice(paren + 1); title = title.slice(0, paren); }
+    var t = splitTitleGloss(work.title_en);
+    var title = t.main, gloss = t.gloss;
     var textKids = [el('span', { class: 'menu-row-title', text: title })];
     if (gloss) textKids.push(el('span', { class: 'menu-row-gloss', text: gloss }));
     textKids.push(el('span', { class: 'menu-row-sub', lang: 'ar', dir: 'rtl', text: work.title_ar }));
@@ -525,8 +531,11 @@
   }
 
   function workHeaderNodes(work) {
+    var wt = splitTitleGloss(work.title_en);
+    var titleKids = [document.createTextNode(wt.main)];
+    if (wt.gloss) titleKids.push(el('span', { class: 'page-title-gloss', text: wt.gloss }));
     var nodes = [
-      el('h1', { class: 'page-title', text: work.title_en }),
+      el('h1', { class: 'page-title' }, titleKids),
       el('p', { class: 'work-title-ar', lang: 'ar', dir: 'rtl', text: work.title_ar }),
       el('p', {
         class: 'work-author',
@@ -625,9 +634,12 @@
         text: '← ' + work.title_en
       }));
 
+      var st = splitTitleGloss(work.title_en);
+      var secTitleKids = [document.createTextNode(st.main)];
+      if (st.gloss) secTitleKids.push(el('span', { class: 'block-gloss', text: st.gloss }));
       var headerChildren = [
         el('h1', { class: 'page-title', text: section.heading }),
-        el('p', { class: 'work-author', text: work.title_en })
+        el('p', { class: 'work-author' }, secTitleKids)
       ];
       if (section.note) {
         headerChildren.push(el('p', { class: 'work-description', text: section.note }));
