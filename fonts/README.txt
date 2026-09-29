@@ -32,3 +32,11 @@ Notes
   'DigitalKhatt IndoPak', 'DigitalKhatt V2', 'Amiri Quran', 'Noto Naskh'.
 - After adding or replacing font files, bump CACHE_VERSION in sw.js so
   returning visitors pick up the new files.
+
+  honorifics.ttf         -> CSS family 'Honorifics' (Latin-text honorifics)
+
+  Subset of Amiri (Copyright (c) 2010-2022 Khaled Hosny, SIL Open Font
+  License 1.1) containing only the honorific ligatures U+FDF2-FDFB and
+  U+FDFD, for use inside Latin-script lines (titles, English text). Amiri
+  source: Google Fonts (fonts.google.com/specimen/Amiri). The reserved
+  font name is not used for the subset, per OFL 1.1.

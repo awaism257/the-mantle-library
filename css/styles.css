@@ -52,6 +52,16 @@
   font-display: swap;
 }
 
+/* Honorific ligatures (ﷺ ﷻ ﷽ ﷲ …) for Latin text: subset of Amiri (OFL 1.1).
+   Amiri's em is tall, so scale it down to sit well inside Georgia/Times lines. */
+@font-face {
+  font-family: 'Honorifics';
+  src: url('../fonts/honorifics.ttf') format('truetype');
+  unicode-range: U+FDF2-FDFB, U+FDFD;
+  size-adjust: 55%;
+  font-display: swap;
+}
+
 /* ---------- Design tokens: dark theme (default) ---------- */
 
 :root {
@@ -86,8 +96,8 @@
   --fs-en: 1;
 
   /* Typography */
-  --serif-display: Georgia, 'Times New Roman', serif;
-  --serif-body: Georgia, 'Times New Roman', 'Nimbus Roman', serif;
+  --serif-display: Georgia, 'Times New Roman', 'Honorifics', serif;
+  --serif-body: Georgia, 'Times New Roman', 'Nimbus Roman', 'Honorifics', serif;
   --arabic-stack: 'DigitalKhatt IndoPak', 'DigitalKhatt V2', 'Amiri Quran', 'Noto Naskh', serif;
 
   --radius: 14px;
