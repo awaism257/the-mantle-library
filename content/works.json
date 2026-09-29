@@ -280,563 +280,703 @@
           "units": [
             {
               "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ خَيْرِ مَا تَعْلَمُ، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا تَعْلَمُ، وَأَسْتَغْفِرُكَ مِنْ كُلِّ مَا تَعْلَمُ، إِنَّكَ تَعْلَمُ وَلَا نَعْلَمُ، وَأَنْتَ عَلَّامُ الغُيُوبِ.",
-              "en": "O Allah, I do entreat Thee for some of the good that Thou knowest, and I appeal to Thee against the evil that Thou knowest, and I entreat Thee for pardon for all that Thou knowest; for Thou knowest and we do not know, and Thou art above all Learned in Secrets."
+              "en": "O Allah, I do entreat Thee for some of the good that Thou knowest, and I appeal to Thee against the evil that Thou knowest, and I entreat Thee for pardon for all that Thou knowest; for Thou knowest and we do not know, and Thou art above all Learned in Secrets.",
+              "en2": "O Allah, I ask You for the good of all that You know, I seek Your protection from the evil of all that You know, and I ask Your forgiveness for all that You know — for You know and we do not know, and You are the All-Knower of hidden things."
             },
             {
               "ar": "اللَّهُمَّ ارْحَمْنِي مِنْ زَمَانِي هَذَا وَإِحْدَاقِ الفِتَنِ، وَتَطَاوُلِ أَهْلِ الجُرْأَةِ عَلَيَّ وَاسْتِضْعَافِهِمْ إِيَّايَ.",
-              "en": "O Allah, have mercy on me in times of my encirclement in discomforts and save me from the oppression of the tyrants so exceedingly cruel."
+              "en": "O Allah, have mercy on me in times of my encirclement in discomforts and save me from the oppression of the tyrants so exceedingly cruel.",
+              "en2": "O Allah, have mercy on me whenever troubles close in around me, and deliver me from the oppression of tyrants so exceedingly cruel."
             },
             {
               "ar": "اللَّهُمَّ اجْعَلْنِي مِنْكَ فِي عِيَاذٍ مَنِيعٍ، وَحِرْزٍ حَصِينٍ، مِنْ جَمِيعِ خَلْقِكَ حَتَّى تُبَلِّغَنِي أَجَلِي مُعَافَى.",
-              "en": "O Allah, place me for Thyself in secure protection and a strong refuge from all Thy creation, until Thou enablest me to reach the most transcendent eminence."
+              "en": "O Allah, place me for Thyself in secure protection and a strong refuge from all Thy creation, until Thou enablest me to reach the most transcendent eminence.",
+              "en2": "O Allah, place me under Your own secure protection, in a strong refuge from all Your creation, until You bring me to the loftiest station."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَنْ صَلَّى عَلَيْهِ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَنْ لَمْ يُصَلِّ عَلَيْهِ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا تَنْبَغِي الصَّلَاةُ عَلَيْهِ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا تَجِبُ الصَّلَاةُ عَلَيْهِ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا أَمَرْتَ أَنْ يُصَلَّى عَلَيْهِ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ الَّذِي نُورُهُ مِنْ نُورِ الأَنْوَارِ، وَأَشْرَقَ بِشُعَاعِ سِرِّهِ الأَسْرَارُ.",
-              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad, in every one who blesses him; and bless our master Muhammad and the Family of our master Muhammad, in every one who does not bless him; and bless our master Muhammad and the Family of our master Muhammad even as the blessing is suited to him; and bless our master Muhammad and the Family of our master Muhammad, even as the blessing is needful for him; and bless our master Muhammad and the Family of our master Muhammad, even as Thou hast ordained that he shall be blessed; and bless our master Muhammad and the Family of our master Muhammad, whose Light is from the Light of Lights, and enlighten his inmost secret thoughts with rays of brightness."
+              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad, in every one who blesses him; and bless our master Muhammad and the Family of our master Muhammad, in every one who does not bless him; and bless our master Muhammad and the Family of our master Muhammad even as the blessing is suited to him; and bless our master Muhammad and the Family of our master Muhammad, even as the blessing is needful for him; and bless our master Muhammad and the Family of our master Muhammad, even as Thou hast ordained that he shall be blessed; and bless our master Muhammad and the Family of our master Muhammad, whose Light is from the Light of Lights, and enlighten his inmost secret thoughts with rays of brightness.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad in everyone who blesses him; bless our master Muhammad and the family of our master Muhammad in everyone who does not bless him; bless our master Muhammad and the family of our master Muhammad with the blessing that befits him; bless our master Muhammad and the family of our master Muhammad with the blessing he needs; bless our master Muhammad and the family of our master Muhammad as You have decreed he should be blessed; and bless our master Muhammad and the family of our master Muhammad, whose light is from the Light of Lights — and illumine his inmost secret with rays of brightness."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ وَعَلَى أَهْلِ بَيْتِهِ الأَبْرَارِ أَجْمَعِينَ.",
-              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad, and the men of his Household, most upright of all, every one of them."
+              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad, and the men of his Household, most upright of all, every one of them.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad, and the people of his household, the most upright of them all, every one."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ بَحْرِ أَنْوَارِكَ، وَمَعْدِنِ أَسْرَارِكَ، وَلِسَانِ حُجَّتِكَ، وَعَرُوسِ مَمْلَكَتِكَ، وَإِمَامِ حَضْرَتِكَ، وَخَاتِمِ أَنْبِيَائِكَ، صَلَاةً تَدُومُ بِدَوَامِكَ، وَتَبْقَى بِبَقَائِكَ، صَلَاةً تُرْضِيكَ وَتُرْضِيهِ، وَتَرْضَى بِهَا عَنَّا يَا أَرْحَمَ الرَّاحِمِينَ.",
-              "en": "O Allah, bless our master Muhammad and his Family, the Sea of Thy Brightness, and the Mine of Thy Secrets, and the Voice of Thy Arguments, and the Bridegroom of Thy Royalty, and the Imam of Thy Presence, and the Seal of Thy Prophets; a blessing that will last whilst Thou endurest, and will survive while Thou survivest: a blessing that will find favour with Thee, and will find favour with him, and will bring favour to me through it for ourselves; O Thou Most Compassionate, Most Merciful: O Thou Lord of the Worlds."
+              "en": "O Allah, bless our master Muhammad and his Family, the Sea of Thy Brightness, and the Mine of Thy Secrets, and the Voice of Thy Arguments, and the Bridegroom of Thy Royalty, and the Imam of Thy Presence, and the Seal of Thy Prophets; a blessing that will last whilst Thou endurest, and will survive while Thou survivest: a blessing that will find favour with Thee, and will find favour with him, and will bring favour to me through it for ourselves; O Thou Most Compassionate, Most Merciful: O Thou Lord of the Worlds.",
+              "en2": "O Allah, bless our master Muhammad and his family — the ocean of Your radiance, the mine of Your secrets, the tongue of Your proofs, the bridegroom of Your kingdom, the imam of Your presence, the seal of Your prophets — with a blessing that lasts as long as You last and endures as long as You endure: a blessing that pleases You, pleases him, and brings us favour through it, O Most Compassionate, Most Merciful, Lord of the Worlds."
             },
             {
               "ar": "اللَّهُمَّ رَبَّ الحِلِّ وَالحَرَامِ، وَرَبَّ المَشْعَرِ الحَرَامِ، وَرَبَّ البَيْتِ الحَرَامِ، وَرَبَّ الرُّكْنِ وَالمَقَامِ، أَبْلِغْ لِسَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ مِنَّا السَّلَامَ.",
-              "en": "O Allah, Lord of whatever is Allowed, Lord of whatever is Forbidden, Lord of the Sacred Precinct, Lord of the Sacred House, and Lord of Stone of Support, and the Place of Honour, cause this salutation of peace to reach our master and patron Muhammad from us."
+              "en": "O Allah, Lord of whatever is Allowed, Lord of whatever is Forbidden, Lord of the Sacred Precinct, Lord of the Sacred House, and Lord of Stone of Support, and the Place of Honour, cause this salutation of peace to reach our master and patron Muhammad from us.",
+              "en2": "O Allah, Lord of the permitted, Lord of the forbidden, Lord of the Sacred Precinct, Lord of the Sacred House, Lord of the Cornerstone and the Station — convey this greeting of peace from us to our master and patron Muhammad."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ سَيِّدِ الأَوَّلِينَ وَالآخِرِينَ.",
-              "en": "O Allah, bless our master and patron Muhammad. our master of the First and the Last."
+              "en": "O Allah, bless our master and patron Muhammad. our master of the First and the Last.",
+              "en2": "O Allah, bless our master and patron Muhammad, our master of the first and the last."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ فِي كُلِّ وَقْتٍ وَحِينٍ.",
-              "en": "O Allah, bless our master and patron Muhammad at every time and moment."
+              "en": "O Allah, bless our master and patron Muhammad at every time and moment.",
+              "en2": "O Allah, bless our master and patron Muhammad at every time and moment."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ فِي المَلَإِ الأَعْلَى إِلَى يَوْمِ الدِّينِ.",
-              "en": "O Allah, bless our master and patron Muhammad in the higher assembly of angels, until the Day of Judgement."
+              "en": "O Allah, bless our master and patron Muhammad in the higher assembly of angels, until the Day of Judgement.",
+              "en2": "O Allah, bless our master and patron Muhammad in the highest assembly of angels until the Day of Judgement."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ حَتَّى تَرِثَ الأَرْضَ وَمَنْ عَلَيْهَا وَأَنْتَ خَيْرُ الوَارِثِينَ.",
-              "en": "O Allah, bless our master and patron Muhammad until Thou art the Heir of the earth, and whoever there is on it; for Thou art the best of heirs."
+              "en": "O Allah, bless our master and patron Muhammad until Thou art the Heir of the earth, and whoever there is on it; for Thou art the best of heirs.",
+              "en2": "O Allah, bless our master and patron Muhammad until You inherit the earth and everyone on it — and You are the best of inheritors."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ النَّبِيِّ الأُمِّيِّ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ، وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ النَّبِيِّ الأُمِّيِّ كَمَا بَارَكْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O Allah, bless our master Muhammad the Unlettered Prophet and the Family of our master Muhammad, even as Thou didst bless our master Abraham, for Thou art Laudable and Glorious; and show favour to our master Muhammad the Unlettered Prophet, even as Thou didst with our master Abraham, for Thou art Laudable and Glorious;"
+              "en": "O Allah, bless our master Muhammad the Unlettered Prophet and the Family of our master Muhammad, even as Thou didst bless our master Abraham, for Thou art Laudable and Glorious; and show favour to our master Muhammad the Unlettered Prophet, even as Thou didst with our master Abraham, for Thou art Laudable and Glorious;",
+              "en2": "O Allah, bless our master Muhammad, the unlettered Prophet, and the family of our master Muhammad, as You blessed our master Abraham — You are Praiseworthy and Glorious; and show favour to our master Muhammad, the unlettered Prophet, as You showed favour to our master Abraham — You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا أَحَاطَ بِهِ عِلْمُكَ، وَجَرَى بِهِ قَلَمُكَ، وَسَبَقَتْ بِهِ مَشِيئَتُكَ، وَصَلَّتْ عَلَيْهِ مَلَائِكَتُكَ، صَلَاةً دَائِمَةً بِدَوَامِكَ، بَاقِيَةً بِفَضْلِكَ وَإِحْسَانِكَ، إِلَى أَبَدِ الأَبَدِ، أَبَدًا، لَا نِهَايَةَ لِأَبَدِيَّتِهِ، وَلَا فَنَاءَ لِدَيْمُومِيَّتِهِ.",
-              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad in all that Thy Knowledge includes or Thy Pen has covered, or to which Thy Will extends, or Thy angels bless: in a blessing that lasts as long as Thou endurest, and continues in Thy Grace and Thy Goodness, through all the length of time for ever; for there is no limit to his endurance, and there is no finality of his continuance."
+              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad in all that Thy Knowledge includes or Thy Pen has covered, or to which Thy Will extends, or Thy angels bless: in a blessing that lasts as long as Thou endurest, and continues in Thy Grace and Thy Goodness, through all the length of time for ever; for there is no limit to his endurance, and there is no finality of his continuance.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad in all that Your knowledge encompasses, Your Pen has recorded, Your will extends to, and Your angels bless: a blessing that lasts as long as You last and continues in Your grace and goodness through all eternity — for Your duration has no limit and Your continuance no end."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا أَحَاطَ بِهِ عِلْمُكَ، وَأَحْصَاهُ كِتَابُكَ، وَشَهِدَتْ بِهِ مَلَائِكَتُكَ، وَارْضَ عَنْ أَصْحَابِهِ، وَارْحَمْ أُمَّتَهُ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O Allah, bless our master and Patron Muhammad, and the Family of our master Muhammad. in all that Thy knowledge includes, and Thy Book recounts, or that Thy angels and earth testify of his Comrades, and have mercy on his religion, for Thou art Laudable and Glorious."
+              "en": "O Allah, bless our master and Patron Muhammad, and the Family of our master Muhammad. in all that Thy knowledge includes, and Thy Book recounts, or that Thy angels and earth testify of his Comrades, and have mercy on his religion, for Thou art Laudable and Glorious.",
+              "en2": "O Allah, bless our master and patron Muhammad and the family of our master Muhammad in all that Your knowledge encompasses and Your Book recounts and in all that Your angels and the earth bear witness to of his Companions — and have mercy on his religion, for You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ وَعَلَى جَمِيعِ أَصْحَابِ سَيِّدِنَا مُحَمَّدٍ.",
-              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad, and all the Comrades of our master Muhammad."
+              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad, and all the Comrades of our master Muhammad.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad, and all the Companions of our master Muhammad."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ فِي العَالَمِينَ إِنَّكَ حَمِيدٌ مَجِيدٌ.",
-              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad, as Thou didst bless our master Abraham, and show favour, O Allah, on our master Muhammad and on the Family of our master Muhammad, as Thou didst toward our master Abraham and the Family of our master Abraham in the world at large; for Thou art Laudable and Glorious."
+              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad, as Thou didst bless our master Abraham, and show favour, O Allah, on our master Muhammad and on the Family of our master Muhammad, as Thou didst toward our master Abraham and the Family of our master Abraham in the world at large; for Thou art Laudable and Glorious.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad as You blessed our master Abraham; and show favour, O Allah, to our master Muhammad and the family of our master Muhammad as You showed favour to our master Abraham and the family of our master Abraham throughout the worlds — for You are Praiseworthy and Glorious."
             },
             {
               "ar": "اللَّهُمَّ بِخُشُوعِ القَلْبِ عِنْدَ السُّجُودِ، لَكَ يَا سَيِّدِي بِغَيْرِ جُحُودٍ، وَبِكَ يَا اللَّهُ يَا جَلِيلُ فَلَا شَيْءَ يُدَانِيكَ فِي غَلِيظِ العُهُودِ، وَبِكُرْسِيِّكَ المُكَلَّلِ بِالنُّورِ إِلَى عَرْشِكَ العَظِيمِ المَجِيدِ، وَبِمَا كَانَ تَحْتَ عَرْشِكَ حَقًّا، قَبْلَ أَنْ تَخْلُقَ السَّمَاوَاتِ وَصَوْتَ الرُّعُودِ، ذَاكَ إِذْ كُنْتَ مِثْلَ مَا لَمْ تَزَلْ قَطُّ إِلٰهًا عُرِفْتَ بِالتَّوْحِيدِ، فَاجْعَلْنَا مِنَ المُحِبِّينَ المَحْبُوبِينَ المُقَرَّبِينَ العَاشِقِينَ لَكَ يَا اللَّهُ يَا اللَّهُ يَا اللَّهُ يَا اللَّهُ يَا اللَّهُ يَا اللَّهُ يَا اللَّهُ يَا اللَّهُ يَا وَدُودُ.",
-              "en": "O Allah, from the core of the heart humbly prostrating before Thee;\n\nO Allah, with no unbelief at all and for Thy sake and O Allah, the Sublime! nothing can match Thee in inviolable promises; and for the sake of Thy Footstall adorned with light to the expanse of Thy Mighty and Powerful Throne and for the sake of that which lay beneath Thy Throne before Thou didst create the heavens and the sound of Thy thunder; Thou art Infinite, Thou art without any parallel, the Singular;\n\nI implore to make me one of Thy favourites, Thy beloved ones, Thy near ones and one of Thy ardent lovers, O Allah, O Allah, O Allah, O Allah, O Allah, O Allah, O Allah, O Allah, O Thou the Bestower."
+              "en": "O Allah, from the core of the heart humbly prostrating before Thee;\n\nO Allah, with no unbelief at all and for Thy sake and O Allah, the Sublime! nothing can match Thee in inviolable promises; and for the sake of Thy Footstall adorned with light to the expanse of Thy Mighty and Powerful Throne and for the sake of that which lay beneath Thy Throne before Thou didst create the heavens and the sound of Thy thunder; Thou art Infinite, Thou art without any parallel, the Singular;\n\nI implore to make me one of Thy favourites, Thy beloved ones, Thy near ones and one of Thy ardent lovers, O Allah, O Allah, O Allah, O Allah, O Allah, O Allah, O Allah, O Allah, O Thou the Bestower.",
+              "en2": "O Allah, from the depths of a heart humbly prostrating before You, with no trace of unbelief — for Your sake, O Allah the Sublime: nothing matches You in keeping inviolable promises. For the sake of Your Footstool adorned with light, reaching to the vastness of Your mighty, powerful Throne, and for the sake of what lay beneath Your Throne before You created the heavens and the sound of Your thunder — You are infinite, without parallel, the One. I implore You to make me one of Your favourites, Your beloved, Your near ones, Your ardent lovers — O Allah, O Allah, O Allah, O Allah, O Allah, O Allah, O Allah, O Allah, O Bestower!"
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا أَحَاطَ بِهِ عِلْمُكَ.",
-              "en": "O Allah, bless our master and patron Muhammad. in all that Thy Knowledge includes."
+              "en": "O Allah, bless our master and patron Muhammad. in all that Thy Knowledge includes.",
+              "en2": "O Allah, bless our master and patron Muhammad in all that Your knowledge encompasses."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ مَا أَحْصَاهُ كِتَابُكَ.",
-              "en": "O Allah, bless our master and patron Muhammad in all that the Book recounts."
+              "en": "O Allah, bless our master and patron Muhammad in all that the Book recounts.",
+              "en2": "O Allah, bless our master and patron Muhammad in all that Your Book recounts."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ مَا نَفَذَتْ بِهِ قُدْرَتُكَ.",
-              "en": "O Allah, bless our master and patron Muhammad in as much as he is distinguished by Thy Will."
+              "en": "O Allah, bless our master and patron Muhammad in as much as he is distinguished by Thy Will.",
+              "en2": "O Allah, bless our master and patron Muhammad to the full measure of what Your will has singled him out for."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ مَا خَصَّصَتْهُ إِرَادَتُكَ.",
-              "en": "O Allah, bless our master and patron Muhammad in everything that Thy Will authorizes."
+              "en": "O Allah, bless our master and patron Muhammad in everything that Thy Will authorizes.",
+              "en2": "O Allah, bless our master and patron Muhammad in everything Your will ordains."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ مَا تَوَجَّهَ إِلَيْهِ أَمْرُكَ وَنَهْيُكَ.",
-              "en": "O Allah, bless our master and patron Muhammad in all that Thy Command or Thy Refusal has in view."
+              "en": "O Allah, bless our master and patron Muhammad in all that Thy Command or Thy Refusal has in view.",
+              "en2": "O Allah, bless our master and patron Muhammad in all that Your command and Your refusal intend."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ مَا وَسِعَهُ سَمْعُكَ.",
-              "en": "O Allah, bless our master and patron Muhammad in everything that is within Thy Hearing."
+              "en": "O Allah, bless our master and patron Muhammad in everything that is within Thy Hearing.",
+              "en2": "O Allah, bless our master and patron Muhammad in everything within Your hearing."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ مَا أَحَاطَ بِهِ بَصَرُكَ.",
-              "en": "O Allah, bless our master and patron Muhammad in everything to which Thy Power of Sight extends."
+              "en": "O Allah, bless our master and patron Muhammad in everything to which Thy Power of Sight extends.",
+              "en2": "O Allah, bless our master and patron Muhammad in everything within Your sight."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ مَا ذَكَرَهُ الذَّاكِرُونَ.",
-              "en": "O Allah, bless our master and patron Muhammad in everything that those who record Thy works record."
+              "en": "O Allah, bless our master and patron Muhammad in everything that those who record Thy works record.",
+              "en2": "O Allah, bless our master and patron Muhammad in all that the recorders of Your works record."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ مَا غَفَلَ عَنْ ذِكْرِهِ الغَافِلُونَ.",
-              "en": "O Allah, bless our master and patron Muhammad in all that they who are neglectful neglect to record."
+              "en": "O Allah, bless our master and patron Muhammad in all that they who are neglectful neglect to record.",
+              "en2": "O Allah, bless our master and patron Muhammad in all that the heedless neglect to record."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ قَطْرِ الأَمْطَارِ.",
-              "en": "O Allah, bless our master and patron Muhammad in every shower of rain."
+              "en": "O Allah, bless our master and patron Muhammad in every shower of rain.",
+              "en2": "O Allah, bless our master and patron Muhammad with every shower of rain."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ أَوْرَاقِ الأَشْجَارِ.",
-              "en": "O Allah, bless our master and patron Muhammad in all the leaves of the trees."
+              "en": "O Allah, bless our master and patron Muhammad in all the leaves of the trees.",
+              "en2": "O Allah, bless our master and patron Muhammad as many times as all the leaves of the trees."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ دَوَابِّ القِفَارِ.",
-              "en": "O Allah, bless our master and patron Muhammad in all the expanse of the dry land."
+              "en": "O Allah, bless our master and patron Muhammad in all the expanse of the dry land.",
+              "en2": "O Allah, bless our master and patron Muhammad to the full breadth of the dry land."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ دَوَابِّ البِحَارِ.",
-              "en": "O Allah, bless our master and patron Muhammad in all the expanse of the sea."
+              "en": "O Allah, bless our master and patron Muhammad in all the expanse of the sea.",
+              "en2": "O Allah, bless our master and patron Muhammad to the full breadth of the sea."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ مِيَاهِ البِحَارِ.",
-              "en": "O Allah, bless our master and patron Muhammad in all the waters of the sea."
+              "en": "O Allah, bless our master and patron Muhammad in all the waters of the sea.",
+              "en2": "O Allah, bless our master and patron Muhammad in all the waters of the sea."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ مَا أَظْلَمَ عَلَيْهِ اللَّيْلُ وَأَضَاءَ عَلَيْهِ النَّهَارُ.",
-              "en": "O Allah, bless our master and patron Muhammad in everything on which night throws its darkness, or light its brightness."
+              "en": "O Allah, bless our master and patron Muhammad in everything on which night throws its darkness, or light its brightness.",
+              "en2": "O Allah, bless our master and patron Muhammad in everything the night darkens and the daylight brightens."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ بِالْغُدُوِّ وَالآصَالِ.",
-              "en": "O Allah, bless our master and patron Muhammad in the morning and in the evening."
+              "en": "O Allah, bless our master and patron Muhammad in the morning and in the evening.",
+              "en2": "O Allah, bless our master and patron Muhammad morning and evening."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ الرِّمَالِ.",
-              "en": "O Allah, bless our master and patron Muhammad through all the sandy plains."
+              "en": "O Allah, bless our master and patron Muhammad through all the sandy plains.",
+              "en2": "O Allah, bless our master and patron Muhammad through all the sandy plains."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ النِّسَاءِ وَالرِّجَالِ.",
-              "en": "O Allah, bless our master and patron Muhammad among all women and men."
+              "en": "O Allah, bless our master and patron Muhammad among all women and men.",
+              "en2": "O Allah, bless our master and patron Muhammad among all women and men."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ رِضَاءَ نَفْسِكَ.",
-              "en": "O Allah, bless our master and patron Muhammad as Thy Soul pleaseth."
+              "en": "O Allah, bless our master and patron Muhammad as Thy Soul pleaseth.",
+              "en2": "O Allah, bless our master and patron Muhammad as Your Self is pleased."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ مِدَادَ كَلِمَاتِكَ.",
-              "en": "O Allah, bless our master and patron Muhammad in the form of Thy Words."
+              "en": "O Allah, bless our master and patron Muhammad in the form of Thy Words.",
+              "en2": "O Allah, bless our master and patron Muhammad to the measure of Your words."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ مِلْءَ سَمَاوَاتِكَ وَأَرْضِكَ.",
-              "en": "O Allah, bless our master and patron Muhammad in the fullness of Thy heavens and Thy earth."
+              "en": "O Allah, bless our master and patron Muhammad in the fullness of Thy heavens and Thy earth.",
+              "en2": "O Allah, bless our master and patron Muhammad to the fullness of Your heavens and Your earth."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ زِنَةَ عَرْشِكَ.",
-              "en": "O Allah, bless our master and patron Muhammad in the beauty of Thy Throne."
+              "en": "O Allah, bless our master and patron Muhammad in the beauty of Thy Throne.",
+              "en2": "O Allah, bless our master and patron Muhammad in the beauty of Your Throne."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ عَدَدَ مَخْلُوقَاتِكَ.",
-              "en": "O Allah, bless our master and patron Muhammad in all Thy created things."
+              "en": "O Allah, bless our master and patron Muhammad in all Thy created things.",
+              "en2": "O Allah, bless our master and patron Muhammad in all Your created things."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ أَفْضَلَ صَلَوَاتِكَ.",
-              "en": "O Allah, bless our master and patron Muhammad with the most gracious of Thy blessings."
+              "en": "O Allah, bless our master and patron Muhammad with the most gracious of Thy blessings.",
+              "en2": "O Allah, bless our master and patron Muhammad with the most gracious of Your blessings."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى نَبِيِّ الرَّحْمَةِ.",
-              "en": "O Allah, bless the Prophet of mercy."
+              "en": "O Allah, bless the Prophet of mercy.",
+              "en2": "O Allah, bless the Prophet of mercy."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى شَفِيعِ الأُمَّةِ.",
-              "en": "O Allah, bless the advocate of the faith."
+              "en": "O Allah, bless the advocate of the faith.",
+              "en2": "O Allah, bless the champion of the faith."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى كَاشِفِ الغُمَّةِ.",
-              "en": "O Allah, bless him who takes away grief."
+              "en": "O Allah, bless him who takes away grief.",
+              "en2": "O Allah, bless the remover of grief."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مُجْلِي الظُّلْمَةِ.",
-              "en": "O Allah, bless him who enlightens darkness."
+              "en": "O Allah, bless him who enlightens darkness.",
+              "en2": "O Allah, bless the one who lights up the darkness."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مُولِي النِّعْمَةِ.",
-              "en": "O Allah, bless the lord of pleasure."
+              "en": "O Allah, bless the lord of pleasure.",
+              "en2": "O Allah, bless the lord of delight."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مُؤْتِي الرَّحْمَةِ.",
-              "en": "O Allah, bless the giver of mercy."
+              "en": "O Allah, bless the giver of mercy.",
+              "en2": "O Allah, bless the giver of mercy."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ الحَوْضِ المَوْرُودِ.",
-              "en": "O Allah, bless the owner of the conduit cistern."
+              "en": "O Allah, bless the owner of the conduit cistern.",
+              "en2": "O Allah, bless the lord of the flowing Pool."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ المَقَامِ المَحْمُودِ.",
-              "en": "O Allah, bless the claimant of the honoured place."
+              "en": "O Allah, bless the claimant of the honoured place.",
+              "en2": "O Allah, bless the claimant of the honoured station."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ اللِّوَاءِ المَعْقُودِ.",
-              "en": "O Allah, bless the hero of the knotted standard."
+              "en": "O Allah, bless the hero of the knotted standard.",
+              "en2": "O Allah, bless the bearer of the knotted banner."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ المَكَانِ المَشْهُودِ.",
-              "en": "O Allah, bless the man of the acknowledged sojourn."
+              "en": "O Allah, bless the man of the acknowledged sojourn.",
+              "en2": "O Allah, bless the keeper of the appointed meeting-place."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى المَوْصُوفِ بِالْكَرَمِ وَالجُودِ.",
-              "en": "O Allah, bless him who was adorned by nobleness and generosity."
+              "en": "O Allah, bless him who was adorned by nobleness and generosity.",
+              "en2": "O Allah, bless the one adorned with nobility and generosity."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ هُوَ فِي السَّمَاءِ سَيِّدُنَا مَحْمُودٌ، وَفِي الأَرْضِ سَيِّدُنَا مُحَمَّدٌ.",
-              "en": "O Allah him who in heaven is Mahmood, and on earth Muhammad."
+              "en": "O Allah him who in heaven is Mahmood, and on earth Muhammad.",
+              "en2": "O Allah, bless the one who in heaven is Mahmūd and on earth is Muhammad."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ الشَّامَةِ.",
-              "en": "O Allah, bless the man with the mole."
+              "en": "O Allah, bless the man with the mole.",
+              "en2": "O Allah, bless the bearer of the birthmark."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ العَلَامَةِ.",
-              "en": "O Allah, bless the one who possessed distinguishing mark."
+              "en": "O Allah, bless the one who possessed distinguishing mark.",
+              "en2": "O Allah, bless the one who bore the distinguishing sign."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى المَوْصُوفِ بِالكَرَامَةِ.",
-              "en": "O Allah, bless the man endued with miracles."
+              "en": "O Allah, bless the man endued with miracles.",
+              "en2": "O Allah, bless the man endowed with miracles."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى المَخْصُوصِ بِالزَّعَامَةِ.",
-              "en": "O Allah, bless the man the object of veneration."
+              "en": "O Allah, bless the man the object of veneration.",
+              "en2": "O Allah, bless the man who is the object of veneration."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ كَانَ تُظِلُّهُ الغَمَامَةُ.",
-              "en": "O Allah, bless the man who was shaded by clouds."
+              "en": "O Allah, bless the man who was shaded by clouds.",
+              "en2": "O Allah, bless the man shaded by clouds."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ كَانَ يَرَى مَنْ خَلْفَهُ كَمَا يَرَى مَنْ أَمَامَهُ.",
-              "en": "O Allah, bless him who saw everything from behind, even as could see one who was in front of him."
+              "en": "O Allah, bless him who saw everything from behind, even as could see one who was in front of him.",
+              "en2": "O Allah, bless the one who saw everything behind him just as one sees what is in front."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى الشَّفِيعِ المُشَفَّعِ يَوْمَ القِيَامَةِ.",
-              "en": "O Allah, bless the one whose intercession is accepted in the Day of Resurrection."
+              "en": "O Allah, bless the one whose intercession is accepted in the Day of Resurrection.",
+              "en2": "O Allah, bless the one whose intercession is accepted on the Day of Resurrection."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ الضَّرَاعَةِ.",
-              "en": "O Allah, bless the example of humility."
+              "en": "O Allah, bless the example of humility.",
+              "en2": "O Allah, bless the model of humility."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ الشَّفَاعَةِ.",
-              "en": "O Allah, bless the votary of intercession."
+              "en": "O Allah, bless the votary of intercession.",
+              "en2": "O Allah, bless the devoted seeker of intercession."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ الوَسِيلَةِ.",
-              "en": "O Allah, bless the promoter of good influence."
+              "en": "O Allah, bless the promoter of good influence.",
+              "en2": "O Allah, bless the promoter of goodly influence."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ الفَضِيلَةِ.",
-              "en": "O Allah, bless the man of gracious mind."
+              "en": "O Allah, bless the man of gracious mind.",
+              "en2": "O Allah, bless the man of gracious spirit."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ الدَّرَجَةِ الرَّفِيعَةِ.",
-              "en": "O Allah, bless the model of exalted dignity."
+              "en": "O Allah, bless the model of exalted dignity.",
+              "en2": "O Allah, bless the model of exalted dignity."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ الهِرَاوَةِ.",
-              "en": "O Allah, bless the man of the stalwart staff."
+              "en": "O Allah, bless the man of the stalwart staff.",
+              "en2": "O Allah, bless the man of the sturdy staff."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ النَّعْلَيْنِ.",
-              "en": "O Allah, bless the man who wore his sandals."
+              "en": "O Allah, bless the man who wore his sandals.",
+              "en2": "O Allah, bless the man who wore sandals."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ الحُجَّةِ.",
-              "en": "O Allah, bless the man of argument."
+              "en": "O Allah, bless the man of argument.",
+              "en2": "O Allah, bless the master of argument."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ البُرْهَانِ.",
-              "en": "O Allah, bless the man of sound reason."
+              "en": "O Allah, bless the man of sound reason.",
+              "en2": "O Allah, bless the man of sound reason."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ السُّلْطَانِ.",
-              "en": "O Allah, bless the man of power."
+              "en": "O Allah, bless the man of power.",
+              "en2": "O Allah, bless the man of power."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ التَّاجِ.",
-              "en": "O Allah, bless the wearer of the turban."
+              "en": "O Allah, bless the wearer of the turban.",
+              "en2": "O Allah, bless the wearer of the turban."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ المِعْرَاجِ.",
-              "en": "O Allah, bless the hero of the night ascent."
+              "en": "O Allah, bless the hero of the night ascent.",
+              "en2": "O Allah, bless the hero of the Night Journey."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ القَضِيبِ.",
-              "en": "O Allah, bless the hero of the sword."
+              "en": "O Allah, bless the hero of the sword.",
+              "en2": "O Allah, bless the hero of the sword."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى رَاكِبِ النَّجِيبِ.",
-              "en": "O Allah, bless the noble rider."
+              "en": "O Allah, bless the noble rider.",
+              "en2": "O Allah, bless the noble rider."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى رَاكِبِ البُرَاقِ.",
-              "en": "O Allah, bless the rider of Borak"
+              "en": "O Allah, bless the rider of Borak",
+              "en2": "O Allah, bless the rider of al-Burāq."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مُخْتَرِقِ السَّبْعِ الطِّبَاقِ.",
-              "en": "O Allah, bless him who traversed the seven spheres."
+              "en": "O Allah, bless him who traversed the seven spheres.",
+              "en2": "O Allah, bless the one who passed through the seven heavens."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى الشَّفِيعِ فِي جَمِيعِ الأَنَامِ.",
-              "en": "O Allah, bless the intercessor for all creatures."
+              "en": "O Allah, bless the intercessor for all creatures.",
+              "en2": "O Allah, bless the intercessor for all creation."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ سَبَّحَ فِي كَفِّهِ الطَّعَامُ.",
-              "en": "O Allah, bless the man who held food in his hand and which glorified Allah."
+              "en": "O Allah, bless the man who held food in his hand and which glorified Allah.",
+              "en2": "O Allah, bless the man who held food in his hand, and it glorified Allah."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ بَكَى إِلَيْهِ الجِذْعُ وَحَنَّ لِفِرَاقِهِ.",
-              "en": "O Allah, bless the man for whom the palm trunk wept and sighed at its separation from him."
+              "en": "O Allah, bless the man for whom the palm trunk wept and sighed at its separation from him.",
+              "en2": "O Allah, bless the man for whom the palm-trunk wept and sighed when parted from him."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ تَوَسَّلَ بِهِ طَيْرُ الفَلَاةِ.",
-              "en": "O Allah, bless him of whom the birds of the desert sought influence."
+              "en": "O Allah, bless him of whom the birds of the desert sought influence.",
+              "en2": "O Allah, bless the one whose favour was sought by the birds of the desert."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ سَبَّحَتْ فِي كَفِّهِ الحَصَاةُ.",
-              "en": "O Allah, bless the man who held stones in his hand and which glorified Allah."
+              "en": "O Allah, bless the man who held stones in his hand and which glorified Allah.",
+              "en2": "O Allah, bless the man who held pebbles in his hand, and they glorified Allah."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ تَشَفَّعَ إِلَيْهِ الظَّبْيُ بِأَفْصَحِ كَلَامٍ.",
-              "en": "O Allah, bless him of whom the gazelles sought intercession, in articulate speech,"
+              "en": "O Allah, bless him of whom the gazelles sought intercession, in articulate speech,",
+              "en2": "O Allah, bless the one whose intercession the gazelles sought in clear, articulate speech."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ كَلَّمَهُ الضَّبُّ فِي مَجْلِسِهِ مَعَ أَصْحَابِهِ الأَعْلَامِ.",
-              "en": "O Allah, bless him to whom the lizard spoke at an open conference of the most learned (or with his most learned companions)."
+              "en": "O Allah, bless him to whom the lizard spoke at an open conference of the most learned (or with his most learned companions).",
+              "en2": "O Allah, bless the one to whom the lizard spoke in an open gathering of the most learned."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى البَشِيرِ النَّذِيرِ.",
-              "en": "O Allah, bless the devoted evangelist."
+              "en": "O Allah, bless the devoted evangelist.",
+              "en2": "O Allah, bless the devoted herald of good news."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى السِّرَاجِ المُنِيرِ.",
-              "en": "O Allah, bless the brilliant lamp."
+              "en": "O Allah, bless the brilliant lamp.",
+              "en2": "O Allah, bless the shining lamp."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ شَكَا إِلَيْهِ البَعِيرُ.",
-              "en": "O Allah, bless the man to whom the camel made its complaint."
+              "en": "O Allah, bless the man to whom the camel made its complaint.",
+              "en2": "O Allah, bless the man to whom the camel brought its complaint."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ تَفَجَّرَ مِنْ بَيْنِ أَصَابِعِهِ المَاءُ النَّمِيرُ.",
-              "en": "O Allah, bless the man for whom the sparking water burst forth from his fingertips for his Companions."
+              "en": "O Allah, bless the man for whom the sparking water burst forth from his fingertips for his Companions.",
+              "en2": "O Allah, bless the man from whose fingertips sparkling water burst forth for his Companions."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى الطَّاهِرِ المُطَهَّرِ.",
-              "en": "O Allah, bless him who was pure and yet purified."
+              "en": "O Allah, bless him who was pure and yet purified.",
+              "en2": "O Allah, bless the one who was pure and ever purified."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى نُورِ الأَنْوَارِ.",
-              "en": "O Allah, bless the light of lights."
+              "en": "O Allah, bless the light of lights.",
+              "en2": "O Allah, bless the light of lights."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنِ انْشَقَّ لَهُ القَمَرُ.",
-              "en": "O Allah, bless him for whom the moon opened out."
+              "en": "O Allah, bless him for whom the moon opened out.",
+              "en2": "O Allah, bless the one for whom the moon split open."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى الطَّيِّبِ المُطَيَّبِ.",
-              "en": "O Allah, bless him who was good and who did good."
+              "en": "O Allah, bless him who was good and who did good.",
+              "en2": "O Allah, bless the one who was good and did good."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى الرَّسُولِ المُقَرَّبِ.",
-              "en": "O Allah, bless the Apostle who was given the privilege of access."
+              "en": "O Allah, bless the Apostle who was given the privilege of access.",
+              "en2": "O Allah, bless the Messenger granted the privilege of nearness."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى الفَجْرِ السَّاطِعِ.",
-              "en": "O Allah, bless the spreading dawn."
+              "en": "O Allah, bless the spreading dawn.",
+              "en2": "O Allah, bless the spreading dawn."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى النَّجْمِ الثَّاقِبِ.",
-              "en": "O Allah, bless the brilliant star."
+              "en": "O Allah, bless the brilliant star.",
+              "en2": "O Allah, bless the brilliant star."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى العُرْوَةِ الوُثْقَى.",
-              "en": "O Allah, bless the trusty handle."
+              "en": "O Allah, bless the trusty handle.",
+              "en2": "O Allah, bless the firm handhold."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى نَذِيرِ أَهْلِ الأَرْضِ.",
-              "en": "O Allah, bless the monitor of the people of earth."
+              "en": "O Allah, bless the monitor of the people of earth.",
+              "en2": "O Allah, bless the one who counsels the people of the earth."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى الشَّفِيعِ يَوْمَ العَرْضِ.",
-              "en": "O Allah, bless him who intercedes for the Day of Visitation."
+              "en": "O Allah, bless him who intercedes for the Day of Visitation.",
+              "en2": "O Allah, bless the one who intercedes on the Day of the Meeting."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى السَّاقِي لِلنَّاسِ مِنَ الحَوْضِ.",
-              "en": "O Allah, bless him who gives mankind drink of the cistern."
+              "en": "O Allah, bless him who gives mankind drink of the cistern.",
+              "en2": "O Allah, bless the one who gives mankind to drink from the Pool."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ لِوَاءِ الحَمْدِ.",
-              "en": "O Allah, bless the standard-bearer of praise."
+              "en": "O Allah, bless the standard-bearer of praise.",
+              "en2": "O Allah, bless the bearer of the banner of praise."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى المُشَمِّرِ عَنْ سَاعِدِ الجِدِّ.",
-              "en": "O Allah, bless him who bared his arm to the elbow to shoot with zeal (for Thy service)"
+              "en": "O Allah, bless him who bared his arm to the elbow to shoot with zeal (for Thy service)",
+              "en2": "O Allah, bless the one who bared his arm to the elbow, shooting with zeal in Your service."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى المُسْتَعْمِلِ فِي مَرْضَاتِكَ غَايَةَ الجُهْدِ.",
-              "en": "O Allah, bless him who was a student of Thy Will to the utmost of his power."
+              "en": "O Allah, bless him who was a student of Thy Will to the utmost of his power.",
+              "en2": "O Allah, bless the one who strove to know Your will with all his power."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى النَّبِيِّ الخَاتِمِ.",
-              "en": "O Allah, bless the sealing Prophet."
+              "en": "O Allah, bless the sealing Prophet.",
+              "en2": "O Allah, bless the Seal of the Prophets."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى الرَّسُولِ الخَاتِمِ.",
-              "en": "O Allah, bless the sealing envoy."
+              "en": "O Allah, bless the sealing envoy.",
+              "en2": "O Allah, bless the Seal of the Messengers."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى المُصْطَفَى القَائِمِ.",
-              "en": "O Allah, bless the chosen and unswerving man."
+              "en": "O Allah, bless the chosen and unswerving man.",
+              "en2": "O Allah, bless the chosen one, firm and unswerving."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى رَسُولِكَ أَبِي القَاسِمِ.",
-              "en": "O Allah, bless Thy Apostle Abou Qasim."
+              "en": "O Allah, bless Thy Apostle Abou Qasim.",
+              "en2": "O Allah, bless Your messenger Abū al-Qāsim."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ الآيَاتِ.",
-              "en": "O Allah, bless the man of many signs."
+              "en": "O Allah, bless the man of many signs.",
+              "en2": "O Allah, bless the man of many signs."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ الدَّلَالَاتِ.",
-              "en": "O Allah, bless the author of true guidance."
+              "en": "O Allah, bless the author of true guidance.",
+              "en2": "O Allah, bless the bringer of true guidance."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ الإِشَارَاتِ.",
-              "en": "O Allah, bless the author of advice."
+              "en": "O Allah, bless the author of advice.",
+              "en2": "O Allah, bless the giver of counsel."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ الكَرَامَاتِ.",
-              "en": "O Allah, bless the worker of wonders."
+              "en": "O Allah, bless the worker of wonders.",
+              "en2": "O Allah, bless the worker of wonders."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ العَلَامَاتِ.",
-              "en": "O Allah, bless the designer of evidences."
+              "en": "O Allah, bless the designer of evidences.",
+              "en2": "O Allah, bless the giver of proofs."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ البَيِّنَاتِ.",
-              "en": "O Allah, bless the originator of plain evidence."
+              "en": "O Allah, bless the originator of plain evidence.",
+              "en2": "O Allah, bless the bringer of clear evidence."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ المُعْجِزَاتِ.",
-              "en": "O Allah, bless the author of miracles."
+              "en": "O Allah, bless the author of miracles.",
+              "en2": "O Allah, bless the author of miracles."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى صَاحِبِ خَوَارِقِ العَادَاتِ.",
-              "en": "O Allah, bless the author of unusual customs."
+              "en": "O Allah, bless the author of unusual customs.",
+              "en2": "O Allah, bless the bringer of wondrous ways."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ سَلَّمَتْ عَلَيْهِ الأَحْجَارُ.",
-              "en": "O Allah, bless the man who was greeted by stones."
+              "en": "O Allah, bless the man who was greeted by stones.",
+              "en2": "O Allah, bless the man greeted by the stones."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ سَجَدَتْ بَيْنَ يَدَيْهِ الأَشْجَارُ.",
-              "en": "O Allah, bless the man in whose presence the trees did obeisance."
+              "en": "O Allah, bless the man in whose presence the trees did obeisance.",
+              "en2": "O Allah, bless the man in whose presence trees bowed down."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ تَفَتَّقَتْ مِنْ نُورِهِ الأَزْهَارُ.",
-              "en": "O Allah, bless the man at whose light the flowers open."
+              "en": "O Allah, bless the man at whose light the flowers open.",
+              "en2": "O Allah, bless the man at whose light the flowers open."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ طَابَتْ بِبَرَكَتِهِ الثِّمَارُ.",
-              "en": "O Allah, bless the man at whose blessing the fruits mature."
+              "en": "O Allah, bless the man at whose blessing the fruits mature.",
+              "en2": "O Allah, bless the man at whose blessing the fruits ripen."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنِ اخْضَرَّتْ مِنْ بَقِيَّةِ وَضُوئِهِ الأَشْجَارُ.",
-              "en": "O Allah, bless the man whose left over ablution water turned the trees green."
+              "en": "O Allah, bless the man whose left over ablution water turned the trees green.",
+              "en2": "O Allah, bless the man whose leftover ablution-water turned the trees green."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ فَاضَتْ مِنْ نُورِهِ جَمِيعُ الأَنْوَارِ.",
-              "en": "O Allah, bless the man at whose light all other lights burst forth."
+              "en": "O Allah, bless the man at whose light all other lights burst forth.",
+              "en2": "O Allah, bless the man from whose light all other lights burst forth."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ بِالصَّلَاةِ عَلَيْهِ تُحَطُّ الأَوْزَارُ.",
-              "en": "O Allah, bless the man on prayer to whom lightens our every sinful load."
+              "en": "O Allah, bless the man on prayer to whom lightens our every sinful load.",
+              "en2": "O Allah, bless the man through prayer to whom our every load of sin is lightened."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ بِالصَّلَاةِ عَلَيْهِ تُنَالُ مَنَازِلُ الأَبْرَارِ.",
-              "en": "O Allah, bless the man, on prayer to whom the most convenient lodgings are granted."
+              "en": "O Allah, bless the man, on prayer to whom the most convenient lodgings are granted.",
+              "en2": "O Allah, bless the man through prayer to whom the best lodging is granted."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ بِالصَّلَاةِ عَلَيْهِ يُرْحَمُ الكِبَارُ وَالصِّغَارُ.",
-              "en": "O Allah, bless the man, on prayer to whom the great and the small find mercy."
+              "en": "O Allah, bless the man, on prayer to whom the great and the small find mercy.",
+              "en2": "O Allah, bless the man through prayer to whom great and small find mercy."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ بِالصَّلَاةِ عَلَيْهِ نَتَنَعَّمُ فِي هَذِهِ الدَّارِ وَفِي تِلْكَ الدَّارِ.",
-              "en": "O Allah, bless him, on prayer to whom we shall find things well and pleasant, in this sojourn and in that."
+              "en": "O Allah, bless him, on prayer to whom we shall find things well and pleasant, in this sojourn and in that.",
+              "en2": "O Allah, bless the one through prayer to whom we find all well and pleasant, in this world and the next."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ بِالصَّلَاةِ عَلَيْهِ تُنَالُ رَحْمَةُ العَزِيزِ الغَفَّارِ.",
-              "en": "O Allah, bless the man, on prayer to whom there will be awarded the mercy of the Mighty and Merciful Lord."
+              "en": "O Allah, bless the man, on prayer to whom there will be awarded the mercy of the Mighty and Merciful Lord.",
+              "en2": "O Allah, bless the man through prayer to whom the mercy of the Mighty and Merciful Lord is granted."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى المَنْصُورِ المُؤَيَّدِ.",
-              "en": "O Allah, bless the beloved conqueror."
+              "en": "O Allah, bless the beloved conqueror.",
+              "en2": "O Allah, bless the beloved conqueror."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى المُخْتَارِ المُمَجَّدِ.",
-              "en": "O Allah, bless the chosen and honoured man."
+              "en": "O Allah, bless the chosen and honoured man.",
+              "en2": "O Allah, bless the chosen and honoured one."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ.",
-              "en": "O Allah, bless our master and patron Muhammad."
+              "en": "O Allah, bless our master and patron Muhammad.",
+              "en2": "O Allah, bless our master and patron Muhammad."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى مَنْ كَانَ إِذَا مَشَى فِي البَرِّ الأَقْفَرِ تَعَلَّقَتِ الوُحُوشُ بِأَذْيَالِهِ.",
-              "en": "O Allah, bless the man who when he was travelling in the most desert lands, the wild creatures actually clung to the skirts of his robe."
+              "en": "O Allah, bless the man who when he was travelling in the most desert lands, the wild creatures actually clung to the skirts of his robe.",
+              "en2": "O Allah, bless the man who, when travelling through the emptiest deserts, had wild creatures clinging to the skirts of his robe."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَيْهِ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلِّمْ تَسْلِيمًا كَثِيرًا، وَالحَمْدُ لِلَّهِ رَبِّ العَالَمِينَ.",
-              "en": "O Allah, bless him and his Family and his Comrades, and give them perfect peace, and praise be to Allah, Lord of the Worlds."
+              "en": "O Allah, bless him and his Family and his Comrades, and give them perfect peace, and praise be to Allah, Lord of the Worlds.",
+              "en2": "O Allah, bless him and his family and his Companions, and grant them perfect peace; and praise be to Allah, Lord of the Worlds."
             },
             {
               "ar": "الحَمْدُ لِلَّهِ عَلَى حِلْمِهِ بَعْدَ عِلْمِهِ، وَعَلَى عَفْوِهِ بَعْدَ قُدْرَتِهِ.",
-              "en": "Praise be to Allah for his indulgence as the fruits of His knowledge, and for His Forgiveness as the outcome of His Power."
+              "en": "Praise be to Allah for his indulgence as the fruits of His knowledge, and for His Forgiveness as the outcome of His Power.",
+              "en2": "Praise be to Allah for His bounty, the fruit of His knowledge, and for His forgiveness, the outcome of His power."
             },
             {
               "ar": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الفَقْرِ إِلَّا إِلَيْكَ، وَمِنَ الذُّلِّ إِلَّا لَكَ، وَمِنَ الخَوْفِ إِلَّا مِنْكَ، وَأَعُوذُ بِكَ أَنْ أَقُولَ زُورًا، أَوْ أَغْشَى فُجُورًا، أَوْ أَكُونَ بِكَ مَغْرُورًا، وَأَعُوذُ بِكَ مِنْ شَمَاتَةِ الأَعْدَاءِ، وَعُضَالِ الدَّاءِ، وَخَيْبَةِ الرَّجَاءِ، وَزَوَالِ النِّعْمَةِ، وَفُجَاءَةِ النِّقْمَةِ.",
-              "en": "For, O Allah, I take refuge with Thee for poverty’s sake only to Thee, and for humility to Thee alone, and for fear from Thee alone; and I appeal to Thee whether I speak falsehood, and whether I indulge in wickedness, or whether I am presumptuous with Thee: and I appeal to Thee for the jealousy of the enemies and for the difficulties of misery, and to save the disappointment of my hopes and the loss of pleasure, and the fell effect of vengeance."
+              "en": "For, O Allah, I take refuge with Thee for poverty’s sake only to Thee, and for humility to Thee alone, and for fear from Thee alone; and I appeal to Thee whether I speak falsehood, and whether I indulge in wickedness, or whether I am presumptuous with Thee: and I appeal to Thee for the jealousy of the enemies and for the difficulties of misery, and to save the disappointment of my hopes and the loss of pleasure, and the fell effect of vengeance.",
+              "en2": "For, O Allah, in poverty I take refuge with You alone, in humility with You alone, in fear of You alone; and I turn to You whether I speak falsehood, indulge in wickedness, or grow presumptuous with You; and I turn to You against the envy of enemies, the hardships of misery, the disappointment of my hopes, the loss of pleasure, and the cruel stroke of vengeance."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَسَلِّمْ عَلَيْهِ، وَاجْزِهِ عَنَّا مَا هُوَ أَهْلُهُ حَبِيبُكَ (3)",
-              "en": "O Allah, bless our master Muhammad, and give him peace and reward him as much as he deserves, he who is Thy Beloved. {Three times}"
+              "en": "O Allah, bless our master Muhammad, and give him peace and reward him as much as he deserves, he who is Thy Beloved. {Three times}",
+              "en2": "O Allah, bless our master Muhammad, grant him peace, and reward him as richly as he deserves — Your beloved. (Three times)"
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا إِبْرَاهِيمَ وَسَلِّمْ عَلَيْهِ، وَاجْزِهِ عَنَّا مَا هُوَ أَهْلُهُ خَلِيلُكَ (3)",
-              "en": "O Allah, bless our master Abraham and give him peace, and reward him as much as he deserves, he who is Thy Friend. [Three times]."
+              "en": "O Allah, bless our master Abraham and give him peace, and reward him as much as he deserves, he who is Thy Friend. [Three times].",
+              "en2": "O Allah, bless our master Abraham, grant him peace, and reward him as richly as he deserves — Your friend. (Three times)"
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا صَلَّيْتَ وَرَحِمْتَ وَبَارَكْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ فِي العَالَمِينَ إِنَّكَ حَمِيدٌ مَجِيدٌ، عَدَدَ خَلْقِكَ وَرِضَاءَ نَفْسِكَ وَزِنَةَ عَرْشِكَ وَمِدَادَ كَلِمَاتِكَ.",
-              "en": "O Allah, bless our master Muhammad, and the Family of our master Muhammad, even as Thou hast blessed and shown mercy and favour towards our master Abraham in the worlds; for Thou art Laudable and Glorious throughout all Thy creation, and in the pleasure of Thy Soul, and the embellishment of Thy Throne, and the form of Thy Words."
+              "en": "O Allah, bless our master Muhammad, and the Family of our master Muhammad, even as Thou hast blessed and shown mercy and favour towards our master Abraham in the worlds; for Thou art Laudable and Glorious throughout all Thy creation, and in the pleasure of Thy Soul, and the embellishment of Thy Throne, and the form of Thy Words.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad, as You blessed, showed mercy, and showed favour to our master Abraham throughout the worlds — You are Praiseworthy and Glorious — through all Your creation, to the pleasure of Your Self, the adornment of Your Throne, and the measure of Your words."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَنْ صَلَّى عَلَيْهِ.",
-              "en": "O Allah, bless our master Muhammad in every one who blesses him."
+              "en": "O Allah, bless our master Muhammad in every one who blesses him.",
+              "en2": "O Allah, bless our master Muhammad in everyone who blesses him."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَنْ لَمْ يُصَلِّ عَلَيْهِ.",
-              "en": "O Allah, bless our master Muhammad in every one who does not bless him."
+              "en": "O Allah, bless our master Muhammad in every one who does not bless him.",
+              "en2": "O Allah, bless our master Muhammad in everyone who does not bless him."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا صُلِّيَ عَلَيْهِ.",
-              "en": "O Allah, bless our master Muhammad as many times as he has been blessed."
+              "en": "O Allah, bless our master Muhammad as many times as he has been blessed.",
+              "en2": "O Allah, bless our master Muhammad as many times as he has been blessed."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ أَضْعَافَ مَا صُلِّيَ عَلَيْهِ.",
-              "en": "O Allah, bless our master Muhammad twice in everything that is blessed in him."
+              "en": "O Allah, bless our master Muhammad twice in everything that is blessed in him.",
+              "en2": "O Allah, bless our master Muhammad twice over in everything blessed in him."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ كَمَا هُوَ أَهْلُهُ.",
-              "en": "O Allah, bless our master Muhammad as much as he deserves."
+              "en": "O Allah, bless our master Muhammad as much as he deserves.",
+              "en2": "O Allah, bless our master Muhammad as richly as he deserves."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ كَمَا تُحِبُّ وَتَرْضَى لَهُ.",
-              "en": "O Allah, bless our master Muhammad even as Thou lovest and favourest him."
+              "en": "O Allah, bless our master Muhammad even as Thou lovest and favourest him.",
+              "en2": "O Allah, bless our master Muhammad as You love him and are pleased with him."
             }
           ],
           "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain."
