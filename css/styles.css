@@ -903,14 +903,15 @@ audio {
 .rec-dialog-art {
   display: block;
   width: min(55vw, 12.5rem);
-  margin: 0 auto 1rem;
+  margin: 0 auto 1.25rem;
   padding: 0;
-  border: 2px solid var(--accent);
-  border-radius: var(--radius);
+  border: 4px solid var(--accent);
+  border-radius: 50%;
   overflow: hidden;
-  background: var(--bg);
+  background: #0a0e0c;
   cursor: zoom-in;
-  transition: border-color 160ms ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45), inset 0 0 0 3px rgba(255, 255, 255, 0.08);
+  transition: border-color 160ms ease, box-shadow 300ms ease;
 }
 .rec-dialog-art:hover { border-color: var(--gold); }
 .rec-dialog-art img {
@@ -918,6 +919,22 @@ audio {
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
+  border-radius: 50%;
+}
+.rec-dialog-art.is-playing img {
+  animation: vinyl-spin 4s linear infinite;
+}
+.rec-dialog-art.is-paused img {
+  animation: vinyl-spin 4s linear infinite;
+  animation-play-state: paused;
+}
+.rec-dialog-art.is-playing {
+  border-color: var(--gold);
+  box-shadow: 0 0 25px rgba(201, 166, 88, 0.35), 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+@keyframes vinyl-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
 }
 
 .rec-dialog-artist {

@@ -282,6 +282,20 @@
     player.appendChild(document.createTextNode(
       'Your browser does not support the audio element. The recording "' + rec.title + '" cannot be played.'
     ));
+    if (artBtn) {
+      player.addEventListener('play', function () {
+        artBtn.classList.remove('is-paused');
+        artBtn.classList.add('is-playing');
+      });
+      player.addEventListener('pause', function () {
+        artBtn.classList.remove('is-playing');
+        artBtn.classList.add('is-paused');
+      });
+      player.addEventListener('ended', function () {
+        artBtn.classList.remove('is-playing');
+        artBtn.classList.remove('is-paused');
+      });
+    }
     children.push(player);
 
     // Identified text and translation (verse cards, like the reader view).
