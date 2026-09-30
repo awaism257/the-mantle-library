@@ -6428,8 +6428,8 @@
       "title_ar": "تسجيلات تاريخية",
       "title_en": "Historic Devotional Recordings",
       "author": "Various artists",
-      "author_dates": "1905–1915",
-      "description_en": "A collection of devotional performances captured on commercial 78rpm discs in Cairo and beyond between 1905 and 1915 — tawshīḥ, qasā'id, and Quranic recitation by some of the earliest recorded voices of the Arabic gramophone era. These discs were published before 1923 and are in the public domain.",
+      "author_dates": "1901–1921",
+      "description_en": "A collection of devotional performances captured on commercial 78rpm discs in Cairo, Kazan, and Paris between 1901 and 1921 — tawshīḥ, qasā'id, and Quranic recitation by some of the earliest recorded voices of the gramophone era. These discs were published before 1926 and are in the public domain.",
       "sections": [],
       "audio": [
         {
@@ -6788,6 +6788,39 @@
           "note": "Among the oldest Islamic devotional recordings known to survive — captured at Fred Gaisberg's Kazan sessions, June 1901.",
           "description": "A tarawīḥ prayer chant recorded in Kazan in June 1901 during Fred Gaisberg's recording expedition for the Gramophone Company — among the oldest Islamic devotional recordings known to survive.",
           "genre": "quran"
+        },
+        {
+          "file": "audio/Ilzam_Baba_Rabbek_Ahmed_al-Shaykh_Baidaphon.mp3",
+          "art": "audio/art/art_Ilzam_Baba_Rabbek_Ahmed_al-Shaykh_Baidaphon.jpg",
+          "title": "Qaṣīda: Ilzam Bāb Rabbak (Pt 1)",
+          "artist": "Al-Shaykh Aḥmad al-Shaykh",
+          "date": "c. 1910–1920",
+          "label": "Baidaphon 135018",
+          "credit": "Historic recording courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.",
+          "description": "Devotional qaṣīda ('Cling to the Door of Thy Lord') performed by Al-Shaykh Aḥmad al-Shaykh on the historic Baidaphon label.",
+          "genre": "qasida"
+        },
+        {
+          "file": "audio/Qasida_Sahi_al-Jufun_Yusuf_al-Manyalawi_1909.mp3",
+          "art": "audio/art/art_Qasida_Sahi_al-Jufun_Yusuf_al-Manyalawi_1909.jpg",
+          "title": "Qaṣīda: Sāḥī al-Jufūn (Pt 1)",
+          "artist": "Shaykh Yūsuf al-Manyalāwī",
+          "date": "Cairo 1909",
+          "label": "Gramophone Concert 012015",
+          "credit": "Gramophone Concert Record (Cairo, 1909). Public domain. Transfer courtesy of Excavated Shellac.",
+          "description": "A classical devotional vocal improvisation (qaṣīda) in Maqām Rāst by Egypt's revered master of the Khedivial golden era, Shaykh Yūsuf al-Manyalāwī (1847–1911), accompanied by takht masters Muḥammad al-ʿAqqād (qānūn), ʿAlī ʿAbduh Ṣāliḥ (nāy), and Ibrāhīm Sahlūn (kamānja).",
+          "genre": "qasida"
+        },
+        {
+          "file": "audio/Qasida_Jaddidi_Ya_Nafs_Yusuf_al-Manyalawi_1910.mp3",
+          "art": "audio/art/art_Qasida_Jaddidi_Ya_Nafs_Yusuf_al-Manyalawi_1910.jpg",
+          "title": "Qaṣīda: Jaddidī Yā Nafsu Ḥuznā (Pt 1)",
+          "artist": "Shaykh Yūsuf al-Manyalāwī",
+          "date": "Cairo c. 1910",
+          "label": "Gramophone Monarch 012061",
+          "credit": "Gramophone Monarch Record (Cairo, c. 1910). Public domain. Transfer courtesy of Excavated Shellac.",
+          "description": "Shaykh Yūsuf al-Manyalāwī in a soaring rendition of 'Jaddidī Yā Nafsu Ḥuznā' ('Renew thy grief, O soul'), captured on a 12-inch Gramophone Monarch disc shortly before his death in 1911.",
+          "genre": "qasida"
         }
       ]
     }
