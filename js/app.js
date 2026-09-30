@@ -552,9 +552,9 @@
       nodes.push(el('p', { class: 'work-description', text: work.description_en }));
     }
     if (work.source_en) {
-      nodes.push(el('p', { class: 'work-source' }, [
-        el('strong', { text: 'Text source: ' }),
-        document.createTextNode(work.source_en)
+      nodes.push(el('details', { class: 'work-source' }, [
+        el('summary', { text: 'Text source' }),
+        el('p', { text: work.source_en })
       ]));
     }
     return nodes;

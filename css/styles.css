@@ -115,8 +115,8 @@ html.light {
   --card: rgb(255, 252, 243);           /* lifted parchment card */
   --border: rgb(214, 200, 168);         /* muted, derived from --paper */
   --border-hover: rgb(176, 158, 118);
-  --dim: rgba(40, 34, 24, 0.74);
-  --faint: rgba(40, 34, 24, 0.5);
+  --dim: rgba(40, 34, 24, 0.82);
+  --faint: rgba(40, 34, 24, 0.68);
 
   /* Mantle identity: deep green + antique gold on paper */
   --gold: rgb(146, 112, 44);
@@ -597,7 +597,16 @@ h1, h2, h3 {
   max-width: 36rem;
   margin: 1rem auto 0;
 }
-.work-source strong { color: var(--dim); font-weight: bold; }
+.work-source summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--dim);
+  display: inline-block;
+  list-style-position: inside;
+}
+.work-source summary::before { content: "▸ "; }
+details.work-source[open] summary::before { content: "▾ "; }
+.work-source p { margin: 0.5rem 0 0; }
 
 /* ---------- Reader: verse-per-card (Munajaat-style) ---------- */
 
