@@ -659,6 +659,12 @@
           break;
         }
       }
+      // Keep active verse illuminated across breath pauses between verses
+      if (activeNum === null && lastActiveNum !== null && timestamps.length > 0) {
+        if (t >= timestamps[0].start && t <= timestamps[timestamps.length - 1].end) {
+          activeNum = lastActiveNum;
+        }
+      }
 
       if (activeNum !== lastActiveNum) {
         if (lastActiveCard) lastActiveCard.classList.remove('is-active-verse');
