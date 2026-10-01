@@ -628,6 +628,161 @@ details.work-source[open] summary::before { content: "▾ "; }
   border-color: var(--border-hover);
   box-shadow: 0 2px 10px var(--shadow);
 }
+.verse-card.is-seekable {
+  cursor: pointer;
+}
+.verse-card.is-active-verse {
+  border-color: var(--gold);
+  border-left: 4px solid var(--gold);
+  background: rgba(214, 174, 94, 0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35), 0 0 14px rgba(214, 174, 94, 0.2);
+  transition: border-color 200ms ease, background 200ms ease, box-shadow 200ms ease;
+}
+html.light .verse-card.is-active-verse {
+  background: rgba(186, 138, 44, 0.12);
+  box-shadow: 0 4px 16px rgba(186, 138, 44, 0.25);
+}
+.verse-card.is-active-verse .verse-badge {
+  background: var(--gold);
+  color: #101613;
+  font-weight: bold;
+}
+
+/* ---------- Sticky Reader Audio Bar ---------- */
+.reader-audio-bar {
+  position: sticky;
+  top: 0.5rem;
+  z-index: 30;
+  background: var(--card);
+  border: 1.5px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 0.85rem 1rem 0.95rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.reader-audio-row-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.reader-audio-play-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 0;
+}
+.reader-audio-play-btn {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--gold);
+  border: 1.5px solid var(--gold);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: transform 120ms ease, background 160ms ease;
+}
+.reader-audio-play-btn:hover {
+  background: var(--accent-strong);
+  transform: scale(1.05);
+}
+.reader-audio-play-btn svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.reader-audio-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.reader-audio-title {
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: var(--fg);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.reader-audio-artist {
+  font-size: 0.8rem;
+  color: var(--dim);
+}
+.reader-audio-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+.reader-pill-btn {
+  font-size: 0.78rem;
+  font-family: inherit;
+  font-weight: 600;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--fg);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: all 140ms ease;
+  white-space: nowrap;
+}
+.reader-pill-btn:hover {
+  border-color: var(--gold);
+}
+.reader-pill-btn.is-active {
+  background: var(--gold);
+  color: #101613;
+  border-color: var(--gold);
+}
+.reader-audio-row-bottom {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.reader-audio-time {
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--dim);
+  min-width: 2.5rem;
+}
+.reader-audio-time.end {
+  text-align: right;
+}
+.reader-progress-slider {
+  flex: 1;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--border);
+  outline: none;
+  cursor: pointer;
+}
+.reader-progress-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--gold);
+  cursor: pointer;
+  border: 2px solid var(--card);
+}
+.reader-progress-slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--gold);
+  cursor: pointer;
+  border: 2px solid var(--card);
+}
 
 .verse-card-head {
   display: flex;
@@ -659,6 +814,30 @@ details.work-source[open] summary::before { content: "▾ "; }
 .verse-copy.is-copied {
   color: var(--gold);
   border-color: var(--gold);
+}
+
+.verse-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.verse-speak {
+  width: 2rem;
+  height: 2rem;
+}
+.verse-speak svg {
+  width: 0.95rem;
+  height: 0.95rem;
+}
+.verse-speak:hover {
+  border-color: var(--gold);
+}
+.verse-speak.is-speaking {
+  color: var(--gold);
+  border-color: var(--gold);
+  background: rgba(214, 174, 94, 0.18);
+  box-shadow: 0 0 8px rgba(214, 174, 94, 0.3);
 }
 
 .arabic-text {

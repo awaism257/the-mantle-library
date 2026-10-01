@@ -2635,7 +2635,55 @@
               "en": "In the name of Allah, the Beneficent, the Merciful. Alif. Lam. Mim. That is the Book whereof there is no doubt, a guidance unto those who ward off evil: who believe in the Unseen, and establish worship, and spend of that We have bestowed upon them; and who believe in that which is revealed unto thee and that which was revealed before thee, and are certain of the Hereafter. These depend on guidance from their Lord. These are the successful.",
               "en2": "In the name of God, the All-Merciful, the Ever-Merciful. «Alif Lām Mīm. This is the Book in which there is no doubt — guidance for the God-conscious: those who believe in the unseen, establish the prayer, and spend from what We have provided them; and those who believe in what was sent down to you and what was sent down before you, and who are certain of the Hereafter. Those are upon guidance from their Lord, and those are the ones who prosper.»"
             }
-          ]
+          ],
+          "audio": {
+            "file": "audio/dalail/dalail_section_01.mp3",
+            "title": "The Opening Supplication",
+            "artist": "Dala'il al-Khayrat Montreal",
+            "duration": 142.02,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 49.78
+              },
+              {
+                "n": 2,
+                "start": 49.78,
+                "end": 51.77
+              },
+              {
+                "n": 3,
+                "start": 51.77,
+                "end": 60.74
+              },
+              {
+                "n": 4,
+                "start": 60.74,
+                "end": 63.03
+              },
+              {
+                "n": 5,
+                "start": 63.03,
+                "end": 75.11
+              },
+              {
+                "n": 6,
+                "start": 75.11,
+                "end": 100.38
+              },
+              {
+                "n": 7,
+                "start": 100.38,
+                "end": 118.5
+              },
+              {
+                "n": 8,
+                "start": 118.5,
+                "end": 142.01
+              }
+            ]
+          }
         },
         {
           "heading": "The Intention",
@@ -2655,7 +2703,30 @@
               "en": "And O Allah I entreat for Thy pleasure and his pleasure, O Lord of the Worlds, and beseech Thee for lasting well-being and a death following the Book, the Sunnah, and the Community, and upon the two words of witness in their true reality, without alteration or change. Forgive me for what I have done, through Thy Grace, Thy Favour, Thy Generosity and Thy Nobility, O Most Merciful of the Merciful. Allah's blessings and peace be upon our master Muhammad, the Seal of the Prophets and Leader of the Messengers, and upon his Family and his Companions, all of them; and peace be upon the Messengers, and praise belongs to Allah, Lord of the Worlds.",
               "en2": "And I ask You for Your pleasure and his pleasure, Lord of the worlds, together with lasting well-being, and death upon the Book, the Sunna and the Community, and upon the two words of witness in full realisation of them, without alteration or change. Forgive me what I have committed, by Your grace, Your bounty and Your generosity, Most Merciful of the merciful. And may God bless our master Muḥammad, the Seal of the Prophets and leader of the messengers, and his family and his companions, all of them. And peace be upon the messengers, and praise belongs to God, Lord of the worlds."
             }
-          ]
+          ],
+          "audio": {
+            "file": "audio/dalail/dalail_section_02.mp3",
+            "title": "The Intention",
+            "artist": "Dala'il al-Khayrat Montreal",
+            "duration": 71.48,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 27.15
+              },
+              {
+                "n": 2,
+                "start": 27.15,
+                "end": 41.63
+              },
+              {
+                "n": 3,
+                "start": 41.63,
+                "end": 71.48
+              }
+            ]
+          }
         },
         {
           "heading": "The First Part (Ḥizb 1 of 8)",
@@ -2920,7 +2991,275 @@
               "en": "O Allah, illuminate my heart with knowledge, and employ my person in Thy obedience, and make my secret thoughts pure of temptation, and foster in my thoughts reflection, and avoidance of evil and of the power of Satan, and enable me to escape him, Thou Merciful One, until he has no power over me.",
               "en2": "O Allah, illumine my heart with knowledge, employ my body in Your obedience, purify my secret thoughts from temptation, occupy my mind with reflection and with shunning evil and the power of Satan, and enable me to escape him, O Merciful One, until he has no power over me."
             }
-          ]
+          ],
+          "audio": {
+            "file": "audio/dalail/dalail_section_03.mp3",
+            "title": "The First Part (Ḥizb 1 of 8)",
+            "artist": "Dala'il al-Khayrat Montreal",
+            "duration": 745.69,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 2.29
+              },
+              {
+                "n": 2,
+                "start": 2.29,
+                "end": 7.57
+              },
+              {
+                "n": 3,
+                "start": 7.57,
+                "end": 22.76
+              },
+              {
+                "n": 4,
+                "start": 22.76,
+                "end": 37.95
+              },
+              {
+                "n": 5,
+                "start": 37.95,
+                "end": 52.67
+              },
+              {
+                "n": 6,
+                "start": 52.67,
+                "end": 58.48
+              },
+              {
+                "n": 7,
+                "start": 58.48,
+                "end": 62.29
+              },
+              {
+                "n": 8,
+                "start": 62.29,
+                "end": 73.02
+              },
+              {
+                "n": 9,
+                "start": 73.02,
+                "end": 83.87
+              },
+              {
+                "n": 10,
+                "start": 83.87,
+                "end": 95.07
+              },
+              {
+                "n": 11,
+                "start": 95.07,
+                "end": 106.27
+              },
+              {
+                "n": 12,
+                "start": 106.27,
+                "end": 117.24
+              },
+              {
+                "n": 13,
+                "start": 117.24,
+                "end": 137.88
+              },
+              {
+                "n": 14,
+                "start": 137.88,
+                "end": 149.43
+              },
+              {
+                "n": 15,
+                "start": 149.43,
+                "end": 158.17
+              },
+              {
+                "n": 16,
+                "start": 158.17,
+                "end": 211.12
+              },
+              {
+                "n": 17,
+                "start": 211.12,
+                "end": 222.2
+              },
+              {
+                "n": 18,
+                "start": 222.2,
+                "end": 274.15
+              },
+              {
+                "n": 19,
+                "start": 274.15,
+                "end": 288.11
+              },
+              {
+                "n": 20,
+                "start": 288.11,
+                "end": 293.09
+              },
+              {
+                "n": 21,
+                "start": 293.09,
+                "end": 301.71
+              },
+              {
+                "n": 22,
+                "start": 301.71,
+                "end": 310.45
+              },
+              {
+                "n": 23,
+                "start": 310.45,
+                "end": 325.93
+              },
+              {
+                "n": 24,
+                "start": 325.93,
+                "end": 341.94
+              },
+              {
+                "n": 25,
+                "start": 341.94,
+                "end": 348.92
+              },
+              {
+                "n": 26,
+                "start": 348.92,
+                "end": 354.61
+              },
+              {
+                "n": 27,
+                "start": 354.61,
+                "end": 360.94
+              },
+              {
+                "n": 28,
+                "start": 360.94,
+                "end": 372.73
+              },
+              {
+                "n": 29,
+                "start": 372.73,
+                "end": 381.53
+              },
+              {
+                "n": 30,
+                "start": 381.53,
+                "end": 387.45
+              },
+              {
+                "n": 31,
+                "start": 387.45,
+                "end": 413.72
+              },
+              {
+                "n": 32,
+                "start": 413.72,
+                "end": 431.37
+              },
+              {
+                "n": 33,
+                "start": 431.37,
+                "end": 437.53
+              },
+              {
+                "n": 34,
+                "start": 437.53,
+                "end": 454.71
+              },
+              {
+                "n": 35,
+                "start": 454.71,
+                "end": 459.11
+              },
+              {
+                "n": 36,
+                "start": 459.11,
+                "end": 465.44
+              },
+              {
+                "n": 37,
+                "start": 465.44,
+                "end": 476.93
+              },
+              {
+                "n": 38,
+                "start": 476.93,
+                "end": 496.63
+              },
+              {
+                "n": 39,
+                "start": 496.63,
+                "end": 536.15
+              },
+              {
+                "n": 40,
+                "start": 536.15,
+                "end": 573.74
+              },
+              {
+                "n": 41,
+                "start": 573.74,
+                "end": 581.83
+              },
+              {
+                "n": 42,
+                "start": 581.83,
+                "end": 590.51
+              },
+              {
+                "n": 43,
+                "start": 590.51,
+                "end": 604.58
+              },
+              {
+                "n": 44,
+                "start": 604.58,
+                "end": 637.18
+              },
+              {
+                "n": 45,
+                "start": 637.18,
+                "end": 655.53
+              },
+              {
+                "n": 46,
+                "start": 655.53,
+                "end": 661.86
+              },
+              {
+                "n": 47,
+                "start": 661.86,
+                "end": 677.57
+              },
+              {
+                "n": 48,
+                "start": 677.57,
+                "end": 689.53
+              },
+              {
+                "n": 49,
+                "start": 689.53,
+                "end": 715.8
+              },
+              {
+                "n": 50,
+                "start": 715.8,
+                "end": 721.72
+              },
+              {
+                "n": 51,
+                "start": 721.72,
+                "end": 730.87
+              },
+              {
+                "n": 52,
+                "start": 730.87,
+                "end": 745.71
+              }
+            ]
+          }
         },
         {
           "heading": "The Second Part (Ḥizb 2 of 8)",
@@ -3626,7 +3965,715 @@
               "en2": "O Allah, bless our master Muhammad as You love him and are pleased with him."
             }
           ],
-          "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain."
+          "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain.",
+          "audio": {
+            "file": "audio/dalail/dalail_section_04.mp3",
+            "title": "The Second Part (Ḥizb 2 of 8)",
+            "artist": "Dala'il al-Khayrat Montreal",
+            "duration": 730.8,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 11.61
+              },
+              {
+                "n": 2,
+                "start": 11.61,
+                "end": 19.23
+              },
+              {
+                "n": 3,
+                "start": 19.23,
+                "end": 26.68
+              },
+              {
+                "n": 4,
+                "start": 26.68,
+                "end": 66.08
+              },
+              {
+                "n": 5,
+                "start": 66.08,
+                "end": 73.41
+              },
+              {
+                "n": 6,
+                "start": 73.41,
+                "end": 92.58
+              },
+              {
+                "n": 7,
+                "start": 92.58,
+                "end": 103.72
+              },
+              {
+                "n": 8,
+                "start": 103.72,
+                "end": 109.06
+              },
+              {
+                "n": 9,
+                "start": 109.06,
+                "end": 113.87
+              },
+              {
+                "n": 10,
+                "start": 113.87,
+                "end": 119.85
+              },
+              {
+                "n": 11,
+                "start": 119.85,
+                "end": 127.24
+              },
+              {
+                "n": 12,
+                "start": 127.24,
+                "end": 144.83
+              },
+              {
+                "n": 13,
+                "start": 144.83,
+                "end": 165.94
+              },
+              {
+                "n": 14,
+                "start": 165.94,
+                "end": 179.72
+              },
+              {
+                "n": 15,
+                "start": 179.72,
+                "end": 186.99
+              },
+              {
+                "n": 16,
+                "start": 186.99,
+                "end": 205.58
+              },
+              {
+                "n": 17,
+                "start": 205.58,
+                "end": 240.7
+              },
+              {
+                "n": 18,
+                "start": 240.7,
+                "end": 247.91
+              },
+              {
+                "n": 19,
+                "start": 247.91,
+                "end": 253.07
+              },
+              {
+                "n": 20,
+                "start": 253.07,
+                "end": 258.52
+              },
+              {
+                "n": 21,
+                "start": 258.52,
+                "end": 263.91
+              },
+              {
+                "n": 22,
+                "start": 263.91,
+                "end": 270.18
+              },
+              {
+                "n": 23,
+                "start": 270.18,
+                "end": 275.22
+              },
+              {
+                "n": 24,
+                "start": 275.22,
+                "end": 280.5
+              },
+              {
+                "n": 25,
+                "start": 280.5,
+                "end": 285.84
+              },
+              {
+                "n": 26,
+                "start": 285.84,
+                "end": 291.82
+              },
+              {
+                "n": 27,
+                "start": 291.82,
+                "end": 296.69
+              },
+              {
+                "n": 28,
+                "start": 296.69,
+                "end": 301.73
+              },
+              {
+                "n": 29,
+                "start": 301.73,
+                "end": 306.6
+              },
+              {
+                "n": 30,
+                "start": 306.6,
+                "end": 311.47
+              },
+              {
+                "n": 31,
+                "start": 311.47,
+                "end": 316.28
+              },
+              {
+                "n": 32,
+                "start": 316.28,
+                "end": 323.67
+              },
+              {
+                "n": 33,
+                "start": 323.67,
+                "end": 328.42
+              },
+              {
+                "n": 34,
+                "start": 328.42,
+                "end": 332.82
+              },
+              {
+                "n": 35,
+                "start": 332.82,
+                "end": 337.98
+              },
+              {
+                "n": 36,
+                "start": 337.98,
+                "end": 342.32
+              },
+              {
+                "n": 37,
+                "start": 342.32,
+                "end": 346.84
+              },
+              {
+                "n": 38,
+                "start": 346.84,
+                "end": 352.0
+              },
+              {
+                "n": 39,
+                "start": 352.0,
+                "end": 356.28
+              },
+              {
+                "n": 40,
+                "start": 356.28,
+                "end": 360.91
+              },
+              {
+                "n": 41,
+                "start": 360.91,
+                "end": 365.48
+              },
+              {
+                "n": 42,
+                "start": 365.48,
+                "end": 368.0
+              },
+              {
+                "n": 43,
+                "start": 368.0,
+                "end": 370.4
+              },
+              {
+                "n": 44,
+                "start": 370.4,
+                "end": 372.8
+              },
+              {
+                "n": 45,
+                "start": 372.8,
+                "end": 375.32
+              },
+              {
+                "n": 46,
+                "start": 375.32,
+                "end": 377.78
+              },
+              {
+                "n": 47,
+                "start": 377.78,
+                "end": 380.3
+              },
+              {
+                "n": 48,
+                "start": 380.3,
+                "end": 383.35
+              },
+              {
+                "n": 49,
+                "start": 383.35,
+                "end": 386.46
+              },
+              {
+                "n": 50,
+                "start": 386.46,
+                "end": 389.63
+              },
+              {
+                "n": 51,
+                "start": 389.63,
+                "end": 392.74
+              },
+              {
+                "n": 52,
+                "start": 392.74,
+                "end": 396.08
+              },
+              {
+                "n": 53,
+                "start": 396.08,
+                "end": 402.3
+              },
+              {
+                "n": 54,
+                "start": 402.3,
+                "end": 404.76
+              },
+              {
+                "n": 55,
+                "start": 404.76,
+                "end": 407.28
+              },
+              {
+                "n": 56,
+                "start": 407.28,
+                "end": 410.15
+              },
+              {
+                "n": 57,
+                "start": 410.15,
+                "end": 413.08
+              },
+              {
+                "n": 58,
+                "start": 413.08,
+                "end": 416.36
+              },
+              {
+                "n": 59,
+                "start": 416.36,
+                "end": 421.11
+              },
+              {
+                "n": 60,
+                "start": 421.11,
+                "end": 424.92
+              },
+              {
+                "n": 61,
+                "start": 424.92,
+                "end": 427.5
+              },
+              {
+                "n": 62,
+                "start": 427.5,
+                "end": 430.08
+              },
+              {
+                "n": 63,
+                "start": 430.08,
+                "end": 432.6
+              },
+              {
+                "n": 64,
+                "start": 432.6,
+                "end": 435.12
+              },
+              {
+                "n": 65,
+                "start": 435.12,
+                "end": 438.4
+              },
+              {
+                "n": 66,
+                "start": 438.4,
+                "end": 440.92
+              },
+              {
+                "n": 67,
+                "start": 440.92,
+                "end": 443.56
+              },
+              {
+                "n": 68,
+                "start": 443.56,
+                "end": 445.96
+              },
+              {
+                "n": 69,
+                "start": 445.96,
+                "end": 448.48
+              },
+              {
+                "n": 70,
+                "start": 448.48,
+                "end": 451.06
+              },
+              {
+                "n": 71,
+                "start": 451.06,
+                "end": 453.41
+              },
+              {
+                "n": 72,
+                "start": 453.41,
+                "end": 455.93
+              },
+              {
+                "n": 73,
+                "start": 455.93,
+                "end": 458.33
+              },
+              {
+                "n": 74,
+                "start": 458.33,
+                "end": 460.79
+              },
+              {
+                "n": 75,
+                "start": 460.79,
+                "end": 463.19
+              },
+              {
+                "n": 76,
+                "start": 463.19,
+                "end": 466.42
+              },
+              {
+                "n": 77,
+                "start": 466.42,
+                "end": 469.7
+              },
+              {
+                "n": 78,
+                "start": 469.7,
+                "end": 473.16
+              },
+              {
+                "n": 79,
+                "start": 473.16,
+                "end": 477.38
+              },
+              {
+                "n": 80,
+                "start": 477.38,
+                "end": 480.9
+              },
+              {
+                "n": 81,
+                "start": 480.9,
+                "end": 484.42
+              },
+              {
+                "n": 82,
+                "start": 484.42,
+                "end": 488.88
+              },
+              {
+                "n": 83,
+                "start": 488.88,
+                "end": 494.22
+              },
+              {
+                "n": 84,
+                "start": 494.22,
+                "end": 496.8
+              },
+              {
+                "n": 85,
+                "start": 496.8,
+                "end": 499.38
+              },
+              {
+                "n": 86,
+                "start": 499.38,
+                "end": 502.49
+              },
+              {
+                "n": 87,
+                "start": 502.49,
+                "end": 507.24
+              },
+              {
+                "n": 88,
+                "start": 507.24,
+                "end": 509.94
+              },
+              {
+                "n": 89,
+                "start": 509.94,
+                "end": 512.34
+              },
+              {
+                "n": 90,
+                "start": 512.34,
+                "end": 515.33
+              },
+              {
+                "n": 91,
+                "start": 515.33,
+                "end": 518.03
+              },
+              {
+                "n": 92,
+                "start": 518.03,
+                "end": 520.73
+              },
+              {
+                "n": 93,
+                "start": 520.73,
+                "end": 523.25
+              },
+              {
+                "n": 94,
+                "start": 523.25,
+                "end": 525.83
+              },
+              {
+                "n": 95,
+                "start": 525.83,
+                "end": 528.41
+              },
+              {
+                "n": 96,
+                "start": 528.41,
+                "end": 531.17
+              },
+              {
+                "n": 97,
+                "start": 531.17,
+                "end": 534.1
+              },
+              {
+                "n": 98,
+                "start": 534.1,
+                "end": 537.44
+              },
+              {
+                "n": 99,
+                "start": 537.44,
+                "end": 540.25
+              },
+              {
+                "n": 100,
+                "start": 540.25,
+                "end": 543.53
+              },
+              {
+                "n": 101,
+                "start": 543.53,
+                "end": 547.69
+              },
+              {
+                "n": 102,
+                "start": 547.69,
+                "end": 550.27
+              },
+              {
+                "n": 103,
+                "start": 550.27,
+                "end": 552.85
+              },
+              {
+                "n": 104,
+                "start": 552.85,
+                "end": 555.49
+              },
+              {
+                "n": 105,
+                "start": 555.49,
+                "end": 558.36
+              },
+              {
+                "n": 106,
+                "start": 558.36,
+                "end": 560.71
+              },
+              {
+                "n": 107,
+                "start": 560.71,
+                "end": 563.35
+              },
+              {
+                "n": 108,
+                "start": 563.35,
+                "end": 565.93
+              },
+              {
+                "n": 109,
+                "start": 565.93,
+                "end": 568.51
+              },
+              {
+                "n": 110,
+                "start": 568.51,
+                "end": 571.09
+              },
+              {
+                "n": 111,
+                "start": 571.09,
+                "end": 573.67
+              },
+              {
+                "n": 112,
+                "start": 573.67,
+                "end": 576.31
+              },
+              {
+                "n": 113,
+                "start": 576.31,
+                "end": 579.36
+              },
+              {
+                "n": 114,
+                "start": 579.36,
+                "end": 582.82
+              },
+              {
+                "n": 115,
+                "start": 582.82,
+                "end": 586.63
+              },
+              {
+                "n": 116,
+                "start": 586.63,
+                "end": 590.44
+              },
+              {
+                "n": 117,
+                "start": 590.44,
+                "end": 593.96
+              },
+              {
+                "n": 118,
+                "start": 593.96,
+                "end": 598.42
+              },
+              {
+                "n": 119,
+                "start": 598.42,
+                "end": 602.47
+              },
+              {
+                "n": 120,
+                "start": 602.47,
+                "end": 606.57
+              },
+              {
+                "n": 121,
+                "start": 606.57,
+                "end": 611.26
+              },
+              {
+                "n": 122,
+                "start": 611.26,
+                "end": 616.07
+              },
+              {
+                "n": 123,
+                "start": 616.07,
+                "end": 622.17
+              },
+              {
+                "n": 124,
+                "start": 622.17,
+                "end": 627.33
+              },
+              {
+                "n": 125,
+                "start": 627.33,
+                "end": 630.09
+              },
+              {
+                "n": 126,
+                "start": 630.09,
+                "end": 632.85
+              },
+              {
+                "n": 127,
+                "start": 632.85,
+                "end": 636.19
+              },
+              {
+                "n": 128,
+                "start": 636.19,
+                "end": 642.35
+              },
+              {
+                "n": 129,
+                "start": 642.35,
+                "end": 649.39
+              },
+              {
+                "n": 130,
+                "start": 649.39,
+                "end": 654.32
+              },
+              {
+                "n": 131,
+                "start": 654.32,
+                "end": 674.49
+              },
+              {
+                "n": 132,
+                "start": 674.49,
+                "end": 681.06
+              },
+              {
+                "n": 133,
+                "start": 681.06,
+                "end": 687.8
+              },
+              {
+                "n": 134,
+                "start": 687.8,
+                "end": 705.33
+              },
+              {
+                "n": 135,
+                "start": 705.33,
+                "end": 709.55
+              },
+              {
+                "n": 136,
+                "start": 709.55,
+                "end": 714.12
+              },
+              {
+                "n": 137,
+                "start": 714.12,
+                "end": 718.34
+              },
+              {
+                "n": 138,
+                "start": 718.34,
+                "end": 722.74
+              },
+              {
+                "n": 139,
+                "start": 722.74,
+                "end": 726.49
+              },
+              {
+                "n": 140,
+                "start": 726.49,
+                "end": 730.77
+              }
+            ]
+          }
         },
         {
           "heading": "The Third Part (Ḥizb 3 of 8)",
@@ -3832,7 +4879,215 @@
               "en2": "O Allah, bless our master and patron Muhammad, Prophet of authority and wisdom, the brilliant lamp, unique in creation, most powerful, Seal of the Prophets, granted the Ascent on high — and his family, his Companions, and his followers who press on in his enduring, prevailing way. O Allah, through him the star of Islam began its rise, a dawn in the darkness that guided them through the night of doubt — a blessing ever continuing, unchanging, not lost in the sea's waves, leading to the Ancient House of the Kaaba from every deep valley they cross on pilgrimage. May the highest blessings and perfect peace reward His noblest prophet Muhammad, His chosen one among all His servants, the intercessor for all creatures at the appointed time, favoured with the most honoured station and the flowing Pool, foremost in the affairs of the message and its advancement, supreme and unique in the honourable pursuit of the most unflinching virtue. O Allah, grant him and his family an eternal blessing, unceasing through the course of nights and days — he, the master of the first and the last, most favoured of the first and the last: to him the most favoured blessing of those to whom blessing is due, the purest peace of those to whom peace is due, and the best portion of those who give themselves to prayer — most favoured in the blessings of Allah, most excellent in the blessings of Allah, most illustrious in the blessings of Allah, most distinguished in the blessings of Allah, most finished in the blessings of Allah, most liberal in the blessings of Allah, most perfect in the blessings of Allah, most stainless in the blessings of Allah, most powerful in the blessings of Allah, most devoted to the blessings of Allah, best in the blessings of Allah, most blessed in the blessings of Allah, purest in the blessings of Allah, most advanced in the blessings of Allah, most complete in the blessings of Allah, noblest in the blessings of Allah, most exalted in the blessings of Allah, most often gifted with the blessings of Allah, most enduring in the blessings of Allah, most abiding in the blessings of Allah, most lofty in the blessings of Allah, most mighty in the blessings of Allah — upon the most favoured in the creation of Allah, the best in the creation of Allah, the noblest in the creation of Allah, the most honoured in the creation of Allah, the most eminent in the creation of Allah, the most complete in the creation of Allah, the most perfect in the creation of Allah, the most mighty in the creation of Allah. Blessings on him who is, with Allah, the Messenger of Allah, the Prophet of Allah, the Beloved of Allah, the Elect of Allah, the Confidant of Allah, the Friend of Allah, the Ally of Allah, the faithful one of Allah, Allah's worthiest in the creation of Allah, Allah's selection in the creation of Allah, Allah's elect among the prophets of Allah, the sure reliance of Allah, the safeguard of Allah, the delight of Allah, the key to the mercy of Allah, the chosen one of the messengers of Allah and the elected one from the creation of Allah — most successful in every request, feared or desired; most sincere in all he bestowed; honoured envoy, most sincere and fervent in speech; intercessor most gracious in receiving appeals; most trusty with all he received in trust; sincere in all he accomplished; thorough in the service of his Lord; most capable of bearing any burden laid upon him; nearest of Allah's messengers in influence with Allah and first of them in precedence, rank, and grace; most honoured of Allah's prophets in acceptance with Allah, most beloved of them with Allah, and nearest in rank to Allah of those drawn near to Him; most honoured of creation with Allah, most esteemed and most favoured with Allah; most exalted of men in power and most decided on what is forbidden; most perfect of them in generous action and grace; most favoured of the prophets in rank and most perfect of them in lawful conduct; most illustrious of the prophets by descent; most defined of them in exposition and preaching; most favoured of them in birth, in emigration, in family, and in Companions; most honoured of men in family descent and most illustrious in pedigree; best of them in soul and purest of them in heart; most truthful of them in speech, most blameless in action, most established in character, most trustworthy in engagements; most sterling in renown and most honourable in example; most excellent in conduct, best in eminence, most followed in religious obedience and devotion; most exalted in station, most agreeable in language, purest in salutation, grandest in power, mightiest in renown, noblest in renown, among the most exalted in the Highest Assembly; most scrupulous in promise, most frequent in gratitude, highest in office, most perfect in abstinence, best of them in goodness, most affable in courtesy, most humble in rank, most vigorous in action, clearest in argument, most impartial with the scales of justice, first of them in faith, most luminous in argument, most lucid in speech, and most manifest in authority."
             }
           ],
-          "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain."
+          "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain.",
+          "audio": {
+            "file": "audio/dalail/dalail_section_05.mp3",
+            "title": "The Third Part (Ḥizb 3 of 8)",
+            "artist": "Dala'il al-Khayrat Montreal",
+            "duration": 740.18,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 9.85
+              },
+              {
+                "n": 2,
+                "start": 9.85,
+                "end": 14.31
+              },
+              {
+                "n": 3,
+                "start": 14.31,
+                "end": 19.41
+              },
+              {
+                "n": 4,
+                "start": 19.41,
+                "end": 33.07
+              },
+              {
+                "n": 5,
+                "start": 33.07,
+                "end": 57.35
+              },
+              {
+                "n": 6,
+                "start": 57.35,
+                "end": 63.16
+              },
+              {
+                "n": 7,
+                "start": 63.16,
+                "end": 65.74
+              },
+              {
+                "n": 8,
+                "start": 65.74,
+                "end": 69.38
+              },
+              {
+                "n": 9,
+                "start": 69.38,
+                "end": 83.92
+              },
+              {
+                "n": 10,
+                "start": 83.92,
+                "end": 99.05
+              },
+              {
+                "n": 11,
+                "start": 99.05,
+                "end": 113.47
+              },
+              {
+                "n": 12,
+                "start": 113.47,
+                "end": 130.24
+              },
+              {
+                "n": 13,
+                "start": 130.24,
+                "end": 138.04
+              },
+              {
+                "n": 14,
+                "start": 138.04,
+                "end": 142.56
+              },
+              {
+                "n": 15,
+                "start": 142.56,
+                "end": 148.25
+              },
+              {
+                "n": 16,
+                "start": 148.25,
+                "end": 159.51
+              },
+              {
+                "n": 17,
+                "start": 159.51,
+                "end": 167.37
+              },
+              {
+                "n": 18,
+                "start": 167.37,
+                "end": 199.09
+              },
+              {
+                "n": 19,
+                "start": 199.09,
+                "end": 205.95
+              },
+              {
+                "n": 20,
+                "start": 205.95,
+                "end": 246.64
+              },
+              {
+                "n": 21,
+                "start": 246.64,
+                "end": 250.8
+              },
+              {
+                "n": 22,
+                "start": 250.8,
+                "end": 255.14
+              },
+              {
+                "n": 23,
+                "start": 255.14,
+                "end": 259.42
+              },
+              {
+                "n": 24,
+                "start": 259.42,
+                "end": 279.24
+              },
+              {
+                "n": 25,
+                "start": 279.24,
+                "end": 285.34
+              },
+              {
+                "n": 26,
+                "start": 285.34,
+                "end": 308.79
+              },
+              {
+                "n": 27,
+                "start": 308.79,
+                "end": 322.51
+              },
+              {
+                "n": 28,
+                "start": 322.51,
+                "end": 328.84
+              },
+              {
+                "n": 29,
+                "start": 328.84,
+                "end": 337.99
+              },
+              {
+                "n": 30,
+                "start": 337.99,
+                "end": 345.44
+              },
+              {
+                "n": 31,
+                "start": 345.44,
+                "end": 366.67
+              },
+              {
+                "n": 32,
+                "start": 366.67,
+                "end": 382.97
+              },
+              {
+                "n": 33,
+                "start": 382.97,
+                "end": 400.5
+              },
+              {
+                "n": 34,
+                "start": 400.5,
+                "end": 417.45
+              },
+              {
+                "n": 35,
+                "start": 417.45,
+                "end": 431.46
+              },
+              {
+                "n": 36,
+                "start": 431.46,
+                "end": 451.75
+              },
+              {
+                "n": 37,
+                "start": 451.75,
+                "end": 471.63
+              },
+              {
+                "n": 38,
+                "start": 471.63,
+                "end": 478.2
+              },
+              {
+                "n": 39,
+                "start": 478.2,
+                "end": 484.65
+              },
+              {
+                "n": 40,
+                "start": 484.65,
+                "end": 740.19
+              }
+            ]
+          }
         },
         {
           "heading": "The Fourth Part (Ḥizb 4 of 8)",
@@ -4068,7 +5323,245 @@
               "en2": "and, O Allah, I entreat You by the names You gave to the night as it darkens, to the day as it brightens, to the heavens as they rise on high, to the earth as it stands firm, to the mountains as they tower, to the rivers and torrents as they stream down, to the springs as they flow, and to the clouds as they pour rain; and I beseech You, O Allah, by the names written on the forehead of our master Isrāfīl, peace be upon him, and by the names written on the forehead of our master Gabriel, peace be upon him, and on the angels brought near to You; and I beseech You by the names written around the Throne's canopy; and I entreat You, O Allah, by the names written on the leaves of the olive; and I entreat You, O Allah, by the mighty names by which You named Yourself — those I have learned and those I may never learn;"
             }
           ],
-          "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain."
+          "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain.",
+          "audio": {
+            "file": "audio/dalail/dalail_section_06.mp3",
+            "title": "The Fourth Part (Ḥizb 4 of 8)",
+            "artist": "Dala'il al-Khayrat Montreal",
+            "duration": 803.92,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 7.04
+              },
+              {
+                "n": 2,
+                "start": 7.04,
+                "end": 33.02
+              },
+              {
+                "n": 3,
+                "start": 33.02,
+                "end": 52.08
+              },
+              {
+                "n": 4,
+                "start": 52.08,
+                "end": 59.82
+              },
+              {
+                "n": 5,
+                "start": 59.82,
+                "end": 67.27
+              },
+              {
+                "n": 6,
+                "start": 67.27,
+                "end": 74.72
+              },
+              {
+                "n": 7,
+                "start": 74.72,
+                "end": 84.28
+              },
+              {
+                "n": 8,
+                "start": 84.28,
+                "end": 104.28
+              },
+              {
+                "n": 9,
+                "start": 104.28,
+                "end": 139.11
+              },
+              {
+                "n": 10,
+                "start": 139.11,
+                "end": 160.92
+              },
+              {
+                "n": 11,
+                "start": 160.92,
+                "end": 187.6
+              },
+              {
+                "n": 12,
+                "start": 187.6,
+                "end": 201.09
+              },
+              {
+                "n": 13,
+                "start": 201.09,
+                "end": 225.95
+              },
+              {
+                "n": 14,
+                "start": 225.95,
+                "end": 247.18
+              },
+              {
+                "n": 15,
+                "start": 247.18,
+                "end": 259.26
+              },
+              {
+                "n": 16,
+                "start": 259.26,
+                "end": 271.28
+              },
+              {
+                "n": 17,
+                "start": 271.28,
+                "end": 275.27
+              },
+              {
+                "n": 18,
+                "start": 275.27,
+                "end": 295.27
+              },
+              {
+                "n": 19,
+                "start": 295.27,
+                "end": 303.01
+              },
+              {
+                "n": 20,
+                "start": 303.01,
+                "end": 333.62
+              },
+              {
+                "n": 21,
+                "start": 333.62,
+                "end": 342.01
+              },
+              {
+                "n": 22,
+                "start": 342.01,
+                "end": 350.98
+              },
+              {
+                "n": 23,
+                "start": 350.98,
+                "end": 371.03
+              },
+              {
+                "n": 24,
+                "start": 371.03,
+                "end": 443.62
+              },
+              {
+                "n": 25,
+                "start": 443.62,
+                "end": 462.15
+              },
+              {
+                "n": 26,
+                "start": 462.15,
+                "end": 473.7
+              },
+              {
+                "n": 27,
+                "start": 473.7,
+                "end": 482.2
+              },
+              {
+                "n": 28,
+                "start": 482.2,
+                "end": 503.54
+              },
+              {
+                "n": 29,
+                "start": 503.54,
+                "end": 524.83
+              },
+              {
+                "n": 30,
+                "start": 524.83,
+                "end": 530.93
+              },
+              {
+                "n": 31,
+                "start": 530.93,
+                "end": 540.31
+              },
+              {
+                "n": 32,
+                "start": 540.31,
+                "end": 562.01
+              },
+              {
+                "n": 33,
+                "start": 562.01,
+                "end": 593.79
+              },
+              {
+                "n": 34,
+                "start": 593.79,
+                "end": 606.51
+              },
+              {
+                "n": 35,
+                "start": 606.51,
+                "end": 614.66
+              },
+              {
+                "n": 36,
+                "start": 614.66,
+                "end": 640.23
+              },
+              {
+                "n": 37,
+                "start": 640.23,
+                "end": 651.43
+              },
+              {
+                "n": 38,
+                "start": 651.43,
+                "end": 668.2
+              },
+              {
+                "n": 39,
+                "start": 668.2,
+                "end": 674.88
+              },
+              {
+                "n": 40,
+                "start": 674.88,
+                "end": 683.38
+              },
+              {
+                "n": 41,
+                "start": 683.38,
+                "end": 693.93
+              },
+              {
+                "n": 42,
+                "start": 693.93,
+                "end": 707.12
+              },
+              {
+                "n": 43,
+                "start": 707.12,
+                "end": 725.71
+              },
+              {
+                "n": 44,
+                "start": 725.71,
+                "end": 733.92
+              },
+              {
+                "n": 45,
+                "start": 733.92,
+                "end": 753.09
+              },
+              {
+                "n": 46,
+                "start": 753.09,
+                "end": 803.93
+              }
+            ]
+          }
         },
         {
           "heading": "The Fifth Part (Ḥizb 5 of 8)",
@@ -4329,7 +5822,270 @@
               "en2": "O Allah, bless our master Muhammad in the highest assembly of angels until the Day of Judgement, as Allah wills — there is no power except with Allah, the Exalted, the Mighty."
             }
           ],
-          "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain."
+          "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain.",
+          "audio": {
+            "file": "audio/dalail/dalail_section_07.mp3",
+            "title": "The Fifth Part (Ḥizb 5 of 8)",
+            "artist": "Dala'il al-Khayrat Montreal",
+            "duration": 933.62,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 145.48
+              },
+              {
+                "n": 2,
+                "start": 145.48,
+                "end": 188.17
+              },
+              {
+                "n": 3,
+                "start": 188.17,
+                "end": 199.78
+              },
+              {
+                "n": 4,
+                "start": 199.78,
+                "end": 211.51
+              },
+              {
+                "n": 5,
+                "start": 211.51,
+                "end": 226.11
+              },
+              {
+                "n": 6,
+                "start": 226.11,
+                "end": 239.66
+              },
+              {
+                "n": 7,
+                "start": 239.66,
+                "end": 257.95
+              },
+              {
+                "n": 8,
+                "start": 257.95,
+                "end": 267.33
+              },
+              {
+                "n": 9,
+                "start": 267.33,
+                "end": 273.55
+              },
+              {
+                "n": 10,
+                "start": 273.55,
+                "end": 286.27
+              },
+              {
+                "n": 11,
+                "start": 286.27,
+                "end": 296.82
+              },
+              {
+                "n": 12,
+                "start": 296.82,
+                "end": 306.26
+              },
+              {
+                "n": 13,
+                "start": 306.26,
+                "end": 318.93
+              },
+              {
+                "n": 14,
+                "start": 318.93,
+                "end": 352.29
+              },
+              {
+                "n": 15,
+                "start": 352.29,
+                "end": 373.69
+              },
+              {
+                "n": 16,
+                "start": 373.69,
+                "end": 385.18
+              },
+              {
+                "n": 17,
+                "start": 385.18,
+                "end": 397.44
+              },
+              {
+                "n": 18,
+                "start": 397.44,
+                "end": 409.11
+              },
+              {
+                "n": 19,
+                "start": 409.11,
+                "end": 428.52
+              },
+              {
+                "n": 20,
+                "start": 428.52,
+                "end": 438.78
+              },
+              {
+                "n": 21,
+                "start": 438.78,
+                "end": 455.08
+              },
+              {
+                "n": 22,
+                "start": 455.08,
+                "end": 481.82
+              },
+              {
+                "n": 23,
+                "start": 481.82,
+                "end": 490.32
+              },
+              {
+                "n": 24,
+                "start": 490.32,
+                "end": 496.3
+              },
+              {
+                "n": 25,
+                "start": 496.3,
+                "end": 512.89
+              },
+              {
+                "n": 26,
+                "start": 512.89,
+                "end": 546.25
+              },
+              {
+                "n": 27,
+                "start": 546.25,
+                "end": 589.41
+              },
+              {
+                "n": 28,
+                "start": 589.41,
+                "end": 670.8
+              },
+              {
+                "n": 29,
+                "start": 670.8,
+                "end": 715.89
+              },
+              {
+                "n": 30,
+                "start": 715.89,
+                "end": 731.25
+              },
+              {
+                "n": 31,
+                "start": 731.25,
+                "end": 742.51
+              },
+              {
+                "n": 32,
+                "start": 742.51,
+                "end": 753.18
+              },
+              {
+                "n": 33,
+                "start": 753.18,
+                "end": 769.25
+              },
+              {
+                "n": 34,
+                "start": 769.25,
+                "end": 779.51
+              },
+              {
+                "n": 35,
+                "start": 779.51,
+                "end": 789.36
+              },
+              {
+                "n": 36,
+                "start": 789.36,
+                "end": 801.97
+              },
+              {
+                "n": 37,
+                "start": 801.97,
+                "end": 810.36
+              },
+              {
+                "n": 38,
+                "start": 810.36,
+                "end": 820.33
+              },
+              {
+                "n": 39,
+                "start": 820.33,
+                "end": 831.3
+              },
+              {
+                "n": 40,
+                "start": 831.3,
+                "end": 841.62
+              },
+              {
+                "n": 41,
+                "start": 841.62,
+                "end": 852.0
+              },
+              {
+                "n": 42,
+                "start": 852.0,
+                "end": 858.45
+              },
+              {
+                "n": 43,
+                "start": 858.45,
+                "end": 870.47
+              },
+              {
+                "n": 44,
+                "start": 870.47,
+                "end": 882.37
+              },
+              {
+                "n": 45,
+                "start": 882.37,
+                "end": 892.34
+              },
+              {
+                "n": 46,
+                "start": 892.34,
+                "end": 896.91
+              },
+              {
+                "n": 47,
+                "start": 896.91,
+                "end": 903.59
+              },
+              {
+                "n": 48,
+                "start": 903.59,
+                "end": 910.39
+              },
+              {
+                "n": 49,
+                "start": 910.39,
+                "end": 917.9
+              },
+              {
+                "n": 50,
+                "start": 917.9,
+                "end": 924.47
+              },
+              {
+                "n": 51,
+                "start": 924.47,
+                "end": 933.62
+              }
+            ]
+          }
         },
         {
           "heading": "The Sixth Part (Ḥizb 6 of 8)",
@@ -4440,7 +6196,120 @@
               "en2": "yes, I entreat You, O Allah, by the truth You swore upon Yourself, to bless our master Muhammad and the family of our master Muhammad in all You created, even before the heavens were formed, the plains of the earth opened out, the mountains rose aloft, the springs streamed, the seas ran favourable, the rivers flowed full, the sun shone clear, the moon gleamed, or the stars gave their light — when no one knows when it was but You; and to bless our master Muhammad and the family of our master Muhammad in all Your words; to bless him and his family in every verse and letter of the Qur'an; to bless him and his family in everyone who blesses him; to bless him and his family to the fullness of Your earth; to bless him and his family in everyone who does not bless him; to bless him and his family in all the Pen describes in the volume of the Book; to bless him and his family in all You created in Your seven heavens; to bless him and his family in all You create in them until the Day of Resurrection, every day a thousand times; and to bless him and his family in all the drops of rain — every drop You shed from Your heavens upon the earth — from the day You created the world until the Day of Resurrection, every day a thousand times:"
             }
           ],
-          "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain."
+          "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain.",
+          "audio": {
+            "file": "audio/dalail/dalail_section_08.mp3",
+            "title": "The Sixth Part (Ḥizb 6 of 8)",
+            "artist": "Dala'il al-Khayrat Montreal",
+            "duration": 873.87,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 13.96
+              },
+              {
+                "n": 2,
+                "start": 13.96,
+                "end": 26.92
+              },
+              {
+                "n": 3,
+                "start": 26.92,
+                "end": 35.6
+              },
+              {
+                "n": 4,
+                "start": 35.6,
+                "end": 44.51
+              },
+              {
+                "n": 5,
+                "start": 44.51,
+                "end": 82.74
+              },
+              {
+                "n": 6,
+                "start": 82.74,
+                "end": 110.42
+              },
+              {
+                "n": 7,
+                "start": 110.42,
+                "end": 120.62
+              },
+              {
+                "n": 8,
+                "start": 120.62,
+                "end": 143.49
+              },
+              {
+                "n": 9,
+                "start": 143.49,
+                "end": 151.88
+              },
+              {
+                "n": 10,
+                "start": 151.88,
+                "end": 163.43
+              },
+              {
+                "n": 11,
+                "start": 163.43,
+                "end": 196.09
+              },
+              {
+                "n": 12,
+                "start": 196.09,
+                "end": 292.55
+              },
+              {
+                "n": 13,
+                "start": 292.55,
+                "end": 385.43
+              },
+              {
+                "n": 14,
+                "start": 385.43,
+                "end": 407.07
+              },
+              {
+                "n": 15,
+                "start": 407.07,
+                "end": 484.0
+              },
+              {
+                "n": 16,
+                "start": 484.0,
+                "end": 494.32
+              },
+              {
+                "n": 17,
+                "start": 494.32,
+                "end": 498.31
+              },
+              {
+                "n": 18,
+                "start": 498.31,
+                "end": 515.49
+              },
+              {
+                "n": 19,
+                "start": 515.49,
+                "end": 549.68
+              },
+              {
+                "n": 20,
+                "start": 549.68,
+                "end": 797.07
+              },
+              {
+                "n": 21,
+                "start": 797.07,
+                "end": 873.88
+              }
+            ]
+          }
         },
         {
           "heading": "The Seventh Part (Ḥizb 7 of 8)",
@@ -4561,7 +6430,130 @@
               "en2": "O Allah, bless our master Muhammad, who is himself the pivot of honour, the sun of inspiration and prophecy, the guide from error, and the saviour from ignorance. Allah bless him with perfect peace — a blessing that continues as an unbroken stream, following the succession of days and nights,"
             }
           ],
-          "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain."
+          "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain.",
+          "audio": {
+            "file": "audio/dalail/dalail_section_09.mp3",
+            "title": "The Seventh Part (Ḥizb 7 of 8)",
+            "artist": "Dala'il al-Khayrat Montreal",
+            "duration": 831.18,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 264.1
+              },
+              {
+                "n": 2,
+                "start": 264.1,
+                "end": 276.94
+              },
+              {
+                "n": 3,
+                "start": 276.94,
+                "end": 292.89
+              },
+              {
+                "n": 4,
+                "start": 292.89,
+                "end": 301.57
+              },
+              {
+                "n": 5,
+                "start": 301.57,
+                "end": 318.11
+              },
+              {
+                "n": 6,
+                "start": 318.11,
+                "end": 329.37
+              },
+              {
+                "n": 7,
+                "start": 329.37,
+                "end": 339.57
+              },
+              {
+                "n": 8,
+                "start": 339.57,
+                "end": 363.67
+              },
+              {
+                "n": 9,
+                "start": 363.67,
+                "end": 382.9
+              },
+              {
+                "n": 10,
+                "start": 382.9,
+                "end": 393.98
+              },
+              {
+                "n": 11,
+                "start": 393.98,
+                "end": 404.18
+              },
+              {
+                "n": 12,
+                "start": 404.18,
+                "end": 423.53
+              },
+              {
+                "n": 13,
+                "start": 423.53,
+                "end": 441.0
+              },
+              {
+                "n": 14,
+                "start": 441.0,
+                "end": 447.39
+              },
+              {
+                "n": 15,
+                "start": 447.39,
+                "end": 480.75
+              },
+              {
+                "n": 16,
+                "start": 480.75,
+                "end": 532.06
+              },
+              {
+                "n": 17,
+                "start": 532.06,
+                "end": 543.49
+              },
+              {
+                "n": 18,
+                "start": 543.49,
+                "end": 577.38
+              },
+              {
+                "n": 19,
+                "start": 577.38,
+                "end": 604.06
+              },
+              {
+                "n": 20,
+                "start": 604.06,
+                "end": 612.68
+              },
+              {
+                "n": 21,
+                "start": 612.68,
+                "end": 803.66
+              },
+              {
+                "n": 22,
+                "start": 803.66,
+                "end": 813.22
+              },
+              {
+                "n": 23,
+                "start": 813.22,
+                "end": 831.16
+              }
+            ]
+          }
         },
         {
           "heading": "The Eighth Part (Ḥizb 8 of 8)",
@@ -4632,7 +6624,80 @@
               "en2": "And we entreat You, O Allah, by the brightness of Your countenance, with which the pillars of Your Throne are filled, to implant Your knowledge in my heart, until I know You with the truth of Your knowledge, as far as it is fitting that You be known. Allah bless our master and patron Muhammad, the Seal of the Prophets and the model of the messengers, and his family too, and his Companions — and perfect peace. Praise be to Allah, Lord of the Worlds. [Pearson's edition adds:] He is our merit and indeed our advocate: there is no power and no strength except with Allah, the Exalted, the Mighty. O Allah, forgive the compiler, editor, and reader of this book; have mercy on him, and make him among those who gather in the company of Your prophets, the truthful, the witnesses, and the righteous on the Day of Resurrection, by Your grace, O Allah, the Most Merciful."
             }
           ],
-          "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain."
+          "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain.",
+          "audio": {
+            "file": "audio/dalail/dalail_section_10.mp3",
+            "title": "The Eighth Part (Ḥizb 8 of 8)",
+            "artist": "Dala'il al-Khayrat Montreal",
+            "duration": 372.46,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 16.42
+              },
+              {
+                "n": 2,
+                "start": 16.42,
+                "end": 25.33
+              },
+              {
+                "n": 3,
+                "start": 25.33,
+                "end": 33.6
+              },
+              {
+                "n": 4,
+                "start": 33.6,
+                "end": 68.2
+              },
+              {
+                "n": 5,
+                "start": 68.2,
+                "end": 121.97
+              },
+              {
+                "n": 6,
+                "start": 121.97,
+                "end": 144.55
+              },
+              {
+                "n": 7,
+                "start": 144.55,
+                "end": 153.81
+              },
+              {
+                "n": 8,
+                "start": 153.81,
+                "end": 209.46
+              },
+              {
+                "n": 9,
+                "start": 209.46,
+                "end": 277.3
+              },
+              {
+                "n": 10,
+                "start": 277.3,
+                "end": 304.74
+              },
+              {
+                "n": 11,
+                "start": 304.74,
+                "end": 324.91
+              },
+              {
+                "n": 12,
+                "start": 324.91,
+                "end": 351.0
+              },
+              {
+                "n": 13,
+                "start": 351.0,
+                "end": 372.46
+              }
+            ]
+          }
         },
         {
           "heading": "The Supplication of Completion",
@@ -4657,7 +6722,35 @@
               "en": "O Allah, we attach ourselves to the honor of Thy Messenger, Allah's blessings and perfect peace be upon him, so do not keep us distant from him; and we halt at Thy gate alone, so do not turn us away; and we ask of Thee alone, so do not disappoint us. O Allah, have mercy on our humble pleading, calm our fears, accept our deeds, straighten our state, keep us occupied in obedience to Thee, make us rich through Thee, and seal our lives with happiness and good end. This is our lowliness made manifest before Thee, and our condition is not hidden from Thee; Thou hast commanded us and we have fallen short, and Thou hast forbidden us and we have transgressed, yet nothing is too great for the expanse of Thy clemency: so pardon us, O Hope of those who ask, O Most Generous of those who bestow! For Thou art the Pardoner, the Forgiving, the Merciful, O Most Merciful of the merciful. And may Allah bless our master Muhammad and his Family and his Companions, and peace be upon the Messengers, and praise belongs to Allah, Lord of the Worlds.",
               "en2": "O God, have mercy on our humble pleading; calm our fear; accept our deeds; set right our affairs; make our occupation obedience to You and our outcome goodness; fulfil our hopes with increase; and seal our lifespans with felicity. Here is our abasement, laid bare before You, and our state is not hidden from You. You commanded us, and we abandoned; You forbade us, and we transgressed — and nothing can encompass us but Your pardon, so pardon us, best of those in whom hope is placed, most generous of those who are asked. You are Pardoning, Forgiving, Tender, Merciful, Most Merciful of the merciful. And may God bless our master Muḥammad, and his family and his companions, and grant them abundant peace; and praise belongs to God, Lord of the worlds."
             }
-          ]
+          ],
+          "audio": {
+            "file": "audio/dalail/dalail_section_11.mp3",
+            "title": "The Supplication of Completion",
+            "artist": "Dala'il al-Khayrat Montreal",
+            "duration": 192.04,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 67.73
+              },
+              {
+                "n": 2,
+                "start": 67.73,
+                "end": 108.95
+              },
+              {
+                "n": 3,
+                "start": 108.95,
+                "end": 153.69
+              },
+              {
+                "n": 4,
+                "start": 153.69,
+                "end": 192.04
+              }
+            ]
+          }
         }
       ],
       "audio": [],
@@ -4697,7 +6790,35 @@
               "en": "you came and honoured Madinah — welcome, O best of callers.",
               "n": 4
             }
-          ]
+          ],
+          "audio": {
+            "file": "audio/tala_al_badru.mp3",
+            "title": "Ṭalaʿa al-Badru ʿAlaynā",
+            "artist": "Traditional Choral Majlis",
+            "duration": 186.9,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 7.5,
+                "end": 48.0
+              },
+              {
+                "n": 2,
+                "start": 48.0,
+                "end": 90.0
+              },
+              {
+                "n": 3,
+                "start": 90.0,
+                "end": 134.0
+              },
+              {
+                "n": 4,
+                "start": 134.0,
+                "end": 182.0
+              }
+            ]
+          }
         }
       ]
     },
@@ -4857,7 +6978,100 @@
               "en": "The Christians of Yathrib and its Jews rejoiced when he was hidden away in the grave’s side-niche.",
               "n": 17
             }
-          ]
+          ],
+          "audio": {
+            "file": "audio/hassan/hassan_elegy_madinah.mp3",
+            "title": "The Elegy of Madinah",
+            "artist": "Shaykh Abdulaziz al-Ahmad",
+            "duration": 494.7,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 27.71
+              },
+              {
+                "n": 2,
+                "start": 27.71,
+                "end": 58.12
+              },
+              {
+                "n": 3,
+                "start": 58.12,
+                "end": 87.52
+              },
+              {
+                "n": 4,
+                "start": 87.52,
+                "end": 117.26
+              },
+              {
+                "n": 5,
+                "start": 117.26,
+                "end": 148.01
+              },
+              {
+                "n": 6,
+                "start": 148.01,
+                "end": 176.39
+              },
+              {
+                "n": 7,
+                "start": 176.39,
+                "end": 205.11
+              },
+              {
+                "n": 8,
+                "start": 205.11,
+                "end": 232.48
+              },
+              {
+                "n": 9,
+                "start": 232.48,
+                "end": 261.2
+              },
+              {
+                "n": 10,
+                "start": 261.2,
+                "end": 290.94
+              },
+              {
+                "n": 11,
+                "start": 290.94,
+                "end": 318.99
+              },
+              {
+                "n": 12,
+                "start": 318.99,
+                "end": 350.75
+              },
+              {
+                "n": 13,
+                "start": 350.75,
+                "end": 380.82
+              },
+              {
+                "n": 14,
+                "start": 380.82,
+                "end": 410.56
+              },
+              {
+                "n": 15,
+                "start": 410.56,
+                "end": 437.25
+              },
+              {
+                "n": 16,
+                "start": 437.25,
+                "end": 466.31
+              },
+              {
+                "n": 17,
+                "start": 466.31,
+                "end": 494.69
+              }
+            ]
+          }
         },
         {
           "heading": "The Oath",
@@ -5308,7 +7522,305 @@
               "en2": "spear-thrusts strike them nowhere but the front of their throats, and they never shrink back from the death-pools of battle."
             }
           ],
-          "note": "Fifty-eight verses, as transmitted in Ibn Hishām's Sīra: the familiar opening to Suʿād, the camel that carried him, and the plea and praise recited before the Prophet ﷺ. English translation by J. W. Redhouse (1881); verse 3, not included in his edition, is rendered by this project."
+          "note": "Fifty-eight verses, as transmitted in Ibn Hishām's Sīra: the familiar opening to Suʿād, the camel that carried him, and the plea and praise recited before the Prophet ﷺ. English translation by J. W. Redhouse (1881); verse 3, not included in his edition, is rendered by this project.",
+          "audio": {
+            "file": "audio/banat_suad/banat_suad_part_01.mp3",
+            "title": "The Qaṣīda",
+            "artist": "Classical Arabic Recitation",
+            "duration": 395.0,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 7.03
+              },
+              {
+                "n": 2,
+                "start": 7.03,
+                "end": 14.06
+              },
+              {
+                "n": 3,
+                "start": 14.06,
+                "end": 20.61
+              },
+              {
+                "n": 4,
+                "start": 20.61,
+                "end": 27.48
+              },
+              {
+                "n": 5,
+                "start": 27.48,
+                "end": 34.19
+              },
+              {
+                "n": 6,
+                "start": 34.19,
+                "end": 41.14
+              },
+              {
+                "n": 7,
+                "start": 41.14,
+                "end": 48.25
+              },
+              {
+                "n": 8,
+                "start": 48.25,
+                "end": 54.8
+              },
+              {
+                "n": 9,
+                "start": 54.8,
+                "end": 61.27
+              },
+              {
+                "n": 10,
+                "start": 61.27,
+                "end": 68.38
+              },
+              {
+                "n": 11,
+                "start": 68.38,
+                "end": 75.49
+              },
+              {
+                "n": 12,
+                "start": 75.49,
+                "end": 82.12
+              },
+              {
+                "n": 13,
+                "start": 82.12,
+                "end": 88.67
+              },
+              {
+                "n": 14,
+                "start": 88.67,
+                "end": 95.7
+              },
+              {
+                "n": 15,
+                "start": 95.7,
+                "end": 102.25
+              },
+              {
+                "n": 16,
+                "start": 102.25,
+                "end": 109.44
+              },
+              {
+                "n": 17,
+                "start": 109.44,
+                "end": 116.31
+              },
+              {
+                "n": 18,
+                "start": 116.31,
+                "end": 123.18
+              },
+              {
+                "n": 19,
+                "start": 123.18,
+                "end": 129.49
+              },
+              {
+                "n": 20,
+                "start": 129.49,
+                "end": 136.12
+              },
+              {
+                "n": 21,
+                "start": 136.12,
+                "end": 142.59
+              },
+              {
+                "n": 22,
+                "start": 142.59,
+                "end": 149.3
+              },
+              {
+                "n": 23,
+                "start": 149.3,
+                "end": 156.41
+              },
+              {
+                "n": 24,
+                "start": 156.41,
+                "end": 163.44
+              },
+              {
+                "n": 25,
+                "start": 163.44,
+                "end": 170.31
+              },
+              {
+                "n": 26,
+                "start": 170.31,
+                "end": 177.34
+              },
+              {
+                "n": 27,
+                "start": 177.34,
+                "end": 183.81
+              },
+              {
+                "n": 28,
+                "start": 183.81,
+                "end": 191.08
+              },
+              {
+                "n": 29,
+                "start": 191.08,
+                "end": 197.87
+              },
+              {
+                "n": 30,
+                "start": 197.87,
+                "end": 204.66
+              },
+              {
+                "n": 31,
+                "start": 204.66,
+                "end": 212.09
+              },
+              {
+                "n": 32,
+                "start": 212.09,
+                "end": 218.48
+              },
+              {
+                "n": 33,
+                "start": 218.48,
+                "end": 225.75
+              },
+              {
+                "n": 34,
+                "start": 225.75,
+                "end": 232.38
+              },
+              {
+                "n": 35,
+                "start": 232.38,
+                "end": 239.33
+              },
+              {
+                "n": 36,
+                "start": 239.33,
+                "end": 245.56
+              },
+              {
+                "n": 37,
+                "start": 245.56,
+                "end": 252.27
+              },
+              {
+                "n": 38,
+                "start": 252.27,
+                "end": 259.14
+              },
+              {
+                "n": 39,
+                "start": 259.14,
+                "end": 266.17
+              },
+              {
+                "n": 40,
+                "start": 266.17,
+                "end": 272.8
+              },
+              {
+                "n": 41,
+                "start": 272.8,
+                "end": 280.07
+              },
+              {
+                "n": 42,
+                "start": 280.07,
+                "end": 286.86
+              },
+              {
+                "n": 43,
+                "start": 286.86,
+                "end": 293.57
+              },
+              {
+                "n": 44,
+                "start": 293.57,
+                "end": 300.04
+              },
+              {
+                "n": 45,
+                "start": 300.04,
+                "end": 306.43
+              },
+              {
+                "n": 46,
+                "start": 306.43,
+                "end": 313.06
+              },
+              {
+                "n": 47,
+                "start": 313.06,
+                "end": 319.93
+              },
+              {
+                "n": 48,
+                "start": 319.93,
+                "end": 326.96
+              },
+              {
+                "n": 49,
+                "start": 326.96,
+                "end": 333.43
+              },
+              {
+                "n": 50,
+                "start": 333.43,
+                "end": 339.9
+              },
+              {
+                "n": 51,
+                "start": 339.9,
+                "end": 346.45
+              },
+              {
+                "n": 52,
+                "start": 346.45,
+                "end": 353.4
+              },
+              {
+                "n": 53,
+                "start": 353.4,
+                "end": 360.03
+              },
+              {
+                "n": 54,
+                "start": 360.03,
+                "end": 366.98
+              },
+              {
+                "n": 55,
+                "start": 366.98,
+                "end": 373.53
+              },
+              {
+                "n": 56,
+                "start": 373.53,
+                "end": 380.56
+              },
+              {
+                "n": 57,
+                "start": 380.56,
+                "end": 388.07
+              },
+              {
+                "n": 58,
+                "start": 388.07,
+                "end": 395.18
+              }
+            ]
+          }
         },
         {
           "heading": "The Verses of the Anṣār",
@@ -5379,7 +7891,80 @@
               "en": "among the noblest of Ghassān, of a stock whose dug wells baffle the beak."
             }
           ],
-          "note": "After reciting the ode, Kaʿb was told the Prophet ﷺ wished he had praised the Anṣār too — so he added these verses in their honour. Redhouse did not translate these verses; the English is an original rendering for this project."
+          "note": "After reciting the ode, Kaʿb was told the Prophet ﷺ wished he had praised the Anṣār too — so he added these verses in their honour. Redhouse did not translate these verses; the English is an original rendering for this project.",
+          "audio": {
+            "file": "audio/banat_suad/banat_suad_part_02.mp3",
+            "title": "The Verses of the Anṣār",
+            "artist": "Classical Arabic Recitation",
+            "duration": 85.0,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 6.63
+              },
+              {
+                "n": 2,
+                "start": 6.63,
+                "end": 13.34
+              },
+              {
+                "n": 3,
+                "start": 13.34,
+                "end": 19.73
+              },
+              {
+                "n": 4,
+                "start": 19.73,
+                "end": 26.2
+              },
+              {
+                "n": 5,
+                "start": 26.2,
+                "end": 32.51
+              },
+              {
+                "n": 6,
+                "start": 32.51,
+                "end": 39.3
+              },
+              {
+                "n": 7,
+                "start": 39.3,
+                "end": 45.77
+              },
+              {
+                "n": 8,
+                "start": 45.77,
+                "end": 52.56
+              },
+              {
+                "n": 9,
+                "start": 52.56,
+                "end": 59.11
+              },
+              {
+                "n": 10,
+                "start": 59.11,
+                "end": 65.34
+              },
+              {
+                "n": 11,
+                "start": 65.34,
+                "end": 71.89
+              },
+              {
+                "n": 12,
+                "start": 71.89,
+                "end": 78.28
+              },
+              {
+                "n": 13,
+                "start": 78.28,
+                "end": 84.99
+              }
+            ]
+          }
         }
       ],
       "audio": [],
@@ -5471,7 +8056,75 @@
               "n": 12,
               "en2": "I even suspected my own grey hairs of being among my blamers — yet grey hairs are far above blame when they give advice."
             }
-          ]
+          ],
+          "audio": {
+            "file": "audio/burdah/burdah_chapter_01.mp3",
+            "title": "Chapter 1: On Yearning and the Lament of Love",
+            "artist": "Majlis Maulid al-Burdah",
+            "duration": 211.5,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 22.5,
+                "end": 36.22
+              },
+              {
+                "n": 2,
+                "start": 36.22,
+                "end": 52.23
+              },
+              {
+                "n": 3,
+                "start": 52.23,
+                "end": 67.75
+              },
+              {
+                "n": 4,
+                "start": 67.75,
+                "end": 82.29
+              },
+              {
+                "n": 5,
+                "start": 82.29,
+                "end": 97.97
+              },
+              {
+                "n": 6,
+                "start": 97.97,
+                "end": 112.67
+              },
+              {
+                "n": 7,
+                "start": 112.67,
+                "end": 127.87
+              },
+              {
+                "n": 8,
+                "start": 127.87,
+                "end": 143.06
+              },
+              {
+                "n": 9,
+                "start": 143.06,
+                "end": 158.9
+              },
+              {
+                "n": 10,
+                "start": 158.9,
+                "end": 172.63
+              },
+              {
+                "n": 11,
+                "start": 172.63,
+                "end": 187.98
+              },
+              {
+                "n": 12,
+                "start": 187.98,
+                "end": 203.5
+              }
+            ]
+          }
         },
         {
           "heading": "Warning Against the Desires of the Soul",
@@ -5573,7 +8226,95 @@
               "n": 28,
               "en2": "Before death I laid up no store of voluntary good works; I never prayed beyond what is obligatory, nor fasted beyond it."
             }
-          ]
+          ],
+          "audio": {
+            "file": "audio/burdah/burdah_chapter_02.mp3",
+            "title": "Chapter 2: Warning Against the Desires of the Soul",
+            "artist": "Majlis Maulid al-Burdah",
+            "duration": 272.7,
+            "timestamps": [
+              {
+                "n": 13,
+                "start": 6.0,
+                "end": 22.33
+              },
+              {
+                "n": 14,
+                "start": 22.33,
+                "end": 38.32
+              },
+              {
+                "n": 15,
+                "start": 38.32,
+                "end": 53.95
+              },
+              {
+                "n": 16,
+                "start": 53.95,
+                "end": 69.24
+              },
+              {
+                "n": 17,
+                "start": 69.24,
+                "end": 85.23
+              },
+              {
+                "n": 18,
+                "start": 85.23,
+                "end": 102.43
+              },
+              {
+                "n": 19,
+                "start": 102.43,
+                "end": 118.76
+              },
+              {
+                "n": 20,
+                "start": 118.76,
+                "end": 135.09
+              },
+              {
+                "n": 21,
+                "start": 135.09,
+                "end": 152.12
+              },
+              {
+                "n": 22,
+                "start": 152.12,
+                "end": 167.23
+              },
+              {
+                "n": 23,
+                "start": 167.23,
+                "end": 184.78
+              },
+              {
+                "n": 24,
+                "start": 184.78,
+                "end": 200.94
+              },
+              {
+                "n": 25,
+                "start": 200.94,
+                "end": 217.1
+              },
+              {
+                "n": 26,
+                "start": 217.1,
+                "end": 232.56
+              },
+              {
+                "n": 27,
+                "start": 232.56,
+                "end": 249.41
+              },
+              {
+                "n": 28,
+                "start": 249.41,
+                "end": 264.7
+              }
+            ]
+          }
         },
         {
           "heading": "In Praise of the Prophet ﷺ",
@@ -5759,7 +8500,165 @@
               "n": 58,
               "en2": "No fragrance equals the earth that holds his body — blessed is the one who breathes it in and kisses it!"
             }
-          ]
+          ],
+          "audio": {
+            "file": "audio/burdah/burdah_chapter_03.mp3",
+            "title": "Chapter 3: In Praise of the Prophet ﷺ",
+            "artist": "Majlis Maulid al-Burdah",
+            "duration": 472.4,
+            "timestamps": [
+              {
+                "n": 29,
+                "start": 6.0,
+                "end": 21.86
+              },
+              {
+                "n": 30,
+                "start": 21.86,
+                "end": 36.71
+              },
+              {
+                "n": 31,
+                "start": 36.71,
+                "end": 51.55
+              },
+              {
+                "n": 32,
+                "start": 51.55,
+                "end": 66.4
+              },
+              {
+                "n": 33,
+                "start": 66.4,
+                "end": 83.27
+              },
+              {
+                "n": 34,
+                "start": 83.27,
+                "end": 98.79
+              },
+              {
+                "n": 35,
+                "start": 98.79,
+                "end": 113.47
+              },
+              {
+                "n": 36,
+                "start": 113.47,
+                "end": 128.49
+              },
+              {
+                "n": 37,
+                "start": 128.49,
+                "end": 143.67
+              },
+              {
+                "n": 38,
+                "start": 143.67,
+                "end": 158.35
+              },
+              {
+                "n": 39,
+                "start": 158.35,
+                "end": 174.55
+              },
+              {
+                "n": 40,
+                "start": 174.55,
+                "end": 190.24
+              },
+              {
+                "n": 41,
+                "start": 190.24,
+                "end": 205.08
+              },
+              {
+                "n": 42,
+                "start": 205.08,
+                "end": 219.43
+              },
+              {
+                "n": 43,
+                "start": 219.43,
+                "end": 235.96
+              },
+              {
+                "n": 44,
+                "start": 235.96,
+                "end": 252.16
+              },
+              {
+                "n": 45,
+                "start": 252.16,
+                "end": 266.16
+              },
+              {
+                "n": 46,
+                "start": 266.16,
+                "end": 281.34
+              },
+              {
+                "n": 47,
+                "start": 281.34,
+                "end": 297.71
+              },
+              {
+                "n": 48,
+                "start": 297.71,
+                "end": 314.58
+              },
+              {
+                "n": 49,
+                "start": 314.58,
+                "end": 329.93
+              },
+              {
+                "n": 50,
+                "start": 329.93,
+                "end": 345.29
+              },
+              {
+                "n": 51,
+                "start": 345.29,
+                "end": 359.63
+              },
+              {
+                "n": 52,
+                "start": 359.63,
+                "end": 374.47
+              },
+              {
+                "n": 53,
+                "start": 374.47,
+                "end": 389.83
+              },
+              {
+                "n": 54,
+                "start": 389.83,
+                "end": 404.51
+              },
+              {
+                "n": 55,
+                "start": 404.51,
+                "end": 420.2
+              },
+              {
+                "n": 56,
+                "start": 420.2,
+                "end": 434.37
+              },
+              {
+                "n": 57,
+                "start": 434.37,
+                "end": 450.06
+              },
+              {
+                "n": 58,
+                "start": 450.06,
+                "end": 464.4
+              }
+            ]
+          }
         },
         {
           "heading": "On His Blessed Birth ﷺ",
@@ -5843,7 +8742,80 @@
               "n": 71,
               "en2": "thrown after he had glorified God within his palms, as Jonah the glorifier was cast out of the belly of the whale."
             }
-          ]
+          ],
+          "audio": {
+            "file": "audio/burdah/burdah_chapter_04.mp3",
+            "title": "Chapter 4: On His Blessed Birth ﷺ",
+            "artist": "Majlis Maulid al-Burdah",
+            "duration": 206.3,
+            "timestamps": [
+              {
+                "n": 59,
+                "start": 6.0,
+                "end": 19.33
+              },
+              {
+                "n": 60,
+                "start": 19.33,
+                "end": 34.11
+              },
+              {
+                "n": 61,
+                "start": 34.11,
+                "end": 48.41
+              },
+              {
+                "n": 62,
+                "start": 48.41,
+                "end": 64.0
+              },
+              {
+                "n": 63,
+                "start": 64.0,
+                "end": 77.97
+              },
+              {
+                "n": 64,
+                "start": 77.97,
+                "end": 93.23
+              },
+              {
+                "n": 65,
+                "start": 93.23,
+                "end": 108.17
+              },
+              {
+                "n": 66,
+                "start": 108.17,
+                "end": 123.28
+              },
+              {
+                "n": 67,
+                "start": 123.28,
+                "end": 138.38
+              },
+              {
+                "n": 68,
+                "start": 138.38,
+                "end": 154.28
+              },
+              {
+                "n": 69,
+                "start": 154.28,
+                "end": 169.22
+              },
+              {
+                "n": 70,
+                "start": 169.22,
+                "end": 183.68
+              },
+              {
+                "n": 71,
+                "start": 183.68,
+                "end": 198.3
+              }
+            ]
+          }
         },
         {
           "heading": "On His Miracles ﷺ",
@@ -5945,7 +8917,95 @@
               "n": 87,
               "en2": "with a rain-cloud that poured until you would have thought the dry riverbeds were channels cut from the sea, or a floodburst from a mountain dam."
             }
-          ]
+          ],
+          "audio": {
+            "file": "audio/burdah/burdah_chapter_05.mp3",
+            "title": "Chapter 5: On His Miracles ﷺ",
+            "artist": "Majlis Maulid al-Burdah",
+            "duration": 259.4,
+            "timestamps": [
+              {
+                "n": 72,
+                "start": 6.0,
+                "end": 20.54
+              },
+              {
+                "n": 73,
+                "start": 20.54,
+                "end": 35.42
+              },
+              {
+                "n": 74,
+                "start": 35.42,
+                "end": 49.46
+              },
+              {
+                "n": 75,
+                "start": 49.46,
+                "end": 65.01
+              },
+              {
+                "n": 76,
+                "start": 65.01,
+                "end": 80.56
+              },
+              {
+                "n": 77,
+                "start": 80.56,
+                "end": 96.94
+              },
+              {
+                "n": 78,
+                "start": 96.94,
+                "end": 113.49
+              },
+              {
+                "n": 79,
+                "start": 113.49,
+                "end": 128.37
+              },
+              {
+                "n": 80,
+                "start": 128.37,
+                "end": 144.25
+              },
+              {
+                "n": 81,
+                "start": 144.25,
+                "end": 161.13
+              },
+              {
+                "n": 82,
+                "start": 161.13,
+                "end": 177.35
+              },
+              {
+                "n": 83,
+                "start": 177.35,
+                "end": 190.89
+              },
+              {
+                "n": 84,
+                "start": 190.89,
+                "end": 204.59
+              },
+              {
+                "n": 85,
+                "start": 204.59,
+                "end": 219.97
+              },
+              {
+                "n": 86,
+                "start": 219.97,
+                "end": 235.69
+              },
+              {
+                "n": 87,
+                "start": 235.69,
+                "end": 251.4
+              }
+            ]
+          }
         },
         {
           "heading": "On the Excellence of the Noble Qur'an",
@@ -6053,7 +9113,100 @@
               "n": 104,
               "en2": "a diseased eye has denied the sunlight before now, and a sick mouth has denied the taste of water."
             }
-          ]
+          ],
+          "audio": {
+            "file": "audio/burdah/burdah_chapter_06.mp3",
+            "title": "Chapter 6: On the Excellence of the Noble Qur'an",
+            "artist": "Majlis Maulid al-Burdah",
+            "duration": 246.2,
+            "timestamps": [
+              {
+                "n": 88,
+                "start": 6.0,
+                "end": 18.81
+              },
+              {
+                "n": 89,
+                "start": 18.81,
+                "end": 32.67
+              },
+              {
+                "n": 90,
+                "start": 32.67,
+                "end": 45.93
+              },
+              {
+                "n": 91,
+                "start": 45.93,
+                "end": 58.59
+              },
+              {
+                "n": 92,
+                "start": 58.59,
+                "end": 72.0
+              },
+              {
+                "n": 93,
+                "start": 72.0,
+                "end": 85.86
+              },
+              {
+                "n": 94,
+                "start": 85.86,
+                "end": 98.52
+              },
+              {
+                "n": 95,
+                "start": 98.52,
+                "end": 112.83
+              },
+              {
+                "n": 96,
+                "start": 112.83,
+                "end": 126.39
+              },
+              {
+                "n": 97,
+                "start": 126.39,
+                "end": 140.11
+              },
+              {
+                "n": 98,
+                "start": 140.11,
+                "end": 153.22
+              },
+              {
+                "n": 99,
+                "start": 153.22,
+                "end": 166.93
+              },
+              {
+                "n": 100,
+                "start": 166.93,
+                "end": 181.24
+              },
+              {
+                "n": 101,
+                "start": 181.24,
+                "end": 195.11
+              },
+              {
+                "n": 102,
+                "start": 195.11,
+                "end": 209.42
+              },
+              {
+                "n": 103,
+                "start": 209.42,
+                "end": 222.98
+              },
+              {
+                "n": 104,
+                "start": 222.98,
+                "end": 238.2
+              }
+            ]
+          }
         },
         {
           "heading": "On His Night Journey and Ascension ﷺ",
@@ -6137,7 +9290,80 @@
               "n": 117,
               "en2": "Since God named the one who called us to Him \"the noblest of messengers\", we are the noblest of communities."
             }
-          ]
+          ],
+          "audio": {
+            "file": "audio/burdah/burdah_chapter_07.mp3",
+            "title": "Chapter 7: On His Night Journey and Ascension ﷺ",
+            "artist": "Majlis Maulid al-Burdah",
+            "duration": 193.0,
+            "timestamps": [
+              {
+                "n": 105,
+                "start": 6.0,
+                "end": 20.28
+              },
+              {
+                "n": 106,
+                "start": 20.28,
+                "end": 34.57
+              },
+              {
+                "n": 107,
+                "start": 34.57,
+                "end": 48.24
+              },
+              {
+                "n": 108,
+                "start": 48.24,
+                "end": 62.83
+              },
+              {
+                "n": 109,
+                "start": 62.83,
+                "end": 76.35
+              },
+              {
+                "n": 110,
+                "start": 76.35,
+                "end": 90.49
+              },
+              {
+                "n": 111,
+                "start": 90.49,
+                "end": 104.16
+              },
+              {
+                "n": 112,
+                "start": 104.16,
+                "end": 118.44
+              },
+              {
+                "n": 113,
+                "start": 118.44,
+                "end": 131.21
+              },
+              {
+                "n": 114,
+                "start": 131.21,
+                "end": 143.82
+              },
+              {
+                "n": 115,
+                "start": 143.82,
+                "end": 157.04
+              },
+              {
+                "n": 116,
+                "start": 157.04,
+                "end": 171.17
+              },
+              {
+                "n": 117,
+                "start": 171.17,
+                "end": 185.0
+              }
+            ]
+          }
         },
         {
           "heading": "On the Prophet's Jihad ﷺ",
@@ -6275,7 +9501,125 @@
               "n": 139,
               "en2": "Let it be miracle enough for you: such knowledge in the Unlettered One, in an age of ignorance, and such nurture in the Orphan."
             }
-          ]
+          ],
+          "audio": {
+            "file": "audio/burdah/burdah_chapter_08.mp3",
+            "title": "Chapter 8: On the Prophet's Jihad ﷺ",
+            "artist": "Majlis Maulid al-Burdah",
+            "duration": 339.3,
+            "timestamps": [
+              {
+                "n": 118,
+                "start": 6.0,
+                "end": 20.68
+              },
+              {
+                "n": 119,
+                "start": 20.68,
+                "end": 35.21
+              },
+              {
+                "n": 120,
+                "start": 35.21,
+                "end": 50.37
+              },
+              {
+                "n": 121,
+                "start": 50.37,
+                "end": 66.34
+              },
+              {
+                "n": 122,
+                "start": 66.34,
+                "end": 80.7
+              },
+              {
+                "n": 123,
+                "start": 80.7,
+                "end": 94.59
+              },
+              {
+                "n": 124,
+                "start": 94.59,
+                "end": 108.47
+              },
+              {
+                "n": 125,
+                "start": 108.47,
+                "end": 123.8
+              },
+              {
+                "n": 126,
+                "start": 123.8,
+                "end": 138.16
+              },
+              {
+                "n": 127,
+                "start": 138.16,
+                "end": 152.53
+              },
+              {
+                "n": 128,
+                "start": 152.53,
+                "end": 167.37
+              },
+              {
+                "n": 129,
+                "start": 167.37,
+                "end": 182.7
+              },
+              {
+                "n": 130,
+                "start": 182.7,
+                "end": 197.7
+              },
+              {
+                "n": 131,
+                "start": 197.7,
+                "end": 213.02
+              },
+              {
+                "n": 132,
+                "start": 213.02,
+                "end": 228.51
+              },
+              {
+                "n": 133,
+                "start": 228.51,
+                "end": 244.15
+              },
+              {
+                "n": 134,
+                "start": 244.15,
+                "end": 259.31
+              },
+              {
+                "n": 135,
+                "start": 259.31,
+                "end": 273.52
+              },
+              {
+                "n": 136,
+                "start": 273.52,
+                "end": 287.41
+              },
+              {
+                "n": 137,
+                "start": 287.41,
+                "end": 301.29
+              },
+              {
+                "n": 138,
+                "start": 301.29,
+                "end": 315.82
+              },
+              {
+                "n": 139,
+                "start": 315.82,
+                "end": 331.3
+              }
+            ]
+          }
         },
         {
           "heading": "On Seeking Intercession Through the Prophet ﷺ",
@@ -6353,7 +9697,75 @@
               "n": 151,
               "en2": "And I want no worldly glory such as Zuhayr's hands grasped through his praise of Hārim."
             }
-          ]
+          ],
+          "audio": {
+            "file": "audio/burdah/burdah_chapter_09.mp3",
+            "title": "Chapter 9: On Seeking Intercession Through the Prophet ﷺ",
+            "artist": "Majlis Maulid al-Burdah",
+            "duration": 179.6,
+            "timestamps": [
+              {
+                "n": 140,
+                "start": 6.0,
+                "end": 19.13
+              },
+              {
+                "n": 141,
+                "start": 19.13,
+                "end": 31.95
+              },
+              {
+                "n": 142,
+                "start": 31.95,
+                "end": 46.29
+              },
+              {
+                "n": 143,
+                "start": 46.29,
+                "end": 60.18
+              },
+              {
+                "n": 144,
+                "start": 60.18,
+                "end": 73.46
+              },
+              {
+                "n": 145,
+                "start": 73.46,
+                "end": 86.89
+              },
+              {
+                "n": 146,
+                "start": 86.89,
+                "end": 100.63
+              },
+              {
+                "n": 147,
+                "start": 100.63,
+                "end": 114.67
+              },
+              {
+                "n": 148,
+                "start": 114.67,
+                "end": 129.02
+              },
+              {
+                "n": 149,
+                "start": 129.02,
+                "end": 141.84
+              },
+              {
+                "n": 150,
+                "start": 141.84,
+                "end": 156.8
+              },
+              {
+                "n": 151,
+                "start": 156.8,
+                "end": 171.6
+              }
+            ]
+          }
         },
         {
           "heading": "On Intimate Supplication and the Presenting of Needs",
@@ -6419,7 +9831,65 @@
               "n": 161,
               "en2": "as long as the breeze stirs the branches of the moringa, and the cameleer cheers his camels with song."
             }
-          ]
+          ],
+          "audio": {
+            "file": "audio/burdah/burdah_chapter_10.mp3",
+            "title": "Chapter 10: On Intimate Supplication and the Presenting of Needs",
+            "artist": "Majlis Maulid al-Burdah",
+            "duration": 261.4,
+            "timestamps": [
+              {
+                "n": 152,
+                "start": 6.0,
+                "end": 28.06
+              },
+              {
+                "n": 153,
+                "start": 28.06,
+                "end": 48.95
+              },
+              {
+                "n": 154,
+                "start": 48.95,
+                "end": 70.55
+              },
+              {
+                "n": 155,
+                "start": 70.55,
+                "end": 93.08
+              },
+              {
+                "n": 156,
+                "start": 93.08,
+                "end": 114.44
+              },
+              {
+                "n": 157,
+                "start": 114.44,
+                "end": 136.5
+              },
+              {
+                "n": 158,
+                "start": 136.5,
+                "end": 159.27
+              },
+              {
+                "n": 159,
+                "start": 159.27,
+                "end": 179.46
+              },
+              {
+                "n": 160,
+                "start": 179.46,
+                "end": 204.34
+              },
+              {
+                "n": 161,
+                "start": 204.34,
+                "end": 226.4
+              }
+            ]
+          }
         }
       ]
     },

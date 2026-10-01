@@ -1,0 +1,887 @@
+{
+  "0": {
+    "file": "audio/burdah/burdah_chapter_01.mp3",
+    "title": "Chapter 1: On Yearning and the Lament of Love",
+    "artist": "Majlis Maulid al-Burdah",
+    "duration": 211.5,
+    "verses": [
+      {
+        "n": 1,
+        "start": 22.5,
+        "end": 36.22
+      },
+      {
+        "n": 2,
+        "start": 36.22,
+        "end": 52.23
+      },
+      {
+        "n": 3,
+        "start": 52.23,
+        "end": 67.75
+      },
+      {
+        "n": 4,
+        "start": 67.75,
+        "end": 82.29
+      },
+      {
+        "n": 5,
+        "start": 82.29,
+        "end": 97.97
+      },
+      {
+        "n": 6,
+        "start": 97.97,
+        "end": 112.67
+      },
+      {
+        "n": 7,
+        "start": 112.67,
+        "end": 127.87
+      },
+      {
+        "n": 8,
+        "start": 127.87,
+        "end": 143.06
+      },
+      {
+        "n": 9,
+        "start": 143.06,
+        "end": 158.9
+      },
+      {
+        "n": 10,
+        "start": 158.9,
+        "end": 172.63
+      },
+      {
+        "n": 11,
+        "start": 172.63,
+        "end": 187.98
+      },
+      {
+        "n": 12,
+        "start": 187.98,
+        "end": 203.5
+      }
+    ]
+  },
+  "1": {
+    "file": "audio/burdah/burdah_chapter_02.mp3",
+    "title": "Chapter 2: Warning Against the Desires of the Soul",
+    "artist": "Majlis Maulid al-Burdah",
+    "duration": 272.7,
+    "verses": [
+      {
+        "n": 13,
+        "start": 6.0,
+        "end": 22.33
+      },
+      {
+        "n": 14,
+        "start": 22.33,
+        "end": 38.32
+      },
+      {
+        "n": 15,
+        "start": 38.32,
+        "end": 53.95
+      },
+      {
+        "n": 16,
+        "start": 53.95,
+        "end": 69.24
+      },
+      {
+        "n": 17,
+        "start": 69.24,
+        "end": 85.23
+      },
+      {
+        "n": 18,
+        "start": 85.23,
+        "end": 102.43
+      },
+      {
+        "n": 19,
+        "start": 102.43,
+        "end": 118.76
+      },
+      {
+        "n": 20,
+        "start": 118.76,
+        "end": 135.09
+      },
+      {
+        "n": 21,
+        "start": 135.09,
+        "end": 152.12
+      },
+      {
+        "n": 22,
+        "start": 152.12,
+        "end": 167.23
+      },
+      {
+        "n": 23,
+        "start": 167.23,
+        "end": 184.78
+      },
+      {
+        "n": 24,
+        "start": 184.78,
+        "end": 200.94
+      },
+      {
+        "n": 25,
+        "start": 200.94,
+        "end": 217.1
+      },
+      {
+        "n": 26,
+        "start": 217.1,
+        "end": 232.56
+      },
+      {
+        "n": 27,
+        "start": 232.56,
+        "end": 249.41
+      },
+      {
+        "n": 28,
+        "start": 249.41,
+        "end": 264.7
+      }
+    ]
+  },
+  "2": {
+    "file": "audio/burdah/burdah_chapter_03.mp3",
+    "title": "Chapter 3: In Praise of the Prophet ﷺ",
+    "artist": "Majlis Maulid al-Burdah",
+    "duration": 472.4,
+    "verses": [
+      {
+        "n": 29,
+        "start": 6.0,
+        "end": 21.86
+      },
+      {
+        "n": 30,
+        "start": 21.86,
+        "end": 36.71
+      },
+      {
+        "n": 31,
+        "start": 36.71,
+        "end": 51.55
+      },
+      {
+        "n": 32,
+        "start": 51.55,
+        "end": 66.4
+      },
+      {
+        "n": 33,
+        "start": 66.4,
+        "end": 83.27
+      },
+      {
+        "n": 34,
+        "start": 83.27,
+        "end": 98.79
+      },
+      {
+        "n": 35,
+        "start": 98.79,
+        "end": 113.47
+      },
+      {
+        "n": 36,
+        "start": 113.47,
+        "end": 128.49
+      },
+      {
+        "n": 37,
+        "start": 128.49,
+        "end": 143.67
+      },
+      {
+        "n": 38,
+        "start": 143.67,
+        "end": 158.35
+      },
+      {
+        "n": 39,
+        "start": 158.35,
+        "end": 174.55
+      },
+      {
+        "n": 40,
+        "start": 174.55,
+        "end": 190.24
+      },
+      {
+        "n": 41,
+        "start": 190.24,
+        "end": 205.08
+      },
+      {
+        "n": 42,
+        "start": 205.08,
+        "end": 219.43
+      },
+      {
+        "n": 43,
+        "start": 219.43,
+        "end": 235.96
+      },
+      {
+        "n": 44,
+        "start": 235.96,
+        "end": 252.16
+      },
+      {
+        "n": 45,
+        "start": 252.16,
+        "end": 266.16
+      },
+      {
+        "n": 46,
+        "start": 266.16,
+        "end": 281.34
+      },
+      {
+        "n": 47,
+        "start": 281.34,
+        "end": 297.71
+      },
+      {
+        "n": 48,
+        "start": 297.71,
+        "end": 314.58
+      },
+      {
+        "n": 49,
+        "start": 314.58,
+        "end": 329.93
+      },
+      {
+        "n": 50,
+        "start": 329.93,
+        "end": 345.29
+      },
+      {
+        "n": 51,
+        "start": 345.29,
+        "end": 359.63
+      },
+      {
+        "n": 52,
+        "start": 359.63,
+        "end": 374.47
+      },
+      {
+        "n": 53,
+        "start": 374.47,
+        "end": 389.83
+      },
+      {
+        "n": 54,
+        "start": 389.83,
+        "end": 404.51
+      },
+      {
+        "n": 55,
+        "start": 404.51,
+        "end": 420.2
+      },
+      {
+        "n": 56,
+        "start": 420.2,
+        "end": 434.37
+      },
+      {
+        "n": 57,
+        "start": 434.37,
+        "end": 450.06
+      },
+      {
+        "n": 58,
+        "start": 450.06,
+        "end": 464.4
+      }
+    ]
+  },
+  "3": {
+    "file": "audio/burdah/burdah_chapter_04.mp3",
+    "title": "Chapter 4: On His Blessed Birth ﷺ",
+    "artist": "Majlis Maulid al-Burdah",
+    "duration": 206.3,
+    "verses": [
+      {
+        "n": 59,
+        "start": 6.0,
+        "end": 19.33
+      },
+      {
+        "n": 60,
+        "start": 19.33,
+        "end": 34.11
+      },
+      {
+        "n": 61,
+        "start": 34.11,
+        "end": 48.41
+      },
+      {
+        "n": 62,
+        "start": 48.41,
+        "end": 64.0
+      },
+      {
+        "n": 63,
+        "start": 64.0,
+        "end": 77.97
+      },
+      {
+        "n": 64,
+        "start": 77.97,
+        "end": 93.23
+      },
+      {
+        "n": 65,
+        "start": 93.23,
+        "end": 108.17
+      },
+      {
+        "n": 66,
+        "start": 108.17,
+        "end": 123.28
+      },
+      {
+        "n": 67,
+        "start": 123.28,
+        "end": 138.38
+      },
+      {
+        "n": 68,
+        "start": 138.38,
+        "end": 154.28
+      },
+      {
+        "n": 69,
+        "start": 154.28,
+        "end": 169.22
+      },
+      {
+        "n": 70,
+        "start": 169.22,
+        "end": 183.68
+      },
+      {
+        "n": 71,
+        "start": 183.68,
+        "end": 198.3
+      }
+    ]
+  },
+  "4": {
+    "file": "audio/burdah/burdah_chapter_05.mp3",
+    "title": "Chapter 5: On His Miracles ﷺ",
+    "artist": "Majlis Maulid al-Burdah",
+    "duration": 259.4,
+    "verses": [
+      {
+        "n": 72,
+        "start": 6.0,
+        "end": 20.54
+      },
+      {
+        "n": 73,
+        "start": 20.54,
+        "end": 35.42
+      },
+      {
+        "n": 74,
+        "start": 35.42,
+        "end": 49.46
+      },
+      {
+        "n": 75,
+        "start": 49.46,
+        "end": 65.01
+      },
+      {
+        "n": 76,
+        "start": 65.01,
+        "end": 80.56
+      },
+      {
+        "n": 77,
+        "start": 80.56,
+        "end": 96.94
+      },
+      {
+        "n": 78,
+        "start": 96.94,
+        "end": 113.49
+      },
+      {
+        "n": 79,
+        "start": 113.49,
+        "end": 128.37
+      },
+      {
+        "n": 80,
+        "start": 128.37,
+        "end": 144.25
+      },
+      {
+        "n": 81,
+        "start": 144.25,
+        "end": 161.13
+      },
+      {
+        "n": 82,
+        "start": 161.13,
+        "end": 177.35
+      },
+      {
+        "n": 83,
+        "start": 177.35,
+        "end": 190.89
+      },
+      {
+        "n": 84,
+        "start": 190.89,
+        "end": 204.59
+      },
+      {
+        "n": 85,
+        "start": 204.59,
+        "end": 219.97
+      },
+      {
+        "n": 86,
+        "start": 219.97,
+        "end": 235.69
+      },
+      {
+        "n": 87,
+        "start": 235.69,
+        "end": 251.4
+      }
+    ]
+  },
+  "5": {
+    "file": "audio/burdah/burdah_chapter_06.mp3",
+    "title": "Chapter 6: On the Excellence of the Noble Qur'an",
+    "artist": "Majlis Maulid al-Burdah",
+    "duration": 246.2,
+    "verses": [
+      {
+        "n": 88,
+        "start": 6.0,
+        "end": 18.81
+      },
+      {
+        "n": 89,
+        "start": 18.81,
+        "end": 32.67
+      },
+      {
+        "n": 90,
+        "start": 32.67,
+        "end": 45.93
+      },
+      {
+        "n": 91,
+        "start": 45.93,
+        "end": 58.59
+      },
+      {
+        "n": 92,
+        "start": 58.59,
+        "end": 72.0
+      },
+      {
+        "n": 93,
+        "start": 72.0,
+        "end": 85.86
+      },
+      {
+        "n": 94,
+        "start": 85.86,
+        "end": 98.52
+      },
+      {
+        "n": 95,
+        "start": 98.52,
+        "end": 112.83
+      },
+      {
+        "n": 96,
+        "start": 112.83,
+        "end": 126.39
+      },
+      {
+        "n": 97,
+        "start": 126.39,
+        "end": 140.11
+      },
+      {
+        "n": 98,
+        "start": 140.11,
+        "end": 153.22
+      },
+      {
+        "n": 99,
+        "start": 153.22,
+        "end": 166.93
+      },
+      {
+        "n": 100,
+        "start": 166.93,
+        "end": 181.24
+      },
+      {
+        "n": 101,
+        "start": 181.24,
+        "end": 195.11
+      },
+      {
+        "n": 102,
+        "start": 195.11,
+        "end": 209.42
+      },
+      {
+        "n": 103,
+        "start": 209.42,
+        "end": 222.98
+      },
+      {
+        "n": 104,
+        "start": 222.98,
+        "end": 238.2
+      }
+    ]
+  },
+  "6": {
+    "file": "audio/burdah/burdah_chapter_07.mp3",
+    "title": "Chapter 7: On His Night Journey and Ascension ﷺ",
+    "artist": "Majlis Maulid al-Burdah",
+    "duration": 193.0,
+    "verses": [
+      {
+        "n": 105,
+        "start": 6.0,
+        "end": 20.28
+      },
+      {
+        "n": 106,
+        "start": 20.28,
+        "end": 34.57
+      },
+      {
+        "n": 107,
+        "start": 34.57,
+        "end": 48.24
+      },
+      {
+        "n": 108,
+        "start": 48.24,
+        "end": 62.83
+      },
+      {
+        "n": 109,
+        "start": 62.83,
+        "end": 76.35
+      },
+      {
+        "n": 110,
+        "start": 76.35,
+        "end": 90.49
+      },
+      {
+        "n": 111,
+        "start": 90.49,
+        "end": 104.16
+      },
+      {
+        "n": 112,
+        "start": 104.16,
+        "end": 118.44
+      },
+      {
+        "n": 113,
+        "start": 118.44,
+        "end": 131.21
+      },
+      {
+        "n": 114,
+        "start": 131.21,
+        "end": 143.82
+      },
+      {
+        "n": 115,
+        "start": 143.82,
+        "end": 157.04
+      },
+      {
+        "n": 116,
+        "start": 157.04,
+        "end": 171.17
+      },
+      {
+        "n": 117,
+        "start": 171.17,
+        "end": 185.0
+      }
+    ]
+  },
+  "7": {
+    "file": "audio/burdah/burdah_chapter_08.mp3",
+    "title": "Chapter 8: On the Prophet's Jihad ﷺ",
+    "artist": "Majlis Maulid al-Burdah",
+    "duration": 339.3,
+    "verses": [
+      {
+        "n": 118,
+        "start": 6.0,
+        "end": 20.68
+      },
+      {
+        "n": 119,
+        "start": 20.68,
+        "end": 35.21
+      },
+      {
+        "n": 120,
+        "start": 35.21,
+        "end": 50.37
+      },
+      {
+        "n": 121,
+        "start": 50.37,
+        "end": 66.34
+      },
+      {
+        "n": 122,
+        "start": 66.34,
+        "end": 80.7
+      },
+      {
+        "n": 123,
+        "start": 80.7,
+        "end": 94.59
+      },
+      {
+        "n": 124,
+        "start": 94.59,
+        "end": 108.47
+      },
+      {
+        "n": 125,
+        "start": 108.47,
+        "end": 123.8
+      },
+      {
+        "n": 126,
+        "start": 123.8,
+        "end": 138.16
+      },
+      {
+        "n": 127,
+        "start": 138.16,
+        "end": 152.53
+      },
+      {
+        "n": 128,
+        "start": 152.53,
+        "end": 167.37
+      },
+      {
+        "n": 129,
+        "start": 167.37,
+        "end": 182.7
+      },
+      {
+        "n": 130,
+        "start": 182.7,
+        "end": 197.7
+      },
+      {
+        "n": 131,
+        "start": 197.7,
+        "end": 213.02
+      },
+      {
+        "n": 132,
+        "start": 213.02,
+        "end": 228.51
+      },
+      {
+        "n": 133,
+        "start": 228.51,
+        "end": 244.15
+      },
+      {
+        "n": 134,
+        "start": 244.15,
+        "end": 259.31
+      },
+      {
+        "n": 135,
+        "start": 259.31,
+        "end": 273.52
+      },
+      {
+        "n": 136,
+        "start": 273.52,
+        "end": 287.41
+      },
+      {
+        "n": 137,
+        "start": 287.41,
+        "end": 301.29
+      },
+      {
+        "n": 138,
+        "start": 301.29,
+        "end": 315.82
+      },
+      {
+        "n": 139,
+        "start": 315.82,
+        "end": 331.3
+      }
+    ]
+  },
+  "8": {
+    "file": "audio/burdah/burdah_chapter_09.mp3",
+    "title": "Chapter 9: On Seeking Intercession Through the Prophet ﷺ",
+    "artist": "Majlis Maulid al-Burdah",
+    "duration": 179.6,
+    "verses": [
+      {
+        "n": 140,
+        "start": 6.0,
+        "end": 19.13
+      },
+      {
+        "n": 141,
+        "start": 19.13,
+        "end": 31.95
+      },
+      {
+        "n": 142,
+        "start": 31.95,
+        "end": 46.29
+      },
+      {
+        "n": 143,
+        "start": 46.29,
+        "end": 60.18
+      },
+      {
+        "n": 144,
+        "start": 60.18,
+        "end": 73.46
+      },
+      {
+        "n": 145,
+        "start": 73.46,
+        "end": 86.89
+      },
+      {
+        "n": 146,
+        "start": 86.89,
+        "end": 100.63
+      },
+      {
+        "n": 147,
+        "start": 100.63,
+        "end": 114.67
+      },
+      {
+        "n": 148,
+        "start": 114.67,
+        "end": 129.02
+      },
+      {
+        "n": 149,
+        "start": 129.02,
+        "end": 141.84
+      },
+      {
+        "n": 150,
+        "start": 141.84,
+        "end": 156.8
+      },
+      {
+        "n": 151,
+        "start": 156.8,
+        "end": 171.6
+      }
+    ]
+  },
+  "9": {
+    "file": "audio/burdah/burdah_chapter_10.mp3",
+    "title": "Chapter 10: On Intimate Supplication and the Presenting of Needs",
+    "artist": "Majlis Maulid al-Burdah",
+    "duration": 261.4,
+    "verses": [
+      {
+        "n": 152,
+        "start": 6.0,
+        "end": 28.06
+      },
+      {
+        "n": 153,
+        "start": 28.06,
+        "end": 48.95
+      },
+      {
+        "n": 154,
+        "start": 48.95,
+        "end": 70.55
+      },
+      {
+        "n": 155,
+        "start": 70.55,
+        "end": 93.08
+      },
+      {
+        "n": 156,
+        "start": 93.08,
+        "end": 114.44
+      },
+      {
+        "n": 157,
+        "start": 114.44,
+        "end": 136.5
+      },
+      {
+        "n": 158,
+        "start": 136.5,
+        "end": 159.27
+      },
+      {
+        "n": 159,
+        "start": 159.27,
+        "end": 179.46
+      },
+      {
+        "n": 160,
+        "start": 179.46,
+        "end": 204.34
+      },
+      {
+        "n": 161,
+        "start": 204.34,
+        "end": 226.4
+      }
+    ]
+  }
+}

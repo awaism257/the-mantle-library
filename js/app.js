@@ -41,7 +41,40 @@
     }).join('');
   }
 
+  var currentReaderAudio = null;
+  var activeSpeechBtn = null;
+  var activeSpeechCard = null;
+
+  function stopSpeech() {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+    }
+    if (activeSpeechBtn) {
+      activeSpeechBtn.innerHTML = ICON_SPEAKER;
+      activeSpeechBtn.classList.remove('is-speaking');
+      activeSpeechBtn.setAttribute('aria-label', 'Read passage aloud');
+      activeSpeechBtn = null;
+    }
+    if (activeSpeechCard) {
+      activeSpeechCard.classList.remove('is-active-verse');
+      activeSpeechCard = null;
+    }
+  }
+
+  function formatTime(seconds) {
+    if (isNaN(seconds) || seconds < 0) return '0:00';
+    var m = Math.floor(seconds / 60);
+    var s = Math.floor(seconds % 60);
+    return m + ':' + (s < 10 ? '0' : '') + s;
+  }
+
   function clearView() {
+    stopSpeech();
+    if (currentReaderAudio) {
+      currentReaderAudio.pause();
+      currentReaderAudio = null;
+    }
+    window.MantleReaderPlayer = null;
     while (appEl.firstChild) appEl.removeChild(appEl.firstChild);
   }
 
@@ -482,8 +515,194 @@
 
   var ICON_COPY = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
   var ICON_CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"/></svg>';
+  var ICON_PLAY = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><polygon points="6 3 20 12 6 21 6 3"/></svg>';
+  var ICON_PAUSE = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>';
+  var ICON_SPEAKER = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>';
+  var ICON_SPEAKER_STOP = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>';
 
-  function buildUnitNodes(section) {
+  function buildReaderAudioBar(audioData, sectionIndex, totalSections, workId) {
+    var audio = el('audio', { preload: 'metadata', src: audioData.file });
+    currentReaderAudio = audio;
+
+    var playBtn = el('button', {
+      class: 'reader-audio-play-btn',
+      type: 'button',
+      'aria-label': 'Play recitation',
+      title: 'Play recitation',
+      html: ICON_PLAY
+    });
+
+    var titleEl = el('span', { class: 'reader-audio-title', text: audioData.title || 'Chapter Recitation' });
+    var artistEl = el('span', { class: 'reader-audio-artist', text: audioData.artist || 'Majlis Maulid al-Burdah' });
+    var infoEl = el('div', { class: 'reader-audio-info' }, [titleEl, artistEl]);
+
+    var speeds = [1.0, 1.25, 0.75];
+    var speedIdx = 0;
+    var speedBtn = el('button', {
+      class: 'reader-pill-btn',
+      type: 'button',
+      title: 'Change playback speed',
+      text: '1.0×'
+    });
+    speedBtn.addEventListener('click', function () {
+      speedIdx = (speedIdx + 1) % speeds.length;
+      var newSpeed = speeds[speedIdx];
+      audio.playbackRate = newSpeed;
+      speedBtn.textContent = newSpeed + '×';
+    });
+
+    var autoScroll = true;
+    var userInterrupted = false;
+    var userInterruptTimer = null;
+
+    var autoScrollBtn = el('button', {
+      class: 'reader-pill-btn is-active',
+      type: 'button',
+      title: 'Toggle auto-scroll with audio',
+      text: 'Auto-scroll ON'
+    });
+
+    autoScrollBtn.addEventListener('click', function () {
+      autoScroll = !autoScroll;
+      userInterrupted = false;
+      if (autoScroll) {
+        autoScrollBtn.classList.add('is-active');
+        autoScrollBtn.textContent = 'Auto-scroll ON';
+        if (lastActiveCard) {
+          lastActiveCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      } else {
+        autoScrollBtn.classList.remove('is-active');
+        autoScrollBtn.textContent = 'Auto-scroll OFF';
+      }
+    });
+
+    function handleUserScroll() {
+      if (!autoScroll) return;
+      userInterrupted = true;
+      clearTimeout(userInterruptTimer);
+      userInterruptTimer = setTimeout(function () {
+        userInterrupted = false;
+      }, 5000);
+    }
+    window.addEventListener('wheel', handleUserScroll, { passive: true });
+    window.addEventListener('touchstart', handleUserScroll, { passive: true });
+
+    var controlsGroup = el('div', { class: 'reader-audio-controls' }, [speedBtn, autoScrollBtn]);
+    var playGroup = el('div', { class: 'reader-audio-play-group' }, [playBtn, infoEl]);
+    var topRow = el('div', { class: 'reader-audio-row-top' }, [playGroup, controlsGroup]);
+
+    var curTimeEl = el('span', { class: 'reader-audio-time', text: '0:00' });
+    var endTimeEl = el('span', { class: 'reader-audio-time end', text: formatTime(audioData.duration || 0) });
+    var slider = el('input', {
+      class: 'reader-progress-slider',
+      type: 'range',
+      min: '0',
+      max: String(audioData.duration || 100),
+      value: '0',
+      step: '0.1',
+      'aria-label': 'Audio timeline scrubber'
+    });
+
+    var isScrubbing = false;
+    slider.addEventListener('input', function () {
+      isScrubbing = true;
+      curTimeEl.textContent = formatTime(parseFloat(slider.value));
+    });
+    slider.addEventListener('change', function () {
+      isScrubbing = false;
+      audio.currentTime = parseFloat(slider.value);
+    });
+
+    playBtn.addEventListener('click', function () {
+      if (audio.paused) {
+        audio.play().catch(function () {});
+      } else {
+        audio.pause();
+      }
+    });
+
+    audio.addEventListener('play', function () {
+      playBtn.innerHTML = ICON_PAUSE;
+      playBtn.setAttribute('aria-label', 'Pause recitation');
+      playBtn.setAttribute('title', 'Pause recitation');
+    });
+
+    audio.addEventListener('pause', function () {
+      playBtn.innerHTML = ICON_PLAY;
+      playBtn.setAttribute('aria-label', 'Play recitation');
+      playBtn.setAttribute('title', 'Play recitation');
+    });
+
+    audio.addEventListener('loadedmetadata', function () {
+      if (audio.duration && !isNaN(audio.duration)) {
+        slider.max = String(audio.duration);
+        endTimeEl.textContent = formatTime(audio.duration);
+      }
+    });
+
+    var lastActiveNum = null;
+    var lastActiveCard = null;
+
+    audio.addEventListener('timeupdate', function () {
+      var t = audio.currentTime;
+      if (!isScrubbing) {
+        slider.value = String(t);
+        curTimeEl.textContent = formatTime(t);
+      }
+
+      var timestamps = audioData.timestamps || [];
+      var activeNum = null;
+      for (var k = 0; k < timestamps.length; k++) {
+        if (t >= timestamps[k].start && t <= timestamps[k].end) {
+          activeNum = timestamps[k].n;
+          break;
+        }
+      }
+
+      if (activeNum !== lastActiveNum) {
+        if (lastActiveCard) lastActiveCard.classList.remove('is-active-verse');
+        if (activeNum != null) {
+          var card = document.getElementById('verse-' + activeNum);
+          if (card) {
+            card.classList.add('is-active-verse');
+            lastActiveCard = card;
+            if (autoScroll && !userInterrupted) {
+              card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+          }
+        } else {
+          lastActiveCard = null;
+        }
+        lastActiveNum = activeNum;
+      }
+    });
+
+    audio.addEventListener('ended', function () {
+      playBtn.innerHTML = ICON_PLAY;
+      if (lastActiveCard) lastActiveCard.classList.remove('is-active-verse');
+      lastActiveCard = null;
+      lastActiveNum = null;
+    });
+
+    window.MantleReaderPlayer = {
+      seekToVerse: function (verseNum) {
+        var timestamps = audioData.timestamps || [];
+        for (var k = 0; k < timestamps.length; k++) {
+          if (timestamps[k].n === verseNum) {
+            audio.currentTime = timestamps[k].start;
+            audio.play().catch(function () {});
+            break;
+          }
+        }
+      }
+    };
+
+    var bottomRow = el('div', { class: 'reader-audio-row-bottom' }, [curTimeEl, slider, endTimeEl]);
+    return el('div', { class: 'reader-audio-bar' }, [audio, topRow, bottomRow]);
+  }
+
+  function buildUnitNodes(section, audioData) {
     var nodes = [];
     var units = Array.isArray(section.units) ? section.units : [];
     units.forEach(function (unit, idx) {
@@ -496,7 +715,8 @@
         title: 'Copy verse',
         html: ICON_COPY
       });
-      copyBtn.addEventListener('click', function () {
+      copyBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
         var text = unit.ar + (unit.en ? '\n\n' + unit.en : '') + (unit.en2 ? '\n\n' + unit.en2 : '');
         copyText(text, function (ok) {
           if (!ok) return;
@@ -516,10 +736,54 @@
         arChildren.push(el('span', { class: 'verse-num', text: ' ' + toArabicNum(unit.n) }));
       }
 
+      var actions = [copyBtn];
+
+      if ('speechSynthesis' in window) {
+        var speakBtn = el('button', {
+          class: 'verse-speak icon-btn',
+          type: 'button',
+          'aria-label': 'Read passage ' + num + ' aloud',
+          title: 'Read aloud',
+          html: ICON_SPEAKER
+        });
+        speakBtn.addEventListener('click', function (e) {
+          e.stopPropagation();
+          if (activeSpeechBtn === speakBtn) {
+            stopSpeech();
+            return;
+          }
+          stopSpeech();
+
+          if (currentReaderAudio) currentReaderAudio.pause();
+
+          var textToSpeak = unit.en2 || unit.en || unit.ar;
+          var utter = new SpeechSynthesisUtterance(textToSpeak);
+          utter.lang = (unit.en2 || unit.en) ? 'en-US' : 'ar-SA';
+          utter.rate = 0.95;
+
+          activeSpeechBtn = speakBtn;
+          activeSpeechCard = card;
+          speakBtn.innerHTML = ICON_SPEAKER_STOP;
+          speakBtn.classList.add('is-speaking');
+          speakBtn.setAttribute('aria-label', 'Stop reading');
+          card.classList.add('is-active-verse');
+
+          utter.onend = function () {
+            stopSpeech();
+          };
+          utter.onerror = function () {
+            stopSpeech();
+          };
+
+          window.speechSynthesis.speak(utter);
+        });
+        actions.unshift(speakBtn);
+      }
+
       var cardChildren = [
         el('div', { class: 'verse-card-head' }, [
           el('span', { class: 'verse-badge', text: String(num) }),
-          copyBtn
+          el('div', { class: 'verse-actions' }, actions)
         ]),
         el('p', { class: 'arabic-text', lang: 'ar', dir: 'rtl' }, arChildren)
       ];
@@ -537,7 +801,23 @@
           text: 'English translation coming in a future update.'
         }));
       }
-      nodes.push(el('section', { class: 'verse-card' }, cardChildren));
+
+      var card = el('section', {
+        id: 'verse-' + num,
+        class: 'verse-card' + (audioData ? ' is-seekable' : ''),
+        'data-verse-num': String(num)
+      }, cardChildren);
+
+      if (audioData) {
+        card.addEventListener('click', function (e) {
+          if (e.target.closest('.verse-copy') || e.target.closest('.verse-speak')) return;
+          if (window.MantleReaderPlayer && window.MantleReaderPlayer.seekToVerse) {
+            window.MantleReaderPlayer.seekToVerse(num);
+          }
+        });
+      }
+
+      nodes.push(card);
     });
     return nodes;
   }
@@ -675,7 +955,11 @@
       }
       appEl.appendChild(el('header', { class: 'work-header' }, headerChildren));
 
-      appEl.appendChild(el('div', { class: 'verse-stack' }, buildUnitNodes(section)));
+      if (section.audio) {
+        appEl.appendChild(buildReaderAudioBar(section.audio, i, sections.length, work.id));
+      }
+
+      appEl.appendChild(el('div', { class: 'verse-stack' }, buildUnitNodes(section, section.audio)));
 
       // Previous / next navigation between sections.
       var workUrl = '#/work/' + encodeURIComponent(work.id) + '/section/';
