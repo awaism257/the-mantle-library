@@ -6794,28 +6794,28 @@
           "audio": {
             "file": "audio/tala_al_badru.mp3",
             "title": "Ṭalaʿa al-Badru ʿAlaynā",
-            "artist": "Traditional Choral Majlis",
-            "duration": 186.9,
+            "artist": "Ahmad Darwish & Syrian Inshad Ensemble",
+            "duration": 55.0,
             "timestamps": [
               {
                 "n": 1,
-                "start": 7.5,
-                "end": 48.0
+                "start": 0.0,
+                "end": 13.5
               },
               {
                 "n": 2,
-                "start": 48.0,
-                "end": 90.0
+                "start": 13.5,
+                "end": 27.0
               },
               {
                 "n": 3,
-                "start": 90.0,
-                "end": 134.0
+                "start": 27.0,
+                "end": 41.0
               },
               {
                 "n": 4,
-                "start": 134.0,
-                "end": 182.0
+                "start": 41.0,
+                "end": 55.0
               }
             ]
           }
