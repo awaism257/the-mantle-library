@@ -1,7 +1,7 @@
 /* The Mantle Library — service worker (offline-first).
    ⚠ Bump CACHE_VERSION after ANY change to any file before deploying — users
    will otherwise see stale files. */
-const CACHE_VERSION = 'mantle-v47';
+const CACHE_VERSION = 'mantle-v48';
 
 // App shell: everything needed to render the library fully offline.
 // Audio is intentionally NOT precached (large files); it is cached on first
@@ -35,7 +35,6 @@ const PRECACHE_URLS = [
   'audio/art/art_Surat_Yusuf_Pt1_Wadudah_al-Minyalawi_1915.jpg',
   'audio/art/art_Surat_Yusuf_Pt2_Wadudah_al-Minyalawi_1915.jpg',
   'audio/art/art_Quran_Suras_1_112_114_110_Benhamouda_1921_Sorbonne.jpg',
-  'audio/art/art_Poeme_Farazdaq_Benhamouda_1921_Sorbonne.jpg',
   'audio/art/art_Biaini_Alexis_Ben_Kori_1914_Sorbonne.jpg',
   'audio/art/art_Taravikh_Tatar_Trio_Kazan_1901_Berliner_24023.jpg',
   'audio/art/art_Surat_Al-Fatiha_Alexis_Ben_Kori_1914_Sorbonne.jpg'
