@@ -1,4 +1,4 @@
-/* The Mantle Library — theme & display (per-script font scaling) settings.
+/* Mantle Library — theme & display (per-script font scaling) settings.
    Vanilla, no dependencies. Works on index.html, privacy.html and
    support.html.
 

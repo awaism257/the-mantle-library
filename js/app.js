@@ -1,4 +1,4 @@
-/* The Mantle Library — single-page app: hash router, library view, work index
+/* Mantle Library — single-page app: hash router, library view, work index
    view, section reader view, settings view, and an album-tile grid whose
    tiles open a recording detail sheet with the player. All data is fetched
    from the bundled content/works.json (works offline via sw.js). */
@@ -139,7 +139,7 @@
           width: '44',
           height: '44'
         }),
-        el('h1', { class: 'view-header-title', text: 'The Mantle Library' }),
+        el('h1', { class: 'view-header-title', text: 'Mantle Library' }),
         el('div', { class: 'view-header-actions' }, [
           el('a', {
             class: 'icon-btn',
@@ -344,7 +344,7 @@
 
   function renderHome() {
     setNavCurrent('home');
-    document.title = 'The Mantle Library';
+    document.title = 'Mantle Library';
     clearView();
 
     // In-column page header (logo + title + actions + subtitle + rule).
@@ -584,12 +584,12 @@
       if (!works) return;
       var work = findWork(works, id);
       if (!work) {
-        document.title = 'Not found — The Mantle Library';
+        document.title = 'Not found — Mantle Library';
         showNotFound('Work');
         return;
       }
 
-      document.title = work.title_en + ' — The Mantle Library';
+      document.title = work.title_en + ' — Mantle Library';
 
       appEl.appendChild(el('a', { class: 'back-link', href: '#/', text: '← Back to the library' }));
       appEl.appendChild(el('header', { class: 'work-header' }, workHeaderNodes(work)));
@@ -633,20 +633,20 @@
       if (!works) return;
       var work = findWork(works, workId);
       if (!work) {
-        document.title = 'Not found — The Mantle Library';
+        document.title = 'Not found — Mantle Library';
         showNotFound('Work');
         return;
       }
       var sections = Array.isArray(work.sections) ? work.sections : [];
       var i = parseInt(sectionIndex, 10);
       if (String(i) !== String(sectionIndex) || i < 0 || i >= sections.length) {
-        document.title = 'Not found — The Mantle Library';
+        document.title = 'Not found — Mantle Library';
         showNotFound('Section');
         return;
       }
       var section = sections[i];
 
-      document.title = section.heading + ' — ' + work.title_en + ' — The Mantle Library';
+      document.title = section.heading + ' — ' + work.title_en + ' — Mantle Library';
 
       appEl.appendChild(el('a', {
         class: 'back-link',
@@ -708,7 +708,7 @@
 
   function renderSettings() {
     setNavCurrent('settings');
-    document.title = 'Settings — The Mantle Library';
+    document.title = 'Settings — Mantle Library';
     clearView();
 
     var settings = window.MantleSettings;

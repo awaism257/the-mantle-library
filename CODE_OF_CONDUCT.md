@@ -2,7 +2,7 @@
 
 ## Our pledge
 
-The Mantle Library is a free, ad-free, copyright-safe devotional resource built
+Mantle Library is a free, ad-free, copyright-safe devotional resource built
 for the benefit of all. Everyone who takes part in this project — reporting
 issues, suggesting texts, or contributing code — pledges to make participation
 a respectful and harassment-free experience for everyone, regardless of age,
