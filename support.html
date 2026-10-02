@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>About &amp; Support — Mantle Library</title>
-  <meta name="description" content="About Mantle Library: free, ad-free, offline-first qasidas with historic recordings — sources, licences, and how to support the app.">
+  <meta name="description" content="About Mantle Library: free, ad-free, offline-first qasidas with historic recordings — sources, licences, family of apps, and ways to support.">
   <meta name="theme-color" content="#101613">
   <link rel="canonical" href="https://mantlelibrary.app/support.html">
   <link rel="manifest" href="manifest.webmanifest">
@@ -15,6 +15,25 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Top Ecosystem Switcher Bar -->
+  <nav class="family-bar" aria-label="Family of Apps">
+    <span class="family-bar-label">Family of Apps:</span>
+    <div class="family-pills">
+      <a class="family-pill active" href="./index.html#/" title="Mantle Library (Current App)">
+        <img src="icons/icon-192.png" alt="Mantle Library icon" class="family-pill-icon">
+        <span>📜 Mantle Library</span>
+      </a>
+      <a class="family-pill" href="https://justquran.app" target="_blank" rel="noopener noreferrer" title="JustQuran — Holy Quran Reader">
+        <img src="icons/justquran-icon.png" alt="JustQuran icon" class="family-pill-icon">
+        <span>📖 JustQuran</span>
+      </a>
+      <a class="family-pill" href="https://munajaat.app" target="_blank" rel="noopener noreferrer" title="Munajaat Maqbool — Daily Supplications">
+        <img src="icons/munajaat-icon.png" alt="Munajaat Maqbool icon" class="family-pill-icon">
+        <span>📿 Munajaat Maqbool</span>
+      </a>
+    </div>
+  </nav>
 
   <header class="site-header">
     <nav class="site-nav" aria-label="Primary">
@@ -34,70 +53,168 @@
       <p class="support-badges">Free · No ads · No sign-in · No tracking · Works offline</p>
     </section>
 
-    <div class="prose">
-      <h2 class="section-heading">About</h2>
-      <p>Mantle Library presents classical devotional works in praise of the Prophet Muḥammad ﷺ — the Dalāʾil al-Khayrāt of Imam al-Jazūlī ﵀, Kaʿb ibn Zuhayr's ﵁ Banat Suʿād, Ṭalaʿa al-Badru ʿAlaynā, and poems of Ḥassān ibn Thābit ﵁ — verse by verse in the Digital Khatt IndoPak script with English translation, alongside historic public-domain recordings from the earliest decades of the gramophone era, in light and dark themes.</p>
-      <p>The app works fully offline: all texts and fonts are bundled, and recordings are downloaded only when you choose to play them.</p>
+    <div class="support-wrap">
+      <!-- About Card -->
+      <div class="card">
+        <h2>About</h2>
+        <p>Mantle Library presents classical devotional works in praise of the Prophet Muḥammad ﷺ — the Dalāʾil al-Khayrāt of Imam al-Jazūlī ﵀, Kaʿb ibn Zuhayr's ﵁ Banat Suʿād, Ṭalaʿa al-Badru ʿAlaynā, and poems of Ḥassān ibn Thābit ﵁ — verse by verse in the Digital Khatt IndoPak script with English translation, alongside historic public-domain recordings from the earliest decades of the gramophone era, in light and dark themes.</p>
+        <p class="dim">The app works fully offline: all texts and fonts are bundled, and recordings are downloaded only when you choose to play them.</p>
+      </div>
 
-      <h2 class="section-heading">Get the app</h2>
-      <p>Found a problem? Report it via the <a href="https://github.com/awaism257/the-mantle-library/issues" rel="noopener">Issues tab</a> on GitHub.</p>
-      <p><strong>Android:</strong> open the app in Chrome → menu → <em>Add to Home screen</em> / <em>Install app</em>.<br>
-         <strong>iPhone:</strong> open the app in Safari → Share → <em>Add to Home Screen</em>.</p>
+      <!-- Get the App Card -->
+      <div class="card">
+        <h2>Get the app</h2>
+        <div class="btn-row">
+          <a class="btn" href="./index.html#/">Open the web app</a>
+          <a class="btn ghost" href="https://github.com/awaism257/the-mantle-library" target="_blank" rel="noopener noreferrer">Source code</a>
+        </div>
+        <p class="dim" style="text-align: center; margin-top: 12px;">
+          <strong>Android:</strong> open in Chrome → menu → <em>Add to Home screen</em> / <em>Install app</em>.<br>
+          <strong>iPhone:</strong> open in Safari → Share → <em>Add to Home Screen</em>.
+        </p>
+        <p class="dim" style="text-align: center; margin-top: 6px;">
+          Found a problem? Report it via the <a href="https://github.com/awaism257/the-mantle-library/issues" rel="noopener" target="_blank">Issues tab</a> on GitHub.
+        </p>
+      </div>
 
-      <h2 class="section-heading">Support this app</h2>
-      <p>Mantle Library is free and contains no adverts. If it has benefited you, you can leave a small tip towards hosting and development costs — entirely optional.</p>
-      <p><a class="kofi-btn" href="https://ko-fi.com/awaismahmood257" rel="noopener">♥ Leave a tip on Ko-fi</a></p>
-      <p>The best support is sharing the app with someone who will benefit from it.</p>
+      <!-- Family of Apps Card -->
+      <div class="card">
+        <h2>Family of Apps</h2>
+        <p class="family-intro">
+          Mantle Library is part of an independent suite of free Islamic apps dedicated to authentic classical texts, clean reading comfort, and high-fidelity recitation — completely ad-free, with zero tracking, and built to work offline forever as <strong>Sadaqah Jariyah</strong>.
+        </p>
 
-      <h2 class="section-heading">Texts &amp; licences</h2>
-      <table class="licence-table">
-        <tbody>
-          <tr>
-            <th scope="row">Dalāʾil al-Khayrāt</th>
-            <td>Imam al-Jazūlī ﵀ (d. 1465) — classical text in the public domain, as circulated in standard editions. English: opening devotions, intention and Hizb 1 — original translation made for this project; Hizbs 2–8 — historical translation by Rev. John B. Pearson (<em>Guide to Happiness</em>, Oxford, 1907), in the public domain.</td>
-          </tr>
-          <tr>
-            <th scope="row">Banat Suʿād</th>
-            <td>Kaʿb ibn Zuhayr ﵁ — the recension transmitted in Ibn Hishām's ﵀ <em>Sīra</em> (public domain). English: original translation made for this project.</td>
-          </tr>
-          <tr>
-            <th scope="row">Ṭalaʿa al-Badru ʿAlaynā</th>
-            <td>The traditional text as transmitted in the sīra literature (public domain). English: original rendering made for this project.</td>
-          </tr>
-          <tr>
-            <th scope="row">Poems of Ḥassān ibn Thābit</th>
-            <td>As transmitted in his dīwān and, for the minbar poem, in Ṣaḥīḥ Muslim (public domain). English: original renderings made for this project.</td>
-          </tr>
-          <tr>
-            <th scope="row">Recordings</th>
-            <td>Public-domain 78rpm discs (1901–1921) — courtesy of the Harvard Loeb Music Library (Arabic 78 Collection), the Bibliothèque nationale de France (Gallica), and Excavated Shellac.</td>
-          </tr>
-          <tr>
-            <th scope="row">Hosting</th>
-            <td>Netlify (<a href="https://www.netlify.com" rel="noopener">netlify.com</a>).</td>
-          </tr>
-          <tr>
-            <th scope="row">Source code</th>
-            <td>Open source — MIT License (<a href="https://github.com/awaism257/the-mantle-library" rel="noopener">GitHub</a>).</td>
-          </tr>
-        </tbody>
-      </table>
+        <!-- Mantle Library Card (THIS APP) -->
+        <div class="app-item active-app">
+          <div class="app-item-head">
+            <img class="app-item-icon" src="icons/icon-192.png" alt="Mantle Library icon">
+            <div class="app-item-info">
+              <div class="app-item-title-row">
+                <h3 class="app-item-name">Mantle Library</h3>
+                <span class="app-badge-current">This App</span>
+                <span class="app-item-arabic" lang="ar" dir="rtl">قصائد ومدائح نبوية</span>
+              </div>
+              <p class="app-item-subtitle">قصائد ومدائح نبوية — Classical Devotional Works</p>
+            </div>
+          </div>
+          <p class="app-item-desc">
+            Presents the Dalāʾil al-Khayrāt of Imam al-Jazūlī, Qaṣīda al-Burdah, and Banāt Suʿād in illuminated folio layouts with English translations and historic, rare public-domain gramophone recordings.
+          </p>
+          <div class="app-item-actions">
+            <a class="btn" href="./index.html#/">Open Web App</a>
+            <a class="btn ghost" href="https://github.com/awaism257/the-mantle-library" target="_blank" rel="noopener noreferrer">Source code</a>
+          </div>
+        </div>
 
-      <h2 class="section-heading">Fonts</h2>
-      <p>DigitalKhatt IndoPak · DigitalKhatt V2 (Amine Anane / Tarteel Inc) · Amiri Quran · Noto Naskh Arabic — SIL Open Font License 1.1.</p>
+        <!-- JustQuran Card -->
+        <div class="app-item">
+          <div class="app-item-head">
+            <img class="app-item-icon" src="icons/justquran-icon.png" alt="JustQuran icon">
+            <div class="app-item-info">
+              <div class="app-item-title-row">
+                <h3 class="app-item-name">JustQuran</h3>
+                <span class="app-item-arabic" lang="ar" dir="rtl">القرآن الكريم</span>
+              </div>
+              <p class="app-item-subtitle">القرآن الكريم — The Holy Quran verse by verse in Arabic, Urdu, and English</p>
+            </div>
+          </div>
+          <p class="app-item-desc">
+            Digital Khatt IndoPak typography, authentic waqaf (stop) marks, flowing mushaf folio, ClearQuran &amp; Jalandhari translations, and Al-Hussary recitation.
+          </p>
+          <div class="app-item-actions">
+            <a class="btn" href="https://justquran.app" target="_blank" rel="noopener noreferrer">Open JustQuran</a>
+            <a class="btn ghost" href="https://github.com/awaism257/justquran" target="_blank" rel="noopener noreferrer">Source code</a>
+          </div>
+        </div>
 
-      <p><a href="privacy.html">Read the privacy policy</a></p>
+        <!-- Munajaat Maqbool Card -->
+        <div class="app-item">
+          <div class="app-item-head">
+            <img class="app-item-icon" src="icons/munajaat-icon.png" alt="Munajaat Maqbool icon">
+            <div class="app-item-info">
+              <div class="app-item-title-row">
+                <h3 class="app-item-name">Munajaat Maqbool</h3>
+                <span class="app-item-arabic" lang="ar" dir="rtl">مناجات مقبول</span>
+              </div>
+              <p class="app-item-subtitle">مناجات مقبول — Supplications for the 7 Days of the Week</p>
+            </div>
+          </div>
+          <p class="app-item-desc">
+            195 Qur'anic and Prophetic Hadith supplications compiled by Mawlana Ashraf Ali Thanawi, IndoPak/Amiri scripts, translations, citations, and line-by-line synchronized slow audio.
+          </p>
+          <div class="app-item-actions">
+            <a class="btn" href="https://munajaat.app" target="_blank" rel="noopener noreferrer">Open Munajaat</a>
+            <a class="btn ghost" href="https://github.com/awaism257/munajaat-maqbool" target="_blank" rel="noopener noreferrer">Source code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Support This App Card -->
+      <div class="card">
+        <h2>Support this app</h2>
+        <p>Mantle Library is free and contains no adverts. If it has benefited you, you can leave a small tip towards hosting and development costs — entirely optional.</p>
+        <div class="btn-row">
+          <a class="kofi-btn" href="https://ko-fi.com/awaismahmood257" target="_blank" rel="noopener noreferrer">♥ Leave a tip on Ko-fi</a>
+        </div>
+        <p class="dim" style="text-align: center; margin-top: 8px;">The best support is sharing the app with someone who will benefit from it.</p>
+      </div>
+
+      <!-- Texts & Licences Card -->
+      <div class="card">
+        <h2>Texts &amp; licences</h2>
+        <table class="licence-table">
+          <tbody>
+            <tr>
+              <th scope="row">Dalāʾil al-Khayrāt</th>
+              <td>Imam al-Jazūlī ﵀ (d. 1465) — classical text in the public domain, as circulated in standard editions. English: opening devotions, intention and Hizb 1 — original translation made for this project; Hizbs 2–8 — historical translation by Rev. John B. Pearson (<em>Guide to Happiness</em>, Oxford, 1907), in the public domain.</td>
+            </tr>
+            <tr>
+              <th scope="row">Banat Suʿād</th>
+              <td>Kaʿb ibn Zuhayr ﵁ — the recension transmitted in Ibn Hishām's ﵀ <em>Sīra</em> (public domain). English: original translation made for this project.</td>
+            </tr>
+            <tr>
+              <th scope="row">Ṭalaʿa al-Badru ʿAlaynā</th>
+              <td>The traditional text as transmitted in the sīra literature (public domain). English: original rendering made for this project.</td>
+            </tr>
+            <tr>
+              <th scope="row">Poems of Ḥassān ibn Thābit</th>
+              <td>As transmitted in his dīwān and, for the minbar poem, in Ṣaḥīḥ Muslim (public domain). English: original renderings made for this project.</td>
+            </tr>
+            <tr>
+              <th scope="row">Recordings</th>
+              <td>Public-domain 78rpm discs (1901–1921) — courtesy of the Harvard Loeb Music Library (Arabic 78 Collection), the Bibliothèque nationale de France (Gallica), and Excavated Shellac.</td>
+            </tr>
+            <tr>
+              <th scope="row">Hosting</th>
+              <td>Netlify (<a href="https://www.netlify.com" target="_blank" rel="noopener">netlify.com</a>).</td>
+            </tr>
+            <tr>
+              <th scope="row">Source code</th>
+              <td>Open source — MIT License (<a href="https://github.com/awaism257/the-mantle-library" target="_blank" rel="noopener">GitHub</a>).</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Fonts Card -->
+      <div class="card">
+        <h2>Fonts</h2>
+        <p class="dim">DigitalKhatt IndoPak · DigitalKhatt V2 (Amine Anane / Tarteel Inc) · Amiri Quran · Noto Naskh Arabic — SIL Open Font License 1.1.</p>
+      </div>
+
+      <div class="btn-row" style="margin-top: 1.5rem;">
+        <a class="btn ghost" href="privacy.html">Read Privacy Policy</a>
+        <a class="btn" href="index.html#/">← Back to Mantle Library</a>
+      </div>
 
       <p class="support-footer-credit">Compiled by Awais Mahmood with the help of Kimi K3 AI.<br>
       Distributed free of charge.</p>
-
-      <p><a href="index.html#/">← Back to Mantle Library</a></p>
     </div>
   </main>
 
   <footer class="site-footer">
     <p>Mantle Library &mdash; free, ad-free, offline-first. No tracking, no accounts.</p>
-    <p class="footer-netlify"><a href="https://www.netlify.com" rel="noopener">This site is powered by Netlify</a></p>
+    <p class="footer-netlify"><a href="https://www.netlify.com" target="_blank" rel="noopener">This site is powered by Netlify</a></p>
   </footer>
 
   <script src="js/settings.js"></script>
