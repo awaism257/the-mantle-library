@@ -823,6 +823,25 @@ h1, h2, h3 {
 
 /* ---------- Reader view ---------- */
 
+/* ---------- Sub-view Navigation Bar ---------- */
+.sub-nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+  padding: 0.25rem 0;
+}
+.sub-nav-left {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.sub-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
 .back-link {
   display: inline-block;
   margin-bottom: 1rem;
@@ -1639,7 +1658,7 @@ audio {
 
 /* ---------- Zero-Scroll Mobile Home Dashboard (< 768px, e.g. RedMagic 10 Pro) ---------- */
 @media (max-width: 768px) {
-  html, body.is-home {
+  html.is-home, body.is-home {
     height: 100dvh;
     height: 100vh;
     margin: 0;
@@ -1746,6 +1765,9 @@ audio {
 @media (max-width: 480px) {
   main {
     padding: 1.25rem 0.75rem 2.5rem;
+  }
+  .sub-nav-bar {
+    margin-bottom: 0.75rem;
   }
   .menu-rows {
     gap: 0.45rem;

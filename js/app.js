@@ -135,7 +135,9 @@
     'mishkat-matthews-vol1': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>',
     'historic-recordings': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/><path d="M19 4l-4 4-2-1"/></svg>',
     'about': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>',
-    'settings': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h.01a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.01a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>'
+    'settings': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h.01a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.01a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>',
+    'home': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>',
+    'back': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>'
   };
 
   function rowIcon(id) {
@@ -175,6 +177,44 @@
         ])
       ]),
       el('p', { class: 'view-header-sub', text: 'Qasidas · historic recordings' })
+    ]);
+  }
+
+  /* Sub-view navigation bar: clean icon buttons (Home / Back on left,
+     Settings on right) replacing legacy text links for a native app feel. */
+  function buildSubNavBar(backHref, backLabel, showHome, showSettings) {
+    var leftKids = [];
+    if (backHref) {
+      leftKids.push(el('a', {
+        class: 'icon-btn nav-back-btn',
+        href: backHref,
+        'aria-label': backLabel || 'Back',
+        title: backLabel || 'Back',
+        html: ROW_ICONS.back
+      }));
+    }
+    if (showHome !== false) {
+      leftKids.push(el('a', {
+        class: 'icon-btn nav-home-btn',
+        href: '#/',
+        'aria-label': 'Home — Back to Library',
+        title: 'Home',
+        html: ROW_ICONS.home
+      }));
+    }
+    var rightKids = [];
+    if (showSettings !== false) {
+      rightKids.push(el('a', {
+        class: 'icon-btn nav-settings-btn',
+        href: '#/settings',
+        'aria-label': 'Settings',
+        title: 'Settings',
+        html: ROW_ICONS.settings
+      }));
+    }
+    return el('nav', { class: 'sub-nav-bar', 'aria-label': 'View navigation' }, [
+      el('div', { class: 'sub-nav-left' }, leftKids),
+      el('div', { class: 'sub-nav-actions' }, rightKids)
     ]);
   }
 
@@ -473,7 +513,7 @@
     document.title = 'Historic Gramophone Archive — Mantle Library';
     clearView();
 
-    appEl.appendChild(el('a', { class: 'back-link', href: '#/', text: '← Back to the library' }));
+    appEl.appendChild(buildSubNavBar(null, null, true, true));
 
     loadWorks().then(function (works) {
       if (!works) return;
@@ -934,7 +974,7 @@
 
       document.title = work.title_en + ' — Mantle Library';
 
-      appEl.appendChild(el('a', { class: 'back-link', href: '#/', text: '← Back to the library' }));
+      appEl.appendChild(buildSubNavBar(null, null, true, true));
       appEl.appendChild(el('header', { class: 'work-header' }, workHeaderNodes(work)));
 
       var sections = Array.isArray(work.sections) ? work.sections : [];
@@ -991,11 +1031,7 @@
 
       document.title = section.heading + ' — ' + work.title_en + ' — Mantle Library';
 
-      appEl.appendChild(el('a', {
-        class: 'back-link',
-        href: '#/work/' + encodeURIComponent(work.id),
-        text: '← ' + work.title_en
-      }));
+      appEl.appendChild(buildSubNavBar('#/work/' + encodeURIComponent(work.id), 'Back to ' + work.title_en, true, true));
 
       var st = splitTitleGloss(work.title_en);
       var secTitleKids = [document.createTextNode(st.main)];
@@ -1060,7 +1096,7 @@
 
     var settings = window.MantleSettings;
 
-    appEl.appendChild(el('a', { class: 'back-link', href: '#/', text: '← Back to the library' }));
+    appEl.appendChild(buildSubNavBar(null, null, true, false));
     appEl.appendChild(el('h1', { class: 'page-title', text: 'Settings' }));
 
     if (!settings) {
@@ -1251,6 +1287,7 @@
     var path = hash.replace(/^#/, '');
 
     var isHome = (path === '/' || path === '' || (path !== '/archive' && path !== '/recordings' && path !== '/historic-recordings' && path.indexOf('/work/') !== 0 && path !== '/settings'));
+    document.documentElement.classList.toggle('is-home', isHome);
     document.body.classList.toggle('is-home', isHome);
 
     if (path === '/' || path === '') {
