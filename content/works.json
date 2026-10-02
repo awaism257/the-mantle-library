@@ -3054,50 +3054,226 @@
             "artist": "The Lost Wanderer",
             "duration": 1458.2,
             "timestamps": [
-              0.0,
-              13.18,
-              60.41,
-              95.3,
-              107.62,
-              119.04,
-              130.0,
-              146.36,
-              183.55,
-              242.89,
-              277.36,
-              322.96,
-              396.0,
-              532.78,
-              571.73,
-              593.76,
-              613.81,
-              620.5,
-              653.98,
-              666.57,
-              720.38,
-              735.81,
-              748.96,
-              790.46,
-              925.47,
-              953.38,
-              975.73,
-              988.84,
-              1027.82,
-              1064.64,
-              1075.23,
-              1092.18,
-              1131.28,
-              1184.56,
-              1207.89,
-              1225.3,
-              1271.57,
-              1288.1,
-              1318.02,
-              1328.83,
-              1341.92,
-              1361.26,
-              1384.8,
-              1415.26
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 13.18
+              },
+              {
+                "n": 2,
+                "start": 13.18,
+                "end": 60.41
+              },
+              {
+                "n": 3,
+                "start": 60.41,
+                "end": 95.3
+              },
+              {
+                "n": 4,
+                "start": 95.3,
+                "end": 107.62
+              },
+              {
+                "n": 5,
+                "start": 107.62,
+                "end": 119.04
+              },
+              {
+                "n": 6,
+                "start": 119.04,
+                "end": 130.0
+              },
+              {
+                "n": 7,
+                "start": 130.0,
+                "end": 146.36
+              },
+              {
+                "n": 8,
+                "start": 146.36,
+                "end": 183.55
+              },
+              {
+                "n": 9,
+                "start": 183.55,
+                "end": 242.89
+              },
+              {
+                "n": 10,
+                "start": 242.89,
+                "end": 277.36
+              },
+              {
+                "n": 11,
+                "start": 277.36,
+                "end": 322.96
+              },
+              {
+                "n": 12,
+                "start": 322.96,
+                "end": 396.0
+              },
+              {
+                "n": 13,
+                "start": 396.0,
+                "end": 532.78
+              },
+              {
+                "n": 14,
+                "start": 532.78,
+                "end": 571.73
+              },
+              {
+                "n": 15,
+                "start": 571.73,
+                "end": 593.76
+              },
+              {
+                "n": 16,
+                "start": 593.76,
+                "end": 613.81
+              },
+              {
+                "n": 17,
+                "start": 613.81,
+                "end": 620.5
+              },
+              {
+                "n": 18,
+                "start": 620.5,
+                "end": 653.98
+              },
+              {
+                "n": 19,
+                "start": 653.98,
+                "end": 666.57
+              },
+              {
+                "n": 20,
+                "start": 666.57,
+                "end": 720.38
+              },
+              {
+                "n": 21,
+                "start": 720.38,
+                "end": 735.81
+              },
+              {
+                "n": 22,
+                "start": 735.81,
+                "end": 748.96
+              },
+              {
+                "n": 23,
+                "start": 748.96,
+                "end": 790.46
+              },
+              {
+                "n": 24,
+                "start": 790.46,
+                "end": 925.47
+              },
+              {
+                "n": 25,
+                "start": 925.47,
+                "end": 953.38
+              },
+              {
+                "n": 26,
+                "start": 953.38,
+                "end": 975.73
+              },
+              {
+                "n": 27,
+                "start": 975.73,
+                "end": 988.84
+              },
+              {
+                "n": 28,
+                "start": 988.84,
+                "end": 1027.82
+              },
+              {
+                "n": 29,
+                "start": 1027.82,
+                "end": 1064.64
+              },
+              {
+                "n": 30,
+                "start": 1064.64,
+                "end": 1075.23
+              },
+              {
+                "n": 31,
+                "start": 1075.23,
+                "end": 1092.18
+              },
+              {
+                "n": 32,
+                "start": 1092.18,
+                "end": 1131.28
+              },
+              {
+                "n": 33,
+                "start": 1131.28,
+                "end": 1184.56
+              },
+              {
+                "n": 34,
+                "start": 1184.56,
+                "end": 1207.89
+              },
+              {
+                "n": 35,
+                "start": 1207.89,
+                "end": 1225.3
+              },
+              {
+                "n": 36,
+                "start": 1225.3,
+                "end": 1271.57
+              },
+              {
+                "n": 37,
+                "start": 1271.57,
+                "end": 1288.1
+              },
+              {
+                "n": 38,
+                "start": 1288.1,
+                "end": 1318.02
+              },
+              {
+                "n": 39,
+                "start": 1318.02,
+                "end": 1328.83
+              },
+              {
+                "n": 40,
+                "start": 1328.83,
+                "end": 1341.92
+              },
+              {
+                "n": 41,
+                "start": 1341.92,
+                "end": 1361.26
+              },
+              {
+                "n": 42,
+                "start": 1361.26,
+                "end": 1384.8
+              },
+              {
+                "n": 43,
+                "start": 1384.8,
+                "end": 1415.26
+              },
+              {
+                "n": 44,
+                "start": 1415.26,
+                "end": 1458.2
+              }
             ]
           }
         },
@@ -3397,63 +3573,291 @@
             "artist": "The Lost Wanderer",
             "duration": 1936.2,
             "timestamps": [
-              0.0,
-              34.36,
-              106.17,
-              335.51,
-              400.24,
-              420.43,
-              439.31,
-              462.45,
-              483.23,
-              511.51,
-              528.4,
-              538.45,
-              559.44,
-              575.41,
-              590.52,
-              612.14,
-              636.95,
-              653.76,
-              695.96,
-              735.75,
-              757.02,
-              779.65,
-              799.45,
-              832.81,
-              948.45,
-              963.28,
-              975.49,
-              1016.82,
-              1092.25,
-              1244.42,
-              1255.2,
-              1263.81,
-              1275.78,
-              1291.25,
-              1300.4,
-              1309.37,
-              1324.38,
-              1347.69,
-              1364.48,
-              1383.37,
-              1412.19,
-              1430.54,
-              1451.77,
-              1474.29,
-              1491.94,
-              1515.66,
-              1536.63,
-              1557.2,
-              1579.34,
-              1591.37,
-              1746.97,
-              1767.0,
-              1776.26,
-              1793.24,
-              1818.79,
-              1840.85,
-              1860.51
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 34.36
+              },
+              {
+                "n": 2,
+                "start": 34.36,
+                "end": 106.17
+              },
+              {
+                "n": 3,
+                "start": 106.17,
+                "end": 335.51
+              },
+              {
+                "n": 4,
+                "start": 335.51,
+                "end": 400.24
+              },
+              {
+                "n": 5,
+                "start": 400.24,
+                "end": 420.43
+              },
+              {
+                "n": 6,
+                "start": 420.43,
+                "end": 439.31
+              },
+              {
+                "n": 7,
+                "start": 439.31,
+                "end": 462.45
+              },
+              {
+                "n": 8,
+                "start": 462.45,
+                "end": 483.23
+              },
+              {
+                "n": 9,
+                "start": 483.23,
+                "end": 511.51
+              },
+              {
+                "n": 10,
+                "start": 511.51,
+                "end": 528.4
+              },
+              {
+                "n": 11,
+                "start": 528.4,
+                "end": 538.45
+              },
+              {
+                "n": 12,
+                "start": 538.45,
+                "end": 559.44
+              },
+              {
+                "n": 13,
+                "start": 559.44,
+                "end": 575.41
+              },
+              {
+                "n": 14,
+                "start": 575.41,
+                "end": 590.52
+              },
+              {
+                "n": 15,
+                "start": 590.52,
+                "end": 612.14
+              },
+              {
+                "n": 16,
+                "start": 612.14,
+                "end": 636.95
+              },
+              {
+                "n": 17,
+                "start": 636.95,
+                "end": 653.76
+              },
+              {
+                "n": 18,
+                "start": 653.76,
+                "end": 695.96
+              },
+              {
+                "n": 19,
+                "start": 695.96,
+                "end": 735.75
+              },
+              {
+                "n": 20,
+                "start": 735.75,
+                "end": 757.02
+              },
+              {
+                "n": 21,
+                "start": 757.02,
+                "end": 779.65
+              },
+              {
+                "n": 22,
+                "start": 779.65,
+                "end": 799.45
+              },
+              {
+                "n": 23,
+                "start": 799.45,
+                "end": 832.81
+              },
+              {
+                "n": 24,
+                "start": 832.81,
+                "end": 948.45
+              },
+              {
+                "n": 25,
+                "start": 948.45,
+                "end": 963.28
+              },
+              {
+                "n": 26,
+                "start": 963.28,
+                "end": 975.49
+              },
+              {
+                "n": 27,
+                "start": 975.49,
+                "end": 1016.82
+              },
+              {
+                "n": 28,
+                "start": 1016.82,
+                "end": 1092.25
+              },
+              {
+                "n": 29,
+                "start": 1092.25,
+                "end": 1244.42
+              },
+              {
+                "n": 30,
+                "start": 1244.42,
+                "end": 1255.2
+              },
+              {
+                "n": 31,
+                "start": 1255.2,
+                "end": 1263.81
+              },
+              {
+                "n": 32,
+                "start": 1263.81,
+                "end": 1275.78
+              },
+              {
+                "n": 33,
+                "start": 1275.78,
+                "end": 1291.25
+              },
+              {
+                "n": 34,
+                "start": 1291.25,
+                "end": 1300.4
+              },
+              {
+                "n": 35,
+                "start": 1300.4,
+                "end": 1309.37
+              },
+              {
+                "n": 36,
+                "start": 1309.37,
+                "end": 1324.38
+              },
+              {
+                "n": 37,
+                "start": 1324.38,
+                "end": 1347.69
+              },
+              {
+                "n": 38,
+                "start": 1347.69,
+                "end": 1364.48
+              },
+              {
+                "n": 39,
+                "start": 1364.48,
+                "end": 1383.37
+              },
+              {
+                "n": 40,
+                "start": 1383.37,
+                "end": 1412.19
+              },
+              {
+                "n": 41,
+                "start": 1412.19,
+                "end": 1430.54
+              },
+              {
+                "n": 42,
+                "start": 1430.54,
+                "end": 1451.77
+              },
+              {
+                "n": 43,
+                "start": 1451.77,
+                "end": 1474.29
+              },
+              {
+                "n": 44,
+                "start": 1474.29,
+                "end": 1491.94
+              },
+              {
+                "n": 45,
+                "start": 1491.94,
+                "end": 1515.66
+              },
+              {
+                "n": 46,
+                "start": 1515.66,
+                "end": 1536.63
+              },
+              {
+                "n": 47,
+                "start": 1536.63,
+                "end": 1557.2
+              },
+              {
+                "n": 48,
+                "start": 1557.2,
+                "end": 1579.34
+              },
+              {
+                "n": 49,
+                "start": 1579.34,
+                "end": 1591.37
+              },
+              {
+                "n": 50,
+                "start": 1591.37,
+                "end": 1746.97
+              },
+              {
+                "n": 51,
+                "start": 1746.97,
+                "end": 1767.0
+              },
+              {
+                "n": 52,
+                "start": 1767.0,
+                "end": 1776.26
+              },
+              {
+                "n": 53,
+                "start": 1776.26,
+                "end": 1793.24
+              },
+              {
+                "n": 54,
+                "start": 1793.24,
+                "end": 1818.79
+              },
+              {
+                "n": 55,
+                "start": 1818.79,
+                "end": 1840.85
+              },
+              {
+                "n": 56,
+                "start": 1840.85,
+                "end": 1860.51
+              },
+              {
+                "n": 57,
+                "start": 1860.51,
+                "end": 1936.2
+              }
             ]
           }
         },
@@ -3548,22 +3952,86 @@
             "artist": "The Lost Wanderer",
             "duration": 1806.7,
             "timestamps": [
-              0.0,
-              53.49,
-              72.97,
-              117.12,
-              129.48,
-              153.39,
-              211.81,
-              386.49,
-              527.5,
-              561.1,
-              685.48,
-              729.6,
-              735.87,
-              836.26,
-              892.62,
-              1288.53
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 53.49
+              },
+              {
+                "n": 2,
+                "start": 53.49,
+                "end": 72.97
+              },
+              {
+                "n": 3,
+                "start": 72.97,
+                "end": 117.12
+              },
+              {
+                "n": 4,
+                "start": 117.12,
+                "end": 129.48
+              },
+              {
+                "n": 5,
+                "start": 129.48,
+                "end": 153.39
+              },
+              {
+                "n": 6,
+                "start": 153.39,
+                "end": 211.81
+              },
+              {
+                "n": 7,
+                "start": 211.81,
+                "end": 386.49
+              },
+              {
+                "n": 8,
+                "start": 386.49,
+                "end": 527.5
+              },
+              {
+                "n": 9,
+                "start": 527.5,
+                "end": 561.1
+              },
+              {
+                "n": 10,
+                "start": 561.1,
+                "end": 685.48
+              },
+              {
+                "n": 11,
+                "start": 685.48,
+                "end": 729.6
+              },
+              {
+                "n": 12,
+                "start": 729.6,
+                "end": 735.87
+              },
+              {
+                "n": 13,
+                "start": 735.87,
+                "end": 836.26
+              },
+              {
+                "n": 14,
+                "start": 836.26,
+                "end": 892.62
+              },
+              {
+                "n": 15,
+                "start": 892.62,
+                "end": 1288.53
+              },
+              {
+                "n": 16,
+                "start": 1288.53,
+                "end": 1806.7
+              }
             ]
           }
         },
@@ -3872,75 +4340,75 @@
           ],
           "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain.",
           "audio": {
-            "file": "audio/dalail/dalail_section_10.mp3",
-            "title": "The Eighth Part (Ḥizb 8 of 8)",
-            "artist": "Dala'il al-Khayrat Montreal",
-            "duration": 372.46,
+            "file": "audio/dalail/dalail_section_09.mp3",
+            "title": "Monday (Conclusion) — Ḥizb 8 (حِزْبُ الخَتْم)",
+            "artist": "The Lost Wanderer",
+            "duration": 720.8,
             "timestamps": [
               {
                 "n": 1,
                 "start": 0.0,
-                "end": 16.42
+                "end": 28.7
               },
               {
                 "n": 2,
-                "start": 16.42,
-                "end": 25.33
+                "start": 28.7,
+                "end": 43.1
               },
               {
                 "n": 3,
-                "start": 25.33,
-                "end": 33.6
+                "start": 43.1,
+                "end": 58.8
               },
               {
                 "n": 4,
-                "start": 33.6,
-                "end": 68.2
+                "start": 58.8,
+                "end": 128.0
               },
               {
                 "n": 5,
-                "start": 68.2,
-                "end": 121.97
+                "start": 128.0,
+                "end": 225.9
               },
               {
                 "n": 6,
-                "start": 121.97,
-                "end": 144.55
+                "start": 225.9,
+                "end": 269.6
               },
               {
                 "n": 7,
-                "start": 144.55,
-                "end": 153.81
+                "start": 269.6,
+                "end": 312.4
               },
               {
                 "n": 8,
-                "start": 153.81,
-                "end": 209.46
+                "start": 312.4,
+                "end": 412.4
               },
               {
                 "n": 9,
-                "start": 209.46,
-                "end": 277.3
+                "start": 412.4,
+                "end": 544.5
               },
               {
                 "n": 10,
-                "start": 277.3,
-                "end": 304.74
+                "start": 544.5,
+                "end": 598.0
               },
               {
                 "n": 11,
-                "start": 304.74,
-                "end": 324.91
+                "start": 598.0,
+                "end": 633.9
               },
               {
                 "n": 12,
-                "start": 324.91,
-                "end": 351.0
+                "start": 633.9,
+                "end": 680.8
               },
               {
                 "n": 13,
-                "start": 351.0,
-                "end": 372.46
+                "start": 680.8,
+                "end": 720.8
               }
             ]
           }
@@ -3948,6 +4416,10 @@
         {
           "heading": "The Supplication of Completion (دُعَاءُ خَتْمِ دَلَائِلِ الخَيْرَات)",
           "units": [
+            {
+              "ar": "اللَّهُمَّ اغْفِرْ لِمُؤَلِّفِهِ وَارْحَمْهُ، وَاجْعَلْهُ مِنَ المَحْشُورِينَ فِي زُمْرَةِ النَّبِيِّينَ وَالصِّدِّيقِينَ وَالشُّهَدَاءِ وَالصَّالِحِينَ يَوْمَ القِيَامَةِ بِفَضْلِكَ يَا أَرْحَمَ الرَّاحِمِينَ. اللَّهُمَّ امْنُنْ عَلَيْنَا بِصَفَاءِ المَعْرِفَةِ، وَهَبْ لَنَا صَحِيحَ المُعَامَلَةِ بَيْنَنَا وَبَيْنَكَ عَلَى السُّنَّةِ وَالجَمَاعَةِ، وَصِدْقَ التَّوَكُّلِ عَلَيْكَ، وَحُسْنَ الظَّنِّ بِكَ، وَامْنُنْ عَلَيْنَا بِكُلِّ مَا يُقَرِّبُنَا إِلَيْكَ مَقْرُونًا بِالعَفْوِ فِي الدَّارَيْنِ يَا رَبَّ العَالَمِينَ، وَحَسْبُنَا اللَّهُ وَكَفَى، وَسَلَامٌ عَلَى عِبَادِهِ الَّذِينَ اصْطَفَى، وَسَلَامٌ عَلَى المُرْسَلِينَ، وَالحَمْدُ لِلَّهِ رَبِّ العَالَمِينَ.",
+              "en": "O Allah, forgive its author and have mercy upon him, and make him on the Day of Resurrection among those gathered in the company of the Prophets, the Truthful, the Martyrs, and the Righteous, through Thy grace, O Most Merciful of the merciful! O Allah, bestow upon us pure experiential knowledge; grant us soundness of conduct between us and Thee in accordance with the Prophetic Sunnah and the community; grant us true reliance upon Thee and good thoughts toward Thee; and bestow upon us everything that draws us close to Thee accompanied by pardon in both realms, O Lord of the Worlds! Allah is sufficient for us, and peaceful greetings upon His servants whom He has chosen, and peace be upon the Messengers, and praise belongs to Allah, Lord of the Worlds."
+            },
             {
               "ar": "اللَّهُمَّ\nاشْرَحْ بِالصَّلَاةِ عَلَيْهِ صُدُورَنَا، وَيَسِّرْ بِهَا أُمُورَنَا، وَفَرِّجْ بِهَا هُمُومَنَا، وَاكْشِفْ بِهَا غُمُومَنَا، وَاغْفِرْ بِهَا ذُنُوبَنَا، وَاقْضِ بِهَا دُيُونَنَا، وَأَصْلِحْ بِهَا أَحْوَالَنَا، وَبَلِّغْ بِهَا آمَالَنَا، وَتَقَبَّلْ بِهَا تَوْبَتَنَا، وَاغْسِلْ بِهَا حَوْبَتَنَا، وَانْصُرْ بِهَا حُجَّتَنَا، وَطَهِّرْ بِهَا أَلْسِنَتَنَا، وَآنِسْ بِهَا وَحْشَتَنَا، وَارْحَمْ بِهَا غُرْبَتَنَا، وَاجْعَلْهَا نُورًا بَيْنَ أَيْدِينَا، وَمِنْ خَلْفِنَا، وَعَنْ أَيْمَانِنَا، وَعَنْ شَمَائِلِنَا، وَمِنْ فَوْقِنَا، وَمِنْ تَحْتِنَا، وَفِي حَيَاتِنَا، وَمَوْتِنَا، وَفِي قُبُورِنَا، وَحَشْرِنَا، وَنَشْرِنَا، وَظِلًّا فِي يَوْمِ القِيَامَةِ عَلَي رُؤُوسِنَا، وَثَقِّلْ بِهَا مَوَازِينَ حَسَنَاتِنَا، وَأَدِمْ بَرَكَاتِهَا عَلَيْنَا حَتَّى نَلْقَى نَبِيَّنَا وَسَيِّدَنَا مُحَمَّدًا صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، وَنَحْنُ آمِنُونَ مُطْمَئِنُّونَ فَرِحُونَ مُسْتَبْشِرُونَ، وَلَا تُفَرِّقْ بَيْنَنَا وَبَيْنَهُ حَتَّى تُدْخِلَنَا مُدْخَلَهُ، وَتُؤْوِيَنَا إِلَي جِوَارِهِ الكَرِيمِ مَعَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ\n﴿\nمِّنَ النَّبِيِّـنَ وَالصِّدِّيقِينَ وَالشُّهَدَآءِ وَالصَّـٰلِحِينَ ۚ وَحَسُنَ أُوْلَـٰٓئِكَ رَفِيقًا\n﴾.",
               "en": "In the name of Allah, the Merciful, the Compassionate. O Allah, through blessings upon Thy holy Prophet, blessings and peace be upon him, enlighten our hearts and thereby make matters easy for us, and thereby dispel our anxieties, and thereby remove our griefs, and thereby forgive our sins, and thereby relieve us from indebtedness, and thereby straighten our affairs, and thereby fulfill our hopes, and accept our repentance, and cleanse our misdeeds, and thereby help us to come out victorious, and purify our tongues, and make us familiar with loneliness, and thereby relieve our separation; and make it a light in front of us and behind us, and to our left and right, and above us and beneath us, and in our lives, and at our deaths, and in our graves and on the Day of Gathering, and on the Day of Resurrection, and protect us with shade over our heads on the Day of Judgement, and weigh down the scales in our favour with good deeds; and perpetuate blessings on us until we meet our master and Prophet Muhammad, Allah's blessing and perfect peace be upon him and his Family, while we are well protected, fully satisfied and overjoyed; and do not separate us from him until Thou admit us through him into his entrance hall, and place us in his noble neighbourhood with those Thou hast favoured among the Prophets, the Truthful ones, the Martyrs, and the Righteous: and what a splendid company they are!",
@@ -3967,33 +4439,47 @@
               "ar": "اللَّهُمَّ\nارْحَمْ تَضَرُّعَنَا، وَآمِنْ خَوْفَنَا، وَتَقَبَّلْ أَعْمَالَنَا، وَأَصْلِحْ أَحْوَالَنَا، وَاجْعَلْ بِطَاعَتِكَ اشْتِغَالَنَا، وَإِلَى الخَيْرِ مَآلَنَا، وَحَقِّقْ بِالزِّيَادَةِ آمَالَنَا، وَاخْتِمْ بِالسَّعَادَةِ آجَالَنَا. هَذَا ذُلُّنَا ظَاهِرٌ بَيْنَ يَدَيْكَ، وَحَالُنَا لَا يَخْفَى عَلَيْكَ، أَمَرْتَنَا فَتَرَكْنَا، وَنَهَيْتَنَا فَارْتَكَبْنَا، وَلَا يَسَعُنَا إِلَّا عَفْوُكَ فَاعْفُ عَنَّا يَا خَيْرَ مَأْمُولٍ، وَأَكْرَمَ مَسْئُولٍ، إِنَّكَ عَفُوٌّ غَفُورٌ رَؤُوفٌ رَحِيمٌ يَا أَرْحَمَ الرَّاحِمِينَ. وَصَلَّى اللَّهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبهِ وَسَلَّمَ تَسْلِيمًا، وَالحَمْدُ لِلَّهِ رَبِّ العَالَمِينَ.",
               "en": "O Allah, we attach ourselves to the honor of Thy Messenger, Allah's blessings and perfect peace be upon him, so do not keep us distant from him; and we halt at Thy gate alone, so do not turn us away; and we ask of Thee alone, so do not disappoint us. O Allah, have mercy on our humble pleading, calm our fears, accept our deeds, straighten our state, keep us occupied in obedience to Thee, make us rich through Thee, and seal our lives with happiness and good end. This is our lowliness made manifest before Thee, and our condition is not hidden from Thee; Thou hast commanded us and we have fallen short, and Thou hast forbidden us and we have transgressed, yet nothing is too great for the expanse of Thy clemency: so pardon us, O Hope of those who ask, O Most Generous of those who bestow! For Thou art the Pardoner, the Forgiving, the Merciful, O Most Merciful of the merciful. And may Allah bless our master Muhammad and his Family and his Companions, and peace be upon the Messengers, and praise belongs to Allah, Lord of the Worlds.",
               "en2": "O God, have mercy on our humble pleading; calm our fear; accept our deeds; set right our affairs; make our occupation obedience to You and our outcome goodness; fulfil our hopes with increase; and seal our lifespans with felicity. Here is our abasement, laid bare before You, and our state is not hidden from You. You commanded us, and we abandoned; You forbade us, and we transgressed — and nothing can encompass us but Your pardon, so pardon us, best of those in whom hope is placed, most generous of those who are asked. You are Pardoning, Forgiving, Tender, Merciful, Most Merciful of the merciful. And may God bless our master Muḥammad, and his family and his companions, and grant them abundant peace; and praise belongs to God, Lord of the worlds."
+            },
+            {
+              "ar": "اللَّهُمَّ يَا مَنْ لَطَفْتَ بِخَلْقِ السَّمَاوَاتِ وَالأَرْضِ، وَلَطَفْتَ بِالأَجِنَّةِ فِي بُطُونِ أُمَّهَاتِهَا، الْطُفْ بِنَا فِي قَضَائِكَ وَقَدَرِكَ، لُطْفًا يَلِيقُ بِكَرَمِكَ، يَا أَرْحَمَ الرَّاحِمِينَ. (ثَلَاثًا)\n\nاللَّهُمَّ انْصُرْ بِفَضْلِكَ سُلْطَانَنَا، وَأَهْلِكِ الكَفَرَةَ أَعْدَاءَنَا، وَآمِنَّا فِي أَوْطَانِنَا، وَوَلِّ أُمُورَنَا خِيَارَنَا، وَلَا تُوَلِّ أُمُورَنَا شِرَارَنَا، وَارْفَعْ مَقْتَكَ وَغَضَبَكَ عَنَّا، وَلَا تُسَلِّطْ عَلَيْنَا بِذُنُوبِنَا مَنْ لَا يَخَافُكَ وَلَا يَرْحَمُنَا، يَا رَبَّ العَالَمِينَ.",
+              "en": "O Allah, O Thou Who hast shown subtle kindness in creating the heavens and the earth, and shown subtle gentleness to infants in their mothers’ wombs: treat us gently in Thy decree and predestination, with a gentleness worthy of Thy generous nobility, O Most Merciful of the merciful! (Three times)\n\nO Allah, grant victory by Thy bounty unto our authority; destroy the enemies of truth; grant safety in our homelands; appoint over our affairs the best among us, and do not appoint over us the wicked; lift from us Thy indignation and Thy wrath; and do not set over us, on account of our sins, those who do not fear Thee nor show us mercy, O Lord of the Worlds!"
             }
           ],
           "audio": {
-            "file": "audio/dalail/dalail_section_11.mp3",
-            "title": "The Supplication of Completion",
-            "artist": "Dala'il al-Khayrat Montreal",
-            "duration": 192.04,
+            "file": "audio/dalail/dalail_section_10.mp3",
+            "title": "The Supplication of Completion (دُعَاءُ خَتْمِ دَلَائِلِ الخَيْرَات)",
+            "artist": "The Lost Wanderer",
+            "duration": 556.5,
             "timestamps": [
               {
                 "n": 1,
                 "start": 0.0,
-                "end": 67.73
+                "end": 58.7
               },
               {
                 "n": 2,
-                "start": 67.73,
-                "end": 108.95
+                "start": 58.7,
+                "end": 182.5
               },
               {
                 "n": 3,
-                "start": 108.95,
-                "end": 153.69
+                "start": 182.5,
+                "end": 254.2
               },
               {
                 "n": 4,
-                "start": 153.69,
-                "end": 192.04
+                "start": 254.2,
+                "end": 349.2
+              },
+              {
+                "n": 5,
+                "start": 349.2,
+                "end": 433.0
+              },
+              {
+                "n": 6,
+                "start": 433.0,
+                "end": 556.5
               }
             ]
           }
