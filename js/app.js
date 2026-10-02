@@ -181,8 +181,13 @@
   }
 
   /* Sub-view navigation bar: clean icon buttons (Home / Back on left,
-     Settings on right) replacing legacy text links for a native app feel. */
-  function buildSubNavBar(backHref, backLabel, showHome, showSettings) {
+     title in center, Settings on right) matching Munajaat Maqbool's sticky topbar. */
+  function buildSubNavBar(backHref, backLabel, title, showHome, showSettings) {
+    if (typeof title === 'boolean') {
+      showSettings = showHome;
+      showHome = title;
+      title = null;
+    }
     var leftKids = [];
     if (backHref) {
       leftKids.push(el('a', {
@@ -202,6 +207,10 @@
         html: ROW_ICONS.home
       }));
     }
+    var midKids = [];
+    if (title) {
+      midKids.push(el('div', { class: 'sub-nav-title', text: title }));
+    }
     var rightKids = [];
     if (showSettings !== false) {
       rightKids.push(el('a', {
@@ -214,6 +223,7 @@
     }
     return el('nav', { class: 'sub-nav-bar', 'aria-label': 'View navigation' }, [
       el('div', { class: 'sub-nav-left' }, leftKids),
+      el('div', { class: 'sub-nav-center' }, midKids),
       el('div', { class: 'sub-nav-actions' }, rightKids)
     ]);
   }
@@ -515,7 +525,7 @@
     document.title = 'Historic Gramophone Archive — Mantle Library';
     clearView();
 
-    appEl.appendChild(buildSubNavBar(null, null, true, true));
+    appEl.appendChild(buildSubNavBar('#/', 'Back to Library', 'Historic Recordings', true, true));
 
     loadWorks().then(function (works) {
       if (!works) return;
@@ -1133,7 +1143,8 @@
 
       document.title = work.title_en + ' — Mantle Library';
 
-      appEl.appendChild(buildSubNavBar(null, null, true, true));
+      var wt = splitTitleGloss(work.title_en);
+      appEl.appendChild(buildSubNavBar('#/', 'Back to Library', wt.main, true, true));
       appEl.appendChild(el('header', { class: 'work-header' }, workHeaderNodes(work)));
 
       var sections = Array.isArray(work.sections) ? work.sections : [];
@@ -1190,7 +1201,8 @@
 
       document.title = section.heading + ' — ' + work.title_en + ' — Mantle Library';
 
-      appEl.appendChild(buildSubNavBar('#/work/' + encodeURIComponent(work.id), 'Back to ' + work.title_en, true, true));
+      var secTitle = splitTitleGloss(section.heading).main;
+      appEl.appendChild(buildSubNavBar('#/work/' + encodeURIComponent(work.id), 'Back to ' + work.title_en, secTitle, true, true));
 
       var st = splitTitleGloss(work.title_en);
       var secTitleKids = [document.createTextNode(st.main)];
@@ -1229,7 +1241,7 @@
 
     var settings = window.MantleSettings;
 
-    appEl.appendChild(buildSubNavBar(null, null, true, false));
+    appEl.appendChild(buildSubNavBar('#/', 'Back', 'Settings', true, false));
     appEl.appendChild(el('h1', { class: 'page-title', text: 'Settings' }));
 
     if (!settings) {
