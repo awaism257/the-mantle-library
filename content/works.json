@@ -3543,116 +3543,27 @@
           ],
           "note": "English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain.",
           "audio": {
-            "file": "audio/dalail/dalail_section_08.mp3",
-            "title": "The Sixth Part (Ḥizb 6 of 8)",
-            "artist": "Dala'il al-Khayrat Montreal",
-            "duration": 873.87,
+            "file": "audio/dalail/dalail_section_07.mp3",
+            "title": "Saturday — Ḥizb 6 (حِزْبُ يَوْمِ السَّبْت)",
+            "artist": "The Lost Wanderer",
+            "duration": 1806.7,
             "timestamps": [
-              {
-                "n": 1,
-                "start": 0.0,
-                "end": 13.96
-              },
-              {
-                "n": 2,
-                "start": 13.96,
-                "end": 26.92
-              },
-              {
-                "n": 3,
-                "start": 26.92,
-                "end": 35.6
-              },
-              {
-                "n": 4,
-                "start": 35.6,
-                "end": 44.51
-              },
-              {
-                "n": 5,
-                "start": 44.51,
-                "end": 82.74
-              },
-              {
-                "n": 6,
-                "start": 82.74,
-                "end": 110.42
-              },
-              {
-                "n": 7,
-                "start": 110.42,
-                "end": 120.62
-              },
-              {
-                "n": 8,
-                "start": 120.62,
-                "end": 143.49
-              },
-              {
-                "n": 9,
-                "start": 143.49,
-                "end": 151.88
-              },
-              {
-                "n": 10,
-                "start": 151.88,
-                "end": 163.43
-              },
-              {
-                "n": 11,
-                "start": 163.43,
-                "end": 196.09
-              },
-              {
-                "n": 12,
-                "start": 196.09,
-                "end": 292.55
-              },
-              {
-                "n": 13,
-                "start": 292.55,
-                "end": 385.43
-              },
-              {
-                "n": 14,
-                "start": 385.43,
-                "end": 407.07
-              },
-              {
-                "n": 15,
-                "start": 407.07,
-                "end": 484.0
-              },
-              {
-                "n": 16,
-                "start": 484.0,
-                "end": 494.32
-              },
-              {
-                "n": 17,
-                "start": 494.32,
-                "end": 498.31
-              },
-              {
-                "n": 18,
-                "start": 498.31,
-                "end": 515.49
-              },
-              {
-                "n": 19,
-                "start": 515.49,
-                "end": 549.68
-              },
-              {
-                "n": 20,
-                "start": 549.68,
-                "end": 797.07
-              },
-              {
-                "n": 21,
-                "start": 797.07,
-                "end": 873.88
-              }
+              0.0,
+              53.49,
+              72.97,
+              117.12,
+              129.48,
+              153.39,
+              211.81,
+              386.49,
+              527.5,
+              561.1,
+              685.48,
+              729.6,
+              735.87,
+              836.26,
+              892.62,
+              1288.53
             ]
           }
         },
