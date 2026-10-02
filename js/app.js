@@ -131,6 +131,8 @@
     'tala-al-badru': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="11" r="7.5"/><path d="M9.5 8.5h.01"/><path d="M14.5 10h.01"/><path d="M10 13.5h.01"/><path d="M4 21h16"/></svg>',
     'hassan-poems': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 13h6"/><path d="M9 17h6"/></svg>',
     'qasidat-al-burdah': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 4c-2.8 0-4.6 1.2-5.8 3L3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2l-3.2-12C16.6 5.2 14.8 4 12 4z"/><path d="M9.2 6.5c.8 1 1.7 1.5 2.8 1.5s2-.5 2.8-1.5"/><path d="M12 8v13"/></svg>',
+    'mishkat-matthews-vol1': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>',
+    'historic-recordings': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/><path d="M19 4l-4 4-2-1"/></svg>',
     'about': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>',
     'settings': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h.01a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.01a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>'
   };
@@ -364,55 +366,50 @@
     // In-column page header (logo + title + actions + subtitle + rule).
     appEl.appendChild(buildHomeHeader());
 
-    // Main works as full-width menu rows.
+    // Main works as full-width menu rows (2-column grid).
     var workRows = el('ul', { class: 'menu-rows', id: 'work-rows' });
     appEl.appendChild(workRows);
 
-    // Media section: recordings grouped by genre, as tile grids.
-    var GENRES = [
-      { key: 'quran',   label: "Qur'anic recitation & prayer chant" },
-      { key: 'qasida',  label: 'Qasidas & madih' },
-      { key: 'tawshih', label: 'Tawshīḥ & Sufi chant' }
-    ];
-
-    var mediaSection = el('section', { class: 'audio-block home-media', 'aria-labelledby': 'home-media-heading' }, [
-      el('h2', { id: 'home-media-heading', text: 'Historic Recordings' }),
-      el('p', { class: 'media-sub',
-        text: 'Public-domain 78rpm discs from 1901–1921 — tap a disc to read about it and play it.' })
-    ]);
-    var genreLists = {};
-    GENRES.forEach(function (genre) {
-      var list = el('ul', { class: 'tile-grid' });
-      var group = el('div', { class: 'genre-group', hidden: '' }, [
-        el('h3', { class: 'genre-heading', text: genre.label }),
-        list
-      ]);
-      genreLists[genre.key] = { group: group, list: list };
-      mediaSection.appendChild(group);
-    });
-    appEl.appendChild(mediaSection);
+    // Landscape card container for the Historic Gramophone Archive
+    var archiveCardContainer = el('div', { id: 'archive-card-container' });
+    appEl.appendChild(archiveCardContainer);
 
     loadWorks().then(function (works) {
       if (!works) return;
+      var archiveWork = null;
       works.forEach(function (work) {
-        if (hasAudio(work)) {
-          // audio collections are listed as media tiles, grouped by genre
-          work.audio.forEach(function (rec) {
-            var bucket = genreLists[rec.genre] || genreLists.qasida;
-            bucket.list.appendChild(buildRecordingTile(rec));
-          });
+        if (work.id === 'historic-recordings' || hasAudio(work)) {
+          archiveWork = work;
         } else {
           workRows.appendChild(buildWorkRow(work));
         }
       });
-      GENRES.forEach(function (genre) {
-        var bucket = genreLists[genre.key];
-        if (bucket.list.firstChild) { bucket.group.removeAttribute('hidden'); }
-      });
-      if (!mediaSection.querySelector('.genre-group:not([hidden])')) {
-        mediaSection.setAttribute('hidden', '');
+      if (archiveWork) {
+        archiveCardContainer.appendChild(buildArchiveCard(archiveWork));
       }
     });
+  }
+
+  function buildArchiveCard(archiveWork) {
+    var titleEn = (archiveWork && archiveWork.title_en) || 'Historic Gramophone Archive';
+    var titleAr = (archiveWork && archiveWork.title_ar) || 'أَرْشِيفُ الغَرَامَفُون التَّارِيخِيُّ';
+    var gloss = 'Rare 78rpm shellac collection (1901–1921) · Harvard Loeb';
+
+    return el('div', { class: 'archive-card' }, [
+      el('a', {
+        class: 'archive-card-link',
+        href: '#/archive',
+        'aria-label': titleEn + ' — ' + gloss
+      }, [
+        el('span', { class: 'archive-card-icon', html: rowIcon('historic-recordings') }),
+        el('span', { class: 'archive-card-text' }, [
+          el('span', { class: 'archive-card-title', text: titleEn }),
+          el('span', { class: 'archive-card-gloss', text: gloss }),
+          el('span', { class: 'archive-card-sub', lang: 'ar', dir: 'rtl', text: titleAr })
+        ]),
+        el('span', { class: 'archive-card-chevron', 'aria-hidden': 'true', text: '›' })
+      ])
+    ]);
   }
 
   /* --------------------------------------------------- disc label overlay */
@@ -466,6 +463,123 @@
     document.addEventListener('keydown', onArtOverlayKeydown);
     document.body.appendChild(artOverlay);
     closeBtn.focus();
+  }
+
+  /* ------------------------------------------- historic gramophone archive view */
+
+  function renderArchive() {
+    setNavCurrent('archive');
+    document.title = 'Historic Gramophone Archive — Mantle Library';
+    clearView();
+
+    appEl.appendChild(el('a', { class: 'back-link', href: '#/', text: '← Back to the library' }));
+
+    loadWorks().then(function (works) {
+      if (!works) return;
+      var archiveWork = findWork(works, 'historic-recordings') || (works.filter(hasAudio)[0]);
+      if (!archiveWork || !archiveWork.audio || archiveWork.audio.length === 0) {
+        showNotFound('Archive');
+        return;
+      }
+
+      var titleEn = archiveWork.title_en || 'Historic Gramophone Archive';
+      var titleAr = archiveWork.title_ar || 'أَرْشِيفُ الغَرَامَفُون التَّارِيخِيُّ';
+
+      // Page Header
+      var header = el('header', { class: 'work-header archive-page-header' }, [
+        el('h1', { class: 'page-title', text: titleEn }),
+        el('p', { class: 'work-title-ar', lang: 'ar', dir: 'rtl', text: titleAr }),
+        el('p', { class: 'work-author', text: 'Acoustic 78rpm Shellac Collection · 1901–1921' }),
+        el('p', {
+          class: 'work-description archive-page-intro',
+          text: 'A curated treasury of the earliest surviving acoustic recordings of Islamic devotional arts, captured on 78rpm shellac discs in Kazan, Cairo, Beirut, and Paris. Restored and transferred from original discs courtesy of the Harvard Loeb Music Library Arabic 78 Collection and Excavated Shellac (Jonathan Ward).'
+        })
+      ]);
+      appEl.appendChild(header);
+
+      // Genre categories
+      var GENRES = [
+        { key: 'all',     label: 'All Recordings' },
+        { key: 'quran',   label: "Qur'an & Prayer Chant" },
+        { key: 'qasida',  label: 'Qasīdas & Madīḥ' },
+        { key: 'tawshih', label: 'Tawshīḥ & Sufi Inshād' }
+      ];
+
+      var genreHeadingLabels = {
+        quran: "Qur'anic Recitation & Prayer Chant (1901–1921)",
+        qasida: "Classical Qasīdas & Madīḥ (1905–1920)",
+        tawshih: "Tawshīḥ & Sufi Inshād (1905–1911)"
+      };
+
+      // Filter bar
+      var filterBar = el('div', { class: 'archive-filter-bar', role: 'group', 'aria-label': 'Filter by genre' });
+
+      // Groups container
+      var groupsContainer = el('div', { class: 'archive-groups-container' });
+      var genreGroupEls = {};
+
+      ['quran', 'qasida', 'tawshih'].forEach(function (gKey) {
+        var list = el('ul', { class: 'tile-grid' });
+        var grp = el('section', { class: 'genre-group', 'data-genre': gKey }, [
+          el('h2', { class: 'genre-heading', text: genreHeadingLabels[gKey] }),
+          list
+        ]);
+        genreGroupEls[gKey] = { section: grp, list: list };
+        groupsContainer.appendChild(grp);
+      });
+
+      // Populate tiles into genre buckets
+      var counts = { all: archiveWork.audio.length, quran: 0, qasida: 0, tawshih: 0 };
+      archiveWork.audio.forEach(function (rec) {
+        var g = rec.genre || 'qasida';
+        if (counts[g] != null) counts[g]++;
+        var target = genreGroupEls[g] || genreGroupEls.qasida;
+        target.list.appendChild(buildRecordingTile(rec));
+      });
+
+      function applyFilter(key) {
+        var btns = filterBar.querySelectorAll('.archive-filter-btn');
+        btns.forEach(function (b) {
+          var isAct = b.getAttribute('data-genre') === key;
+          b.classList.toggle('is-active', isAct);
+          b.setAttribute('aria-pressed', String(isAct));
+        });
+        ['quran', 'qasida', 'tawshih'].forEach(function (gKey) {
+          var sec = genreGroupEls[gKey].section;
+          if (key === 'all' || key === gKey) {
+            sec.removeAttribute('hidden');
+          } else {
+            sec.setAttribute('hidden', '');
+          }
+        });
+      }
+
+      GENRES.forEach(function (genre) {
+        var count = counts[genre.key] || 0;
+        var btn = el('button', {
+          class: 'archive-filter-btn' + (genre.key === 'all' ? ' is-active' : ''),
+          type: 'button',
+          'data-genre': genre.key,
+          'aria-pressed': String(genre.key === 'all'),
+          text: genre.label + ' (' + count + ')'
+        });
+        btn.addEventListener('click', function () {
+          applyFilter(genre.key);
+        });
+        filterBar.appendChild(btn);
+      });
+
+      appEl.appendChild(filterBar);
+      appEl.appendChild(groupsContainer);
+
+      // Provenance note
+      var provenance = el('div', { class: 'archive-provenance-note' }, [
+        el('p', {
+          text: 'All recordings in this archive were published on commercial 78rpm shellac discs between 1901 and 1921 and reside in the public domain. Digital transfers are preserved for research, devotional contemplation, and educational preservation.'
+        })
+      ]);
+      appEl.appendChild(provenance);
+    });
   }
 
   /* -------------------------------------------------- shared content builders */
@@ -801,6 +915,10 @@
   /* ------------------------------------------- work index view (section list) */
 
   function renderWork(id) {
+    if (id === 'historic-recordings') {
+      renderArchive();
+      return;
+    }
     setNavCurrent('home');
     clearView();
 
@@ -1012,6 +1130,8 @@
 
     if (path === '/' || path === '') {
       renderHome();
+    } else if (path === '/archive' || path === '/recordings' || path === '/historic-recordings') {
+      renderArchive();
     } else if (path.indexOf('/work/') === 0) {
       var rest = path.slice('/work/'.length);
       var slash = rest.indexOf('/section/');

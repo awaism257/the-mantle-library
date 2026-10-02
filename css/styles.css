@@ -555,9 +555,181 @@ h1, h2, h3 {
   line-height: 1.5;
 }
 
+/* ---------- Landscape Card: Historic Gramophone Archive (Home Screen) ---------- */
+
+.archive-card {
+  margin: 0 0 2rem;
+}
+
+.archive-card-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.15rem;
+  padding: 1.15rem 1.35rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+.archive-card-link:hover {
+  text-decoration: none;
+  border-color: var(--gold);
+  box-shadow: 0 4px 20px var(--shadow), 0 0 12px rgba(214, 174, 94, 0.15);
+  background: rgba(214, 174, 94, 0.04);
+}
+
+.archive-card-link:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.archive-card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  flex-shrink: 0;
+  border: 1.5px solid var(--gold);
+  border-radius: 50%;
+  color: var(--gold);
+  background: rgba(214, 174, 94, 0.08);
+}
+
+.archive-card-icon svg {
+  width: 1.65rem;
+  height: 1.65rem;
+  display: block;
+}
+
+.archive-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+  flex: 1;
+}
+
+.archive-card-title {
+  font-family: var(--serif-display);
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--fg);
+  line-height: 1.25;
+}
+
+.archive-card-gloss {
+  font-size: 0.82rem;
+  color: var(--dim);
+  line-height: 1.35;
+}
+
+.archive-card-sub[lang="ar"] {
+  font-family: var(--arabic-stack);
+  font-size: calc(0.95rem * var(--fs-ar));
+  color: var(--vc-ar);
+  line-height: 1.4;
+}
+
+.archive-card-chevron {
+  display: block;
+  font-size: 1.55rem;
+  line-height: 1;
+  color: var(--gold);
+  flex-shrink: 0;
+  padding-left: 0.25rem;
+  transition: transform 160ms ease;
+}
+
+.archive-card-link:hover .archive-card-chevron {
+  transform: translateX(4px);
+}
+
+@media (max-width: 30rem) {
+  .archive-card-link {
+    gap: 0.85rem;
+    padding: 1rem 1rem;
+  }
+  .archive-card-icon {
+    width: 2.7rem;
+    height: 2.7rem;
+  }
+  .archive-card-icon svg {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+  .archive-card-title {
+    font-size: 1rem;
+  }
+}
+
+/* ---------- Dedicated Archive Page Styling ---------- */
+
+.archive-page-header {
+  margin-bottom: 1.75rem;
+  text-align: center;
+}
+
+.archive-page-intro {
+  color: var(--dim);
+  max-width: 38rem;
+  margin: 0.85rem auto 0;
+  line-height: 1.65;
+  font-size: 0.95rem;
+}
+
+.archive-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  justify-content: center;
+  margin: 1.5rem 0 2rem;
+}
+
+.archive-filter-btn {
+  padding: 0.45rem 1rem;
+  font-size: 0.84rem;
+  font-family: var(--sans, inherit);
+  background: var(--card);
+  color: var(--dim);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 160ms ease;
+}
+
+.archive-filter-btn:hover {
+  border-color: var(--gold);
+  color: var(--fg);
+}
+
+.archive-filter-btn.is-active {
+  background: var(--gold);
+  color: #101613;
+  border-color: var(--gold);
+  font-weight: 600;
+  box-shadow: 0 2px 10px rgba(214, 174, 94, 0.25);
+}
+
+.archive-provenance-note {
+  margin-top: 3rem;
+  padding: 1.25rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.82rem;
+  color: var(--faint);
+  line-height: 1.6;
+  text-align: center;
+}
+
 /* ---------- Genre groups within Historic Recordings ---------- */
 
-.genre-group { margin-top: 1.35rem; }
+.genre-group { margin-top: 1.75rem; }
 .genre-group:first-of-type { margin-top: 0.9rem; }
 
 .genre-heading {
@@ -565,9 +737,9 @@ h1, h2, h3 {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--accent-text);
-  margin: 0 0 0.7rem;
+  margin: 0 0 0.85rem;
   border-bottom: 1px solid var(--border);
-  padding-bottom: 0.35rem;
+  padding-bottom: 0.4rem;
 }
 
 /* ---------- Reader view ---------- */
