@@ -6981,97 +6981,571 @@
           ],
           "audio": {
             "file": "audio/hassan/hassan_elegy_madinah.mp3",
-            "title": "The Elegy of Madinah",
-            "artist": "Shaykh Abdulaziz al-Ahmad",
-            "duration": 494.7,
+            "title": "The Elegy of Madinah (Mā Bālu ʿAynī)",
+            "artist": "ʿAbdurraḥmān ibn Yāsir",
+            "duration": 187.6,
             "timestamps": [
               {
                 "n": 1,
                 "start": 0.0,
-                "end": 27.71
+                "end": 9.8
               },
               {
                 "n": 2,
-                "start": 27.71,
-                "end": 58.12
+                "start": 9.8,
+                "end": 19.5
               },
               {
                 "n": 3,
-                "start": 58.12,
-                "end": 87.52
+                "start": 19.5,
+                "end": 28.0
               },
               {
                 "n": 4,
-                "start": 87.52,
-                "end": 117.26
+                "start": 28.0,
+                "end": 37.5
               },
               {
                 "n": 5,
-                "start": 117.26,
-                "end": 148.01
+                "start": 37.5,
+                "end": 47.5
               },
               {
                 "n": 6,
-                "start": 148.01,
-                "end": 176.39
+                "start": 47.5,
+                "end": 57.5
               },
               {
                 "n": 7,
-                "start": 176.39,
-                "end": 205.11
+                "start": 57.5,
+                "end": 67.5
               },
               {
                 "n": 8,
-                "start": 205.11,
-                "end": 232.48
+                "start": 67.5,
+                "end": 78.0
               },
               {
                 "n": 9,
-                "start": 232.48,
-                "end": 261.2
+                "start": 78.0,
+                "end": 87.5
               },
               {
                 "n": 10,
-                "start": 261.2,
-                "end": 290.94
+                "start": 87.5,
+                "end": 97.0
               },
               {
                 "n": 11,
-                "start": 290.94,
-                "end": 318.99
+                "start": 97.0,
+                "end": 106.0
               },
               {
                 "n": 12,
-                "start": 318.99,
-                "end": 350.75
+                "start": 106.0,
+                "end": 115.5
               },
               {
                 "n": 13,
-                "start": 350.75,
-                "end": 380.82
+                "start": 115.5,
+                "end": 125.5
               },
               {
                 "n": 14,
-                "start": 380.82,
-                "end": 410.56
+                "start": 125.5,
+                "end": 143.5
               },
               {
                 "n": 15,
-                "start": 410.56,
-                "end": 437.25
+                "start": 143.5,
+                "end": 163.5
               },
               {
                 "n": 16,
-                "start": 437.25,
-                "end": 466.31
+                "start": 163.5,
+                "end": 173.5
               },
               {
                 "n": 17,
-                "start": 466.31,
-                "end": 494.69
+                "start": 173.5,
+                "end": 187.6
               }
             ]
           }
+        },
+        {
+          "heading": "The Grand Elegy of Madinah",
+          "note": "Ḥassān’s greatest and most celebrated lament (Bi-Ṭaybata Rasmun) after the passing of the Prophet ﷺ — poem 134 of his dīwān.",
+          "audio": {
+            "file": "audio/hassan/hassan_grand_elegy.mp3",
+            "title": "The Grand Elegy of Madinah (Bi-Ṭaybata Rasmun)",
+            "artist": "Tarneem (ترنيم)",
+            "duration": 342.0,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 7.53
+              },
+              {
+                "n": 2,
+                "start": 7.53,
+                "end": 14.96
+              },
+              {
+                "n": 3,
+                "start": 14.96,
+                "end": 24.14
+              },
+              {
+                "n": 4,
+                "start": 24.14,
+                "end": 29.82
+              },
+              {
+                "n": 5,
+                "start": 29.82,
+                "end": 37.25
+              },
+              {
+                "n": 6,
+                "start": 37.25,
+                "end": 44.68
+              },
+              {
+                "n": 7,
+                "start": 44.68,
+                "end": 52.11
+              },
+              {
+                "n": 8,
+                "start": 52.11,
+                "end": 60.79
+              },
+              {
+                "n": 9,
+                "start": 60.79,
+                "end": 67.72
+              },
+              {
+                "n": 10,
+                "start": 67.72,
+                "end": 74.4
+              },
+              {
+                "n": 11,
+                "start": 74.4,
+                "end": 82.58
+              },
+              {
+                "n": 12,
+                "start": 82.58,
+                "end": 89.26
+              },
+              {
+                "n": 13,
+                "start": 89.26,
+                "end": 96.69
+              },
+              {
+                "n": 14,
+                "start": 96.69,
+                "end": 104.12
+              },
+              {
+                "n": 15,
+                "start": 104.12,
+                "end": 111.3
+              },
+              {
+                "n": 16,
+                "start": 111.3,
+                "end": 118.98
+              },
+              {
+                "n": 17,
+                "start": 118.98,
+                "end": 127.66
+              },
+              {
+                "n": 18,
+                "start": 127.66,
+                "end": 132.59
+              },
+              {
+                "n": 19,
+                "start": 132.59,
+                "end": 141.27
+              },
+              {
+                "n": 20,
+                "start": 141.27,
+                "end": 148.7
+              },
+              {
+                "n": 21,
+                "start": 148.7,
+                "end": 156.13
+              },
+              {
+                "n": 22,
+                "start": 156.13,
+                "end": 163.56
+              },
+              {
+                "n": 23,
+                "start": 163.56,
+                "end": 171.74
+              },
+              {
+                "n": 24,
+                "start": 171.74,
+                "end": 178.42
+              },
+              {
+                "n": 25,
+                "start": 178.42,
+                "end": 186.6
+              },
+              {
+                "n": 26,
+                "start": 186.6,
+                "end": 193.53
+              },
+              {
+                "n": 27,
+                "start": 193.53,
+                "end": 200.71
+              },
+              {
+                "n": 28,
+                "start": 200.71,
+                "end": 208.14
+              },
+              {
+                "n": 29,
+                "start": 208.14,
+                "end": 215.57
+              },
+              {
+                "n": 30,
+                "start": 215.57,
+                "end": 223.0
+              },
+              {
+                "n": 31,
+                "start": 223.0,
+                "end": 230.43
+              },
+              {
+                "n": 32,
+                "start": 230.43,
+                "end": 237.86
+              },
+              {
+                "n": 33,
+                "start": 237.86,
+                "end": 245.29
+              },
+              {
+                "n": 34,
+                "start": 245.29,
+                "end": 254.22
+              },
+              {
+                "n": 35,
+                "start": 254.22,
+                "end": 261.4
+              },
+              {
+                "n": 36,
+                "start": 261.4,
+                "end": 267.58
+              },
+              {
+                "n": 37,
+                "start": 267.58,
+                "end": 275.01
+              },
+              {
+                "n": 38,
+                "start": 275.01,
+                "end": 284.19
+              },
+              {
+                "n": 39,
+                "start": 284.19,
+                "end": 289.87
+              },
+              {
+                "n": 40,
+                "start": 289.87,
+                "end": 298.55
+              },
+              {
+                "n": 41,
+                "start": 298.55,
+                "end": 304.73
+              },
+              {
+                "n": 42,
+                "start": 304.73,
+                "end": 312.16
+              },
+              {
+                "n": 43,
+                "start": 312.16,
+                "end": 321.34
+              },
+              {
+                "n": 44,
+                "start": 321.34,
+                "end": 327.02
+              },
+              {
+                "n": 45,
+                "start": 327.02,
+                "end": 334.45
+              },
+              {
+                "n": 46,
+                "start": 334.45,
+                "end": 342.0
+              }
+            ]
+          },
+          "units": [
+            {
+              "n": 1,
+              "ar": "بَطَيبَةَ رَسمٌ لِلرَسولِ وَمَعهَدُ — مُنيرٌ وَقَد تَعفو الرُسومُ وَتَهمَدِ",
+              "en": "In Ṭaybah (Madīnah) there remains a trace and an abode of the Messenger, luminous — though other traces may fade and perish."
+            },
+            {
+              "n": 2,
+              "ar": "وَلا تَمتَحي الآياتُ مِن دارِ حُرمَةٍ — بِها مِنبَرُ الهادي الَذي كانَ يَصعَدُ",
+              "en": "The sacred signs of that sanctuary shall never be erased, wherein stands the Minbar of the Guide, which he once ascended."
+            },
+            {
+              "n": 3,
+              "ar": "وَواضِحُ آثارٍ وَباقي مَعالِمٍ — وَرَبعٌ لَهُ فيهِ مُصَلّى وَمَسجِدُ",
+              "en": "Clear footprints and enduring landmarks remain, and a courtyard wherein was his prayer place and his masjid."
+            },
+            {
+              "n": 4,
+              "ar": "بِها حُجُراتٌ كانَ يَنزِلُ وَسطَها — مِنَ اللَهِ نورٌ يُستَضاءُ وَيوقَدُ",
+              "en": "Therein are chambers into the midst of which used to descend light from Allah, illuminating and kindled."
+            },
+            {
+              "n": 5,
+              "ar": "مَعارِفُ لَم تُطمَس عَلى العَهدِ آيُها — أَتاها البِلى فَالآيُ مِنها تُجَدَّدُ",
+              "en": "Signs of knowledge whose verses have not been effaced over time; though decay touches them, their verses are ever renewed."
+            },
+            {
+              "n": 6,
+              "ar": "عَرِفتُ بِها رَسمَ الرَسولِ وَعَهدَهُ — وَقَبراً بِها واراهُ في التُربِ مُلحِدُ",
+              "en": "There I recognized the trace of the Messenger and his covenant, and a grave wherein the grave-digger hid him in the earth."
+            },
+            {
+              "n": 7,
+              "ar": "ظَلَلتُ بِها أَبكي الرَسولِ فَأَسعَدَت — عُيونٌ وَمِثلاها مِنَ الجِنِّ تُسعَدُ",
+              "en": "There I remained weeping for the Messenger, and eyes helped me in tears, and like them from sorrow were aided."
+            },
+            {
+              "n": 8,
+              "ar": "يُذَكِّرنَ آلاءَ الرَسولِ وَما أَرى — لَها مُحصِياً نَفسي فَنَفسي تَبَلَّدُ",
+              "en": "Reminding of the bounties of the Messenger, while my soul can never fully recount them, so my soul grows bewildered."
+            },
+            {
+              "n": 9,
+              "ar": "مُفَجَّعَةً قَد شَفَّها فَقدُ أَحمَدٍ — فَظَلَّت لِآلاءِ الرَسولِ تُعَدِّدُ",
+              "en": "Distressed, worn thin by the loss of Aḥmad, she persisted in counting the bounties of the Messenger."
+            },
+            {
+              "n": 10,
+              "ar": "وَما بَلَغَت مِن كُلِّ أَمرٍ عَشيرَهُ — وَلَكِن لِنَفسي بَعدُ ما قَد تَوَجَّدُ",
+              "en": "Yet she never attained even a tenth of the whole matter, but within my soul remains sorrow for what has befallen."
+            },
+            {
+              "n": 11,
+              "ar": "أَطالَت وُقوفاً تَذرِفُ العَينُ جُهدَها — عَلى طَلَلِ القَبرِ الَذي فيهِ أَحمَدُ",
+              "en": "She stood long, the eye shedding tears to its utmost upon the remains of the grave wherein rests Aḥmad."
+            },
+            {
+              "n": 12,
+              "ar": "فَبورِكتَ يا قَبرَ الرَسولِ وَبورِكَت — بِلادٌ ثَوى فيها الرَشيدُ المُسَدَّدُ",
+              "en": "Blessed be you, O grave of the Messenger, and blessed be the land wherein rests the rightly guided, upright master!"
+            },
+            {
+              "n": 13,
+              "ar": "وَبورِكَ لَحدٌ مِنكَ ضُمِّنَ طَيِّباً — عَلَيهِ بِناءٌ مِن صَفيحٍ مُنَضَّدُ",
+              "en": "And blessed is the niche from you that enclosed one so pure, upon which stands a structure of neatly laid stone slabs!"
+            },
+            {
+              "n": 14,
+              "ar": "تَهيلُ عَلَيهِ التُربَ أَيدٍ وَأَعيُنٌ — عَلَيهِ وَقَد غارَت بِذَلِكَ أَسعُدُ",
+              "en": "Hands pour earth upon him, and tearful eyes gaze upon him, and by that loss Auspicious stars sank below the horizon."
+            },
+            {
+              "n": 15,
+              "ar": "لَقَد غَيَّبوا حِلماً وَعِلماً وَرَحمَةً — عَشِيَّةَ عَلَّوهُ الثَرى لا يُوَسَّدُ",
+              "en": "Indeed, they concealed forbearance, knowledge, and mercy on the evening they covered him with earth, unpillowed."
+            },
+            {
+              "n": 16,
+              "ar": "وَراحوا بِحُزنٍ لَيسَ فيهِم نَبيُّهُم — وَقَد وَهَنَت مِنهُم ظُهورٌ وَأَعضُدُ",
+              "en": "And they departed in profound grief, without their Prophet among them, and their backs and forearms were weakened."
+            },
+            {
+              "n": 17,
+              "ar": "يُبَكّونَ مَن تَبكي السَمَواتُ يَومَهُ — وَمَن قَد بَكَتهُ الأَرضُ فَالناسُ أَكمَدُ",
+              "en": "They weep for him whose day the heavens weep for, and for whom the earth has wept, so the people are in deep sorrow."
+            },
+            {
+              "n": 18,
+              "ar": "وَهَل عَدَلَت يَوماً رَزِيَّةُ هالِكٍ — رَزِيَّةَ يَومٍ ماتَ فيهِ مُحَمَّدُ",
+              "en": "Has the calamity of any mortal ever equaled the calamity of the day on which Muḥammad died?"
+            },
+            {
+              "n": 19,
+              "ar": "تَقَطَّعَ فيهِ مُنزَلُ الوَحيِ عَنهُمُ — وَقَد كانَ ذا نورٍ يَغورُ وَيُنجِدُ",
+              "en": "On that day the descent of Revelation was severed from them, whereas he was a guiding light illuminating mountain and plain."
+            },
+            {
+              "n": 20,
+              "ar": "يَدُلُّ عَلى الرَحمَنِ مَن يَقتَدي بِهِ — وَيُنقِذُ مِن هَولِ الخَزايا وَيُرشِدُ",
+              "en": "Guiding toward the Merciful whoever follows him, rescuing from the terror of disgrace and providing true guidance."
+            },
+            {
+              "n": 21,
+              "ar": "إِمامٌ لَهُم يَهديهِمُ الحَقَّ جاهِداً — مُعَلِّمُ صِدقٍ إِن يُطيعوهُ يَسعَدوا",
+              "en": "A leader for them, striving earnestly to guide them to the Truth; a truthful teacher, whom if they obey, they find eternal bliss."
+            },
+            {
+              "n": 22,
+              "ar": "عَفُوٌّ عَنِ الزَلّاتِ يَقبَلُ عُذرَهُم — وَإِن يُحسِنوا فَاللَهُ بِالخَيرِ أَجوَدُ",
+              "en": "Forgiving of lapses, accepting their excuses; and if they do good, Allah with goodness is more generous."
+            },
+            {
+              "n": 23,
+              "ar": "وَإِن نابَ أَمرٌ لَم يَقوموا بِحَملِهِ — فَمِن عِندِهِ تَيسيرُ ما يَتَشَدَّدُ",
+              "en": "And if a calamity befell them that they could not bear, from him came ease for that which was burdensome."
+            },
+            {
+              "n": 24,
+              "ar": "فَبينا هُمُ في نِعمَةِ اللَهِ وَسطَهُم — دَليلٌ بِهِ نَهجُ الطَريقَةِ يُقصَدُ",
+              "en": "And while they were amidst Allah's blessing among them, with a guide through whom the path of the right way is sought,"
+            },
+            {
+              "n": 25,
+              "ar": "عَزيزٌ عَلَيهِ أَن يَجوروا عَنِ الهُدى — حَريصٌ عَلى أَن يَستَقيموا وَيَهتَدوا",
+              "en": "He grieved that they should deviate from guidance, and was ever anxious that they should stand upright and be guided,"
+            },
+            {
+              "n": 26,
+              "ar": "عَطوفٌ عَلَيهِم لا يُثَنّي جَناحَهُ — إِلى كَنَفٍ يَحنو عَلَيهِم وَيَمهَدُ",
+              "en": "Compassionate toward them, not folding his protective wing from providing refuge, affection, and gentle care,"
+            },
+            {
+              "n": 27,
+              "ar": "فَبَينا هُمُ في ذَلِكَ النورِ إِذ غَدا — إِلى نورِهِم سَهمٌ مِنَ المَوتِ مُقصَدُ",
+              "en": "While they were in that brilliant light, suddenly there sped toward their light an aimed arrow of death."
+            },
+            {
+              "n": 28,
+              "ar": "فَأَصبَحَ مَحموداً إِلى اللَهِ راجِعاً — يُبكيهِ حَقُّ المُرسِلاتِ وَيُحمَدُ",
+              "en": "So he returned, praised, unto Allah, wept over by the angels of the Holy Revelations, and praised."
+            },
+            {
+              "n": 29,
+              "ar": "وَأَمسَت بِلادُ الحُرمَ وَحشاً بِقاعُها — لِغَيبَةِ ما كانَت مِنَ الوَحيِ تَعهَدُ",
+              "en": "And the lands of the Sanctuary became desolate in their tracts, grieving the absence of the Revelation they were accustomed to."
+            },
+            {
+              "n": 30,
+              "ar": "قِفاراً سِوى مَعمورَةِ اللَحدِ ضافَها — فَقيدٌ تُبَكّيهِ بَلاطٌ وَغَرقَدُ",
+              "en": "Desolate wastes, save for the inhabited vault of the tomb, visited by the lost one over whom the courtyards and the Baqīʿ weep."
+            },
+            {
+              "n": 31,
+              "ar": "وَمَسجِدُهُ فَالموحِشاتُ لِفَقدِهِ — خَلاءٌ لَهُ فيهِ مَقامٌ وَمَقعَدُ",
+              "en": "And his masjid — desolate indeed from his loss — left empty where once he had a station and a seat."
+            },
+            {
+              "n": 32,
+              "ar": "وَبِالجَمرَةِ الكُبرى لَهُ ثَمَّ أَوحَشَت — دِيارٌ وَعَرصاتٌ وَرَبعٌ وَمَولِدُ",
+              "en": "And at the Great Jamrah, and at his ancient homes, open spaces, dwelling places, and birthplace, all grew lonely."
+            },
+            {
+              "n": 33,
+              "ar": "فَبَكّي رَسولَ اللَهِ يا عَينُ عَبرَةً — وَلا أَعرِفَنكِ الدَهرَ دَمعَكِ يَجمَدُ",
+              "en": "Then weep for the Messenger of Allah, O eye, with a flood of tears, and let me never find your tears running dry!"
+            },
+            {
+              "n": 34,
+              "ar": "وَما لَكِ لا تَبكينَ ذا النِعمَةِ الَّتي — عَلى الناسِ مِنها سابِغٌ يَتَغَمَّدُ",
+              "en": "What ails you that you weep not for the possessor of bounty from whom a generous abundance covered all mankind?"
+            },
+            {
+              "n": 35,
+              "ar": "فَجودي عَلَيهِ بِالدُموعِ وَأَعوِلي — لِفَقدِ الَذي لا مِثلُهُ الدَهرُ يوجَدُ",
+              "en": "Be generous then upon him with tears and wail aloud for the loss of him whose like time shall never produce!"
+            },
+            {
+              "n": 36,
+              "ar": "وَما فَقَدَ الماضونَ مِثلَ مُحَمَّدٍ — وَلا مِثلُهُ حَتّى القِيامَةِ يُفقَدُ",
+              "en": "The ancients never lost the like of Muḥammad, nor shall his like ever be lost until the Day of Resurrection!"
+            },
+            {
+              "n": 37,
+              "ar": "أَعَفَّ وَأَوفى ذِمَّةً بَعدَ ذِمَّةٍ — وَأَقرَبَ مِنهُ نايِلاً لا يُنَكَّدُ",
+              "en": "Most chaste, most faithful to covenants time after time, and closest to granting benefaction that is never spoiled,"
+            },
+            {
+              "n": 38,
+              "ar": "وَأَبذَلَ مِنهُ لِلطَريفِ وَتالِدِ — إِذا ضَنَّ مِعطاءُ بِما كانَ يُتلَدُ",
+              "en": "Most generous of all in giving of newly acquired and inherited wealth, when any other giver withheld what was possessed,"
+            },
+            {
+              "n": 39,
+              "ar": "وَأَكرَمَ صيتاً في البُيوتِ إِذا اِنتَمى — وَأَكرَمَ جَدّاً أَبطَحيّاً يُسَوَّدُ",
+              "en": "Most honorable in reputation among noble houses when traced, and most noble of grandfathers among the lords of the valley,"
+            },
+            {
+              "n": 40,
+              "ar": "وَأَمنَعَ ذِرواتٍ وَأَثبَتَ في العُلى — دَعائِمَ عِزٍّ شامِخاتٍ تُشَيَّدُ",
+              "en": "Most unassailable in peaks, and most firmly established in high nobility, raising lofty pillars of glory that endure,"
+            },
+            {
+              "n": 41,
+              "ar": "وَأَثبَتَ فَرعاً في الفُروعِ وَمَنبِتاً — وَعوداً غَذاهُ المُزنُ فَالعودُ أَغيَدُ",
+              "en": "Firmest in branch among the branches and lineage, and a noble bough nourished by rainclouds, so the bough is lush and green."
+            },
+            {
+              "n": 42,
+              "ar": "رَباهُ وَليداً فَاِستَتَمَّ تَمامُهُ — عَلى أَكرَمِ الخَيراتِ رَبٌّ مُمَجَّدُ",
+              "en": "A Glorious Lord nurtured him as a child until his perfection was complete in the noblest of virtues."
+            },
+            {
+              "n": 43,
+              "ar": "تَناهَت وَصاةُ المُسلِمينَ بِكَفِّهِ — فَلا العِلمِ مَحبوسٌ وَلا الرَأيُ يُفنَدُ",
+              "en": "The guidance of the Muslims culminated in his hands, so knowledge is never restrained nor is sound judgment refuted."
+            },
+            {
+              "n": 44,
+              "ar": "أَقولُ وَلا يُلفى لِما قُلتُ عائِبٌ — مِنَ الناسِ إِلّا عازِبُ العَقلِ مُبعَدُ",
+              "en": "I speak, and none shall find fault with what I utter among mankind, save one absent of mind and outcast."
+            },
+            {
+              "n": 45,
+              "ar": "وَلَيسَ هَوايَ نازِعاً عَن ثَنائِهِ — لَعَلّي بِهِ في جَنَّةِ الخُلدِ أَخلَدُ",
+              "en": "Nor does my devotion ever turn away from praising him; perhaps through it I may dwell forever in the Garden of Eternity,"
+            },
+            {
+              "n": 46,
+              "ar": "مَعَ المُصطَفى أَرجو بِذاكَ جِوارَهُ — وَفي نَيلِ ذاكَ اليَومِ أَسعى وَأَجهَدُ",
+              "en": "With the Chosen One ﷺ, hoping thereby for his neighborliness, and toward attaining that Day I strive with all my might!"
+            }
+          ]
         },
         {
           "heading": "The Oath",

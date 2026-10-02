@@ -822,23 +822,6 @@ html.light .verse-card.is-active-verse {
   gap: 0.4rem;
 }
 
-.verse-speak {
-  width: 2rem;
-  height: 2rem;
-}
-.verse-speak svg {
-  width: 0.95rem;
-  height: 0.95rem;
-}
-.verse-speak:hover {
-  border-color: var(--gold);
-}
-.verse-speak.is-speaking {
-  color: var(--gold);
-  border-color: var(--gold);
-  background: rgba(214, 174, 94, 0.18);
-  box-shadow: 0 0 8px rgba(214, 174, 94, 0.3);
-}
 
 .arabic-text {
   font-family: var(--arabic-stack);

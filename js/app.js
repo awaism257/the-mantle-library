@@ -42,24 +42,6 @@
   }
 
   var currentReaderAudio = null;
-  var activeSpeechBtn = null;
-  var activeSpeechCard = null;
-
-  function stopSpeech() {
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-    }
-    if (activeSpeechBtn) {
-      activeSpeechBtn.innerHTML = ICON_SPEAKER;
-      activeSpeechBtn.classList.remove('is-speaking');
-      activeSpeechBtn.setAttribute('aria-label', 'Read passage aloud');
-      activeSpeechBtn = null;
-    }
-    if (activeSpeechCard) {
-      activeSpeechCard.classList.remove('is-active-verse');
-      activeSpeechCard = null;
-    }
-  }
 
   function formatTime(seconds) {
     if (isNaN(seconds) || seconds < 0) return '0:00';
@@ -69,7 +51,6 @@
   }
 
   function clearView() {
-    stopSpeech();
     if (currentReaderAudio) {
       currentReaderAudio.pause();
       currentReaderAudio = null;
@@ -517,8 +498,7 @@
   var ICON_CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6L9 17l-5-5"/></svg>';
   var ICON_PLAY = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><polygon points="6 3 20 12 6 21 6 3"/></svg>';
   var ICON_PAUSE = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>';
-  var ICON_SPEAKER = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>';
-  var ICON_SPEAKER_STOP = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>';
+
 
   function buildReaderAudioBar(audioData, sectionIndex, totalSections, workId) {
     var audio = el('audio', { preload: 'metadata', src: audioData.file });
@@ -744,48 +724,6 @@
 
       var actions = [copyBtn];
 
-      if ('speechSynthesis' in window) {
-        var speakBtn = el('button', {
-          class: 'verse-speak icon-btn',
-          type: 'button',
-          'aria-label': 'Read passage ' + num + ' aloud',
-          title: 'Read aloud',
-          html: ICON_SPEAKER
-        });
-        speakBtn.addEventListener('click', function (e) {
-          e.stopPropagation();
-          if (activeSpeechBtn === speakBtn) {
-            stopSpeech();
-            return;
-          }
-          stopSpeech();
-
-          if (currentReaderAudio) currentReaderAudio.pause();
-
-          var textToSpeak = unit.en2 || unit.en || unit.ar;
-          var utter = new SpeechSynthesisUtterance(textToSpeak);
-          utter.lang = (unit.en2 || unit.en) ? 'en-US' : 'ar-SA';
-          utter.rate = 0.95;
-
-          activeSpeechBtn = speakBtn;
-          activeSpeechCard = card;
-          speakBtn.innerHTML = ICON_SPEAKER_STOP;
-          speakBtn.classList.add('is-speaking');
-          speakBtn.setAttribute('aria-label', 'Stop reading');
-          card.classList.add('is-active-verse');
-
-          utter.onend = function () {
-            stopSpeech();
-          };
-          utter.onerror = function () {
-            stopSpeech();
-          };
-
-          window.speechSynthesis.speak(utter);
-        });
-        actions.unshift(speakBtn);
-      }
-
       var cardChildren = [
         el('div', { class: 'verse-card-head' }, [
           el('span', { class: 'verse-badge', text: String(num) }),
@@ -816,7 +754,7 @@
 
       if (audioData) {
         card.addEventListener('click', function (e) {
-          if (e.target.closest('.verse-copy') || e.target.closest('.verse-speak')) return;
+          if (e.target.closest('.verse-copy')) return;
           if (window.MantleReaderPlayer && window.MantleReaderPlayer.seekToVerse) {
             window.MantleReaderPlayer.seekToVerse(num);
           }
