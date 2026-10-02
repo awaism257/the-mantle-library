@@ -1325,14 +1325,24 @@
 
   if ('serviceWorker' in navigator) {
     var swRefreshing = false;
+    var hadController = !!navigator.serviceWorker.controller;
     navigator.serviceWorker.addEventListener('controllerchange', function () {
-      if (!swRefreshing) {
+      if (!swRefreshing && hadController) {
         swRefreshing = true;
         window.location.reload();
       }
     });
     window.addEventListener('load', function () {
-      navigator.serviceWorker.register('sw.js').catch(function (err) {
+      navigator.serviceWorker.register('sw.js').then(function (reg) {
+        // Proactively check for updates on load (bypasses HTTP cache of sw.js)
+        reg.update().catch(function () {});
+        // Re-check whenever the app returns to the foreground (helps Android TWAs and iOS PWAs)
+        document.addEventListener('visibilitychange', function () {
+          if (document.visibilityState === 'visible') {
+            reg.update().catch(function () {});
+          }
+        });
+      }).catch(function (err) {
         // Registration failure is non-fatal: the app still works online.
         if (window.console && console.warn) {
           console.warn('Service worker registration failed:', err);
