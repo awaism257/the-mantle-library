@@ -184,6 +184,14 @@ a:hover { text-decoration: underline; }
   border-radius: 4px;
 }
 
+/* Containers receiving programmatic focus on navigation do not show visual outlines */
+[tabindex="-1"]:focus,
+[tabindex="-1"]:focus-visible,
+main:focus,
+main:focus-visible {
+  outline: none;
+}
+
 ::selection { background: var(--selection); }
 
 /* ---------- Accessibility helpers ---------- */
