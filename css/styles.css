@@ -232,7 +232,10 @@ main:focus-visible {
    privacy.html / support.html still use the legacy .site-nav (rules kept
    below). */
 
-.view-header { margin: 0.25rem 0 1.75rem; }
+.view-header {
+  margin: 0 0 1.75rem;
+  padding-top: calc(18px + env(safe-area-inset-top, 0px));
+}
 
 .view-header::after {
   content: "";
@@ -1289,11 +1292,31 @@ html.light .reader-footer {
   font-variant-numeric: tabular-nums;
 }
 
+.verse-play,
 .verse-copy {
   width: 2rem;
   height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
-.verse-copy svg { width: 0.95rem; height: 0.95rem; }
+.verse-play svg,
+.verse-copy svg {
+  width: 0.95rem;
+  height: 0.95rem;
+  display: block;
+}
+.verse-play.is-playing {
+  color: var(--gold);
+  border-color: var(--gold);
+  background: rgba(214, 174, 94, 0.15);
+}
+html.light .verse-play.is-playing {
+  color: var(--accent-strong);
+  border-color: var(--accent-strong);
+  background: rgba(36, 90, 62, 0.12);
+}
 .verse-copy.is-copied {
   color: var(--gold);
   border-color: var(--gold);
@@ -2143,7 +2166,7 @@ html.light .app-item.active-app {
   }
   body.is-home main {
     flex: 0 0 auto;
-    padding: 0 0.55rem;
+    padding: calc(18px + env(safe-area-inset-top, 0px)) 0.55rem 0.55rem;
     box-sizing: border-box;
   }
   body.is-home .view-header {
@@ -2240,7 +2263,7 @@ html.light .app-item.active-app {
     margin-bottom: 0.85rem;
   }
   body.is-home main {
-    padding: 0 0.5rem;
+    padding: calc(18px + env(safe-area-inset-top, 0px)) 0.5rem 0.5rem;
   }
   .menu-rows {
     gap: 0.5rem;

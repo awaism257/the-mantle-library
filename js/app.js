@@ -715,12 +715,14 @@
       var autoScroll = true;
       var userInterrupted = false;
       var userInterruptTimer = null;
+      var singleVerseNum = null;
 
       var autoScrollBtn = el('button', {
         class: 'audio-autoscroll-btn is-active',
         type: 'button',
         title: 'Toggle auto-scroll with audio',
-        text: 'Auto-scroll ON'
+        'aria-pressed': 'true',
+        text: 'Auto-scroll'
       });
 
       autoScrollBtn.addEventListener('click', function () {
@@ -728,15 +730,32 @@
         userInterrupted = false;
         if (autoScroll) {
           autoScrollBtn.classList.add('is-active');
-          autoScrollBtn.textContent = 'Auto-scroll ON';
+          autoScrollBtn.setAttribute('aria-pressed', 'true');
           if (lastActiveCard) {
             lastActiveCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
           }
         } else {
           autoScrollBtn.classList.remove('is-active');
-          autoScrollBtn.textContent = 'Auto-scroll OFF';
+          autoScrollBtn.setAttribute('aria-pressed', 'false');
         }
       });
+
+      function updateVersePlayButtons() {
+        var isPlaying = !audio.paused;
+        var buttons = document.querySelectorAll('.verse-play');
+        for (var b = 0; b < buttons.length; b++) {
+          var btn = buttons[b];
+          var vNum = parseInt(btn.getAttribute('data-verse-num'), 10);
+          var isThisPlaying = (isPlaying && lastActiveNum === vNum);
+          btn.innerHTML = isThisPlaying ? ICON_PAUSE : ICON_PLAY;
+          btn.setAttribute('aria-label', (isThisPlaying ? 'Pause verse ' : 'Play verse ') + vNum);
+          if (isThisPlaying) {
+            btn.classList.add('is-playing');
+          } else {
+            btn.classList.remove('is-playing');
+          }
+        }
+      }
 
       function handleUserScroll() {
         if (!autoScroll) return;
@@ -751,6 +770,7 @@
 
       playBtn.addEventListener('click', function () {
         if (audio.paused) {
+          singleVerseNum = null; // Resume continuous chapter playback
           audio.play().catch(function () {});
         } else {
           audio.pause();
@@ -760,11 +780,13 @@
       audio.addEventListener('play', function () {
         playBtn.innerHTML = ICON_PAUSE;
         playBtn.setAttribute('aria-label', 'Pause recitation');
+        updateVersePlayButtons();
       });
 
       audio.addEventListener('pause', function () {
         playBtn.innerHTML = ICON_PLAY;
         playBtn.setAttribute('aria-label', 'Play recitation');
+        updateVersePlayButtons();
       });
 
       audio.addEventListener('loadedmetadata', function () {
@@ -782,6 +804,24 @@
         var pct = Math.min(100, Math.max(0, (t / dur) * 100));
         progressBar.style.width = pct + '%';
         timerEl.textContent = formatTime(t) + ' / ' + formatTime(audio.duration || 0);
+
+        // Single-verse mode: auto-pause when reaching the end of the current verse
+        if (singleVerseNum !== null) {
+          var timestamps = audioData.timestamps || [];
+          var curSingleTs = null;
+          for (var sIdx = 0; sIdx < timestamps.length; sIdx++) {
+            if (timestamps[sIdx].n === singleVerseNum) {
+              curSingleTs = timestamps[sIdx];
+              break;
+            }
+          }
+          if (curSingleTs && curSingleTs.end > 0 && t >= (curSingleTs.end - 0.15)) {
+            audio.pause();
+            singleVerseNum = null;
+            updateVersePlayButtons();
+            return;
+          }
+        }
 
         var timestamps = audioData.timestamps || [];
         var activeNum = null;
@@ -812,6 +852,7 @@
             lastActiveCard = null;
           }
           lastActiveNum = activeNum;
+          updateVersePlayButtons();
         }
       });
 
@@ -820,7 +861,9 @@
         if (lastActiveCard) lastActiveCard.classList.remove('is-active-verse');
         lastActiveCard = null;
         lastActiveNum = null;
+        singleVerseNum = null;
         progressBar.style.width = '100%';
+        updateVersePlayButtons();
       });
 
       window.MantleReaderPlayer = {
@@ -828,11 +871,41 @@
           var timestamps = audioData.timestamps || [];
           for (var k = 0; k < timestamps.length; k++) {
             if (timestamps[k].n === verseNum) {
+              singleVerseNum = null;
               audio.currentTime = timestamps[k].start;
               audio.play().catch(function () {});
               break;
             }
           }
+        },
+        playOrPauseVerse: function (verseNum) {
+          var timestamps = audioData.timestamps || [];
+          var targetTs = null;
+          for (var k = 0; k < timestamps.length; k++) {
+            if (timestamps[k].n === verseNum) {
+              targetTs = timestamps[k];
+              break;
+            }
+          }
+          if (!targetTs) return;
+
+          // If this exact verse is already playing, pause it:
+          if (!audio.paused && lastActiveNum === verseNum) {
+            audio.pause();
+            return;
+          }
+
+          // If audio was paused on this verse, resume it in single-verse mode:
+          if (lastActiveNum === verseNum && audio.currentTime >= targetTs.start && audio.currentTime < targetTs.end) {
+            singleVerseNum = verseNum;
+            audio.play().catch(function () {});
+            return;
+          }
+
+          // Otherwise seek to this verse and play only this verse:
+          singleVerseNum = verseNum;
+          audio.currentTime = targetTs.start;
+          audio.play().catch(function () {});
         }
       };
 
@@ -915,7 +988,27 @@
       if (unit.label) {
         headKids.push(el('span', { class: 'verse-label-refrain', text: unit.label }));
       }
-      headKids.push(el('div', { class: 'verse-actions' }, [copyBtn]));
+
+      var actionButtons = [];
+      if (audioData) {
+        var playBtn = el('button', {
+          class: 'verse-play icon-btn',
+          type: 'button',
+          'data-verse-num': String(num),
+          'aria-label': 'Play verse ' + num,
+          title: 'Play verse',
+          html: ICON_PLAY
+        });
+        playBtn.addEventListener('click', function (e) {
+          e.stopPropagation();
+          if (window.MantleReaderPlayer && window.MantleReaderPlayer.playOrPauseVerse) {
+            window.MantleReaderPlayer.playOrPauseVerse(num);
+          }
+        });
+        actionButtons.push(playBtn);
+      }
+      actionButtons.push(copyBtn);
+      headKids.push(el('div', { class: 'verse-actions' }, actionButtons));
 
       var cardChildren = [
         el('div', { class: 'verse-card-head' }, headKids),
@@ -975,9 +1068,9 @@
 
       if (audioData) {
         card.addEventListener('click', function (e) {
-          if (e.target.closest('.verse-copy') || e.target.closest('.translation-dropdown')) return;
-          if (window.MantleReaderPlayer && window.MantleReaderPlayer.seekToVerse) {
-            window.MantleReaderPlayer.seekToVerse(num);
+          if (e.target.closest('.verse-copy') || e.target.closest('.verse-play') || e.target.closest('.translation-dropdown')) return;
+          if (window.MantleReaderPlayer && window.MantleReaderPlayer.playOrPauseVerse) {
+            window.MantleReaderPlayer.playOrPauseVerse(num);
           }
         });
       }
