@@ -1190,39 +1190,61 @@
     // --- Translation layers selector ---
     var transCard = el('section', { class: 'settings-card', 'aria-labelledby': 'settings-trans-heading' }, [
       el('h2', { class: 'settings-heading', id: 'settings-trans-heading', text: 'Translation & Text Layers' }),
-      el('p', { class: 'settings-desc', style: 'font-size: 0.85rem; color: var(--dim); margin: 0 0 0.85rem;', text: 'Configure how translations appear on reading cards. Collapsed text remains accessible anytime via dropdown.' })
+      el('p', { class: 'settings-desc', text: 'Configure how translations appear on reading cards. Collapsed text remains accessible anytime via dropdown.' })
     ]);
 
     var transSettings = settings.getTranslationDisplay ? settings.getTranslationDisplay() : { modern: 'direct', victorian: 'dropdown' };
 
-    var modernSelect = el('select', { id: 'trans-modern-select', class: 'setting-select', style: 'background: var(--card); color: var(--fg); border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; font-size: 0.85rem;' }, [
-      el('option', { value: 'direct', text: 'Show directly on card (Default)' }),
-      el('option', { value: 'dropdown', text: 'In dropdown [ ▾ Modern Simplification ]' }),
-      el('option', { value: 'hide', text: 'Hide' })
-    ]);
-    modernSelect.value = transSettings.modern;
-    modernSelect.addEventListener('change', function (e) {
-      settings.setTranslationLayer('modern', e.target.value);
-    });
+    function buildLayerControl(key, title, subtitle, currentValue) {
+      var group = el('div', { class: 'layer-group' });
+      var titleRow = el('div', { class: 'layer-title-row' }, [
+        el('span', { class: 'layer-title', text: title }),
+        subtitle ? el('span', { class: 'layer-subtitle', text: subtitle }) : null
+      ]);
+      group.appendChild(titleRow);
 
-    var victorianSelect = el('select', { id: 'trans-victorian-select', class: 'setting-select', style: 'background: var(--card); color: var(--fg); border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; font-size: 0.85rem;' }, [
-      el('option', { value: 'dropdown', text: 'In dropdown [ ▾ Victorian Text ] (Recommended)' }),
-      el('option', { value: 'direct', text: 'Show directly on card' }),
-      el('option', { value: 'hide', text: 'Hide' })
-    ]);
-    victorianSelect.value = transSettings.victorian;
-    victorianSelect.addEventListener('change', function (e) {
-      settings.setTranslationLayer('victorian', e.target.value);
-    });
+      var choicesContainer = el('div', { class: 'layer-choices', role: 'group', 'aria-label': title });
+      var options = [
+        { value: 'direct', label: 'Direct' },
+        { value: 'dropdown', label: 'Dropdown' },
+        { value: 'hide', label: 'Hide' }
+      ];
 
-    transCard.appendChild(el('div', { class: 'fs-row', style: 'margin-bottom: 12px;' }, [
-      el('span', { text: 'Modern Simplification' }),
-      modernSelect
-    ]));
-    transCard.appendChild(el('div', { class: 'fs-row' }, [
-      el('span', { text: 'Victorian Translation (Source)' }),
-      victorianSelect
-    ]));
+      var buttons = [];
+      options.forEach(function (opt) {
+        var btn = el('button', {
+          class: 'layer-choice',
+          type: 'button',
+          'data-value': opt.value,
+          text: opt.label,
+          'aria-pressed': String(currentValue === opt.value)
+        });
+        btn.addEventListener('click', function () {
+          buttons.forEach(function (b) {
+            b.setAttribute('aria-pressed', String(b === btn));
+          });
+          settings.setTranslationLayer(key, opt.value);
+        });
+        buttons.push(btn);
+        choicesContainer.appendChild(btn);
+      });
+
+      group.appendChild(choicesContainer);
+      return group;
+    }
+
+    transCard.appendChild(buildLayerControl(
+      'modern',
+      'Modern Simplification',
+      'Default: Direct',
+      transSettings.modern
+    ));
+    transCard.appendChild(buildLayerControl(
+      'victorian',
+      'Victorian Translation (Source)',
+      'Default: Dropdown',
+      transSettings.victorian
+    ));
     appEl.appendChild(transCard);
 
     // --- Theme switch ---

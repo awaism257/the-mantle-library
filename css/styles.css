@@ -346,6 +346,65 @@ main:focus-visible {
   margin: 0 0 0.75rem;
 }
 
+.settings-desc {
+  font-size: 0.85rem;
+  color: var(--dim);
+  margin: 0 0 1rem;
+  line-height: 1.45;
+}
+
+.layer-group {
+  margin-bottom: 1.1rem;
+}
+.layer-group:last-child {
+  margin-bottom: 0.2rem;
+}
+
+.layer-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.45rem;
+  gap: 0.5rem;
+}
+
+.layer-title {
+  font-size: 0.92rem;
+  color: var(--fg);
+  font-weight: 500;
+}
+
+.layer-subtitle {
+  font-size: 0.78rem;
+  color: var(--dim);
+}
+
+.layer-choices {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.layer-choice {
+  flex: 1;
+  padding: 0.55rem 0.5rem;
+  font: inherit;
+  font-size: 0.84rem;
+  color: var(--dim);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  text-align: center;
+  transition: color 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+.layer-choice:hover { border-color: var(--border-hover); }
+.layer-choice[aria-pressed="true"] {
+  color: var(--badge-fg);
+  background: var(--accent);
+  border-color: var(--accent);
+  font-weight: 600;
+}
+
 .theme-choices {
   display: flex;
   gap: 0.6rem;
