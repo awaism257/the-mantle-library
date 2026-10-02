@@ -1099,10 +1099,11 @@ html.light .translation-dropdown-content .translation {
 .reader-footer-center {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   min-width: 0;
   flex: 1;
   justify-content: center;
+  margin: 0 10px;
 }
 .reader-footer-center.non-audio {
   padding: 8px 0;
@@ -1139,7 +1140,7 @@ html.light .translation-dropdown-content .translation {
   display: flex;
   flex-direction: column;
   min-width: 0;
-  max-width: 250px;
+  max-width: 220px;
 }
 .reader-footer .audio-title {
   font-size: 0.85rem;
@@ -1191,6 +1192,7 @@ html.light .reader-footer {
   justify-content: center;
   flex-shrink: 0;
   cursor: pointer;
+  margin: 0 2px;
 }
 .reader-footer .nav-section-btn.is-disabled {
   opacity: 0.25;
@@ -2264,6 +2266,33 @@ html.light .app-item.active-app {
   }
   body.is-home main {
     padding: calc(18px + env(safe-area-inset-top, 0px)) 0.5rem 0.5rem;
+  }
+  .reader-footer {
+    padding: 8px 8px calc(8px + env(safe-area-inset-bottom, 0px));
+  }
+  .reader-footer-center {
+    margin: 0 6px;
+    gap: 6px;
+  }
+  .reader-footer .audio-info {
+    max-width: 140px;
+    flex: 1 1 auto;
+  }
+  .reader-footer .audio-title {
+    font-size: 0.8rem;
+  }
+  .reader-footer .audio-timer {
+    font-size: 0.7rem;
+  }
+  .reader-footer .audio-autoscroll-btn {
+    padding: 3px 6px;
+    font-size: 0.68rem;
+  }
+  .reader-footer .nav-section-btn {
+    min-width: 32px;
+    min-height: 32px;
+    padding: 4px;
+    margin: 0 1px;
   }
   .menu-rows {
     gap: 0.5rem;
