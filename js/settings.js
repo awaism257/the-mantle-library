@@ -45,10 +45,18 @@
     return 'dark';
   }
 
+  function notifyNativeTheme(isDark) {
+    if (window.AndroidBridge && typeof window.AndroidBridge.onThemeChanged === 'function') {
+      try { window.AndroidBridge.onThemeChanged(isDark); } catch (e) { /* ignore */ }
+    }
+  }
+
   function applyTheme(theme) {
-    root.classList.toggle('light', theme === 'light');
+    var isLight = theme === 'light';
+    root.classList.toggle('light', isLight);
     var meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute('content', theme === 'light' ? '#f6f0e0' : '#101613');
+    if (meta) meta.setAttribute('content', isLight ? '#f6f0e0' : '#101613');
+    notifyNativeTheme(!isLight);
   }
 
   function setTheme(theme) {
@@ -59,6 +67,14 @@
 
   // Apply immediately so the first paint already uses the right theme.
   applyTheme(currentTheme());
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function () {
+      notifyNativeTheme(currentTheme() !== 'light');
+    });
+  } else {
+    notifyNativeTheme(currentTheme() !== 'light');
+  }
 
   /* ------------------------------------------------------------ font scaling */
 
