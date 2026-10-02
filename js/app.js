@@ -226,6 +226,8 @@
   function splitTitleGloss(titleEn) {
     var paren = titleEn.indexOf(' (');
     if (paren > 0) return { main: titleEn.slice(0, paren), gloss: titleEn.slice(paren + 1) };
+    var colon = titleEn.indexOf(': ');
+    if (colon > 0) return { main: titleEn.slice(0, colon), gloss: titleEn.slice(colon + 2) };
     return { main: titleEn, gloss: null };
   }
 

@@ -1,7 +1,7 @@
 /* Mantle Library — service worker (offline-first).
    ⚠ Bump CACHE_VERSION after ANY change to any file before deploying — users
    will otherwise see stale files. */
-const CACHE_VERSION = 'mantle-v83';
+const CACHE_VERSION = 'mantle-v84';
 
 // App shell: everything needed to render the library fully offline.
 // Audio and album art are runtime-cached on first request so installs stay instant.
