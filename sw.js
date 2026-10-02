@@ -1,7 +1,7 @@
 /* Mantle Library — service worker (offline-first).
    ⚠ Bump CACHE_VERSION after ANY change to any file before deploying — users
    will otherwise see stale files. */
-const CACHE_VERSION = 'mantle-v71';
+const CACHE_VERSION = 'mantle-v72';
 
 // App shell: everything needed to render the library fully offline.
 // Audio is intentionally NOT precached (large files); it is cached on first
@@ -36,7 +36,10 @@ const PRECACHE_URLS = [
   'audio/art/art_Quran_Suras_1_112_114_110_Benhamouda_1921_Sorbonne.jpg',
   'audio/art/art_Biaini_Alexis_Ben_Kori_1914_Sorbonne.jpg',
   'audio/art/art_Taravikh_Tatar_Trio_Kazan_1901_Berliner_24023.jpg',
-  'audio/art/art_Surat_Al-Fatiha_Alexis_Ben_Kori_1914_Sorbonne.jpg'
+  'audio/art/art_Surat_Al-Fatiha_Alexis_Ben_Kori_1914_Sorbonne.jpg',
+  'audio/art/art_Ilzam_Baba_Rabbek_Ahmed_al-Shaykh_Baidaphon.jpg',
+  'audio/art/art_Qasida_Jaddidi_Ya_Nafs_Yusuf_al-Manyalawi_1910.jpg',
+  'audio/art/art_Qasida_Sahi_al-Jufun_Yusuf_al-Manyalawi_1909.jpg'
 ];
 
 self.addEventListener('install', function (event) {
