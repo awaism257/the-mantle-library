@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Mantle Library</title>
   <meta name="description" content="A free, ad-free, offline-first library of classical Islamic devotional qasidas with historic public-domain audio.">
   <meta name="theme-color" content="#101613">
@@ -25,25 +25,26 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <!-- No full-width app bar: each view renders its own in-column page header
-       (the pattern used by the sibling apps), so the site already presents
-       like the planned mobile app. -->
+  <div class="layout-container">
+    <aside id="desktop-sidebar" class="desktop-sidebar" aria-label="Desktop navigation"></aside>
+    <div class="main-content">
+      <main id="main" tabindex="-1">
+        <div id="app" class="view" aria-live="polite">
+          <noscript>
+            <p class="notice">Mantle Library requires JavaScript to render its views.
+            All content is bundled locally and works fully offline once loaded.</p>
+          </noscript>
+          <p class="loading" id="initial-loading">Loading the library&hellip;</p>
+        </div>
+      </main>
 
-  <main id="main" tabindex="-1">
-    <div id="app" class="view" aria-live="polite">
-      <noscript>
-        <p class="notice">Mantle Library requires JavaScript to render its views.
-        All content is bundled locally and works fully offline once loaded.</p>
-      </noscript>
-      <p class="loading" id="initial-loading">Loading the library&hellip;</p>
+      <footer class="site-footer">
+        <p>Mantle Library &mdash; free, ad-free, offline-first. No tracking, no accounts.</p>
+        <p class="footer-credit">Historic recordings courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.</p>
+        <p class="footer-netlify"><a href="https://www.netlify.com" rel="noopener">This site is powered by Netlify</a></p>
+      </footer>
     </div>
-  </main>
-
-  <footer class="site-footer">
-    <p>Mantle Library &mdash; free, ad-free, offline-first. No tracking, no accounts.</p>
-    <p class="footer-credit">Historic recordings courtesy of the Harvard Loeb Music Library, Arabic 78 Collection.</p>
-    <p class="footer-netlify"><a href="https://www.netlify.com" rel="noopener">This site is powered by Netlify</a></p>
-  </footer>
+  </div>
 
   <script src="js/settings.js"></script>
   <script src="js/app.js"></script>

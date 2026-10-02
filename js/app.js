@@ -111,6 +111,7 @@
           throw new Error('content/works.json has an unexpected shape (missing "works" array).');
         }
         state.works = data.works;
+        buildDesktopSidebar(state.works);
         return state.works;
       })
       .catch(function (err) {
@@ -1120,6 +1121,127 @@
     }));
   }
 
+  /* ------------------------------------------- responsive desktop sidebar */
+
+  var sidebarBuilt = false;
+
+  function buildDesktopSidebar(works) {
+    var aside = document.getElementById('desktop-sidebar');
+    if (!aside) return;
+
+    while (aside.firstChild) aside.removeChild(aside.firstChild);
+
+    var brand = el('a', { class: 'sidebar-brand', href: '#/' }, [
+      el('img', { class: 'sidebar-logo', src: 'icons/icon-192.png', alt: 'Mantle Library Logo', width: '42', height: '42' }),
+      el('div', { class: 'sidebar-titles' }, [
+        el('div', { class: 'sidebar-title', text: 'Mantle Library' }),
+        el('div', { class: 'sidebar-sub', text: 'Devotional Works & Archive' })
+      ])
+    ]);
+    aside.appendChild(brand);
+
+    var nav = el('nav', { class: 'sidebar-nav' });
+
+    // Section 1: Main Navigation
+    nav.appendChild(el('div', { class: 'nav-section-label', text: 'Library' }));
+
+    var homeItem = el('a', { class: 'nav-item', href: '#/', 'data-nav': 'home' }, [
+      el('span', { class: 'nav-icon', html: ROW_ICONS['dalail-al-khayrat'] }),
+      el('span', { class: 'nav-text', text: 'All Works' })
+    ]);
+    nav.appendChild(homeItem);
+
+    var archiveItem = el('a', { class: 'nav-item', href: '#/archive', 'data-nav': 'archive' }, [
+      el('span', { class: 'nav-icon', html: ROW_ICONS['historic-recordings'] }),
+      el('span', { class: 'nav-text', text: 'Historic Archive' })
+    ]);
+    nav.appendChild(archiveItem);
+
+    // Section 2: Canonical Works
+    nav.appendChild(el('div', { class: 'nav-section-label', text: 'Canonical Works' }));
+
+    if (works && Array.isArray(works)) {
+      works.forEach(function (w) {
+        if (w.id === 'historic-recordings') return;
+        var t = splitTitleGloss(w.title_en);
+        var workNav = el('a', {
+          class: 'nav-item',
+          href: '#/work/' + encodeURIComponent(w.id),
+          'data-nav': 'work-' + w.id,
+          title: w.title_en
+        }, [
+          el('span', { class: 'nav-icon', html: rowIcon(w.id) }),
+          el('span', { class: 'nav-text', text: t.main })
+        ]);
+        nav.appendChild(workNav);
+      });
+    }
+
+    // Section 3: Preferences
+    nav.appendChild(el('div', { class: 'nav-section-label', text: 'Options' }));
+
+    var settingsItem = el('a', { class: 'nav-item', href: '#/settings', 'data-nav': 'settings' }, [
+      el('span', { class: 'nav-icon', html: ROW_ICONS['settings'] }),
+      el('span', { class: 'nav-text', text: 'Settings' })
+    ]);
+    nav.appendChild(settingsItem);
+
+    var aboutItem = el('a', { class: 'nav-item', href: 'support.html', 'data-nav': 'support' }, [
+      el('span', { class: 'nav-icon', html: ROW_ICONS['about'] }),
+      el('span', { class: 'nav-text', text: 'About & Support' })
+    ]);
+    nav.appendChild(aboutItem);
+
+    aside.appendChild(nav);
+
+    // Footer utilities
+    var foot = el('div', { class: 'sidebar-foot' });
+    var themeBtn = el('button', { class: 'sidebar-btn', type: 'button', title: 'Toggle Dark / Light' }, [
+      document.createTextNode('🌓 Theme')
+    ]);
+    themeBtn.addEventListener('click', function () {
+      var current = window.MantleSettings ? window.MantleSettings.getTheme() : 'dark';
+      var next = (current === 'light') ? 'dark' : 'light';
+      if (window.MantleSettings) window.MantleSettings.setTheme(next);
+    });
+    foot.appendChild(themeBtn);
+
+    var settingsBtn = el('a', { class: 'sidebar-btn', href: '#/settings', title: 'Settings' }, [
+      document.createTextNode('⚙ Settings')
+    ]);
+    foot.appendChild(settingsBtn);
+
+    aside.appendChild(foot);
+    sidebarBuilt = true;
+
+    var hash = window.location.hash || '#/';
+    updateDesktopSidebarActive(hash.replace(/^#/, ''));
+  }
+
+  function updateDesktopSidebarActive(path) {
+    var items = document.querySelectorAll('.desktop-sidebar .nav-item');
+    items.forEach(function (it) { it.classList.remove('active'); });
+
+    var activeKey = null;
+    if (path === '/' || path === '') {
+      activeKey = 'home';
+    } else if (path === '/archive' || path === '/recordings' || path === '/historic-recordings') {
+      activeKey = 'archive';
+    } else if (path.indexOf('/work/') === 0) {
+      var rest = path.slice('/work/'.length);
+      var slash = rest.indexOf('/section/');
+      var workId = slash !== -1 ? rest.slice(0, slash) : rest;
+      activeKey = 'work-' + decodeURIComponent(workId);
+    } else if (path === '/settings') {
+      activeKey = 'settings';
+    }
+
+    if (activeKey) {
+      var activeEl = document.querySelector('.desktop-sidebar [data-nav="' + activeKey + '"]');
+      if (activeEl) activeEl.classList.add('active');
+    }
+  }
+
   /* ------------------------------------------------------------------ router */
 
   function route() {
@@ -1148,11 +1270,14 @@
       renderHome();
     }
 
+    updateDesktopSidebarActive(path);
+
     // Move focus to main for keyboard / screen-reader users on navigation.
     if (mainEl) mainEl.focus({ preventScroll: true });
     window.scrollTo(0, 0);
   }
 
+  buildDesktopSidebar(null);
   window.addEventListener('hashchange', route);
   route();
 

@@ -1,7 +1,7 @@
 /* Mantle Library — service worker (offline-first).
    ⚠ Bump CACHE_VERSION after ANY change to any file before deploying — users
    will otherwise see stale files. */
-const CACHE_VERSION = 'mantle-v70';
+const CACHE_VERSION = 'mantle-v71';
 
 // App shell: everything needed to render the library fully offline.
 // Audio is intentionally NOT precached (large files); it is cached on first
@@ -12,7 +12,6 @@ const PRECACHE_URLS = [
   'privacy.html',
   'css/styles.css',
   'js/app.js',
-  'js/normalize.js',
   'js/settings.js',
   'content/works.json',
   'fonts/DigitalKhattIndoPak.otf',
