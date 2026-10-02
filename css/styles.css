@@ -111,20 +111,20 @@
 html.light {
   /* Family base (light) — Illuminated manuscript */
   --paper: rgb(246, 240, 224);
-  --ink: rgb(40, 34, 24);
+  --ink: rgb(28, 24, 16);
   --bg: var(--paper);
   --fg: var(--ink);
   --card: rgb(255, 252, 243);           /* lifted parchment card */
   --border: rgb(214, 200, 168);         /* muted, derived from --paper */
   --border-hover: rgb(176, 158, 118);
-  --dim: rgba(40, 34, 24, 0.82);
-  --faint: rgba(40, 34, 24, 0.68);
+  --dim: rgba(30, 24, 16, 0.90);
+  --faint: rgba(30, 24, 16, 0.72);
 
   /* Mantle identity: deep green + antique gold on paper */
   --gold: rgb(146, 112, 44);
   --accent: rgb(36, 90, 62);
-  --accent-strong: rgb(28, 72, 50);
-  --accent-text: rgb(36, 90, 62);
+  --accent-strong: rgb(24, 64, 44);
+  --accent-text: rgb(28, 72, 50);
 
   /* Utility shades */
   --selection: rgba(146, 112, 44, 0.3);
@@ -132,9 +132,9 @@ html.light {
   --overlay: rgba(40, 34, 24, 0.82);
   --badge-fg: rgb(246, 240, 224);
 
-  /* Per-channel text colours */
-  --vc-ar: var(--ink);
-  --vc-en: rgb(84, 74, 56);             /* softer than ink */
+  /* Per-channel text colours: deep bistre Arabic & rich charcoal book-ink English */
+  --vc-ar: rgb(20, 16, 10);
+  --vc-en: rgb(36, 30, 22);
 }
 
 /* ---------- Reset & base ---------- */
@@ -892,7 +892,7 @@ h1, h2, h3 {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 1.25rem;
-  padding-top: calc(14px + env(safe-area-inset-top, 0px));
+  padding-top: calc(20px + env(safe-area-inset-top, 0px));
   padding-bottom: 0.4rem;
 }
 .sub-nav-left {
@@ -973,13 +973,27 @@ details.work-source[open] summary::before { content: "▾ "; }
   transition: border-color 200ms ease, background 200ms ease, box-shadow 200ms ease;
 }
 html.light .verse-card.is-active-verse {
-  background: rgba(186, 138, 44, 0.12);
-  box-shadow: 0 4px 16px rgba(186, 138, 44, 0.25);
+  background: #FFFDF7 !important;
+  border-left: 4px solid var(--gold);
+  border-color: var(--gold);
+  box-shadow: 0 4px 18px rgba(140, 102, 32, 0.22);
 }
 .verse-card.is-active-verse .verse-badge {
   background: var(--gold);
   color: #101613;
   font-weight: bold;
+}
+
+.verse-label-refrain {
+  font-size: 0.82rem;
+  font-style: italic;
+  color: var(--gold);
+  margin-left: 8px;
+  font-family: var(--sans-ui);
+}
+html.light .verse-label-refrain {
+  color: var(--accent-strong);
+  font-weight: 600;
 }
 
 /* ---------- Translation Layers & Collapsible Dropdowns ---------- */
@@ -1007,6 +1021,16 @@ html.light .verse-card.is-active-verse {
   background: rgba(214, 174, 94, 0.16);
   border-color: var(--gold);
 }
+html.light .translation-dropdown-summary {
+  color: var(--accent-strong);
+  background: rgba(36, 90, 62, 0.08);
+  border-color: rgba(36, 90, 62, 0.25);
+  font-weight: 500;
+}
+html.light .translation-dropdown-summary:hover {
+  background: rgba(36, 90, 62, 0.14);
+  border-color: var(--accent-strong);
+}
 .translation-dropdown-summary::-webkit-details-marker {
   display: none;
 }
@@ -1027,6 +1051,10 @@ html.light .verse-card.is-active-verse {
   font-size: calc(0.96rem * var(--fs-en));
   line-height: 1.6;
   opacity: 0.9;
+}
+html.light .translation-dropdown-content .translation {
+  opacity: 1;
+  color: var(--vc-en);
 }
 
 /* ---------- Reader Bottom Bar (Media & Section Navigation Dock) ---------- */
@@ -1108,7 +1136,7 @@ html.light .verse-card.is-active-verse {
   display: flex;
   flex-direction: column;
   min-width: 0;
-  max-width: 190px;
+  max-width: 250px;
 }
 .reader-footer .audio-title {
   font-size: 0.85rem;
@@ -1145,16 +1173,9 @@ html.light .verse-card.is-active-verse {
   color: #101613;
   border-color: var(--gold);
 }
-.reader-footer .audio-speed-btn {
-  font-size: 0.72rem;
-  font-weight: 600;
-  padding: 3px 6px;
-  border-radius: 6px;
-  background: transparent;
-  color: var(--dim);
-  border: 1px solid var(--border);
-  cursor: pointer;
-  flex-shrink: 0;
+html.light .reader-footer {
+  box-shadow: 0 -4px 20px rgba(40, 34, 24, 0.12);
+  background: var(--paper);
 }
 .reader-footer .nav-section-btn {
   color: var(--gold);
@@ -1731,7 +1752,7 @@ audio {
   align-items: center;
   gap: 8px;
   margin: 0 auto;
-  padding: calc(14px + env(safe-area-inset-top, 0px)) 1rem 14px;
+  padding: calc(18px + env(safe-area-inset-top, 0px)) 1rem 14px;
   max-width: var(--max-width, 48rem);
   width: 100%;
 }
@@ -2212,10 +2233,10 @@ html.light .app-item.active-app {
     padding: calc(12px + env(safe-area-inset-top, 0px)) 0.75rem 2.5rem;
   }
   body:not(.is-home) main {
-    padding-top: calc(14px + env(safe-area-inset-top, 0px));
+    padding-top: calc(20px + env(safe-area-inset-top, 0px));
   }
   .sub-nav-bar {
-    padding-top: calc(10px + env(safe-area-inset-top, 0px));
+    padding-top: calc(18px + env(safe-area-inset-top, 0px));
     margin-bottom: 0.85rem;
   }
   body.is-home main {

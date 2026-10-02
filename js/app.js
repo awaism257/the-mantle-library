@@ -712,21 +712,6 @@
       var timerEl = el('span', { class: 'audio-timer', text: '0:00 / ' + formatTime(audioData.duration || 0) });
       var infoEl = el('div', { class: 'audio-info' }, [titleEl, timerEl]);
 
-      var speeds = [1.0, 1.25, 0.75];
-      var speedIdx = 0;
-      var speedBtn = el('button', {
-        class: 'audio-speed-btn',
-        type: 'button',
-        title: 'Playback speed',
-        text: '1.0×'
-      });
-      speedBtn.addEventListener('click', function () {
-        speedIdx = (speedIdx + 1) % speeds.length;
-        var newSpeed = speeds[speedIdx];
-        audio.playbackRate = newSpeed;
-        speedBtn.textContent = newSpeed + '×';
-      });
-
       var autoScroll = true;
       var userInterrupted = false;
       var userInterruptTimer = null;
@@ -854,8 +839,7 @@
       var centerGroup = el('div', { class: 'reader-footer-center' }, [
         playBtn,
         infoEl,
-        autoScrollBtn,
-        speedBtn
+        autoScrollBtn
       ]);
       footer.appendChild(centerGroup);
     } else {
@@ -929,7 +913,7 @@
 
       var headKids = [el('span', { class: 'verse-badge', text: badgeText })];
       if (unit.label) {
-        headKids.push(el('span', { class: 'verse-label-refrain', text: unit.label, style: 'font-size:0.8rem; font-style:italic; color:var(--gold); margin-left:8px;' }));
+        headKids.push(el('span', { class: 'verse-label-refrain', text: unit.label }));
       }
       headKids.push(el('div', { class: 'verse-actions' }, [copyBtn]));
 
