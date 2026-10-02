@@ -1,11 +1,10 @@
 /* Mantle Library — service worker (offline-first).
    ⚠ Bump CACHE_VERSION after ANY change to any file before deploying — users
    will otherwise see stale files. */
-const CACHE_VERSION = 'mantle-v79';
+const CACHE_VERSION = 'mantle-v80';
 
 // App shell: everything needed to render the library fully offline.
-// Audio is intentionally NOT precached (large files); it is cached on first
-// play at runtime so a fresh install stays fast and small.
+// Audio and album art are runtime-cached on first request so installs stay instant.
 const PRECACHE_URLS = [
   './',
   'index.html',
@@ -25,22 +24,7 @@ const PRECACHE_URLS = [
   'icons/icon-maskable-192.png',
   'icons/icon-maskable-512.png',
   'icons/bg-tile-dark.jpg',
-  'icons/bg-tile-light.jpg',
-  'audio/art/art_Tawshih_Fatana_Shrub_al-Hana_Ahmad_al-Ajami_1905.jpg',
-  'audio/art/art_Tawshih_Ya_Ghazalan_Ahmad_al-Ajami_1905.jpg',
-  'audio/art/art_Qasida_Ala_Fi_Sabil_Allah_Pt1_Said_al-Safti_1905.jpg',
-  'audio/art/art_Qasida_Ala_Fi_Sabil_Allah_Pt2_Said_al-Safti_1905.jpg',
-  'audio/art/art_Qasidat_Allahu_Akbar_Ahmad_al-Mir_1907-1911.jpg',
-  'audio/art/art_Hayyamatni_Tayyamatni_Ahmad_al-Mir_1907-1911.jpg',
-  'audio/art/art_Surat_Yusuf_Pt1_Wadudah_al-Minyalawi_1915.jpg',
-  'audio/art/art_Surat_Yusuf_Pt2_Wadudah_al-Minyalawi_1915.jpg',
-  'audio/art/art_Quran_Suras_1_112_114_110_Benhamouda_1921_Sorbonne.jpg',
-  'audio/art/art_Biaini_Alexis_Ben_Kori_1914_Sorbonne.jpg',
-  'audio/art/art_Taravikh_Tatar_Trio_Kazan_1901_Berliner_24023.jpg',
-  'audio/art/art_Surat_Al-Fatiha_Alexis_Ben_Kori_1914_Sorbonne.jpg',
-  'audio/art/art_Ilzam_Baba_Rabbek_Ahmed_al-Shaykh_Baidaphon.jpg',
-  'audio/art/art_Qasida_Jaddidi_Ya_Nafs_Yusuf_al-Manyalawi_1910.jpg',
-  'audio/art/art_Qasida_Sahi_al-Jufun_Yusuf_al-Manyalawi_1909.jpg'
+  'icons/bg-tile-light.jpg'
 ];
 
 self.addEventListener('install', function (event) {
