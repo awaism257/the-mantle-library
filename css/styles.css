@@ -58,6 +58,8 @@
   font-family: 'Honorifics';
   src: url('../fonts/honorifics.ttf') format('truetype');
   unicode-range: U+0611-0613, U+FD40-FD48, U+FDF2-FDFB, U+FDFD;
+  font-weight: 100 900;
+  font-style: normal italic;
   size-adjust: 65%;
   font-display: swap;
 }
@@ -96,9 +98,9 @@
   --fs-en: 1;
 
   /* Typography */
-  --serif-display: Georgia, 'Times New Roman', 'Honorifics', serif;
-  --serif-body: Georgia, 'Times New Roman', 'Nimbus Roman', 'Honorifics', serif;
-  --arabic-stack: 'DigitalKhatt IndoPak', 'DigitalKhatt V2', 'Honorifics', 'Amiri Quran', 'Noto Naskh', serif;
+  --serif-display: 'Honorifics', Georgia, 'Times New Roman', serif;
+  --serif-body: 'Honorifics', Georgia, 'Times New Roman', 'Nimbus Roman', serif;
+  --arabic-stack: 'Honorifics', 'DigitalKhatt IndoPak', 'DigitalKhatt V2', 'Amiri Quran', 'Noto Naskh', serif;
 
   --radius: 14px;
   --max-width: 46rem;

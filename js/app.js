@@ -1287,6 +1287,13 @@
   /* --------------------------------------------------------- service worker */
 
   if ('serviceWorker' in navigator) {
+    var swRefreshing = false;
+    navigator.serviceWorker.addEventListener('controllerchange', function () {
+      if (!swRefreshing) {
+        swRefreshing = true;
+        window.location.reload();
+      }
+    });
     window.addEventListener('load', function () {
       navigator.serviceWorker.register('sw.js').catch(function (err) {
         // Registration failure is non-fatal: the app still works online.
