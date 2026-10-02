@@ -1250,6 +1250,9 @@
     var hash = window.location.hash || '#/';
     var path = hash.replace(/^#/, '');
 
+    var isHome = (path === '/' || path === '' || (path !== '/archive' && path !== '/recordings' && path !== '/historic-recordings' && path.indexOf('/work/') !== 0 && path !== '/settings'));
+    document.body.classList.toggle('is-home', isHome);
+
     if (path === '/' || path === '') {
       renderHome();
     } else if (path === '/archive' || path === '/recordings' || path === '/historic-recordings') {
