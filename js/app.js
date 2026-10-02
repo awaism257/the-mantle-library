@@ -42,6 +42,7 @@
   }
 
   var currentReaderAudio = null;
+  var currentReaderCleanup = null;
 
   function formatTime(seconds) {
     if (isNaN(seconds) || seconds < 0) return '0:00';
@@ -54,6 +55,10 @@
     if (currentReaderAudio) {
       currentReaderAudio.pause();
       currentReaderAudio = null;
+    }
+    if (typeof currentReaderCleanup === 'function') {
+      currentReaderCleanup();
+      currentReaderCleanup = null;
     }
     window.MantleReaderPlayer = null;
     while (appEl.firstChild) appEl.removeChild(appEl.firstChild);
@@ -767,8 +772,19 @@
         }
       }
 
-      function handleUserScroll() {
+      function scrollToActiveVerse(smooth) {
         if (!autoScroll) return;
+        var card = lastActiveCard || document.getElementById('verse-1');
+        if (card) {
+          card.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'center' });
+        }
+      }
+
+      function handleUserScroll(e) {
+        if (!autoScroll) return;
+        if (e && e.target && e.target.closest && e.target.closest('.reader-footer')) {
+          return;
+        }
         userInterrupted = true;
         clearTimeout(userInterruptTimer);
         userInterruptTimer = setTimeout(function () {
@@ -776,12 +792,21 @@
         }, 5000);
       }
       window.addEventListener('wheel', handleUserScroll, { passive: true });
-      window.addEventListener('touchstart', handleUserScroll, { passive: true });
+      window.addEventListener('touchmove', handleUserScroll, { passive: true });
+
+      currentReaderCleanup = function () {
+        window.removeEventListener('wheel', handleUserScroll);
+        window.removeEventListener('touchmove', handleUserScroll);
+        clearTimeout(userInterruptTimer);
+      };
 
       playBtn.addEventListener('click', function () {
         if (audio.paused) {
           singleVerseNum = null; // Resume continuous chapter playback
+          userInterrupted = false;
+          clearTimeout(userInterruptTimer);
           audio.play().catch(function () {});
+          scrollToActiveVerse(true);
         } else {
           audio.pause();
         }
@@ -791,6 +816,9 @@
         playBtn.innerHTML = ICON_PAUSE;
         playBtn.setAttribute('aria-label', 'Pause recitation');
         updateVersePlayButtons();
+        userInterrupted = false;
+        clearTimeout(userInterruptTimer);
+        scrollToActiveVerse(true);
       });
 
       audio.addEventListener('pause', function () {
@@ -882,6 +910,8 @@
           for (var k = 0; k < timestamps.length; k++) {
             if (timestamps[k].n === verseNum) {
               singleVerseNum = null;
+              userInterrupted = false;
+              clearTimeout(userInterruptTimer);
               audio.currentTime = timestamps[k].start;
               audio.play().catch(function () {});
               break;
@@ -904,6 +934,9 @@
             audio.pause();
             return;
           }
+
+          userInterrupted = false;
+          clearTimeout(userInterruptTimer);
 
           // If audio was paused on this verse, resume it in single-verse mode:
           if (lastActiveNum === verseNum && audio.currentTime >= targetTs.start && audio.currentTime < targetTs.end) {
