@@ -1488,8 +1488,19 @@
   function route() {
     closeArtOverlay();
     closeRecOverlay();
+    var strayOverlays = document.querySelectorAll('.art-overlay, .rec-overlay');
+    for (var i = 0; i < strayOverlays.length; i++) {
+      if (strayOverlays[i].parentNode) {
+        strayOverlays[i].parentNode.removeChild(strayOverlays[i]);
+      }
+    }
+
     var hash = window.location.hash || '#/';
     var path = hash.replace(/^#/, '');
+
+    window.scrollTo(0, 0);
+    if (document.documentElement) document.documentElement.scrollTop = 0;
+    if (document.body) document.body.scrollTop = 0;
 
     var isHome = (path === '/' || path === '' || (path !== '/archive' && path !== '/recordings' && path !== '/historic-recordings' && path.indexOf('/work/') !== 0 && path !== '/settings'));
     document.documentElement.classList.toggle('is-home', isHome);
@@ -1518,8 +1529,16 @@
     updateDesktopSidebarActive(path);
 
     // Move focus to main for keyboard / screen-reader users on navigation.
-    if (mainEl) mainEl.focus({ preventScroll: true });
+    if (mainEl) {
+      try {
+        mainEl.focus({ preventScroll: true });
+      } catch (e) {
+        mainEl.focus();
+      }
+    }
     window.scrollTo(0, 0);
+    if (document.documentElement) document.documentElement.scrollTop = 0;
+    if (document.body) document.body.scrollTop = 0;
   }
 
   buildDesktopSidebar(null);
