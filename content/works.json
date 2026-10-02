@@ -6122,6 +6122,14 @@
           "note": "Verses 1–12",
           "units": [
             {
+              "n": 0,
+              "badge": "✦",
+              "label": "Refrain · اللازمة",
+              "ar": "مَوْلَايَ صَلِّ وَسَلِّمْ دَائِمًا أَبَدًا — عَلَى حَبِيبِكَ خَيْرِ الخَلْقِ كُلِّهِمِ",
+              "en": "O my Lord! Send prayers and peace continuously, eternally, upon Your Beloved, the best of all creation.",
+              "en2": "My Lord, send blessings and peace always and forever, upon Your Beloved, the best of all creation."
+            },
+            {
               "ar": "أَمِنْ تَذَكُّرِ جِيرَانٍ بِذِي سَلَمِ — مَزَجْتَ دَمْعًا جَرَى مِنْ مُقْلَةٍ بِدَمِ",
               "en": "Is it from a recollection of neighbours at Dhū-Salam that thou hast mixed with blood the tears flowing from an eyeball?",
               "n": 1,
@@ -6200,6 +6208,11 @@
             "artist": "Majlis Maulid al-Burdah",
             "duration": 211.5,
             "timestamps": [
+              {
+                "n": 0,
+                "start": 0.0,
+                "end": 30.0
+              },
               {
                 "n": 1,
                 "start": 30.0,

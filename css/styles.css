@@ -829,7 +829,8 @@ h1, h2, h3 {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 1.25rem;
-  padding: 0.25rem 0;
+  padding-top: calc(14px + env(safe-area-inset-top, 0px));
+  padding-bottom: 0.4rem;
 }
 .sub-nav-left {
   display: flex;
@@ -918,40 +919,113 @@ html.light .verse-card.is-active-verse {
   font-weight: bold;
 }
 
-/* ---------- Sticky Reader Audio Bar ---------- */
-.reader-audio-bar {
-  position: sticky;
-  top: 0.5rem;
-  z-index: 30;
-  background: var(--card);
-  border: 1.5px solid var(--gold);
-  border-radius: var(--radius);
-  padding: 0.85rem 1rem 0.95rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+/* ---------- Translation Layers & Collapsible Dropdowns ---------- */
+.translation-dropdown {
+  margin: 0.75rem 0 0.25rem;
+  border-top: 1px solid var(--border);
+  padding-top: 0.5rem;
 }
-.reader-audio-row-top {
+.translation-dropdown-summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.82rem;
+  font-family: var(--sans-ui);
+  color: var(--gold);
+  cursor: pointer;
+  user-select: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  background: rgba(214, 174, 94, 0.08);
+  border: 1px solid rgba(214, 174, 94, 0.22);
+  transition: all 140ms ease;
+}
+.translation-dropdown-summary:hover {
+  background: rgba(214, 174, 94, 0.16);
+  border-color: var(--gold);
+}
+.translation-dropdown-summary::-webkit-details-marker {
+  display: none;
+}
+.translation-dropdown-summary .dropdown-arrow {
+  display: inline-block;
+  transition: transform 180ms ease;
+  font-size: 0.75rem;
+}
+.translation-dropdown[open] .dropdown-arrow {
+  transform: rotate(180deg);
+}
+.translation-dropdown-content {
+  padding-top: 0.65rem;
+  padding-left: 0.25rem;
+}
+.translation-dropdown-content .translation {
+  margin: 0;
+  font-size: calc(0.96rem * var(--fs-en));
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* ---------- Reader Bottom Bar (Media & Section Navigation Dock) ---------- */
+.reader-wrap {
+  padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px)) !important;
+}
+
+.reader-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 680px;
+  margin: 0 auto;
+  background: var(--bg);
+  border-top: 1px solid var(--border);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.75rem;
-  margin-bottom: 0.75rem;
+  padding: 8px 14px calc(8px + env(safe-area-inset-bottom, 0px));
+  z-index: 90;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.45);
 }
-.reader-audio-play-group {
+.reader-footer-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+.reader-footer-progress-bar {
+  height: 100%;
+  background: var(--gold);
+  width: 0%;
+  transition: width 150ms linear;
+}
+.reader-footer-center {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 10px;
   min-width: 0;
+  flex: 1;
+  justify-content: center;
 }
-.reader-audio-play-btn {
-  width: 2.75rem;
-  height: 2.75rem;
-  border-radius: 50%;
+.reader-footer-center.non-audio {
+  padding: 8px 0;
+}
+.reader-footer .section-indicator {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--fg);
+  opacity: 0.85;
+}
+.reader-footer .audio-play-btn {
   background: var(--accent);
   color: var(--gold);
   border: 1.5px solid var(--gold);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -959,99 +1033,154 @@ html.light .verse-card.is-active-verse {
   flex-shrink: 0;
   transition: transform 120ms ease, background 160ms ease;
 }
-.reader-audio-play-btn:hover {
+.reader-footer .audio-play-btn:hover {
+  transform: scale(1.06);
   background: var(--accent-strong);
-  transform: scale(1.05);
 }
-.reader-audio-play-btn svg {
-  width: 1.25rem;
-  height: 1.25rem;
+.reader-footer .audio-play-btn svg {
+  width: 18px;
+  height: 18px;
 }
-.reader-audio-info {
+.reader-footer .audio-info {
   display: flex;
   flex-direction: column;
   min-width: 0;
+  max-width: 190px;
 }
-.reader-audio-title {
-  font-size: 0.95rem;
-  font-weight: bold;
+.reader-footer .audio-title {
+  font-size: 0.85rem;
+  font-weight: 700;
   color: var(--fg);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.reader-audio-artist {
-  font-size: 0.8rem;
+.reader-footer .audio-timer {
+  font-size: 0.74rem;
   color: var(--dim);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.reader-audio-controls {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  flex-shrink: 0;
-}
-.reader-pill-btn {
-  font-size: 0.78rem;
+.reader-footer .audio-autoscroll-btn {
+  font-size: 0.72rem;
   font-family: inherit;
-  font-weight: 600;
-  padding: 0.35rem 0.65rem;
+  font-weight: 700;
+  padding: 4px 8px;
   border-radius: 999px;
   background: transparent;
   color: var(--fg);
   border: 1px solid var(--border);
   cursor: pointer;
-  transition: all 140ms ease;
   white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 140ms ease;
 }
-.reader-pill-btn:hover {
-  border-color: var(--gold);
-}
-.reader-pill-btn.is-active {
+.reader-footer .audio-autoscroll-btn.is-active {
   background: var(--gold);
   color: #101613;
   border-color: var(--gold);
 }
-.reader-audio-row-bottom {
+.reader-footer .audio-speed-btn {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 3px 6px;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--dim);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.reader-footer .nav-section-btn {
+  color: var(--gold);
+  min-width: 36px;
+  min-height: 36px;
+  padding: 6px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.reader-footer .nav-section-btn.is-disabled {
+  opacity: 0.25;
+  cursor: default;
+  pointer-events: none;
+}
+.reader-footer .nav-section-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Desktop floating media capsule dock */
+@media (min-width: 960px) {
+  .reader-wrap {
+    padding-bottom: 120px !important;
+  }
+  .reader-footer {
+    left: 260px;
+    right: 0;
+    margin: 0 auto;
+    bottom: 24px;
+    width: fit-content;
+    min-width: 440px;
+    max-width: 620px;
+    border-radius: 9999px;
+    padding: 8px 24px;
+    gap: 16px;
+    background: var(--card);
+    border: 1.5px solid var(--gold);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4), 0 2px 8px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .reader-footer-progress {
+    border-radius: 9999px 9999px 0 0;
+  }
+}
+
+/* ---------- PWA Install Banners (Android & iOS) ---------- */
+#ios-banner, #android-banner {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  z-index: 100;
+  background: var(--card);
+  color: var(--fg);
+  border: 1.5px solid var(--gold);
+  border-radius: 14px;
+  padding: 12px 14px;
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 10px;
+  font-size: 0.88rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
 }
-.reader-audio-time {
-  font-size: 0.8rem;
-  font-variant-numeric: tabular-nums;
-  color: var(--dim);
-  min-width: 2.5rem;
+#ios-banner[hidden], #android-banner[hidden] {
+  display: none !important;
 }
-.reader-audio-time.end {
-  text-align: right;
-}
-.reader-progress-slider {
-  flex: 1;
-  -webkit-appearance: none;
-  appearance: none;
-  height: 6px;
-  border-radius: 3px;
-  background: var(--border);
-  outline: none;
+#ios-banner button, #android-banner button {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.3rem;
   cursor: pointer;
+  padding: 2px 8px;
+  flex-shrink: 0;
 }
-.reader-progress-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
+#android-banner .install-btn {
+  font-weight: 700;
+  font-size: 0.84rem;
   background: var(--gold);
+  color: #101613;
+  border-radius: 8px;
+  padding: 5px 14px !important;
+  margin-left: 6px;
   cursor: pointer;
-  border: 2px solid var(--card);
-}
-.reader-progress-slider::-moz-range-thumb {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: var(--gold);
-  cursor: pointer;
-  border: 2px solid var(--card);
 }
 
 .verse-card-head {
@@ -1764,10 +1893,14 @@ audio {
 /* ---------- Mobile Viewport Optimizations (< 480px, e.g. RedMagic 10 Pro) ---------- */
 @media (max-width: 480px) {
   main {
-    padding: 1.25rem 0.75rem 2.5rem;
+    padding: calc(12px + env(safe-area-inset-top, 0px)) 0.75rem 2.5rem;
+  }
+  body:not(.is-home) main {
+    padding-top: calc(14px + env(safe-area-inset-top, 0px));
   }
   .sub-nav-bar {
-    margin-bottom: 0.75rem;
+    padding-top: calc(10px + env(safe-area-inset-top, 0px));
+    margin-bottom: 0.85rem;
   }
   .menu-rows {
     gap: 0.45rem;
@@ -1812,14 +1945,6 @@ audio {
   }
   .verse-card {
     padding: 1rem 0.85rem 1rem;
-  }
-  .reader-audio-row-top {
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-  .reader-audio-controls {
-    width: 100%;
-    justify-content: flex-end;
   }
 }
 

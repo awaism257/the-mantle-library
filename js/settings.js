@@ -91,6 +91,27 @@
   // Apply immediately so content renders at the saved size on first paint.
   applyScale();
 
+  /* ------------------------------------------------ translation layers */
+
+  var LS_TRANSLATION = 'mantle-translation-layers';
+  var DEFAULT_TRANSLATION = {
+    modern: 'direct',
+    victorian: 'dropdown'
+  };
+  var translationDisplay = {
+    modern: DEFAULT_TRANSLATION.modern,
+    victorian: DEFAULT_TRANSLATION.victorian
+  };
+  try {
+    var savedT = JSON.parse(safeGet(LS_TRANSLATION) || '{}');
+    if (savedT.modern) translationDisplay.modern = savedT.modern;
+    if (savedT.victorian) translationDisplay.victorian = savedT.victorian;
+  } catch (e) {}
+
+  function saveTranslationDisplay() {
+    safeSet(LS_TRANSLATION, JSON.stringify(translationDisplay));
+  }
+
   /* ------------------------------------------------ public API (Settings page) */
 
   window.MantleSettings = {
@@ -105,6 +126,15 @@
       saveScale();
     },
     getTheme: function () { return root.classList.contains('light') ? 'light' : 'dark'; },
-    setTheme: setTheme
+    setTheme: setTheme,
+    getTranslationDisplay: function () {
+      return { modern: translationDisplay.modern, victorian: translationDisplay.victorian };
+    },
+    setTranslationLayer: function (layer, mode) {
+      if (layer === 'modern' || layer === 'victorian') {
+        translationDisplay[layer] = mode;
+        saveTranslationDisplay();
+      }
+    }
   };
 })();
