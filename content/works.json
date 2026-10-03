@@ -6065,6 +6065,34 @@
         {
           "heading": "The Celebrated Quatrain",
           "note": "The most famous lines of prophetic praise in Arabic — Ḥassān’s eyewitness description of the Prophet ﷺ.",
+          "audio": {
+            "file": "audio/hassan/hassan_celebrated_quatrain.mp3",
+            "title": "The Celebrated Quatrain (Wa Aḥsanu Minka)",
+            "artist": "Zaryab Najd (زرياب نجد)",
+            "duration": 28.6,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 10.4
+              },
+              {
+                "n": 2,
+                "start": 10.4,
+                "end": 17.0
+              },
+              {
+                "n": 3,
+                "start": 17.0,
+                "end": 25.0
+              },
+              {
+                "n": 4,
+                "start": 25.0,
+                "end": 28.6
+              }
+            ]
+          },
           "units": [
             {
               "ar": "وَأَحْسَنُ مِنْكَ لَمْ تَرَ قَطُّ عَيْنِي",
@@ -6091,6 +6119,39 @@
         {
           "heading": "The Defence from the Minbar",
           "note": "From Ṣaḥīḥ Muslim: Ḥassān’s answer, from the minbar set up for him in the mosque, to the poets of Quraysh who lampooned the Prophet ﷺ.",
+          "audio": {
+            "file": "audio/hassan/hassan_defence_minbar.mp3",
+            "title": "The Defence from the Minbar (Hajawta Muḥammadan)",
+            "artist": "Acoustic Recitation",
+            "duration": 27.86,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 5.08
+              },
+              {
+                "n": 2,
+                "start": 5.08,
+                "end": 10.92
+              },
+              {
+                "n": 3,
+                "start": 10.92,
+                "end": 16.52
+              },
+              {
+                "n": 4,
+                "start": 16.52,
+                "end": 22.36
+              },
+              {
+                "n": 5,
+                "start": 22.36,
+                "end": 27.86
+              }
+            ]
+          },
           "units": [
             {
               "ar": "هَجَوْتَ مُحَمَّدًا فَأَجَبْتُ عَنْهُ — وَعِنْدَ اللَّهِ فِي ذَاكَ الْجَزَاءُ",
@@ -6780,6 +6841,54 @@
         {
           "heading": "The Oath",
           "note": "A sworn elegy affirming that no woman ever bore the like of the Prophet ﷺ — poem 134 of the Dīwān, transmitted also in Ibn Hishām’s ﵀ al-Sīrah al-Nabawiyyah; verse 5 survives uniquely in the Dīwān recension.",
+          "audio": {
+            "file": "audio/hassan/hassan_the_oath.mp3",
+            "title": "The Oath (Ālaytu Ḥalfata Barrin)",
+            "artist": "Acoustic Recitation",
+            "duration": 55.94,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 6.5
+              },
+              {
+                "n": 2,
+                "start": 6.5,
+                "end": 13.5
+              },
+              {
+                "n": 3,
+                "start": 13.5,
+                "end": 20.5
+              },
+              {
+                "n": 4,
+                "start": 20.5,
+                "end": 27.5
+              },
+              {
+                "n": 5,
+                "start": 27.5,
+                "end": 34.0
+              },
+              {
+                "n": 6,
+                "start": 34.0,
+                "end": 41.5
+              },
+              {
+                "n": 7,
+                "start": 41.5,
+                "end": 48.5
+              },
+              {
+                "n": 8,
+                "start": 48.5,
+                "end": 55.94
+              }
+            ]
+          },
           "units": [
             {
               "ar": "آلَيْتُ حَلْفَةَ بَرٍّ غَيْرَ ذِي دَخْلٍ — مِنِّي آلِيَّةُ بَرٍّ غَيْرِ إِفْنَادِ",
@@ -6826,6 +6935,49 @@
         {
           "heading": "The Years in Makkah",
           "note": "A retrospective on the Prophet’s ﷺ life, probably composed after his death — poem 19 of the dīwān, ending with the confession of faith in verse. Much of it is also ascribed to Abū Qays ibn Ṣirma.",
+          "audio": {
+            "file": "audio/hassan/hassan_years_in_makkah.mp3",
+            "title": "The Years in Makkah (Nawā bi-Makkata)",
+            "artist": "Acoustic Recitation",
+            "duration": 42.05,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 6.5
+              },
+              {
+                "n": 2,
+                "start": 6.5,
+                "end": 12.8
+              },
+              {
+                "n": 3,
+                "start": 12.8,
+                "end": 18.4
+              },
+              {
+                "n": 4,
+                "start": 18.4,
+                "end": 24.3
+              },
+              {
+                "n": 5,
+                "start": 24.3,
+                "end": 30.1
+              },
+              {
+                "n": 6,
+                "start": 30.1,
+                "end": 36.4
+              },
+              {
+                "n": 7,
+                "start": 36.4,
+                "end": 42.05
+              }
+            ]
+          },
           "units": [
             {
               "ar": "نَوَى بِمَكَّةَ بِضْعَ عَشَرَةَ حِجَّةً — يُذَكِّرُ لَوْ يَلْقَى خَلِيلًا مُؤَاتِيًا",
