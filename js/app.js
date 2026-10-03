@@ -1638,5 +1638,16 @@
     e.preventDefault();
   });
 
+  /* ================= Native Android App Detection ================= */
+  function detectNativeEnvironment() {
+    try {
+      if (typeof window.AndroidBridge !== 'undefined') {
+        document.documentElement.classList.add('is-native-android');
+      }
+    } catch (e) {}
+  }
+  detectNativeEnvironment();
+  window.addEventListener('DOMContentLoaded', detectNativeEnvironment);
+
   maybeShowIOSBanner();
 })();
