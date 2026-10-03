@@ -67,7 +67,7 @@
       currentBookCleanup = null;
     }
     window.MantleBook = null;
-    appEl.classList.remove('is-book');
+    appEl.className = 'view';
     // Tell the native shell the paged reader is closed and nothing is playing.
     nativeCall('onReaderState', false);
     nativeCall('onAudioState', false);

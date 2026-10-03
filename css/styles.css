@@ -2226,12 +2226,14 @@ html.is-native-android .site-footer {
   body:not(.is-home) main {
     padding-top: 0;
   }
-  body.is-home #app {
+  body.is-home #app,
+  body.is-home .reader-wrap {
     flex: 1;
     min-height: 0;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    padding-bottom: 0 !important;
   }
   body.is-home .view-header {
     flex: 0 0 auto;
