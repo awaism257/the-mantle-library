@@ -143,7 +143,7 @@
      use on their home screens. */
   var ROW_ICONS = {
     'dalail-al-khayrat': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>',
-    'al-sirah-al-nabawiyyah': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 21V10a8 8 0 0 1 16 0v11"/><path d="M2 21h20"/><path d="M12 2v4"/><path d="M9 21v-6a3 3 0 0 1 6 0v6"/></svg>',
+    'al-sirah-al-nabawiyyah': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 2v3"/><path d="M12 5c-3.5 0-6 3-6 6.5V20h12v-8.5C18 8 15.5 5 12 5z"/><path d="M3 20h18"/><path d="M10 20v-5a2 2 0 0 1 4 0v5"/><circle cx="12" cy="2" r="0.5" fill="currentColor"/></svg>',
     'banat-suad': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><path d="M16 8L2 22"/><path d="M17.5 15H9"/></svg>',
     'tala-al-badru': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="11" r="7.5"/><path d="M9.5 8.5h.01"/><path d="M14.5 10h.01"/><path d="M10 13.5h.01"/><path d="M4 21h16"/></svg>',
     'hassan-poems': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 13h6"/><path d="M9 17h6"/></svg>',
@@ -457,9 +457,9 @@
     var workRows = el('ul', { class: 'menu-rows', id: 'work-rows' });
     appEl.appendChild(workRows);
 
-    // Featured landscape card (the narrated audiobook) sits above the grid.
+    // Sīrah landscape card (the narrated audiobook) sits directly above the Historic Recordings card
     var featuredCardContainer = el('div', { id: 'featured-card-container' });
-    appEl.insertBefore(featuredCardContainer, workRows);
+    appEl.appendChild(featuredCardContainer);
 
     // Landscape card container for the Historic Gramophone Archive
     var archiveCardContainer = el('div', { id: 'archive-card-container' });
@@ -494,11 +494,11 @@
       el('a', {
         class: 'archive-card-link',
         href: href,
-        'aria-label': work.title_en + ' — narrated audiobook'
+        'aria-label': work.title_en + ' — narrated audiobook in 12 chapters'
       }, [
         el('span', { class: 'archive-card-icon', html: rowIcon(work.id) }),
         el('span', { class: 'archive-card-text' }, [
-          el('span', { class: 'featured-badge', text: '🎧 Narrated Audiobook · Chapter 1 now available' }),
+          el('span', { class: 'featured-badge', text: 'Narrated Audiobook · 12 Chapters' }),
           el('span', { class: 'archive-card-title', text: t.main }),
           t.gloss ? el('span', { class: 'archive-card-gloss', text: t.gloss }) : null,
           el('span', { class: 'archive-card-sub', lang: 'ar', dir: 'rtl', text: work.title_ar })
@@ -883,10 +883,14 @@
       victorianNodes.push(block);
     });
 
+    var ICON_TAB_STORY = '<svg class="book-tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>';
+    var ICON_TAB_ARABIC = '<svg class="book-tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><line x1="10" y1="8" x2="16" y2="8"/><line x1="9" y1="12" x2="16" y2="12"/></svg>';
+    var ICON_TAB_VICTORIAN = '<svg class="book-tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16"/><path d="M6 18v-9"/><path d="M10 18v-9"/><path d="M14 18v-9"/><path d="M18 18v-9"/><path d="M4 9h16L12 3z"/></svg>';
+
     var defs = [
-      { key: 'story', label: '📖 English Story', nodes: storyNodes, rtl: false },
-      { key: 'arabic', label: '📜 Classical Arabic', nodes: arabicNodes, rtl: true },
-      { key: 'victorian', label: '🏛️ Victorian Source', nodes: victorianNodes, rtl: false }
+      { key: 'story', label: 'English Story', icon: ICON_TAB_STORY, nodes: storyNodes, rtl: false },
+      { key: 'arabic', label: 'Classical Arabic', icon: ICON_TAB_ARABIC, nodes: arabicNodes, rtl: true },
+      { key: 'victorian', label: 'Victorian Source', icon: ICON_TAB_VICTORIAN, nodes: victorianNodes, rtl: false }
     ].filter(function (d) { return d.nodes.length > 0; });
 
     var panes = {};
@@ -920,9 +924,12 @@
         class: 'book-tab',
         type: 'button',
         role: 'tab',
-        'aria-controls': 'book-pane-' + d.key,
-        text: d.label
-      });
+        id: 'book-tab-' + d.key,
+        'aria-controls': 'book-pane-' + d.key
+      }, [
+        el('span', { class: 'book-tab-icon-wrap', html: d.icon }),
+        el('span', { class: 'book-tab-label', text: d.label })
+      ]);
       b.addEventListener('click', function () { selectTab(d.key); });
       tabBtns[d.key] = b;
       tabs.appendChild(b);
@@ -1722,6 +1729,10 @@
   }
 
   function unitCountLabel(section) {
+    if (Array.isArray(section.story) && section.story.length > 0) {
+      var pCount = section.story.length;
+      return pCount + ' ' + (pCount === 1 ? 'paragraph' : 'paragraphs') + ' · 3-tab reader';
+    }
     var units = Array.isArray(section.units) ? section.units : [];
     var numbered = units.some(function (u) { return u.n != null; });
     var noun = numbered ? 'verse' : 'passage';

@@ -39,16 +39,15 @@
 @font-face {
   font-family: 'Amiri Quran';
   src: local('Amiri Quran'),
-       local('AmiriQuran'),
-       url('../fonts/AmiriQuran.ttf') format('truetype');
+       local('AmiriQuran');
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Noto Naskh';
-  src: local('Noto Naskh'),
-       local('NotoNaskh'),
-       url('../fonts/NotoNaskh.ttf') format('truetype');
+  src: local('Noto Naskh Arabic'),
+       local('Noto Naskh'),
+       local('NotoNaskh');
   font-display: swap;
 }
 
@@ -2582,40 +2581,57 @@ html.is-native-android .site-footer {
 /* ---------- Featured landscape card: the narrated Sīrah audiobook (Home) ---------- */
 
 .featured-card {
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
 }
 .featured-card .archive-card-link {
-  border: 1.5px solid var(--gold);
-  background: linear-gradient(135deg, rgba(214, 174, 94, 0.15), rgba(36, 90, 62, 0.28));
-  box-shadow: 0 4px 18px var(--shadow), 0 0 14px rgba(214, 174, 94, 0.14);
+  border: 1.5px solid rgba(214, 174, 94, 0.38);
+  background: linear-gradient(135deg, rgba(214, 174, 94, 0.08) 0%, rgba(20, 52, 38, 0.42) 100%);
+  box-shadow: 0 4px 18px var(--shadow), 0 0 14px rgba(214, 174, 94, 0.10);
+  transition: border-color 180ms ease, box-shadow 180ms ease, background 180ms ease;
 }
 html.light .featured-card .archive-card-link {
-  background: linear-gradient(135deg, rgba(146, 112, 44, 0.14), rgba(36, 90, 62, 0.10));
+  border: 1.5px solid rgba(146, 112, 44, 0.32);
+  background: linear-gradient(135deg, rgba(214, 174, 94, 0.10) 0%, rgba(36, 90, 62, 0.08) 100%);
 }
 .featured-card .archive-card-link:hover {
-  background: linear-gradient(135deg, rgba(214, 174, 94, 0.22), rgba(36, 90, 62, 0.34));
+  border-color: var(--gold);
+  box-shadow: 0 6px 24px var(--shadow), 0 0 18px rgba(214, 174, 94, 0.20);
+  background: linear-gradient(135deg, rgba(214, 174, 94, 0.14) 0%, rgba(20, 52, 38, 0.52) 100%);
 }
 .featured-card .archive-card-icon {
-  background: var(--gold);
-  color: #101613;
+  background: rgba(214, 174, 94, 0.10);
+  border: 1.5px solid var(--gold);
+  color: var(--gold);
+  box-shadow: inset 0 0 8px rgba(214, 174, 94, 0.14);
+}
+.featured-card .archive-card-link:hover .archive-card-icon {
+  background: rgba(214, 174, 94, 0.18);
+  color: #f3dfa2;
 }
 .featured-card .archive-card-title {
-  font-size: 1.2rem;
+  font-size: 1.22rem;
 }
 .featured-badge {
+  display: inline-flex;
+  align-items: center;
   align-self: flex-start;
   font-family: var(--sans-ui);
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  line-height: 1.4;
-  color: #101613;
-  background: var(--gold);
-  padding: 0.16rem 0.6rem;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1.3;
+  color: var(--gold);
+  background: rgba(214, 174, 94, 0.12);
+  border: 1px solid rgba(214, 174, 94, 0.32);
+  padding: 0.18rem 0.55rem;
   border-radius: 9999px;
+  margin-bottom: 0.15rem;
 }
 html.light .featured-badge {
-  color: #fff;
+  color: #8c6519;
+  background: rgba(146, 112, 44, 0.10);
+  border-color: rgba(146, 112, 44, 0.28);
 }
 
 /* ---------- Book Mode: paged reader (CSS multi-columns, JustQuran-style) ---------- */
@@ -2644,15 +2660,20 @@ html.light .featured-badge {
 }
 .book-tabs {
   display: flex;
-  gap: 0.4rem;
-  margin-bottom: 0.6rem;
+  gap: 0.45rem;
+  margin-bottom: 0.75rem;
 }
 .book-tab {
   flex: 1 1 0;
   min-width: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.38rem;
   font-family: var(--sans-ui);
   font-size: 0.8rem;
-  padding: 0.5rem 0.3rem;
+  font-weight: 500;
+  padding: 0.48rem 0.4rem;
   border: 1px solid var(--border);
   border-radius: 9999px;
   background: var(--card);
@@ -2660,13 +2681,30 @@ html.light .featured-badge {
   cursor: pointer;
   white-space: nowrap;
   overflow: hidden;
+  transition: all 160ms ease;
+}
+.book-tab-icon-wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.book-tab-icon {
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.book-tab-label {
+  overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .book-tab.is-active {
   border-color: var(--gold);
-  color: var(--fg);
-  background: rgba(214, 174, 94, 0.14);
-  font-weight: 700;
+  color: var(--gold);
+  background: rgba(214, 174, 94, 0.12);
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(214, 174, 94, 0.12);
 }
 .book-tab:focus-visible,
 .book-page-btn:focus-visible,

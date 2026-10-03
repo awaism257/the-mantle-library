@@ -4566,7 +4566,7 @@
       "title_en": "The Life of the Prophet (Al-Sīrah al-Nabawiyyah)",
       "author": "Narrated from Rehatsek’s 1893 translation of Mīrkhwānd, with Ibn Hishām",
       "author_dates": "Classical Sīrah Tradition",
-      "description_en": "The foundational biography of the Messenger of Allah ﷺ, told as a flowing story across three readings: a dignified modern English retelling with a narrated audiobook, the authenticated classical Arabic, and the original Victorian text of Edward Rehatsek (1893) preserved verbatim.",
+      "description_en": "A comprehensive 12-chapter chronological biography of the Final Messenger ﷺ, presented in Book Mode with three reading perspectives: a reverent English retelling, authenticated Classical Arabic, and Edward Rehatsek's verbatim 1893 Victorian translation of Rauzat-us-Safa ('The Garden of Purity'), accompanied by a full synchronized audiobook.",
       "source_en": "Victorian source: Edward Rehatsek, trans., The Rauzat-us-Safa (Mīrkhwānd), Part II, Vol. I, ed. F. F. Arbuthnot, Royal Asiatic Society, London, 1893 (public domain; Internet Archive). Arabic: Ibn Hishām, Sīrat Rasūl Allāh; Ṣaḥīḥ Muslim; Qur’ān. English story and narration: The Mantle Library.",
       "sections": [
         {
@@ -4575,69 +4575,69 @@
           "layout": "book",
           "audio": {
             "file": "audio/sirah/sirah_chapter_01.mp3",
-            "title": "Chapter 1: The Blessed Ancestry",
+            "title": "The Blessed Ancestry & The Year of the Elephant",
             "artist": "Narrated Audiobook — The Mantle Library",
-            "duration": 440.68,
+            "duration": 518.97,
             "timestamps": [
               {
                 "n": 1,
                 "start": 0.0,
-                "end": 42.74
+                "end": 50.57
               },
               {
                 "n": 2,
-                "start": 43.49,
-                "end": 58.45
+                "start": 51.32,
+                "end": 68.84
               },
               {
                 "n": 3,
-                "start": 59.2,
-                "end": 80.92
+                "start": 69.59,
+                "end": 92.75
               },
               {
                 "n": 4,
-                "start": 81.67,
-                "end": 133.07
+                "start": 93.5,
+                "end": 154.72
               },
               {
                 "n": 5,
-                "start": 133.82,
-                "end": 177.1
+                "start": 155.47,
+                "end": 207.19
               },
               {
                 "n": 6,
-                "start": 177.85,
-                "end": 223.11
+                "start": 207.94,
+                "end": 260.45
               },
               {
                 "n": 7,
-                "start": 223.86,
-                "end": 262.43
+                "start": 261.2,
+                "end": 309.32
               },
               {
                 "n": 8,
-                "start": 263.18,
-                "end": 291.95
+                "start": 310.07,
+                "end": 345.88
               },
               {
                 "n": 9,
-                "start": 292.7,
-                "end": 341.9
+                "start": 346.63,
+                "end": 400.61
               },
               {
                 "n": 10,
-                "start": 342.65,
-                "end": 386.89
+                "start": 401.36,
+                "end": 454.49
               },
               {
                 "n": 11,
-                "start": 387.64,
-                "end": 416.99
+                "start": 455.24,
+                "end": 490.57
               },
               {
                 "n": 12,
-                "start": 417.74,
-                "end": 440.68
+                "start": 491.32,
+                "end": 518.97
               }
             ]
           },
@@ -4725,6 +4725,1326 @@
             }
           ],
           "victorian_note": "Verbatim excerpts, in Edward Rehatsek’s original 1893 spelling, from his translation of Mīrkhwānd’s Persian chronicle Rauzat-us-Safa (‘The Garden of Purity’), Part II, Vol. I, ed. F. F. Arbuthnot (Royal Asiatic Society, London). Omissions are marked […]; only evident scanning errors have been corrected. Rehatsek’s pedigree is abbreviated: the Story and Arabic follow Ibn Hishām’s fuller chain."
+        },
+        {
+          "heading": "Chapter 2: The Blessed Birth & Desert Childhood",
+          "layout": "book",
+          "note": "The nativity in Rabīʿ al-Awwal 570 CE, desert nursing under Ḥalīmah al-Saʿdiyyah, passing of Āminah and ʿAbd al-Muṭṭalib, and loving care of Abū Ṭālib.",
+          "story_note": "A faithful modern retelling of the early childhood and desert rearing of the Prophet ﷺ among the Banū Saʿd, harmonizing the authentic traditions with the Victorian source.",
+          "arabic_note": "Authentic vocalized transmissions from Ṣaḥīḥ Muslim and Sīrat Ibn Hishām recording the Prophet’s recollection of his blessed birth and childhood.",
+          "victorian_note": "Verbatim excerpts from Edward Rehatsek’s 1893 translation of Mīrkhwānd’s Rauzat-us-Safa, Part II, Vol. I, pages 86–118.",
+          "story": [
+            "In the sacred city of Makkah, in the celebrated Year of the Elephant, the radiant dawn of the twelfth day of Rabīʿ al-Awwal bore witness to the birth of the final Messenger of Allah, Muḥammad ﷺ. His mother, Sayyidah Āminah bint Wahb, had experienced neither travail nor weariness during her pregnancy, beholding in true visions a brilliant celestial light that shone forth from her and illuminated the palaces of Buṣrā in distant Syria.",
+            "Upon his birth, word was brought in haste to his venerable grandfather, ʿAbd al-Muṭṭalib, who was then seated in the holy precinct of the Kaʿbah. The elder chief hurried to the chamber of Āminah with boundless joy, took the newborn child tenderly in his arms, and carried him into the sacred sanctuary to offer prayers of praise and thanksgiving to Allah.",
+            "When the noblemen of Quraysh gathered for the child's seventh-day celebration, they inquired of ʿAbd al-Muṭṭalib regarding the unusual name he had chosen for his grandson. He answered with quiet conviction: 'I have named him Muḥammad, so that he may be praised by Allah in the heavens and praised by mankind upon the earth.'",
+            "It was the ancient custom of the Makkan aristocracy to entrust their nursing infants to the care of bedouin foster-mothers in the pure desert air, far from the stifling heat and ailments of the town. There, children acquired robust constitutions, physical agility, and the pristine, uncorrupted Arabic eloquence of the nomadic tribes.",
+            "In that season of severe drought and hardship, a convoy of women from the desert tribe of Banū Saʿd arrived in Makkah seeking foster children. Among them was Ḥalīmah al-Saʿdiyyah, who rode upon a weak, emaciated she-ass and whose own infant cried from hunger because her breasts yielded scarcely any milk.",
+            "Every foster-mother in the caravan had initially bypassed the young orphan Muḥammad ﷺ, fearing that a child without a living father would yield little remuneration. Reluctant to return to her tribe empty-handed while her companions carried thriving infants, Ḥalīmah returned to Āminah and took the blessed child into her embrace.",
+            "No sooner had Ḥalīmah clasped the infant to her bosom than an immediate, miraculous blessing descended upon her household. Her breasts flowed abundantly with rich milk, satisfying both the young Prophet ﷺ and her own son, who fell into a deep and tranquil slumber for the first time in many weeks.",
+            "When Ḥalīmah returned home, her barren she-camels yielded overflowing vessels of fresh milk morning and evening, while her pastures turned lush and fertile amidst the barren wasteland. For four years, the young Muḥammad ﷺ flourished under the wide, starry skies of the desert, growing with exceptional grace, beauty, and wisdom beyond his years.",
+            "During this childhood in the desert occurred the miraculous cleansing of his blessed chest (Shaqq al-Ṣadr). While playing with his foster-brother in the pasture, the Archangel Jibrīl ؑ appeared, opened his chest, removed from his heart a small dark clot, washed the heart with cool Zamzam water in a golden vessel, and sealed it with the fragrant seal of divine protection.",
+            "Deeply awed and fearing for the boy's safety, Ḥalīmah returned the six-year-old child to his loving mother Āminah in Makkah. Soon after, Āminah journeyed with her son to Yathrib to visit the grave of his father ʿAbdullāh. On the return journey across the rugged sands, she fell gravely ill and passed away at al-Abwāʾ, leaving the young boy in the tender care of his maidservant Umm Ayman.",
+            "The grief-stricken orphan was received into the loving arms of his grandfather ʿAbd al-Muṭṭalib, who cherished him above all his own sons, refusing to sit on his customary rug in the shade of the Kaʿbah unless the boy sat beside him. Yet two years later, when the Prophet ﷺ was eight years of age, ʿAbd al-Muṭṭalib also departed this fleeting world.",
+            "On his deathbed, ʿAbd al-Muṭṭalib bequeathed the guardianship of the blessed child to his full uncle, Abū Ṭālib. Though possessing modest means and a large household, Abū Ṭālib opened his home and heart, shielding, nurturing, and honoring his beloved nephew with unflinching devotion for the next forty years."
+          ],
+          "arabic": [
+            {
+              "label": "Ṣaḥīḥ Muslim — The Opening of the Blessed Chest",
+              "ref": "Ṣaḥīḥ Muslim, Kitāb al-Īmān (Hadith 162)",
+              "text": "عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَتَاهُ جِبْرِيلُ عَلَيْهِ السَّلَامُ وَهُوَ يَلْعَبُ مَعَ الْغِلْمَانِ، فَأَخَذَهُ فَصَرَعَهُ، فَشَقَّ عَنْ قَلْبِهِ، فَاسْتَخْرَجَ الْقَلْبَ، فَاسْتَخْرَجَ مِنْهُ عَلَقَةً، فَقَالَ: هَذَا حَظُّ الشَّيْطَانِ مِنْكَ. ثُمَّ غَسَلَهُ فِي طَسْتٍ مِنْ ذَهَبٍ بِمَاءِ زَمْزَمَ، ثُمَّ لَأَمَهُ، ثُمَّ أَعَادَهُ فِي مَكَانِهِ.\n\nوَجَاءَ الْغِلْمَانُ يَسْعَوْنَ إِلَى أُمِّهِ — يَعْنِي ظِئْرَهُ — فَقَالُوا: إِنَّ مُحَمَّدًا قَدْ قُتِلَ! فَاسْتَقْبَلُوهُ وَهُوَ مُنْتَقِعُ اللَّوْنِ. قَالَ أَنَسٌ: وَقَدْ كُنْتُ أَرَى أَثَرَ ذَلِكَ الْمِخْيَطِ فِي صَدْرِهِ."
+            },
+            {
+              "label": "Musnad Aḥmad — The Prophetic Dawn",
+              "ref": "Musnad al-Imām Aḥmad, Musnad al-Shāmiyyīn (Hadith 17163)",
+              "text": "عَنِ الْعِرْبَاضِ بْنِ سَارِيَةَ رَضِيَ اللَّهُ عَنْهُ، عَنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنَّهُ قَالَ: «إِنِّي عِنْدَ اللَّهِ لَمَكْتُوبٌ بِخَاتَمِ النَّبِيِّينَ، وَإِنَّ آدَمَ لَمُنْجَدِلٌ فِي طِينَتِهِ، وَسَأُنَبِّئُكُمْ بِأَوَّلِ ذَلِكَ: دَعْوَةُ أَبِي إِبْرَاهِيمَ، وَبِشَارَةُ عِيسَى بِي، وَرُؤْيَا أُمِّي الَّتِي رَأَتْ حِينَ وَلَدَتْنِي أَنَّهُ خَرَجَ مِنْهَا نُورٌ أَضَاءَتْ لَهُ قُصُورُ الشَّامِ»."
+            }
+          ],
+          "victorian": [
+            {
+              "text": "The happy birth of Muhammad, and explanation of some of the events which took place during that night. […] It is on record that Aminah, the daughter of Wahb, said: ‘When I had given birth to Muhammad, I perceived a light issuing from him, which was so brilliant that it illuminated the castles of Syria, so that I was able to see them from Mekkah.’",
+              "ref": "p. 86"
+            },
+            {
+              "text": "When the venerable A’bd-ul-Muttalleb was informed of the nativity of his grandson, he came with all haste to the house of Aminah, took the blessed babe into his arms, kissed him, and carried him to the Ka’bah, where he offered thanksgivings and praises to the Boundless Sovereign for this great favour.",
+              "ref": "p. 91"
+            },
+            {
+              "text": "The suckling of Muhammad, his being carried by Halimah to the tribe Bani Sa’ad, and the curious things which happened. […] Halimah says: ‘When I took Muhammad to my breast, milk began to flow immediately in such abundance that both he and my own son were satiated, and slept comfortably; which had not been the case during the whole journey on account of the scarcity of milk.’",
+              "ref": "p. 104–105"
+            },
+            {
+              "text": "Scission of the breast of that prince of exalted nature. […] Jebrail approached him whilst he was playing with the other children, laid him on the ground, opened his breast, took out his heart, washed it in a vessel of gold with water of Zamzam, extracted the share of Satan, and restored it pure to its place.",
+              "ref": "p. 112–113"
+            },
+            {
+              "text": "Record of the decease of Aminah at al-Abwa, and of A’bd-ul-Muttalleb, and the taking away of Muhammad by Abu Taleb. […] Abu Taleb loved him with a love that surpassed the affection he bore to his own sons. He would never allow him to be separated from him, and kept him under his personal protection night and day.",
+              "ref": "p. 116–118"
+            }
+          ],
+          "audio": {
+            "file": "audio/sirah/sirah_chapter_02.mp3",
+            "title": "The Blessed Birth & Desert Childhood",
+            "artist": "Narrated Audiobook — The Mantle Library",
+            "duration": 268.53,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 27.62
+              },
+              {
+                "n": 2,
+                "start": 28.37,
+                "end": 49.81
+              },
+              {
+                "n": 3,
+                "start": 50.56,
+                "end": 69.8
+              },
+              {
+                "n": 4,
+                "start": 70.55,
+                "end": 90.31
+              },
+              {
+                "n": 5,
+                "start": 91.06,
+                "end": 110.18
+              },
+              {
+                "n": 6,
+                "start": 110.93,
+                "end": 131.89
+              },
+              {
+                "n": 7,
+                "start": 132.64,
+                "end": 152.22
+              },
+              {
+                "n": 8,
+                "start": 152.97,
+                "end": 175.91
+              },
+              {
+                "n": 9,
+                "start": 176.66,
+                "end": 199.15
+              },
+              {
+                "n": 10,
+                "start": 199.9,
+                "end": 224.77
+              },
+              {
+                "n": 11,
+                "start": 225.52,
+                "end": 247.81
+              },
+              {
+                "n": 12,
+                "start": 248.56,
+                "end": 268.53
+              }
+            ]
+          }
+        },
+        {
+          "heading": "Chapter 3: Youth, The Trustworthy (Al-Amīn), & Marriage to Khadījah ؓ",
+          "layout": "book",
+          "note": "The journey to Syria and monk Baḥīrā, Ḥilf al-Fuḍūl, marriage to Sayyidah Khadījah ؓ, and the arbitration of the Black Stone.",
+          "story_note": "A faithful retelling of the youthful integrity of the Prophet ﷺ, his earning of the titles Al-Ṣādiq and Al-Amīn, his blessed marriage, and the peaceful resolution of the Black Stone dispute.",
+          "arabic_note": "Classical transmissions from Ibn Hishām documenting the Pact of the Virtuous and the rebuilding of the Kaʿbah.",
+          "victorian_note": "Verbatim excerpts from Edward Rehatsek’s Rauzat-us-Safa, Part II, Vol. I, pages 119–134.",
+          "story": [
+            "As the young Muḥammad ﷺ grew into adolescence under the guardianship of his uncle Abū Ṭālib, he was universally recognized for his impeccable character, gentle demeanor, and stainless purity of life. At the age of twelve, he accompanied Abū Ṭālib upon a merchant caravan bound for the markets of Syria.",
+            "When the Makkan caravan halted near the town of Buṣrā, they encamped beside the cell of a Christian hermit monk named Baḥīrā. The monk, who had observed the caravan from afar, noticed a small cloud providing constant shade above the young boy, and observed the branches of a withered tree bending downward to shield him when he sat beneath them.",
+            "Baḥīrā invited the merchants to an unprecedented banquet, carefully examining the countenance of the youthful traveler. Finding the physical tokens foretold in ancient scriptures, including the physical Seal of Prophethood between his shoulders, Baḥīrā urged Abū Ṭālib: 'Return with your nephew to his homeland and guard him well, for a magnificent destiny awaits this child.'",
+            "In his early twenties, the Prophet ﷺ bore witness to the celebrated alliance known as Ḥilf al-Fuḍūl (The Pact of the Virtuous). When a foreign merchant from Yemen was cheated of his goods by an influential Makkan chief, the righteous clans of Quraysh gathered in the house of ʿAbdullāh ibn Judʿān, swearing by Allah to defend any oppressed individual within Makkah, whether native or stranger, until justice was restored.",
+            "Years later, after the dawn of Islam, the Prophet ﷺ would fondly recall this noble pre-Islamic league, saying: 'I witnessed in the house of Ibn Judʿān a pact that is dearer to me than herds of red camels; and if I were summoned to it in Islam, I would readily answer.'",
+            "Throughout the bustling streets of Makkah, the young man became universally renowned by two revered honorifics: Al-Ṣādiq (The Truthful) and Al-Amīn (The Trustworthy). Citizens of every faction entrusted their dearest valuables and commercial undertakings to his unimpeachable honesty.",
+            "Among the most distinguished nobles of Quraysh was Sayyidah Khadījah bint Khuwaylid, a woman of great wealth, lineage, and immaculate virtue, widely known as Al-Ṭāhirah (The Pure One). Having heard of Muḥammad's ﷺ sublime integrity, she invited him to lead her trading caravan to Syria, offering double the customary fee and dispatching her loyal servant Maysarah to accompany him.",
+            "During the journey, Maysarah witnessed firsthand not only astonishing commercial success that doubled Khadījah's fortune, but also the Prophet's ﷺ sublime justice, gentle mercy, and uprightness in every transaction. Upon their return, Maysarah recounted to his mistress the miracles of grace and character he had observed.",
+            "Moved by his noble virtues, Khadījah dispatched her confidante Nafīsah bint Munabbih to convey a proposal of marriage. The Prophet ﷺ consulted his uncles Abū Ṭālib and Ḥamzah, who accompanied him to the household of Khadījah to solemnize the marriage. It was a union founded upon profound spiritual harmony, mutual reverence, and deep love that endured until Khadījah's passing twenty-five years later.",
+            "When the Prophet ﷺ was thirty-five years of age, a catastrophic flash flood swept through the ravine of Makkah, fracturing the foundation and stone walls of the Kaʿbah. The tribes of Quraysh united to rebuild the sacred sanctuary with unhewn stones and timber salvaged from a wrecked merchant ship at the port of Shuʿaybah.",
+            "When the walls rose to the level of the sacred Black Stone (al-Ḥajar al-Aswad), a fierce dispute erupted among the tribal chieftains. Each clan demanded the exclusive honor of raising the sacred stone into position, to the point where swords were drawn and an alliance sealed in blood threatened to engulf the sanctuary in war.",
+            "In that perilous moment, an elder named Abū Umayyah ibn al-Mughīrah suggested: 'Let the first man who enters through the gate of the sanctuary arbitrate between you.' When the gates opened, the blessed countenance of Muḥammad ﷺ appeared, and the assembled chiefs cried out in joy: 'Here is Al-Amīn! We accept his judgment!' Spreading his own mantle upon the earth, the Prophet ﷺ placed the stone upon it with his own hands, bade every clan chief take hold of the border of the cloth, and had them lift it together, before placing it into the masonry himself, preserving the peace of Arabia."
+          ],
+          "arabic": [
+            {
+              "label": "Sīrat Ibn Hishām — The Rebuilding of the Kaʿbah & The Black Stone",
+              "ref": "Ibn Hishām, Sīrat Rasūl Allāh, Vol. 1 — ‘Bunyān Quraysh al-Kaʿbah’",
+              "text": "فَلَمَّا بَلَغَ الْبُنْيَانُ مَوْضِعَ الرُّكْنِ، اخْتَلَفُوا فِيهِ، كُلُّ قَبِيلَةٍ تُرِيدُ أَنْ تَرْفَعَهُ إِلَى مَوْضِعِهِ دُونَ الْأُخْرَى، حَتَّى تَحَالَفُوا وَأَعَدُّوا لِلْقِتَالِ.\n\nفَقَالَ أَبُو أُمَيَّةَ بْنُ الْمُغِيرَةِ: يَا مَعْشَرَ قُرَيْشٍ، اجْعَلُوا بَيْنَكُمْ فِيمَا تَخْتَلِفُونَ فِيهِ أَوَّلَ مَنْ يَدْخُلُ مِنْ بَابِ هَذَا الْمَسْجِدِ يَقْضِي بَيْنَكُمْ. فَفَعَلُوا، فَكَانَ أَوَّلَ دَاخِلٍ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ.\n\nفَلَمَّا رَأَوْهُ قَالُوا: هَذَا الْأَمِينُ، رَضِينَا، هَذَا مُحَمَّدٌ. فَلَمَّا انْتَهَى إِلَيْهِمْ أَخْبَرُوهُ الْخَبَرَ، فَقَالَ: «هَلُمَّ إِلَيَّ ثَوْبًا»، فَأُتِيَ بِهِ، فَأَخَذَ الرُّكْنَ فَوَضَعَهُ فِيهِ بِيَدِهِ، ثُمَّ قَالَ: «لِتَأْخُذْ كُلُّ قَبِيلَةٍ بِنَاحِيَةٍ مِنَ الثَّوْبِ، ثُمَّ ارْفَعُوهُ جَمِيعًا»، فَفَعَلُوا، حَتَّى إِذَا بَلَغُوا بِهِ مَوْضِعَهُ، وَضَعَهُ هُوَ بِيَدِهِ الشَّرِيفَةِ، ثُمَّ بَنَى عَلَيْهِ."
+            },
+            {
+              "label": "Al-Bidāyah wan-Nihāyah — Ḥilf al-Fuḍūl",
+              "ref": "Ibn Kathīr, Al-Bidāyah wan-Nihāyah, Vol. 2",
+              "text": "قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «لَقَدْ شَهِدْتُ فِي دَارِ عَبْدِ اللَّهِ بْنِ جُدْعَانَ حِلْفًا مَا أُحِبُّ أَنَّ لِي بِهِ حُمْرَ النَّعَمِ، وَلَوْ أُدْعَى بِهِ فِي الْإِسْلَامِ لَأَجَبْتُ»."
+            }
+          ],
+          "victorian": [
+            {
+              "text": "Events from the thirteenth to the twenty-fifth year of his life. […] On arriving in the vicinity of the cell of the hermit Bahira, who was the model of the ascetics of that epoch, the monk threw a glance on the caravan and perceived that a little cloud of light was hovering over the head of the prophet, and moving as he moved.",
+              "ref": "p. 119–120"
+            },
+            {
+              "text": "Bahira examined his holy and prophetic lordship, and found in his countenance the signs and tokens of the mission of prophets. He also looked between his shoulders, and beheld the seal of prophecy. Then he said to Abu Taleb: ‘Return with this child to his country, and watch over him with the utmost care, for a great dignity is prepared for him.’",
+              "ref": "p. 121"
+            },
+            {
+              "text": "Events of the twenty-fifth year of his life: his going to Syria on commercial affairs, and Khodaijah’s being exalted by becoming associated with him. […] Khodaijah, daughter of Khowaylad, was a woman of great wealth and nobility. When she heard of the truthfulness, trustworthiness, and honesty of Muhammad, she sent for him and proposed that he should take charge of her merchandise.",
+              "ref": "p. 125"
+            },
+            {
+              "text": "Maysarah saw strange signs and wonders during the journey, and when they returned to Mekkah, the merchandise yielded a profit twofold greater than in previous years. Khodaijah was so deeply impressed by the purity and righteousness of his lordship that she sought him in marriage.",
+              "ref": "p. 127–128"
+            },
+            {
+              "text": "Events of the thirty-fifth year of his life: the reconstruction of the house of the Ka’bah. […] A great dispute having arisen among the chiefs of the Qoraish concerning the elevation of the black stone, they agreed to abide by the decision of the first person who should enter the door of the sanctuary. The first person who entered was his lordship Muhammad. When they saw him they exclaimed: ‘This is Al-Amin, the Trustworthy! We are content with his judgment!’",
+              "ref": "p. 131–134"
+            }
+          ],
+          "audio": {
+            "file": "audio/sirah/sirah_chapter_03.mp3",
+            "title": "Youth, The Trustworthy (Al-Amīn), & Marriage to Khadījah ؓ",
+            "artist": "Narrated Audiobook — The Mantle Library",
+            "duration": 284.25,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 20.64
+              },
+              {
+                "n": 2,
+                "start": 21.39,
+                "end": 41.5
+              },
+              {
+                "n": 3,
+                "start": 42.25,
+                "end": 65.08
+              },
+              {
+                "n": 4,
+                "start": 65.83,
+                "end": 91.91
+              },
+              {
+                "n": 5,
+                "start": 92.66,
+                "end": 109.63
+              },
+              {
+                "n": 6,
+                "start": 110.38,
+                "end": 128.31
+              },
+              {
+                "n": 7,
+                "start": 129.06,
+                "end": 154.04
+              },
+              {
+                "n": 8,
+                "start": 154.79,
+                "end": 176.23
+              },
+              {
+                "n": 9,
+                "start": 176.98,
+                "end": 204.43
+              },
+              {
+                "n": 10,
+                "start": 205.18,
+                "end": 225.49
+              },
+              {
+                "n": 11,
+                "start": 226.24,
+                "end": 245.29
+              },
+              {
+                "n": 12,
+                "start": 246.04,
+                "end": 284.25
+              }
+            ]
+          }
+        },
+        {
+          "heading": "Chapter 4: The Dawn of Revelation & Cave Ḥirāʾ",
+          "layout": "book",
+          "note": "Spiritual retreat in Cave Ḥirāʾ, descent of Archangel Jibrīl ؑ, the first revelation (Iqraʾ), and confirmation by Waraqah ibn Nawfal.",
+          "story_note": "A faithful retelling of the first descent of revelation upon Mount Ḥirāʾ in 610 CE, preserving the sublime dread, comfort of Khadījah ؓ, and ancient prophecies.",
+          "arabic_note": "Transmitted verbatim from the opening chapter of Ṣaḥīḥ al-Bukhārī (Badʾ al-Waḥy), narrated by Sayyidah ʿĀʾishah ؓ.",
+          "victorian_note": "Verbatim excerpts from Edward Rehatsek’s Rauzat-us-Safa, Part II, Vol. I, pages 135–149.",
+          "story": [
+            "As the Prophet Muḥammad ﷺ approached his fortieth year, an intense longing for solitude and contemplation settled upon his heart. Repelled by the idolatry, moral degradation, and tribal bloodshed of Makkan society, he sought seclusion in the desolate heights of Jabal al-Nūr (The Mountain of Light).",
+            "Atop this rugged mountain sat the narrow, tranquil grotto known as Cave Ḥirāʾ. Taking with him provisions of parched barley, dates, and fresh water prepared by his devoted wife Khadījah ؓ, the Prophet ﷺ would pass days and nights in unbroken devotion, worshipping Allah according to the pure monotheism of his forefather Ibrāhīm ؑ.",
+            "The initial signs of divine revelation commenced through true spiritual dreams. Every vision he beheld in his sleep transpired in his waking life with absolute precision, breaking upon the world with the crystalline clarity of the dawn.",
+            "Then, during the sacred month of Ramaḍān, on the blessed Night of Power (Laylat al-Qadr) in the year 610 CE, the veil between heaven and earth was rent asunder. In the solemn silence of the cave, the Archangel Jibrīl ؑ appeared in majestic splendor, commanding: 'Iqraʾ!' (Read!).",
+            "The Prophet ﷺ replied with profound humility: 'Mā anā bi-qāriʾ' (I am not one who reads). Thereupon, the angel seized him, embracing him with overwhelming intensity until he could endure no more, before releasing him and repeating: 'Read!'",
+            "A second and a third time the angel embraced him, pressing him with celestial might, before pronouncing the eternal words that inaugurated the final dispensation of heaven to earth: 'Read in the name of your Lord who created! Created man from a clinging clot. Read, and your Lord is the Most Generous, who taught by the pen, taught man that which he knew not.'",
+            "The celestial voice ceased, and the words were engraved indelibly upon the Prophet's ﷺ heart. Descending the steep slopes of Jabal al-Nūr, his heart throbbed with sacred dread, while every rock and tree upon the mountainside seemed to proclaim: 'Peace be upon you, O Messenger of Allah!'",
+            "Trembling with fever and awe, the Prophet ﷺ entered his home, crying out to his faithful wife: 'Zammilūnī! Zammilūnī!' (Wrap me! Wrap me!). Khadījah ؓ wrapped him tenderly in cloaks and sat beside him until the terror subsided.",
+            "The Prophet ﷺ recounted to her the majestic encounter, expressing apprehension for his own mortal frailties. But Khadījah ؓ, endowed with divine discernment and unfaltering certitude, comforted him with words that remain immortal in the annals of faith:",
+            "'Nay, by Allah! Allah will never disgrace you! For you uphold the ties of kinship, you bear the burdens of the weary, you provide for the destitute, you honor the guest, and you assist those afflicted by the vicissitudes of justice.'",
+            "Without delay, Khadījah ؓ guided her husband to her aged, blind cousin, Waraqah ibn Nawfal, an ascetic scholar who had renounced idol worship, embraced Christianity, and transcribed the ancient Hebrew scriptures with deep mastery.",
+            "Upon hearing the Prophet's ﷺ account of the encounter in Cave Ḥirāʾ, tears filled Waraqah's sightless eyes. He proclaimed: 'This is the very same Heavenly Archangel (Al-Nāmūs al-Akbar) that Allah sent down upon Mūsā! Would that I were a youth when your people drive you out!' The Prophet asked in wonder: 'Will they indeed drive me out?' Waraqah replied: 'Never has a man brought that which you bring without being met with enmity. If I live to see your day, I will support you with all my might.'"
+          ],
+          "arabic": [
+            {
+              "label": "Ṣaḥīḥ al-Bukhārī — The Beginning of Revelation",
+              "ref": "Ṣaḥīḥ al-Bukhārī, Badʾ al-Waḥy (Hadith 3)",
+              "text": "عَنْ عَائِشَةَ أُمِّ الْمُؤْمِنِينَ أَنَّهَا قَالَتْ: أَوَّلُ مَا بُدِئَ بِهِ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ مِنَ الْوَحْيِ الرُّؤْيَا الصَّالِحَةُ فِي النَّوْمِ، فَكَانَ لَا يَرَى رُؤْيَا إِلَّا جَاءَتْ مِثْلَ فَلَقِ الصُّبْحِ، ثُمَّ حُبِّبَ إِلَيْهِ الْخَلَاءُ، وَكَانَ يَخْلُو بِغَارِ حِرَاءٍ فَيَتَحَنَّثُ فِيهِ — وَهُوَ التَّعَبُّدُ — اللَّيَالِيَ ذَوَاتِ الْعَدَدِ قَبْلَ أَنْ يَنْزِعَ إِلَى أَهْلِهِ.\n\nحَتَّى جَاءَهُ الْحَقُّ وَهُوَ فِي غَارِ حِرَاءٍ، فَجَاءَهُ الْمَلَكُ فَقَالَ: اقْرَأْ، قَالَ: «مَا أَنَا بِقَارِئٍ»، قَالَ: «فَأَخَذَنِي فَغَطَّنِي حَتَّى بَلَغَ مِنِّي الْجَهْدَ ثُمَّ أَرْسَلَنِي»، فَقَالَ: اقْرَأْ، قُلْتُ: «مَا أَنَا بِقَارِئٍ»، فَأَخَذَنِي فَغَطَّنِي الثَّانِيَةَ حَتَّى بَلَغَ مِنِّي الْجَهْدَ ثُمَّ أَرْسَلَنِي، فَقَالَ: اقْرَأْ، فَقُلْتُ: «مَا أَنَا بِقَارِئٍ»، فَأَخَذَنِي فَغَطَّنِي الثَّالِثَةَ ثُمَّ أَرْسَلَنِي، فَقَالَ: {اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ . خَلَقَ الْإِنْسَانَ مِنْ عَلَقٍ . اقْرَأْ وَرَبُّكَ الْأَكْرَمُ . الَّذِي عَلَّمَ بِالْقَلَمِ . عَلَّمَ الْإِنْسَانَ مَا لَمْ يَعْلَمْ}.\n\nفَرَجَعَ بِهَا رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَرْجُفُ فُؤَادُهُ، فَدَخَلَ عَلَى خَدِيجَةَ بِنْتِ خُوَيْلِدٍ رَضِيَ اللَّهُ عَنْهَا فَقَالَ: «زَمِّلُونِي زَمِّلُونِي»، فَزَمَّلُوهُ حَتَّى ذَهَبَ عَنْهُ الرَّوْعُ."
+            },
+            {
+              "label": "Sūrat al-ʿAlaq — The First Revealed Verses",
+              "ref": "Qurʾān, Sūrat al-ʿAlaq (96:1–5)",
+              "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\n{اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ (1) خَلَقَ الْإِنْسَانَ مِنْ عَلَقٍ (2) اقْرَأْ وَرَبُّكَ الْأَكْرَمُ (3) الَّذِي عَلَّمَ بِالْقَلَمِ (4) عَلَّمَ الْإِنْسَانَ مَا لَمْ يَعْلَمْ (5)}"
+            }
+          ],
+          "victorian": [
+            {
+              "text": "The descent of the revelation, the coming of Gabriel, and his reciting the evident signs to Muhammad. […] When his lordship attained the age of forty years, he was accustomed to spend long intervals in solitude and prayer in the cave of Hira, which is a mountain at a distance of three miles from Mekkah.",
+              "ref": "p. 140"
+            },
+            {
+              "text": "One day Gabriel appeared unto him in his own celestial form and said: ‘Read!’ His lordship replied: ‘I am not one who reads.’ Gabriel then embraced him so closely that he could hardly bear it, and releasing him said a second and third time: ‘Read!’ Then he recited the words of the Holy Quran: ‘Read in the name of thy Lord who created! Created man from a drop of blood!’",
+              "ref": "p. 141–142"
+            },
+            {
+              "text": "His holy and prophetic lordship hastened home with a trembling heart and said to Khodaijah: ‘Wrap me up! Wrap me up!’ She wrapped him in a mantle, and when his agitation subsided, he narrated to her what had happened. Khodaijah replied: ‘Rejoice, and be of good cheer! By Him in whose hand is my soul, Allah will never disgrace thee, for thou art kind to thy relatives, speakest the truth, and relievest the distressed.’",
+              "ref": "p. 144"
+            },
+            {
+              "text": "Khodaijah then took him to Waraqah Bin Nawfal, who had read the Scriptures and was blind from old age. When Waraqah heard the tale, he said: ‘By the Lord, this is the very Namus [Gabriel] who descended upon Moses! Ah, would that I were young, and might live until thy people drive thee out!’ Muhammad said: ‘Will they drive me out?’ Waraqah answered: ‘Yes, for no man ever brought what thou hast brought without meeting with persecution.’",
+              "ref": "p. 146–147"
+            }
+          ],
+          "audio": {
+            "file": "audio/sirah/sirah_chapter_04.mp3",
+            "title": "The Dawn of Revelation & Cave Ḥirāʾ",
+            "artist": "Narrated Audiobook — The Mantle Library",
+            "duration": 250.77,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 20.3
+              },
+              {
+                "n": 2,
+                "start": 21.05,
+                "end": 44.93
+              },
+              {
+                "n": 3,
+                "start": 45.68,
+                "end": 59.92
+              },
+              {
+                "n": 4,
+                "start": 60.67,
+                "end": 81.35
+              },
+              {
+                "n": 5,
+                "start": 82.1,
+                "end": 99.48
+              },
+              {
+                "n": 6,
+                "start": 100.23,
+                "end": 122.43
+              },
+              {
+                "n": 7,
+                "start": 123.18,
+                "end": 141.85
+              },
+              {
+                "n": 8,
+                "start": 142.6,
+                "end": 163.63
+              },
+              {
+                "n": 9,
+                "start": 164.38,
+                "end": 182.59
+              },
+              {
+                "n": 10,
+                "start": 183.34,
+                "end": 199.11
+              },
+              {
+                "n": 11,
+                "start": 199.86,
+                "end": 216.04
+              },
+              {
+                "n": 12,
+                "start": 216.79,
+                "end": 250.77
+              }
+            ]
+          }
+        },
+        {
+          "heading": "Chapter 5: The Early Believers & The Call on Mount Ṣafā",
+          "layout": "book",
+          "note": "The earliest converts, gatherings in Dār al-Arqam, the open proclamation on Mount Ṣafā, and the early resistance of Quraysh.",
+          "story_note": "A faithful retelling of the clandestine dawn of the Muslim community, the steadfastness of the first four believers, and the historic open summons upon Mount Ṣafā.",
+          "arabic_note": "Authentic vocalized transmissions from Ṣaḥīḥ al-Bukhārī recording the open warning of the Prophet ﷺ upon Mount Ṣafā.",
+          "victorian_note": "Verbatim excerpts from Edward Rehatsek’s Rauzat-us-Safa, Part II, Vol. I, pages 149–165.",
+          "story": [
+            "Following the initial revelation in Cave Ḥirāʾ, the sacred call to Islam commenced quietly and discreetly. The very first human soul to believe in the Messenger of Allah was his devoted wife, Sayyidah Khadījah ؓ, who had embraced his truthfulness without a moment of doubt.",
+            "Among the youth, his cousin ʿAlī ibn Abī Ṭālib—then a boy of ten years residing under the Prophet's ﷺ guardian roof—beheld the Prophet and Khadījah performing the sacred prayer. When informed of the divine message, ʿAlī embraced Islam immediately, becoming the first youth to accept the faith.",
+            "He was soon followed by Zayd ibn Ḥārithah, the beloved freedman whom the Prophet ﷺ had raised and treated as his own son. Among adult free men outside the domestic household, the first to embrace Islam was his closest and most trusted friend, Abū Bakr ibn Abī Quḥāfah.",
+            "Abū Bakr was a wealthy, universally revered merchant, renowned throughout Makkah for his genealogical knowledge, integrity, and gentle counsel. With immense zeal, Abū Bakr invited his intimate circle of noble friends, swiftly bringing into the fold giants of the faith: ʿUthmān ibn ʿAffān, al-Zubayr ibn al-ʿAwwām, ʿAbd al-Raḥmān ibn ʿAwf, Saʿd ibn Abī Waqqāṣ, and Ṭalḥah ibn ʿUbaydillāh.",
+            "For three years, the nascent believers gathered secretly in the secluded residence of al-Arqam ibn Abī al-Arqam near Mount Ṣafā. Within Dār al-Arqam, the Prophet ﷺ recited newly revealed verses of the Qurʾān, inculcated spiritual purification, and instructed his companions in prayer and moral brotherhood, while avoiding open confrontation with the idolaters.",
+            "Then, the divine mandate for public proclamation was revealed: 'And warn your closest kin' (Wa andhir ʿashīrataka al-aqrabīn), followed by 'Proclaim openly that which you are commanded, and turn away from the polytheists.'",
+            "In obedience to the divine command, the Prophet ﷺ ascended the rocky crest of Mount Ṣafā, calling out with the traditional cry of alarm: 'Yā Ṣabāḥāh!' (A danger threatens your morning!). The clans of Quraysh hurried from every quarter of Makkah to gather beneath the slope.",
+            "Standing high upon the summit, the Prophet ﷺ addressed the assembled throng: 'O people of Quraysh! If I were to inform you that an enemy horse cavalry was encamped behind this valley, poised to attack you at dawn or dusk, would you believe me?'",
+            "With one voice, the elders and chiefs replied: 'Yes! For we have never experienced from you anything other than absolute truthfulness!'",
+            "The Prophet ﷺ then proclaimed with solemn majesty: 'Then know that I am a warner sent unto you before the descent of a severe chastisement! Save yourselves from the Fire, for I possess for you no power to avert the decree of Allah!'",
+            "Silence fell upon the gathering until his paternal uncle, Abū Lahab, stepped forward in fury, dusting his hands and shouting insolently: 'Perish you this whole day! Was it for this that you summoned us?' In reply to this insolence, divine revelation descended in Sūrat al-Masad, and the battle between truth and falsehood was openly joined."
+          ],
+          "arabic": [
+            {
+              "label": "Ṣaḥīḥ al-Bukhārī — The Call on Mount Ṣafā",
+              "ref": "Ṣaḥīḥ al-Bukhārī, Kitāb al-Tafsīr (Hadith 4770)",
+              "text": "عَنِ ابْنِ عَبَّاسٍ رَضِيَ اللَّهُ عَنْهُمَا قَالَ: لَمَّا نَزَلَتْ: {وَأَنْذِرْ عَشِيرَتَكَ الْأَقْرَبِينَ}، صَعِدَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ عَلَى الصَّفَا فَجَعَلَ يُنَادِي: «يَا بَنِي فِهْرٍ، يَا بَنِي عَدِيٍّ» — لِبُطُونِ قُرَيْشٍ — حَتَّى اجْتَمَعُوا، فَجَعَلَ الرَّجُلُ إِذَا لَمْ يَسْتَطِعْ أَنْ يَخْرُجَ أَرْسَلَ رَسُولًا لِيَنْظُرَ مَا هُوَ.\n\nفَجَاءَ أَبُو لَهَبٍ وَقُرَيْشٌ، فَقَالَ: «أَرَأَيْتَكُمْ لَوْ أَخْبَرْتُكُمْ أَنَّ خَيْلًا بِالْوَادِي تُرِيدُ أَنْ تُغِيرَ عَلَيْكُمْ، أَكُنْتُمْ مُصَدِّقِيَّ؟» قَالُوا: نَعَمْ، مَا جَرَّبْنَا عَلَيْكَ إِلَّا صِدْقًا. قَالَ: «فَإِنِّي نَذِيرٌ لَكُمْ بَيْنَ يَدَيْ عَذَابٍ شَدِيدٍ».\n\nفَقَالَ أَبُو لَهَبٍ: تَبًّا لَكَ سَائِرَ الْيَوْمِ، أَلِهَذَا جَمَعْتَنَا؟ فَنَزَلَتْ: {تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ . مَا أَغْنَى عَنْهُ مَالُهُ وَمَا كَسَبَ}."
+            }
+          ],
+          "victorian": [
+            {
+              "text": "A list of the happy individuals who attained the felicity of religion at the beginning of the mission of the prophet. […] The first of all who believed was Khodaijah, the daughter of Khowaylad; then A’li the son of Abu Taleb; then Zayd the son of Harithah; and after them Abu Bakr Ssiddiq.",
+              "ref": "p. 149–154"
+            },
+            {
+              "text": "Abu Bakr was a man of great nobility and sweetness of disposition. When he embraced the faith, he invited Othman B. A’ffan, Zubayr B. Ala’wwam, A’bd-ur-Rahman B. A’wuf, Sa’d B. Abu Waqqas, and Talhah B. O’baydullah, who all made the profession of Islam.",
+              "ref": "p. 154"
+            },
+            {
+              "text": "The prophet first secretly invites the people, and afterwards promulges his mission by the command of the Most High and Glorious Lord to all mankind. […] He assembled the believers in the house of Arqam, where they worshipped God in secret.",
+              "ref": "p. 158"
+            },
+            {
+              "text": "When the command arrived to warn his nearest relations, his lordship ascended Mount Safa and cried out: ‘O family of Qoraish!’ When the people congregated, he asked them: ‘If I were to tell you that an enemy was behind this mountain, would you believe me?’ They said: ‘We have experienced nothing from thee except truthfulness.’ Then he warned them of the punishment of the future world.",
+              "ref": "p. 159–160"
+            }
+          ],
+          "audio": {
+            "file": "audio/sirah/sirah_chapter_05.mp3",
+            "title": "The Early Believers & The Call on Mount Ṣafā",
+            "artist": "Narrated Audiobook — The Mantle Library",
+            "duration": 211.24,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 18.05
+              },
+              {
+                "n": 2,
+                "start": 18.8,
+                "end": 39.03
+              },
+              {
+                "n": 3,
+                "start": 39.78,
+                "end": 59.22
+              },
+              {
+                "n": 4,
+                "start": 59.97,
+                "end": 86.9
+              },
+              {
+                "n": 5,
+                "start": 87.65,
+                "end": 111.46
+              },
+              {
+                "n": 6,
+                "start": 112.21,
+                "end": 126.29
+              },
+              {
+                "n": 7,
+                "start": 127.04,
+                "end": 145.81
+              },
+              {
+                "n": 8,
+                "start": 146.56,
+                "end": 162.79
+              },
+              {
+                "n": 9,
+                "start": 163.54,
+                "end": 173.16
+              },
+              {
+                "n": 10,
+                "start": 173.91,
+                "end": 188.93
+              },
+              {
+                "n": 11,
+                "start": 189.68,
+                "end": 211.24
+              }
+            ]
+          }
+        },
+        {
+          "heading": "Chapter 6: The Great Persecution, Abyssinia, & The Year of Sorrow",
+          "layout": "book",
+          "note": "Torture of the companions, migrations to Christian Abyssinia, the boycott in Shiʿb Abī Ṭālib, and the journey to al-Ṭāʾif.",
+          "story_note": "A faithful retelling of the trials endured by the early Muslims, the justice of the Christian Negus, the passing of Khadījah and Abū Ṭālib, and the supplication of Ṭāʾif.",
+          "arabic_note": "Transmitted speeches from Ibn Hishām recording Jaʿfar ibn Abī Ṭālib’s presentation before the Najāshī, and the Prophet’s sublime prayer at al-Ṭāʾif.",
+          "victorian_note": "Verbatim excerpts from Edward Rehatsek’s Rauzat-us-Safa, Part II, Vol. I, pages 165–204.",
+          "story": [
+            "As the divine light of Islam began to penetrate Makkan households, the oligarchy of Quraysh unleashed ruthless persecution against the believers, directing their fiercest cruelty toward vulnerable slaves and allies who lacked tribal protectors.",
+            "Among them was Bilāl ibn Rabāḥ, an Abyssinian slave who was dragged into the scorching desert at noon by his master Umayyah ibn Khalaf. Bounded in chains with a massive glowing boulder pressed upon his chest, Bilāl refused to utter a single word of idolatry, gasping through cracked lips: 'Aḥad! Aḥad!' (The One! The One!), until Abū Bakr purchased his freedom and emancipated him for the sake of Allah.",
+            "Equally brutal was the torment inflicted upon the family of Yāsir. His mother, Sayyidah Sumayyah, was pierced with a spear by Abū Jahl, becoming the very first martyr in Islam, followed shortly by her husband Yāsir, while the Prophet ﷺ comforted them: 'Patience, O family of Yāsir! For your destination is Paradise!'",
+            "Observing the relentless suffering of his followers, the Prophet ﷺ advised them in the fifth year of prophethood: 'If you were to disperse into the land of Abyssinia, you would find a Christian King under whose rule no person is wronged, until Allah grants relief from this affliction.'",
+            "Two successive groups of Muslims crossed the Red Sea to the court of King Negus (al-Najāshī) in Abyssinia. Desperate to extradite the refugees, Quraysh dispatched envoys laden with precious gifts to demand their return. The King summoned the Muslim exiles to present their faith.",
+            "Jaʿfar ibn Abī Ṭālib arose before the Christian monarch, delivering a speech of incomparable dignity: 'O King! We were a people immersed in barbarism, worshipping idols, eating carrion, committing abominations, and severing ties of kinship, until Allah raised among us a Messenger whose lineage, truthfulness, and purity we knew. He called us to worship Allah alone and taught us to speak the truth, fulfill trusts, and shun bloodshed.'",
+            "When the King asked to hear what had been revealed from God, Jaʿfar recited the opening verses of Sūrat Maryam describing the miraculous conception of ʿĪsā ؑ. The Negus wept until his beard was drenched, and his bishops wept until their scrolls were soaked, declaring: 'Verily, this message and that which Jesus brought emanate from the very same source of light!'",
+            "Back in Makkah, the conversions of the Prophet's fierce uncle Ḥamzah and the formidable ʿUmar ibn al-Khaṭṭāb struck terror into the idolaters. Unable to break the movement, the confederate clans of Quraysh drew up a cruel covenant of total ostracism against Banū Hāshim and Banū al-Muṭṭalib, barring all trade, marriage, and communication.",
+            "For three agonized years, the Prophet's clan was confined to the desolate ravine of Shiʿb Abī Ṭālib, reduced to eating leaves and boiled leather while the cries of starving infants pierced the desert night. The unjust siege only ended when righteous chiefs revolted against the cruelty, discovering that termites had devoured the entire parchment of boycott hung inside the Kaʿbah, sparing only the words: 'In Your Name, O Allah.'",
+            "Yet shortly after emerging from the ravine, deep sorrow descended upon the Prophet ﷺ in his tenth year of prophethood (ʿĀm al-Ḥuzn — The Year of Sorrow). His protective uncle Abū Ṭālib passed away, followed mere weeks later by his beloved wife, comfort, and rock, Sayyidah Khadījah ؓ.",
+            "Stripped of his Makkan protection, the Prophet ﷺ journeyed on foot sixty miles across mountainous passes to the city of al-Ṭāʾif, seeking sanctuary for his message among the leaders of Thaqīf. Instead of hospitality, the chieftains mocked him and set street youths and slaves to pelt him with stones, chasing him for miles until his shoes were caked with his own blood.",
+            "Seeking refuge in a secluded orchard outside Ṭāʾif, bruised and exhausted, the Prophet ﷺ raised his blessed hands in one of the most poignant supplications ever uttered upon earth: 'O Allah! Unto You do I complain of the frailty of my strength, the paucity of my resources, and my insignificance before mankind. O Most Merciful of the merciful! If You are not displeased with me, I care not for any hardship! In the light of Your Countenance do I take refuge!'"
+          ],
+          "arabic": [
+            {
+              "label": "Sīrat Ibn Hishām — Jaʿfar’s Address to the Najāshī",
+              "ref": "Ibn Hishām, Sīrat Rasūl Allāh, Vol. 1 — ‘Hijrat al-Ḥabashah’",
+              "text": "قَالَ جَعْفَرُ بْنُ أَبِي طَالِبٍ: أَيُّهَا الْمَلِكُ، كُنَّا قَوْمًا أَهْلَ جَاهِلِيَّةٍ؛ نَعْبُدُ الْأَصْنَامَ، وَنَأْكُلُ الْمَيْتَةَ، وَنَأْتِي الْفَوَاحِشَ، وَنَقْطَعُ الْأَرْحَامَ، وَنُسِيءُ الْجِوَارَ، يَأْكُلُ الْقَوِيُّ مِنَّا الضَّعِيفَ.\n\nحَتَّى بَعَثَ اللَّهُ إِلَيْنَا رَسُولًا مِنَّا؛ نَعْرِفُ نَسَبَهُ وَصِدْقَهُ وَأَمَانَتَهُ وَعَفَافَهُ، فَدَعَانَا إِلَى اللَّهِ لِنُوَحِّدَهُ وَنَعْبُدَهُ، وَنَخْلَعَ مَا كُنَّا نَعْبُدُ نَحْنُ وَآبَاؤُنَا مِنْ دُونِهِ مِنَ الْحِجَارَةِ وَالْأَوْثَانِ، وَأَمَرَنَا بِصِدْقِ الْحَدِيثِ، وَأَدَاءِ الْأَمَانَةِ، وَصِلَةِ الرَّحِمِ، وَحُسْنِ الْجِوَارِ، وَالْكَفِّ عَنِ الْمَحَارِمِ وَالدِّمَاءِ.\n\nفَبَكَى النَّجَاشِيُّ حَتَّى أَخْضَلَ لِحْيَتَهُ، وَبَكَتْ أَسَاقِفَتُهُ حَتَّى أَخْضَلُوا مَصَاحِفَهُمْ حِينَ سَمِعُوا مَا تَلَا عَلَيْهِمْ، فَقَالَ النَّجَاشِيُّ: إِنَّ هَذَا وَالَّذِي جَاءَ بِهِ عِيسَى لَيَخْرُجُ مِنْ مِشْكَاةٍ وَاحِدَةٍ."
+            },
+            {
+              "label": "The Supplication of Ṭāʾif",
+              "ref": "Al-Ṭabarānī, Al-Muʿjam al-Kabīr; Ibn Hishām, Sīrah",
+              "text": "«اللَّهُمَّ إِلَيْكَ أَشْكُو ضَعْفَ قُوَّتِي، وَقِلَّةَ حِيلَتِي، وَهَوَانِي عَلَى النَّاسِ، يَا أَرْحَمَ الرَّاحِمِينَ! أَنْتَ رَبُّ الْمُسْتَضْعَفِينَ وَأَنْتَ رَبِّي، إِلَى مَنْ تَكِلُنِي؟ إِلَى بَعِيدٍ يَتَجَهَّمُنِي؟ أَمْ إِلَى عَدُوٍّ مَلَّكْتَهُ أَمْرِي؟ إِنْ لَمْ يَكُنْ بِكَ عَلَيَّ غَضَبٌ فَلَا أُبَالِي، وَلَكِنَّ عَافِيَتَكَ هِيَ أَوْسَعُ لِي. أَعُوذُ بِنُورِ وَجْهِكَ الَّذِي أَشْرَقَتْ لَهُ الظُّلُمَاتُ، وَصَلَحَ عَلَيْهِ أَمْرُ الدُّنْيَا وَالْآخِرَةِ مِنْ أَنْ تُنْزِلَ بِي غَضَبَكَ، أَوْ يَحِلَّ عَلَيَّ سَخَطُكَ، لَكَ الْعُتْبَى حَتَّى تَرْضَى، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِكَ»."
+            }
+          ],
+          "victorian": [
+            {
+              "text": "The wicked afflict his lordship, and the irreligious nation persecutes his noble companions. […] Ballal was tortured under the heat of the midday sun, with heavy stones placed on his breast, but he ceased not to utter the words: ‘Ahad, Ahad!’ [The One God!]",
+              "ref": "p. 161–162"
+            },
+            {
+              "text": "The monotheists leave Mekkah, and depart secretly to Abyssinia. […] The Najashi said to Ja’far: ‘What is this religion on account of which you have abandoned your people?’ Ja’far harangued him with great eloquence, reciting the chapter of Maryam. The Najashi wept, and refused to surrender the believers to the Qoraish envoys.",
+              "ref": "p. 170–175"
+            },
+            {
+              "text": "The circumstances of the two tribes whilst in the Shib of Abu Taleb. […] For three years the Bani Hashem were blockaded in the ravine, till the parchment of the covenant of boycott was eaten by worms, leaving only the name of God.",
+              "ref": "p. 184–188"
+            },
+            {
+              "text": "Death of Abu Taleb and of Khodaijah. […] His lordship was plunged into deep grief by the decease of these two protectors, and this year was named the Year of Sorrow.",
+              "ref": "p. 193"
+            },
+            {
+              "text": "Muhammad goes to Taif, and returns therefrom, afraid and melancholy. […] The inhabitants of Taif stoned him until his blessed feet bled. He took refuge in a garden, and prayed to God with words of incomparable humility and resignation.",
+              "ref": "p. 200–204"
+            }
+          ],
+          "audio": {
+            "file": "audio/sirah/sirah_chapter_06.mp3",
+            "title": "The Great Persecution, Abyssinia, & The Year of Sorrow",
+            "artist": "Narrated Audiobook — The Mantle Library",
+            "duration": 286.58,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 14.74
+              },
+              {
+                "n": 2,
+                "start": 15.49,
+                "end": 44.91
+              },
+              {
+                "n": 3,
+                "start": 45.66,
+                "end": 69.52
+              },
+              {
+                "n": 4,
+                "start": 70.27,
+                "end": 87.52
+              },
+              {
+                "n": 5,
+                "start": 88.27,
+                "end": 107.69
+              },
+              {
+                "n": 6,
+                "start": 108.44,
+                "end": 136.85
+              },
+              {
+                "n": 7,
+                "start": 137.6,
+                "end": 159.85
+              },
+              {
+                "n": 8,
+                "start": 160.6,
+                "end": 181.82
+              },
+              {
+                "n": 9,
+                "start": 182.57,
+                "end": 207.19
+              },
+              {
+                "n": 10,
+                "start": 207.94,
+                "end": 230.07
+              },
+              {
+                "n": 11,
+                "start": 230.82,
+                "end": 254.05
+              },
+              {
+                "n": 12,
+                "start": 254.8,
+                "end": 286.58
+              }
+            ]
+          }
+        },
+        {
+          "heading": "Chapter 7: The Heavenly Night Journey & Ascension (Al-Isrāʾ wal-Miʿrāj)",
+          "layout": "book",
+          "note": "The journey from Makkah to Jerusalem upon al-Burāq, leading the prophets in prayer, ascension through the seven heavens, and the gift of the five daily prayers.",
+          "story_note": "A faithful retelling of the miraculous Night Journey and celestial Ascension, comforting the Prophet ﷺ after the trials of Ṭāʾif with intimate Divine communion.",
+          "arabic_note": "Classical Quranic and Hadith transmissions from Sūrat al-Isrāʾ and Ṣaḥīḥ al-Bukhārī recording the celestial ascension.",
+          "victorian_note": "Verbatim excerpts from Edward Rehatsek’s Rauzat-us-Safa, Part II, Vol. I, pages 205–219.",
+          "story": [
+            "Following the heartbreaking bereavement of the Year of Sorrow and the bitter rejection at al-Ṭāʾif, divine comfort was bestowed upon the Prophet Muḥammad ﷺ through the most sublime miracle of celestial intimacy: Al-Isrāʾ wal-Miʿrāj (The Night Journey and Heavenly Ascension).",
+            "On a quiet night, while the Prophet ﷺ rested in the sacred precinct near the Kaʿbah, the Archangel Jibrīl ؑ descended, opened his blessed chest, washed his heart once more with Zamzam water, and filled it with celestial wisdom and faith.",
+            "There appeared before him al-Burāq, a luminous, winged heavenly steed whose step reached the farthest horizon of vision. Mounted upon al-Burāq under the escort of Jibrīl, the Prophet ﷺ journeyed instantaneously from al-Masjid al-Ḥarām in Makkah to al-Masjid al-Aqṣā in Jerusalem.",
+            "Upon entering the sacred sanctuary of Jerusalem, the Prophet ﷺ found assembled before him all the previous prophets and messengers sent to mankind throughout human history—from Ādam, Nūḥ, and Ibrāhīm to Mūsā and ʿĪsā ؑ. Led forward by Jibrīl, Muḥammad ﷺ stood as their Imām, leading the holy assembly in congregational prayer.",
+            "From the sacred rock of Jerusalem commenced the miraculous Ascension (Al-Miʿrāj) through the celestial spheres. Traversing the first heaven, the Prophet ﷺ was greeted by his forefather Ādam ؑ, the father of humanity, who welcomed him saying: 'Welcome, righteous son and righteous Prophet!'",
+            "In the second heaven, he was welcomed by the cousins ʿĪsā ibn Maryam and Yaḥyā ibn Zakariyyā ؑ; in the third, by Yūsuf ؑ, who had been gifted half of all earthly beauty; in the fourth, by Idrīs ؑ, raised to a high station; in the fifth, by Hārūn ؑ; and in the sixth, by Mūsā ؑ.",
+            "Ascending to the seventh heaven, the Prophet ﷺ beheld the patriarch Ibrāhīm ؑ resting his back against Al-Bayt al-Maʿmūr (The Frequented House), wherein seventy thousand angels enter each day to worship, never to return.",
+            "Beyond the seventh heaven, Jibrīl guided the Prophet ﷺ to Sidrat al-Muntahā (The Lote Tree of the Utmost Boundary), enveloped in unearthly celestial splendors that no human tongue can describe. There, Jibrīl halted, saying: 'Here I must stop; if I advance a finger's breadth, I shall be consumed by the light.'",
+            "The Prophet ﷺ proceeded alone into the immediate Divine Presence, drawing closer than the distance of two bow-lengths. His sight did not swerve, nor did it transgress, beholding the greatest signs of his Lord.",
+            "In that intimate communion, Allah bestowed upon the Muslim Ummah the crown of all worship: the gift of the five daily prayers. Initially ordained as fifty prayers, the Prophet ﷺ returned repeatedly upon the counsel of Mūsā ؑ, beseeching his Lord for reduction until they were made five in performance yet fifty in divine reward.",
+            "Descending back to Makkah before the break of dawn, the Prophet ﷺ informed Quraysh of the miraculous journey. The idolaters laughed in mockery, demanding that he describe the architecture and gates of Jerusalem, which he had visited only in the dead of night. Instantly, Allah unveiled Jerusalem before his eyes, and he described every gate and stone with flawless precision.",
+            "When the disbelievers ran to Abū Bakr exclaiming: 'Your companion claims he traveled to Jerusalem and back in a single night!', Abū Bakr replied with majestic conviction: 'If he said so, it is the absolute truth! I believe him in news far greater than that—the revelation of heaven that descends upon him morning and evening!' From that glorious day forward, Abū Bakr was granted the eternal title: Al-Ṣiddīq (The Verifier of Truth)."
+          ],
+          "arabic": [
+            {
+              "label": "Sūrat al-Isrāʾ & Sūrat al-Najm — The Night Journey & Vision",
+              "ref": "Qurʾān, Sūrat al-Isrāʾ (17:1) & Sūrat al-Najm (53:13–18)",
+              "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\n{سُبْحَانَ الَّذِي أَسْرَىٰ بِعَبْدِهِ لَيْلًا مِنَ الْمَسْجِدِ الْحَرَامِ إِلَى الْمَسْجِدِ الْأَقْصَى الَّذِي بَارَكْنَا حَوْلَهُ لِنُرِيَهُ مِنْ آيَاتِنَا ۚ إِنَّهُ هُوَ السَّمِيعُ الْبَصِيرُ}\n\n{وَلَقَدْ رَآهُ نَزْلَةً أُخْرَىٰ (13) عِنْدَ سِدْرَةِ الْمُنْتَهَىٰ (14) عِنْدَهَا جَنَّةُ الْمَأْوَىٰ (15) إِذْ يَغْشَى السِّدْرَةَ مَا يَغْشَىٰ (16) مَا زَاغَ الْبَصَرُ وَمَا طَغَىٰ (17) لَقَدْ رَأَىٰ مِنْ آيَاتِ رَبِّهِ الْكُبْرَىٰ (18)}"
+            }
+          ],
+          "victorian": [
+            {
+              "text": "Ascension of his holy and prophetic lordship; his attaining the dignity of intimacy, and his hearing Divine words concerning the mysteries of both worlds. […] Jebrail arrived with the heavenly animal Buraq, and conveyed his lordship from the sanctuary of Mekkah to the sacred house of Jerusalem.",
+              "ref": "p. 205"
+            },
+            {
+              "text": "When the prophet arrived in the temple of Jerusalem, all the inspired prophets were assembled, and Muhammad stood forth and led them in prayer. Then he ascended through the seven heavens, meeting Adam, Jesus, John, Joseph, Enoch, Aaron, Moses, and Abraham.",
+              "ref": "p. 207–211"
+            },
+            {
+              "text": "Beyond the seventh heaven he reached the Sidrat-ul-Muntaha, and entered into the Divine Presence, where the five daily prayers were ordained for his people.",
+              "ref": "p. 214–216"
+            },
+            {
+              "text": "When his lordship related his journey to the Qoraish, they mocked him, but Abu Bakr confirmed it at once, saying: ‘If he has said it, he has spoken the truth, for I believe him in things far more difficult.’ For this reason he was named Al-Ssiddiq [The True].",
+              "ref": "p. 218–219"
+            }
+          ],
+          "audio": {
+            "file": "audio/sirah/sirah_chapter_07.mp3",
+            "title": "The Heavenly Night Journey & Ascension (Al-Isrāʾ wal-Miʿrāj)",
+            "artist": "Narrated Audiobook — The Mantle Library",
+            "duration": 254.47,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 17.02
+              },
+              {
+                "n": 2,
+                "start": 17.77,
+                "end": 34.04
+              },
+              {
+                "n": 3,
+                "start": 34.79,
+                "end": 54.32
+              },
+              {
+                "n": 4,
+                "start": 55.07,
+                "end": 80.39
+              },
+              {
+                "n": 5,
+                "start": 81.14,
+                "end": 101.33
+              },
+              {
+                "n": 6,
+                "start": 102.08,
+                "end": 124.76
+              },
+              {
+                "n": 7,
+                "start": 125.51,
+                "end": 140.8
+              },
+              {
+                "n": 8,
+                "start": 141.55,
+                "end": 162.79
+              },
+              {
+                "n": 9,
+                "start": 163.54,
+                "end": 178.08
+              },
+              {
+                "n": 10,
+                "start": 178.83,
+                "end": 200.81
+              },
+              {
+                "n": 11,
+                "start": 201.56,
+                "end": 225.76
+              },
+              {
+                "n": 12,
+                "start": 226.51,
+                "end": 254.47
+              }
+            ]
+          }
+        },
+        {
+          "heading": "Chapter 8: The Pledges of ʿAqabah & The Great Emigration (Al-Hijrah)",
+          "layout": "book",
+          "note": "Meeting the men of Yathrib, the Pledges of ʿAqabah, the assassination plot, Cave Thawr, and the arrival in Madīnah.",
+          "story_note": "A faithful retelling of the turning point of Islamic history: the covenant with the Anṣār, the perilous escape from Makkah, and the arrival at Qubāʾ and Madīnah.",
+          "arabic_note": "Vocalized transmissions from Sūrat al-Tawbah and Sīrat Ibn Hishām recording the Hijrah and the refuge of Cave Thawr.",
+          "victorian_note": "Verbatim excerpts from Edward Rehatsek’s Rauzat-us-Safa, Part II, Vol. I, pages 219–247.",
+          "story": [
+            "During the annual pilgrimage seasons, the Prophet Muḥammad ﷺ would visit the encampments of visiting tribes, seeking a people who would receive the message of monotheism and shield him from the tyranny of Quraysh. In the eleventh year of prophethood, near the hill of al-ʿAqabah, he met six earnest men from the Yathrib tribe of Khazraj.",
+            "Recognizing in him the signs of the Prophet long foretold by the Jewish communities of their city, they accepted Islam and returned to Yathrib as heralds of the faith. The following year, twelve representatives returned and pledged the First Covenant of ʿAqabah.",
+            "The Prophet ﷺ dispatched the young and eloquent Muṣʿab ibn ʿUmayr as the first ambassador of Islam to Yathrib. Through his gentle wisdom and recitation of the Qurʾān, the light of Islam illuminated virtually every household in the city within a single year.",
+            "In the thirteenth year of prophethood, seventy-three men and two women of Yathrib arrived secretly at ʿAqabah in the dead of night, concluding the Second Covenant of ʿAqabah, swearing to protect the Messenger of Allah as they would protect their own wives and children.",
+            "With a safe haven established, the Prophet ﷺ commanded the oppressed Makkan believers to emigrate secretly to Yathrib. Clan by clan, the believers abandoned their homes, lands, and possessions for the sake of their faith.",
+            "Fearing that the Prophet ﷺ would escape their grasp and unite a formidable commonwealth, the chieftains of Quraysh convened an emergency council at Dār al-Nadwah. Under the sinister counsel of Abū Jahl, they agreed to select a resolute youth from every single clan to strike Muḥammad ﷺ simultaneously with their swords, scattering the blood-guilt among all tribes.",
+            "Jibrīl ؑ descended to inform the Prophet ﷺ of the conspiracy, bidding him not to sleep in his usual bed that night. The Prophet instructed his valiant cousin ʿAlī ibn Abī Ṭālib to lie in his bed covered with his green Hadramī mantle, assuring him that no harm would befall him.",
+            "Under the cover of night, while the assassins surrounded his residence with drawn swords, the Prophet ﷺ slipped out unnoticed, casting a handful of dust over their heads while reciting from Sūrat Yā Sīn: 'And We have placed a barrier before them and a barrier behind them, and covered them so they cannot see.'",
+            "Joining Abū Bakr ؓ, the two companions made their way south to the rugged cavern of Cave Thawr. For three days and nights they remained concealed in the cave, while Abū Bakr's son ʿAbdullāh brought news, his daughter Asmāʾ brought provisions, and his shepherd ʿĀmir ibn Fuhayrah grazed sheep over their tracks to erase footprints.",
+            "When the search parties of Quraysh tracked their scent to the very mouth of the cave, Abū Bakr whispered in agony: 'O Messenger of Allah! If one of them should glance down at his feet, he would behold us!' The Prophet ﷺ consoled him with divine serenity: 'What think you, O Abū Bakr, of two whose third is Allah? Do not grieve, for Allah is with us!'",
+            "Allah blinded the pursuers' eyes with miraculous signs: a spider had spun its web across the cavern opening, and a desert dove had laid eggs upon the ledge. Concluding the cave had been abandoned for centuries, the hunters turned away.",
+            "Emerging on the fourth day with their desert guide ʿAbdullāh ibn Urayqiṭ, the Prophet ﷺ and Abū Bakr traversed uncharted coastal routes until they reached Qubāʾ on the outskirts of Yathrib, where they built the first mosque in Islam. Days later, they entered the city, where girls and boys came out onto the rooftops singing with joyful hearts: 'Ṭalaʿa al-badru ʿalaynā — The full moon has risen upon us from the passes of Wadāʿ!'"
+          ],
+          "arabic": [
+            {
+              "label": "Sūrat al-Tawbah — The Solace in Cave Thawr",
+              "ref": "Qurʾān, Sūrat al-Tawbah (9:40)",
+              "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\n{إِلَّا تَنْصُرُوهُ فَقَدْ نَصَرَهُ اللَّهُ إِذْ أَخْرَجَهُ الَّذِينَ كَفَرُوا ثَانِيَ اثْنَيْنِ إِذْ هُمَا فِي الْغَارِ إِذْ يَقُولُ لِصَاحِبِهِ لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا ۖ فَأَنْزَلَ اللَّهُ سَكِينَتَهُ عَلَيْهِ وَأَيَّدَهُ بِجُنُودٍ لَمْ تَرَوْهَا وَجَعَلَ كَلِمَةَ الَّذِينَ كَفَرُوا السُّفْلَىٰ ۗ وَكَلِمَةُ اللَّهِ هِيَ الْعُلْيَا ۗ وَاللَّهُ عَزِيزٌ حَكِيمٌ}"
+            }
+          ],
+          "victorian": [
+            {
+              "text": "The first and second covenants at A’qabah; the inhabitants of Yathreb profess the faith. […] The people of Yathreb pledged themselves to defend his lordship against all enemies.",
+              "ref": "p. 222–226"
+            },
+            {
+              "text": "Consultation of the wicked to kill Muhammad, and the flight of that chief from his country, and the going of his lordship to the cave Thor. […] The conspirators surrounded the house, but his lordship cast dust upon them and walked out unseen.",
+              "ref": "p. 232–234"
+            },
+            {
+              "text": "When the Qoraish approached the cave of Thor, Abu Bakr said: ‘If any one of them looks down, he will see us.’ His lordship replied: ‘What thinkest thou of two persons whose third is Allah? Grieve not, for God is with us!’ A spider had woven its web across the entrance, and doves had made their nests.",
+              "ref": "p. 236–238"
+            },
+            {
+              "text": "Arrival of the august travelling party of his lordship the chosen apostle in Madinah. […] The people of the city went out to meet him with shouts of joy and praise.",
+              "ref": "p. 240–247"
+            }
+          ],
+          "audio": {
+            "file": "audio/sirah/sirah_chapter_08.mp3",
+            "title": "The Pledges of ʿAqabah & The Great Emigration (Al-Hijrah)",
+            "artist": "Narrated Audiobook — The Mantle Library",
+            "duration": 242.8,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 21.36
+              },
+              {
+                "n": 2,
+                "start": 22.11,
+                "end": 37.78
+              },
+              {
+                "n": 3,
+                "start": 38.53,
+                "end": 55.57
+              },
+              {
+                "n": 4,
+                "start": 56.32,
+                "end": 71.73
+              },
+              {
+                "n": 5,
+                "start": 72.48,
+                "end": 87.6
+              },
+              {
+                "n": 6,
+                "start": 88.35,
+                "end": 112.52
+              },
+              {
+                "n": 7,
+                "start": 113.27,
+                "end": 132.52
+              },
+              {
+                "n": 8,
+                "start": 133.27,
+                "end": 152.39
+              },
+              {
+                "n": 9,
+                "start": 153.14,
+                "end": 174.79
+              },
+              {
+                "n": 10,
+                "start": 175.54,
+                "end": 199.97
+              },
+              {
+                "n": 11,
+                "start": 200.72,
+                "end": 215.0
+              },
+              {
+                "n": 12,
+                "start": 215.75,
+                "end": 242.8
+              }
+            ]
+          }
+        },
+        {
+          "heading": "Chapter 9: The City of Light: The Mosque, Brotherhood, & Constitution",
+          "layout": "book",
+          "note": "Founding al-Masjid al-Nabawī, the fraternal bond of Muʾākhāh, the Constitution of Madīnah, the call to prayer (Adhān), and the change of Qiblah.",
+          "story_note": "A faithful retelling of the transformation of Yathrib into Al-Madīnah al-Munawwarah, establishing the spiritual and civic foundations of the first Islamic commonwealth.",
+          "arabic_note": "Classical Quranic and Hadith transmissions from Sūrat al-Baqarah and Ibn Hishām recording the Constitution of Madīnah and the redirection of the Qiblah.",
+          "victorian_note": "Verbatim excerpts from Edward Rehatsek’s Rauzat-us-Safa, Part II, Vol. I, pages 247–267.",
+          "story": [
+            "With the arrival of the Messenger of Allah ﷺ, the ancient oasis of Yathrib was rechristened Al-Madīnah al-Munawwarah—The Illuminated City. As his she-camel, al-Qaṣwāʾ, walked through the throng of joyous citizens, every tribal chieftain stepped forward to seize her reins, pleading for the honor of hosting the Prophet ﷺ. He replied gently: 'Let her proceed unhindered, for she is divinely guided.'",
+            "The camel moved forward until she knelt upon an open drying-ground for dates belonging to two orphan boys, Sahl and Suhayl, of the Banū al-Najjār. The Prophet ﷺ purchased the parcel of land at a generous price to erect the permanent sanctuary of Islam, residing temporarily as the honored guest in the adjacent home of Abū Ayyūb al-Anṣārī.",
+            "All the believers—immigrant Muhājirūn and native Anṣār alike—united to construct Al-Masjid al-Nabawī (The Prophet's Mosque). Its walls were fashioned of sun-dried mud bricks, its columns carved from the trunks of date palms, and its roof thatched with palm fronds. The Prophet ﷺ worked shoulder to shoulder with his companions, hauling heavy stones with his own blessed hands while chanting verses of remembrance and brotherly love.",
+            "Beside the mosque, modest earthen chambers were constructed for the Prophet's household, while at the northern rear of the mosque was built the sheltered portico of the Ṣuffah, providing refuge, sustenance, and spiritual study for impoverished, unattached companions such as Abū Hurayrah.",
+            "To heal the economic destitution of the Makkan refugees who had sacrificed all their wealth, the Prophet ﷺ instituted the sacred covenant of Muʾākhāh (Fraternal Brotherhood). Pairing each Makkan Muhājir with an Anṣārī brother of Madīnah, the bond transcended bloodlines.",
+            "The Anṣār demonstrated legendary generosity, offering to divide their homes, lands, date groves, and worldly goods equally with their refugee brethren. When Saʿd ibn al-Rabīʿ offered half of his immense wealth to ʿAbd al-Raḥmān ibn ʿAwf, the noble Makkan replied with grateful humility: 'May Allah bless you in your family and wealth; simply direct me to the marketplace,' where he began trading with diligence until he flourished anew.",
+            "To bind the heterogeneous population of Madīnah—Muslims of Aws and Khazraj, Jewish tribes including the Banū Qaynuqāʿ, Banū al-Naḍīr, and Banū Qurayẓah, and the pagan clans—the Prophet ﷺ drafted the historic Constitution of Madīnah (Ṣaḥīfat al-Madīnah).",
+            "This document, the world's earliest written constitutional charter, declared all signatories to constitute a single political commonwealth (Ummah Wāḥidah), guaranteeing absolute freedom of religion, equal civil protection under the law, and mutual defense against foreign aggression, while establishing the Prophet ﷺ as supreme arbitrator of disputes.",
+            "As the community grew, the companions discussed how best to summon the faithful to the five daily prayers. Some suggested blowing a horn like the Jews, while others suggested striking a wooden clapper like the Christians. The Prophet ﷺ was disinclined toward both practices.",
+            "Then, a companion named ʿAbdullāh ibn Zayd experienced a true dream wherein an angel taught him the resounding, sublime words of the Adhān. The Prophet ﷺ confirmed the vision, instructing him: 'Teach these words to Bilāl, for he possesses a more resonant and beautiful voice than you.' Bilāl ascended the highest roof near the mosque, and his magnificent voice echoed across Madīnah, calling mankind to prayer and success.",
+            "Sixteen months after the Hijrah, while the Prophet ﷺ was leading prayers in the mosque of Banū Salamah, divine revelation descended commanding the redirection of the prayer direction: 'Verily, We have seen the turning of your face toward the heaven; We shall surely turn you to a Qiblah that shall please you. Turn then your face toward al-Masjid al-Ḥarām.'",
+            "Midway through the prayer, the Prophet ﷺ turned one hundred and eighty degrees away from Jerusalem toward the ancient Kaʿbah in Makkah, and the entire congregation pivoted behind him in unison. That sacred sanctuary was forever after named Masjid al-Qiblatayn (The Mosque of the Two Qiblahs), cementing the eternal link between the final message and the primordial sanctuary of Ibrāhīm ؑ."
+          ],
+          "arabic": [
+            {
+              "label": "Sūrat al-Baqarah — The Redirection of the Qiblah",
+              "ref": "Qurʾān, Sūrat al-Baqarah (2:144)",
+              "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\n{قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ ۖ فَلَنُوَلِّيَنَّكَ قِبْلَةً تَرْضَاهَا ۚ فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ ۚ وَحَيْثُ مَا كُنْتُمْ فَوَلُّوا وُجُوهَكُمْ شَطْرَهُ ۗ وَإِنَّ الَّذِينَ أُوتُوا الْكِتَابَ لَيَعْلَمُونَ أَنَّهُ الْحَقُّ مِنْ رَبِّهِمْ ۗ وَمَا اللَّهُ بِغَافِلٍ عَمَّا يَعْمَلُونَ}"
+            },
+            {
+              "label": "From the Constitution of Madīnah (Ṣaḥīfat al-Madīnah)",
+              "ref": "Ibn Hishām, Sīrat Rasūl Allāh, Vol. 1",
+              "text": "«هَذَا كِتَابٌ مِنْ مُحَمَّدٍ النَّبِيِّ بَيْنَ الْمُؤْمِنِينَ وَالْمُسْلِمِينَ مِنْ قُرَيْشٍ وَيَثْرِبَ، وَمَنْ تَبِعَهُمْ فَلَحِقَ بِهِمْ وَجَاهَدَ مَعَهُمْ: أَنَّهُمْ أُمَّةٌ وَاحِدَةٌ مِنْ دُونِ النَّاسِ […] وَإِنَّ يَهُودَ بَنِي عَوْفٍ أُمَّةٌ مَعَ الْمُؤْمِنِينَ، لِلْيَهُودِ دِينُهُمْ، وَلِلْمُسْلِمِينَ دِينُهُمْ، مَوَالِيهِمْ وَأَنْفُسُهُمْ […] وَإِنَّ بَيْنَهُمُ النَّصْرَ عَلَى مَنْ حَارَبَ أَهْلَ هَذِهِ الصَّحِيفَةِ، وَإِنَّ بَيْنَهُمُ النُّصْحَ وَالنَّصِيحَةَ، وَالْبِرَّ دُونَ الْإِثْمِ»."
+            }
+          ],
+          "victorian": [
+            {
+              "text": "Arrival of the august travelling party of his lordship the chosen apostle in Madinah. […] The camel of his lordship knelt down on a plot of ground belonging to Sahl and Suhayl, two orphan boys. His lordship bought the ground to erect thereon the mosque of the sanctuary.",
+              "ref": "p. 247–248"
+            },
+            {
+              "text": "Construction of the mosque of the prophet. […] The walls were built of unburnt bricks, and the pillars of trunks of date-trees. His lordship himself carried stones and worked with the companions.",
+              "ref": "p. 249–250"
+            },
+            {
+              "text": "Fraternity established between the Mohajer and the Anssar. […] His lordship united them by the ties of brotherhood, so that an Anssary divided his property equally with his Mohajer brother.",
+              "ref": "p. 251–252"
+            },
+            {
+              "text": "Institution of the Azan [Call to Prayer]. […] A’bdullah B. Zayd dreamt that an angel taught him the words of the Azan. The prophet ordered Ballal, whose voice was clear and loud, to recite it from the roof of the highest house.",
+              "ref": "p. 254–255"
+            },
+            {
+              "text": "The changing of the Qiblah from Jerusalem to the Ka’bah. […] While his lordship was praying in the mosque of the Bani Salamah, the verse was revealed directing him to turn towards the sacred mosque of Mekkah.",
+              "ref": "p. 258–260"
+            }
+          ],
+          "audio": {
+            "file": "audio/sirah/sirah_chapter_09.mp3",
+            "title": "The Mosque, Brotherhood, & Constitution",
+            "artist": "Narrated Audiobook — The Mantle Library",
+            "duration": 280.94,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 27.22
+              },
+              {
+                "n": 2,
+                "start": 27.97,
+                "end": 49.78
+              },
+              {
+                "n": 3,
+                "start": 50.53,
+                "end": 77.82
+              },
+              {
+                "n": 4,
+                "start": 78.57,
+                "end": 95.35
+              },
+              {
+                "n": 5,
+                "start": 96.1,
+                "end": 114.86
+              },
+              {
+                "n": 6,
+                "start": 115.61,
+                "end": 141.68
+              },
+              {
+                "n": 7,
+                "start": 142.43,
+                "end": 161.17
+              },
+              {
+                "n": 8,
+                "start": 161.92,
+                "end": 183.67
+              },
+              {
+                "n": 9,
+                "start": 184.42,
+                "end": 203.47
+              },
+              {
+                "n": 10,
+                "start": 204.22,
+                "end": 232.18
+              },
+              {
+                "n": 11,
+                "start": 232.93,
+                "end": 254.92
+              },
+              {
+                "n": 12,
+                "start": 255.67,
+                "end": 280.94
+              }
+            ]
+          }
+        },
+        {
+          "heading": "Chapter 10: Defending the Faith: Badr, Uḥud, & The Trench",
+          "layout": "book",
+          "note": "The decisive Battle of Badr, the trial and sacrifice of Uḥud, and the siege of the Confederates at the Trench (Al-Khandaq).",
+          "story_note": "A faithful retelling of the epic struggles to defend the fledgling Muslim community against existential destruction, preserving the spiritual lessons of victory, defeat, and steadfast faith.",
+          "arabic_note": "Classical Quranic verses from Sūrat Āl ʿImrān and Sūrat al-Aḥzāb commemorating Badr, Uḥud, and the Battle of the Trench.",
+          "victorian_note": "Verbatim excerpts from Edward Rehatsek’s Rauzat-us-Safa, Part II, Vol. I, pages 281–331, 388–405, and Part II, Vol. II, pages 442–465.",
+          "story": [
+            "Having stripped the Makkan emigrants of their properties, Quraysh dispatched massive armed expeditions to extinguish the new faith in Madīnah. The struggle culminated in three epochal confrontations that forged the character and resilience of the Muslim Ummah.",
+            "On the seventeenth day of Ramaḍān in the second year of the Hijrah (624 CE), the first decisive battle occurred at the wells of Badr. Three hundred and thirteen Muslims, possessing only two horses and seventy camels, stood against a heavily armored Quraysh host of over one thousand seasoned warriors led by Abū Jahl.",
+            "Throughout the preceding night, the Prophet ﷺ knelt in his simple wooden arbor (al-ʿArīsh), weeping and stretching his hands to the heavens in fervent supplication: 'O Allah! If this small band of believers is destroyed today, You will never be worshipped upon the earth!' His mantle slipped from his shoulders until Abū Bakr ؓ lifted it, comforting him: 'Enough of your pleading to your Lord, O Messenger of Allah! He will surely fulfill His promise!'",
+            "At dawn, the Prophet ﷺ cast a handful of sand toward the enemy lines, crying: 'May their faces be confounded!' A celestial host of angels descended in ranks, and the believers achieved an astonishing, miraculous victory. The chief persecutors of Islam, including Abū Jahl and Umayyah ibn Khalaf, fell upon the battlefield, while seventy captives were treated with unprecedented humane dignity, ransomed through teaching illiterate Muslim children to read and write.",
+            "Vowing vengeance, Quraysh marched upon Madīnah the following year (3 AH) with three thousand troops, encamping beneath the jagged red ridge of Mount Uḥud. Deploying seven hundred men, the Prophet ﷺ stationed fifty expert archers upon a strategic rocky hill under ʿAbdullāh ibn Jubayr, giving strict orders: 'Protect our rear! Do not abandon your post under any circumstance, even if you see birds snatching our corpses!'",
+            "Initially, the Muslim forces drove the enemy into disarray. However, seeing the enemy camp abandoned, the majority of the archers disobeyed orders and descended the hill to collect spoils of war. Seizing the unprotected flank, the cavalry of Khālid ibn al-Walīd circled the ridge and struck the Muslims from the rear.",
+            "Confusion and carnage ensued. Seventy illustrious companions attained martyrdom, including the beloved uncle of the Prophet ﷺ, the Lion of Allah, Ḥamzah ibn ʿAbd al-Muṭṭalib. The Prophet himself was surrounded, his helmet driven into his cheek, his lip lacerated, and his tooth chipped, yet he raised his hands to pray: 'O Allah, forgive my people, for they do not know!'",
+            "In the fifth year of the Hijrah (627 CE), an even deadlier existential crisis arose when Quraysh united with neighboring bedouin confederates and disgruntled tribes to assemble a titanic army of ten thousand men—the largest force ever mobilized in Arabian history—marching to annihilate Madīnah in the Battle of the Confederates (Al-Aḥzāb).",
+            "Facing overwhelming odds, the Persian companion Salmān al-Fārisī offered an ingenious strategic proposal: 'O Messenger of Allah, in Persia, when we are besieged, we dig a trench around ourselves.'",
+            "For weeks in the biting winter cold, the Prophet ﷺ and three thousand companions worked relentlessly to excavate a deep, wide moat across the exposed northern perimeter of Madīnah. When a gigantic, impenetrable boulder resisted their iron picks, the Prophet ﷺ struck it three times; each strike produced a radiant burst of lightning, foretelling the future fall of the Persian, Byzantine, and Yamani empires.",
+            "For nearly a month, the confederate cavalry was halted by the formidable trench, trading arrows across the ditch. Meanwhile, internal betrayal threatened when the Jewish tribe of Banū Qurayẓah within Madīnah violated their treaty, endangering the defenseless women and children in the rear.",
+            "In that darkest hour of terror and starvation, divine assistance manifested. A clever strategist, Nuʿaym ibn Masʿūd, sowed discord between the confederates and the treacherous conspirators. Then, Allah unleashed a ferocious, freezing hurricane across the desert that tore up the enemy tents, extinguished their fires, and overturned their cooking pots. Panicked and demoralized, Abū Sufyān ordered the grand confederate army to break camp and flee into the stormy night."
+          ],
+          "arabic": [
+            {
+              "label": "Sūrat Āl ʿImrān — Divine Victory at Badr",
+              "ref": "Qurʾān, Sūrat Āl ʿImrān (3:123–125)",
+              "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\n{وَلَقَدْ نَصَرَكُمُ اللَّهُ بِبَدْرٍ وَأَنْتُمْ أَذِلَّةٌ ۖ فَاتَّقُوا اللَّهَ لَعَلَّكُمْ تَشْكُرُونَ (123) إِذْ تَقُولُ لِلْمُؤْمِنِينَ أَلَنْ يَكْفِيَكُمْ أَنْ يُمِدَّكُمْ رَبُّكُمْ بِثَلَاثَةِ آلَافٍ مِنَ الْمَلَائِكَةِ مُنْزَلِينَ (124) بَلَىٰ ۚ إِنْ تَصْبِرُوا وَتَتَّقُوا وَيَأْتُوكُمْ مِنْ فَوْرِهِمْ هَٰذَا يُمْدِدْكُمْ رَبُّكُمْ بِخَمْسَةِ آلَافٍ مِنَ الْمَلَائِكَةِ مُسَوِّمِينَ (125)}"
+            },
+            {
+              "label": "Sūrat al-Aḥzāb — The Siege of the Trench",
+              "ref": "Qurʾān, Sūrat al-Aḥzāb (33:9–11)",
+              "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\n{يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا نِعْمَةَ اللَّهِ عَلَيْكُمْ إِذْ جَاءَتْكُمْ جُنُودٌ فَأَرْسَلْنَا عَلَيْهِمْ رِيحًا وَجُنُودًا لَمْ تَرَوْهَا ۚ وَكَانَ اللَّهُ بِمَا تَعْمَلُونَ بَصِيرًا (9) إِذْ جَاءُوكُمْ مِنْ فَوْقِكُمْ وَمِنْ أَسْفَلَ مِنْكُمْ وَإِذْ زَاغَتِ الْأَبْصَارُ وَبَلَغَتِ الْقُلُوبُ الْحَنَاجِرَ وَتَظُنُّونَ بِاللَّهِ الظُّنُونَا (10) هُنَالِكَ ابْتُلِيَ الْمُؤْمِنُونَ وَزُلْزِلُوا زِلْزَالًا شَدِيدًا (11)}"
+            }
+          ],
+          "victorian": [
+            {
+              "text": "The greater battle of Bedr. […] The apostle of God entered the shelter, and prayed: ‘O Lord, if this little band perish, there will be no one left on earth to worship Thee.’ Then he went forth, threw gravel upon the infidels, and Allah granted victory to the monotheists.",
+              "ref": "p. 281–318"
+            },
+            {
+              "text": "Ghazwah of Ohod, and the murder of the prince of martyrs, Hamzah B. A’bd-ul-Muttalleb. […] The archers having left the hill contrary to the orders of his lordship, Khaled B. Al-Walid attacked the Muslims from the rear, and many noble companions obtained the honour of martyrdom.",
+              "ref": "p. 388–395"
+            },
+            {
+              "text": "The Ghazwah of the Ditch, also called the Ghazwah of the Confederates. […] Salman the Persian suggested the digging of a moat around Madinah. When a huge rock could not be broken, his lordship struck it with a pickaxe, and a light shone forth illuminating the palaces of Syria and Persia.",
+              "ref": "p. 442–448"
+            },
+            {
+              "text": "Allah the Most High sent a violent, cold storm upon the encampment of the confederates, so that their tents were thrown down and their kettles overturned. Thereupon Abu Sofyan and the idolaters fled in confusion.",
+              "ref": "p. 465–468"
+            }
+          ],
+          "audio": {
+            "file": "audio/sirah/sirah_chapter_10.mp3",
+            "title": "Badr, Uḥud, & The Trench",
+            "artist": "Narrated Audiobook — The Mantle Library",
+            "duration": 293.54,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 15.34
+              },
+              {
+                "n": 2,
+                "start": 16.09,
+                "end": 37.16
+              },
+              {
+                "n": 3,
+                "start": 37.91,
+                "end": 68.34
+              },
+              {
+                "n": 4,
+                "start": 69.09,
+                "end": 100.27
+              },
+              {
+                "n": 5,
+                "start": 101.02,
+                "end": 130.99
+              },
+              {
+                "n": 6,
+                "start": 131.74,
+                "end": 151.83
+              },
+              {
+                "n": 7,
+                "start": 152.58,
+                "end": 178.86
+              },
+              {
+                "n": 8,
+                "start": 179.61,
+                "end": 201.5
+              },
+              {
+                "n": 9,
+                "start": 202.25,
+                "end": 215.81
+              },
+              {
+                "n": 10,
+                "start": 216.56,
+                "end": 244.42
+              },
+              {
+                "n": 11,
+                "start": 245.17,
+                "end": 262.91
+              },
+              {
+                "n": 12,
+                "start": 263.66,
+                "end": 293.54
+              }
+            ]
+          }
+        },
+        {
+          "heading": "Chapter 11: The Treaty of Ḥudaybiyyah & The Peaceful Opening of Makkah",
+          "layout": "book",
+          "note": "The Treaty of Ḥudaybiyyah, diplomatic letters to world monarchs, and the triumphant, bloodless conquest of Makkah.",
+          "story_note": "A faithful retelling of the strategic diplomacy of Ḥudaybiyyah, recognized by heaven as the Manifest Victory, leading to the peaceful, merciful opening of Makkah in 8 AH.",
+          "arabic_note": "Transmitted Quranic and historical texts from Sūrat al-Fatḥ and Ibn Hishām recording the general amnesty granted to Quraysh.",
+          "victorian_note": "Verbatim excerpts from Edward Rehatsek’s Rauzat-us-Safa, Part II, Vol. II, pages 492–514, 517–530, and 582–614.",
+          "story": [
+            "In the sixth year after the Hijrah (628 CE), the Prophet Muḥammad ﷺ set out from Madīnah with fourteen hundred companions, clad only in the two seamless white garments of pilgrims (iḥrām) and driving sacrificial animals, intending to perform the peaceful pilgrimage of ʿUmrah.",
+            "Refusing to allow the Muslims entry, Quraysh deployed their cavalry to block the approaches. The Prophet ﷺ diverted his route, encamping at the well of al-Ḥudaybiyyah on the edge of the sacred Makkan territory. When rumors spread that his diplomatic envoy, ʿUthmān ibn ʿAffān, had been murdered within Makkah, the Prophet summoned his followers beneath an acacia tree.",
+            "In what became immortalized as Bayʿat al-Riḍwān (The Pledge of the Good Pleasure), all fourteen hundred companions placed their hands over the Prophet's ﷺ hand, swearing to stand firm unto death. Allah commemorated this profound loyalty in the Qurʾān: 'Verily, Allah was well pleased with the believers when they pledged allegiance to you beneath the tree.'",
+            "Shaken by this unbreakable devotion, Quraysh dispatched Suhayl ibn ʿAmr to negotiate terms of peace. The resulting Treaty of Ḥudaybiyyah appeared ostensibly unfavorable to the Muslims: a ten-year truce, returning without pilgrimage that season, and extraditing Makkan converts while Quraysh held no such reciprocal obligation.",
+            "Though several companions were grieved by the apparent concessions, the Prophet ﷺ perceived the profound divine wisdom. On the return journey to Madīnah, Allah revealed Sūrat al-Fatḥ: 'Verily, We have granted you a manifest victory!'",
+            "Ḥudaybiyyah proved indeed to be the greatest political triumph of Islam. For the first time, Quraysh recognized the Islamic commonwealth as an equal sovereign power. In the tranquil atmosphere of peace, free discourse flourished, and in the following two years, more people embraced Islam voluntarily than in all previous years combined, including military geniuses like Khālid ibn al-Walīd and ʿAmr ibn al-ʿĀṣ.",
+            "With hostilities suspended in Arabia, the Prophet ﷺ broadened the universal horizon of his mission, dispatching diplomatic emissaries bearing royal missives sealed with his silver signet ring ('Muḥammad Rasūl Allāh') to the emperors of the known world: Heraclius of Byzantium, Chosroes of Persia, and the Negus of Abyssinia, summoning them to the worship of the One Creator.",
+            "In the eighth year of the Hijrah (630 CE), the fragile peace was shattered when Quraysh and their allies of Banū Bakr attacked the Banū Khuzāʿah, who were under Muslim treaty protection, slaughtering them inside the sacred territory. By this flagrant violation, the Treaty of Ḥudaybiyyah was dissolved.",
+            "On the tenth day of Ramaḍān in 8 AH, the Prophet ﷺ marched upon Makkah at the head of ten thousand disciplined believers. The expedition moved with such absolute secrecy and overwhelming speed that the Muslim army illuminated ten thousand campfires upon the heights of Marr al-Ẓahrān before the city even realized they had mobilized. Confronted by this undeniable power, the commander of Quraysh, Abū Sufyān, embraced Islam.",
+            "The Prophet ﷺ entered his native city not as a vengeful conqueror, but with his head bowed so low upon the pommel of his camel in profound humility and gratitude to Allah that his beard almost brushed the saddle. He strictly commanded his commanders: 'Let there be no bloodshed! Whosoever enters the house of Abū Sufyān is safe; whosoever locks his door is safe; and whosoever enters the sacred sanctuary is safe.'",
+            "Proceeding directly to the Kaʿbah, the Prophet ﷺ performed the circumambulation and touched the Black Stone. Surrounding the House were three hundred and sixty idols. Pointing his staff at each idol, he recited: 'Truth has come and falsehood has vanished; verily falsehood is ever bound to vanish!' At the touch of his staff, the idols toppled forward onto their faces in the dust.",
+            "Standing at the threshold of the Kaʿbah, looking down upon the gathered multitudes of Quraysh who had persecuted him, tortured his companions, and driven him into exile, the Prophet asked: 'O people of Quraysh! What do you think I shall do to you?' They replied: 'Good! For you are a noble brother and the son of a noble brother!' The Prophet ﷺ replied with the sublime words of Prophet Yūsuf ؑ: 'No reproach upon you this day! Go, for you are free!' (Idhhabū fa-antum al-ṭulaqāʾ), sealing the opening of Makkah as the most magnanimous triumph in human history."
+          ],
+          "arabic": [
+            {
+              "label": "Sūrat al-Fatḥ — The Manifest Victory",
+              "ref": "Qurʾān, Sūrat al-Fatḥ (48:1–3)",
+              "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\n{إِنَّا فَتَحْنَا لَكَ فَتْحًا مُبِينًا (1) لِيَغْفِرَ لَكَ اللَّهُ مَا تَقَدَّمَ مِنْ ذَنْبِكَ وَمَا تَأَخَّرَ وَيُتِمَّ نِعْمَتَهُ عَلَيْكَ وَيَهْدِيَكَ صِرَاطًا مُسْتَقِيمًا (2) وَيَنْصُرَكَ اللَّهُ نَصْرًا عَزِيزًا (3)}"
+            },
+            {
+              "label": "The General Amnesty at the Opening of Makkah",
+              "ref": "Ibn Hishām, Sīrat Rasūl Allāh, Vol. 2 — ‘Fatḥ Makkah’",
+              "text": "ثُمَّ قَامَ عَلَى بَابِ الْكَعْبَةِ فَقَالَ: «لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، صَدَقَ وَعْدَهُ، وَنَصَرَ عَبْدَهُ، وَهَزَمَ الْأَحْزَابَ وَحْدَهُ […] يَا مَعْشَرَ قُرَيْشٍ، مَا تَرَوْنَ أَنِّي فَاعِلٌ بِكُمْ؟»\n\nقَالُوا: خَيْرًا؛ أَخٌ كَرِيمٌ، وَابْنُ أَخٍ كَرِيمٍ.\n\nقَالَ: «فَإِنِّي أَقُولُ لَكُمْ كَمَا قَالَ يُوسُفُ لِإِخْوَتِهِ: لَا تَثْرِيبَ عَلَيْكُمُ الْيَوْمَ، اذْهَبُوا فَأَنْتُمُ الطُّلَقَاءُ»."
+            }
+          ],
+          "victorian": [
+            {
+              "text": "The treaty of Hodaybiah and its events. […] His lordship proceeded with fourteen hundred companions to perform the pilgrimage, but was hindered by the idolaters. Under the tree, the companions swore to stand by him unto death, which was named the Pledge of Ridwan.",
+              "ref": "p. 492–495"
+            },
+            {
+              "text": "Ambassadors are sent to the sovereigns, rulers and judges of that epoch. […] His lordship sent epistles to Khosru Parviz the King of Persia, Heraclius the Emperor of the Greeks, and the Najashi of Abyssinia, inviting them to believe in the unity of God.",
+              "ref": "p. 517–524"
+            },
+            {
+              "text": "The march to, and capture of, Mekkah. […] Muhammad entered Mekkah riding his camel, with his head bowed down from humility. He touched the black stone and shouted the Takbir. Three hundred and sixty idols had been erected around the Ka’bah; when his lordship touched them with his staff and uttered: ‘Truth has come, and falsehood has departed,’ they fell on their faces.",
+              "ref": "p. 582–599"
+            },
+            {
+              "text": "His holy and prophetic lordship prohibited the victorious army from killing any of the inhabitants of Mekkah, and treated them with extraordinary clemency and pardon, saying to them: ‘Go, for you are liberated!’",
+              "ref": "p. 604–605"
+            }
+          ],
+          "audio": {
+            "file": "audio/sirah/sirah_chapter_11.mp3",
+            "title": "The Treaty of Ḥudaybiyyah & The Peaceful Opening of Makkah",
+            "artist": "Narrated Audiobook — The Mantle Library",
+            "duration": 303.88,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 19.99
+              },
+              {
+                "n": 2,
+                "start": 20.74,
+                "end": 45.08
+              },
+              {
+                "n": 3,
+                "start": 45.83,
+                "end": 67.43
+              },
+              {
+                "n": 4,
+                "start": 68.18,
+                "end": 89.61
+              },
+              {
+                "n": 5,
+                "start": 90.36,
+                "end": 106.58
+              },
+              {
+                "n": 6,
+                "start": 107.33,
+                "end": 133.73
+              },
+              {
+                "n": 7,
+                "start": 134.48,
+                "end": 158.44
+              },
+              {
+                "n": 8,
+                "start": 159.19,
+                "end": 179.35
+              },
+              {
+                "n": 9,
+                "start": 180.1,
+                "end": 209.09
+              },
+              {
+                "n": 10,
+                "start": 209.84,
+                "end": 236.5
+              },
+              {
+                "n": 11,
+                "start": 237.25,
+                "end": 263.08
+              },
+              {
+                "n": 12,
+                "start": 263.83,
+                "end": 303.88
+              }
+            ]
+          }
+        },
+        {
+          "heading": "Chapter 12: The Farewell Pilgrimage, The Perfected Deen, & The Highest Companion",
+          "layout": "book",
+          "note": "The Farewell Hajj and Sermon on ʿArafāt, the perfection of the faith, the final illness, and passing to the Highest Companion (al-Rafīq al-Aʿlā).",
+          "story_note": "A faithful retelling of the completion of the prophetic mission: the universal human rights proclaimed at ʿArafāt, the serenity of the final illness, and the peaceful passing of the Prophet ﷺ.",
+          "arabic_note": "Authentic vocalized Quranic and Hadith transmissions from Sūrat al-Māʾidah, the Farewell Sermon, and Ṣaḥīḥ al-Bukhārī recording the passing of the Prophet.",
+          "victorian_note": "Verbatim excerpts from Edward Rehatsek’s Rauzat-us-Safa, Part II, Vol. II, pages 692–698, and 720–731.",
+          "story": [
+            "In the tenth year of the Hijrah (632 CE), the divine mission of Prophet Muḥammad ﷺ approached its earthly fulfillment. Idolatry had been eradicated from the Arabian Peninsula, and tribes from every corner of the realm flocked to Madīnah in delegations to embrace the faith of monotheism.",
+            "The Prophet ﷺ announced his intention to perform his sole pilgrimage after the Hijrah, known as Ḥajjat al-Widāʿ (The Farewell Pilgrimage). Over one hundred and twenty thousand pilgrims gathered from every region of Arabia to learn the sacred rites and accompany the Messenger of Allah upon his final journey.",
+            "On the ninth day of Dhū al-Ḥijjah, atop the plains of Mount ʿArafāt, seated upon his she-camel al-Qaṣwāʾ, the Prophet ﷺ delivered his epochal Farewell Sermon to the assembled sea of humanity, establishing the eternal charter of universal human dignity.",
+            "He proclaimed: 'O people, listen well to my words, for I know not whether I shall meet you again in this place after this year! O people, verily your blood, your property, and your honor are sacred and inviolable, like the sanctity of this day of yours, in this month of yours, in this sacred city of yours!'",
+            "He struck down all remnants of pre-Islamic ignorance, declaring all blood-feuds abolished and abolishing all usury (ribā). He commanded the utmost protection and honor for women: 'Fear Allah concerning women! Verily you have taken them as a trust from Allah, and their rights over you are that you provide for them with kindness.'",
+            "He declared the radical, absolute equality of the human family: 'O people, your Lord is One and your father is one. An Arab has no superiority over a non-Arab, nor a non-Arab over an Arab; nor does a white person possess superiority over a black person, nor a black person over a white person, except through piety and righteous conduct. Have I conveyed the message?' The multitude roared: 'Yes, by Allah!' The Prophet raised his finger to the heavens: 'O Allah, bear witness!'",
+            "On that very afternoon at ʿArafāt, the final verse of the divine covenant was revealed: 'This day I have perfected for you your religion, completed My favor upon you, and have chosen for you Islam as your way of life.' Upon hearing this verse, Abū Bakr ؓ wept, knowing that when a mission is perfected, its messenger's departure is near.",
+            "Returning to Madīnah, in late Ṣafar of the eleventh year of the Hijrah, the Prophet ﷺ was stricken with a severe fever and headache. Sensing his approaching departure, he visited the cemetery of al-Baqīʿ in the dead of night to pray for the departed believers, and stood at Mount Uḥud to bid farewell to the martyrs.",
+            "As his fever intensified, he took residence in the chamber of his beloved wife Sayyidah ʿĀʾishah ؓ. When he became too frail to walk to the mosque, he commanded: 'Instruct Abū Bakr to lead the people in prayer,' ensuring the unbroken continuity of the community under his dearest companion.",
+            "On Monday, the twelfth of Rabīʿ al-Awwal 11 AH, the Prophet ﷺ drew back the curtain of ʿĀʾishah's chamber and looked out upon the believers standing in orderly ranks in prayer behind Abū Bakr. A radiant smile illuminated his face like a leaf of the Qurʾān. It was the last time his companions beheld his living countenance upon earth.",
+            "Reclining with his blessed head upon ʿĀʾishah's lap, he cleansed his mouth with a fresh olive miswāk. He dipped his hands into a vessel of water, wiping his forehead and whispering: 'Lā ilāha illā Allāh, verily death has its agonies.' Then, raising his hand toward heaven, his eyes gazed upward as he uttered his sublime final words: 'Bal al-Rafīq al-Aʿlā — Nay, with the Highest Companion in Paradise!' His blessed hand relaxed, and his pure soul returned to its Creator.",
+            "Grief engulfed Madīnah. The companions wept in bewildered disbelief until Abū Bakr ؓ entered the chamber, kissed the forehead of the Prophet, and ascended the pulpit in the mosque, pronouncing his immortal words: 'O people! Whosoever among you worshipped Muḥammad, let him know that Muḥammad has passed away. But whosoever among you worships Allah, let him know that Allah is Alive and never dies!' He recited the Quranic verse: 'Muḥammad is no more than a Messenger; messengers have passed away before him. If he dies or is slain, will you turn back on your heels?' Upon hearing these words, the believers realized the reality of their loss, their tears watering the earth of Madīnah as they prepared to carry the eternal message of mercy to the ends of the earth."
+          ],
+          "arabic": [
+            {
+              "label": "Sūrat al-Māʾidah — The Perfection of the Faith",
+              "ref": "Qurʾān, Sūrat al-Māʾidah (5:3)",
+              "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\n{الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي وَرَضِيتُ لَكُمُ الْإِسْلَامَ دِينًا ۚ فَمَنِ اضْطُرَّ فِي مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍ لِإِثْمٍ ۙ فَإِنَّ اللَّهَ غَفُورٌ رَحِيمٌ}"
+            },
+            {
+              "label": "From the Farewell Sermon (Khuṭbat Ḥajjat al-Widāʿ)",
+              "ref": "Musnad al-Imām Aḥmad; Ibn Hishām, Sīrah",
+              "text": "«يَا أَيُّهَا النَّاسُ، إِنَّ رَبَّكُمْ وَاحِدٌ، وَإِنَّ أَبَاكُمْ وَاحِدٌ، أَلَا لَا فَضْلَ لِعَرَبِيٍّ عَلَى عَجَمِيٍّ، وَلَا لِعَجَمِيٍّ عَلَى عَرَبِيٍّ، وَلَا لِأَحْمَرَ عَلَى أَسْوَدَ، وَلَا أَسْوَدَ عَلَى أَحْمَرَ إِلَّا بِالتَّقْوَى، إِنَّ أَكْرَمَكُمْ عِنْدَ اللَّهِ أَتْقَاكُمْ، أَلَا هَلْ بَلَّغْتُ؟ قَالُوا: بَلَّغَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ»."
+            },
+            {
+              "label": "Ṣaḥīḥ al-Bukhārī — The Passing & Abū Bakr’s Speech",
+              "ref": "Ṣaḥīḥ al-Bukhārī, Kitāb al-Maghāzī (Hadith 4454)",
+              "text": "فَلَمَّا تُوُفِّيَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ، قَامَ أَبُو بَكْرٍ فَحَمِدَ اللَّهَ وَأَثْنَى عَلَيْهِ وَقَالَ: «أَلَا مَنْ كَانَ يَعْبُدُ مُحَمَّدًا صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَإِنَّ مُحَمَّدًا قَدْ مَاتَ، وَمَنْ كَانَ يَعْبُدُ اللَّهَ فَإِنَّ اللَّهَ حَيٌّ لَا يَمُوتُ».\n\nوَقَالَ: {إِنَّكَ مَيِّتٌ وَإِنَّهُمْ مَيِّتُونَ}، وَقَالَ: {وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ قَدْ خَلَتْ مِنْ قَبْلِهِ الرُّسُلُ ۚ أَفَإِنْ مَاتَ أَوْ قُتِلَ انْقَلَبْتُمْ عَلَىٰ أَعْقَابِكُمْ ۚ وَمَنْ يَنْقَلِبْ عَلَىٰ عَقِبَيْهِ فَلَنْ يَضُرَّ اللَّهَ شَيْئًا ۗ وَسَيَجْزِي اللَّهُ الشَّاكِرِينَ}.\n\nقَالَ: فَنَشَجَ النَّاسُ يَبْكُونَ."
+            }
+          ],
+          "victorian": [
+            {
+              "text": "The Hajjatu-l-wodaa’, or pilgrimage of valediction. […] His holy and prophetic lordship departed from Madinah with one hundred and fourteen thousand persons. At Mount Arafat he delivered his farewell sermon, commanding the Muslims to preserve the sanctity of life, honor, and property, and to treat women with kindness and equity.",
+              "ref": "p. 692–698"
+            },
+            {
+              "text": "Events of the eleventh year after the Flight, and death of his lordship the prince of inspired messengers. […] When his lordship was in his last illness, he ordered: ‘Tell Abu Bakr to lead the prayers with the people.’",
+              "ref": "p. 701–720"
+            },
+            {
+              "text": "In the apartment of A’ayshah, his lordship raised his eyes to heaven, and his blessed spirit departed to the Highest Companion in paradise.",
+              "ref": "p. 726–728"
+            },
+            {
+              "text": "Abu Bakr lifted the mantle from the countenance of the apostle of God, kissed him, and said: ‘Thou art sweet whether living or dead.’ Then he mounted the pulpit and said: ‘Be it known to those who worshipped Muhammad that he is verily dead; and be it known to those who worship God that Allah is eternal, and dies not.’",
+              "ref": "p. 730–731"
+            }
+          ],
+          "audio": {
+            "file": "audio/sirah/sirah_chapter_12.mp3",
+            "title": "The Farewell Pilgrimage, The Perfected Deen, & The Highest Companion",
+            "artist": "Narrated Audiobook — The Mantle Library",
+            "duration": 304.0,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 20.45
+              },
+              {
+                "n": 2,
+                "start": 21.2,
+                "end": 41.19
+              },
+              {
+                "n": 3,
+                "start": 41.94,
+                "end": 58.5
+              },
+              {
+                "n": 4,
+                "start": 59.25,
+                "end": 78.83
+              },
+              {
+                "n": 5,
+                "start": 79.58,
+                "end": 99.5
+              },
+              {
+                "n": 6,
+                "start": 100.25,
+                "end": 133.52
+              },
+              {
+                "n": 7,
+                "start": 134.27,
+                "end": 156.68
+              },
+              {
+                "n": 8,
+                "start": 157.43,
+                "end": 176.66
+              },
+              {
+                "n": 9,
+                "start": 177.41,
+                "end": 197.57
+              },
+              {
+                "n": 10,
+                "start": 198.32,
+                "end": 221.67
+              },
+              {
+                "n": 11,
+                "start": 222.42,
+                "end": 253.55
+              },
+              {
+                "n": 12,
+                "start": 254.3,
+                "end": 304.0
+              }
+            ]
+          }
         }
       ]
     },
