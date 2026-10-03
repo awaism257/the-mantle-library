@@ -128,6 +128,29 @@
     safeSet(LS_TRANSLATION, JSON.stringify(translationDisplay));
   }
 
+  /* ------------------------------------------- volume-key page turning (native) */
+
+  // Only meaningful inside the native Android shell, which owns the hardware
+  // keys. Default ON: Volume Down = next page, Volume Up = previous page, but
+  // only while a paged reader is open and audio is NOT playing.
+  var LS_VOLUME_PAGING = 'mantle-volume-paging';
+
+  function volumePagingEnabled() {
+    return safeGet(LS_VOLUME_PAGING) !== 'off';
+  }
+
+  function notifyNativeVolumePaging() {
+    if (window.AndroidBridge && typeof window.AndroidBridge.onVolumePagingSetting === 'function') {
+      try { window.AndroidBridge.onVolumePagingSetting(volumePagingEnabled()); } catch (e) { /* ignore */ }
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', notifyNativeVolumePaging);
+  } else {
+    notifyNativeVolumePaging();
+  }
+
   /* ------------------------------------------------ public API (Settings page) */
 
   window.MantleSettings = {
@@ -151,6 +174,11 @@
         translationDisplay[layer] = mode;
         saveTranslationDisplay();
       }
+    },
+    getVolumePaging: volumePagingEnabled,
+    setVolumePaging: function (on) {
+      safeSet(LS_VOLUME_PAGING, on ? 'on' : 'off');
+      notifyNativeVolumePaging();
     }
   };
 })();

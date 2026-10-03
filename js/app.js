@@ -43,6 +43,7 @@
 
   var currentReaderAudio = null;
   var currentReaderCleanup = null;
+  var currentBookCleanup = null;
 
   function formatTime(seconds) {
     if (isNaN(seconds) || seconds < 0) return '0:00';
@@ -61,6 +62,15 @@
       currentReaderCleanup = null;
     }
     window.MantleReaderPlayer = null;
+    if (typeof currentBookCleanup === 'function') {
+      currentBookCleanup();
+      currentBookCleanup = null;
+    }
+    window.MantleBook = null;
+    appEl.classList.remove('is-book');
+    // Tell the native shell the paged reader is closed and nothing is playing.
+    nativeCall('onReaderState', false);
+    nativeCall('onAudioState', false);
     while (appEl.firstChild) appEl.removeChild(appEl.firstChild);
   }
 
@@ -447,6 +457,10 @@
     var workRows = el('ul', { class: 'menu-rows', id: 'work-rows' });
     appEl.appendChild(workRows);
 
+    // Featured landscape card (the narrated audiobook) sits above the grid.
+    var featuredCardContainer = el('div', { id: 'featured-card-container' });
+    appEl.insertBefore(featuredCardContainer, workRows);
+
     // Landscape card container for the Historic Gramophone Archive
     var archiveCardContainer = el('div', { id: 'archive-card-container' });
     appEl.appendChild(archiveCardContainer);
@@ -454,17 +468,44 @@
     loadWorks().then(function (works) {
       if (!works) return;
       var archiveWork = null;
+      var featuredWork = null;
       works.forEach(function (work) {
         if (work.id === 'historic-recordings' || hasAudio(work)) {
           archiveWork = work;
+        } else if (work.featured) {
+          featuredWork = work;
         } else {
           workRows.appendChild(buildWorkRow(work));
         }
       });
+      if (featuredWork) {
+        featuredCardContainer.appendChild(buildFeaturedCard(featuredWork));
+      }
       if (archiveWork) {
         archiveCardContainer.appendChild(buildArchiveCard(archiveWork));
       }
     });
+  }
+
+  function buildFeaturedCard(work) {
+    var t = splitTitleGloss(work.title_en);
+    var href = '#/work/' + encodeURIComponent(work.id);
+    return el('div', { class: 'archive-card featured-card' }, [
+      el('a', {
+        class: 'archive-card-link',
+        href: href,
+        'aria-label': work.title_en + ' — narrated audiobook'
+      }, [
+        el('span', { class: 'archive-card-icon', html: rowIcon(work.id) }),
+        el('span', { class: 'archive-card-text' }, [
+          el('span', { class: 'featured-badge', text: '🎧 Narrated Audiobook · Chapter 1 now available' }),
+          el('span', { class: 'archive-card-title', text: t.main }),
+          t.gloss ? el('span', { class: 'archive-card-gloss', text: t.gloss }) : null,
+          el('span', { class: 'archive-card-sub', lang: 'ar', dir: 'rtl', text: work.title_ar })
+        ]),
+        el('span', { class: 'archive-card-chevron', 'aria-hidden': 'true', text: '›' })
+      ])
+    ]);
   }
 
   function buildArchiveCard(archiveWork) {
@@ -746,6 +787,347 @@
     }
   }
 
+  /* ---------- Native bridge helpers (silent no-ops on the web / PWA) ---------- */
+
+  function nativeCall(name, arg) {
+    try {
+      var bridge = window.AndroidBridge;
+      if (bridge && typeof bridge[name] === 'function') bridge[name](arg);
+    } catch (e) {}
+  }
+
+  // Scroll-based readers use scrollIntoView; Book Mode pages by translating a
+  // column strip, so it must be told to turn to the page instead.
+  function revealCard(card, smooth, force) {
+    if (!card) return;
+    if (window.MantleBook && card.closest && card.closest('.book-viewport')) {
+      window.MantleBook.reveal(card, 0, force !== false);
+      return;
+    }
+    card.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'center' });
+  }
+
+  // Called by the native shell for Volume Down (+1 = next) / Volume Up (-1 = previous).
+  window.mantleTurnPage = function (dir) {
+    if (window.MantleBook && typeof window.MantleBook.turn === 'function') {
+      return window.MantleBook.turn(dir > 0 ? 1 : -1);
+    }
+    return false;
+  };
+
+  /* ---------- Book Mode: paged reader (CSS multi-columns, one column per page) ----------
+     Mirrors the JustQuran book reader: text flows into columns exactly one
+     viewport wide; pages are turned by translating the strip, never by scrolling. */
+
+  var BOOK_GAP = 32;
+
+  function buildBookReader(section, sectionIndex, totalSections, work) {
+    var workUrl = '#/work/' + encodeURIComponent(work.id) + '/section/';
+    var story = Array.isArray(section.story) ? section.story : [];
+    var arabic = Array.isArray(section.arabic) ? section.arabic : [];
+    var victorian = Array.isArray(section.victorian) ? section.victorian : [];
+    var hasAudioTrack = !!section.audio;
+
+    // ---- English Story ----
+    var storyNodes = story.map(function (text, idx) {
+      var n = idx + 1;
+      var p = el('p', { class: 'book-para', id: 'verse-' + n });
+      if (hasAudioTrack) {
+        var numBtn = el('button', {
+          class: 'book-para-num',
+          type: 'button',
+          'aria-label': 'Play from paragraph ' + n,
+          title: 'Play from here',
+          text: String(n)
+        });
+        numBtn.addEventListener('click', function () {
+          if (window.MantleReaderPlayer && window.MantleReaderPlayer.seekToVerse) {
+            window.MantleReaderPlayer.seekToVerse(n);
+          }
+        });
+        p.appendChild(numBtn);
+      }
+      p.appendChild(document.createTextNode(text));
+      return p;
+    });
+    if (section.story_note) {
+      storyNodes.push(el('p', { class: 'book-note', text: section.story_note }));
+    }
+
+    // ---- Classical Arabic (right-to-left pages) ----
+    var arabicNodes = [];
+    arabic.forEach(function (item) {
+      var block = el('div', { class: 'book-passage' });
+      block.appendChild(el('h3', { class: 'book-label', dir: 'ltr', text: item.label }));
+      String(item.text).split(/\n\n+/).forEach(function (t) {
+        block.appendChild(el('p', { class: 'book-ar', lang: 'ar', dir: 'rtl', text: t }));
+      });
+      if (item.ref) block.appendChild(el('p', { class: 'book-ref', dir: 'ltr', text: item.ref }));
+      arabicNodes.push(block);
+    });
+    if (arabicNodes.length && section.arabic_note) {
+      arabicNodes.push(el('p', { class: 'book-note', dir: 'ltr', text: section.arabic_note }));
+    }
+
+    // ---- Victorian Source (verbatim Rehatsek) ----
+    var victorianNodes = [];
+    if (victorian.length && section.victorian_note) {
+      victorianNodes.push(el('p', { class: 'book-note', text: section.victorian_note }));
+    }
+    victorian.forEach(function (item) {
+      var block = el('blockquote', { class: 'book-vic', lang: 'en' });
+      String(item.text).split(/\n\n+/).forEach(function (t) {
+        block.appendChild(el('p', { class: 'book-vic-text', text: t }));
+      });
+      if (item.ref) block.appendChild(el('p', { class: 'book-ref', text: '— Rehatsek, ' + item.ref }));
+      victorianNodes.push(block);
+    });
+
+    var defs = [
+      { key: 'story', label: '📖 English Story', nodes: storyNodes, rtl: false },
+      { key: 'arabic', label: '📜 Classical Arabic', nodes: arabicNodes, rtl: true },
+      { key: 'victorian', label: '🏛️ Victorian Source', nodes: victorianNodes, rtl: false }
+    ].filter(function (d) { return d.nodes.length > 0; });
+
+    var panes = {};
+    var order = [];
+    var panesWrap = el('div', { class: 'book-panes' });
+    defs.forEach(function (d) {
+      var strip = el('div', { class: 'book-strip' + (d.rtl ? ' is-rtl' : '') }, d.nodes);
+      if (d.rtl) strip.setAttribute('dir', 'rtl');
+      var viewport = el('div', { class: 'book-viewport' }, [strip]);
+      var paneEl = el('div', {
+        class: 'book-pane',
+        role: 'tabpanel',
+        id: 'book-pane-' + d.key,
+        'aria-label': d.label
+      }, [viewport]);
+      paneEl.hidden = true;
+      var pane = { key: d.key, rtl: d.rtl, el: paneEl, viewport: viewport, strip: strip, page: 0, count: 1, w: 0 };
+      panes[d.key] = pane;
+      order.push(pane);
+      panesWrap.appendChild(paneEl);
+    });
+
+    var activeKey = order.length ? order[0].key : null;
+    var hold = false; // user turned the page by hand: don't yank it back mid-paragraph
+
+    // ---- tabs + pager ----
+    var tabs = el('div', { class: 'book-tabs', role: 'tablist', 'aria-label': 'Reading modes' });
+    var tabBtns = {};
+    defs.forEach(function (d) {
+      var b = el('button', {
+        class: 'book-tab',
+        type: 'button',
+        role: 'tab',
+        'aria-controls': 'book-pane-' + d.key,
+        text: d.label
+      });
+      b.addEventListener('click', function () { selectTab(d.key); });
+      tabBtns[d.key] = b;
+      tabs.appendChild(b);
+    });
+
+    var btnLeft = el('button', { class: 'book-page-btn', type: 'button', text: '‹' });
+    var btnRight = el('button', { class: 'book-page-btn', type: 'button', text: '›' });
+    var pageLabel = el('span', { class: 'book-page-label', 'aria-live': 'polite' });
+    var pager = el('div', { class: 'book-pager' }, [btnLeft, pageLabel, btnRight]);
+
+    var wrap = el('div', { class: 'book-reader' }, [tabs, panesWrap, pager]);
+
+    function activePane() { return activeKey ? panes[activeKey] : null; }
+
+    function viewportHeight(pane) {
+      var top = pane.viewport.getBoundingClientRect().top + (window.pageYOffset || 0);
+      var footer = document.querySelector('.reader-footer');
+      var reserve = footer ? Math.max(0, window.innerHeight - footer.getBoundingClientRect().top) : 0;
+      var pagerH = pager.offsetHeight || 44;
+      return Math.max(220, Math.floor(window.innerHeight - top - reserve - pagerH - 16));
+    }
+
+    function updatePager() {
+      var p = activePane();
+      if (!p) return;
+      pageLabel.textContent = 'Page ' + (p.page + 1) + ' of ' + p.count;
+      var atStart = p.page <= 0;
+      var atEnd = p.page >= p.count - 1;
+      // In a right-to-left pane the left button is "next", as in a real Arabic book.
+      btnLeft.disabled = p.rtl ? atEnd : atStart;
+      btnRight.disabled = p.rtl ? atStart : atEnd;
+      btnLeft.setAttribute('aria-label', p.rtl ? 'Next page' : 'Previous page');
+      btnRight.setAttribute('aria-label', p.rtl ? 'Previous page' : 'Next page');
+    }
+
+    function applyPage(p) {
+      var shift = p.page * p.w;
+      p.strip.style.transform = 'translateX(' + (p.rtl ? shift : -shift) + 'px)';
+      updatePager();
+    }
+
+    function layoutPane(p) {
+      var w = p.viewport.clientWidth;
+      if (!w) return;
+      var frac = p.count > 1 ? p.page / (p.count - 1) : 0;
+      var h = viewportHeight(p);
+      p.viewport.style.height = h + 'px';
+      p.strip.style.height = h + 'px';
+      // Strip is (w − GAP) wide so exactly one column fits: column pitch = w
+      // and every page keeps GAP/2 of air on each side.
+      p.strip.style.width = Math.max(120, w - BOOK_GAP) + 'px';
+      p.strip.style.marginLeft = (BOOK_GAP / 2) + 'px';
+      p.strip.style.columnWidth = Math.max(120, w - BOOK_GAP) + 'px';
+      p.strip.style.columnGap = BOOK_GAP + 'px';
+      p.w = w;
+      p.count = Math.max(1, Math.round((p.strip.scrollWidth + BOOK_GAP) / w));
+      p.page = Math.max(0, Math.min(p.count - 1, Math.round(frac * (p.count - 1))));
+      applyPage(p);
+    }
+
+    function layoutActive() {
+      var p = activePane();
+      if (p && !p.el.hidden) layoutPane(p);
+    }
+
+    function selectTab(key) {
+      if (!panes[key]) return;
+      activeKey = key;
+      order.forEach(function (p) {
+        var on = p.key === key;
+        p.el.hidden = !on;
+        tabBtns[p.key].setAttribute('aria-selected', on ? 'true' : 'false');
+        tabBtns[p.key].classList.toggle('is-active', on);
+      });
+      layoutActive();
+    }
+
+    // Move one page in reading direction (+1 next / -1 previous). Past either
+    // end of the chapter it moves on to the neighbouring chapter, if any.
+    function turn(dir) {
+      var p = activePane();
+      if (!p) return false;
+      var np = p.page + dir;
+      if (np < 0 || np >= p.count) {
+        if (dir > 0 && sectionIndex < totalSections - 1) {
+          window.location.hash = workUrl + (sectionIndex + 1);
+          return true;
+        }
+        if (dir < 0 && sectionIndex > 0) {
+          window.location.hash = workUrl + (sectionIndex - 1);
+          return true;
+        }
+        return false;
+      }
+      p.page = np;
+      hold = true;
+      applyPage(p);
+      return true;
+    }
+
+    function turnVisual(side) {
+      var p = activePane();
+      if (!p) return;
+      var dir = side === 'right' ? 1 : -1;
+      turn(p.rtl ? -dir : dir);
+    }
+
+    btnLeft.addEventListener('click', function () { turnVisual('left'); });
+    btnRight.addEventListener('click', function () { turnVisual('right'); });
+
+    // Swipe: a finger moving left turns to the page on the right (and vice versa).
+    var touchStart = null;
+    panesWrap.addEventListener('touchstart', function (e) {
+      var t = e.touches && e.touches[0];
+      touchStart = t ? { x: t.clientX, y: t.clientY, t: Date.now() } : null;
+    }, { passive: true });
+    panesWrap.addEventListener('touchend', function (e) {
+      var s0 = touchStart;
+      touchStart = null;
+      var t = e.changedTouches && e.changedTouches[0];
+      if (!s0 || !t) return;
+      var dx = t.clientX - s0.x;
+      var dy = t.clientY - s0.y;
+      if (Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy) * 1.4 || Date.now() - s0.t > 900) return;
+      turnVisual(dx < 0 ? 'right' : 'left');
+    }, { passive: true });
+
+    function onKey(e) {
+      if (e.defaultPrevented || e.ctrlKey || e.metaKey || e.altKey) return;
+      var tgt = e.target;
+      if (tgt && /^(input|textarea|select)$/i.test(tgt.tagName)) return;
+      if (document.querySelector('.art-overlay')) return;
+      if (e.key === 'PageDown') { e.preventDefault(); turn(1); }
+      else if (e.key === 'PageUp') { e.preventDefault(); turn(-1); }
+      else if (e.key === 'ArrowRight') { e.preventDefault(); turnVisual('right'); }
+      else if (e.key === 'ArrowLeft') { e.preventDefault(); turnVisual('left'); }
+    }
+    document.addEventListener('keydown', onKey);
+
+    // Bring a narrated paragraph into view. A paragraph can span several
+    // pages, so `fraction` (0–1, progress through its audio) picks the page.
+    function reveal(card, fraction, force) {
+      var p = panes.story;
+      if (!p || p.el.hidden || !p.w || !card) return;
+      if (force) hold = false;
+      if (hold) return;
+      var rects = card.getClientRects();
+      if (!rects.length) return;
+      var total = 0;
+      var i;
+      for (i = 0; i < rects.length; i++) total += rects[i].height;
+      var target = rects[0];
+      var acc = 0;
+      var f = Math.max(0, Math.min(1, fraction || 0));
+      for (i = 0; i < rects.length; i++) {
+        acc += rects[i].height;
+        target = rects[i];
+        if (total <= 0 || f <= acc / total) break;
+      }
+      var left = target.left - p.strip.getBoundingClientRect().left;
+      var page = Math.max(0, Math.min(p.count - 1, Math.floor((left + 2) / p.w)));
+      if (page !== p.page) {
+        p.page = page;
+        applyPage(p);
+      }
+    }
+
+    window.MantleBook = {
+      turn: turn,
+      reveal: reveal,
+      follow: function (card, fraction) { reveal(card, fraction, false); }
+    };
+
+    var resizeTimer = null;
+    function onResize() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(layoutActive, 120);
+    }
+    window.addEventListener('resize', onResize);
+    window.addEventListener('orientationchange', onResize);
+
+    currentBookCleanup = function () {
+      document.removeEventListener('keydown', onKey);
+      window.removeEventListener('resize', onResize);
+      window.removeEventListener('orientationchange', onResize);
+      clearTimeout(resizeTimer);
+    };
+
+    // The strip can only be measured once attached and fonts have settled.
+    var tries = 0;
+    function firstLayout() {
+      if (!wrap.isConnected && tries++ < 60) {
+        window.requestAnimationFrame(firstLayout);
+        return;
+      }
+      selectTab(activeKey);
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(layoutActive);
+      setTimeout(layoutActive, 250);
+    }
+    window.requestAnimationFrame(firstLayout);
+
+    nativeCall('onReaderState', true);
+    return wrap;
+  }
+
   /* ---------- Sticky Reader Footer Dock (Media & Section Navigation) ---------- */
   function buildReaderFooterDock(section, sectionIndex, totalSections, work) {
     var audioData = section.audio;
@@ -821,7 +1203,7 @@
           autoScrollBtn.classList.add('is-active');
           autoScrollBtn.setAttribute('aria-pressed', 'true');
           if (lastActiveCard) {
-            lastActiveCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            revealCard(lastActiveCard, true, true);
           }
         } else {
           autoScrollBtn.classList.remove('is-active');
@@ -928,7 +1310,7 @@
         if (!autoScroll) return;
         var card = lastActiveCard || document.getElementById('verse-1');
         if (card) {
-          card.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'center' });
+          revealCard(card, smooth, true);
         }
       }
 
@@ -965,6 +1347,7 @@
       });
 
       audio.addEventListener('play', function () {
+        nativeCall('onAudioState', true);
         playBtn.innerHTML = ICON_PAUSE;
         playBtn.setAttribute('aria-label', 'Pause recitation');
         updateVersePlayButtons();
@@ -977,6 +1360,7 @@
       });
 
       audio.addEventListener('pause', function () {
+        nativeCall('onAudioState', false);
         playBtn.innerHTML = ICON_PLAY;
         playBtn.setAttribute('aria-label', 'Play recitation');
         updateVersePlayButtons();
@@ -1049,7 +1433,7 @@
               card.classList.add('is-active-verse');
               lastActiveCard = card;
               if (autoScroll && !userInterrupted) {
-                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                revealCard(card, true, true);
               }
             }
           } else {
@@ -1063,9 +1447,21 @@
             navigator.mediaSession.metadata.title = vTitle;
           }
         }
+
+        // Book Mode: follow a long paragraph across page boundaries while it is narrated.
+        if (lastActiveCard && autoScroll && !userInterrupted && window.MantleBook &&
+            lastActiveCard.closest && lastActiveCard.closest('.book-viewport')) {
+          for (var f = 0; f < timestamps.length; f++) {
+            if (timestamps[f].n === lastActiveNum && timestamps[f].end > timestamps[f].start) {
+              window.MantleBook.follow(lastActiveCard, (t - timestamps[f].start) / (timestamps[f].end - timestamps[f].start));
+              break;
+            }
+          }
+        }
       });
 
       audio.addEventListener('ended', function () {
+        nativeCall('onAudioState', false);
         playBtn.innerHTML = ICON_PLAY;
         if (lastActiveCard) lastActiveCard.classList.remove('is-active-verse');
         lastActiveCard = null;
@@ -1080,6 +1476,12 @@
             window.location.hash = workUrl + (sectionIndex + 1);
             return;
           } else if (loopEnabled) {
+            if (sectionIndex === 0) {
+              // Single-chapter work: the hash would not change, so restart in place.
+              audio.currentTime = 0;
+              audio.play().catch(function () {});
+              return;
+            }
             try { window.sessionStorage.setItem('mantle_autoplay_next', '1'); } catch (e) {}
             window.location.hash = workUrl + '0';
             return;
@@ -1437,6 +1839,25 @@
       var st = splitTitleGloss(work.title_en);
       var secTitleKids = [document.createTextNode(st.main)];
       if (st.gloss) secTitleKids.push(el('span', { class: 'block-gloss', text: st.gloss }));
+
+      // Book Mode: compact header + paged three-tab reader (no scrolling).
+      if (section.layout === 'book') {
+        var bookHeader = [
+          el('h1', { class: 'page-title', text: section.heading }),
+          el('p', { class: 'work-author' }, secTitleKids)
+        ];
+        if (section.note) {
+          bookHeader.push(el('details', { class: 'work-source book-about' }, [
+            el('summary', { text: 'About this chapter' }),
+            el('p', { text: section.note })
+          ]));
+        }
+        appEl.appendChild(el('header', { class: 'work-header book-header' }, bookHeader));
+        appEl.classList.add('reader-wrap', 'is-book');
+        appEl.appendChild(buildBookReader(section, i, sections.length, work));
+        appEl.appendChild(buildReaderFooterDock(section, i, sections.length, work));
+        return;
+      }
       var headerChildren = [
         el('h1', { class: 'page-title', text: section.heading }),
         el('p', { class: 'work-author' }, secTitleKids)
@@ -1585,6 +2006,23 @@
       el('h2', { class: 'settings-heading', id: 'settings-theme-heading', text: 'Theme' }),
       el('div', { class: 'theme-choices', role: 'group', 'aria-label': 'Theme' }, [darkBtn, lightBtn])
     ]));
+
+    // --- Volume-key page turning (only in the native Android app) ---
+    if (window.AndroidBridge && settings.getVolumePaging) {
+      var volBox = el('input', { type: 'checkbox', id: 'setting-volume-paging' });
+      volBox.checked = settings.getVolumePaging();
+      volBox.addEventListener('change', function () {
+        settings.setVolumePaging(volBox.checked);
+      });
+      appEl.appendChild(el('section', { class: 'settings-card', 'aria-labelledby': 'settings-paging-heading' }, [
+        el('h2', { class: 'settings-heading', id: 'settings-paging-heading', text: 'Page turning' }),
+        el('label', { class: 'settings-toggle', for: 'setting-volume-paging' }, [
+          volBox,
+          el('span', { text: 'Turn pages with the volume keys' })
+        ]),
+        el('p', { class: 'settings-desc', text: 'In the paged Sīrah reader, Volume Down turns to the next page and Volume Up to the previous page. While audio is playing, the volume keys control the volume as usual.' })
+      ]));
+    }
 
     appEl.appendChild(el('p', {
       class: 'settings-note',

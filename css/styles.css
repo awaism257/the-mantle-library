@@ -2578,3 +2578,255 @@ html.is-native-android .site-footer {
     text-decoration: none;
   }
 }
+
+/* ---------- Featured landscape card: the narrated Sīrah audiobook (Home) ---------- */
+
+.featured-card {
+  margin-bottom: 1rem;
+}
+.featured-card .archive-card-link {
+  border: 1.5px solid var(--gold);
+  background: linear-gradient(135deg, rgba(214, 174, 94, 0.15), rgba(36, 90, 62, 0.28));
+  box-shadow: 0 4px 18px var(--shadow), 0 0 14px rgba(214, 174, 94, 0.14);
+}
+html.light .featured-card .archive-card-link {
+  background: linear-gradient(135deg, rgba(146, 112, 44, 0.14), rgba(36, 90, 62, 0.10));
+}
+.featured-card .archive-card-link:hover {
+  background: linear-gradient(135deg, rgba(214, 174, 94, 0.22), rgba(36, 90, 62, 0.34));
+}
+.featured-card .archive-card-icon {
+  background: var(--gold);
+  color: #101613;
+}
+.featured-card .archive-card-title {
+  font-size: 1.2rem;
+}
+.featured-badge {
+  align-self: flex-start;
+  font-family: var(--sans-ui);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  color: #101613;
+  background: var(--gold);
+  padding: 0.16rem 0.6rem;
+  border-radius: 9999px;
+}
+html.light .featured-badge {
+  color: #fff;
+}
+
+/* ---------- Book Mode: paged reader (CSS multi-columns, JustQuran-style) ---------- */
+
+.reader-wrap.is-book {
+  padding-bottom: 0 !important;
+}
+.book-header {
+  margin-bottom: 0.7rem;
+}
+.book-header .page-title {
+  font-size: clamp(1.15rem, 4.2vw, 1.6rem);
+  margin-bottom: 0.1rem;
+}
+.book-header .work-author {
+  margin: 0.1rem 0;
+  font-size: 0.88rem;
+}
+.book-about {
+  margin: 0.35rem auto 0;
+  font-size: 0.82rem;
+}
+.book-reader {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+.book-tabs {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+.book-tab {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: var(--sans-ui);
+  font-size: 0.8rem;
+  padding: 0.5rem 0.3rem;
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+  background: var(--card);
+  color: var(--dim);
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.book-tab.is-active {
+  border-color: var(--gold);
+  color: var(--fg);
+  background: rgba(214, 174, 94, 0.14);
+  font-weight: 700;
+}
+.book-tab:focus-visible,
+.book-page-btn:focus-visible,
+.book-para-num:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+.book-viewport {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.book-strip {
+  position: relative;
+  width: 100%;
+  column-fill: auto;
+  transition: transform 280ms ease;
+  will-change: transform;
+}
+.book-para {
+  margin: 0 0 1em;
+  padding: 0.25rem 0.5rem;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  font-family: var(--serif-body);
+  font-size: calc(1.02rem * var(--fs-en));
+  line-height: 1.68;
+  color: var(--vc-en);
+  text-align: left;
+  orphans: 2;
+  widows: 2;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.book-para.is-active-verse {
+  border-color: var(--gold);
+  background: rgba(214, 174, 94, 0.09);
+  box-shadow: 0 0 14px rgba(214, 174, 94, 0.25);
+  transition: border-color 200ms ease, background 200ms ease, box-shadow 200ms ease;
+}
+html.light .book-para.is-active-verse {
+  background: #FFFDF7;
+  box-shadow: 0 2px 12px rgba(140, 102, 32, 0.2);
+}
+.book-para-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.65em;
+  height: 1.65em;
+  margin-right: 0.55em;
+  padding: 0;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--gold);
+  font-family: var(--sans-ui);
+  font-size: 0.68em;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: 0.1em;
+  cursor: pointer;
+}
+.book-para.is-active-verse .book-para-num {
+  background: var(--gold);
+  color: #101613;
+}
+.book-note {
+  margin: 0.4em 0 1em;
+  font-family: var(--sans-ui);
+  font-size: 0.8rem;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--faint);
+}
+.book-passage {
+  margin-bottom: 1.4em;
+}
+.book-label {
+  margin: 0 0 0.4em;
+  font-family: var(--sans-ui);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: left;
+  color: var(--gold);
+}
+.book-ar {
+  margin: 0 0 0.6em;
+  font-family: var(--arabic-stack);
+  font-size: calc(1.55rem * var(--fs-ar));
+  line-height: 2.2;
+  color: var(--vc-ar);
+  text-align: right;
+}
+.book-ref {
+  margin: 0.2em 0 0;
+  font-family: var(--sans-ui);
+  font-size: 0.74rem;
+  line-height: 1.4;
+  color: var(--faint);
+  text-align: left;
+}
+.book-vic {
+  margin: 0 0 1.4em;
+  padding: 0 0 0 0.9rem;
+  border-left: 3px solid var(--gold);
+}
+.book-vic-text {
+  margin: 0 0 0.7em;
+  font-family: var(--serif-body);
+  font-size: calc(1rem * var(--fs-en));
+  line-height: 1.7;
+  color: var(--vc-en);
+}
+.book-pager {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: 0.4rem;
+  direction: ltr;
+}
+.book-page-btn {
+  width: 2.8rem;
+  height: 2.2rem;
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+  background: var(--card);
+  color: var(--gold);
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.book-page-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+.book-page-label {
+  font-family: var(--sans-ui);
+  font-size: 0.82rem;
+  color: var(--dim);
+}
+@media (max-width: 30rem) {
+  .book-tab {
+    font-size: 0.72rem;
+  }
+}
+
+/* ---------- Settings: simple checkbox toggle row ---------- */
+.settings-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  cursor: pointer;
+  font-family: var(--sans-ui);
+}
+.settings-toggle input[type="checkbox"] {
+  width: 1.2rem;
+  height: 1.2rem;
+  accent-color: var(--gold);
+}

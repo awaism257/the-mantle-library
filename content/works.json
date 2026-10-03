@@ -4494,82 +4494,237 @@
       "author_ar": "الإمام الجزولي ﵀"
     },
     {
-      "id": "al-sirah-al-nabawiyyah",
-      "title_ar": "السِّيرَةُ النَّبَوِيَّةُ الشَّرِيفَة",
-      "title_en": "The Life of the Prophet (Al-Sīrah al-Nabawiyyah)",
-      "author": "Based on Ibn Hishām ﵀ & Edward Rehatsek (1891)",
-      "author_dates": "Classical Sīrah Tradition",
-      "description_en": "The foundational biography of the Messenger of Allah ﷺ, rooted in the earliest recension of Ibn Hishām ﵀ and Edward Rehatsek's historic 1891 translation. Rendered in dignified modern English alongside the vocalized Arabic, with Rehatsek's Victorian text preserved in full and synchronized audiobook narration.",
-      "source_en": "Classical text of Ibn Hishām ﵀ (Al-Sīrah al-Nabawiyyah) aligned with Edward Rehatsek's 1891 Royal Asiatic Society translation.",
+      "id": "tala-al-badru",
+      "title_ar": "طَلَعَ الْبَدْرُ عَلَيْنَا",
+      "title_en": "Ṭalaʿa al-Badru ʿAlaynā (The Full Moon Has Risen)",
+      "author": "The people of Madinah",
+      "author_dates": "622 CE",
+      "description_en": "The historic welcome sung by the people of Madinah — by its women and children — as the Prophet Muḥammad ﷺ arrived in the radiant city during the Hijrah, descending over the northern pass known as Thaniyyāt al-Wadāʿ (The Passes of Farewell). Among the oldest, most poignant, and universally beloved anthems of devotion in Islamic history.",
+      "source_en": "Traditional text sung upon the Prophet’s ﷺ arrival in Madinah, transmitted in classical sīrah and ḥadīth works (including al-Bayhaqī’s Dalāʾil al-Nubuwwah and Ibn Kathīr’s al-Bidāyah wa-al-Nihāyah). Classical traditionists record its singing upon his entry at Qubāʾ during the Hijrah (1 AH / 622 CE), as well as upon his triumphant return from the Expedition of Tabūk (9 AH / 630 CE). The English poetic rendering is original to this project.",
+      "audio": [],
       "sections": [
         {
-          "heading": "Chapter 1: The Blessed Ancestry & The Year of the Elephant",
-          "note": "From the opening recension of Ibn Hishām ﵀ and Edward Rehatsek (1891): the Prophetic lineage back to the Prophet Ismāʿīl ؑ, the rediscovery of Zamzam, and the miraculous preservation of the Kaʿbah during the Year of the Elephant (570 CE).",
+          "heading": "The Welcome Song",
+          "note": "Sung at Qubāʾ on the outskirts of Madinah upon the arrival of the Prophet ﷺ during the Hijrah (Rabīʿ al-Awwal 1 AH / September 622 CE).",
+          "units": [
+            {
+              "ar": "طَلَعَ الْبَدْرُ عَلَيْنَا — مِنْ ثَنِيَّاتِ الْوَدَاعِ",
+              "en": "The full moon has risen upon us — from the Passes of Farewell;",
+              "n": 1
+            },
+            {
+              "ar": "وَجَبَ الشُّكْرُ عَلَيْنَا — مَا دَعَا لِلَّهِ دَاعِ",
+              "en": "and thanks is owed from us — as long as a caller calls to Allah.",
+              "n": 2
+            },
+            {
+              "ar": "أَيُّهَا الْمَبْعُوثُ فِينَا — جِئْتَ بِالْأَمْرِ الْمُطَاعِ",
+              "en": "O you who were sent among us — you came with a command to be obeyed;",
+              "n": 3
+            },
+            {
+              "ar": "جِئْتَ شَرَّفْتَ الْمَدِينَةَ — مَرْحَبًا يَا خَيْرَ دَاعٍ",
+              "en": "you came and honoured Madinah — welcome, O best of callers.",
+              "n": 4
+            }
+          ],
           "audio": {
-            "file": "audio/sirah/sirah_chapter_01.mp3",
-            "title": "Chapter 1: The Blessed Ancestry",
-            "artist": "Narrated Audiobook — The Mantle Library",
-            "duration": 155.14,
+            "file": "audio/tala_al_badru.mp3",
+            "title": "Ṭalaʿa al-Badru ʿAlaynā",
+            "artist": "Ahmad Darwish & Syrian Inshad Ensemble",
+            "duration": 55.0,
             "timestamps": [
               {
                 "n": 1,
                 "start": 0.0,
-                "end": 40.66
+                "end": 13.5
               },
               {
                 "n": 2,
-                "start": 41.41,
-                "end": 65.24
+                "start": 13.5,
+                "end": 27.0
               },
               {
                 "n": 3,
-                "start": 65.99,
-                "end": 91.14
+                "start": 27.0,
+                "end": 41.0
               },
               {
                 "n": 4,
-                "start": 91.89,
-                "end": 126.76
+                "start": 41.0,
+                "end": 55.0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "al-sirah-al-nabawiyyah",
+      "featured": true,
+      "title_ar": "السِّيرَةُ النَّبَوِيَّةُ الشَّرِيفَة",
+      "title_en": "The Life of the Prophet (Al-Sīrah al-Nabawiyyah)",
+      "author": "Narrated from Rehatsek’s 1893 translation of Mīrkhwānd, with Ibn Hishām",
+      "author_dates": "Classical Sīrah Tradition",
+      "description_en": "The foundational biography of the Messenger of Allah ﷺ, told as a flowing story across three readings: a dignified modern English retelling with a narrated audiobook, the authenticated classical Arabic, and the original Victorian text of Edward Rehatsek (1893) preserved verbatim.",
+      "source_en": "Victorian source: Edward Rehatsek, trans., The Rauzat-us-Safa (Mīrkhwānd), Part II, Vol. I, ed. F. F. Arbuthnot, Royal Asiatic Society, London, 1893 (public domain; Internet Archive). Arabic: Ibn Hishām, Sīrat Rasūl Allāh; Ṣaḥīḥ Muslim; Qur’ān. English story and narration: The Mantle Library.",
+      "sections": [
+        {
+          "heading": "Chapter 1: The Blessed Ancestry & The Year of the Elephant",
+          "note": "The Prophetic lineage and the chosen line of Quraysh, the rediscovery of Zamzam, ʿAbdullāh and Āminah, and the miraculous preservation of the Kaʿbah in the Year of the Elephant (570 CE).",
+          "layout": "book",
+          "audio": {
+            "file": "audio/sirah/sirah_chapter_01.mp3",
+            "title": "Chapter 1: The Blessed Ancestry",
+            "artist": "Narrated Audiobook — The Mantle Library",
+            "duration": 440.68,
+            "timestamps": [
+              {
+                "n": 1,
+                "start": 0.0,
+                "end": 42.74
+              },
+              {
+                "n": 2,
+                "start": 43.49,
+                "end": 58.45
+              },
+              {
+                "n": 3,
+                "start": 59.2,
+                "end": 80.92
+              },
+              {
+                "n": 4,
+                "start": 81.67,
+                "end": 133.07
               },
               {
                 "n": 5,
-                "start": 127.51,
-                "end": 155.14
+                "start": 133.82,
+                "end": 177.1
+              },
+              {
+                "n": 6,
+                "start": 177.85,
+                "end": 223.11
+              },
+              {
+                "n": 7,
+                "start": 223.86,
+                "end": 262.43
+              },
+              {
+                "n": 8,
+                "start": 263.18,
+                "end": 291.95
+              },
+              {
+                "n": 9,
+                "start": 292.7,
+                "end": 341.9
+              },
+              {
+                "n": 10,
+                "start": 342.65,
+                "end": 386.89
+              },
+              {
+                "n": 11,
+                "start": 387.64,
+                "end": 416.99
+              },
+              {
+                "n": 12,
+                "start": 417.74,
+                "end": 440.68
               }
             ]
           },
-          "units": [
+          "story": [
+            "He is Muḥammad ﷺ, the son of ʿAbdullāh, the son of ʿAbd al-Muṭṭalib — whose name was Shaybah — the son of Hāshim, the son of ʿAbd Manāf, the son of Quṣayy, the son of Kilāb, the son of Murrah, the son of Kaʿb, the son of Luʾayy, the son of Ghālib, the son of Fihr, the son of Mālik, the son of al-Naḍr, the son of Kinānah, the son of Khuzaymah, the son of Mudrikah, the son of Ilyās, the son of Muḍar, the son of Nizār, the son of Maʿadd, the son of ʿAdnān. Historians agree upon this line as far back as ʿAdnān. Beyond him they differ, yet all agree that Ismāʿīl, the son of Ibrāhīm, peace be upon them both, stands among the ancestors of the Seal of the Prophets ﷺ.",
+            "It is a line that Allah chose with care. The Messenger of Allah ﷺ said: “Allah chose Kinānah from the children of Ismāʿīl, and He chose Quraysh from Kinānah, and He chose Banū Hāshim from Quraysh, and He chose me from Banū Hāshim.”",
+            "His father, ʿAbdullāh, stood out among the young men of Quraysh for the perfection of his character, the nobility of his descent, the beauty of his bearing and the gentleness of his manners. In looks and grace he was the Yūsuf of his age. Among the learned men of the Jews and the soothsayers of the Ḥijāz, it was whispered that the last of the prophets would be born from the loins of this young man.",
+            "To understand the story of Zamzam, we must go back to Hājar and her son Ismāʿīl. When the spring gushed forth beside the sanctuary, a party of the tribe of Jurhum, travelling nearby, saw birds circling in the sky above a place that had always been dry desert. “Birds do not circle like this unless there is water,” they said. They found the spring, and Hājar beside it, and asked her leave to settle there. She agreed, on one condition: that the water would never become their possession. Ismāʿīl grew up among them, and together with his father Ibrāhīm he raised the Kaʿbah. In time, however, Jurhum became tyrants. They seized the offerings that were sent to the House, until the descendants of Ismāʿīl, with Banū Bakr, drove them out of Makkah. As they left, their chief buried treasures in the well — golden gazelles and swords — and filled it in, until the spring lay hidden, and so it remained for generations.",
+            "Many years later, ʿAbd al-Muṭṭalib, who tended the Kaʿbah, heard a voice in his sleep: “Dig Zamzam.” He did not know what the word meant, and awoke in wonder. The dream came again, and explained that Zamzam was the ancient spring of Ismāʿīl. On the third night, the place was described to him: between the two idols of Quraysh, Isāf and Nāʾilah, where a raven would be scratching the ground beside a nest of ants. In the morning he saw the raven, and began to dig, helped by his only son at that time. Quraysh threatened him, for they would not have a well beside their idols. And ʿAbd al-Muṭṭalib made a vow: if Allah blessed him with more sons, he would offer one of them in sacrifice. After great effort, the ancient well was opened, and with it the treasures that Jurhum had buried.",
+            "Quraysh then demanded a share, since they too were children of Ismāʿīl. The dispute was settled by casting lots: the golden gazelles became a gift to the Kaʿbah, and the swords fell to ʿAbd al-Muṭṭalib. Before this, the two parties had set out together to seek the judgement of a wise woman in Syria. Somewhere along the way they were overcome by thirst, and Quraysh refused them water. ʿAbd al-Muṭṭalib despaired, and urged on his camel, and beneath its foot a spring of sweet water burst forth. He gave water freely to all, even to his opponents. Quraysh bowed their heads. “The One who has given you this water has already judged between us,” they said. They begged his pardon and honoured him as the rightful keeper of Zamzam, and he returned to Makkah with higher station than ever before.",
+            "Allah then blessed ʿAbd al-Muṭṭalib with ten sons. Remembering his vow, he cast lots among them, and the lot fell on ʿAbdullāh. The young man answered with obedience: if his life was wanted by one so beloved, who could cling to it? But his maternal kin, Banū Makhzūm, pleaded with ʿAbd al-Muṭṭalib not to go through with it. He consulted a priestess, who asked what the ransom for a man was among his people. “Ten camels,” he said. She told him to cast lots between ʿAbdullāh and ten camels, and to keep adding camels until the lot fell on them. Again and again it fell on ʿAbdullāh, until the camels numbered one hundred. Then at last the lot fell on the camels, and ʿAbdullāh was saved.",
+            "ʿAbd al-Muṭṭalib then sought a bride for his son. Āminah, of the family of Wahb ibn ʿAbd Manāf, was known for her beauty and modesty, and when ʿAbd al-Muṭṭalib learned of her virtue, the marriage was agreed. Soon after, while Āminah was with child, ʿAbdullāh set out on a journey. Some say it was to Syria, others that he went to buy dates. At Madīnah he fell ill and died, and was buried there. He was about twenty-five years old, though Allah knows best. His son would never see his face.",
+            "In those years, Abrahah ruled Yemen on behalf of the Najāshī, the king of Abyssinia. He saw how the people loved to visit the House of Allah, and he conceived a plan: to build a magnificent church in Ṣanʿāʾ, so that none would ever again make pilgrimage to the Kaʿbah. The church was splendid, adorned with paintings and statues. But a man of Kinānah, angered that the Arabs were being drawn away from the Kaʿbah, slipped into the church by night and desecrated it. When Abrahah learned of this, he swore to march on Makkah and destroy the Kaʿbah. He asked the Najāshī to send him the great white elephant, Maḥmūd, so huge that no army that followed him had ever lost. Then Abrahah marched out of Yemen with his soldiers and elephants. As they entered the Ḥijāz, his men seized the cattle of the people, among them two hundred camels belonging to ʿAbd al-Muṭṭalib.",
+            "Abrahah sent word to Quraysh that he had not come to shed blood, but only to destroy the House. ʿAbd al-Muṭṭalib, a tall man of dignified and commanding bearing, was brought before him. When Abrahah saw him, he rose from his throne and sat beside him on the carpet. But ʿAbd al-Muṭṭalib asked only for the return of his camels. Abrahah was astonished. “I came to destroy your sacred house,” he said, “and you say nothing of it, yet speak to me of camels?” ʿAbd al-Muṭṭalib replied: “That House belongs to a Lord who is able to guard it. I am only the lord of the camels, so I speak of them.” His camels were returned. He urged the people of Makkah to leave the city and shelter in the mountains, and he himself entered the Kaʿbah, praying to the Lord of glory to protect His House.",
+            "The next morning, Abrahah ordered his army forward, with Maḥmūd at the head. But as the great elephant drew near the Sanctuary, he turned aside. They urged him on, but he would not advance towards the House. And suddenly, from the sky, came flocks of birds, each carrying a stone in its beak and two in its claws. They rained the stones down upon the army, and the host was destroyed. Abrahah himself escaped for a time, but he was struck down with a terrible illness and died not long afterwards, having told the Najāshī what he had seen.",
+            "This is the event that the Qur’ān recalls in Sūrat al-Fīl: “Have you not seen how your Lord dealt with the companions of the elephant? Did He not make their plan go astray? He sent against them flocks of birds, striking them with stones of baked clay, and made them like eaten-up straw.” The year was 570 CE, the Year of the Elephant. And in that year, the Messenger of Allah ﷺ was born."
+          ],
+          "story_note": "A faithful modern retelling of the passages preserved in the ‘Victorian Source’ tab. Embellished legends found in Rehatsek’s text — such as the Syrian ladies who died of heartbreak, the heavenly riders who protected ʿAbdullāh, and the tale of ‘Fattimah of Syria’ — are deliberately left out as unverified.",
+          "arabic": [
             {
-              "n": 1,
-              "ar": "هُوَ أَبُو القَاسِمِ مُحَمَّدُ بْنُ عَبْدِ اللهِ بْنِ عَبْدِ المُطَّلِبِ — وَاسْمُهُ شَيْبَةُ — بْنِ هَاشِمٍ — وَاسْمُهُ عَمْرٌو — بْنِ عَبْدِ مَنَافٍ — وَاسْمُهُ المُغِيرَةُ — بْنِ قُصَيٍّ — وَاسْمُهُ زَيْدٌ — بْنِ كِلَابِ بْنِ مُرَّةَ بْنِ كَعْبِ بْنِ لُؤَيِّ بْنِ غَالِبِ بْنِ فِهْرِ بْنِ مَالِكِ بْنِ النَّضْرِ بْنِ كِنَانَةَ بْنِ خُزَيْمَةَ بْنِ مُدْرِكَةَ بْنِ إِلْيَاسَ بْنِ مُضَرَ بْنِ نِزَارِ بْنِ مَعَدِّ بْنِ عَدْنَانَ، وَعَدْنَانُ مِنْ وَلَدِ إِسْمَاعِيلَ بْنِ إِبْرَاهِيمَ عَلَيْهِمَا السَّلَامُ.",
-              "en": "He is the chosen prince, Muhammad, the son of 'Abdullah, the son of 'Abdu'l-Muttalib — whose name was Shaybah — the son of Hashim — whose name was 'Amr — the son of 'Abdu Manaf — whose name was Al-Mughirah — the son of Qusayy — whose name was Zayd — the son of Kilab, the son of Murrah, the son of Ka'b, the son of Lu'ayy, the son of Ghalib, the son of Fihr, the son of Malik, the son of An-Nadr, the son of Kinanah, the son of Khuzaymah, the son of Mudrikah, the son of Ilyas, the son of Mudar, the son of Nizar, the son of Ma'add, the son of 'Adnan; and 'Adnan was of the lineage of Isma'il, the son of Ibrahim, upon whom be the blessing of God.",
-              "en2": "He is the Messenger of Allah, Muhammad ﷺ, son of ʿAbdullāh, son of ʿAbd al-Muṭṭalib (whose name was Shaybah), son of Hāshim (ʿAmr), son of ʿAbd Manāf (Al-Mughīrah), son of Quṣayy (Zayd), son of Kilāb, son of Murrah, son of Kaʿb, son of Luʾayy, son of Ghālib, son of Fihr, son of Mālik, son of An-Naḍr, son of Kinānah, son of Khuzaymah, son of Mudrikah, son of Ilyās, son of Muḍar, son of Nizār, son of Maʿadd, son of ʿAdnān — descending from the noble lineage of the Prophet Ismāʿīl ؑ, son of the Prophet Ibrāhīm ؑ."
+              "label": "Ibn Hishām — The Pure Lineage",
+              "ref": "Ibn Hishām, Sīrat Rasūl Allāh, Vol. 1 — ‘Dhikr sard al-nasab al-zakī’ (vocalized text, Arabic Wikisource)",
+              "text": "قَالَ أَبُو مُحَمَّدٍ عَبْدُ الْمَلِكِ بْنُ هِشَامٍ النَّحْوِيُّ هَذَا كِتَابُ سِيرَةِ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ.\n\nقَالَ: مُحَمَّدُ بْنُ عَبْدِ اللَّهِ ابْن عَبْدِ الْمُطَّلِبِ، وَاسْمُ عَبْدِ الْمُطَّلِبِ: شَيْبَةُ بْنُ هَاشِمٍ، وَاسْمُ هَاشِمٍ: عَمْرُو بْنُ عَبْدِ مَنَافٍ، وَاسْمُ عَبْدِ مَنَافٍ: الْمُغِيرَةُ بْنُ قُصَيٍّ، وَاسْمُ قُصَيٍّ: زَيْدُ بْنُ كِلَابِ بْنِ مُرَّةَ بْنِ كَعْبِ بْنِ لُؤَيِّ بْنِ غَالِبِ بْنِ فِهْرِ بْنِ مَالِكِ بْنِ النَّضْرِ ابْن كِنَانَةَ بْنِ خُزَيْمَةَ بْنِ مُدْرِكَةَ، وَاسْمُ مُدْرِكَةَ: عَامِرُ بْنُ إلْيَاسَ بْنِ مُضَرَ بْنِ نِزَارِ بْنِ مَعَدِّ بْنِ عَدْنَانَ بْنِ أُدٍّ، وَيُقَالُ: أُدَدُ بْنُ مُقَوِّمِ بْنِ نَاحُورَ بْنِ تَيْرَحَ بْنِ يَعْرُبَ بْنِ يَشْجُبَ بْنِ نَابِتِ بْنِ إسْمَاعِيلَ بْنِ إبْرَاهِيمَ — خَلِيلِ الرَّحْمَنِ — […]"
             },
             {
-              "n": 2,
-              "ar": "قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «إِنَّ اللهَ اصْطَفَى كِنَانَةَ مِنْ وَلَدِ إِسْمَاعِيلَ، وَاصْطَفَى قُرَيْشًا مِنْ كِنَانَةَ، وَاصْطَفَى مِنْ قُرَيْشٍ بَنِي هَاشِمٍ، وَاصْطَفَانِي مِنْ بَنِي هَاشِمٍ»، فَلَمْ يَزَلْ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَنْتَقِلُ مِنْ أَصْلَابِ الطَّاهِرِينَ إِلَى أَرْحَامِ الطَّاهِرَاتِ حَتَّى أَخْرَجَهُ اللهُ تَعَالَى فِي خَيْرِ قَرْنٍ.",
-              "en": "The Apostle of Allah, upon whom be the mercy of Allah, said: 'Verily Allah selected Kinanah from the posterity of Isma'il, and He selected Quraysh from Kinanah, and from Quraysh He chose the tribe of Hashim, and from the sons of Hashim He chose me.' Thus did his sacred light pass through the loins of pure progenitors into the wombs of chaste mothers, until Allah brought him forth in the most excellent era.",
-              "en2": "The Messenger of Allah ﷺ said: 'Indeed, Allah chose Kinānah from the descendants of Ismāʿīl; He chose Quraysh from Kinānah; from Quraysh He chose the clan of Banū Hāshim; and from Banū Hāshim He chose me.' His blessed light was continually carried through noble forefathers and pure mothers, until Allah brought him forth in the finest of all generations."
+              "label": "Ṣaḥīḥ Muslim — The Chosen Line",
+              "ref": "Ṣaḥīḥ Muslim, no. 2276 — narrated by Wāthilah ibn al-Asqaʿ",
+              "text": "إِنَّ اللَّهَ اصْطَفَى كِنَانَةَ مِنْ وَلَدِ إِسْمَاعِيلَ، وَاصْطَفَى قُرَيْشًا مِنْ كِنَانَةَ، وَاصْطَفَى مِنْ قُرَيْشٍ بَنِي هَاشِمٍ، وَاصْطَفَانِي مِنْ بَنِي هَاشِمٍ."
             },
             {
-              "n": 3,
-              "ar": "وَكَانَ عَبْدُ المُطَّلِبِ بْنُ هَاشِمٍ سَيِّدَ قُرَيْشٍ غَيْرَ مُنَازَعٍ، فَأُرِيَ فِي مَنَامِهِ حَفْرَ زَمْزَمَ، وَهِيَ بِئْرُ إِسْمَاعِيلَ عَلَيْهِ السَّلَامُ الَّتِي أَنْبَعَهَا اللهُ لِأُمِّهِ هَاجَرَ، وَكَانَتْ قَدْ دُفِنَتْ دُهُورًا، فَقَامَ بِحَفْرِهَا مَعَ ابْنِهِ الحَارِثِ، فَأَظْهَرَ اللهُ مَاءَهَا المُبَارَكَ لِيَسْقِيَ مِنْهُ حُجَّاجَ بَيْتِهِ الحَرَامِ.",
-              "en": "Now 'Abdu'l-Muttalib, the son of Hashim, was the undisputed chieftain of the Quraysh. It was shown unto him in a heavenly vision that he should dig the well of Zamzam — the very spring which God had caused to gush forth for Isma'il and his mother Hajar, which had lain buried and forgotten for ages. He arose and excavated the fountain with his son Al-Harith, whereupon Allah restored its living water to refresh the pilgrims of the Sacred House.",
-              "en2": "ʿAbd al-Muṭṭalib, son of Hāshim, was the revered chieftain of Quraysh. In a vivid dream, he was commanded to uncover the well of Zamzam — the sacred spring that Allah had brought forth for Hājar and the infant Ismāʿīl ؑ, which had remained buried for centuries. He set to work with his eldest son, Al-Ḥārith, and Allah restored its pure waters to quench the thirst of pilgrims to the Sacred House."
-            },
-            {
-              "n": 4,
-              "ar": "وَفِي تِلْكَ السَّنَةِ أَقْبَلَ أَبْرَهَةُ الأَشْرَمُ الحَبَشِيُّ مِنْ صَنْعَاءَ بِجَيْشٍ لَجِبٍ وَمَعَهُ الفِيلُ المَحْمُودُ لِيَهْدِمَ الكَعْبَةَ المُعَظَّمَةَ، فَوَقَفَ عَبْدُ المُطَّلِبِ بَيْنَ يَدَيْهِ وَقَالَ: «أَنَا رَبُّ الإِبِلِ، وَإِنَّ لِلْبَيْتِ رَبًّا سَيَحْمِيهِ»، فَأَرْسَلَ اللهُ عَلَيْهِمْ طَيْرًا أَبَابِيلَ تَرْمِيهِمْ بِحِجَارَةٍ مِنْ سِجِّيلٍ، فَجَعَلَهُمْ كَعَصْفٍ مَأْكُولٍ، فَسُمِّيَ ذَلِكَ العَامُ عَامَ الفِيلِ، وَفِيهِ وُلِدَ سَيِّدُ المُرْسَلِينَ.",
-              "en": "In that very year marched Abraha the Abyssinian from San'a with a formidable host and a great war-elephant, purposing to raze the Holy Ka'bah unto the ground. But 'Abdu'l-Muttalib confronted him with serene majesty, declaring: 'I am the master of these camels, but the House hath a Lord who will defend it.' Then did Almighty God dispatch against them flocks of flying creatures, casting upon them stones of baked clay, leaving them like consumed stubble; and that year was ever after termed the Year of the Elephant.",
-              "en2": "In that same year, Abraha, the Viceroy of Yemen, marched toward Mecca with a massive army and a great war elephant, intending to demolish the Holy Kaʿbah. ʿAbd al-Muṭṭalib stood before him with calm dignity and said: 'I am the master of my camels; but this House has a Lord Who will protect it.' Allah sent against the invaders flocks of birds carrying stones of baked clay, reducing them to ruined stalks. That year became known across Arabia as the Year of the Elephant, during which the Master of Messengers ﷺ was born."
-            },
-            {
-              "n": 5,
-              "ar": "وَخَطَبَ عَبْدُ المُطَّلِبِ لِابْنِهِ عَبْدِ اللهِ — وَكَانَ أَحَبَّ أَبْنَائِهِ إِلَيْهِ وَأَوْضَحَهُمْ نُورًا — آمِنَةَ بِنْتَ وَهْبِ بْنِ عَبْدِ مَنَافِ بْنِ زُهْرَةَ، وَهِيَ يَوْمَئِذٍ أَفْضَلُ امْرَأَةٍ فِي قُرَيْشٍ نَسَبًا وَمَوْضِعًا. فَلَمَّا حَمَلَتْ بِرَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ رَأَتْ فِي مَنَامِهَا نُورًا يَخْرُجُ مِنْهَا يُضِيءُ لَهَا قُصُورَ بُصْرَى مِنْ أَرْضِ الشَّامِ، وَقِيلَ لَهَا: «إِنَّكِ قَدْ حَمَلْتِ بِسَيِّدِ هَذِهِ الأُمَّةِ».",
-              "en": "Then 'Abdu'l-Muttalib chose for his beloved son 'Abdullah — upon whose brow shone the radiant light of future prophethood — Aminah, the daughter of Wahb, chief of the Banu Zuhrah, who was accounted the most illustrious maiden of the Quraysh in lineage and virtue. And when she conceived the Holy Prophet, peace be upon him, she beheld in her vision a light that issued from her, illuminating even the distant castles of Busra in the land of Syria, and a heavenly voice proclaimed unto her: 'Thou hast conceived the Lord and Prince of this people.'",
-              "en2": "ʿAbd al-Muṭṭalib arranged the marriage of his dearest son, ʿAbdullāh — upon whose forehead shone a radiant light — to Āminah, daughter of Wahb, the leader of Banū Zuhrah and the most noble maiden of Quraysh in virtue and lineage. When she conceived the Messenger of Allah ﷺ, she beheld a luminous light issuing from her that illuminated the distant palaces of Buṣrā in Syria, and she was told in a dream: 'You carry within you the master of this nation.'"
+              "label": "Sūrat al-Fīl (105) — The Elephant",
+              "ref": "Qur’ān 105:1–5",
+              "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ ۝١ أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ ۝٢ وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ ۝٣ تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ ۝٤ فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ ۝٥"
             }
-          ]
+          ],
+          "arabic_note": "Only authenticated, transmitted Arabic is shown here. Classical Arabic for the Zamzam, ʿAbdullāh–Āminah and Abrahah narratives (Ibn Hishām / Ibn Isḥāq) will be added in a later update once a reliably vocalized edition has been verified — no Arabic has been composed or paraphrased for this app.",
+          "victorian": [
+            {
+              "text": "His name is Muhammad, the son of A’bdullah, the son of A’bd-ul-Muttalleb, the son of Hashem, the son of A’bd Munaf, the son of Qussai, the son of Kallab, the son of Lowa, the son of Ghaleb, the son of Qahar, the son of Malek, the son of Nasser, the son of Kananah, the son of Madrekah, the son of Alyas, the son of Nasser, the son of A’dnan.\n\nThe genealogy of his exalted lordship the prince of existences—upon whom be the most excellent of blessings—is regular as far as A’dnan, but above the latter there are discrepancies. Nevertheless, all historians agree, despite a multitude of contradictions, in placing six of the inspired prophets—i.e., Esma’il [Ishmael], Ebrahim [Abraham], Hud [Heber], Nuh [Noah], Edris [Enoch], and Sheth [Seth]—into the pedigree of the ancestors of his lordship, the seal of the prophets, as far back as Adam, the father of mankind.",
+              "ref": "p. 19–20"
+            },
+            {
+              "text": "The father (of blessed memory and glorious character) of Muhammad, the prophet of Allah—the most perfect greetings to him—was A’bdullah, distinguished and prominent among the youths of the Qoraish tribe by the perfection of his character, the nobility of his descent, the pleasantness and beauty of his demeanour, the generosity of his manners, the goodness of his deeds, the affability of his qualities, and the elegance of his behaviour. In pulchritude and amiability he was the Yusuf of his time. […]\n\nAt that time the rumour was current among the high-priests of the Jews and the soothsayers of Hejaz that the last of prophets was about to be begotten from the loins of this youth.",
+              "ref": "p. 20–21"
+            },
+            {
+              "text": "[…] some men of the tribe of Jorham, who were travelling in the vicinity of Mekkah, had alighted for the purpose of rest, they beheld a flock of birds soaring round and round, as if over the surface of some water. They said to each other: ‘We have several times passed through this desert, but have never found water; has now, perhaps, a fountain burst forth around which the birds are thus circling?’ […]\n\nAfter a little search and examination they discovered the water, and saw near it Hajar [Hagar], the mother of the prophet Esma’il [Ishmael]. […] They requested her to allow them to settle in that region, and Hajar, considering her loneliness, readily assented, but on the condition that they would not consider that water as their own property.",
+              "ref": "p. 27–28"
+            },
+            {
+              "text": "After some time the tribe of Jorham and the descendants of Mazaz began to be tyrannical, iniquitous, and oppressive; they laid violent hands upon the offerings sent from distant and near places to the house of the Ka’bah […]. […] their chief, A’mru, the son of Hareth, was obliged to relinquish his command, but envy induced him to remove the black-stone from the corner of the Ka’bah, and to bury it with two golden fawns, which one of the kings of Persia had sent as a gift to the Ka’bah, and several stands of arms, in the well, which he then filled up to the level of the surrounding ground, so that it became unknown to the people […] and remained thus filled with black soil till the time of A’bd-ul-Muttalleb.",
+              "ref": "p. 28–29"
+            },
+            {
+              "text": "[…] A’bd-ul-Muttalleb heard in his sleep a voice saying: ‘Dig the well Zamzam.’ He asked what the word ‘Zamzam’ meant, but awoke that moment from his dream […]. The next time, however, he received in his sleep the explanation that Zamzam was a water-pit, which had formerly originated by the blessed approach of Jebrail, and had been the drinking-place of Esma’il with his followers. […] The third time, however, a messenger from the invisible world explained to him in a dream the signs of the place.\n\nIn short, A’bd-ul-Muttalleb was informed that the site of the well Zamzam was near the two Qoraish idols, called Asaf and Na’ilah, and that on the morrow, when he perceived a raven […] scraping the ground with his beak and discovering a nest of ants, he must begin to dig there. A’bd-ul-Muttalleb did as he had been commanded, saw the raven, and began to dig with his son, the only one he had as yet had at that time. He continued his work—despite the threats of the Qoraish, who said that they would not allow him to make a well near their idols—and swore on that day a vow that if, after succeeding in his enterprise, the Gracious Bestower of favours should bless him with more sons, he would, in imitation of his ancestor the Friend of the Merciful, sacrifice one of them.",
+              "ref": "p. 29–30"
+            },
+            {
+              "text": "[…] A’bd-ul-Muttalleb despaired of life, and wished immediately to start; but when he impelled his camel he perceived that Divine mercy had under its hoof produced a sweet fountain surpassing in salubrity and pleasantness the water of life and the well Zamzam. Therefore he thanked the Almighty Bestower, and gave all the vessels to be filled with that water […]. He also told his antagonists to pour out their water, which had become heated in the air, and to draw from this cold and fresh spring as much of it as they needed, so that they might continue their journey. When the Qoraish beheld with their own eyes this strange event, they repented, and assured him that the Creator of water and earth and Supporter of the stars and heavens, who is a righteous Judge, had already decided their case. […] and said that he was worthy of keeping possession of whatever he had discovered [in the well Zamzam].",
+              "ref": "p. 31"
+            },
+            {
+              "text": "When the number of the sons of A’bd-ul-Muttalleb began to exceed units and amounted to ten, he wished to fulfil his vow by sacrificing one of them, as was at that time customary among the Arabs. He consulted his sons, and the lot fell on the name of A’bdullah, whom he informed of the result […]. The Bani Makhzum, however, who were relatives of A’bdullah, on the maternal side, dissuaded A’bd-ul-Muttalleb from taking such a step; […] [he] asked what the ransom of one man was in his tribe? He replied that it amounted to ten camels; thereon she ordered him to throw lots between ten camels and his son, and that in case the lot fell upon the camels he was to sacrifice them, but if not he must increase their number. […] A’bd-ul-Muttalleb acted as he was bid; the lot, however, fell again on A’bdullah, and continued in this way till the number of camels had reached one hundred, when it struck them, and A’bdullah, being saved from that peril […].",
+              "ref": "p. 32–33"
+            },
+            {
+              "text": "[…] [Wahab] sent [his wife] to wait on A’bd-ul-Muttalleb, in order to inform him that Wahab possessed a lady within the curtains of retirement, and desired to string that veiled one upon the thread of matrimony with his son A’bdullah. The mother of Aminah reported this message to A’bd-ul-Muttalleb, who agreed to the proposal as soon as the beauty and innocence of Aminah became known to him. The arrangements necessary for a wedding were then made by both parties […].",
+              "ref": "p. 22"
+            },
+            {
+              "text": "[…] According to an authentic tradition, A’bdullah went to Syria before the birth of the prophet of Allah; according to another he was on his return from it; and yet, according to another, he was on his way to it, whilst some say that he went to purchase dates, and that, when he reached Madinah, the destroyer of joys demolished the castle of his existence so that he died, and was buried […]. He had attained the age of twenty-five, and according to others of thirty, years, but Allah knows best.",
+              "ref": "p. 25"
+            },
+            {
+              "text": "When Abrahah had begun to reign in the country of Yaman, he perceived how fond the people were of visiting the house of Allah; therefore he conceived during the season of the pilgrimage an idea in his mind, which was more slender than the texture of a cobweb, namely to build a church instead of the Ka’bah, so that no one should, after that, visit and circumambulate the latter. He therefore assembled the architects of his dominions, and by his orders they built a church in the town of Sa’na […]. […] Nufil, of the tribe Kananah, felt himself called upon to go to Sa’na, where he deceived the guardians of the church under the pretence that he had made a vow to spend therein one night in prayer. […] When Abrahah heard of what had taken place, he was incensed with wrath […] and swore […] that he would go to Mekkah and destroy the house of the Ka’bah. […] he […] asked [the Najashi] to send him the white elephant who was as large as a mountain, and was surnamed Mahmud [Laudable] because whatever army he accompanied gained the victory.",
+              "ref": "p. 33–35"
+            },
+            {
+              "text": "[…] Abrahah despatched Hanattah, the Hemiarite, to the Qoraish with the message that he did not come to the country to shed blood and wage war, but to destroy the house of the Ka’bah […]. […] A’bd-ul-Muttalleb was a man of tall stature, handsome aspect, and commanding appearance; when Abrahah beheld him he perceived the signs of glory and of praise shining on his forehead, descended from the throne, betook himself to the carpet, and made A’bd-ul-Muttalleb sit by his side […]. A’bd-ul-Muttalleb pleaded, however, for the recovery of his camels which the soldiers had plundered, […] and reproached A’bd-ul-Muttalleb in the following words: ‘Thou art a prince and a governor among the Qoraish, whose eminence chiefly consists in the possession of the house of the Ka’bah, which I have come to demolish; but thou hast not spoken one word referring thereto […].’ A’bd-ul-Muttalleb replied: ‘That house belongs to the omnipotent and omniscient Lord, who is able to keep it and to guard it from the injuries of enemies, and as I am only the lord of camels, I must speak about them.’ Hereon Abrahah ordered the camels to be restored to him […].",
+              "ref": "p. 35–36"
+            },
+            {
+              "text": "[…] Abrahah Bin Us-sabbah ordered the elephants to be decorated with variegated trappings, made Mahmud the leader of all the others, placed him in the vanguard, and countless warriors began to move like the tempestuous sea. When the elephant Mahmud, of praiseworthy appearance, had arrived in the vicinity of the sacred house, he deflected from the line of the rook, began to march in a crooked way […]. At this stage of events a Divine army made its appearance in the shape of a flock of Ababil birds, each carrying a stone in his beak, and two in his claws; each stone, being by the pen of Omnipotence marked with the name of one of the antagonists, was projected like rain […] so that by the wrath of the Omnipotent the whole army and all the cattle were destroyed. Mahmud alone escaped this fate, and though at that time also Abrahah was spared, a few days afterwards the bird of his soul was clenched by the talons of the eagle of death. […]\n\n[Footnote:] ‘See Qur’an, ch. cv. […] A.D. 570.’",
+              "ref": "p. 37–38"
+            }
+          ],
+          "victorian_note": "Verbatim excerpts, in Edward Rehatsek’s original 1893 spelling, from his translation of Mīrkhwānd’s Persian chronicle Rauzat-us-Safa (‘The Garden of Purity’), Part II, Vol. I, ed. F. F. Arbuthnot (Royal Asiatic Society, London). Omissions are marked […]; only evident scanning errors have been corrected. Rehatsek’s pedigree is abbreviated: the Story and Arabic follow Ibn Hishām’s fuller chain."
         }
       ]
     },
