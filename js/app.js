@@ -356,20 +356,38 @@
     player.appendChild(document.createTextNode(
       'Your browser does not support the audio element. The recording "' + rec.title + '" cannot be played.'
     ));
-    if (artBtn) {
-      player.addEventListener('play', function () {
+    player.addEventListener('play', function () {
+      if (artBtn) {
         artBtn.classList.remove('is-paused');
         artBtn.classList.add('is-playing');
+      }
+      updateMediaSession(player, {
+        title: rec.title || 'Historic Recording',
+        artist: (rec.artist || 'Acoustic 78rpm Collection') + (rec.year ? ' (' + rec.year + ')' : ''),
+        album: rec.source || 'Historic Gramophone Archive (1901–1921)',
+        artwork: [
+          { src: rec.art || 'icons/icon-512.png', sizes: '512x512', type: 'image/jpeg' },
+          { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png' }
+        ]
       });
-      player.addEventListener('pause', function () {
+      if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'playing';
+    });
+    player.addEventListener('pause', function () {
+      if (artBtn) {
         artBtn.classList.remove('is-playing');
         artBtn.classList.add('is-paused');
-      });
-      player.addEventListener('ended', function () {
+      }
+      if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'paused';
+    });
+    player.addEventListener('ended', function () {
+      if (artBtn) {
         artBtn.classList.remove('is-playing');
         artBtn.classList.remove('is-paused');
-      });
-    }
+      }
+    });
+    player.addEventListener('timeupdate', function () {
+      syncMediaSessionPosition(player);
+    });
     children.push(player);
 
     // Identified text and translation (verse cards, like the reader view).
@@ -672,6 +690,60 @@
   var ICON_PAUSE = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>';
   var ICON_PREV = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polyline points="15 18 9 12 15 6"/></svg>';
   var ICON_NEXT = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polyline points="9 18 15 12 9 6"/></svg>';
+  var ICON_LOOP = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M17 1l4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="M7 23l-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>';
+
+  function updateMediaSession(audio, meta) {
+    if (!('mediaSession' in navigator)) return;
+    try {
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: meta.title || 'Mantle Library',
+        artist: meta.artist || 'Mantle Library',
+        album: meta.album || 'The Mantle Library',
+        artwork: meta.artwork || [
+          { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
+          { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png' },
+          { src: 'icons/icon-maskable-512.png', sizes: '512x512', type: 'image/png' }
+        ]
+      });
+
+      navigator.mediaSession.setActionHandler('play', function () {
+        audio.play().catch(function () {});
+      });
+      navigator.mediaSession.setActionHandler('pause', function () {
+        audio.pause();
+      });
+      if (meta.onPrev) {
+        navigator.mediaSession.setActionHandler('previoustrack', meta.onPrev);
+      } else {
+        try { navigator.mediaSession.setActionHandler('previoustrack', null); } catch (e) {}
+      }
+      if (meta.onNext) {
+        navigator.mediaSession.setActionHandler('nexttrack', meta.onNext);
+      } else {
+        try { navigator.mediaSession.setActionHandler('nexttrack', null); } catch (e) {}
+      }
+      try {
+        navigator.mediaSession.setActionHandler('seekto', function (details) {
+          if (details.seekTime !== undefined && details.seekTime !== null && !isNaN(details.seekTime)) {
+            audio.currentTime = details.seekTime;
+          }
+        });
+      } catch (e) {}
+    } catch (e) {}
+  }
+
+  function syncMediaSessionPosition(audio) {
+    if (!('mediaSession' in navigator) || !navigator.mediaSession.setPositionState) return;
+    if (audio && audio.duration && !isNaN(audio.duration) && audio.duration > 0) {
+      try {
+        navigator.mediaSession.setPositionState({
+          duration: audio.duration,
+          playbackRate: audio.playbackRate || 1,
+          position: Math.min(Math.max(0, audio.currentTime), audio.duration)
+        });
+      } catch (e) {}
+    }
+  }
 
   /* ---------- Sticky Reader Footer Dock (Media & Section Navigation) ---------- */
   function buildReaderFooterDock(section, sectionIndex, totalSections, work) {
@@ -755,6 +827,83 @@
         }
       });
 
+      var loopEnabled = false;
+      try { loopEnabled = (window.localStorage.getItem('mantle_audio_loop') === 'true'); } catch (e) {}
+
+      var loopBtn = el('button', {
+        class: 'audio-loop-btn' + (loopEnabled ? ' is-active' : ''),
+        type: 'button',
+        title: 'Toggle audio loop',
+        'aria-pressed': loopEnabled ? 'true' : 'false',
+        html: ICON_LOOP + ' <span>Loop</span>'
+      });
+
+      loopBtn.addEventListener('click', function () {
+        loopEnabled = !loopEnabled;
+        try { window.localStorage.setItem('mantle_audio_loop', loopEnabled ? 'true' : 'false'); } catch (e) {}
+        if (loopEnabled) {
+          loopBtn.classList.add('is-active');
+          loopBtn.setAttribute('aria-pressed', 'true');
+        } else {
+          loopBtn.classList.remove('is-active');
+          loopBtn.setAttribute('aria-pressed', 'false');
+        }
+      });
+
+      function initReaderMediaSession() {
+        updateMediaSession(audio, {
+          title: section.heading,
+          artist: work.author || 'Mantle Library',
+          album: work.title_en || 'The Mantle Library',
+          artwork: [
+            { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
+            { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png' },
+            { src: 'icons/icon-maskable-512.png', sizes: '512x512', type: 'image/png' }
+          ],
+          onPrev: function () {
+            var timestamps = audioData.timestamps || [];
+            if (!timestamps.length) { audio.currentTime = 0; return; }
+            if (lastActiveNum !== null) {
+              var curIdx = -1;
+              for (var k = 0; k < timestamps.length; k++) {
+                if (timestamps[k].n === lastActiveNum) { curIdx = k; break; }
+              }
+              if (curIdx > 0 && audio.currentTime - timestamps[curIdx].start < 2.5) {
+                window.MantleReaderPlayer.seekToVerse(timestamps[curIdx - 1].n);
+              } else if (curIdx >= 0) {
+                window.MantleReaderPlayer.seekToVerse(timestamps[curIdx].n);
+              } else {
+                audio.currentTime = 0;
+              }
+            } else {
+              audio.currentTime = 0;
+            }
+          },
+          onNext: function () {
+            var timestamps = audioData.timestamps || [];
+            if (!timestamps.length) return;
+            if (lastActiveNum !== null) {
+              var curIdx = -1;
+              for (var k = 0; k < timestamps.length; k++) {
+                if (timestamps[k].n === lastActiveNum) { curIdx = k; break; }
+              }
+              if (curIdx >= 0 && curIdx < timestamps.length - 1) {
+                window.MantleReaderPlayer.seekToVerse(timestamps[curIdx + 1].n);
+              } else if (sectionIndex < totalSections - 1) {
+                try { window.sessionStorage.setItem('mantle_autoplay_next', '1'); } catch (e) {}
+                window.location.hash = workUrl + (sectionIndex + 1);
+              } else if (loopEnabled) {
+                try { window.sessionStorage.setItem('mantle_autoplay_next', '1'); } catch (e) {}
+                window.location.hash = workUrl + '0';
+              }
+            } else {
+              window.MantleReaderPlayer.seekToVerse(timestamps[0].n);
+            }
+          }
+        });
+      }
+      initReaderMediaSession();
+
       function updateVersePlayButtons() {
         var isPlaying = !audio.paused;
         var buttons = document.querySelectorAll('.verse-play');
@@ -819,18 +968,25 @@
         userInterrupted = false;
         clearTimeout(userInterruptTimer);
         scrollToActiveVerse(true);
+        if ('mediaSession' in navigator) {
+          navigator.mediaSession.playbackState = 'playing';
+        }
       });
 
       audio.addEventListener('pause', function () {
         playBtn.innerHTML = ICON_PLAY;
         playBtn.setAttribute('aria-label', 'Play recitation');
         updateVersePlayButtons();
+        if ('mediaSession' in navigator) {
+          navigator.mediaSession.playbackState = 'paused';
+        }
       });
 
       audio.addEventListener('loadedmetadata', function () {
         if (audio.duration && !isNaN(audio.duration)) {
           timerEl.textContent = formatTime(audio.currentTime) + ' / ' + formatTime(audio.duration);
         }
+        syncMediaSessionPosition(audio);
       });
 
       var lastActiveNum = null;
@@ -842,8 +998,9 @@
         var pct = Math.min(100, Math.max(0, (t / dur) * 100));
         progressBar.style.width = pct + '%';
         timerEl.textContent = formatTime(t) + ' / ' + formatTime(audio.duration || 0);
+        syncMediaSessionPosition(audio);
 
-        // Single-verse mode: auto-pause when reaching the end of the current verse
+        // Single-verse mode: auto-pause (or loop verse) when reaching end of current verse
         if (singleVerseNum !== null) {
           var timestamps = audioData.timestamps || [];
           var curSingleTs = null;
@@ -854,10 +1011,16 @@
             }
           }
           if (curSingleTs && curSingleTs.end > 0 && t >= (curSingleTs.end - 0.15)) {
-            audio.pause();
-            singleVerseNum = null;
-            updateVersePlayButtons();
-            return;
+            if (loopEnabled) {
+              audio.currentTime = curSingleTs.start;
+              audio.play().catch(function () {});
+              return;
+            } else {
+              audio.pause();
+              singleVerseNum = null;
+              updateVersePlayButtons();
+              return;
+            }
           }
         }
 
@@ -891,6 +1054,11 @@
           }
           lastActiveNum = activeNum;
           updateVersePlayButtons();
+
+          if ('mediaSession' in navigator && navigator.mediaSession.metadata) {
+            var vTitle = activeNum ? ('Verse ' + activeNum + ' · ' + section.heading) : section.heading;
+            navigator.mediaSession.metadata.title = vTitle;
+          }
         }
       });
 
@@ -902,6 +1070,21 @@
         singleVerseNum = null;
         progressBar.style.width = '100%';
         updateVersePlayButtons();
+
+        if (autoScroll) {
+          if (sectionIndex < totalSections - 1) {
+            try { window.sessionStorage.setItem('mantle_autoplay_next', '1'); } catch (e) {}
+            window.location.hash = workUrl + (sectionIndex + 1);
+            return;
+          } else if (loopEnabled) {
+            try { window.sessionStorage.setItem('mantle_autoplay_next', '1'); } catch (e) {}
+            window.location.hash = workUrl + '0';
+            return;
+          }
+        } else if (loopEnabled) {
+          audio.currentTime = 0;
+          audio.play().catch(function () {});
+        }
       });
 
       window.MantleReaderPlayer = {
@@ -952,9 +1135,19 @@
         }
       };
 
+      try {
+        if (window.sessionStorage.getItem('mantle_autoplay_next') === '1') {
+          window.sessionStorage.removeItem('mantle_autoplay_next');
+          setTimeout(function () {
+            playBtn.click();
+          }, 150);
+        }
+      } catch (e) {}
+
       var centerGroup = el('div', { class: 'reader-footer-center' }, [
         playBtn,
         infoEl,
+        loopBtn,
         autoScrollBtn
       ]);
       footer.appendChild(centerGroup);
@@ -1224,8 +1417,9 @@
         return;
       }
       var sections = Array.isArray(work.sections) ? work.sections : [];
-      var i = parseInt(sectionIndex, 10);
-      if (String(i) !== String(sectionIndex) || i < 0 || i >= sections.length) {
+      var cleanSectionIndex = String(sectionIndex).split('?')[0];
+      var i = parseInt(cleanSectionIndex, 10);
+      if (String(i) !== cleanSectionIndex || i < 0 || i >= sections.length) {
         document.title = 'Not found — Mantle Library';
         showNotFound('Section');
         return;
@@ -1253,7 +1447,7 @@
       if (hasModern) {
         headerChildren.push(el('p', {
           class: 'modern-layer-note',
-          text: 'Note: every “Modern simplification” below simplifies the Victorian translation directly above it; it is not a new translation of the Arabic.'
+          text: 'Note: every “Modern simplification” below simplifies the Victorian translation; it is not a new translation of the Arabic.'
         }));
       }
       appEl.appendChild(el('header', { class: 'work-header' }, headerChildren));

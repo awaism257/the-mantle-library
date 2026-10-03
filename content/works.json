@@ -4,10 +4,10 @@
       "id": "mishkat-matthews-vol1",
       "title_ar": "مشكاة المصابيح — كتاب الفضائل والشمائل",
       "title_en": "Mishkât-ul-Masâbih: The Blessed Qualities & Virtues",
-      "author": "al-Tabrīzī ﵀ (compiler); Capt. A. N. Matthews (English translator)",
-      "author_dates": "Tabrīzī d. 1341 · Matthews fl. 1810",
-      "description_en": "A curated edition of Book XXIV (Kitāb al-Faḍāʾil wa-al-Shamāʾil) from Capt. A. N. Matthews' historic 1810 Calcutta translation of the Mishkât-ul-Masâbih, devoted exclusively to the noble person, physical appearance, sublime character, speech, and humility of the Prophet Muḥammad ﷺ. Presented with the classical Arabic text and contemporary reading aids.",
-      "source_en": "Arabic text: the Mishkât of al-Tabrīzī (Book XXIV: Kitāb al-Faḍāʾil), classical and in the public domain. English: Capt. A. N. Matthews, 'Mishcât-ul-Masâbih' (Calcutta: T. Hubbard, Hindoostanee Press, 1810, vol. 2, pp. 651–707), 100% in the public domain worldwide. A modern simplification in present-day English appears beneath Matthews' text as a reading aid.",
+      "author": "al-Khaṭīb al-Tibrīzī ﵀ (compiler); Capt. A. N. Matthews (translator)",
+      "author_dates": "al-Tibrīzī d. 741 AH / 1340 CE · Matthews fl. 1810",
+      "description_en": "A curated edition of Book XXIV (Kitāb al-Faḍāʾil wa-al-Shamāʾil) from Capt. A. N. Matthews’ historic 1809–1810 Calcutta translation of the Mishkāt al-Maṣābīḥ by Walī al-Dīn al-Khaṭīb al-Tibrīzī ﵀. Devoted exclusively to the noble person, physical appearance, sublime character, speech, modesty, and supreme mercy of the Prophet Muḥammad ﷺ. Presented with fully vocalized Arabic and contemporary reading aids.",
+      "source_en": "Arabic text: the Mishkāt al-Maṣābīḥ of al-Khaṭīb al-Tibrīzī ﵀ (Book XXIV: Kitāb al-Faḍāʾil), classical text in the public domain. English translation: Capt. A. N. Matthews, Mishcât-ul-Masâbîh: or A Collection of the Most Authentic Traditions regarding the Actions and Sayings of Muhammed (Calcutta: T. Hubbard, Hindoostanee Press, 1809–1810, vol. II, pp. 651–707), in the public domain globally. A modern simplification in present-day English appears beneath Matthews’ Georgian prose as an accessible reading aid.",
       "audio": [],
       "sections": [
         {
@@ -303,7 +303,7 @@
         },
         {
           "heading": "Humility, Clemency & Noble Character",
-          "note": "Matthews' Book XXIV, Chapter III, Part 2 (printed 1810, Calcutta, pp. 684–707). Sayyidah ʿĀʾishah and Anas recount his household conduct, mending his own sandals, milking his sheep, never striking a servant, choosing gentleness, forbearing debtors, and his supreme mercy towards all creation.",
+          "note": "Matthews' Book XXIV, Chapter III, Part 2 (printed 1810, Calcutta, pp. 684–707). Sayyidah ʿĀʾishah ﵂ and Sayyidunā Anas ibn Mālik ﵁ recount his household conduct, mending his own sandals, milking his sheep, never striking a servant, choosing gentleness, forbearing debtors, and his supreme mercy towards all creation.",
           "units": [
             {
               "n": 1,
@@ -426,9 +426,9 @@
       "id": "dalail-al-khayrat",
       "title_ar": "دلائل الخيرات وشوارق الأنوار",
       "title_en": "Dalā'il al-Khayrāt (Guide to Blessings)",
-      "author": "Imam al-Jazūlī ﵀",
-      "author_dates": "d. 1465",
-      "description_en": "The celebrated manual of blessings upon the Prophet Muḥammad ﷺ composed by the Moroccan Sufi Imam Muḥammad ibn Sulaymān al-Jazūlī ﵀, recited daily by communities across the Muslim world for five centuries. The Arabic text is in the public domain and complete here in eight parts; the opening devotions, intention and supplication of completion are rendered in an original translation made for this project, and Hizbs 1–8 in the public-domain 1907 translation of Rev. John B. Pearson.",
+      "author": "Imam Muḥammad ibn Sulaymān al-Jazūlī ﵀",
+      "author_dates": "d. 870 AH / 1465 CE",
+      "description_en": "The celebrated manual of blessings and prayers upon the Prophet Muḥammad ﷺ composed by the Moroccan jurist, traditionist, and spiritual master, Imam Abū ʿAbd Allāh Muḥammad ibn Sulaymān al-Jazūlī al-Simlālī ﵀ (d. 870 AH / 1465 CE). Recited across the Muslim world for over five centuries. The Arabic text is arranged in eight daily ḥizbs; the opening devotions (Asmāʾ Allāh al-Ḥusnā, Asmāʾ al-Nabī ﷺ), intention, and the closing Supplication of Completion (Duʿāʾ al-Khatm) are rendered in an original translation for this project, and Ḥizbs 1–8 follow the public-domain 1907 Oxford translation of Rev. John B. Pearson.",
       "sections": [
         {
           "heading": "The Opening Supplication (مُقَدِّمَةُ دَلَائِلِ الخَيْرَات)",
@@ -471,7 +471,8 @@
                 "end": 149.4
               }
             ]
-          }
+          },
+          "note": "The Opening Supplication, Divine Names (Asmāʾ Allāh al-Ḥusnā), and 201 Blessed Prophetic Names: translated into English for this project."
         },
         {
           "heading": "Monday — Ḥizb 1 (حِزْبُ يَوْمِ الإِثْنَيْن)",
@@ -1004,7 +1005,8 @@
                 "end": 1120.7
               }
             ]
-          }
+          },
+          "note": "Monday — Ḥizb 1: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain."
         },
         {
           "heading": "Tuesday — Ḥizb 2 (حِزْبُ يَوْمِ الثُّلَاثَاء)",
@@ -4483,11 +4485,12 @@
                 "end": 556.5
               }
             ]
-          }
+          },
+          "note": "The Supplication of Completion (Duʿāʾ Khatm Dalāʾil al-Khayrāt): classical closing supplication, translated into English for this project."
         }
       ],
       "audio": [],
-      "source_en": "Classical public-domain Arabic text of Imam al-Jazūlī (d. 1465), as circulated in standard editions. English: historical translation by Rev. John B. Pearson (Guide to Happiness, Oxford, 1907), in the public domain globally, covering the Opening Supplication, Intention, Ḥizbs 1–8, and Supplication of Completion. A modern rendering in present-day English, made for this project, appears beneath the Victorian text throughout every section as a reading aid; the Pearson translation remains the citable text.",
+      "source_en": "Classical public-domain Arabic text of Imam al-Jazūlī ﵀, based on standard historical recensions. English: Ḥizbs 1–8 follow the historical English translation by Rev. John B. Pearson (Guide to Happiness: A Manual of Prayer, Oxford, 1907), in the public domain globally. The Opening Supplication (Section 0) and the Supplication of Completion (Section 9) are translated into English specifically for this project. A modern clarification in contemporary English appears beneath the English text throughout every section.",
       "author_ar": "الإمام الجزولي ﵀"
     },
     {
@@ -4496,13 +4499,13 @@
       "title_en": "Ṭalaʿa al-Badru ʿAlaynā (The Full Moon Has Risen)",
       "author": "The people of Madinah",
       "author_dates": "622 CE",
-      "description_en": "The welcome sung by the people of Madinah — tradition holds, by its young girls — as the Prophet ﷺ entered the city at the end of the Hijrah, coming over the mountain passes known as the Thaniyyāt al-Wadāʿ, the Passes of Farewell. Perhaps the oldest and most beloved devotional song in Islam.",
-      "source_en": "Traditional text sung at the Prophet’s ﷺ arrival in Madinah, as transmitted in the sīra literature. The English rendering is original to this project.",
+      "description_en": "The historic welcome sung by the people of Madinah — by its women and children — as the Prophet Muḥammad ﷺ arrived in the radiant city during the Hijrah, descending over the northern pass known as Thaniyyāt al-Wadāʿ (The Passes of Farewell). Among the oldest, most poignant, and universally beloved anthems of devotion in Islamic history.",
+      "source_en": "Traditional text sung upon the Prophet’s ﷺ arrival in Madinah, transmitted in classical sīrah and ḥadīth works (including al-Bayhaqī’s Dalāʾil al-Nubuwwah and Ibn Kathīr’s al-Bidāyah wa-al-Nihāyah). Classical traditionists record its singing upon his entry at Qubāʾ during the Hijrah (1 AH / 622 CE), as well as upon his triumphant return from the Expedition of Tabūk (9 AH / 630 CE). The English poetic rendering is original to this project.",
       "audio": [],
       "sections": [
         {
           "heading": "The Welcome Song",
-          "note": "Sung at Qubā, on the outskirts of Madinah, in September 622.",
+          "note": "Sung at Qubāʾ on the outskirts of Madinah upon the arrival of the Prophet ﷺ during the Hijrah (Rabīʿ al-Awwal 1 AH / September 622 CE).",
           "units": [
             {
               "ar": "طَلَعَ الْبَدْرُ عَلَيْنَا — مِنْ ثَنِيَّاتِ الْوَدَاعِ",
@@ -4561,9 +4564,9 @@
       "title_ar": "مِنْ مَدَائِحِ حَسَّانَ بْنِ ثَابِتٍ",
       "title_en": "Poems of Ḥassān ibn Thābit ﵁",
       "author": "Ḥassān ibn Thābit ﵁",
-      "author_dates": "d. c. 674",
-      "description_en": "Ḥassān ibn Thābit ﵁ of Madinah was the Prophet’s ﷺ own poet, given a minbar in the mosque from which to answer those who lampooned him — “Jibrīl is with you as long as you defend the Messenger of Allah.” These short pieces are among the most famous madih verses in the language. The two elegies were composed after the Prophet’s ﷺ death in 632.",
-      "source_en": "Arabic texts as transmitted in Ḥassān’s dīwān (following Hirschfeld’s 1910 edition) and, for the minbar poem, in Ṣaḥīḥ Muslim. The English renderings are original to this project.",
+      "author_dates": "c. 563 – 674 CE (d. c. 54 AH) · Companion and Poet of the Prophet ﷺ",
+      "description_en": "Sayyidunā Ḥassān ibn Thābit ﵁ of the Khazraj in Madinah was the Poet of the Prophet ﷺ, honoured with a special minbar in the Prophet’s Mosque from which to champion the faith and answer those who lampooned the Messenger of Allah ﷺ — accompanied by the prophetic endorsement: “Verily, the Holy Spirit (Jibrīl ﵇) is with you as long as you defend the Messenger of Allah ﷺ.” These selections include his famous verses of praise as well as his deeply moving elegies composed upon the Prophet’s ﷺ passing in 11 AH / 632 CE.",
+      "source_en": "Arabic texts as preserved in Ḥassān’s classical Dīwān (recension of Abū Saʿīd al-Sukkārī, edited by Hartwig Hirschfeld, Gibb Memorial Series, London/Leiden, 1910) and cross-referenced with Ibn Hishām’s ﵀ al-Sīrah al-Nabawiyyah and Ṣaḥīḥ Muslim. The English translations and metrical notes are original to this project.",
       "audio": [],
       "sections": [
         {
@@ -4625,7 +4628,7 @@
         },
         {
           "heading": "The Elegy of Madinah",
-          "note": "Ḥassān’s lament after the Prophet’s ﷺ death in Madinah in 632 — poem 133 of his dīwān, also transmitted in Ibn Hishām’s Sīra.",
+          "note": "Ḥassān’s lament after the passing of the Prophet ﷺ in Madinah (11 AH / 632 CE) — poem 133 of his Dīwān, also preserved in Ibn Hishām’s ﵀ al-Sīrah al-Nabawiyyah.",
           "units": [
             {
               "ar": "مَا بَالُ عَيْنِي لَا تَكَادُ كَأَنَّمَا — كُحِلَتْ مَآقِيهَا بِكُحْلِ الْأَرْمَدِ",
@@ -5283,7 +5286,7 @@
         },
         {
           "heading": "The Oath",
-          "note": "A sworn elegy — that no woman ever bore his like: poem 134 of the dīwān, also transmitted in Ibn Hishām’s Sīra; its fifth verse survives only in the dīwān.",
+          "note": "A sworn elegy affirming that no woman ever bore the like of the Prophet ﷺ — poem 134 of the Dīwān, transmitted also in Ibn Hishām’s ﵀ al-Sīrah al-Nabawiyyah; verse 5 survives uniquely in the Dīwān recension.",
           "units": [
             {
               "ar": "آلَيْتُ حَلْفَةَ بَرٍّ غَيْرَ ذِي دَخْلٍ — مِنِّي آلِيَّةُ بَرٍّ غَيْرِ إِفْنَادِ",
@@ -5374,10 +5377,10 @@
     {
       "id": "banat-suad",
       "title_ar": "قصيدة بانت سعاد",
-      "title_en": "Banat Suʿād (Suʿād Has Departed)",
+      "title_en": "Bānat Suʿād (Suʿād Has Departed)",
       "author": "Kaʿb ibn Zuhayr ﵁",
-      "author_dates": "7th century",
-      "description_en": "The celebrated ode with which Kaʿb ibn Zuhayr ﵁ sought the Prophet's ﷺ forgiveness. When Kaʿb recited it before him in the mosque, the Prophet ﷺ pardoned him and cast his own mantle (burda) over his shoulders — the gift that gives this library its name. The Arabic text follows the recension transmitted in Ibn Hishām's Sīra; the English translation of the ode is J. W. Redhouse's (1881), in the public domain. Both are free of copyright.",
+      "author_dates": "d. c. 26 AH / 646 CE · Companion of the Prophet ﷺ",
+      "description_en": "The celebrated ode (Qaṣīdat al-Burdah) through which the pre-Islamic master poet Kaʿb ibn Zuhayr ﵁ sought the pardon of the Prophet Muḥammad ﷺ. Recited inside the Prophet’s Mosque in Madinah, the Prophet ﷺ was so moved by Kaʿb’s repentance and praise that he removed his own striped Yemeni mantle (burdah) and draped it over Kaʿb’s shoulders — the historic investiture from which The Mantle Library takes its name. The Arabic text follows the authoritative recension transmitted in Ibn Hishām’s ﵀ al-Sīrah al-Nabawiyyah; the Victorian English translation is by Sir James William Redhouse (1881).",
       "sections": [
         {
           "heading": "The Qaṣīda",
@@ -5731,7 +5734,7 @@
               "en2": "spear-thrusts strike them nowhere but the front of their throats, and they never shrink back from the death-pools of battle."
             }
           ],
-          "note": "Fifty-eight verses, as transmitted in Ibn Hishām's Sīra: the familiar opening to Suʿād, the camel that carried him, and the plea and praise recited before the Prophet ﷺ. English translation by J. W. Redhouse (1881); verse 3, not included in his edition, is rendered by this project.",
+          "note": "Fifty-eight verses, as transmitted in Ibn Hishām's ﵀ al-Sīrah al-Nabawiyyah: the classical opening to Suʿād, the desert voyage, and the celebrated plea and praise recited directly before the Prophet ﷺ. English translation by Sir J. W. Redhouse (1881); verse 3 translated for this project.",
           "audio": {
             "file": "audio/banat_suad/banat_suad.mp3",
             "title": "Bānat Suʿād",
@@ -6104,22 +6107,22 @@
         }
       ],
       "audio": [],
-      "source_en": "Arabic text follows the recension transmitted in Ibn Hishām's Sīra. The English translation of the ode is by J. W. Redhouse, from W. A. Clouston (ed.), Arabian Poetry for English Readers (Glasgow, 1881), pp. 305–318, now in the public domain. It is reproduced essentially verbatim, with two small exceptions: Redhouse's rendering of the beloved's name as “Beatrice” has been restored to Suʿād, and his verse 43 — a line found in his edition but absent from this recension — is omitted; verse 3 of the Arabic, which his edition did not include, keeps an original rendering made for this project. The Verses of the Anṣār were not translated by Redhouse and likewise keep their original rendering. A modern simplification in present-day English, made for this project, appears beneath the Victorian text on each verse as a reading aid. It is a simplification of the Victorian translation it accompanies, not a new translation of the Arabic. The Redhouse translation remains the citable text.",
+      "source_en": "Arabic text: transmitted in Ibn Hishām’s ﵀ al-Sīrah al-Nabawiyyah. English translation: Sir J. W. Redhouse, published in W. A. Clouston (ed.), Arabian Poetry for English Readers (Glasgow: Private Circulation, 1881), pp. 305–318, in the public domain. Redhouse’s Victorian diction is reproduced verbatim, with the beloved’s name restored from his Victorian substitution “Beatrice” back to Suʿād, and verse 3 (omitted in his edition) provided with an original translation for this project. The closing Verses of the Anṣār, not translated by Redhouse, are rendered in an original translation for this project. A modern clarification in contemporary English accompanies each verse.",
       "author_ar": "كَعْب بن زُهَيْر ﵁"
     },
     {
       "id": "qasidat-al-burdah",
       "title_ar": "قَصِيدَةُ الْبُرْدَةِ",
       "title_en": "The Poem of the Mantle (Qaṣīdat al-Burdah)",
-      "author": "al-Būṣīrī ﵀",
-      "author_dates": "d. 1294",
-      "description_en": "The most celebrated poem in praise of the Prophet Muḥammad ﷺ ever composed in Arabic. Sharaf al-Dīn al-Būṣīrī ﵀ of Egypt wrote it after being stricken with paralysis; in a dream the Prophet ﷺ cast his own mantle (burdah) over the poet, and he awoke cured. Formally titled al-Kawākib al-Durriyya fī Madḥ Khayr al-Bariyya (“The Celestial Lights in Praise of the Best of Creation”), it runs to 161 verses in the basīṭ metre with a mīm rhyme, arranged in ten chapters — from the poet’s lovesick longing, through the Prophet’s birth, miracles and night journey, to the closing supplication. It is recited and sung across the Muslim world to this day.",
-      "source_en": "Arabic: the received printed text of the Burdah, fully voweled, in the 161-verse recension that includes the verse “and upon the Family and the Companions, then their Successors” (v. 160). The seven supplementary verses and the refrain “Mawlāya ṣalli …” found in some modern prints are later additions not by al-Būṣīrī and are omitted. English: J. W. Redhouse’s complete translation, first published in W. A. Clouston (ed.), Arabian Poetry for English Readers (Glasgow, 1881), pp. 319–344, a public-domain work; Redhouse’s Victorian diction and his own bracketed glosses are kept verbatim. A modern simplification in present-day English, made for this project, appears beneath the Victorian text on each verse as a reading aid. It is a simplification of the Victorian translation it accompanies, not a new translation of the Arabic. The Redhouse translation remains the citable text.",
+      "author": "Imam Sharaf al-Dīn al-Būṣīrī ﵀",
+      "author_dates": "608–694 AH / 1212–1294 CE",
+      "description_en": "The most universally acclaimed poem of prophetic praise ever composed in the Arabic language. Imam Sharaf al-Dīn Muḥammad ibn Saʿīd al-Būṣīrī al-Sanhājī ﵀ composed it after suffering a severe stroke that left him half-paralyzed; in a vision of true grace, the Prophet Muḥammad ﷺ touched him and draped his blessed mantle (burdah) over him, whereupon he awoke completely restored to health. Formally titled al-Kawākib al-Durriyyah fī Madḥ Khayr al-Bariyyah (“The Luminous Stars in Praise of the Best of Creation”), its 161 verses in the basīṭ metre are arranged in ten chapters spanning the poet’s spiritual longing, the warnings of the ego, the Prophet’s ﷺ birth and miracles, the Night Journey (Isrāʾ and Miʿrāj), his campaigns, and closing supplication.",
+      "source_en": "Arabic: the received classical printed text of the Burdah, fully vocalized, in the 161-verse recension ending with the verse of the Family, Companions, and Successors (v. 160–161). The seven supplementary verses and subsequent refrains added in later centuries are identified as distinct and omitted to preserve the author's original text. English translation: Sir J. W. Redhouse, published in W. A. Clouston (ed.), Arabian Poetry for English Readers (Glasgow, 1881), pp. 319–344, in the public domain. A modern simplification in present-day English accompanies each verse as a reading aid.",
       "audio": [],
       "sections": [
         {
           "heading": "On Yearning and the Lament of Love",
-          "note": "Verses 1–12",
+          "note": "Chapter 1: On the Poet’s Yearning and the Lament of Love (Verses 1–12)",
           "units": [
             {
               "n": 0,
@@ -6278,7 +6281,7 @@
         },
         {
           "heading": "Warning Against the Desires of the Soul",
-          "note": "Verses 13–28",
+          "note": "Chapter 2: On Warning Against the Desires of the Ego (Verses 13–28)",
           "units": [
             {
               "ar": "فَإِنَّ أَمَّارَتِي بِالسُّوءِ مَا اتَّعَظَتْ — مِنْ جَهْلِهَا بِنَذِيرِ الشَّيْبِ وَالْهَرَمِ",
@@ -6468,7 +6471,7 @@
         },
         {
           "heading": "In Praise of the Prophet ﷺ",
-          "note": "Verses 29–58",
+          "note": "Chapter 3: In Praise of the Messenger of Allah ﷺ (Verses 29–58)",
           "units": [
             {
               "ar": "ظَلَمْتُ سُنَّةَ مَنْ أَحْيَا الظَّلَامَ إِلَى — أَنِ اشْتَكَتْ قَدَمَاهُ الضُّرَّ مِنْ وَرَمِ",
@@ -6812,7 +6815,7 @@
         },
         {
           "heading": "On His Blessed Birth ﷺ",
-          "note": "Verses 59–71",
+          "note": "Chapter 4: On His Blessed Birth ﷺ (Verses 59–71)",
           "units": [
             {
               "ar": "أَبَانَ مَوْلِدُهُ عَنْ طِيبِ عُنْصُرِهِ — يَا طِيبَ مُبْتَدَإٍ مِنْهُ وَمُخْتَتَمِ",
@@ -6969,7 +6972,7 @@
         },
         {
           "heading": "On His Miracles ﷺ",
-          "note": "Verses 72–87",
+          "note": "Chapter 5: On His Miracles ﷺ (Verses 72–87)",
           "units": [
             {
               "ar": "جَاءَتْ لِدَعْوَتِهِ الْأَشْجَارُ سَاجِدَةً — تَمْشِي إِلَيْهِ عَلَى سَاقٍ بِلَا قَدَمِ",
@@ -7159,7 +7162,7 @@
         },
         {
           "heading": "On the Excellence of the Noble Qur'an",
-          "note": "Verses 88–104",
+          "note": "Chapter 6: On the Nobility and Miracles of the Holy Qur'an (Verses 88–104)",
           "units": [
             {
               "ar": "دَعْنِي وَوَصْفِيَ آيَاتٍ لَهُ ظَهَرَتْ — ظُهُورَ نَارِ الْقِرَى لَيْلًا عَلَى عَلَمِ",
@@ -7360,7 +7363,7 @@
         },
         {
           "heading": "On His Night Journey and Ascension ﷺ",
-          "note": "Verses 105–117",
+          "note": "Chapter 7: On His Night Journey (Isrāʾ) and Heavenly Ascent (Miʿrāj) (Verses 105–117)",
           "units": [
             {
               "ar": "يَا خَيْرَ مَنْ يَمَّمَ الْعَافُونَ سَاحَتَهُ — سَعْيًا وَفَوْقَ مُتُونِ الْأَيْنُقِ الرُّسُمِ",
@@ -7517,7 +7520,7 @@
         },
         {
           "heading": "On the Prophet's Jihad ﷺ",
-          "note": "Verses 118–139",
+          "note": "Chapter 8: On the Blessed Campaigns and Valour of the Prophet ﷺ (Verses 118–139)",
           "units": [
             {
               "ar": "رَاعَتْ قُلُوبَ الْعِدَا أَنْبَاءُ بِعْثَتِهِ — كَنَبْأَةٍ أَجْفَلَتْ غُفْلًا مِنَ الْغَنَمِ",
@@ -7773,7 +7776,7 @@
         },
         {
           "heading": "On Seeking Intercession Through the Prophet ﷺ",
-          "note": "Verses 140–151",
+          "note": "Chapter 9: On Seeking Intercession through the Prophet ﷺ (Verses 140–151)",
           "units": [
             {
               "ar": "خَدَمْتُهُ بِمَدِيحٍ أَسْتَقِيلُ بِهِ — ذُنُوبَ عُمْرٍ مَضَى فِي الشِّعْرِ وَالْخِدَمِ",
@@ -7919,7 +7922,7 @@
         },
         {
           "heading": "On Intimate Supplication and the Presenting of Needs",
-          "note": "Verses 152–161",
+          "note": "Chapter 10: On Supplication and Petition (Verses 152–161)",
           "units": [
             {
               "ar": "يَا أَكْرَمَ الْخَلْقِ مَا لِي مَنْ أَلُوذُ بِهِ — سِوَاكَ عِنْدَ حُلُولِ الْحَادِثِ الْعَمِمِ",
@@ -8431,7 +8434,8 @@
           "description": "Shaykh Yūsuf al-Manyalāwī in a soaring rendition of 'Jaddidī Yā Nafsu Ḥuznā' ('Renew thy grief, O soul'), captured on a 12-inch Gramophone Monarch disc shortly before his death in 1911.",
           "genre": "qasida"
         }
-      ]
+      ],
+      "source_en": "Archival audio provenance: Original pre-1925 acoustic recordings captured mechanically on 78rpm shellac discs by pioneering international record companies, including the Gramophone & Typewriter Ltd. (1901–1905, Kazan and Cairo), Baidaphon (1907–1912, Beirut and Cairo), and the Université de Paris Archives de la Parole (Disque Pathé, 1914–1921, recorded at the Sorbonne under linguist Ferdinand Brunot). Digital disc preservation transfers courtesy of the Harvard University Loeb Music Library Arabic 78 Collection and the Excavated Shellac historical archive (curated by Jonathan Ward). All underlying recordings and original record label artwork are in the worldwide public domain."
     }
   ]
 }
