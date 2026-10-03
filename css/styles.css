@@ -578,7 +578,7 @@ h1, h2, h3 {
   flex: 1;
   align-items: center;
   text-align: center;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .menu-row-title {
@@ -663,19 +663,20 @@ h1, h2, h3 {
 }
 
 /* Arabic subtitle inside a work row gets the Arabic typeface.
-   Single-line, elegant clamp that prevents tile overflow. */
+   Single-line, elegant clamp that prevents tile overflow and preserves full diacritics. */
 .menu-row-sub[lang="ar"] {
   font-family: var(--arabic-stack);
-  font-size: clamp(0.76rem, 1.1vh, 0.82rem);
-  line-height: 1.2;
+  font-size: clamp(0.88rem, 1.5vh, 1.1rem);
+  line-height: 1.55;
   width: 100%;
   max-width: 100%;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: block;
+  overflow: visible;
+  text-overflow: unset;
+  display: inline-block;
   text-align: center;
-  margin-top: 0.12rem;
+  margin-top: 0.1rem;
+  padding: 0.1rem 0.25rem;
 }
 
 /* ---------- Landscape Card: Historic Gramophone Archive (Home Screen) ---------- */
@@ -2190,81 +2191,139 @@ html.is-native-android .site-footer {
 /* ---------- Zero-Scroll Mobile Home Dashboard (< 768px, e.g. RedMagic 10 Pro) ---------- */
 @media (max-width: 768px) {
   html.is-home, body.is-home {
+    height: 100dvh;
+    height: 100vh;
     min-height: 100dvh;
-    min-height: 100vh;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
   }
   body.is-home .layout-container {
-    min-height: auto;
+    height: 100%;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
   }
   body.is-home .main-content {
-    flex: 0 0 auto;
-    min-height: auto;
+    flex: 1;
+    height: 100%;
+    min-height: 0;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    box-sizing: border-box;
-    padding-bottom: 24px;
+    padding-bottom: 0;
   }
   body.is-home main {
-    flex: 0 0 auto;
-    padding: calc(12px + env(safe-area-inset-top, 0px)) 0.55rem 0.25rem;
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    padding: calc(10px + env(safe-area-inset-top, 0px)) 0.75rem 0.25rem;
     box-sizing: border-box;
+    overflow: hidden;
   }
   body:not(.is-home) main {
     padding-top: 0;
   }
+  body.is-home #app {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
   body.is-home .view-header {
-    margin: 0 0 clamp(0.35rem, 1vh, 0.75rem);
-    padding: 0 0 clamp(0.25rem, 0.6vh, 0.45rem);
+    flex: 0 0 auto;
+    margin: 0 0 clamp(0.4rem, 1.2vh, 0.75rem);
+    padding: 0 0 clamp(0.25rem, 0.7vh, 0.45rem);
   }
   body.is-home .view-header-logo {
-    width: clamp(34px, 4.6vh, 44px);
-    height: clamp(34px, 4.6vh, 44px);
+    width: clamp(38px, 5vh, 48px);
+    height: clamp(38px, 5vh, 48px);
   }
   body.is-home .view-header-title {
-    font-size: clamp(1.2rem, 2.1vh, 1.4rem);
+    font-size: clamp(1.35rem, 2.5vh, 1.65rem);
   }
   body.is-home .view-header-sub {
-    font-size: clamp(0.74rem, 1.15vh, 0.82rem);
+    font-size: clamp(0.8rem, 1.3vh, 0.92rem);
     margin-top: 0.2rem;
   }
+
+  body.is-home #featured-card-container {
+    flex: 0 0 auto;
+    margin-bottom: clamp(0.4rem, 1vh, 0.7rem);
+  }
+  body.is-home .featured-card .archive-card-link {
+    padding: clamp(0.7rem, 1.4vh, 1.05rem) clamp(0.75rem, 1.8vw, 1.1rem);
+  }
+  body.is-home .featured-card .archive-card-title {
+    font-size: clamp(1.05rem, 2vh, 1.3rem);
+  }
+  body.is-home .featured-card .archive-card-gloss {
+    font-size: clamp(0.8rem, 1.3vh, 0.92rem);
+  }
+
   body.is-home .menu-rows {
-    gap: clamp(0.35rem, 0.8vh, 0.5rem);
-    margin: 0 0 clamp(0.35rem, 0.8vh, 0.55rem);
+    flex: 1;
+    min-height: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: clamp(0.45rem, 1.1vh, 0.75rem);
+    margin: 0 0 clamp(0.4rem, 1vh, 0.7rem);
+  }
+  body.is-home .menu-row {
+    height: 100%;
+    min-height: 0;
   }
   body.is-home .menu-row-link {
-    padding: clamp(0.55rem, 1.1vh, 0.75rem) clamp(0.4rem, 1.2vw, 0.6rem);
-    gap: clamp(0.2rem, 0.5vh, 0.35rem);
-    min-height: clamp(88px, 11vh, 104px);
+    height: 100%;
+    box-sizing: border-box;
+    padding: clamp(0.6rem, 1.3vh, 1rem) clamp(0.45rem, 1.2vw, 0.75rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(0.2rem, 0.5vh, 0.4rem);
+    min-height: 0;
   }
   body.is-home .menu-row-icon {
-    width: clamp(1.75rem, 2.7vh, 2.05rem);
-    height: clamp(1.75rem, 2.7vh, 2.05rem);
+    width: clamp(2rem, 3.4vh, 2.6rem);
+    height: clamp(2rem, 3.4vh, 2.6rem);
   }
   body.is-home .menu-row-icon svg {
-    width: clamp(0.85rem, 1.35vh, 1.05rem);
-    height: clamp(0.85rem, 1.35vh, 1.05rem);
+    width: clamp(1rem, 1.7vh, 1.3rem);
+    height: clamp(1rem, 1.7vh, 1.3rem);
   }
   body.is-home .menu-row-title {
-    font-size: clamp(0.8rem, 1.3vh, 0.9rem);
+    font-size: clamp(0.95rem, 1.6vh, 1.15rem);
     line-height: 1.25;
   }
   body.is-home .menu-row-gloss {
-    font-size: clamp(0.68rem, 1.05vh, 0.76rem);
+    font-size: clamp(0.76rem, 1.2vh, 0.86rem);
     line-height: 1.2;
   }
+  body.is-home .menu-row-sub[lang="ar"] {
+    font-size: clamp(0.9rem, 1.55vh, 1.12rem);
+    line-height: 1.55;
+    margin-top: 0.1rem;
+    padding: 0.1rem 0.35rem;
+    overflow: visible;
+    text-overflow: unset;
+    white-space: nowrap;
+    display: inline-block;
+  }
+
+  body.is-home #archive-card-container {
+    flex: 0 0 auto;
+    margin-bottom: 0;
+  }
   body.is-home .archive-card {
-    margin: 0 0 clamp(0.35rem, 0.8vh, 0.55rem);
+    margin: 0;
   }
   body.is-home .archive-card-link {
-    padding: clamp(0.55rem, 1.2vh, 0.8rem) clamp(0.7rem, 1.6vw, 0.95rem);
+    padding: clamp(0.7rem, 1.4vh, 1.05rem) clamp(0.75rem, 1.8vw, 1.1rem);
     gap: clamp(0.6rem, 1.3vh, 0.9rem);
   }
   body.is-home .archive-card-icon {
@@ -2276,18 +2335,19 @@ html.is-native-android .site-footer {
     height: clamp(1.05rem, 1.7vh, 1.3rem);
   }
   body.is-home .archive-card-title {
-    font-size: clamp(0.88rem, 1.4vh, 0.98rem);
+    font-size: clamp(1rem, 1.8vh, 1.2rem);
   }
   body.is-home .archive-card-gloss {
-    font-size: clamp(0.72rem, 1.1vh, 0.78rem);
+    font-size: clamp(0.78rem, 1.25vh, 0.88rem);
   }
   body.is-home .archive-card-sub {
     font-size: clamp(0.95rem, 1.5vh, 1.08rem);
   }
   body.is-home .site-footer {
+    flex: 0 0 auto;
     border-top: none;
     margin: 0 auto;
-    padding: 0.2rem 0.5rem calc(0.75rem + env(safe-area-inset-bottom, 0px));
+    padding: clamp(0.25rem, 0.8vh, 0.5rem) 0.5rem calc(0.35rem + env(safe-area-inset-bottom, 0px));
     font-size: 0.72rem;
   }
 }
@@ -2313,9 +2373,7 @@ html.is-native-android .site-footer {
     font-size: 1.05rem;
     text-align: left;
   }
-  body.is-home main {
-    padding: calc(14px + env(safe-area-inset-top, 0px)) 0.5rem 0.25rem;
-  }
+
   .reader-footer {
     padding: 8px 8px calc(8px + env(safe-area-inset-bottom, 0px));
   }
@@ -2350,40 +2408,6 @@ html.is-native-android .site-footer {
     min-height: 32px;
     padding: 4px;
     margin: 0 1px;
-  }
-  .menu-rows {
-    gap: 0.5rem;
-  }
-  .menu-row-link {
-    padding: 0.55rem 0.45rem;
-    min-height: 68px;
-    gap: 0.25rem;
-  }
-  .menu-row-icon {
-    width: 1.85rem;
-    height: 1.85rem;
-  }
-  .menu-row-icon svg {
-    width: 0.95rem;
-    height: 0.95rem;
-  }
-  .menu-row-title {
-    font-size: 0.82rem;
-    line-height: 1.25;
-  }
-  .menu-row-gloss {
-    font-size: 0.7rem;
-  }
-  .menu-row-sub {
-    font-size: 0.78rem;
-  }
-  .menu-row-sub[lang="ar"] {
-    font-size: clamp(0.74rem, 1.05vh, 0.8rem);
-    line-height: 1.15;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-top: 0.1rem;
   }
   .archive-card-link {
     padding: 0.9rem 0.8rem;
