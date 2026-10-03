@@ -13,24 +13,22 @@ AutoName: Mantle Library
 
 RepoType: git
 Repo: https://github.com/awaism257/the-mantle-library
-Branch: fdroid
+Binaries: 
+  https://github.com/awaism257/the-mantle-library/releases/download/v%v/Mantle_Library.apk
 
 Builds:
   - versionName: 1.0.4
     versionCode: 5
-    commit: d15bd1cfbc273a941a2a9effc7735c7bd4764cef
-    subdir: android
-    sudo:
-      - apt-get update
-      - apt-get install -y openjdk-17-jdk-headless
-      - update-java-alternatives -s java-1.17.0-openjdk-amd64
+    commit: v1.0.4
+    subdir: android/app
     gradle:
       - yes
 
-Binaries: https://github.com/awaism257/the-mantle-library/releases/download/v1.0.4/Mantle_Library.apk
 AllowedAPKSigningKeys: 444dce87d61886face33cc733ad73e2e8993ba91fbb52358a8cc0bd418686971
 
-AutoUpdateMode: Version v%v
+AutoUpdateMode: Version
 UpdateCheckMode: Tags ^v
+UpdateCheckData: 
+  android/app/build.gradle.kts|versionCode\s*=\s*(\d+)|.|versionName\s*=\s*"([^"]+)"
 CurrentVersion: 1.0.4
 CurrentVersionCode: 5
