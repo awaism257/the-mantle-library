@@ -18,7 +18,7 @@ Branch: fdroid
 Builds:
   - versionName: 1.0.4
     versionCode: 5
-    commit: COMMIT_PLACEHOLDER
+    commit: d15bd1cfbc273a941a2a9effc7735c7bd4764cef
     subdir: android
     sudo:
       - apt-get update
