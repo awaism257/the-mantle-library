@@ -1608,9 +1608,7 @@
     });
   }
 
-  /* ================= PWA Install Banners (Android & iOS) ================= */
-  var deferredInstallPrompt = null;
-
+  /* ================= PWA Install Banner (iOS / iPhone Only) ================= */
   function maybeShowIOSBanner() {
     try {
       var isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent) ||
@@ -1635,50 +1633,10 @@
     } catch (e) {}
   }
 
-  function maybeShowAndroidBanner() {
-    try {
-      var isAndroid = /android/i.test(navigator.userAgent);
-      var standalone = window.matchMedia && window.matchMedia('(display-mode: standalone)').matches;
-      var dismissed = false;
-      try { dismissed = !!window.localStorage.getItem('mantle_android_banner_dismissed'); } catch (e) {}
-      if (!isAndroid || standalone || dismissed) return;
-      var banner = document.getElementById('android-banner');
-      if (!banner) return;
-      var installBtn = document.getElementById('android-install');
-      if (deferredInstallPrompt && installBtn) {
-        var bannerText = document.getElementById('android-banner-text');
-        if (bannerText) bannerText.textContent = 'Install this app on your device for the full experience.';
-        installBtn.hidden = false;
-        installBtn.addEventListener('click', function () {
-          deferredInstallPrompt.prompt();
-          deferredInstallPrompt.userChoice.finally(function () {
-            deferredInstallPrompt = null;
-            banner.hidden = true;
-          });
-        });
-      }
-      banner.hidden = false;
-      var closeBtn = document.getElementById('android-banner-close');
-      if (closeBtn) {
-        closeBtn.addEventListener('click', function () {
-          banner.hidden = true;
-          try { window.localStorage.setItem('mantle_android_banner_dismissed', 'true'); } catch (e) {}
-        });
-      }
-    } catch (e) {}
-  }
-
+  // Prevent default browser install mini-infobar on Android/Desktop
   window.addEventListener('beforeinstallprompt', function (e) {
     e.preventDefault();
-    deferredInstallPrompt = e;
-    maybeShowAndroidBanner();
-  });
-
-  window.addEventListener('appinstalled', function () {
-    var banner = document.getElementById('android-banner');
-    if (banner) banner.hidden = true;
   });
 
   maybeShowIOSBanner();
-  maybeShowAndroidBanner();
 })();

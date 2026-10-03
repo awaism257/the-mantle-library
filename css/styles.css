@@ -1259,8 +1259,8 @@ html.light .reader-footer {
   }
 }
 
-/* ---------- PWA Install Banners (Android & iOS) ---------- */
-#ios-banner, #android-banner {
+/* ---------- iOS PWA Install Banner ---------- */
+#ios-banner {
   position: fixed;
   left: 12px;
   right: 12px;
@@ -1277,10 +1277,10 @@ html.light .reader-footer {
   font-size: 0.88rem;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
 }
-#ios-banner[hidden], #android-banner[hidden] {
+#ios-banner[hidden] {
   display: none !important;
 }
-#ios-banner button, #android-banner button {
+#ios-banner button {
   background: none;
   border: none;
   color: inherit;
@@ -1288,16 +1288,6 @@ html.light .reader-footer {
   cursor: pointer;
   padding: 2px 8px;
   flex-shrink: 0;
-}
-#android-banner .install-btn {
-  font-weight: 700;
-  font-size: 0.84rem;
-  background: var(--gold);
-  color: #101613;
-  border-radius: 8px;
-  padding: 5px 14px !important;
-  margin-left: 6px;
-  cursor: pointer;
 }
 
 .verse-card-head {
