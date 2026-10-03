@@ -1,0 +1,56 @@
+Mantle Library is a free, ad-free, offline-first library of classical Islamic devotional works — featuring a complete 12-chapter narrated audiobook on the Seerah (the prophetic biography), classical qasidas, litanies, and prophetic supplications — presented in Arabic with scholarly English translations, and paired with 15 remastered historic gramophone recordings from the golden age of Islamic devotional art (1901–1921).
+
+---
+
+📖 The Library
+
+The Life of the Prophet ﷺ (Al-Sīrah al-Nabawiyyah) — السيرة النبوية
+A complete 12-chapter narrated audiobook on the blessed Seerah. Presented in continuous flowing English prose with live sentence-by-sentence recitation highlighting, Victorian source notes, and authentic Arabic transliteration.
+
+Dalāʾil al-Khayrāt — دلائل الخيرات
+The celebrated 15th-century collection of blessings upon the Prophet ﷺ by Imam Muḥammad al-Jazūlī. Presented in the public-domain English translation by Rev. John B. Pearson (Oxford, 1907), with the complete Arabic text and modern reading aids.
+
+Mishkāt al-Maṣābīḥ — مشكاة المصابيح
+Selected chapters of prophetic devotions from the classical hadith anthology by al-Khaṭīb al-Tibrīzī (14th century): morning and evening adhkār, night prayers, post-prayer supplications, and the Chapter on Seeking Forgiveness — presented with Arabic originals and the first English translation (Captain James Robson Matthews, Calcutta, 1809–1810).
+
+Morning & Evening Adhkār — أذكار الصباح والمساء
+The prophetic litanies of the day and night, drawn from Ḥiṣn al-Muslim (Fortress of the Muslim), with Arabic text and English.
+
+---
+
+🎵 Historic Devotional Recordings
+
+A unique collection of 15 public-domain 78 RPM recordings from the very dawn of commercial Arabic gramophone recording — digitally remastered to remove surface noise, clicks, and motor hum while preserving the warmth of the original shellac masters.
+
+Artists and sessions include:
+• Shaykh Yūsuf al-Manyalāwī — Gramophone Concert & Monarch Records, Cairo 1909–1910 (the master of the Khedivial golden era)
+• Aḥmad al-Mīr — Baidaphon label, c.1907–1911
+• Aḥmad al-Ajamī — Favorite Records, Cairo 1905
+• Saʿīd al-Saftī — Favorite Records, Cairo 1905
+• Al-Shaykh Aḥmad al-Shaykh — Baidaphon label
+• Wadūdah al-Minyalāwī — Victor Records, Cairo 1915
+• Alexis Ben Kori — Archives de la Parole, Sorbonne, Paris 1914
+• Tatar Trio — E. Berliner's Gramophone, Kazan 1901 (among the oldest surviving Islamic devotional recordings)
+
+All recordings pre-date 1926 and are fully in the public domain. Each disc is presented with its original archival label artwork — displayed as a spinning vinyl disc in the player.
+
+---
+
+✨ Key Features
+
+• 12-Chapter Narrated Seerah Audiobook — Continuous flowing English prose with real-time sentence recitation highlighting and interactive audio seeking.
+• Full Offline Support — Every text and recording is bundled and cached locally. Works without an internet connection anywhere.
+• Synchronised Audio Player — Follow along with verse auto-scrolling, speed controls, loop options, and vintage vinyl animations.
+• Dual Reading Themes — Deep Family Green dark theme and an Illuminated Manuscript light theme.
+• Zero Ads · Zero Tracking · Zero Cost — No account, no analytics, no advertising. Completely private and forever free.
+• Accessible Typography — Fully vocalised Arabic with customisable font sizes and clean English translations.
+
+---
+
+📚 Part of a Family
+
+Mantle Library shares its design language and values with:
+• Munajaat Maqbool — 195 prophetic daily supplications (Arabic/Urdu/English)
+• JustQuran — A clean Quran reader
+
+All three apps are free, ad-free, and built with love for the Muslim community.

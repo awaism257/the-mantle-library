@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light mode overrides — use light status bar icons on cream background -->
+    <style name="Theme.MantleLibrary" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#F6F0E0</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">#F6F0E0</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Adaptive icon background layer: Light Theme Warm Parchment -->
+    <color name="ic_launcher_background">#F6F0E0</color>
+
+    <!-- TWA System bar and splash colors (must be resource references for ContextCompat.getColor) -->
+    <color name="status_bar_color">#101613</color>
+    <color name="navigation_bar_color">#101613</color>
+    <color name="splash_screen_background_color">#101613</color>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        The Mantle Library — dark theme (default).
+        NoActionBar + transparent status bar so the PWA's own
+        status-bar-color (#101613, family green) shows through edge-to-edge.
+    -->
+    <style name="Theme.MantleLibrary" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#101613</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <!-- Splash screen theme: fullscreen dark green matching the PWA bg -->
+    <style name="Theme.MantleLibrary.Splash" parent="Theme.MantleLibrary">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">#101613</item>
+    </style>
+</resources>

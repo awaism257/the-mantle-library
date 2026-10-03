@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Adaptive icon definition (API 26+).
+    Foreground: the Mantle lamp/script emblem (monochrome-safe golden on green).
+    Background: solid Family Green (#101613).
+    Both layers are generated from icons/icon-512.png of the PWA.
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/ic_launcher_background"/>
+    <foreground android:drawable="@mipmap/ic_launcher_foreground"/>
+    <monochrome android:drawable="@mipmap/ic_launcher_foreground"/>
+</adaptive-icon>

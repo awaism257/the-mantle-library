@@ -1,0 +1,5 @@
+• Continuous flowing English prose with inline verse markers
+• Real-time sentence recitation highlighting for Sīrah Audiobook
+• Interactive audio seeking (tap any sentence to jump)
+• Complete 12-Chapter Sīrah audiobook with British narration
+• Native volume-key page turning on physical devices
