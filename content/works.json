@@ -420,7 +420,8 @@
           ]
         }
       ],
-      "author_ar": "التبريزي ﵀"
+      "author_ar": "التبريزي ﵀",
+      "short_title_ar": "مِشْكَاةُ الْمَصَابِيحِ"
     },
     {
       "id": "dalail-al-khayrat",
@@ -4491,7 +4492,8 @@
       ],
       "audio": [],
       "source_en": "Classical public-domain Arabic text of Imam al-Jazūlī ﵀, based on standard historical recensions. English: Ḥizbs 1–8 follow the historical English translation by Rev. John B. Pearson (Guide to Happiness: A Manual of Prayer, Oxford, 1907), in the public domain globally. The Opening Supplication (Section 0) and the Supplication of Completion (Section 9) are translated into English specifically for this project. A modern clarification in contemporary English appears beneath the English text throughout every section.",
-      "author_ar": "الإمام الجزولي ﵀"
+      "author_ar": "الإمام الجزولي ﵀",
+      "short_title_ar": "دَلائِلُ الْخَيْرَاتِ"
     },
     {
       "id": "tala-al-badru",
@@ -4557,14 +4559,15 @@
             ]
           }
         }
-      ]
+      ],
+      "short_title_ar": "طَلَعَ الْبَدْرُ عَلَيْنَا"
     },
     {
       "id": "al-sirah-al-nabawiyyah",
       "featured": true,
-      "title_ar": "السِّيرَةُ النَّبَوِيَّةُ الشَّرِيفَة",
-      "title_en": "The Life of the Prophet (Al-Sīrah al-Nabawiyyah)",
-      "author": "Narrated from Rehatsek’s 1893 translation of Mīrkhwānd, with Ibn Hishām",
+      "title_ar": "السِّيرَةُ النَّبَوِيَّةُ الشَّرِيفَةُ ﷺ",
+      "title_en": "The Life of the Prophet ﷺ (Al-Sīrah al-Nabawiyyah ﷺ)",
+      "author": "Narrated from Rehatsek’s 1893 translation of Mīrkhwānd, with Ibn Hishām ﵀",
       "author_dates": "Classical Sīrah Tradition",
       "description_en": "A comprehensive 12-chapter chronological biography of the Final Messenger ﷺ, presented in Book Mode with three reading perspectives: a reverent English retelling, authenticated Classical Arabic, and Edward Rehatsek's verbatim 1893 Victorian translation of Rauzat-us-Safa ('The Garden of Purity'), accompanied by a full synchronized audiobook.",
       "source_en": "Victorian source: Edward Rehatsek, trans., The Rauzat-us-Safa (Mīrkhwānd), Part II, Vol. I, ed. F. F. Arbuthnot, Royal Asiatic Society, London, 1893 (public domain; Internet Archive). Arabic: Ibn Hishām, Sīrat Rasūl Allāh; Ṣaḥīḥ Muslim; Qur’ān. English story and narration: The Mantle Library.",
@@ -6046,7 +6049,8 @@
             ]
           }
         }
-      ]
+      ],
+      "short_title_ar": "السِّيرَةُ النَّبَوِيَّةُ الشَّرِيفَةُ ﷺ"
     },
     {
       "id": "hassan-poems",
@@ -6861,7 +6865,8 @@
           ]
         }
       ],
-      "author_ar": "حَسَّان بن ثَابِت ﵁"
+      "author_ar": "حَسَّان بن ثَابِت ﵁",
+      "short_title_ar": "دِيوَانُ حَسَّانِ بْنِ ثَابِتٍ"
     },
     {
       "id": "banat-suad",
@@ -7597,7 +7602,8 @@
       ],
       "audio": [],
       "source_en": "Arabic text: transmitted in Ibn Hishām’s ﵀ al-Sīrah al-Nabawiyyah. English translation: Sir J. W. Redhouse, published in W. A. Clouston (ed.), Arabian Poetry for English Readers (Glasgow: Private Circulation, 1881), pp. 305–318, in the public domain. Redhouse’s Victorian diction is reproduced verbatim, with the beloved’s name restored from his Victorian substitution “Beatrice” back to Suʿād, and verse 3 (omitted in his edition) provided with an original translation for this project. The closing Verses of the Anṣār, not translated by Redhouse, are rendered in an original translation for this project. A modern clarification in contemporary English accompanies each verse.",
-      "author_ar": "كَعْب بن زُهَيْر ﵁"
+      "author_ar": "كَعْب بن زُهَيْر ﵁",
+      "short_title_ar": "قَصِيدَةُ بَانَتْ سُعَاد"
     },
     {
       "id": "qasidat-al-burdah",
@@ -9534,7 +9540,8 @@
           }
         }
       ],
-      "author_ar": "البوصيري ﵀"
+      "author_ar": "البوصيري ﵀",
+      "short_title_ar": "قَصِيدَةُ الْبُرْدَةِ"
     },
     {
       "id": "historic-recordings",

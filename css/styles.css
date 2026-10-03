@@ -663,21 +663,19 @@ h1, h2, h3 {
 }
 
 /* Arabic subtitle inside a work row gets the Arabic typeface.
-   Wraps naturally without ellipsis truncation so sacred titles are never cut off. */
+   Single-line, elegant clamp that prevents tile overflow. */
 .menu-row-sub[lang="ar"] {
   font-family: var(--arabic-stack);
-  font-size: calc(0.92rem * var(--fs-ar));
-  line-height: 1.35;
+  font-size: clamp(0.76rem, 1.1vh, 0.82rem);
+  line-height: 1.2;
   width: 100%;
   max-width: 100%;
-  white-space: normal;
-  overflow: visible;
-  text-overflow: unset;
-  overflow-wrap: break-word;
-  word-break: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   display: block;
   text-align: center;
-  margin-top: 0.15rem;
+  margin-top: 0.12rem;
 }
 
 /* ---------- Landscape Card: Historic Gramophone Archive (Home Screen) ---------- */
@@ -2242,9 +2240,9 @@ html.is-native-android .site-footer {
     margin: 0 0 clamp(0.35rem, 0.8vh, 0.55rem);
   }
   body.is-home .menu-row-link {
-    padding: clamp(0.45rem, 0.95vh, 0.65rem) clamp(0.4rem, 1.2vw, 0.6rem);
+    padding: clamp(0.55rem, 1.1vh, 0.75rem) clamp(0.4rem, 1.2vw, 0.6rem);
     gap: clamp(0.2rem, 0.5vh, 0.35rem);
-    min-height: clamp(62px, 8vh, 78px);
+    min-height: clamp(88px, 11vh, 104px);
   }
   body.is-home .menu-row-icon {
     width: clamp(1.75rem, 2.7vh, 2.05rem);
@@ -2380,11 +2378,12 @@ html.is-native-android .site-footer {
     font-size: 0.78rem;
   }
   .menu-row-sub[lang="ar"] {
-    font-size: 0.94rem;
-    line-height: 1.35;
-    white-space: normal;
-    overflow: visible;
-    text-overflow: unset;
+    font-size: clamp(0.74rem, 1.05vh, 0.8rem);
+    line-height: 1.15;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 0.1rem;
   }
   .archive-card-link {
     padding: 0.9rem 0.8rem;

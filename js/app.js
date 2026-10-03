@@ -262,6 +262,10 @@
     var title = t.main, gloss = t.gloss;
     var textKids = [el('span', { class: 'menu-row-title', text: title })];
     if (gloss) textKids.push(el('span', { class: 'menu-row-gloss', text: gloss }));
+    var arTitle = work.short_title_ar || work.title_ar;
+    if (arTitle) {
+      textKids.push(el('span', { class: 'menu-row-sub', lang: 'ar', dir: 'rtl', text: arTitle }));
+    }
     return el('li', { class: 'menu-row' }, [
       el('a', {
         class: 'menu-row-link',
@@ -1753,7 +1757,7 @@
   function unitCountLabel(section) {
     if (Array.isArray(section.story) && section.story.length > 0) {
       var pCount = section.story.length;
-      return pCount + ' ' + (pCount === 1 ? 'paragraph' : 'paragraphs') + ' · 3-tab reader';
+      return pCount + ' ' + (pCount === 1 ? 'paragraph' : 'paragraphs');
     }
     var units = Array.isArray(section.units) ? section.units : [];
     var numbered = units.some(function (u) { return u.n != null; });
