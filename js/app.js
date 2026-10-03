@@ -863,6 +863,10 @@
     } else if (section.note) {
       storyNodes.push(el('p', { class: 'book-note', text: section.note }));
     }
+    storyNodes.push(el('p', {
+      class: 'modern-layer-note book-note',
+      text: 'Note: every “Modern simplification” simplifies the Victorian translation; it is not a new translation of the Arabic.'
+    }));
 
     // ---- Classical Arabic (right-to-left pages) ----
     var arabicNodes = [];
@@ -1778,6 +1782,15 @@
         el('summary', { text: 'Text source' }),
         el('p', { text: work.source_en })
       ]));
+    }
+    var hasModern = (work.sections || []).some(function (sec) {
+      return (sec.units || []).some(function (u) { return u.en2; }) || (sec.story && sec.story.length > 0);
+    });
+    if (hasModern) {
+      nodes.push(el('p', {
+        class: 'modern-layer-note',
+        text: 'Note: every “Modern simplification” below simplifies the Victorian translation; it is not a new translation of the Arabic.'
+      }));
     }
     return nodes;
   }
