@@ -262,7 +262,6 @@
     var title = t.main, gloss = t.gloss;
     var textKids = [el('span', { class: 'menu-row-title', text: title })];
     if (gloss) textKids.push(el('span', { class: 'menu-row-gloss', text: gloss }));
-    textKids.push(el('span', { class: 'menu-row-sub', lang: 'ar', dir: 'rtl', text: work.title_ar }));
     return el('li', { class: 'menu-row' }, [
       el('a', {
         class: 'menu-row-link',
@@ -453,13 +452,13 @@
     // In-column page header (logo + title + actions + subtitle + rule).
     appEl.appendChild(buildHomeHeader());
 
+    // Sīrah landscape card (the narrated audiobook) at the very top under header
+    var featuredCardContainer = el('div', { id: 'featured-card-container' });
+    appEl.appendChild(featuredCardContainer);
+
     // Main works as full-width menu rows (2-column grid).
     var workRows = el('ul', { class: 'menu-rows', id: 'work-rows' });
     appEl.appendChild(workRows);
-
-    // Sīrah landscape card (the narrated audiobook) sits directly above the Historic Recordings card
-    var featuredCardContainer = el('div', { id: 'featured-card-container' });
-    appEl.appendChild(featuredCardContainer);
 
     // Landscape card container for the Historic Gramophone Archive
     var archiveCardContainer = el('div', { id: 'archive-card-container' });
@@ -500,8 +499,7 @@
         el('span', { class: 'archive-card-text' }, [
           el('span', { class: 'featured-badge', text: 'Narrated Audiobook · 12 Chapters' }),
           el('span', { class: 'archive-card-title', text: t.main }),
-          t.gloss ? el('span', { class: 'archive-card-gloss', text: t.gloss }) : null,
-          el('span', { class: 'archive-card-sub', lang: 'ar', dir: 'rtl', text: work.title_ar })
+          t.gloss ? el('span', { class: 'archive-card-gloss', text: t.gloss }) : null
         ]),
         el('span', { class: 'archive-card-chevron', 'aria-hidden': 'true', text: '›' })
       ])
@@ -510,7 +508,6 @@
 
   function buildArchiveCard(archiveWork) {
     var titleEn = (archiveWork && archiveWork.title_en) || 'Historic Gramophone Archive';
-    var titleAr = (archiveWork && archiveWork.title_ar) || 'أَرْشِيفُ الغَرَامَفُون التَّارِيخِيُّ';
     var gloss = 'Rare 78rpm shellac collection (1901–1921) · Harvard Loeb';
 
     return el('div', { class: 'archive-card' }, [
@@ -522,8 +519,7 @@
         el('span', { class: 'archive-card-icon', html: rowIcon('historic-recordings') }),
         el('span', { class: 'archive-card-text' }, [
           el('span', { class: 'archive-card-title', text: titleEn }),
-          el('span', { class: 'archive-card-gloss', text: gloss }),
-          el('span', { class: 'archive-card-sub', lang: 'ar', dir: 'rtl', text: titleAr })
+          el('span', { class: 'archive-card-gloss', text: gloss })
         ]),
         el('span', { class: 'archive-card-chevron', 'aria-hidden': 'true', text: '›' })
       ])
@@ -828,30 +824,44 @@
     var victorian = Array.isArray(section.victorian) ? section.victorian : [];
     var hasAudioTrack = !!section.audio;
 
-    // ---- English Story ----
-    var storyNodes = story.map(function (text, idx) {
+    // ---- English Story (JustQuran continuous flow with superscript markers) ----
+    var storyPara = el('p', { class: 'book-en-flow' });
+    story.forEach(function (text, idx) {
       var n = idx + 1;
-      var p = el('p', { class: 'book-para', id: 'verse-' + n });
+      var span = el('span', { class: 'verse-run', id: 'verse-' + n });
+      span.appendChild(document.createTextNode(text));
+
+      var supBtn = el('button', {
+        class: 'bkmark',
+        type: 'button',
+        'aria-label': 'Sentence ' + n,
+        title: 'Play from sentence ' + n,
+        text: String(n)
+      });
       if (hasAudioTrack) {
-        var numBtn = el('button', {
-          class: 'book-para-num',
-          type: 'button',
-          'aria-label': 'Play from paragraph ' + n,
-          title: 'Play from here',
-          text: String(n)
-        });
-        numBtn.addEventListener('click', function () {
+        supBtn.addEventListener('click', function (e) {
+          e.stopPropagation();
           if (window.MantleReaderPlayer && window.MantleReaderPlayer.seekToVerse) {
             window.MantleReaderPlayer.seekToVerse(n);
           }
         });
-        p.appendChild(numBtn);
+        span.addEventListener('click', function () {
+          if (window.MantleReaderPlayer && window.MantleReaderPlayer.seekToVerse) {
+            window.MantleReaderPlayer.seekToVerse(n);
+          }
+        });
       }
-      p.appendChild(document.createTextNode(text));
-      return p;
+      span.appendChild(document.createTextNode(' '));
+      span.appendChild(supBtn);
+      span.appendChild(document.createTextNode(' '));
+      storyPara.appendChild(span);
     });
+
+    var storyNodes = [storyPara];
     if (section.story_note) {
       storyNodes.push(el('p', { class: 'book-note', text: section.story_note }));
+    } else if (section.note) {
+      storyNodes.push(el('p', { class: 'book-note', text: section.note }));
     }
 
     // ---- Classical Arabic (right-to-left pages) ----
@@ -900,6 +910,10 @@
       var strip = el('div', { class: 'book-strip' + (d.rtl ? ' is-rtl' : '') }, d.nodes);
       if (d.rtl) strip.setAttribute('dir', 'rtl');
       var viewport = el('div', { class: 'book-viewport' }, [strip]);
+      viewport.addEventListener('scroll', function () {
+        if (viewport.scrollLeft !== 0) viewport.scrollLeft = 0;
+        if (viewport.scrollTop !== 0) viewport.scrollTop = 0;
+      });
       var paneEl = el('div', {
         class: 'book-pane',
         role: 'tabpanel',
@@ -966,6 +980,10 @@
     }
 
     function applyPage(p) {
+      if (p.viewport) {
+        p.viewport.scrollLeft = 0;
+        p.viewport.scrollTop = 0;
+      }
       var shift = p.page * p.w;
       p.strip.style.transform = 'translateX(' + (p.rtl ? shift : -shift) + 'px)';
       updatePager();
@@ -1844,26 +1862,16 @@
 
       document.title = section.heading + ' — ' + work.title_en + ' — Mantle Library';
 
-      var secTitle = splitTitleGloss(section.heading).main;
-      appEl.appendChild(buildSubNavBar('#/work/' + encodeURIComponent(work.id), 'Back to ' + work.title_en, secTitle, true, true));
+      var isBook = section.layout === 'book';
+      var navTitle = isBook ? section.heading : splitTitleGloss(section.heading).main;
+      appEl.appendChild(buildSubNavBar('#/work/' + encodeURIComponent(work.id), 'Back to ' + work.title_en, navTitle, true, true));
 
       var st = splitTitleGloss(work.title_en);
       var secTitleKids = [document.createTextNode(st.main)];
       if (st.gloss) secTitleKids.push(el('span', { class: 'block-gloss', text: st.gloss }));
 
-      // Book Mode: compact header + paged three-tab reader (no scrolling).
-      if (section.layout === 'book') {
-        var bookHeader = [
-          el('h1', { class: 'page-title', text: section.heading }),
-          el('p', { class: 'work-author' }, secTitleKids)
-        ];
-        if (section.note) {
-          bookHeader.push(el('details', { class: 'work-source book-about' }, [
-            el('summary', { text: 'About this chapter' }),
-            el('p', { text: section.note })
-          ]));
-        }
-        appEl.appendChild(el('header', { class: 'work-header book-header' }, bookHeader));
+      // Book Mode: sticky header carries full title; body jumps straight into the paged reader tabs.
+      if (isBook) {
         appEl.classList.add('reader-wrap', 'is-book');
         appEl.appendChild(buildBookReader(section, i, sections.length, work));
         appEl.appendChild(buildReaderFooterDock(section, i, sections.length, work));

@@ -532,9 +532,9 @@ h1, h2, h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.6rem;
-  padding: 1.05rem 0.75rem;
-  min-height: 145px;
+  gap: 0.35rem;
+  padding: 0.65rem 0.55rem;
+  min-height: 76px;
   height: 100%;
   box-sizing: border-box;
   background: var(--card);
@@ -560,14 +560,14 @@ h1, h2, h3 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.2rem;
-  height: 2.2rem;
+  width: 1.85rem;
+  height: 1.85rem;
   flex-shrink: 0;
   border: 1px solid var(--gold);
   border-radius: 50%;
   color: var(--gold);
 }
-.menu-row-icon svg { width: 1.05rem; height: 1.05rem; display: block; }
+.menu-row-icon svg { width: 0.95rem; height: 0.95rem; display: block; }
 
 .menu-row-text {
   display: flex;
@@ -738,6 +738,8 @@ h1, h2, h3 {
 .archive-card-text {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 0.25rem;
   min-width: 0;
   max-width: 100%;
@@ -751,6 +753,7 @@ h1, h2, h3 {
   font-weight: bold;
   color: var(--fg);
   line-height: 1.25;
+  text-align: center;
   overflow-wrap: break-word;
   word-break: break-word;
 }
@@ -759,24 +762,20 @@ h1, h2, h3 {
   font-size: 0.82rem;
   color: var(--dim);
   line-height: 1.35;
+  text-align: center;
   overflow-wrap: break-word;
   word-break: break-word;
 }
 
 .archive-card-sub[lang="ar"] {
-  font-family: var(--arabic-stack);
-  font-size: calc(0.95rem * var(--fs-ar));
-  color: var(--vc-ar);
-  line-height: 1.4;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  max-width: 100%;
-  display: block;
+  display: none;
 }
 
 .archive-card-chevron {
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 2.6rem;
   font-size: 1.55rem;
   line-height: 1;
   color: var(--gold);
@@ -923,7 +922,8 @@ html.light .sub-nav-bar {
 
 .sub-nav-title {
   font-family: var(--serif-display);
-  font-size: 1.12rem;
+  font-size: clamp(0.88rem, 3.2vw, 1.08rem);
+  font-weight: 600;
   color: var(--gold);
   white-space: nowrap;
   overflow: hidden;
@@ -2235,62 +2235,53 @@ html.is-native-android .site-footer {
     margin-top: 0.2rem;
   }
   body.is-home .menu-rows {
-    gap: clamp(0.45rem, 1.1vh, 0.65rem);
-    margin: 0 0 clamp(0.5rem, 1.2vh, 0.85rem);
+    gap: clamp(0.35rem, 0.8vh, 0.5rem);
+    margin: 0 0 clamp(0.35rem, 0.8vh, 0.55rem);
   }
   body.is-home .menu-row-link {
-    padding: clamp(0.7rem, 1.6vh, 1.1rem) clamp(0.5rem, 1.4vw, 0.8rem);
-    gap: clamp(0.35rem, 0.9vh, 0.55rem);
-    min-height: clamp(116px, 14.5vh, 146px);
+    padding: clamp(0.45rem, 0.95vh, 0.65rem) clamp(0.4rem, 1.2vw, 0.6rem);
+    gap: clamp(0.2rem, 0.5vh, 0.35rem);
+    min-height: clamp(62px, 8vh, 78px);
   }
   body.is-home .menu-row-icon {
-    width: clamp(2.1rem, 3.6vh, 2.6rem);
-    height: clamp(2.1rem, 3.6vh, 2.6rem);
+    width: clamp(1.75rem, 2.7vh, 2.05rem);
+    height: clamp(1.75rem, 2.7vh, 2.05rem);
   }
   body.is-home .menu-row-icon svg {
-    width: clamp(1.05rem, 1.8vh, 1.3rem);
-    height: clamp(1.05rem, 1.8vh, 1.3rem);
+    width: clamp(0.85rem, 1.35vh, 1.05rem);
+    height: clamp(0.85rem, 1.35vh, 1.05rem);
   }
   body.is-home .menu-row-title {
-    font-size: clamp(0.85rem, 1.45vh, 0.98rem);
-    line-height: 1.3;
+    font-size: clamp(0.8rem, 1.3vh, 0.9rem);
+    line-height: 1.25;
   }
   body.is-home .menu-row-gloss {
-    font-size: clamp(0.74rem, 1.2vh, 0.84rem);
-  }
-  body.is-home .menu-row-sub[lang="ar"] {
-    font-size: clamp(0.96rem, 1.6vh, 1.15rem);
-    line-height: 1.35;
-    white-space: normal;
-    overflow: visible;
-    text-overflow: unset;
-    overflow-wrap: break-word;
-    word-break: break-word;
-    margin-top: 0.15rem;
+    font-size: clamp(0.68rem, 1.05vh, 0.76rem);
+    line-height: 1.2;
   }
   body.is-home .archive-card {
-    margin: 0 0 clamp(0.35rem, 0.8vh, 0.6rem);
+    margin: 0 0 clamp(0.35rem, 0.8vh, 0.55rem);
   }
   body.is-home .archive-card-link {
-    padding: clamp(0.85rem, 2vh, 1.25rem) clamp(0.8rem, 2vw, 1.25rem);
-    gap: clamp(0.85rem, 2vh, 1.2rem);
+    padding: clamp(0.55rem, 1.2vh, 0.8rem) clamp(0.7rem, 1.6vw, 0.95rem);
+    gap: clamp(0.6rem, 1.3vh, 0.9rem);
   }
   body.is-home .archive-card-icon {
-    width: clamp(2.5rem, 4.4vh, 3.2rem);
-    height: clamp(2.5rem, 4.4vh, 3.2rem);
+    width: clamp(2.1rem, 3.4vh, 2.6rem);
+    height: clamp(2.1rem, 3.4vh, 2.6rem);
   }
   body.is-home .archive-card-icon svg {
-    width: clamp(1.25rem, 2.2vh, 1.6rem);
-    height: clamp(1.25rem, 2.2vh, 1.6rem);
+    width: clamp(1.05rem, 1.7vh, 1.3rem);
+    height: clamp(1.05rem, 1.7vh, 1.3rem);
   }
   body.is-home .archive-card-title {
-    font-size: clamp(0.95rem, 1.6vh, 1.08rem);
+    font-size: clamp(0.88rem, 1.4vh, 0.98rem);
   }
   body.is-home .archive-card-gloss {
-    font-size: clamp(0.76rem, 1.25vh, 0.84rem);
+    font-size: clamp(0.72rem, 1.1vh, 0.78rem);
   }
   body.is-home .archive-card-sub {
-    font-size: clamp(1.08rem, 1.85vh, 1.22rem);
+    font-size: clamp(0.95rem, 1.5vh, 1.08rem);
   }
   body.is-home .site-footer {
     border-top: none;
@@ -2363,23 +2354,24 @@ html.is-native-android .site-footer {
     gap: 0.5rem;
   }
   .menu-row-link {
-    padding: 0.9rem 0.5rem;
-    min-height: 145px;
+    padding: 0.55rem 0.45rem;
+    min-height: 68px;
+    gap: 0.25rem;
   }
   .menu-row-icon {
-    width: 2.15rem;
-    height: 2.15rem;
+    width: 1.85rem;
+    height: 1.85rem;
   }
   .menu-row-icon svg {
-    width: 1.05rem;
-    height: 1.05rem;
+    width: 0.95rem;
+    height: 0.95rem;
   }
   .menu-row-title {
-    font-size: 0.85rem;
-    line-height: 1.28;
+    font-size: 0.82rem;
+    line-height: 1.25;
   }
   .menu-row-gloss {
-    font-size: 0.74rem;
+    font-size: 0.7rem;
   }
   .menu-row-sub {
     font-size: 0.78rem;
@@ -2614,7 +2606,7 @@ html.light .featured-card .archive-card-link {
 .featured-badge {
   display: inline-flex;
   align-items: center;
-  align-self: flex-start;
+  align-self: center;
   font-family: var(--sans-ui);
   font-size: 0.68rem;
   font-weight: 600;
@@ -2626,7 +2618,7 @@ html.light .featured-card .archive-card-link {
   border: 1px solid rgba(214, 174, 94, 0.32);
   padding: 0.18rem 0.55rem;
   border-radius: 9999px;
-  margin-bottom: 0.15rem;
+  margin: 0 auto 0.2rem;
 }
 html.light .featured-badge {
   color: #8c6519;
@@ -2637,6 +2629,7 @@ html.light .featured-badge {
 /* ---------- Book Mode: paged reader (CSS multi-columns, JustQuran-style) ---------- */
 
 .reader-wrap.is-book {
+  padding-top: 0.35rem;
   padding-bottom: 0 !important;
 }
 .book-header {
@@ -2724,38 +2717,112 @@ html.light .featured-badge {
   transition: transform 280ms ease;
   will-change: transform;
 }
-.book-para {
-  margin: 0 0 1em;
+/* Continuous flowing English story prose (JustQuran book-en style) */
+.book-en-flow {
+  margin: 0;
   padding: 0.25rem 0.5rem;
+  font-family: Georgia, 'DejaVu Serif', serif;
+  font-size: calc(1.05rem * var(--fs-en));
+  line-height: 1.88;
+  color: var(--vc-en);
+  text-align: center;
+  orphans: 2;
+  widows: 2;
+}
+
+.verse-run {
+  display: inline;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: color 180ms ease, text-shadow 180ms ease;
+}
+
+.verse-run.is-active-verse,
+.verse-run.reciting {
+  color: #ffd700 !important;
+  background: transparent !important;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.32);
+}
+
+html.light .verse-run.is-active-verse,
+html.light .verse-run.reciting {
+  color: #b57c00 !important;
+  background: transparent !important;
+  text-shadow: none;
+}
+
+/* inline superscript verse-number marker in book prose (matches JustQuran bkmark) */
+.bkmark {
+  display: inline;
+  background: none;
+  border: none;
+  padding: 0 2px;
+  margin: 0 1px 0 2px;
+  color: var(--gold);
+  font-family: 'DejaVu Serif', Georgia, serif;
+  font-size: 0.68em;
+  vertical-align: super;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 3px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: color 180ms ease;
+}
+
+.verse-run.is-active-verse .bkmark,
+.verse-run.reciting .bkmark {
+  color: #ffd700 !important;
+  font-weight: 700;
+}
+
+html.light .verse-run.is-active-verse .bkmark,
+html.light .verse-run.reciting .bkmark {
+  color: #b57c00 !important;
+}
+
+.bkmark:hover {
+  text-decoration: underline;
+}
+
+.book-para {
+  margin: 0 0 1.15em;
+  padding: 0.3rem 0.55rem;
   border: 2px solid transparent;
   border-radius: 10px;
-  font-family: var(--serif-body);
-  font-size: calc(1.02rem * var(--fs-en));
-  line-height: 1.68;
+  font-family: Georgia, 'DejaVu Serif', serif;
+  font-size: calc(1.04rem * var(--fs-en));
+  line-height: 1.85;
   color: var(--vc-en);
-  text-align: left;
+  text-align: center;
   orphans: 2;
   widows: 2;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
 .book-para.is-active-verse {
-  border-color: var(--gold);
-  background: rgba(214, 174, 94, 0.09);
-  box-shadow: 0 0 14px rgba(214, 174, 94, 0.25);
-  transition: border-color 200ms ease, background 200ms ease, box-shadow 200ms ease;
+  color: #ffd700 !important;
+  background: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  text-shadow: 0 0 12px rgba(255, 215, 0, 0.28);
+  transition: color 180ms ease, text-shadow 180ms ease;
 }
 html.light .book-para.is-active-verse {
-  background: #FFFDF7;
-  box-shadow: 0 2px 12px rgba(140, 102, 32, 0.2);
+  color: #b57c00 !important;
+  background: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  text-shadow: none;
 }
 .book-para-num {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.65em;
-  height: 1.65em;
-  margin-right: 0.55em;
+  width: 1.6em;
+  height: 1.6em;
+  margin-right: 0.45em;
   padding: 0;
   border: 1px solid var(--gold);
   border-radius: 50%;
@@ -2765,12 +2832,19 @@ html.light .book-para.is-active-verse {
   font-size: 0.68em;
   font-weight: 700;
   line-height: 1;
-  vertical-align: 0.1em;
+  vertical-align: 0.12em;
   cursor: pointer;
+  transition: color 180ms ease, border-color 180ms ease, background 180ms ease;
 }
 .book-para.is-active-verse .book-para-num {
-  background: var(--gold);
-  color: #101613;
+  border-color: #ffd700;
+  color: #ffd700;
+  background: rgba(255, 215, 0, 0.15);
+}
+html.light .book-para.is-active-verse .book-para-num {
+  border-color: #b57c00;
+  color: #b57c00;
+  background: rgba(181, 124, 0, 0.12);
 }
 .book-note {
   margin: 0.4em 0 1em;
