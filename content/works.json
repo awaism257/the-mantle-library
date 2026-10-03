@@ -4494,68 +4494,82 @@
       "author_ar": "الإمام الجزولي ﵀"
     },
     {
-      "id": "tala-al-badru",
-      "title_ar": "طَلَعَ الْبَدْرُ عَلَيْنَا",
-      "title_en": "Ṭalaʿa al-Badru ʿAlaynā (The Full Moon Has Risen)",
-      "author": "The people of Madinah",
-      "author_dates": "622 CE",
-      "description_en": "The historic welcome sung by the people of Madinah — by its women and children — as the Prophet Muḥammad ﷺ arrived in the radiant city during the Hijrah, descending over the northern pass known as Thaniyyāt al-Wadāʿ (The Passes of Farewell). Among the oldest, most poignant, and universally beloved anthems of devotion in Islamic history.",
-      "source_en": "Traditional text sung upon the Prophet’s ﷺ arrival in Madinah, transmitted in classical sīrah and ḥadīth works (including al-Bayhaqī’s Dalāʾil al-Nubuwwah and Ibn Kathīr’s al-Bidāyah wa-al-Nihāyah). Classical traditionists record its singing upon his entry at Qubāʾ during the Hijrah (1 AH / 622 CE), as well as upon his triumphant return from the Expedition of Tabūk (9 AH / 630 CE). The English poetic rendering is original to this project.",
-      "audio": [],
+      "id": "al-sirah-al-nabawiyyah",
+      "title_ar": "السِّيرَةُ النَّبَوِيَّةُ الشَّرِيفَة",
+      "title_en": "The Life of the Prophet (Al-Sīrah al-Nabawiyyah)",
+      "author": "Based on Ibn Hishām ﵀ & Edward Rehatsek (1891)",
+      "author_dates": "Classical Sīrah Tradition",
+      "description_en": "The foundational biography of the Messenger of Allah ﷺ, rooted in the earliest recension of Ibn Hishām ﵀ and Edward Rehatsek's historic 1891 translation. Rendered in dignified modern English alongside the vocalized Arabic, with Rehatsek's Victorian text preserved in full and synchronized audiobook narration.",
+      "source_en": "Classical text of Ibn Hishām ﵀ (Al-Sīrah al-Nabawiyyah) aligned with Edward Rehatsek's 1891 Royal Asiatic Society translation.",
       "sections": [
         {
-          "heading": "The Welcome Song",
-          "note": "Sung at Qubāʾ on the outskirts of Madinah upon the arrival of the Prophet ﷺ during the Hijrah (Rabīʿ al-Awwal 1 AH / September 622 CE).",
-          "units": [
-            {
-              "ar": "طَلَعَ الْبَدْرُ عَلَيْنَا — مِنْ ثَنِيَّاتِ الْوَدَاعِ",
-              "en": "The full moon has risen upon us — from the Passes of Farewell;",
-              "n": 1
-            },
-            {
-              "ar": "وَجَبَ الشُّكْرُ عَلَيْنَا — مَا دَعَا لِلَّهِ دَاعِ",
-              "en": "and thanks is owed from us — as long as a caller calls to Allah.",
-              "n": 2
-            },
-            {
-              "ar": "أَيُّهَا الْمَبْعُوثُ فِينَا — جِئْتَ بِالْأَمْرِ الْمُطَاعِ",
-              "en": "O you who were sent among us — you came with a command to be obeyed;",
-              "n": 3
-            },
-            {
-              "ar": "جِئْتَ شَرَّفْتَ الْمَدِينَةَ — مَرْحَبًا يَا خَيْرَ دَاعٍ",
-              "en": "you came and honoured Madinah — welcome, O best of callers.",
-              "n": 4
-            }
-          ],
+          "heading": "Chapter 1: The Blessed Ancestry & The Year of the Elephant",
+          "note": "From the opening recension of Ibn Hishām ﵀ and Edward Rehatsek (1891): the Prophetic lineage back to the Prophet Ismāʿīl ؑ, the rediscovery of Zamzam, and the miraculous preservation of the Kaʿbah during the Year of the Elephant (570 CE).",
           "audio": {
-            "file": "audio/tala_al_badru.mp3",
-            "title": "Ṭalaʿa al-Badru ʿAlaynā",
-            "artist": "Ahmad Darwish & Syrian Inshad Ensemble",
-            "duration": 55.0,
+            "file": "audio/sirah/sirah_chapter_01.mp3",
+            "title": "Chapter 1: The Blessed Ancestry",
+            "artist": "Narrated Audiobook — The Mantle Library",
+            "duration": 155.14,
             "timestamps": [
               {
                 "n": 1,
                 "start": 0.0,
-                "end": 13.5
+                "end": 40.66
               },
               {
                 "n": 2,
-                "start": 13.5,
-                "end": 27.0
+                "start": 41.41,
+                "end": 65.24
               },
               {
                 "n": 3,
-                "start": 27.0,
-                "end": 41.0
+                "start": 65.99,
+                "end": 91.14
               },
               {
                 "n": 4,
-                "start": 41.0,
-                "end": 55.0
+                "start": 91.89,
+                "end": 126.76
+              },
+              {
+                "n": 5,
+                "start": 127.51,
+                "end": 155.14
               }
             ]
-          }
+          },
+          "units": [
+            {
+              "n": 1,
+              "ar": "هُوَ أَبُو القَاسِمِ مُحَمَّدُ بْنُ عَبْدِ اللهِ بْنِ عَبْدِ المُطَّلِبِ — وَاسْمُهُ شَيْبَةُ — بْنِ هَاشِمٍ — وَاسْمُهُ عَمْرٌو — بْنِ عَبْدِ مَنَافٍ — وَاسْمُهُ المُغِيرَةُ — بْنِ قُصَيٍّ — وَاسْمُهُ زَيْدٌ — بْنِ كِلَابِ بْنِ مُرَّةَ بْنِ كَعْبِ بْنِ لُؤَيِّ بْنِ غَالِبِ بْنِ فِهْرِ بْنِ مَالِكِ بْنِ النَّضْرِ بْنِ كِنَانَةَ بْنِ خُزَيْمَةَ بْنِ مُدْرِكَةَ بْنِ إِلْيَاسَ بْنِ مُضَرَ بْنِ نِزَارِ بْنِ مَعَدِّ بْنِ عَدْنَانَ، وَعَدْنَانُ مِنْ وَلَدِ إِسْمَاعِيلَ بْنِ إِبْرَاهِيمَ عَلَيْهِمَا السَّلَامُ.",
+              "en": "He is the chosen prince, Muhammad, the son of 'Abdullah, the son of 'Abdu'l-Muttalib — whose name was Shaybah — the son of Hashim — whose name was 'Amr — the son of 'Abdu Manaf — whose name was Al-Mughirah — the son of Qusayy — whose name was Zayd — the son of Kilab, the son of Murrah, the son of Ka'b, the son of Lu'ayy, the son of Ghalib, the son of Fihr, the son of Malik, the son of An-Nadr, the son of Kinanah, the son of Khuzaymah, the son of Mudrikah, the son of Ilyas, the son of Mudar, the son of Nizar, the son of Ma'add, the son of 'Adnan; and 'Adnan was of the lineage of Isma'il, the son of Ibrahim, upon whom be the blessing of God.",
+              "en2": "He is the Messenger of Allah, Muhammad ﷺ, son of ʿAbdullāh, son of ʿAbd al-Muṭṭalib (whose name was Shaybah), son of Hāshim (ʿAmr), son of ʿAbd Manāf (Al-Mughīrah), son of Quṣayy (Zayd), son of Kilāb, son of Murrah, son of Kaʿb, son of Luʾayy, son of Ghālib, son of Fihr, son of Mālik, son of An-Naḍr, son of Kinānah, son of Khuzaymah, son of Mudrikah, son of Ilyās, son of Muḍar, son of Nizār, son of Maʿadd, son of ʿAdnān — descending from the noble lineage of the Prophet Ismāʿīl ؑ, son of the Prophet Ibrāhīm ؑ."
+            },
+            {
+              "n": 2,
+              "ar": "قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: «إِنَّ اللهَ اصْطَفَى كِنَانَةَ مِنْ وَلَدِ إِسْمَاعِيلَ، وَاصْطَفَى قُرَيْشًا مِنْ كِنَانَةَ، وَاصْطَفَى مِنْ قُرَيْشٍ بَنِي هَاشِمٍ، وَاصْطَفَانِي مِنْ بَنِي هَاشِمٍ»، فَلَمْ يَزَلْ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَنْتَقِلُ مِنْ أَصْلَابِ الطَّاهِرِينَ إِلَى أَرْحَامِ الطَّاهِرَاتِ حَتَّى أَخْرَجَهُ اللهُ تَعَالَى فِي خَيْرِ قَرْنٍ.",
+              "en": "The Apostle of Allah, upon whom be the mercy of Allah, said: 'Verily Allah selected Kinanah from the posterity of Isma'il, and He selected Quraysh from Kinanah, and from Quraysh He chose the tribe of Hashim, and from the sons of Hashim He chose me.' Thus did his sacred light pass through the loins of pure progenitors into the wombs of chaste mothers, until Allah brought him forth in the most excellent era.",
+              "en2": "The Messenger of Allah ﷺ said: 'Indeed, Allah chose Kinānah from the descendants of Ismāʿīl; He chose Quraysh from Kinānah; from Quraysh He chose the clan of Banū Hāshim; and from Banū Hāshim He chose me.' His blessed light was continually carried through noble forefathers and pure mothers, until Allah brought him forth in the finest of all generations."
+            },
+            {
+              "n": 3,
+              "ar": "وَكَانَ عَبْدُ المُطَّلِبِ بْنُ هَاشِمٍ سَيِّدَ قُرَيْشٍ غَيْرَ مُنَازَعٍ، فَأُرِيَ فِي مَنَامِهِ حَفْرَ زَمْزَمَ، وَهِيَ بِئْرُ إِسْمَاعِيلَ عَلَيْهِ السَّلَامُ الَّتِي أَنْبَعَهَا اللهُ لِأُمِّهِ هَاجَرَ، وَكَانَتْ قَدْ دُفِنَتْ دُهُورًا، فَقَامَ بِحَفْرِهَا مَعَ ابْنِهِ الحَارِثِ، فَأَظْهَرَ اللهُ مَاءَهَا المُبَارَكَ لِيَسْقِيَ مِنْهُ حُجَّاجَ بَيْتِهِ الحَرَامِ.",
+              "en": "Now 'Abdu'l-Muttalib, the son of Hashim, was the undisputed chieftain of the Quraysh. It was shown unto him in a heavenly vision that he should dig the well of Zamzam — the very spring which God had caused to gush forth for Isma'il and his mother Hajar, which had lain buried and forgotten for ages. He arose and excavated the fountain with his son Al-Harith, whereupon Allah restored its living water to refresh the pilgrims of the Sacred House.",
+              "en2": "ʿAbd al-Muṭṭalib, son of Hāshim, was the revered chieftain of Quraysh. In a vivid dream, he was commanded to uncover the well of Zamzam — the sacred spring that Allah had brought forth for Hājar and the infant Ismāʿīl ؑ, which had remained buried for centuries. He set to work with his eldest son, Al-Ḥārith, and Allah restored its pure waters to quench the thirst of pilgrims to the Sacred House."
+            },
+            {
+              "n": 4,
+              "ar": "وَفِي تِلْكَ السَّنَةِ أَقْبَلَ أَبْرَهَةُ الأَشْرَمُ الحَبَشِيُّ مِنْ صَنْعَاءَ بِجَيْشٍ لَجِبٍ وَمَعَهُ الفِيلُ المَحْمُودُ لِيَهْدِمَ الكَعْبَةَ المُعَظَّمَةَ، فَوَقَفَ عَبْدُ المُطَّلِبِ بَيْنَ يَدَيْهِ وَقَالَ: «أَنَا رَبُّ الإِبِلِ، وَإِنَّ لِلْبَيْتِ رَبًّا سَيَحْمِيهِ»، فَأَرْسَلَ اللهُ عَلَيْهِمْ طَيْرًا أَبَابِيلَ تَرْمِيهِمْ بِحِجَارَةٍ مِنْ سِجِّيلٍ، فَجَعَلَهُمْ كَعَصْفٍ مَأْكُولٍ، فَسُمِّيَ ذَلِكَ العَامُ عَامَ الفِيلِ، وَفِيهِ وُلِدَ سَيِّدُ المُرْسَلِينَ.",
+              "en": "In that very year marched Abraha the Abyssinian from San'a with a formidable host and a great war-elephant, purposing to raze the Holy Ka'bah unto the ground. But 'Abdu'l-Muttalib confronted him with serene majesty, declaring: 'I am the master of these camels, but the House hath a Lord who will defend it.' Then did Almighty God dispatch against them flocks of flying creatures, casting upon them stones of baked clay, leaving them like consumed stubble; and that year was ever after termed the Year of the Elephant.",
+              "en2": "In that same year, Abraha, the Viceroy of Yemen, marched toward Mecca with a massive army and a great war elephant, intending to demolish the Holy Kaʿbah. ʿAbd al-Muṭṭalib stood before him with calm dignity and said: 'I am the master of my camels; but this House has a Lord Who will protect it.' Allah sent against the invaders flocks of birds carrying stones of baked clay, reducing them to ruined stalks. That year became known across Arabia as the Year of the Elephant, during which the Master of Messengers ﷺ was born."
+            },
+            {
+              "n": 5,
+              "ar": "وَخَطَبَ عَبْدُ المُطَّلِبِ لِابْنِهِ عَبْدِ اللهِ — وَكَانَ أَحَبَّ أَبْنَائِهِ إِلَيْهِ وَأَوْضَحَهُمْ نُورًا — آمِنَةَ بِنْتَ وَهْبِ بْنِ عَبْدِ مَنَافِ بْنِ زُهْرَةَ، وَهِيَ يَوْمَئِذٍ أَفْضَلُ امْرَأَةٍ فِي قُرَيْشٍ نَسَبًا وَمَوْضِعًا. فَلَمَّا حَمَلَتْ بِرَسُولِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ رَأَتْ فِي مَنَامِهَا نُورًا يَخْرُجُ مِنْهَا يُضِيءُ لَهَا قُصُورَ بُصْرَى مِنْ أَرْضِ الشَّامِ، وَقِيلَ لَهَا: «إِنَّكِ قَدْ حَمَلْتِ بِسَيِّدِ هَذِهِ الأُمَّةِ».",
+              "en": "Then 'Abdu'l-Muttalib chose for his beloved son 'Abdullah — upon whose brow shone the radiant light of future prophethood — Aminah, the daughter of Wahb, chief of the Banu Zuhrah, who was accounted the most illustrious maiden of the Quraysh in lineage and virtue. And when she conceived the Holy Prophet, peace be upon him, she beheld in her vision a light that issued from her, illuminating even the distant castles of Busra in the land of Syria, and a heavenly voice proclaimed unto her: 'Thou hast conceived the Lord and Prince of this people.'",
+              "en2": "ʿAbd al-Muṭṭalib arranged the marriage of his dearest son, ʿAbdullāh — upon whose forehead shone a radiant light — to Āminah, daughter of Wahb, the leader of Banū Zuhrah and the most noble maiden of Quraysh in virtue and lineage. When she conceived the Messenger of Allah ﷺ, she beheld a luminous light issuing from her that illuminated the distant palaces of Buṣrā in Syria, and she was told in a dream: 'You carry within you the master of this nation.'"
+            }
+          ]
         }
       ]
     },

@@ -1,0 +1,66 @@
+{
+  "id": "tala-al-badru",
+  "title_ar": "طَلَعَ الْبَدْرُ عَلَيْنَا",
+  "title_en": "Ṭalaʿa al-Badru ʿAlaynā (The Full Moon Has Risen)",
+  "author": "The people of Madinah",
+  "author_dates": "622 CE",
+  "description_en": "The historic welcome sung by the people of Madinah — by its women and children — as the Prophet Muḥammad ﷺ arrived in the radiant city during the Hijrah, descending over the northern pass known as Thaniyyāt al-Wadāʿ (The Passes of Farewell). Among the oldest, most poignant, and universally beloved anthems of devotion in Islamic history.",
+  "source_en": "Traditional text sung upon the Prophet’s ﷺ arrival in Madinah, transmitted in classical sīrah and ḥadīth works (including al-Bayhaqī’s Dalāʾil al-Nubuwwah and Ibn Kathīr’s al-Bidāyah wa-al-Nihāyah). Classical traditionists record its singing upon his entry at Qubāʾ during the Hijrah (1 AH / 622 CE), as well as upon his triumphant return from the Expedition of Tabūk (9 AH / 630 CE). The English poetic rendering is original to this project.",
+  "audio": [],
+  "sections": [
+    {
+      "heading": "The Welcome Song",
+      "note": "Sung at Qubāʾ on the outskirts of Madinah upon the arrival of the Prophet ﷺ during the Hijrah (Rabīʿ al-Awwal 1 AH / September 622 CE).",
+      "units": [
+        {
+          "ar": "طَلَعَ الْبَدْرُ عَلَيْنَا — مِنْ ثَنِيَّاتِ الْوَدَاعِ",
+          "en": "The full moon has risen upon us — from the Passes of Farewell;",
+          "n": 1
+        },
+        {
+          "ar": "وَجَبَ الشُّكْرُ عَلَيْنَا — مَا دَعَا لِلَّهِ دَاعِ",
+          "en": "and thanks is owed from us — as long as a caller calls to Allah.",
+          "n": 2
+        },
+        {
+          "ar": "أَيُّهَا الْمَبْعُوثُ فِينَا — جِئْتَ بِالْأَمْرِ الْمُطَاعِ",
+          "en": "O you who were sent among us — you came with a command to be obeyed;",
+          "n": 3
+        },
+        {
+          "ar": "جِئْتَ شَرَّفْتَ الْمَدِينَةَ — مَرْحَبًا يَا خَيْرَ دَاعٍ",
+          "en": "you came and honoured Madinah — welcome, O best of callers.",
+          "n": 4
+        }
+      ],
+      "audio": {
+        "file": "audio/tala_al_badru.mp3",
+        "title": "Ṭalaʿa al-Badru ʿAlaynā",
+        "artist": "Ahmad Darwish & Syrian Inshad Ensemble",
+        "duration": 55.0,
+        "timestamps": [
+          {
+            "n": 1,
+            "start": 0.0,
+            "end": 13.5
+          },
+          {
+            "n": 2,
+            "start": 13.5,
+            "end": 27.0
+          },
+          {
+            "n": 3,
+            "start": 27.0,
+            "end": 41.0
+          },
+          {
+            "n": 4,
+            "start": 41.0,
+            "end": 55.0
+          }
+        ]
+      }
+    }
+  ]
+}
