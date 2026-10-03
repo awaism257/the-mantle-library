@@ -808,8 +808,9 @@
         class: 'audio-autoscroll-btn is-active',
         type: 'button',
         title: 'Toggle auto-scroll with audio',
+        'aria-label': 'Toggle auto-scroll with audio',
         'aria-pressed': 'true',
-        text: 'Auto-scroll'
+        text: 'Auto'
       });
 
       autoScrollBtn.addEventListener('click', function () {
@@ -834,8 +835,9 @@
         class: 'audio-loop-btn' + (loopEnabled ? ' is-active' : ''),
         type: 'button',
         title: 'Toggle audio loop',
+        'aria-label': 'Toggle audio loop',
         'aria-pressed': loopEnabled ? 'true' : 'false',
-        html: ICON_LOOP + ' <span>Loop</span>'
+        html: ICON_LOOP
       });
 
       loopBtn.addEventListener('click', function () {

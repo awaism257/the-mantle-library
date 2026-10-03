@@ -1202,9 +1202,11 @@ html.light .translation-dropdown-content .translation {
   border-color: var(--gold);
 }
 .reader-footer .audio-loop-btn {
-  font-size: 0.8rem;
-  padding: 4px 10px;
-  border-radius: 999px;
+  font-size: 0.95rem;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border-radius: 50%;
   background: transparent;
   color: var(--fg);
   border: 1px solid var(--border);
@@ -1214,7 +1216,12 @@ html.light .translation-dropdown-content .translation {
   transition: all 140ms ease;
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  justify-content: center;
+}
+.reader-footer .audio-loop-btn svg {
+  width: 15px;
+  height: 15px;
+  display: block;
 }
 .reader-footer .audio-loop-btn.is-active {
   background: var(--gold);
@@ -2338,6 +2345,14 @@ html.is-native-android .site-footer {
   .reader-footer .audio-autoscroll-btn {
     padding: 3px 6px;
     font-size: 0.68rem;
+  }
+  .reader-footer .audio-loop-btn {
+    width: 28px;
+    height: 28px;
+  }
+  .reader-footer .audio-loop-btn svg {
+    width: 13px;
+    height: 13px;
   }
   .reader-footer .nav-section-btn {
     min-width: 32px;
