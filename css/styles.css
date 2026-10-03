@@ -2746,7 +2746,8 @@ html.light .featured-badge {
 
 html.light .verse-run.is-active-verse,
 html.light .verse-run.reciting {
-  color: #b57c00 !important;
+  color: #7c4e00 !important;
+  font-weight: 600 !important;
   background: transparent !important;
   text-shadow: none;
 }
@@ -2779,7 +2780,8 @@ html.light .verse-run.reciting {
 
 html.light .verse-run.is-active-verse .bkmark,
 html.light .verse-run.reciting .bkmark {
-  color: #b57c00 !important;
+  color: #7c4e00 !important;
+  font-weight: 700 !important;
 }
 
 .bkmark:hover {
@@ -2810,7 +2812,8 @@ html.light .verse-run.reciting .bkmark {
   transition: color 180ms ease, text-shadow 180ms ease;
 }
 html.light .book-para.is-active-verse {
-  color: #b57c00 !important;
+  color: #7c4e00 !important;
+  font-weight: 600 !important;
   background: transparent !important;
   border-color: transparent !important;
   box-shadow: none !important;
@@ -2842,9 +2845,9 @@ html.light .book-para.is-active-verse {
   background: rgba(255, 215, 0, 0.15);
 }
 html.light .book-para.is-active-verse .book-para-num {
-  border-color: #b57c00;
-  color: #b57c00;
-  background: rgba(181, 124, 0, 0.12);
+  border-color: #7c4e00;
+  color: #7c4e00;
+  background: rgba(124, 78, 0, 0.12);
 }
 .book-note {
   margin: 0.4em 0 1em;
