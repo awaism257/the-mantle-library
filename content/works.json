@@ -6,8 +6,8 @@
       "title_en": "Mishkât-ul-Masâbih: The Blessed Qualities & Virtues",
       "author": "al-Khaṭīb al-Tibrīzī ﵀ (compiler); Capt. A. N. Matthews (translator)",
       "author_dates": "al-Tibrīzī d. 741 AH / 1340 CE · Matthews fl. 1810",
-      "description_en": "Selected reports on the person, appearance and character of the Prophet Muḥammad ﷺ from Book XXIV (Kitāb al-Faḍāʾil wa-al-Shamāʾil) of the Mishkāt al-Maṣābīḥ of Walī al-Dīn al-Khaṭīb al-Tibrīzī ﵀. Presented with fully vocalised Arabic and an English rendering of each report.",
-      "source_en": "Arabic text: the Mishkāt al-Maṣābīḥ of al-Khaṭīb al-Tibrīzī ﵀ (Book XXIV: Kitāb al-Faḍāʾil), classical text in the public domain; the attribution in each note follows the closing words of the Arabic report. English: every report has a modern English rendering prepared for this project from the full Arabic. Where a report also appears in Capt. A. N. Matthews, Mishcât-ul-Masâbîh (Calcutta: T. Hubbard, Hindoostanee Press, 1809–1810, vol. II, pp. 651–707; public domain), his Georgian rendering is shown as the first English line, left as printed (including his abbreviation “A. G. S.”); reports without a verified Matthews counterpart show the modern rendering only.",
+      "description_en": "Selected reports on the person, appearance and character of the Prophet Muḥammad ﷺ from Book XXIV (Kitāb al-Faḍāʾil wa-al-Shamāʾil) of the Mishkāt al-Maṣābīḥ of Walī al-Dīn al-Khaṭīb al-Tibrīzī ﵀. Presented with fully vocalised Arabic, Matthews’ Georgian English rendering, and a modern English rendering of each report.",
+      "source_en": "Arabic text: the Mishkāt al-Maṣābīḥ of al-Khaṭīb al-Tibrīzī ﵀ (Book XXIV: Kitāb al-Faḍāʾil), classical text in the public domain; the attribution in each note follows the closing words of the Arabic report. English, first line: Capt. A. N. Matthews, Mishcât-ul-Masâbîh (Calcutta: T. Hubbard, Hindoostanee Press, 1809–1810, vol. II, pp. 651–707; public domain), in his Georgian diction, read from a scanned copy. Matthews often condenses or merges reports, so a line may give only part of the Arabic; where his text was unreadable in the scan, an ellipsis (…) stands. Only reports that have a counterpart in Matthews are included: two reports that he does not give (Muslim 5748, the ‘six favours’, and Muslim 5802, Anas sent on an errand) have been left out. English, second line: a modern English rendering prepared for this project from the full Arabic.",
       "audio": [],
       "sections": [
         {
@@ -24,7 +24,7 @@
             {
               "n": 2,
               "ar": "وَعَنْ وَاثِلَةَ بْنِ الْأَسْقَعِ قَالَ: سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ: «إِنَّ اللَّهَ اصْطَفَى كِنَانَةَ مِنْ وَلَدِ إِسْمَاعِيلَ وَاصْطَفَى قُرَيْشًا مِنْ كِنَانَةَ وَاصْطَفَى مِنْ قُرَيْشٍ بَنَى هَاشِمٍ وَاصْطَفَانِي مِنْ بَنِي هَاشِمٍ» . رَوَاهُ مُسْلِمٌ\nوَفِي رِوَايَةٍ لِلتِّرْمِذِيِّ: «إِنَّ اللَّهَ اصْطَفَى مِنْ ولد إِبْرَاهِيم إِسْمَاعِيل وَاصْطفى من ولد إِسْمَاعِيل بني كنَانَة»",
-              "en": null,
+              "en": "Wāthilah said, 'I heard his majesty say, Verily God elected Kinānah from the children of Ismāʿīl, and elected Quraish from the children of Kinānah, and elected Hāshim from the Quraish, and elected me from the sons of Hāshim.'",
               "en2": "Wāthilah ibn al-Asqaʿ ﵁ narrates: 'I heard the Messenger of Allah ﷺ say: \"Allah chose Kinānah from the children of Ismāʿīl ﵇, chose Quraysh from Kinānah, chose the Banū Hāshim from Quraysh, and chose me from the Banū Hāshim.\"' In a report of al-Tirmidhī: \"Allah chose Ismāʿīl ﵇ from the children of Ibrāhīm ﵇, and chose the Banū Kinānah from the children of Ismāʿīl.\"",
               "note": "Mishkāt report 5740 · Ṣaḥīḥ Muslim; variant in Jāmiʿ al-Tirmidhī"
             },
@@ -52,14 +52,14 @@
             {
               "n": 6,
               "ar": "وَعَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «أَنَا أَوَّلُ شَفِيعٍ فِي الْجَنَّةِ لَمْ يُصَدَّقْ نَبِيٌّ مِنَ الْأَنْبِيَاءِ مَا صُدِّقْتُ وَإِنَّ مِنَ الْأَنْبِيَاءِ نَبِيًّا مَا صَدَّقَهُ مِنْ أُمَّته إِلَّا رجل وَاحِد» . رَوَاهُ مُسلم",
-              "en": null,
+              "en": "Anas ﵁ said, 'I am the first who will intercede for the entrance of my sects into paradise; and the sects of no other Prophet shall have so many tellers of truth, or believers in him, as mine; and verily, there are some of the Prophets who were believed by only one person.'",
               "en2": "Anas ibn Mālik ﵁ narrates that the Messenger of Allah ﷺ said: 'I shall be the first to intercede in Paradise. No prophet among the prophets has been believed as I have been believed; and there was a prophet whom only a single man of his community believed.'",
               "note": "Mishkāt report 5744 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 7,
               "ar": "وَعَنْ أَبِي هُرَيْرَةَ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «مَثَلِي وَمَثَلُ الْأَنْبِيَاءِ كَمَثَلِ قَصْرٍ أُحْسِنَ بُنْيَانُهُ تُرِكَ مِنْهُ مَوضِع لبنة فَطَافَ النظَّارُ يتعجَّبونَ من حُسنِ بنيانِه إِلَّا مَوْضِعَ تِلْكَ اللَّبِنَةِ فَكُنْتُ أَنَا سَدَدْتُ مَوْضِعَ اللَّبِنَةِ خُتِمَ بِيَ الْبُنْيَانُ وَخُتِمَ بِي الرُّسُلُ» . وَفِي رِوَايَةٍ: «فَأَنَا اللَّبِنَةُ وَأَنَا خَاتَمُ النَّبِيِّينَ» . مُتَّفق عَلَيْهِ",
-              "en": null,
+              "en": "Abū Hurairah ﵁ said, 'The comparison between me and former Prophets is like a well-made house with a place left for one brick; and people are astonished at seeing its goodness, except the place wanting one brick: then I filled up the place. Then the building was completed by me, and the Prophets are completed by me.'",
               "en2": "Abū Hurairah ﵁ narrates that the Messenger of Allah ﷺ said: 'My likeness and the likeness of the prophets is that of a palace that was well built, with the place of one brick left out. People walked around it, marvelling at the beauty of its construction, except for the place of that brick. I was the one who filled the place of the brick: the building was sealed by me, and the messengers were sealed by me.' In another report: 'I am the brick, and I am the Seal of the Prophets.'",
               "note": "Mishkāt report 5745 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
@@ -72,50 +72,43 @@
             },
             {
               "n": 9,
-              "ar": "وَعَنْ أَبِي هُرَيْرَةَ أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ:\n\" فُضِّلْتُ عَلَى الْأَنْبِيَاءِ بِسِتٍّ: أُعْطِيتُ جَوَامِعَ الْكَلِمِ وَنُصِرْتُ بِالرُّعْبِ وَأُحِلَّتْ لِيَ الْغَنَائِمُ وَجُعِلَتْ لِيَ الْأَرْضُ مَسْجِدًا وَطَهُورًا وَأُرْسِلْتُ إِلَى الْخَلْقِ كَافَّةً وَخُتِمَ بِيَ النَّبِيُّونَ \"\n. رَوَاهُ مُسلم",
-              "en": null,
-              "en2": "Abū Hurairah ﵁ narrates that the Messenger of Allah ﷺ said: 'I have been favoured above the prophets in six ways: I was given concise yet comprehensive speech (jawāmiʿ al-kalim); I was made victorious through awe cast into the hearts of enemies; the spoils of war were made lawful for me; the earth was made a place of prayer and a means of purification for me; I was sent to all of creation; and the prophets were sealed with me.'",
-              "note": "Mishkāt report 5748 · Ṣaḥīḥ Muslim"
-            },
-            {
-              "n": 10,
               "ar": "وَعَن أَبِي هُرَيْرَةَ قَالَ: قَالُوا: يَا رَسُولَ اللَّهِ مَتَى وَجَبَتْ لَكَ النُّبُوَّةُ؟ قَالَ: «وَآدَمُ بَيْنَ الرُّوحِ وَالْجَسَدِ» . رَوَاهُ التِّرْمِذِيّ",
-              "en": null,
+              "en": "Abū Hurairah ﵁ said, 'The companions said, O messenger of God, when were you confirmed a Prophet? He said, When Adam was between soul and body.'",
               "en2": "Abū Hurairah ﵁ narrates: 'They said: \"O Messenger of Allah ﷺ, when did prophethood become yours?\" He said: \"When Adam was between the spirit and the body.\"'",
               "note": "Mishkāt report 5758 · Jāmiʿ al-Tirmidhī"
             },
             {
-              "n": 11,
+              "n": 10,
               "ar": "وَعَنْ أَبِي سَعِيدٍ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «أَنَا سَيِّدُ وَلَدِ آدَمَ يَوْمَ الْقِيَامَةِ وَلَا فَخْرَ وَبِيَدِي لِوَاءُ الْحَمْدِ وَلَا فَخْرَ. وَمَا مِنْ نَبِيٍّ يَوْمَئِذٍ آدَمُ فَمَنْ سِوَاهُ إِلَّا تَحْتَ لِوَائِي وَأَنَا أَوَّلُ مَنْ تَنْشَقُّ عَنْهُ الْأَرْضُ وَلَا فَخْرَ» . رَوَاهُ التِّرْمِذِيّ",
-              "en": null,
+              "en": "Abū Saʿīd al-Khudrī ﵁ said, 'I am the best of the sons of Adam on the day of resurrection, without boasting; and in my hand will be the standard of praise, without boasting; and there will be no Prophet on the day of resurrection, whether Adam or any other, but will come under my standard; and I am the first that will be raised up from the grave, without boasting.'",
               "en2": "Abū Saʿīd al-Khudrī ﵁ narrates that the Messenger of Allah ﷺ said: 'I shall be the master of the children of Adam on the Day of Resurrection, and this is no boast. In my hand will be the banner of praise, and this is no boast. On that day there will be no prophet, Adam or anyone else, who is not beneath my banner. And I shall be the first from whom the earth is opened, and this is no boast.'",
               "note": "Mishkāt report 5761 · Jāmiʿ al-Tirmidhī"
             },
             {
-              "n": 12,
+              "n": 11,
               "ar": "وَعَن ابْن عَبَّاس قَالَ: جَلَسَ نَاسٌ مِنْ أَصْحَابِ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَخَرَجَ حَتَّى إِذَا دَنَا مِنْهُمْ سَمِعَهُمْ يَتَذَاكَرُونَ قَالَ بَعْضُهُمْ: إِنَّ اللَّهَ اتَّخَذَ إِبْرَاهِيمَ خَلِيلًا وَقَالَ آخَرُ: مُوسَى كَلَّمَهُ اللَّهُ تَكْلِيمًا وَقَالَ آخَرُ: فَعِيسَى كَلِمَةُ الله وروحه. وَقَالَ آخَرُ: آدَمُ اصْطَفَاهُ اللَّهُ فَخَرَجَ عَلَيْهِمْ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَقَالَ: «قَدْ سَمِعْتُ كَلَامَكُمْ وَعَجَبَكُمْ أَنَّ إِبْرَاهِيمَ خَلِيل الله وَهُوَ كَذَلِكَ وَآدَمُ اصْطَفَاهُ اللَّهُ وَهُوَ كَذَلِكَ أَلَا وَأَنَا حَبِيبُ اللَّهِ وَلَا فَخْرَ وَأَنَا حَامِلُ لِوَاءِ الْحَمْدِ يَوْمَ الْقِيَامَةِ تَحْتَهُ آدَمُ فَمَنْ دُونَهُ وَلَا فَخْرَ وَأَنَا أَوَّلُ شَافِعٍ وَأَوَّلُ مُشَفَّعٍ يَوْمَ الْقِيَامَةِ وَلَا فَخْرَ وَأَنَا أَوَّلُ مَنْ يُحَرِّكُ حَلَقَ الْجَنَّةِ فَيَفْتَحُ اللَّهُ لِي فَيُدْخِلُنِيهَا وَمَعِي فُقَرَاءُ الْمُؤْمِنِينَ وَلَا فَخْرَ وَأَنَا أَكْرَمُ الْأَوَّلِينَ وَالْآخَرِينَ عَلَى اللَّهِ وَلَا فَخر» . رَوَاهُ التِّرْمِذِيّ والدارمي",
-              "en": null,
+              "en": "Ibn ʿAbbās ﵁ said, 'Men of the Prophet's friends were sitting, and he came out of his house, till he came near, when he heard them mentioning to each other, God took Abraham as his friend; and another said, Moses talked with God; and another said, Jesus is the word of God, and spirit of God; and another said, God elected Adam. Then his majesty said, I heard you, and your surprise at Abraham's being the friend of God; and it is so; and at Moses' talking with God, and it is so; and at Jesus being the word and spirit of God, and it is so; and at God's electing Adam, and it is so. Beware, I am the beloved of God, and without boasting; and I shall be the bearer of the standard of praise on the day of resurrection; and under it will be Adam, and all the Prophets besides; and I shall be the first intercessor, and the first whose intercessions will be approved of, on the day of resurrection; and I am the first who will ask for the door of paradise to be opened: and God will open it, and I shall enter it, accompanied by the poor Muslemans, and there is no boasting; and I am the best of the first and the last near God, and there is no boasting.'",
               "en2": "Ibn ʿAbbās ﵁ narrates: 'Some of the Companions of the Messenger of Allah ﷺ were sitting, and he came out until, when he drew near them, he heard them conversing. One said: \"Allah took Ibrāhīm ﵇ as His close friend (khalīl).\" Another said: \"Mūsā ﵇ was spoken to directly by Allah.\" Another said: \"ʿĪsā ﵇ is the word of Allah and a spirit from Him.\" And another said: \"Adam ﵇ was chosen by Allah.\" Then the Messenger of Allah ﷺ came out to them and said: \"I have heard your words and your wonder that Ibrāhīm ﵇ is the khalīl of Allah, and so he is; and that Adam ﵇ was chosen by Allah, and so he was. Yet I am the beloved of Allah, and this is no boast. I shall carry the banner of praise on the Day of Resurrection, with Adam and all others beneath it, and this is no boast. I shall be the first intercessor and the first whose intercession is accepted on the Day of Resurrection, and this is no boast. I shall be the first to move the rings of the gate of Paradise; Allah will open it for me and admit me, with the poor believers beside me, and this is no boast. And I am the most honoured of the first and the last in the sight of Allah, and this is no boast.\"'",
               "note": "Mishkāt report 5762 · Jāmiʿ al-Tirmidhī & Sunan al-Dārimī"
             },
             {
-              "n": 13,
+              "n": 12,
               "ar": "عَنْ جُبَيْرِ بْنِ مُطْعَمٍ قَالَ: سَمِعْتُ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ:\n\" إنَّ لي أَسْمَاءً: أَنَا مُحَمَّدٌ وَأَنَا أَحْمَدُ وَأَنَا الْمَاحِي الَّذِي يَمْحُو اللَّهُ بِي الْكُفْرَ وَأَنَا الْحَاشِرُ الَّذِي يُحْشَرُ النَّاسُ عَلَى قَدَمِي وَأَنَا الْعَاقِبُ \"\n. وَالْعَاقِب: الَّذِي لَيْسَ بعده شَيْء. مُتَّفق عَلَيْهِ",
               "en": "Jubair-ibn-Muṭʿim said, I heard the Prophet say, 'Verily I have names: I am Muḥammad, and I am Aḥmad, and I am al-Māḥī (the eraser) by whom God effaces infidelity; and I am al-Ḥāshir (the gatherer) at whose feet mankind will be gathered together; and I am al-ʿĀqib (the last in succession) after whom there is no Prophet.'",
               "en2": "Jubayr ibn Muṭʿim ﵁ narrates: 'I heard the Prophet ﷺ say: \"I have names. I am Muhammad; I am Aḥmad; I am al-Māḥī (the Eraser), through whom Allah erases disbelief; I am al-Ḥāshir (the Gatherer), at whose feet people will be gathered; and I am al-ʿĀqib (the Last).\"' And al-ʿĀqib is the one after whom there is nothing.",
               "note": "Mishkāt report 5776 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
-              "n": 14,
+              "n": 13,
               "ar": "وَعَن أبي مُوسَى الْأَشْعَرِيّ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يُسَمِّي لَنَا نَفْسَهُ أَسْمَاءً فَقَالَ: «أَنَا مُحَمَّدٌ وَأَحْمَدُ وَالْمُقَفِّي وَالْحَاشِرُ وَنَبِيُّ التَّوْبَةِ وَنَبِيُّ الرَّحْمَة» . رَوَاهُ مُسلم",
               "en": "Abū Mūsā al-Ashʿarī said, 'The Messenger of God named to us many of his names; some of them we remembered, and some we did not. He said: I am Muḥammad, and Aḥmad, and al-Muqaffī (the follower), and al-Ḥāshir, and the Prophet of Repentance, and the Prophet of Mercy.'",
               "en2": "Abū Mūsā al-Ashʿarī ﵁ narrates: 'The Messenger of Allah ﷺ used to name himself to us with names, saying: \"I am Muhammad and Aḥmad, al-Muqaffī (the Follower), al-Ḥāshir (the Gatherer), the Prophet of Repentance and the Prophet of Mercy.\"'",
               "note": "Mishkāt report 5777 · Ṣaḥīḥ Muslim"
             },
             {
-              "n": 15,
+              "n": 14,
               "ar": "وَعَنْ أُمِّ سُلَيْمٍ أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَانَ يَأْتِيهَا فَيَقِيلُ عِنْدَهَا فَتَبْسُطُ نِطْعًا فَيَقِيلُ عَلَيْهِ وَكَانَ كَثِيرَ الْعَرَقِ فَكَانَتْ تَجْمَعُ عَرَقَهُ فَتَجْعَلُهُ فِي الطِّيبِ. فَقَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «يَا أُمَّ سُلَيْمٍ مَا هَذَا؟» قَالَتْ: عَرَقُكَ نَجْعَلُهُ فِي طِيبِنَا وَهُوَ مِنْ أَطْيَبِ الطِّيبِ\nوَفِي رِوَايَةٍ قَالَتْ: يَا رَسُولَ اللَّهِ نَرْجُو بَرَكَتَهُ لِصِبْيَانِنَا قَالَ: «أصبت» . مُتَّفق عَلَيْهِ",
-              "en": null,
+              "en": "Umm Sulaim ﵂ said, 'Verily the Prophet used to come to my house, and take a morning's nap. I used to spread a leather bed for him, on which he would sleep; and he used to perspire very much, and I used to collect it, and put it into essences and perfumes; and his majesty said, O Umm Sulaim, what do you do with the perspiration? I said, I put it into my perfumes, and it is the sweetest of all sweet smells.' And in one tradition it is thus: Umm Sulaim said, 'O messenger of God, I hope for blessing for my little ones from your perspiration; and I rub it upon their bodies, to protect them from all calamities.' His majesty said, 'You have spoken true, and done well.'",
               "en2": "Umm Sulaym ﵂ narrates: 'The Prophet ﷺ used to visit her and take a midday rest at her house. She would spread a leather mat for him and he would rest upon it. He sweated a great deal, so she would collect his sweat and put it into her perfume. The Prophet ﷺ said: \"O Umm Sulaym, what is this?\" She said: \"It is your sweat; we put it into our perfume, and it is among the finest of perfumes.\"' In another report she said: 'O Messenger of Allah, we hope for its blessing for our children.' He said: \"You are right.\"",
               "note": "Mishkāt report 5788 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             }
@@ -128,56 +121,56 @@
             {
               "n": 1,
               "ar": "وَعَن عبدِ الله بن سرجسٍ قَالَ: رَأَيْتُ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَأَكَلْتُ مَعَهُ خُبْزًا وَلَحْمًا - أَوْ قَالَ: ثَرِيدًا - ثُمَّ دُرْتُ خَلْفَهُ فَنَظَرْتُ إِلَى خَاتَمِ النُّبُوَّةِ بَيْنَ كَتِفَيْهِ عِنْدَ نَاغِضِ كَتِفِهِ الْيُسْرَى جُمْعًا عَلَيْهِ خيلال كأمثال الثآليل. رَوَاهُ مُسلم",
-              "en": null,
+              "en": "ʿAbdullāh-ibn-Sarjis ﵁ said, 'I saw his majesty, and ate bread and meat with him; after that I walked behind him, and looked at the seal of prophecy between his two shoulders, near the soft part of the bone of his left shoulder, and there were moles upon it, raised.'",
               "en2": "ʿAbdullāh ibn Sarjis ﵁ narrates: 'I saw the Prophet ﷺ and ate bread and meat with him—or he said, tharīd—then I went round behind him and looked at the Seal of Prophethood between his shoulders, near the soft part of his left shoulder, gathered together, with moles upon it like warts.'",
               "note": "Mishkāt report 5780 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 2,
               "ar": "وَعَنْ أُمِّ خَالِدٍ بِنْتِ خَالِدِ بْنِ سَعِيدٍ قَالَتْ: أُتِيَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ بِثِيَابٍ فِيهَا خَمِيصَةٌ سَوْدَاءُ صَغِيرَةٌ فَقَالَ: «ائْتُونِي بِأُمِّ خَالِدٍ» فَأُتِيَ بِهَا تُحْمَلُ فَأَخَذَ الْخَمِيصَةَ بِيَدِهِ فَأَلْبَسَهَا. قَالَ: «أَبْلِي وَأَخْلِقِي ثُمَّ أَبْلِي وَأَخْلِقِي» وَكَانَ فِيهَا عَلَمٌ أَخْضَرُ أَوْ أَصْفَرُ. فَقَالَ: «يَا أُمَّ خَالِدٍ هَذَا سِنَاهْ» وَهِيَ بالحبشيَّةِ حسنَة. قَالَت: فذهبتُ أَلعبُ بخاتمِ النبوَّةِ فز برني أُبَيٍّ فَقَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «دعها» . رَوَاهُ البُخَارِيّ",
-              "en": null,
+              "en": "Umm Khālid ﵂ said, 'Clothes were brought to his majesty, and with them a small blanket; and he said, Bring Umm Khālid to me. Then I was carried to him; and he took up the blanket, and put it over me, and said, Wear this blanket out' (that is, live long, till the blanket gets very old); 'and it had a yellow or green border. And his majesty said, O Umm Khālid, this is a garment. Then I went behind him, and played with the seal of prophecy; but my father forbade me, and his majesty said to him, Never mind, do not forbid her.'",
               "en2": "Umm Khālid bint Khālid ibn Saʿīd ﵂ narrates: 'Some garments were brought to the Prophet ﷺ, among them a small black cloak (khamīṣah). He said: \"Bring me Umm Khālid.\" She was brought, carried [as a small child]. He took the cloak in his hand and put it on her, saying: \"May you wear it out, and wear it out again.\" It had a green or yellow mark on it. He said: \"O Umm Khālid, this is sanāh\"—which means \"beautiful\" in the Abyssinian tongue. She said: I began to play with the Seal of Prophethood, and my father rebuked me. The Messenger of Allah ﷺ said: \"Leave her.\"'",
               "note": "Mishkāt report 5781 · Ṣaḥīḥ al-Bukhārī"
             },
             {
               "n": 3,
               "ar": "وَعَنْ أَنَسٍ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَيْسَ بِالطَّوِيلِ الْبَائِنِ وَلَا بِالْقَصِيرِ وَلَيْسَ بِالْأَبْيَضِ الْأَمْهَقِ وَلَا بِالْآدَمِ وَلَيْسَ بِالْجَعْدِ الْقَطَطِ وَلَا بِالسَّبْطِ بَعَثَهُ اللَّهُ عَلَى رَأْسِ أَرْبَعِينَ سَنَةً فَأَقَامَ بِمَكَّةَ عَشْرَ سِنِينَ وبالمدينة عشر سِنِين وتوفَّاه الله على رَأس سِتِّينَ سَنَةً وَلَيْسَ فِي رَأْسِهِ وَلِحْيَتِهِ عِشْرُونَ شَعْرَةً بَيْضَاءَ\nوَفِي رِوَايَةٍ يَصِفُ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: كَانَ رَبْعَةً مِنَ الْقَوْمِ لَيْسَ بِالطَّوِيلِ وَلَا بِالْقَصِيرِ أَزْهَرَ اللَّوْنِ. وَقَالَ: كَانَ شَعْرُ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِلَى أَنْصَافِ أُذُنَيْهِ\nوَفِي رِوَايَةٍ: بَيْنَ أُذُنَيْهِ وَعَاتِقِهِ. مُتَّفَقٌ عَلَيْهِ\nوَفِي رِوَايَةٍ لِلْبُخَارِيِّ قَالَ: كَانَ ضَخْمَ الرَّأْسِ وَالْقَدَمَيْنِ لَمْ أَرَ بَعْدَهُ وَلَا قَبْلَهُ مِثْلَهُ وَكَانَ سَبْطَ الكفَّينِ. وَفِي أُخْرَى لَهُ قَالَ: كَانَ شئن الْقَدَمَيْنِ وَالْكَفَّيْنِ",
-              "en": null,
+              "en": "Anas ﵁ said, 'His majesty was neither very tall nor very short, nor very white without a mixture of red, nor very much the colour of wheat inclining to blackness; nor was the hair of his head very curly, nor was it very straight. God made him a Prophet after his fortieth year; and he dwelt in Mecca ten years, and ten years at Medinah; and God caused him to die at the expiration of sixty years, when there were not twenty grey hairs in his head and beard.' And in one tradition it is thus, when Anas described his majesty, he would say: 'His majesty was middle-sized, neither tall nor short, of a bright colour; and he wore the hair of his head to the middle of his ears' (and in one tradition, between his shoulders and ears); 'and his head was moderately large, and his feet were fat; I never saw any person like him, before nor since; and the palms of his hands were broad.'",
               "en2": "Anas ibn Mālik ﵁ narrates: 'The Messenger of Allah ﷺ was neither very tall nor short, neither chalk-white nor dark, and his hair was neither tightly curled nor lank. Allah sent him at the age of forty; he stayed ten years in Makkah and ten years in Madinah, and Allah took him at the age of sixty, with not even twenty white hairs in his head and beard.' In another report, describing the Prophet ﷺ, he said: 'He was of medium height among people, neither tall nor short, of a radiant complexion. The hair of the Messenger of Allah ﷺ reached the middle of his ears'—and in another: 'between his ears and his shoulder.' In a report of al-Bukhārī he said: 'He was large of head and feet; I never saw anyone like him before or after him, and he was broad-palmed (sabṭ al-kaffayn).' And in another report of his: 'His feet and hands were thick (shathn).'",
               "note": "Mishkāt report 5782 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
               "n": 4,
               "ar": "وَعَنِ الْبَرَّاءِ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ مَرْبُوعًا بَعِيدَ مَا بَيْنَ الْمَنْكِبَيْنِ لَهُ شَعْرٌ بَلَغَ شَحْمَةَ أُذُنَيْهِ رَأَيْتُهُ فِي حُلَّةٍ حَمْرَاءَ لَمْ أَرَ شَيْئًا قَطُّ أَحْسَنَ مِنْهُ. مُتَّفَقٌ عَلَيْهِ\nوَفِي رِوَايَةٍ لِمُسْلِمٍ قَالَ: مَا رَأَيْتُ مِنْ ذِي لِمَّةٍ أَحْسَنَ فِي حُلَّةٍ حَمْرَاءَ مِنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ شَعْرُهُ يَضْرِبُ مَنْكِبَيْهِ بَعِيدٌ مَا بَيْنَ الْمَنْكِبَيْنِ لَيْسَ بِالطَّوِيلِ وَلَا بِالْقَصِيرِ",
-              "en": null,
+              "en": "Barāʾ-ibn-ʿĀzib ﵁ said, 'His majesty was middle-sized, and his shoulders broad; and he wore his hair to the bottom of his ears; I saw him in a red striped dress; I never saw any person so handsome as his majesty.' And in one tradition it is thus: 'I never saw any person with hair to the bottom of the ear, in a red striped dress, look so well as the Prophet; his hair reached down to his shoulders, and his shoulders were very broad; he was neither tall nor short.'",
               "en2": "al-Barāʾ ﵁ narrates: 'The Messenger of Allah ﷺ was of medium height, broad between the shoulders, with hair reaching the lobes of his ears. I saw him in a red ḥullah (a two-piece garment), and I have never seen anything more beautiful than him.' In a report of Muslim he said: 'I never saw anyone with flowing hair more handsome in a red ḥullah than the Messenger of Allah ﷺ. His hair touched his shoulders, he was broad between the shoulders, neither tall nor short.'",
               "note": "Mishkāt report 5783 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim; variant in Ṣaḥīḥ Muslim"
             },
             {
               "n": 5,
               "ar": "وَعَنْ سِمَاكِ بْنِ حَرْبٍ عَنْ جَابِرِ بْنِ سَمُرَةَ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ ضَلِيعَ الْفَمِ أَشْكَلَ الْعَيْنَيْنِ مَنْهُوشَ الْعَقِبَيْنِ قِيلَ لَسِمَاكٍ: مَا ضَلِيعُ الْفَمِ؟ قَالَ: عَظِيمُ الْفَمِ. قِيلَ: مَا أَشْكَلُ الْعَيْنَيْنِ؟ قَالَ: طَوِيلُ شَقِّ الْعَيْنِ. قِيلَ: مَا مَنْهُوشُ الْعَقِبَيْنِ؟ قَالَ: قليلُ لحم الْعقب. رَوَاهُ مُسلم",
-              "en": null,
+              "en": "Simāk relates from Jābir-ibn-Samurah ﵁, who said, 'His majesty's teeth were open, and the white of his eyes was mixed with red, with little flesh upon his heels.'",
               "en2": "Simāk ibn Ḥarb narrates from Jābir ibn Samurah ﵁: 'The Messenger of Allah ﷺ was wide-mouthed (ḍalīʿ al-fam), long-eyed (ashkal al-ʿaynayn), with little flesh on his heels (manhūsh al-ʿaqibayn).' Simāk was asked: 'What is ḍalīʿ al-fam?' He said: 'Large of mouth.' It was said: 'What is ashkal al-ʿaynayn?' He said: 'Long in the cleft of the eye.' It was said: 'What is manhūsh al-ʿaqibayn?' He said: 'Having little flesh on the heel.'",
               "note": "Mishkāt report 5784 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 6,
               "ar": "وَعَنْ أَبِي الطُّفَيْلِ قَالَ: رَأَيْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَانَ أَبْيَضَ مَلِيحًا مقصدا \". رَوَاهُ مُسلم",
-              "en": null,
+              "en": "Abū-Ṭufail ﵁ said, 'I saw his majesty; he was white and graceful, and middle-sized.'",
               "en2": "Abū al-Ṭufayl ﵁ narrates: 'I saw the Messenger of Allah ﷺ: he was fair-complexioned, comely and of moderate build.'",
               "note": "Mishkāt report 5785 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 7,
               "ar": "وَعَنْ ثَابِتٍ قَالَ: سُئِلَ أَنَسٌ عَنْ خِضَابِ رَسُول الله صلى الله عَلَيْهِ وَسلم فَقَالَ: إِنَّهُ لَمْ يَبْلُغْ مَا يُخْضَبُ لَوْ شِئْتُ أَنْ أَعُدَّ شَمَطَاتِهِ فِي لِحْيَتِهِ - وَفِي رِوَايَةٍ: لَوْ شِئْتُ أَنْ أَعُدَّ شَمَطَاتٍ كُنَّ فِي رَأسه - فعلت. مُتَّفق عَلَيْهِ",
-              "en": null,
+              "en": "Thābit said, 'Anas was asked about the Prophet's colouring his hair; and he said, Verily, he had not reached the age for colouring; had I wished to count the grey hairs of his noble beard, I could have done it; and the grey hairs he had were under his lower lip, and upon his cheek bones, near his ears; and in his head he had a few scattered grey hairs.'",
               "en2": "Thābit narrates: 'Anas ﵁ was asked about the dyeing of the hair of the Messenger of Allah ﷺ. He said: \"He had not reached the point of needing dye. If I had wished to count the white hairs in his beard—or, in another report, the white hairs that were in his head—I could have done so.\"'",
               "note": "Mishkāt report 5786 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
               "n": 8,
               "ar": "وَعَنْ أَنَسٍ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَزْهَرَ اللَّوْنِ كَانَ عَرَقُهُ اللُّؤْلُؤُ إِذَا مَشَى تَكَفَّأَ وَمَا مَسَسْتُ دِيبَاجَةً وَلَا حَرِيرًا أَلْيَنَ مِنْ كَفِّ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَلَا شمَمتُ مسكاً وَلَا عَنْبَرَةً أَطْيَبَ مِنْ رَائِحَةِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ. مُتَّفَقٌ عَلَيْهِ",
-              "en": null,
+              "en": "Anas ﵁ said, 'His majesty was of a sparkling colour; and the drops of his perspiration you might call pearls; when he walked, he stepped … and I never felt any silk or satin softer than the palms of his hands; and I never smelt any musk or ambergris sweeter than the smell of his body.'",
               "en2": "Anas ibn Mālik ﵁ narrates: 'The Messenger of Allah ﷺ was of a radiant complexion; his sweat was like pearls; and when he walked he inclined forward. I never touched brocade or silk softer than the palm of the Messenger of Allah ﷺ, and I never smelled musk or ambergris sweeter than the scent of the Prophet ﷺ.'",
               "note": "Mishkāt report 5787 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
@@ -191,14 +184,14 @@
             {
               "n": 10,
               "ar": "عَنْ عَلِيِّ بْنِ أَبِي طَالِبٍ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَيْسَ بالطويل وَلَا بالقصير ضخم الرَّأْس واللحية شئن الْكَفَّيْنِ وَالْقَدَمَيْنِ مُشْرَبًا حُمْرَةً ضَخْمَ الْكَرَادِيسِ طَوِيلَ المَسْرُبَةِ إِذا مَشى تكفَّأ تكفُّأً كَأَنَّمَا يَنْحَطُّ مِنْ صَبَبٍ لَمْ أَرَ قَبْلَهُ وَلَا بَعْدَهُ مِثْلَهُ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ. رَوَاهُ التِّرْمِذِيُّ وَقَالَ: هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ",
-              "en": null,
+              "en": "ʿAlī-ibn-Abī-Ṭālib ﵁ said, 'His majesty was neither tall nor short; his head was large in moderation, his beard thick, his hands and feet fleshy, his complexion red and white, his joints thick; he had a line of hair from his breast to his navel; and when he walked, you might say that he was stepping from a high place to a low; I never saw any one like him, before nor since.'",
               "en2": "ʿAlī ibn Abī Ṭālib ﵁ narrates: 'The Messenger of Allah ﷺ was neither tall nor short; he was large of head and beard; thick of palm and foot (shathn al-kaffayn wa-al-qadamayn); of a complexion tinged with red; large of joints (ḍakhm al-karādīs); with a long line of hair from chest to navel (ṭawīl al-masrubah). When he walked he leaned forward, as though descending a slope. I never saw anyone like him, before him or after him ﷺ.' Al-Tirmidhī said: 'This is a good and sound (ḥasan ṣaḥīḥ) ḥadīth.'",
               "note": "Mishkāt report 5790 · Jāmiʿ al-Tirmidhī"
             },
             {
               "n": 11,
               "ar": "وَعَنْهُ كَانَ إِذَا وَصَفَ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: لَمْ يَكُنْ بِالطَّوِيلِ الْمُمَّغِطِ وَلَا بِالْقَصِيرِ الْمُتَرَدِّدِ وَكَانَ رَبْعَةً مِنَ الْقَوْمِ وَلَمْ يَكُنْ بِالْجَعْدِ الْقَطَطِ وَلَا بِالسَّبْطِ كَانَ جَعْدًا رَجِلًا وَلَمْ يَكُنْ بِالْمُطَهَّمِ وَلَا بِالْمُكَلْثَمِ وَكَانَ فِي الْوَجْهِ تَدْوِيرٌ أَبْيَضُ مُشْرَبٌ أَدْعَجُ الْعَيْنَيْنِ أَهْدَبُ الْأَشْفَارِ جَلِيلُ الْمَشَاشِ وَالْكَتَدِ أَجْرَدُ ذُو مَسْرُبةٍ شئن الْكَفَّيْنِ وَالْقَدَمَيْنِ إِذَا مَشَى يَتَقَلَّعُ كَأَنَّمَا يَمْشِي فِي صَبَبٍ وَإِذَا الْتَفَتَ الْتَفَتَ مَعًا بَيْنَ كَتِفَيْهِ خَاتَمُ النُّبُوَّةِ وَهُوَ خَاتَمُ النَّبِيِّينَ أَجْوَدُ النَّاسِ صَدْرًا وَأَصْدَقُ النَّاسِ لَهْجَةً وَأَلْيَنُهُمْ عَرِيكَةً وَأَكْرَمُهُمْ عَشِيرَةً مَنْ رَآهُ بَدِيهَةً هَابَهُ وَمَنْ خَالَطَهُ مَعْرِفَةً أَحَبَّهُ يَقُولُ نَاعِتُهُ: لَمْ أَرَ قَبْلَهُ وَلَا بَعْدَهُ مِثْلَهُ صَلَّى اللَّهُ عَلَيْهِ وَسلم. رَوَاهُ التِّرْمِذِيّ",
-              "en": null,
+              "en": "ʿAlī-ibn-Abī-Ṭālib ﵁ said, 'His majesty was not very tall nor short, but above the middle size; his hair was not very curly nor very straight, but between the two; and his face was not very full, nor was it small, with a prominent forehead; but it was round; his complexion red and white mixed; his eyes very black, and his eyelashes long and thick; his bones were large … he lifted up his feet, and stepped like stepping upon low ground; and when he turned his face to the right or left, he would turn his whole body at the same time. The seal of prophecy was between his shoulders; and it was the seal of the Prophets. And he was a man of the most liberal heart, and of the truest tongue … and of the greatest family. Whoever saw him suddenly would be impressed with fear; and those who mixed with him loved him; and I never saw any one like him, before or since.'",
               "en2": "ʿAlī ﵁, when he described the Prophet ﷺ, said: 'He was not excessively tall, nor short and hunched, but of medium height among people. His hair was neither tightly curled nor lank, but wavy. He was neither heavy-faced nor round-faced, yet there was a roundness to his face. He was fair with a reddish tinge, with very black eyes and long lashes; large-jointed and broad between the shoulders; with little hair on his body apart from a fine line from chest to navel; thick of palm and foot. When he walked he lifted his feet as though walking down a slope, and when he turned he turned with his whole body. Between his shoulders was the Seal of Prophethood, and he is the Seal of the Prophets. He was the most generous of people in heart, the most truthful in speech, the gentlest in nature and the noblest in kinship. Whoever saw him suddenly stood in awe of him, and whoever mixed with him and came to know him loved him. His describer would say: I never saw anyone like him, before him or after him ﷺ.'",
               "note": "Mishkāt report 5791 · Jāmiʿ al-Tirmidhī"
             },
@@ -212,7 +205,7 @@
             {
               "n": 13,
               "ar": "عَنِ ابْنِ عَبَّاسٍ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَفْلَجَ الثَّنِيَّتَيْنِ إِذَا تَكَلَّمَ رُئِيَ كَالنُّورِ يَخْرُجُ مِنْ بَيْنِ ثَنَايَاهُ. رَوَاهُ الدَّارمِيّ",
-              "en": null,
+              "en": "Ibn-ʿAbbās ﵁ said, 'There was a gap between his majesty's two front teeth; and when he spoke, a light appeared to issue from his teeth.'",
               "en2": "Ibn ʿAbbās ﵁ narrates: 'The Messenger of Allah ﷺ had a gap between his front teeth (aflaj al-thaniyyatayn); when he spoke, something like light was seen coming out from between his front teeth.'",
               "note": "Mishkāt report 5797 · Sunan al-Dārimī"
             },
@@ -232,7 +225,7 @@
             {
               "n": 1,
               "ar": "وَعَنْ أَنَسٍ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِذَا صَلَّى الْغَدَاةَ جَاءَ خَدَمُ الْمَدِينَةِ بِآنِيَتِهِمْ فِيهَا الْمَاءُ فَمَا يَأْتُونَ بإناءٍ إِلَّا غمسَ يدَه فِيهَا فرُبما جاؤوهُ بِالْغَدَاةِ الْبَارِدَةِ فَيَغْمِسُ يَدَهُ فِيهَا. رَوَاهُ مُسْلِمٌ",
-              "en": null,
+              "en": "Anas ﵁ said, 'When his majesty had said morning prayer, the slave boys and girls of the people of Medinah would bring their pots of water; and his majesty would put his hand into every one of them, to bless those who might drink of the water. Then it was frequent that pots of water were brought to him in cold mornings; notwithstanding which he put his hand into them.'",
               "en2": "Anas ibn Mālik ﵁ narrates: 'When the Messenger of Allah ﷺ had prayed the morning prayer, the servants of Madinah would come with their vessels containing water. Whatever vessel they brought, he would dip his hand into it; and sometimes they came to him on a cold morning, and he would dip his hand into it.'",
               "note": "Mishkāt report 5808 · Ṣaḥīḥ Muslim"
             },
@@ -246,14 +239,14 @@
             {
               "n": 3,
               "ar": "وَعَنْهُ أَنَّ امْرَأَةً كَانَتْ فِي عَقْلِهَا شَيْءٌ فَقَالَت: يَا رَسُول الله إِنِّي لِي إِلَيْكَ حَاجَّةً فَقَالَ: «يَا أُمَّ فُلَانٍ انْظُرِي أَيَّ السِّكَكِ شِئْتِ حَتَّى أَقْضِيَ لَكِ حَاجَتَكِ» فَخَلَا مَعَهَا فِي بَعْضِ الطُّرُقِ حَتَّى فرغت من حَاجَتهَا. رَوَاهُ مُسلم",
-              "en": null,
+              "en": "Anas ﵁ said, 'A woman said, O messenger of God, verily I have need of you. When the Prophet was walking along the road, his majesty said, O mother of such a one, sit down in any lane you please, and I will sit with you, and do what you want. Then the woman went into a by-lane, and represented what she had to say.'",
               "en2": "Anas ibn Mālik ﵁ narrates: 'A woman who was somewhat impaired in her reason said: \"O Messenger of Allah ﷺ, I have a need of you.\" He said: \"O mother of so-and-so, see in which of the lanes you wish, and I shall attend to your need.\" So he stood aside with her on one of the roads until she had finished what she needed.'",
               "note": "Mishkāt report 5810 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 4,
               "ar": "وَعَنْ عَائِشَةَ قَالَتْ: مَا خُيِّرَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ بَيْنَ أَمْرَيْنِ قَطُّ إِلَّا أَخَذَ أَيْسَرَهُمَا مَا لَمْ يَكُنْ إِثْمًا فَإِنْ كَانَ إِثْمًا كَانَ أَبْعَدَ النَّاسِ مِنْهُ وَمَا انْتَقَمَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لِنَفْسِهِ فِي شَيْءٍ قَطُّ إِلَّا أَنْ يُنتهك حرمةُ الله فينتقم لله بهَا. مُتَّفق عَلَيْهِ",
-              "en": null,
+              "en": "ʿĀʾishah ﵂ said, 'His majesty was never given a choice of two works but he chose the easier, so long as it was not a cause of doing wrong; but if it was, he kept himself the farthest from it; and he was never vindictive on his own account in anything, except when people did anything unlawful; then he would punish them.'",
               "en2": "ʿĀʾishah ﵂ narrates: 'The Messenger of Allah ﷺ was never given a choice between two matters without taking the easier of them, provided it was not sinful; if it was sinful, he was the furthest of people from it. And the Messenger of Allah ﷺ never took revenge for himself in anything, unless the sanctity of Allah was violated, in which case he took revenge for the sake of Allah.'",
               "note": "Mishkāt report 5817 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
@@ -267,28 +260,28 @@
             {
               "n": 6,
               "ar": "وَعَنْهُ أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَانَ لَا يَدَّخِرُ شَيْئًا لِغَدٍ. رَوَاهُ التِّرْمِذِيّ",
-              "en": null,
+              "en": "Anas ﵁ said, 'Verily, his majesty kept nothing for to-morrow.'",
               "en2": "Anas ibn Mālik ﵁ narrates: 'The Messenger of Allah ﷺ would not store up anything for the morrow.'",
               "note": "Mishkāt report 5825 · Jāmiʿ al-Tirmidhī"
             },
             {
               "n": 7,
               "ar": "وَعَنْ جَابِرِ بْنِ سَمُرَةَ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ طَوِيلَ الصَّمْتِ. رَوَاهُ فِي «شرح السّنة»",
-              "en": null,
+              "en": "Jābir-ibn-Samurah ﵁ said, 'The Prophet was a man of great taciturnity.'",
               "en2": "Jābir ibn Samurah ﵁ narrates: 'The Messenger of Allah ﷺ would remain silent for long periods.'",
               "note": "Mishkāt report 5826 · Sharḥ al-Sunnah (al-Baghawī)"
             },
             {
               "n": 8,
               "ar": "وَعَنْ عَائِشَةَ قَالَتْ: مَا كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَسْرُدُ سَرْدَكُمْ هَذَا وَلَكِنَّهُ كَانَ يَتَكَلَّمُ بِكَلَامٍ بَيْنَهُ فَصْلٌ يَحْفَظُهُ من جَلَسَ إِلَيْهِ. رَوَاهُ التِّرْمِذِيّ",
-              "en": null,
+              "en": "ʿĀʾishah ﵂ said, 'His majesty did not say one thing after another, like you; but spoke with proper periods; and those who sat with him remembered what he said.'",
               "en2": "ʿĀʾishah ﵂ narrates: 'The Messenger of Allah ﷺ did not speak in a rapid, continuous stream as you do; rather, he spoke with distinct words, clearly separated from one another, which whoever sat with him could memorise.'",
               "note": "Mishkāt report 5828 · Jāmiʿ al-Tirmidhī"
             },
             {
               "n": 9,
               "ar": "وَعَنْ عَبْدِاللَّهِ بْنِ سَلَامٍ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِذَا جَلَسَ يَتَحَدَّثُ يُكْثِرُ أَنْ يَرْفَعَ طَرْفَهُ إِلَى السَّمَاء. رَوَاهُ أَبُو دَاوُد",
-              "en": null,
+              "en": "ʿAbdullāh-ibn-Salām ﵁ said, 'When his majesty sat down to talk, he would frequently raise his eyes up to the heavens, in expectation of Gabriel coming down with instructions.'",
               "en2": "ʿAbdullāh ibn Salām ﵁ narrates: 'When the Messenger of Allah ﷺ sat talking, he would often raise his gaze to the sky.'",
               "note": "Mishkāt report 5830 · Sunan Abī Dāwūd"
             },
@@ -314,106 +307,99 @@
             },
             {
               "n": 2,
-              "ar": "وَعَنْهُ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ مِنْ أَحْسَنِ النَّاسِ خُلُقًا فَأَرْسَلَنِي يَوْمًا لِحَاجَةٍ فَقُلْتُ: وَاللَّهِ لَا أَذْهَبُ وَفِي نَفْسِي أَنْ أَذْهَبَ لِمَا أَمَرَنِي بِهِ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَخَرَجْتُ حَتَّى أَمُرَّ عَلَى صِبْيَانٍ وَهُمْ يَلْعَبُونَ فِي السُّوقِ فَإِذَا بِرَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَدْ قَبَضَ بِقَفَايَ مِنْ وَرَائِي قَالَ: فَنَظَرْتُ إِلَيْهِ وَهُوَ يَضْحَكُ فَقَالَ: «يَا أُنَيْسُ ذَهَبْتَ حَيْثُ أَمَرْتُكَ؟» . قُلْتُ: نَعَمْ أَنَا أَذْهَبُ يَا رَسُول الله. رَوَاهُ مُسلم",
-              "en": null,
-              "en2": "Anas ibn Mālik ﵁ narrates: 'The Messenger of Allah ﷺ was among the best of people in character. One day he sent me on an errand, and I said: \"By Allah, I shall not go,\" though in my heart I meant to go, for the Messenger of Allah ﷺ had commanded it. So I went out until I passed some boys playing in the market, and there was the Messenger of Allah ﷺ, who had taken hold of the back of my neck from behind. I looked at him, and he was laughing. He said: \"O Unays, did you go where I commanded you?\" I said: \"Yes, I am going, O Messenger of Allah.\"'",
-              "note": "Mishkāt report 5802 · Ṣaḥīḥ Muslim"
-            },
-            {
-              "n": 3,
               "ar": "وعنه قال : كنت أمشي مع رسول الله صلى الله عليه وسلم وعليه برد نجراني غليظ الحاشية فأدركه أعرابي فجبذه جبذة شديدة ورجع نبي الله صلى الله عليه وسلم في نحر الأعرابي حتى نظرت إلى صفحة عاتق رسول الله صلى الله عليه وسلم قد أثرت به حاشية البرد من شدة جبذته ثم قال : يا محمد مر لي من مال الله الذي عندك فالتفت إليه رسول الله صلى الله عليه وسلم ثم ضحك ثم أمر له بعطاء . متفق عليه",
               "en": "Anas ﵁ said, 'I was walking with the Prophet, and upon him was a Najrān cloak with a coarse border. A Bedouin came and gave his mantle a hard pull, so that I looked at the side of his majesty's neck, and the border of the cloth had marked it. After that the Bedouin said: O Muḥammad! order that some of God's property which you have may be given to me. Then the Prophet looked at him, and laughed, and ordered something to be given to him.'",
               "en2": "Anas ibn Mālik ﵁ narrates: 'I was walking with the Messenger of Allah ﷺ, who was wearing a Najrānī cloak with a rough border. A Bedouin caught up with him and pulled it violently, and the Prophet of Allah ﷺ turned towards the Bedouin until I saw the side of the Messenger of Allah’s ﷺ shoulder marked by the border of the cloak from the force of the pull. Then the man said: \"O Muhammad, order that I be given some of Allah’s wealth that you have.\" The Messenger of Allah ﷺ turned to him and laughed, then ordered a gift for him.'",
               "note": "Mishkāt report 5803 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
-              "n": 4,
+              "n": 3,
               "ar": "وَعَنْهُ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَحْسَنَ النَّاسِ وَأَجْوَدَ النَّاسِ وَأَشْجَعَ النَّاسِ وَلَقَدْ فَزِعَ أَهْلُ الْمَدِينَةِ ذَاتَ لَيْلَةٍ فَانْطَلَقَ النَّاسُ قِبَلَ الصَّوْتِ فَاسْتَقْبَلَهُمُ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَدْ سَبَقَ النَّاس إِلَى الصَّوْت هُوَ يَقُولُ: «لَمْ تُرَاعُوا لَمْ تُرَاعُوا» وَهُوَ عَلَى فَرَسٍ لِأَبِي طَلْحَةَ عُرْيٍ مَا عَلَيْهِ سَرْجٌ وَفِي عُنُقِهِ سَيْفٌ. فَقَالَ: «لَقَدْ وَجَدْتُهُ بَحْرًا» . مُتَّفق عَلَيْهِ",
-              "en": null,
+              "en": "Anas ﵁ said, 'The Prophet was the handsomest of men, and the most liberal, and the most brave. Verily, one night, the inhabitants of Medinah were alarmed, and people went towards the noise, but his majesty had gone to it before them, and said, Do not be alarmed, do not be alarmed. And his majesty was on Abū-Ṭalḥah al-Anṣārī's horse, without a saddle, with a sword hanging down from his shoulder; and he said, I found this horse swift as a river.'",
               "en2": "Anas ibn Mālik ﵁ narrates: 'The Messenger of Allah ﷺ was the most handsome of people, the most generous of people and the bravest of people. One night the people of Madinah were alarmed, and the people set off towards the sound. The Prophet ﷺ met them, having already gone ahead of them to the sound, and he was saying: \"Do not be afraid, do not be afraid!\" He was riding a horse of Abū Ṭalḥah, bareback, with no saddle on it and a sword hanging from his neck. He said: \"I found it [the horse] like a sea.\"'",
               "note": "Mishkāt report 5804 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
-              "n": 5,
+              "n": 4,
               "ar": "وَعَن أنس إِنَّ رَجُلًا سَأَلَ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسلم غَنَمًا بَيْنَ جَبَلَيْنِ فَأَعْطَاهُ إِيَّاهُ فَأَتَى قَوْمَهُ فَقَالَ: أَي قوم أَسْلمُوا فو الله إِنَّ مُحَمَّدًا لَيُعْطِي عَطَاءً مَا يَخَافُ الْفَقْرَ. رَوَاهُ مُسلم",
-              "en": null,
+              "en": "Anas ﵁ said, 'Verily, a man asked the Prophet for all the goats that were in a valley, and he gave them to him; and the man went to his tribe, and said, O my tribe, be Muslims; I swear by God, verily Muḥammad gives a gift, and is not afraid of poverty.'",
               "en2": "Anas ibn Mālik ﵁ narrates: 'A man asked the Prophet ﷺ for a flock of sheep that filled the space between two mountains, and he gave it to him. The man went to his people and said: \"My people, become Muslims! By Allah, Muhammad gives such gifts that he does not fear poverty.\"'",
               "note": "Mishkāt report 5806 · Ṣaḥīḥ Muslim"
             },
             {
-              "n": 6,
+              "n": 5,
               "ar": "وَعَنْ جُبَيْرِ بْنِ مُطْعِمٍ بَيْنَمَا هُوَ يَسِيرُ مَعَ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ مَقْفَلَهُ مِنْ حُنَيْنٍ فَعَلِقَتِ الْأَعْرَابُ يَسْأَلُونَهُ حَتَّى اضْطَرُّوهُ إِلَى سَمُرَةٍ فَخَطَفَتْ رِدَاءَهُ فَوَقَفَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَقَالَ: «أَعْطُونِي رِدَائِي لَوْ كَانَ لِي عَدَدَ هَذِهِ الْعِضَاهِ نَعَمٌ لَقَسَمْتُهُ بَيْنَكُمْ ثُمَّ لَا تَجِدُونِي بَخِيلًا وَلَا كذوباً وَلَا جَبَانًا» . رَوَاهُ البُخَارِيّ",
-              "en": null,
+              "en": "Jubair-ibn-Muṭʿim ﵁ said, 'Whilst I was walking with his majesty on our return from the battle of Hunain, the Arabs were pressing him, asking him for some of the plunder, and continued pressing upon him as far as the Samurah tree, the thorns of which carried off his clothes. And his majesty stopped, and said, Give me my clothes; if I had camels and goats equal in number to the trees of this forest, verily, I would give them to you; after that you would not find me parsimonious, nor a liar, nor a fearer of poverty.'",
               "en2": "Jubayr ibn Muṭʿim ﵁ narrates that while he was travelling with the Messenger of Allah ﷺ on his return from Ḥunayn, some Bedouins kept clinging to him and asking, until they forced him towards a samurah tree, and it snatched his cloak. The Prophet ﷺ stopped and said: 'Give me my cloak! If I had as many livestock as these thorny trees, I would divide them among you, and then you would not find me miserly, nor a liar, nor a coward.'",
               "note": "Mishkāt report 5807 · Ṣaḥīḥ al-Bukhārī"
             },
             {
-              "n": 7,
+              "n": 6,
               "ar": "وَعَنْهُ قَالَ: لَمْ يَكُنْ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَاحِشًا وَلَا لَعَّانًا وَلَا سَبَّابًا كَانَ يَقُولُ عِنْدَ الْمَعْتَبَةِ: «مَا لَهُ تربَ جَبينُه؟» . رَوَاهُ البُخَارِيّ",
-              "en": null,
+              "en": "Anas ﵁ said, 'The Prophet was not an obscene talker, nor a curser, nor an abuser; when angry he would say, What has come to him? May his forehead be smeared with dust.'",
               "en2": "Anas ibn Mālik ﵁ narrates: 'The Messenger of Allah ﷺ was neither obscene, nor a curser, nor an abuser. When he reproached someone, he would say: \"What is the matter with him? May his forehead be dusty!\"'",
               "note": "Mishkāt report 5811 · Ṣaḥīḥ al-Bukhārī"
             },
             {
-              "n": 8,
+              "n": 7,
               "ar": "وَعَنْ أَبِي هُرَيْرَةَ قَالَ: قِيلَ: يَا رَسُولَ اللَّهِ ادْعُ عَلَى الْمُشْرِكِينَ. قَالَ: «إِنِّي لَمْ أُبْعَثْ لَعَّانًا وَإِنَّمَا بُعِثْتُ رَحْمَةً» . رَوَاهُ مُسْلِمٌ",
-              "en": null,
+              "en": "Abū Hurairah ﵁ said, 'It was said to the Prophet, O messenger of God, curse the infidels, that they may all be destroyed. His majesty said, I was not sent for this, nor was I sent but as a mercy to mankind.'",
               "en2": "Abū Hurairah ﵁ narrates: 'It was said: \"O Messenger of Allah ﷺ, invoke a curse upon the polytheists.\" He said: \"I was not sent as a curser; I was sent only as a mercy.\"'",
               "note": "Mishkāt report 5812 · Ṣaḥīḥ Muslim"
             },
             {
-              "n": 9,
+              "n": 8,
               "ar": "وَعَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ قَالَ: كَانَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَشَدَّ حَيَاءً مِنَ الْعَذْرَاءِ فِي خِدْرِهَا فَإِذَا رَأَى شَيْئًا يَكْرَهُهُ عَرَفْنَاهُ فِي وَجْهِهِ. مُتَّفَقٌ عَلَيْهِ",
               "en": "Abū Saʿīd al-Khudrī ﵁ said, 'The Prophet was more modest than a virgin behind her curtain; and when he saw anything that displeased him, we knew it by his countenance.'",
               "en2": "Abū Saʿīd al-Khudrī ﵁ narrates: 'The Prophet ﷺ was more bashful than a maiden in her private chamber; and if he saw something he disliked, we knew it from his face.'",
               "note": "Mishkāt report 5813 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
-              "n": 10,
+              "n": 9,
               "ar": "وَعَنْهَا قَالَتْ: إِنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَمْ يَكُنْ يَسْرُدُ الْحَدِيثَ كَسَرْدِكُمْ كَانَ يُحَدِّثُ حَدِيثًا لَوْ عَدَّهُ الْعَادُّ لَأَحْصَاهُ. مُتَّفق عَلَيْهِ",
               "en": "ʿĀʾeshah ﵂ said, 'His majesty's speech was not hurried like yours; but his words were distinct and clear, so that if any one wished to count them, he might have done so.'",
               "en2": "ʿĀʾishah ﵂ narrates: 'The Messenger of Allah ﷺ did not speak in a continuous stream, as you do; he spoke in such a way that anyone who wished to count his words could have counted them.'",
               "note": "Mishkāt report 5815 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
-              "n": 11,
+              "n": 10,
               "ar": "وَعَنْ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا قَالَتْ: لَمْ يَكُنْ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَاحِشًا وَلَا مُتَفَحِّشًا وَلَا سَخَّابًا فِي الْأَسْوَاقِ وَلَا يَجْزِي بِالسَّيِّئَةِ السَّيِّئَةَ وَلَكِنْ يَعْفُو وَيَصْفَحُ. رَوَاهُ التِّرْمِذِيّ",
               "en": "ʿĀʾeshah ﵂ said, 'The Prophet was not foul-mouthed, nor did he use coarse language, nor did he shout in the markets; nor did he return evil for evil; but he pardoned and overlooked.'",
               "en2": "ʿĀʾishah ﵂ narrates: 'The Messenger of Allah ﷺ was neither obscene nor given to obscenity, nor clamorous in the markets. He did not repay an evil deed with an evil deed, but pardoned and overlooked.'",
               "note": "Mishkāt report 5820 · Jāmiʿ al-Tirmidhī"
             },
             {
-              "n": 12,
+              "n": 11,
               "ar": "وَعَنْ أَنَسٍ يُحَدِّثَ عَنِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنَّهُ كانَ يعودُ المريضَ وَيتبع الْجِنَازَة ويجيب دَعْوَة الْمَمْلُوك ويركب الْحمار لَقَدْ رَأَيْتُهُ يَوْمَ خَيْبَرَ عَلَى حِمَارٍ خِطَامُهُ لِيفٌ. رَوَاهُ ابْنُ مَاجَهْ وَالْبَيْهَقِيُّ فِي «شُعَبِ الْإِيمَانِ»",
-              "en": null,
+              "en": "Anas ﵁ said, 'Verily, his majesty would visit the sick, and follow biers, and would accept the invitation of a slave to dinner, and would ride upon an ass: verily, I saw him riding upon an ass, on the day of the battle of Khaibar, the bridle of which was made of the bark of the date.'",
               "en2": "Anas ibn Mālik ﵁ narrates concerning the Prophet ﷺ that he used to visit the sick, follow funeral processions, accept the invitation of a slave, and ride a donkey: 'I saw him on the day of Khaybar on a donkey with a halter of palm fibre.'",
               "note": "Mishkāt report 5821 · Sunan Ibn Mājah & al-Bayhaqī (Shuʿab al-Īmān)"
             },
             {
-              "n": 13,
+              "n": 12,
               "ar": "وَعَنْ عَائِشَةَ قَالَتْ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَخْصِفُ نَعْلَهُ وَيَخِيطُ ثَوْبَهُ وَيَعْمَلُ فِي بَيْتِهِ كَمَا يَعْمَلُ أَحَدُكُمْ فِي بَيْتِهِ وَقَالَتْ: كَانَ بَشَرًا مِنَ الْبَشَرِ يَفْلِي ثَوْبَهُ وَيَحْلُبُ شَاتَهُ وَيَخْدُمُ نَفْسَهُ. رَوَاهُ التِّرْمِذِيُّ",
-              "en": null,
+              "en": "ʿĀʾishah ﵂ said, 'His majesty used to sew his own shoes and clothes, and worked in his house, as one of you does; and he was the most cheerful of mankind, and used to pick off anything that fell upon his clothes, and he used to milk his own goats, and wait upon himself.'",
               "en2": "ʿĀʾishah ﵂ narrates: 'The Messenger of Allah ﷺ used to mend his sandals, sew his garment and work in his house as one of you works in his house.' And she said: 'He was a human being among human beings: he would pick over his garment, milk his goat and serve himself.'",
               "note": "Mishkāt report 5822 · Jāmiʿ al-Tirmidhī"
             },
             {
-              "n": 14,
+              "n": 13,
               "ar": "عَنْ عَمْرِو بْنِ سَعِيدٍ عَنْ أَنَسٍ قَالَ: مَا رَأَيْتُ أَحَدًا كَانَ أَرْحَمَ بِالْعِيَالِ مِنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَانَ إِبْرَاهِيمُ ابْنُهُ مُسْتَرْضَعًا فِي عَوَالِي الْمَدِينَةِ فَكَانَ يَنْطَلِقُ وَنَحْنُ مَعَهُ فَيَدْخُلُ الْبَيْتَ وَإِنَّهُ لَيُدَّخَنُ وَكَانَ ظِئْرُهُ قَيْنًا فَيَأْخُذُهُ فَيُقَبِّلُهُ ثُمَّ يَرْجِعُ. قَالَ عَمْرٌو: فَلَمَّا تُوُفِّيَ إِبْرَاهِيمُ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «إِنَّ إِبْرَاهِيمَ ابْنِي وَإِنَّهُ مَاتَ فِي الثَّدْيِ وَإِنَّ لَهُ لَظِئْرَيْنِ تُكْمِلَانِ رَضَاعَهُ فِي الْجَنَّةِ» . رَوَاهُ مُسْلِمٌ",
-              "en": null,
+              "en": "ʿAmr-ibn-Saʿīd relates from Anas ﵁, who said, 'I never saw any one more affectionate towards his family than the Prophet. The son of his majesty, Ibrahim, had a nurse who lived near the Masjid of the Banī Quraiẓah, and his majesty used to go to see him, and have him taken care of, when we were along with him; and he would go into the nurse's house, which was full of smoke, from her husband's being a blacksmith; and his majesty would take the child … and after that would return to his noble dwelling. And when Ibrahim died his majesty said, He died whilst at the breast; verily, there are nurses for him in paradise, that will suckle him.'",
               "en2": "Anas ibn Mālik ﵁ narrates, from ʿAmr ibn Saʿīd: 'I never saw anyone more merciful towards his family than the Messenger of Allah ﷺ. His son Ibrāhīm was being nursed in the upper district of Madinah, and he would set out, and we with him, and enter the house, which would be full of smoke, for the child’s foster-father was a blacksmith. He would take the child and kiss him, then return.' ʿAmr said: 'When Ibrāhīm died, the Messenger of Allah ﷺ said: \"Ibrāhīm is my son, and he died while still at the breast; he has two nurses who will complete his nursing in Paradise.\"'",
               "note": "Mishkāt report 5831 · Ṣaḥīḥ Muslim"
             },
             {
-              "n": 15,
+              "n": 14,
               "ar": "وَعَن عَليّ أَنَّ يهوديّاً يُقَالُ لَهُ: فُلَانٌ حَبْرٌ كَانَ لَهُ عَلَى رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي دَنَانِيرُ فَتَقَاضَى النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَقَالَ لَهُ: «يَا يَهُودِيُّ مَا عِنْدِي مَا أُعْطِيكَ» . قَالَ: فَإِنِّي لَا أُفَارِقُكَ يَا مُحَمَّدُ حَتَّى تُعْطِيَنِي. فَقَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «إِذًا أَجْلِسُ مَعَكَ» فَجَلَسَ مَعَهُ فَصَلَّى رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ الظُّهْرَ وَالْعَصْرَ وَالْمَغْرِبَ وَالْعِشَاءَ الْآخِرَةَ وَالْغَدَاةَ وَكَانَ أَصْحَابِ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَتَهَدَّدُونَهُ وَيَتَوَعَّدُونَهُ فَفَطِنَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ مَا الَّذِي يَصْنَعُونَ بِهِ. فَقَالُوا: يَا رَسُولَ اللَّهِ يَهُودِيٌّ يَحْبِسُكَ فَقَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «مَنَعَنِي رَبِّي أَنْ أَظْلِمَ مُعَاهِدًا وَغَيْرَهُ» فَلَمَّا تَرَجَّلَ النَّهَارُ قَالَ الْيَهُودِيُّ: أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّكَ رَسُولُ اللَّهِ وَشَطْرُ مَالِي فِي سبيلِ الله أَمَا وَاللَّهِ مَا فَعَلْتُ بِكَ الَّذِي فَعَلْتُ بِكَ إِلَّا لِأَنْظُرَ إِلَى نَعْتِكَ فِي التَّوْرَاةِ: مُحَمَّدُ بْنُ عَبْدِ اللَّهِ مَوْلِدُهُ بِمَكَّةَ وَمُهَاجَرُهُ بِطَيْبَةَ وَمُلْكُهُ بِالشَّامِ لَيْسَ بِفَظٍّ وَلَا غَلِيظٍ وَلَا سَخَّابٍ فِي الْأَسْوَاقِ وَلَا مُتَزَيٍّ بِالْفُحْشِ وَلَا قَوْلِ الْخَنَا أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَنَّكَ رَسُولُ اللَّهِ وَهَذَا مَالِي فَاحْكُمْ فِيهِ بِمَا أَرَاكَ اللَّهُ وَكَانَ الْيَهُودِيُّ كَثِيرَ المالِ. رَوَاهُ الْبَيْهَقِيّ فِي «دَلَائِل النُّبُوَّة»",
-              "en": null,
+              "en": "ʿAlī ﵁ said, 'Verily, a Jew was called a clever man, and the Prophet was indebted to him some Dinars; and he demanded them from his majesty, who said, O Jew, I have nothing to give you. Then the Jew said, Verily, O Musleman, I do not quit you till you pay me. And the Prophet said to him, Since you will not quit me till I pay you, I will sit with you. Then he sat with the Jew, and performed the prayers of noon, afternoon, sunset, evening and morning. And the companions threatened the Jew with denunciations; and his majesty was aware of what they were about with him. And the companions said, O messenger of God, has the Jew confined you? He said, My Lord forbade me injuring a covenanted person, or any other. Then, when it was morning, the Jew said, I bear witness that there is no God but God; and I bear witness that you are the messenger of God; and I bestow half of my property in the road of God; I swear by God, beware, I did not do what I have done with you so harshly, but that I might see in you the description which is written of you in the bible, which is this: Muḥammad-ibn-ʿAbdullāh; his birth place is Mecca, and his flight from that is to the pure Medinah; and his sovereignty is in Syria; he is neither harsh in word nor disposition, nor a loud talker in bazaars, nor a vain or obscene speaker. I bear witness that there is no God but God, and that you are the messenger of God; and my property is at your disposal, order in it as you please.' ʿAlī says, 'The Jew was very rich.'",
               "en2": "Sayyidunā ʿAlī ﵁ narrates: 'A Jewish rabbi, called so-and-so, was owed some dīnārs by the Messenger of Allah ﷺ, and he demanded payment from the Prophet ﷺ. He said to him: \"O Jew, I have nothing with which to pay you.\" The man said: \"Then I shall not leave you, O Muhammad, until you pay me.\" The Messenger of Allah ﷺ said: \"Then I shall sit with you.\" So he sat with him, and the Messenger of Allah ﷺ prayed ẓuhr, ʿaṣr, maghrib, ʿishāʾ and fajr there. His Companions were threatening and warning the man, and the Messenger of Allah ﷺ realised what they were doing to him. They said: \"O Messenger of Allah, a Jew is detaining you!\" The Messenger of Allah ﷺ said: \"My Lord has forbidden me to wrong a person under covenant, or anyone else.\" When the day had risen high, the Jew said: \"I bear witness that there is no god but Allah, and I bear witness that you are the Messenger of Allah, and half of my wealth is in the way of Allah. By Allah, I did to you what I did only so as to see your description in the Torah: Muhammad son of ʿAbdullāh, his birthplace Makkah, his place of emigration Ṭaybah, his dominion in al-Shām; not harsh, not coarse, not clamorous in the markets, not adorned with indecency or foul speech. I bear witness that there is no god but Allah and that you are the Messenger of Allah. This is my wealth: judge concerning it as Allah shows you.\"' The Jew was a man of great wealth.",
               "note": "Mishkāt report 5832 · Dalāʾil al-Nubuwwah (al-Bayhaqī)"
             },
             {
-              "n": 16,
+              "n": 15,
               "ar": "وَعَنْ عَلِيٍّ أَنَّ أَبَا جَهْلٍ قَالَ لِلنَّبِيِّ صلى الله عَلَيْهِ وَسلم: إنَّا لَا نُكذِّبكَ ولكنْ نكذِّبُ بِمَا جئتَ بِهِ فَأَنْزَلَ اللَّهُ تَعَالَى فِيهِمْ: [فَإِنَّهُمْ لَا يُكَذِّبُونَكَ ولكنَّ الظالمينَ بآياتِ اللَّهِ يَجْحَدونَ] رَوَاهُ التِّرْمِذِيّ",
-              "en": null,
+              "en": "ʿAlī-ibn-Abī-Ṭālib ﵁ said, 'Verily, Abū-Jahl said to his majesty, I do not consider you a liar; but I deny that you have brought the book and the laws. Then God sent this revelation: Verily, they do not accuse thee of falsehood; but the ungodly contradict the signs of God.'",
               "en2": "Sayyidunā ʿAlī ﵁ narrates: 'Abū Jahl said to the Prophet ﷺ: \"We do not call you a liar, but we deny what you have brought.\" So Allah the Exalted revealed concerning them: \"For indeed they do not call you a liar, but the wrongdoers reject the signs of Allah\" (Qurʾān 6:33).'",
               "note": "Mishkāt report 5834 · Jāmiʿ al-Tirmidhī"
             }
@@ -3426,93 +3412,93 @@
             },
             {
               "ar": "اللَّهُمَّ إِنِّي أَسْأَلُكَ بِحَقِّ مَا حَمَلَ كُرْسِيُّكَ مِنْ عَظَمَتِكَ وَقُدْرَتِكَ وَجَلَالِكَ وَبَهَائِكَ وَسُلْطَانِكَ، وَبِحَقِّ اسْمِكَ المَخْزُونِ المَكْنُونِ الَّذِي سَمَّيْتَ بِهِ نَفْسَكَ، وَأَنْزَلْتَهُ فِي كِتَابِكَ، وَاسْتَأثَرْتَ بِهِ فِي عِلْمِ الغَيْبِ عِنْدَكَ، أَنْ تُصَلِّيَ عَلَى سَيِّدِنَا مُحَمَّدٍ عَبْدِكَ وَرَسُولِكَ.\nوَأَسْأَلُكَ بِاسْمِكَ الَّذِي إِذَا دُعِيتَ بِهِ أَجَبْتَ، وَإِذَا سُئِلْتَ بِهِ أَعْطَيْتَ، وَأَسْأَلُكَ بِاسْمِكَ الَّذِي وَضَعْتَهُ عَلَى اللَّيْلِ فَأَظْلَمَ، وَعَلَى النَّهَارِ فَاسْتَنَارَ، وَعَلَى السَّمَاوَاتِ فَاسْتَقَلَّتْ، وَعَلَى الأَرْضِ فَاسْتَقَرَّتْ، وَعَلَى الجِبَالِ فَأَرْسَتْ، وَعَلَى الصَّعْبَةِ فَذَلَّتْ، وَعَلَى مَاءِ السَّمَاءِ فَسَكَبَتْ، وَعَلَى مَاءِ السَّحَابِ فَأَمْطَرَتْ.\nوَأَسْأَلُكَ بِمَا سَأَلَكَ بِهِ سَيِّدُنَا مُحَمَّدٌ نَّبِيُّكَ.\nوَأَسْأَلُكَ بِمَا سَأَلَكَ بِهِ سَيِّدُنَا آدَمُ نَبِيُّكَ.\nوَأَسْأَلُكَ بِمَا سَأَلَكَ بِهِ أَنْبِيَاؤُكَ وَرُسُلُكَ، وَمَلَائِكَتُكَ المُقَرَّبُونَ، صَلَّى اللَّهُ عَلَيْهِمْ أَجْمَعِينَ.\nوَأَسْأَلُكَ بِمَا سَأَلَكَ بِهِ أَهْلُ طَاعَتِكَ أَجْمَعِينَ، أَنْ تُصَلِّي عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا خَلَقْتَ مِنْ قَبْلِ أَنْ تَكُونَ السَّمَاءُ مَبْنِيَّةً، وَالأَرْضُ مَدْحِيَّةً، وَالجِبَالُ مَرْسِيَّةً، وَالعُيُونُ مُنْفَجِرَةً، وَالأَنْهَارُ مُنْهَمِرَةً، وَالشَّمْسُ مُضْحِيَّةً، وَالقَمَرُ مُضِيئًا، وَالكَوَاكِبُ مُنِيرَةً.",
-              "en": "This is for any one who recites it every Friday the whole of it, his is this grace; by Allah, who is the source of Grace and all Powerful; and in another narrative.",
-              "en2": "This grace belongs to anyone who recites it in full every Friday — by Allah, the source of grace, the All-Powerful. And in another narration:"
+              "en": "For, O Allah, I beseech Thee by the truth that sustains Thy Throne, of Thy Power and Thy Glory and Thy Grandeur and Thy Splendor and by Thy Power, and by the Truth of Thy Name so treasured, so precious, by which Thou hast Named Thyself, and hast inserted it in Thy Book, and hast reserved it for Thyself in the Secret knowledge that is with Thyself; yes, that thou wilt bless Thy servant and Apostle Muhammad; and I beseech Thee by Thy Name by which if invoked Thou answers, and by which if I entreat Thee by it, Thou grantest my request; and I beseech Thee by the Name which if Thou dost use it with the night, it becomes dark; I and if with the daylight, it becomes bright; or with the heavens, they rise aloft; or with the earth, she stands firm; or with the mountains, they range in peaks; or whatever is hard becomes simple; or with the water of heaven, it gives rain; or with the clouds, they send a shower; and I beseech Thee by that Name wherewith our master Muhammad Thy Prophet entreated Thee; and I beseech Thee by that wherewith our master Adam Thy Prophet entreated Thee, and I beseech Thee by that wherewith Thy Prophets and Apostles and Thy closest Angels entreated Thee, O Allah, bless them all; and I beseech Thee by that wherewith the People of Thy Service one and all entreat Thee, that Thou wouldest bless our master Muhammad and the Family of our master Muhammad throughout all that Thou hadest created; before the heavens were firm or the earth wide, or the mountains firm, or the fountains abundant, or the rivers full of water, or the sun brilliant, or the moon shining, or the stars gave their light.\n\nThis is for any one who recites it every Friday the whole of it, his is this grace; by Allah, who is the source of Grace and all Powerful; and in another narrative.",
+              "en2": "For, O Allah, I beseech You by the truth that sustains Your Throne, by Your power, glory, grandeur, and splendour, and by the truth of Your treasured, precious name by which You named Yourself, which You placed in Your Book and reserved for Yourself in the hidden knowledge that is with You — that You bless Your servant and messenger Muhammad. And I beseech You by Your name which, when invoked, You answer, and when asked by it, You grant; and I beseech You by the name which, when You speak it to the night, it darkens; to the daylight, it brightens; to the heavens, they rise aloft; to the earth, it stands firm; to the mountains, they rise in peaks; by which whatever is hard becomes easy; by which heaven's water gives rain and the clouds pour showers. And I beseech You by the name by which our master Muhammad, Your prophet, entreated You; and I beseech You by that by which our master Adam, Your prophet, entreated You; and I beseech You by that by which Your prophets, Your messengers, and Your nearest angels entreated You — O Allah, bless them all; and I beseech You by that by which all the people of Your service entreat You — that You bless our master Muhammad and the family of our master Muhammad through all You created before the heavens stood firm, the earth spread wide, the mountains stood fast, the springs flowed abundantly, the rivers ran full, the sun shone brilliant, the moon gave light, or the stars gleamed. This grace belongs to anyone who recites it in full every Friday — by Allah, the source of grace, the All-Powerful. And in another narration:"
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ عِلْمِكَ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ حِلْمِكَ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا أَحْصَاهُ اللَّوْحُ المَحْفُوظُ مِنْ عِلْمِكَ.\nاللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا جَرَى بِهِ القَلَمُ فِي أُمِّ الكِتابِ عِنْدَكَ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ مِلْءَ سَمَاوَاتِكَ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ مِلْءَ أَرْضِكَ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ مِلْءَ مَا أَنْتَ خَالِقُهُ مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
-              "en": "For, O Allah, I beseech Thee by the truth that sustains Thy Throne, of Thy Power and Thy Glory and Thy Grandeur and Thy Splendor and by Thy Power, and by the Truth of Thy Name so treasured, so precious, by which Thou hast Named Thyself, and hast inserted it in Thy Book, and hast reserved it for Thyself in the Secret knowledge that is with Thyself; yes, that thou wilt bless Thy servant and Apostle Muhammad; and I beseech Thee by Thy Name by which if invoked Thou answers, and by which if I entreat Thee by it, Thou grantest my request; and I beseech Thee by the Name which if Thou dost use it with the night, it becomes dark; I and if with the daylight, it becomes bright; or with the heavens, they rise aloft; or with the earth, she stands firm; or with the mountains, they range in peaks; or whatever is hard becomes simple; or with the water of heaven, it gives rain; or with the clouds, they send a shower; and I beseech Thee by that Name wherewith our master Muhammad Thy Prophet entreated Thee; and I beseech Thee by that wherewith our master Adam Thy Prophet entreated Thee, and I beseech Thee by that wherewith Thy Prophets and Apostles and Thy closest Angels entreated Thee, O Allah, bless them all; and I beseech Thee by that wherewith the People of Thy Service one and all entreat Thee, that Thou wouldest bless our master Muhammad and the Family of our master Muhammad throughout all that Thou hadest created; before the heavens were firm or the earth wide, or the mountains firm, or the fountains abundant, or the rivers full of water, or the sun brilliant, or the moon shining, or the stars gave their light.\n\nO Allah, bless our master Muhammad, and the Family of our master Muhammad in all Thy knowledge; and bless our master Muhammad, and the Family of our master Muhammad in all Thy Patience; and bless our master Muhammad and the Family of our master Muhammad in all the decrees of the Table preserved in Thy knowledge.",
-              "en2": "For, O Allah, I beseech You by the truth that sustains Your Throne, by Your power, glory, grandeur, and splendour, and by the truth of Your treasured, precious name by which You named Yourself, which You placed in Your Book and reserved for Yourself in the hidden knowledge that is with You — that You bless Your servant and messenger Muhammad. And I beseech You by Your name which, when invoked, You answer, and when asked by it, You grant; and I beseech You by the name which, when You speak it to the night, it darkens; to the daylight, it brightens; to the heavens, they rise aloft; to the earth, it stands firm; to the mountains, they rise in peaks; by which whatever is hard becomes easy; by which heaven's water gives rain and the clouds pour showers. And I beseech You by the name by which our master Muhammad, Your prophet, entreated You; and I beseech You by that by which our master Adam, Your prophet, entreated You; and I beseech You by that by which Your prophets, Your messengers, and Your nearest angels entreated You — O Allah, bless them all; and I beseech You by that by which all the people of Your service entreat You — that You bless our master Muhammad and the family of our master Muhammad through all You created before the heavens stood firm, the earth spread wide, the mountains stood fast, the springs flowed abundantly, the rivers ran full, the sun shone brilliant, the moon gave light, or the stars gleamed. O Allah, bless our master Muhammad and the family of our master Muhammad in all Your knowledge; bless our master Muhammad and the family of our master Muhammad in all Your patience; and bless our master Muhammad and the family of our master Muhammad in all the decrees of the Preserved Tablet in Your knowledge."
+              "en": "O Allah, bless our master Muhammad, and the Family of our master Muhammad in all Thy knowledge; and bless our master Muhammad, and the Family of our master Muhammad in all Thy Patience; and bless our master Muhammad and the Family of our master Muhammad in all the decrees of the Table preserved in Thy knowledge.\n\nO Allah, bless our master Muhammad and the Family of our master Muhammad in all that the Pen has entered in the original of the Book that is with Thee; and bless our master Muhammad and the Family of our master Muhammad throughout Thy heavens; and bless our master Muhammad and the Family of our master Muhammad throughout Thy earth; and bless our master Muhammad and the Family of our master Muhammad through all that Thou art creating, from the day that Thou didst create and world until the Day of Resurrection, every day a thousand times.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad in all Your knowledge; bless our master Muhammad and the family of our master Muhammad in all Your patience; and bless our master Muhammad and the family of our master Muhammad in all the decrees of the Preserved Tablet in Your knowledge. O Allah, bless our master Muhammad and the family of our master Muhammad in all that the Pen has entered in the original Book that is with You; bless our master Muhammad and the family of our master Muhammad throughout Your heavens; bless our master Muhammad and the family of our master Muhammad throughout Your earth; and bless our master Muhammad and the family of our master Muhammad in all You are creating, from the day You created the world until the Day of Resurrection — every day a thousand times."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ صُفُوفِ المَلَائِكَةِ وَتَسْبِيحِهِمْ وَتَقْدِيسِهِمْ، وَتَحْمِيدِهِمْ وَتَمْجِيدِهِمْ، وَتَكْبِيرِهِمْ وَتَهْلِيلِهِمْ، مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
-              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad in all that the Pen has entered in the original of the Book that is with Thee; and bless our master Muhammad and the Family of our master Muhammad throughout Thy heavens; and bless our master Muhammad and the Family of our master Muhammad throughout Thy earth; and bless our master Muhammad and the Family of our master Muhammad through all that Thou art creating, from the day that Thou didst create and world until the Day of Resurrection, every day a thousand times.",
-              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad in all that the Pen has entered in the original Book that is with You; bless our master Muhammad and the family of our master Muhammad throughout Your heavens; bless our master Muhammad and the family of our master Muhammad throughout Your earth; and bless our master Muhammad and the family of our master Muhammad in all You are creating, from the day You created the world until the Day of Resurrection — every day a thousand times."
-            },
-            {
-              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ السَّحَابِ الجَارِيَةِ، وَالرِّيَاحِ الذَّارِيَةِ، مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
               "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad throughout the ranks of angels and their songs of praise, and their holiness and honour and glory and their declaration of Thy Greatness and their pronouncement of Thy Unity from the day that Thou didst create the world until the Day of Resurrection.",
               "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad through all the ranks of angels — their songs of praise, their holiness, honour, and glory, their proclamation of Your greatness and Your oneness — from the day You created the world until the Day of Resurrection."
             },
             {
-              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ كُلِّ قَطْرَةٍ تَقْطُرُ مِنْ سَمَاوَاتِكَ إِلَى أَرْضِكَ، وَمَا تَقْطُرُ إِلَى يَوْمِ القِيَامَةِ.",
+              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ السَّحَابِ الجَارِيَةِ، وَالرِّيَاحِ الذَّارِيَةِ، مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
               "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad through all the clouds that pass and the winds that blow, from the day that Thou didst create the world, until the Day of Resurrection.",
               "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad in all the passing clouds and blowing winds, from the day You created the world until the Day of Resurrection."
             },
             {
-              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا هَبَّتِ الرِّيَاحُ، وَعَدَدَ مَا تَحَرَّكَتِ الأَشْجَارُ وَالأَوْرَاقُ وَالزَّرْعُ، وَجَمِيعِ مَا خَلَقْتَ فِي قَرَارِ الحِفْظِ، مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
+              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ كُلِّ قَطْرَةٍ تَقْطُرُ مِنْ سَمَاوَاتِكَ إِلَى أَرْضِكَ، وَمَا تَقْطُرُ إِلَى يَوْمِ القِيَامَةِ.",
               "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad in all the drops of rain that may or may not drop from Thy heavens upon Thy earth, from the day that Thou didst create the world until the Day of Resurrection.",
               "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad in all the drops of rain that fall or do not fall from Your heavens upon Your earth, from the day You created the world until the Day of Resurrection."
             },
             {
-              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ القَطْرِ وَالمَطَرِ وَالنَّبَاتِ، مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
+              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا هَبَّتِ الرِّيَاحُ، وَعَدَدَ مَا تَحَرَّكَتِ الأَشْجَارُ وَالأَوْرَاقُ وَالزَّرْعُ، وَجَمِيعِ مَا خَلَقْتَ فِي قَرَارِ الحِفْظِ، مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
               "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad it all the winds that blow, and in all that stir the trees and the leaves and seed, and all that Thou hast created in the Abode of Safety, from the day that Thou didst create the world to the Day of Resurrection.",
               "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad in all the winds that blow and all that stirs the trees, the leaves, and the seeds, and in all You created in the Abode of Safety, from the day You created the world until the Day of Resurrection."
             },
             {
-              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ النُّجُومِ فِي السَّمَاءِ، مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
+              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ القَطْرِ وَالمَطَرِ وَالنَّبَاتِ، مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
               "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad in ai} the dew and rain and plants from the day that Thou didst create the world till the Day of Resurrection.",
               "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad in all the dew, rain, and plants, from the day You created the world until the Day of Resurrection."
             },
             {
-              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا خَلَقْتَ فِي بِحَارِكَ السَّبْعَةِ مِمَّا لَا يَعْلَمُ عِلْمَهُ إِلَّا أَنْتَ، وَمَا أَنْتَ خَالِقُهُ إِلَى يَوْمِ القِيَامَةِ.",
+              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ النُّجُومِ فِي السَّمَاءِ، مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
               "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad through all the stars in heaven from the day that Thou didst create the world to the Day of Resurrection.",
               "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad through all the stars in heaven, from the day You created the world until the Day of Resurrection."
             },
             {
-              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ الرَّمْلِ وَالحَصَى، فِي مَشَارِقِ الأَرْضِ وَمَغَارِبِهَا.",
+              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا خَلَقْتَ فِي بِحَارِكَ السَّبْعَةِ مِمَّا لَا يَعْلَمُ عِلْمَهُ إِلَّا أَنْتَ، وَمَا أَنْتَ خَالِقُهُ إِلَى يَوْمِ القِيَامَةِ.",
               "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad in all that Thou hast created in Thy seven seas of what there is no one who has knowledge of it, except Thou Alone; and that which Thou art creating until the Day of Resurrection.",
               "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad in all You created in Your seven seas — which no one knows but You alone — and in all You are creating until the Day of Resurrection."
             },
             {
-              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا خَلَقْتَ مِنَ الجِنِّ وَالإِنْسِ، وَمَا أَنْتَ خَالِقُهُ إِلَى يَوْمِ القِيَامَةِ.",
+              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ الرَّمْلِ وَالحَصَى، فِي مَشَارِقِ الأَرْضِ وَمَغَارِبِهَا.",
               "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad through all the sands and stony places in the Eastern and Western regions of the earth.",
               "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad through all the sands and stony places in the eastern and western regions of the earth."
             },
             {
-              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ أَنْفَاسِهِمْ وَأَلْفَاظِهِمْ وَأَلْحَاظِهِمْ مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
+              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا خَلَقْتَ مِنَ الجِنِّ وَالإِنْسِ، وَمَا أَنْتَ خَالِقُهُ إِلَى يَوْمِ القِيَامَةِ.",
               "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad through all that Thou hast created, of spirits and men, and all that Thou art creating until the Day of Resurrection.",
               "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad through all You created of spirits and men, and all You are creating until the Day of Resurrection."
             },
             {
-              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ طَيَرَانِ الجِنِّ وَالمَلَائِكَةِ، مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
+              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ أَنْفَاسِهِمْ وَأَلْفَاظِهِمْ وَأَلْحَاظِهِمْ مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
               "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad in all their souls and words and looks from the day that Thou didst create the world until the Day of Resurrection.",
               "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad in all their souls, words, and glances, from the day You created the world until the Day of Resurrection."
             },
             {
-              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ الطُّيُورِ وَالهَوَامِّ، وَعَدَدَ الوُحُوشِ وَالآكَامِ فِي مَشَارِقِ الأَرْضِ وَمَغَارِبِهَا.",
+              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ طَيَرَانِ الجِنِّ وَالمَلَائِكَةِ، مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
               "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad in every flight of spirits and angels from the day that Thou didst create the world to the Day of Resurrection.",
               "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad in every flight of spirits and angels, from the day You created the world until the Day of Resurrection."
             },
             {
-              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ الأَحْيَاءِ وَالأَمْوَاتِ.",
+              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ الطُّيُورِ وَالهَوَامِّ، وَعَدَدَ الوُحُوشِ وَالآكَامِ فِي مَشَارِقِ الأَرْضِ وَمَغَارِبِهَا.",
               "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad in all birds and invertebrates and wild beasts and rising hills in the Eastern and in the Western regions of the earth.",
               "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad in all birds, creeping things, and wild beasts, and all rising hills in the eastern and western regions of the earth."
             },
             {
-              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا أَظْلَمَ عَلَيْهِ اللَّيْلُ وَأَشْرَقَ عَلَيْهِ النَّهَارُ، مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
+              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ الأَحْيَاءِ وَالأَمْوَاتِ.",
               "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad through all the living and the dead.",
               "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad through all the living and the dead."
             },
             {
-              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَنْ يَمْشِي عَلَى رِجْلَيْنِ، وَمَنْ يَمْشِي عَلَى أَرْبَعٍ، مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
+              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَا أَظْلَمَ عَلَيْهِ اللَّيْلُ وَأَشْرَقَ عَلَيْهِ النَّهَارُ، مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
               "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad wherever the night has darkened or the light brightened, from the day that Thou didst create the world to the Day of Resurrection.",
               "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad wherever night has darkened or daylight brightened, from the day You created the world until the Day of Resurrection."
             },
             {
+              "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَنْ يَمْشِي عَلَى رِجْلَيْنِ، وَمَنْ يَمْشِي عَلَى أَرْبَعٍ، مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
+              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad for every creature that walks on two feet or four, from the day that Thou didst create the earth to the Day of Resurrection.",
+              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad for every creature that walks on two legs or four, from the day You created the earth until the Day of Resurrection."
+            },
+            {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَنْ صَلَّى عَلَيْهِ مِنَ الجِنِّ وَالإِنْسِ وَالمَلَائِكَةِ، مِنْ يَوْمِ خَلَقْتَ الدُّنْيَا إِلَى يَوْمِ القِيَامَةِ.",
-              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad for every creature that walks on two feet or four, from the day that Thou didst create the earth to the Day of Resurrection.\n\nO Allah, bless our master Muhammad and the Family of our master Muhammad in every one who blesses him, of spirits and men and angels, from the day that Thou didst create the world to the Day of Resurrection.\n\nO Allah, bless our master Muhammad. and the Family of our master Muhammad, for every one who blesses him.",
-              "en2": "O Allah, bless our master Muhammad and the family of our master Muhammad for every creature that walks on two legs or four, from the day You created the earth until the Day of Resurrection; and bless our master Muhammad and the family of our master Muhammad in everyone who blesses him, of spirits, men, and angels, from the day You created the world until the Day of Resurrection; and bless our master Muhammad and the family of our master Muhammad for everyone who blesses him."
+              "en": "O Allah, bless our master Muhammad and the Family of our master Muhammad in every one who blesses him, of spirits and men and angels, from the day that Thou didst create the world to the Day of Resurrection.\n\nO Allah, bless our master Muhammad. and the Family of our master Muhammad, for every one who blesses him.",
+              "en2": "And bless our master Muhammad and the family of our master Muhammad in everyone who blesses him, of spirits, men, and angels, from the day You created the world until the Day of Resurrection; and bless our master Muhammad and the family of our master Muhammad for everyone who blesses him."
             },
             {
               "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ عَدَدَ مَنْ لَمْ يُصَلِّ عَلَيْهِ.",
@@ -7764,7 +7750,7 @@
       "author": "Imam Sharaf al-Dīn al-Būṣīrī ﵀",
       "author_dates": "608–694 AH / 1212–1294 CE",
       "description_en": "The most universally acclaimed poem of prophetic praise ever composed in the Arabic language. Imam Sharaf al-Dīn Muḥammad ibn Saʿīd al-Būṣīrī al-Sanhājī ﵀ composed it after suffering a severe stroke that left him half-paralyzed; in a vision of true grace, the Prophet Muḥammad ﷺ touched him and draped his blessed mantle (burdah) over him, whereupon he awoke completely restored to health. Formally titled al-Kawākib al-Durriyyah fī Madḥ Khayr al-Bariyyah (“The Luminous Stars in Praise of the Best of Creation”), its 161 verses in the basīṭ metre are arranged in ten chapters spanning the poet’s spiritual longing, the warnings of the ego, the Prophet’s ﷺ birth and miracles, the Night Journey (Isrāʾ and Miʿrāj), his campaigns, and closing supplication.",
-      "source_en": "Arabic: the received classical printed text of the Burdah, fully vocalized, in the 161-verse recension ending with the verse of the Family, Companions, and Successors (v. 160–161). The seven supplementary verses and subsequent refrains added in later centuries are identified as distinct and omitted to preserve the author's original text. English translation: Sir J. W. Redhouse, published in W. A. Clouston (ed.), Arabian Poetry for English Readers (Glasgow, 1881), pp. 319–344, in the public domain. A modern simplification in present-day English accompanies each verse as a reading aid.",
+      "source_en": "Arabic: the received classical printed text of the Burdah, fully vocalized, in the 161-verse recension ending with the verse of the Family, Companions, and Successors (v. 160–161). The seven supplementary verses and subsequent refrains added in later centuries are identified as distinct and omitted to preserve the author's original text. English translation: Sir J. W. Redhouse, published in W. A. Clouston (ed.), Arabian Poetry for English Readers (Glasgow, 1881), pp. 319–344, in the public domain. A modern simplification in present-day English accompanies each verse as a reading aid. The English of the Opening Chorus (the refrain) is not Redhouse's: it is an original rendering for this edition.",
       "audio": [],
       "sections": [
         {
