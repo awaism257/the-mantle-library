@@ -7375,293 +7375,293 @@
             "timestamps": [
               {
                 "n": 1,
-                "start": 0.0,
-                "end": 8.67
+                "start": 0,
+                "end": 8.66
               },
               {
                 "n": 2,
-                "start": 8.67,
-                "end": 17.34
+                "start": 8.66,
+                "end": 17.2
               },
               {
                 "n": 3,
-                "start": 17.34,
-                "end": 26.02
+                "start": 17.2,
+                "end": 25.44
               },
               {
                 "n": 4,
-                "start": 26.02,
-                "end": 34.69
+                "start": 25.44,
+                "end": 34.0
               },
               {
                 "n": 5,
-                "start": 34.69,
-                "end": 43.36
+                "start": 34.0,
+                "end": 42.36
               },
               {
                 "n": 6,
-                "start": 43.36,
-                "end": 52.03
+                "start": 42.36,
+                "end": 50.88
               },
               {
                 "n": 7,
-                "start": 52.03,
-                "end": 60.71
+                "start": 50.88,
+                "end": 59.34
               },
               {
                 "n": 8,
-                "start": 60.71,
-                "end": 69.38
+                "start": 59.34,
+                "end": 68.08
               },
               {
                 "n": 9,
-                "start": 69.38,
-                "end": 78.05
+                "start": 68.08,
+                "end": 76.46
               },
               {
                 "n": 10,
-                "start": 78.05,
-                "end": 86.72
+                "start": 76.46,
+                "end": 84.9
               },
               {
                 "n": 11,
-                "start": 86.72,
-                "end": 95.4
+                "start": 84.9,
+                "end": 93.44
               },
               {
                 "n": 12,
-                "start": 95.4,
-                "end": 104.07
+                "start": 93.44,
+                "end": 102.22
               },
               {
                 "n": 13,
-                "start": 104.07,
-                "end": 112.74
+                "start": 102.22,
+                "end": 110.38
               },
               {
                 "n": 14,
-                "start": 112.74,
-                "end": 121.41
+                "start": 110.38,
+                "end": 118.88
               },
               {
                 "n": 15,
-                "start": 121.41,
-                "end": 130.09
+                "start": 118.88,
+                "end": 127.28
               },
               {
                 "n": 16,
-                "start": 130.09,
-                "end": 138.76
+                "start": 127.28,
+                "end": 135.64
               },
               {
                 "n": 17,
-                "start": 138.76,
-                "end": 147.43
+                "start": 135.64,
+                "end": 143.84
               },
               {
                 "n": 18,
-                "start": 147.43,
-                "end": 156.1
+                "start": 143.84,
+                "end": 152.42
               },
               {
                 "n": 19,
-                "start": 156.1,
-                "end": 164.78
+                "start": 152.42,
+                "end": 160.88
               },
               {
                 "n": 20,
-                "start": 164.78,
-                "end": 173.45
+                "start": 160.88,
+                "end": 169.2
               },
               {
                 "n": 21,
-                "start": 173.45,
-                "end": 182.12
+                "start": 169.2,
+                "end": 177.94
               },
               {
                 "n": 22,
-                "start": 182.12,
-                "end": 190.79
+                "start": 177.94,
+                "end": 186.5
               },
               {
                 "n": 23,
-                "start": 190.79,
-                "end": 199.47
+                "start": 186.5,
+                "end": 194.84
               },
               {
                 "n": 24,
-                "start": 199.47,
-                "end": 208.14
+                "start": 194.84,
+                "end": 203.1
               },
               {
                 "n": 25,
-                "start": 208.14,
-                "end": 216.81
+                "start": 203.1,
+                "end": 211.6
               },
               {
                 "n": 26,
-                "start": 216.81,
-                "end": 225.48
+                "start": 211.6,
+                "end": 220.22
               },
               {
                 "n": 27,
-                "start": 225.48,
-                "end": 234.16
+                "start": 220.22,
+                "end": 228.1
               },
               {
                 "n": 28,
-                "start": 234.16,
-                "end": 242.83
+                "start": 228.1,
+                "end": 237.14
               },
               {
                 "n": 29,
-                "start": 242.83,
-                "end": 251.5
+                "start": 237.14,
+                "end": 245.32
               },
               {
                 "n": 30,
-                "start": 251.5,
-                "end": 260.17
+                "start": 245.32,
+                "end": 253.56
               },
               {
                 "n": 31,
-                "start": 260.17,
-                "end": 268.84
+                "start": 253.56,
+                "end": 262.24
               },
               {
                 "n": 32,
-                "start": 268.84,
-                "end": 277.52
+                "start": 262.24,
+                "end": 270.48
               },
               {
                 "n": 33,
-                "start": 277.52,
-                "end": 286.19
+                "start": 270.48,
+                "end": 278.86
               },
               {
                 "n": 34,
-                "start": 286.19,
-                "end": 294.86
+                "start": 278.86,
+                "end": 287.28
               },
               {
                 "n": 35,
-                "start": 294.86,
-                "end": 303.53
+                "start": 287.28,
+                "end": 295.68
               },
               {
                 "n": 36,
-                "start": 303.53,
-                "end": 312.21
+                "start": 295.68,
+                "end": 304.4
               },
               {
                 "n": 37,
-                "start": 312.21,
-                "end": 320.88
+                "start": 304.4,
+                "end": 313.04
               },
               {
                 "n": 38,
-                "start": 320.88,
-                "end": 329.55
+                "start": 313.04,
+                "end": 322.06
               },
               {
                 "n": 39,
-                "start": 329.55,
-                "end": 338.22
+                "start": 322.06,
+                "end": 338.68
               },
               {
                 "n": 40,
-                "start": 338.22,
-                "end": 346.9
+                "start": 338.68,
+                "end": 347.36
               },
               {
                 "n": 41,
-                "start": 346.9,
-                "end": 355.57
+                "start": 347.36,
+                "end": 355.86
               },
               {
                 "n": 42,
-                "start": 355.57,
-                "end": 364.24
+                "start": 355.86,
+                "end": 364.42
               },
               {
                 "n": 43,
-                "start": 364.24,
-                "end": 372.91
+                "start": 364.42,
+                "end": 372.86
               },
               {
                 "n": 44,
-                "start": 372.91,
-                "end": 381.59
+                "start": 372.86,
+                "end": 381.34
               },
               {
                 "n": 45,
-                "start": 381.59,
-                "end": 390.26
+                "start": 381.34,
+                "end": 389.66
               },
               {
                 "n": 46,
-                "start": 390.26,
-                "end": 398.93
+                "start": 389.66,
+                "end": 398.34
               },
               {
                 "n": 47,
-                "start": 398.93,
-                "end": 407.6
+                "start": 398.34,
+                "end": 407.06
               },
               {
                 "n": 48,
-                "start": 407.6,
-                "end": 416.28
+                "start": 407.06,
+                "end": 415.62
               },
               {
                 "n": 49,
-                "start": 416.28,
-                "end": 424.95
+                "start": 415.62,
+                "end": 424.36
               },
               {
                 "n": 50,
-                "start": 424.95,
-                "end": 433.62
+                "start": 424.36,
+                "end": 432.94
               },
               {
                 "n": 51,
-                "start": 433.62,
-                "end": 442.29
+                "start": 432.94,
+                "end": 441.64
               },
               {
                 "n": 52,
-                "start": 442.29,
-                "end": 450.97
+                "start": 441.64,
+                "end": 450.26
               },
               {
                 "n": 53,
-                "start": 450.97,
-                "end": 459.64
+                "start": 450.26,
+                "end": 459.26
               },
               {
                 "n": 54,
-                "start": 459.64,
-                "end": 468.31
+                "start": 459.26,
+                "end": 468.16
               },
               {
                 "n": 55,
-                "start": 468.31,
-                "end": 476.98
+                "start": 468.16,
+                "end": 472.45
               },
               {
                 "n": 56,
-                "start": 476.98,
-                "end": 485.66
+                "start": 472.45,
+                "end": 476.74
               },
               {
                 "n": 57,
-                "start": 485.66,
-                "end": 494.33
+                "start": 476.74,
+                "end": 485.74
               },
               {
                 "n": 58,
-                "start": 494.33,
-                "end": 506.0
+                "start": 485.74,
+                "end": 501.74
               }
             ]
           }
@@ -7750,7 +7750,7 @@
       "author": "Imam Sharaf al-Dīn al-Būṣīrī ﵀",
       "author_dates": "608–694 AH / 1212–1294 CE",
       "description_en": "The most universally acclaimed poem of prophetic praise ever composed in the Arabic language. Imam Sharaf al-Dīn Muḥammad ibn Saʿīd al-Būṣīrī al-Sanhājī ﵀ composed it after suffering a severe stroke that left him half-paralyzed; in a vision of true grace, the Prophet Muḥammad ﷺ touched him and draped his blessed mantle (burdah) over him, whereupon he awoke completely restored to health. Formally titled al-Kawākib al-Durriyyah fī Madḥ Khayr al-Bariyyah (“The Luminous Stars in Praise of the Best of Creation”), its 161 verses in the basīṭ metre are arranged in ten chapters spanning the poet’s spiritual longing, the warnings of the ego, the Prophet’s ﷺ birth and miracles, the Night Journey (Isrāʾ and Miʿrāj), his campaigns, and closing supplication.",
-      "source_en": "Arabic: the received classical printed text of the Burdah, fully vocalized, in the 161-verse recension ending with the verse of the Family, Companions, and Successors (v. 160–161). The seven supplementary verses and subsequent refrains added in later centuries are identified as distinct and omitted to preserve the author's original text. English translation: Sir J. W. Redhouse, published in W. A. Clouston (ed.), Arabian Poetry for English Readers (Glasgow, 1881), pp. 319–344, in the public domain. A modern simplification in present-day English accompanies each verse as a reading aid. The English of the Opening Chorus (the refrain) is not Redhouse's: it is an original rendering for this edition.",
+      "source_en": "Arabic: the received classical printed text of the Burdah, fully vocalized, in the 161-verse recension ending with the verse of the Family, Companions, and Successors (v. 160–161). The order of the final two verses follows that of the accompanying recitation. The seven supplementary verses and subsequent refrains added in later centuries are identified as distinct and omitted to preserve the author's original text. English translation: Sir J. W. Redhouse, published in W. A. Clouston (ed.), Arabian Poetry for English Readers (Glasgow, 1881), pp. 319–344, in the public domain. A modern simplification in present-day English accompanies each verse as a reading aid. The English of the Opening Chorus (the refrain) is not Redhouse's: it is an original rendering for this edition.",
       "audio": [],
       "sections": [
         {
@@ -7846,68 +7846,68 @@
             "timestamps": [
               {
                 "n": 0,
-                "start": 0.0,
-                "end": 30.0
+                "start": 2.0,
+                "end": 32.0
               },
               {
                 "n": 1,
-                "start": 30.0,
-                "end": 46.5
+                "start": 32.0,
+                "end": 46.9
               },
               {
                 "n": 2,
-                "start": 46.5,
-                "end": 62.5
+                "start": 46.9,
+                "end": 61.8
               },
               {
                 "n": 3,
-                "start": 62.5,
-                "end": 77.0
+                "start": 61.8,
+                "end": 76.7
               },
               {
                 "n": 4,
-                "start": 77.0,
-                "end": 91.5
+                "start": 76.7,
+                "end": 91.6
               },
               {
                 "n": 5,
-                "start": 91.5,
+                "start": 91.6,
                 "end": 106.5
               },
               {
                 "n": 6,
                 "start": 106.5,
-                "end": 121.5
+                "end": 121.4
               },
               {
                 "n": 7,
-                "start": 121.5,
-                "end": 136.5
+                "start": 121.4,
+                "end": 136.3
               },
               {
                 "n": 8,
-                "start": 136.5,
-                "end": 151.0
+                "start": 136.3,
+                "end": 151.2
               },
               {
                 "n": 9,
-                "start": 151.0,
-                "end": 166.0
+                "start": 151.2,
+                "end": 166.1
               },
               {
                 "n": 10,
-                "start": 166.0,
-                "end": 180.5
+                "start": 166.1,
+                "end": 181.0
               },
               {
                 "n": 11,
-                "start": 180.5,
-                "end": 195.5
+                "start": 181.0,
+                "end": 195.9
               },
               {
                 "n": 12,
-                "start": 195.5,
-                "end": 210.5
+                "start": 195.9,
+                "end": 211.5
               }
             ]
           }
@@ -8017,87 +8017,87 @@
             "file": "audio/burdah/burdah_chapter_02.mp3",
             "title": "Chapter 2: Warning Against the Desires of the Soul",
             "artist": "Majlis Maulid al-Burdah",
-            "duration": 272.7,
+            "duration": 240.75,
             "timestamps": [
               {
                 "n": 13,
                 "start": 0.0,
-                "end": 17.04
+                "end": 14.82
               },
               {
                 "n": 14,
-                "start": 17.04,
-                "end": 34.09
+                "start": 14.82,
+                "end": 29.76
               },
               {
                 "n": 15,
-                "start": 34.09,
-                "end": 51.13
+                "start": 29.76,
+                "end": 44.36
               },
               {
                 "n": 16,
-                "start": 51.13,
-                "end": 68.17
+                "start": 44.36,
+                "end": 59.54
               },
               {
                 "n": 17,
-                "start": 68.17,
-                "end": 85.22
+                "start": 59.54,
+                "end": 74.52
               },
               {
                 "n": 18,
-                "start": 85.22,
-                "end": 102.26
+                "start": 74.52,
+                "end": 89.52
               },
               {
                 "n": 19,
-                "start": 102.26,
-                "end": 119.31
+                "start": 89.52,
+                "end": 104.02
               },
               {
                 "n": 20,
-                "start": 119.31,
-                "end": 136.35
+                "start": 104.02,
+                "end": 119.02
               },
               {
                 "n": 21,
-                "start": 136.35,
-                "end": 153.39
+                "start": 119.02,
+                "end": 134.2
               },
               {
                 "n": 22,
-                "start": 153.39,
-                "end": 170.44
+                "start": 134.2,
+                "end": 149.58
               },
               {
                 "n": 23,
-                "start": 170.44,
-                "end": 187.48
+                "start": 149.58,
+                "end": 164.06
               },
               {
                 "n": 24,
-                "start": 187.48,
-                "end": 204.52
+                "start": 164.06,
+                "end": 179.06
               },
               {
                 "n": 25,
-                "start": 204.52,
-                "end": 221.57
+                "start": 179.06,
+                "end": 194.06
               },
               {
                 "n": 26,
-                "start": 221.57,
-                "end": 238.61
+                "start": 194.06,
+                "end": 209.4
               },
               {
                 "n": 27,
-                "start": 238.61,
-                "end": 255.66
+                "start": 209.4,
+                "end": 224.4
               },
               {
                 "n": 28,
-                "start": 255.66,
-                "end": 272.7
+                "start": 224.4,
+                "end": 240.75
               }
             ]
           }
@@ -8291,157 +8291,157 @@
             "file": "audio/burdah/burdah_chapter_03.mp3",
             "title": "Chapter 3: In Praise of the Prophet ﷺ",
             "artist": "Majlis Maulid al-Burdah",
-            "duration": 472.4,
+            "duration": 473.73,
             "timestamps": [
               {
                 "n": 29,
                 "start": 0.0,
-                "end": 15.75
+                "end": 13.58
               },
               {
                 "n": 30,
-                "start": 15.75,
-                "end": 31.49
+                "start": 13.58,
+                "end": 28.7
               },
               {
                 "n": 31,
-                "start": 31.49,
-                "end": 47.24
+                "start": 28.7,
+                "end": 40.12
               },
               {
                 "n": 32,
-                "start": 47.24,
-                "end": 62.99
+                "start": 40.12,
+                "end": 55.1
               },
               {
                 "n": 33,
-                "start": 62.99,
-                "end": 78.73
+                "start": 55.1,
+                "end": 69.78
               },
               {
                 "n": 34,
-                "start": 78.73,
-                "end": 94.48
+                "start": 69.78,
+                "end": 85.1
               },
               {
                 "n": 35,
-                "start": 94.48,
-                "end": 110.23
+                "start": 85.1,
+                "end": 100.06
               },
               {
                 "n": 36,
-                "start": 110.23,
-                "end": 125.97
+                "start": 100.06,
+                "end": 114.98
               },
               {
                 "n": 37,
-                "start": 125.97,
-                "end": 141.72
+                "start": 114.98,
+                "end": 130.0
               },
               {
                 "n": 38,
-                "start": 141.72,
-                "end": 157.47
+                "start": 130.0,
+                "end": 144.82
               },
               {
                 "n": 39,
-                "start": 157.47,
-                "end": 173.21
+                "start": 144.82,
+                "end": 159.8
               },
               {
                 "n": 40,
-                "start": 173.21,
-                "end": 188.96
+                "start": 159.8,
+                "end": 174.58
               },
               {
                 "n": 41,
-                "start": 188.96,
-                "end": 204.71
+                "start": 174.58,
+                "end": 189.64
               },
               {
                 "n": 42,
-                "start": 204.71,
-                "end": 220.45
+                "start": 189.64,
+                "end": 204.78
               },
               {
                 "n": 43,
-                "start": 220.45,
-                "end": 236.2
+                "start": 204.78,
+                "end": 219.88
               },
               {
                 "n": 44,
-                "start": 236.2,
-                "end": 251.95
+                "start": 219.88,
+                "end": 234.88
               },
               {
                 "n": 45,
-                "start": 251.95,
-                "end": 267.69
+                "start": 234.88,
+                "end": 249.88
               },
               {
                 "n": 46,
-                "start": 267.69,
-                "end": 283.44
+                "start": 249.88,
+                "end": 264.88
               },
               {
                 "n": 47,
-                "start": 283.44,
-                "end": 299.19
+                "start": 264.88,
+                "end": 279.88
               },
               {
                 "n": 48,
-                "start": 299.19,
-                "end": 314.93
+                "start": 279.88,
+                "end": 294.88
               },
               {
                 "n": 49,
-                "start": 314.93,
-                "end": 330.68
+                "start": 294.88,
+                "end": 331.04
               },
               {
                 "n": 50,
-                "start": 330.68,
-                "end": 346.43
+                "start": 331.04,
+                "end": 346.04
               },
               {
                 "n": 51,
-                "start": 346.43,
-                "end": 362.17
+                "start": 346.04,
+                "end": 361.04
               },
               {
                 "n": 52,
-                "start": 362.17,
-                "end": 377.92
+                "start": 361.04,
+                "end": 376.04
               },
               {
                 "n": 53,
-                "start": 377.92,
-                "end": 393.67
+                "start": 376.04,
+                "end": 391.04
               },
               {
                 "n": 54,
-                "start": 393.67,
-                "end": 409.41
+                "start": 391.04,
+                "end": 406.04
               },
               {
                 "n": 55,
-                "start": 409.41,
-                "end": 425.16
+                "start": 406.04,
+                "end": 421.04
               },
               {
                 "n": 56,
-                "start": 425.16,
-                "end": 440.91
+                "start": 421.04,
+                "end": 444.34
               },
               {
                 "n": 57,
-                "start": 440.91,
-                "end": 456.65
+                "start": 444.34,
+                "end": 459.34
               },
               {
                 "n": 58,
-                "start": 456.65,
-                "end": 472.4
+                "start": 459.34,
+                "end": 473.73
               }
             ]
           }
@@ -8533,72 +8533,72 @@
             "file": "audio/burdah/burdah_chapter_04.mp3",
             "title": "Chapter 4: On His Blessed Birth ﷺ",
             "artist": "Majlis Maulid al-Burdah",
-            "duration": 206.3,
+            "duration": 187.68,
             "timestamps": [
               {
                 "n": 59,
-                "start": 0.0,
-                "end": 15.87
+                "start": 0.48,
+                "end": 15.48
               },
               {
                 "n": 60,
-                "start": 15.87,
-                "end": 31.74
+                "start": 15.48,
+                "end": 29.8
               },
               {
                 "n": 61,
-                "start": 31.74,
-                "end": 47.61
+                "start": 29.8,
+                "end": 44.8
               },
               {
                 "n": 62,
-                "start": 47.61,
-                "end": 63.48
+                "start": 44.8,
+                "end": 59.8
               },
               {
                 "n": 63,
-                "start": 63.48,
-                "end": 79.35
+                "start": 59.8,
+                "end": 74.8
               },
               {
                 "n": 64,
-                "start": 79.35,
-                "end": 95.22
+                "start": 74.8,
+                "end": 89.8
               },
               {
                 "n": 65,
-                "start": 95.22,
-                "end": 111.08
+                "start": 89.8,
+                "end": 104.8
               },
               {
                 "n": 66,
-                "start": 111.08,
-                "end": 126.95
+                "start": 104.8,
+                "end": 119.8
               },
               {
                 "n": 67,
-                "start": 126.95,
-                "end": 142.82
+                "start": 119.8,
+                "end": 134.8
               },
               {
                 "n": 68,
-                "start": 142.82,
-                "end": 158.69
+                "start": 134.8,
+                "end": 149.8
               },
               {
                 "n": 69,
-                "start": 158.69,
-                "end": 174.56
+                "start": 149.8,
+                "end": 159.8
               },
               {
                 "n": 70,
-                "start": 174.56,
-                "end": 190.43
+                "start": 159.8,
+                "end": 172.8
               },
               {
                 "n": 71,
-                "start": 190.43,
-                "end": 206.3
+                "start": 172.8,
+                "end": 187.68
               }
             ]
           }
@@ -8708,87 +8708,87 @@
             "file": "audio/burdah/burdah_chapter_05.mp3",
             "title": "Chapter 5: On His Miracles ﷺ",
             "artist": "Majlis Maulid al-Burdah",
-            "duration": 259.4,
+            "duration": 239.38,
             "timestamps": [
               {
                 "n": 72,
                 "start": 0.0,
-                "end": 16.21
+                "end": 14.62
               },
               {
                 "n": 73,
-                "start": 16.21,
-                "end": 32.42
+                "start": 14.62,
+                "end": 29.62
               },
               {
                 "n": 74,
-                "start": 32.42,
-                "end": 48.64
+                "start": 29.62,
+                "end": 43.2
               },
               {
                 "n": 75,
-                "start": 48.64,
-                "end": 64.85
+                "start": 43.2,
+                "end": 58.2
               },
               {
                 "n": 76,
-                "start": 64.85,
-                "end": 81.06
+                "start": 58.2,
+                "end": 74.38
               },
               {
                 "n": 77,
-                "start": 81.06,
-                "end": 97.27
+                "start": 74.38,
+                "end": 89.38
               },
               {
                 "n": 78,
-                "start": 97.27,
-                "end": 113.49
+                "start": 89.38,
+                "end": 104.4
               },
               {
                 "n": 79,
-                "start": 113.49,
-                "end": 129.7
+                "start": 104.4,
+                "end": 119.4
               },
               {
                 "n": 80,
-                "start": 129.7,
-                "end": 145.91
+                "start": 119.4,
+                "end": 134.4
               },
               {
                 "n": 81,
-                "start": 145.91,
-                "end": 162.12
+                "start": 134.4,
+                "end": 149.34
               },
               {
                 "n": 82,
-                "start": 162.12,
-                "end": 178.34
+                "start": 149.34,
+                "end": 164.34
               },
               {
                 "n": 83,
-                "start": 178.34,
-                "end": 194.55
+                "start": 164.34,
+                "end": 178.2
               },
               {
                 "n": 84,
-                "start": 194.55,
-                "end": 210.76
+                "start": 178.2,
+                "end": 194.2
               },
               {
                 "n": 85,
-                "start": 210.76,
-                "end": 226.97
+                "start": 194.2,
+                "end": 209.2
               },
               {
                 "n": 86,
-                "start": 226.97,
-                "end": 243.19
+                "start": 209.2,
+                "end": 224.2
               },
               {
                 "n": 87,
-                "start": 243.19,
-                "end": 259.4
+                "start": 224.2,
+                "end": 239.38
               }
             ]
           }
@@ -8904,92 +8904,92 @@
             "file": "audio/burdah/burdah_chapter_06.mp3",
             "title": "Chapter 6: On the Excellence of the Noble Qur'an",
             "artist": "Majlis Maulid al-Burdah",
-            "duration": 246.2,
+            "duration": 249.15,
             "timestamps": [
               {
                 "n": 88,
                 "start": 0.0,
-                "end": 14.48
+                "end": 14.8
               },
               {
                 "n": 89,
-                "start": 14.48,
-                "end": 28.96
+                "start": 14.8,
+                "end": 29.8
               },
               {
                 "n": 90,
-                "start": 28.96,
-                "end": 43.45
+                "start": 29.8,
+                "end": 44.8
               },
               {
                 "n": 91,
-                "start": 43.45,
-                "end": 57.93
+                "start": 44.8,
+                "end": 59.56
               },
               {
                 "n": 92,
-                "start": 57.93,
-                "end": 72.41
+                "start": 59.56,
+                "end": 74.56
               },
               {
                 "n": 93,
-                "start": 72.41,
-                "end": 86.89
+                "start": 74.56,
+                "end": 89.56
               },
               {
                 "n": 94,
-                "start": 86.89,
-                "end": 101.38
+                "start": 89.56,
+                "end": 104.56
               },
               {
                 "n": 95,
-                "start": 101.38,
-                "end": 115.86
+                "start": 104.56,
+                "end": 119.56
               },
               {
                 "n": 96,
-                "start": 115.86,
-                "end": 130.34
+                "start": 119.56,
+                "end": 134.56
               },
               {
                 "n": 97,
-                "start": 130.34,
-                "end": 144.82
+                "start": 134.56,
+                "end": 149.56
               },
               {
                 "n": 98,
-                "start": 144.82,
-                "end": 159.31
+                "start": 149.56,
+                "end": 164.5
               },
               {
                 "n": 99,
-                "start": 159.31,
-                "end": 173.79
+                "start": 164.5,
+                "end": 174.18
               },
               {
                 "n": 100,
-                "start": 173.79,
-                "end": 188.27
+                "start": 174.18,
+                "end": 189.02
               },
               {
                 "n": 101,
-                "start": 188.27,
-                "end": 202.75
+                "start": 189.02,
+                "end": 204.2
               },
               {
                 "n": 102,
-                "start": 202.75,
-                "end": 217.24
+                "start": 204.2,
+                "end": 219.2
               },
               {
                 "n": 103,
-                "start": 217.24,
-                "end": 231.72
+                "start": 219.2,
+                "end": 234.2
               },
               {
                 "n": 104,
-                "start": 231.72,
-                "end": 246.2
+                "start": 234.2,
+                "end": 249.15
               }
             ]
           }
@@ -9081,72 +9081,72 @@
             "file": "audio/burdah/burdah_chapter_07.mp3",
             "title": "Chapter 7: On His Night Journey and Ascension ﷺ",
             "artist": "Majlis Maulid al-Burdah",
-            "duration": 193.0,
+            "duration": 187.08,
             "timestamps": [
               {
                 "n": 105,
                 "start": 0.0,
-                "end": 14.85
+                "end": 14.9
               },
               {
                 "n": 106,
-                "start": 14.85,
-                "end": 29.69
+                "start": 14.9,
+                "end": 29.9
               },
               {
                 "n": 107,
-                "start": 29.69,
-                "end": 44.54
+                "start": 29.9,
+                "end": 44.9
               },
               {
                 "n": 108,
-                "start": 44.54,
-                "end": 59.38
+                "start": 44.9,
+                "end": 59.9
               },
               {
                 "n": 109,
-                "start": 59.38,
-                "end": 74.23
+                "start": 59.9,
+                "end": 74.9
               },
               {
                 "n": 110,
-                "start": 74.23,
-                "end": 89.08
+                "start": 74.9,
+                "end": 89.9
               },
               {
                 "n": 111,
-                "start": 89.08,
-                "end": 103.92
+                "start": 89.9,
+                "end": 104.9
               },
               {
                 "n": 112,
-                "start": 103.92,
-                "end": 118.77
+                "start": 104.9,
+                "end": 113.2
               },
               {
                 "n": 113,
-                "start": 118.77,
-                "end": 133.62
+                "start": 113.2,
+                "end": 128.2
               },
               {
                 "n": 114,
-                "start": 133.62,
-                "end": 148.46
+                "start": 128.2,
+                "end": 143.2
               },
               {
                 "n": 115,
-                "start": 148.46,
-                "end": 163.31
+                "start": 143.2,
+                "end": 158.2
               },
               {
                 "n": 116,
-                "start": 163.31,
-                "end": 178.15
+                "start": 158.2,
+                "end": 173.2
               },
               {
                 "n": 117,
-                "start": 178.15,
-                "end": 193.0
+                "start": 173.2,
+                "end": 187.08
               }
             ]
           }
@@ -9292,117 +9292,117 @@
             "file": "audio/burdah/burdah_chapter_08.mp3",
             "title": "Chapter 8: On the Prophet's Jihad ﷺ",
             "artist": "Majlis Maulid al-Burdah",
-            "duration": 442.5,
+            "duration": 367.48,
             "timestamps": [
               {
                 "n": 118,
-                "start": 0.0,
-                "end": 20.11
+                "start": 1.0,
+                "end": 16.0
               },
               {
                 "n": 119,
-                "start": 20.11,
-                "end": 40.23
+                "start": 16.0,
+                "end": 31.0
               },
               {
                 "n": 120,
-                "start": 40.23,
-                "end": 60.34
+                "start": 31.0,
+                "end": 46.0
               },
               {
                 "n": 121,
-                "start": 60.34,
-                "end": 80.45
+                "start": 46.0,
+                "end": 67.18
               },
               {
                 "n": 122,
-                "start": 80.45,
-                "end": 100.57
+                "start": 67.18,
+                "end": 82.18
               },
               {
                 "n": 123,
-                "start": 100.57,
-                "end": 120.68
+                "start": 82.18,
+                "end": 97.18
               },
               {
                 "n": 124,
-                "start": 120.68,
-                "end": 140.8
+                "start": 97.18,
+                "end": 112.18
               },
               {
                 "n": 125,
-                "start": 140.8,
-                "end": 160.91
+                "start": 112.18,
+                "end": 127.18
               },
               {
                 "n": 126,
-                "start": 160.91,
-                "end": 181.02
+                "start": 127.18,
+                "end": 142.18
               },
               {
                 "n": 127,
-                "start": 181.02,
-                "end": 201.14
+                "start": 142.18,
+                "end": 157.18
               },
               {
                 "n": 128,
-                "start": 201.14,
-                "end": 221.25
+                "start": 157.18,
+                "end": 172.18
               },
               {
                 "n": 129,
-                "start": 221.25,
-                "end": 241.36
+                "start": 172.18,
+                "end": 187.18
               },
               {
                 "n": 130,
-                "start": 241.36,
-                "end": 261.48
+                "start": 187.18,
+                "end": 231.0
               },
               {
                 "n": 131,
-                "start": 261.48,
-                "end": 281.59
+                "start": 231.0,
+                "end": 246.0
               },
               {
                 "n": 132,
-                "start": 281.59,
-                "end": 301.7
+                "start": 246.0,
+                "end": 261.0
               },
               {
                 "n": 133,
-                "start": 301.7,
-                "end": 321.82
+                "start": 261.0,
+                "end": 276.0
               },
               {
                 "n": 134,
-                "start": 321.82,
-                "end": 341.93
+                "start": 276.0,
+                "end": 291.0
               },
               {
                 "n": 135,
-                "start": 341.93,
-                "end": 362.05
+                "start": 291.0,
+                "end": 306.0
               },
               {
                 "n": 136,
-                "start": 362.05,
-                "end": 382.16
+                "start": 306.0,
+                "end": 321.0
               },
               {
                 "n": 137,
-                "start": 382.16,
-                "end": 402.27
+                "start": 321.0,
+                "end": 336.0
               },
               {
                 "n": 138,
-                "start": 402.27,
-                "end": 422.39
+                "start": 336.0,
+                "end": 351.0
               },
               {
                 "n": 139,
-                "start": 422.39,
-                "end": 442.5
+                "start": 351.0,
+                "end": 367.48
               }
             ]
           }
@@ -9488,67 +9488,67 @@
             "file": "audio/burdah/burdah_chapter_09.mp3",
             "title": "Chapter 9: On Seeking Intercession Through the Prophet ﷺ",
             "artist": "Majlis Maulid al-Burdah",
-            "duration": 174.4,
+            "duration": 179.48,
             "timestamps": [
               {
                 "n": 140,
-                "start": 0.0,
-                "end": 14.53
+                "start": 0.1,
+                "end": 15.0
               },
               {
                 "n": 141,
-                "start": 14.53,
-                "end": 29.07
+                "start": 15.0,
+                "end": 29.9
               },
               {
                 "n": 142,
-                "start": 29.07,
-                "end": 43.6
+                "start": 29.9,
+                "end": 44.8
               },
               {
                 "n": 143,
-                "start": 43.6,
-                "end": 58.13
+                "start": 44.8,
+                "end": 59.7
               },
               {
                 "n": 144,
-                "start": 58.13,
-                "end": 72.67
+                "start": 59.7,
+                "end": 74.6
               },
               {
                 "n": 145,
-                "start": 72.67,
-                "end": 87.2
+                "start": 74.6,
+                "end": 89.5
               },
               {
                 "n": 146,
-                "start": 87.2,
-                "end": 101.73
+                "start": 89.5,
+                "end": 104.4
               },
               {
                 "n": 147,
-                "start": 101.73,
-                "end": 116.27
+                "start": 104.4,
+                "end": 119.3
               },
               {
                 "n": 148,
-                "start": 116.27,
-                "end": 130.8
+                "start": 119.3,
+                "end": 134.2
               },
               {
                 "n": 149,
-                "start": 130.8,
-                "end": 145.33
+                "start": 134.2,
+                "end": 149.1
               },
               {
                 "n": 150,
-                "start": 145.33,
-                "end": 159.87
+                "start": 149.1,
+                "end": 164.0
               },
               {
                 "n": 151,
-                "start": 159.87,
-                "end": 174.4
+                "start": 164.0,
+                "end": 179.48
               }
             ]
           }
@@ -9606,73 +9606,73 @@
               "en2": "And grant that showers of Your blessings pour upon the Prophet, abundant and unceasing,"
             },
             {
-              "ar": "وَعَلَى الْآلِ وَالصَّحْبِ ثُمَّ التَّابِعِينَ فَهُمْ — أَهْلُ التُّقَى وَالنَّقَى وَالْحِلْمِ وَالْكَرَمِ",
-              "en": "And upon the family and the companions; then upon the successors of these, the men of piety, and virtue, and forbearance, and generosity;",
+              "ar": "مَا رَنَّحَتْ عَذَبَاتِ الْبَانِ رِيحُ صَبًا — وَأَطْرَبَ الْعِيسَ حَادِي الْعِيسِ بِالنَّغَمِ",
+              "en": "While the breath of the zephyr waves the branches of the moringa, and the camel-leader enlivens the camels with chants;",
               "n": 160,
-              "en2": "and upon his Family and Companions, and upon those who follow them — people of piety, virtue, forbearance and generosity —"
+              "en2": "as long as the breeze stirs the branches of the moringa, and the cameleer cheers his camels with song,"
             },
             {
-              "ar": "مَا رَنَّحَتْ عَذَبَاتِ الْبَانِ رِيحُ صَبًا — وَأَطْرَبَ الْعِيسَ حَادِي الْعِيسِ بِالنَّغَمِ",
-              "en": "While the breath of the zephyr waves the branches of the moringa, and the camel-leader enlivens the camels with chants.",
+              "ar": "وَعَلَى الْآلِ وَالصَّحْبِ ثُمَّ التَّابِعِينَ فَهُمْ — أَهْلُ التُّقَى وَالنَّقَى وَالْحِلْمِ وَالْكَرَمِ",
+              "en": "And upon the family and the companions; then upon the successors of these, the men of piety, and virtue, and forbearance, and generosity.",
               "n": 161,
-              "en2": "as long as the breeze stirs the branches of the moringa, and the cameleer cheers his camels with song."
+              "en2": "And upon his Family and Companions, and upon those who follow them — people of piety, virtue, forbearance and generosity."
             }
           ],
           "audio": {
             "file": "audio/burdah/burdah_chapter_10.mp3",
             "title": "Chapter 10: On Intimate Supplication and the Presenting of Needs",
             "artist": "Majlis Maulid al-Burdah",
-            "duration": 163.4,
+            "duration": 154.05,
             "timestamps": [
               {
                 "n": 152,
                 "start": 0.0,
-                "end": 16.0
+                "end": 13.9
               },
               {
                 "n": 153,
-                "start": 16.0,
-                "end": 32.0
+                "start": 13.9,
+                "end": 28.7
               },
               {
                 "n": 154,
-                "start": 32.0,
-                "end": 48.0
+                "start": 28.7,
+                "end": 43.8
               },
               {
                 "n": 155,
-                "start": 48.0,
-                "end": 64.0
+                "start": 43.8,
+                "end": 58.8
               },
               {
                 "n": 156,
-                "start": 64.0,
-                "end": 80.0
+                "start": 58.8,
+                "end": 73.8
               },
               {
                 "n": 157,
-                "start": 80.0,
-                "end": 96.0
+                "start": 73.8,
+                "end": 88.6
               },
               {
                 "n": 158,
-                "start": 96.0,
-                "end": 112.0
+                "start": 88.6,
+                "end": 103.7
               },
               {
                 "n": 159,
-                "start": 112.0,
-                "end": 128.0
+                "start": 103.7,
+                "end": 118.7
               },
               {
                 "n": 160,
-                "start": 128.0,
-                "end": 144.0
+                "start": 118.7,
+                "end": 133.5
               },
               {
                 "n": 161,
-                "start": 144.0,
-                "end": 163.4
+                "start": 133.5,
+                "end": 154.05
               }
             ]
           }
