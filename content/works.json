@@ -6,8 +6,8 @@
       "title_en": "Mishkât-ul-Masâbih: The Blessed Qualities & Virtues",
       "author": "al-Khaṭīb al-Tibrīzī ﵀ (compiler); Capt. A. N. Matthews (translator)",
       "author_dates": "al-Tibrīzī d. 741 AH / 1340 CE · Matthews fl. 1810",
-      "description_en": "A curated edition of Book XXIV (Kitāb al-Faḍāʾil wa-al-Shamāʾil) from Capt. A. N. Matthews’ historic 1809–1810 Calcutta translation of the Mishkāt al-Maṣābīḥ by Walī al-Dīn al-Khaṭīb al-Tibrīzī ﵀. Devoted exclusively to the noble person, physical appearance, sublime character, speech, modesty, and supreme mercy of the Prophet Muḥammad ﷺ. Presented with fully vocalized Arabic and contemporary reading aids.",
-      "source_en": "Arabic text: the Mishkāt al-Maṣābīḥ of al-Khaṭīb al-Tibrīzī ﵀ (Book XXIV: Kitāb al-Faḍāʾil), classical text in the public domain. English translation: Capt. A. N. Matthews, Mishcât-ul-Masâbîh: or A Collection of the Most Authentic Traditions regarding the Actions and Sayings of Muhammed (Calcutta: T. Hubbard, Hindoostanee Press, 1809–1810, vol. II, pp. 651–707), in the public domain globally. A modern simplification in present-day English appears beneath Matthews’ Georgian prose as an accessible reading aid.",
+      "description_en": "Selected reports on the person, appearance and character of the Prophet Muḥammad ﷺ from Book XXIV (Kitāb al-Faḍāʾil wa-al-Shamāʾil) of the Mishkāt al-Maṣābīḥ of Walī al-Dīn al-Khaṭīb al-Tibrīzī ﵀. Presented with fully vocalised Arabic and an English rendering of each report.",
+      "source_en": "Arabic text: the Mishkāt al-Maṣābīḥ of al-Khaṭīb al-Tibrīzī ﵀ (Book XXIV: Kitāb al-Faḍāʾil), classical text in the public domain; the attribution in each note follows the closing words of the Arabic report. English: every report has a modern English rendering prepared for this project from the full Arabic. Where a report also appears in Capt. A. N. Matthews, Mishcât-ul-Masâbîh (Calcutta: T. Hubbard, Hindoostanee Press, 1809–1810, vol. II, pp. 651–707; public domain), his Georgian rendering is shown as the first English line, left as printed (including his abbreviation “A. G. S.”); reports without a verified Matthews counterpart show the modern rendering only.",
       "audio": [],
       "sections": [
         {
@@ -18,105 +18,105 @@
               "n": 1,
               "ar": "عَنْ أَبِي هُرَيْرَةَ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «بُعِثْتُ مِنْ خَيْرِ قُرُونِ بَنِي آدَمَ قَرْنًا فَقَرْنًا حَتَّى كُنْتُ من القرنِ الَّذِي كنتُ مِنْهُ» . رَوَاهُ البُخَارِيّ",
               "en": "Abū Hurairah ﵁ said, A. G. S. 'I was sent from the best generation of the children of Adam, age after age, until I came from the generation from which I came.'",
-              "en2": "Abū Hurairah ﵁ narrates that the Messenger of Allah ﷺ said: 'I was chosen from the best of the generations of the children of Adam, era after era, until I appeared in the generation from which I emerged.'",
+              "en2": "Abū Hurairah ﵁ narrates that the Messenger of Allah ﷺ said: 'I was sent from the best of the generations of the children of Adam, generation after generation, until I came from the generation from which I came.'",
               "note": "Mishkāt report 5739 · Ṣaḥīḥ al-Bukhārī"
             },
             {
               "n": 2,
               "ar": "وَعَنْ وَاثِلَةَ بْنِ الْأَسْقَعِ قَالَ: سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ: «إِنَّ اللَّهَ اصْطَفَى كِنَانَةَ مِنْ وَلَدِ إِسْمَاعِيلَ وَاصْطَفَى قُرَيْشًا مِنْ كِنَانَةَ وَاصْطَفَى مِنْ قُرَيْشٍ بَنَى هَاشِمٍ وَاصْطَفَانِي مِنْ بَنِي هَاشِمٍ» . رَوَاهُ مُسْلِمٌ\nوَفِي رِوَايَةٍ لِلتِّرْمِذِيِّ: «إِنَّ اللَّهَ اصْطَفَى مِنْ ولد إِبْرَاهِيم إِسْمَاعِيل وَاصْطفى من ولد إِسْمَاعِيل بني كنَانَة»",
-              "en": "Wāthilah-ibn-al-Asqaʿ said, I heard his majesty say, 'Verily God elected Kinānah from the children of Ismāʿīl, and elected Quraish from the children of Kinānah, and elected from the children of Quraish, Hāshim, and elected me from the sons of Hāshim.'",
-              "en2": "Wāthilah ibn al-Asqaʿ narrates: I heard the Messenger of Allah ﷺ say: 'Verily Allah chose Kinānah from the descendants of Ismāʿīl, and chose Quraysh from Kinānah, and chose the clan of Hāshim from Quraysh, and chose me from Banū Hāshim.'",
-              "note": "Mishkāt report 5740 · Ṣaḥīḥ Muslim"
+              "en": null,
+              "en2": "Wāthilah ibn al-Asqaʿ ﵁ narrates: 'I heard the Messenger of Allah ﷺ say: \"Allah chose Kinānah from the children of Ismāʿīl ﵇, chose Quraysh from Kinānah, chose the Banū Hāshim from Quraysh, and chose me from the Banū Hāshim.\"' In a report of al-Tirmidhī: \"Allah chose Ismāʿīl ﵇ from the children of Ibrāhīm ﵇, and chose the Banū Kinānah from the children of Ismāʿīl.\"",
+              "note": "Mishkāt report 5740 · Ṣaḥīḥ Muslim; variant in Jāmiʿ al-Tirmidhī"
             },
             {
               "n": 3,
               "ar": "وَعَنْ أَبِي هُرَيْرَةَ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: أَنَا سَيِّدُ وَلَدِ آدَمَ يَوْمَ الْقِيَامَةِ وَأَوَّلُ مَنْ يَنْشَقُّ عَنْهُ الْقَبْرُ وَأَوَّلُ شَافِعٍ وَأَوَّلُ مُشَفَّعٍ \". رَوَاهُ مُسْلِمٌ",
               "en": "Abū Hurairah ﵁ said, A. G. S. 'I shall be the best and greatest of the children of Adam on the day of resurrection, in every description; and shall be the first raised up from the grave; and I shall be the first intercessor, and the first whose intercession will be approved of.'",
-              "en2": "Abū Hurairah ﵁ narrates that the Messenger of Allah ﷺ said: 'I shall be the leader of the children of Adam on the Day of Resurrection, the first for whom the earth splits open, the first intercessor, and the first whose intercession shall be accepted.'",
+              "en2": "Abū Hurairah ﵁ narrates that the Messenger of Allah ﷺ said: 'I shall be the master of the children of Adam on the Day of Resurrection, the first from whom the grave will be opened, the first intercessor and the first whose intercession will be accepted.'",
               "note": "Mishkāt report 5741 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 4,
               "ar": "وَعَنْ أَنَسٍ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «أَنَا أَكْثَرُ الْأَنْبِيَاءِ تَبَعًا يَوْمَ الْقِيَامَةِ وَأَنَا أَوَّلُ مَنْ يَقْرَعُ بَابَ الجنةِ» . رَوَاهُ مُسلم",
               "en": "Anas ﵁ said, A. G. S. 'I shall have more followers than any other Prophet on the day of resurrection; and I shall be the first who will knock at the door of paradise to enter into it.'",
-              "en2": "Anas narrates that the Messenger of Allah ﷺ said: 'I shall have the most followers among the prophets on the Day of Resurrection, and I shall be the first to knock upon the gates of Paradise.'",
+              "en2": "Anas ibn Mālik ﵁ narrates that the Messenger of Allah ﷺ said: 'I shall have more followers than any other prophet on the Day of Resurrection, and I shall be the first to knock at the gate of Paradise.'",
               "note": "Mishkāt report 5742 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 5,
               "ar": "وَعَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ:\n\" آتِي بَابَ الْجَنَّةِ يَوْمَ الْقِيَامَةِ فَأَسْتَفْتِحُ فَيَقُولُ الْخَازِنُ: مَنْ أَنْتَ؟ فَأَقُولُ: مُحَمَّدٌ. فيقولُ: بكَ أمرت أَن لاأفتح لأحد قبلك \"\n. رَوَاهُ مُسلم",
               "en": "Anas ﵁ said, A. G. S. 'I will come to the door of paradise on the day of resurrection, and will ask to have it opened; and the keeper will say, Who art thou? And I shall say, I am Muḥammad. And the keeper will say, On your account I have been ordered not to open the door for any one before you.'",
-              "en2": "Anas narrates that the Messenger of Allah ﷺ said: 'I will arrive at the gate of Paradise on the Day of Resurrection and ask for it to be opened. The gatekeeper will ask, \"Who are you?\" and I will reply, \"Muḥammad.\" He will say, \"For you alone was I commanded not to open for anyone before you.\"'",
+              "en2": "Anas ibn Mālik ﵁ narrates that the Messenger of Allah ﷺ said: 'I shall come to the gate of Paradise on the Day of Resurrection and ask for it to be opened. The keeper will say: \"Who are you?\" I shall say: \"Muhammad.\" He will say: \"It was for you that I was commanded not to open to anyone before you.\"'",
               "note": "Mishkāt report 5743 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 6,
               "ar": "وَعَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «أَنَا أَوَّلُ شَفِيعٍ فِي الْجَنَّةِ لَمْ يُصَدَّقْ نَبِيٌّ مِنَ الْأَنْبِيَاءِ مَا صُدِّقْتُ وَإِنَّ مِنَ الْأَنْبِيَاءِ نَبِيًّا مَا صَدَّقَهُ مِنْ أُمَّته إِلَّا رجل وَاحِد» . رَوَاهُ مُسلم",
-              "en": "Abū Hurairah ﵁ said, A. G. S. 'The comparison between me and former Prophets is like a well-made house with a place left for one brick; and people are astonished at seeing its goodness, except the place wanting one brick: then I filled up the place. Then the building was completed by me, and the Prophets are completed by me.'",
-              "en2": "Abū Hurairah ﵁ narrates that the Messenger of Allah ﷺ said: 'The parable of myself and the prophets before me is that of a man who built a house, perfecting and beautifying it, except for the place of a single brick in a corner. The people walked around it admiring it, saying, \"If only this brick were laid!\" I am that brick, and I am the seal of the prophets.'",
-              "note": "Mishkāt report 5744 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
+              "en": null,
+              "en2": "Anas ibn Mālik ﵁ narrates that the Messenger of Allah ﷺ said: 'I shall be the first to intercede in Paradise. No prophet among the prophets has been believed as I have been believed; and there was a prophet whom only a single man of his community believed.'",
+              "note": "Mishkāt report 5744 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 7,
               "ar": "وَعَنْ أَبِي هُرَيْرَةَ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «مَثَلِي وَمَثَلُ الْأَنْبِيَاءِ كَمَثَلِ قَصْرٍ أُحْسِنَ بُنْيَانُهُ تُرِكَ مِنْهُ مَوضِع لبنة فَطَافَ النظَّارُ يتعجَّبونَ من حُسنِ بنيانِه إِلَّا مَوْضِعَ تِلْكَ اللَّبِنَةِ فَكُنْتُ أَنَا سَدَدْتُ مَوْضِعَ اللَّبِنَةِ خُتِمَ بِيَ الْبُنْيَانُ وَخُتِمَ بِي الرُّسُلُ» . وَفِي رِوَايَةٍ: «فَأَنَا اللَّبِنَةُ وَأَنَا خَاتَمُ النَّبِيِّينَ» . مُتَّفق عَلَيْهِ",
-              "en": "Abū Hurairah ﵁ said, A. G. S. 'There is no Prophet but was given miracles, which when the sects saw, they believed; I mean their miracles were particularly confined to their own time: and my miracle is the Korʾān, which was sent to me, and will remain for ever. Then I am hopeful of having more followers than any of the other Prophets.'",
-              "en2": "Abū Hurairah ﵁ narrates that the Prophet ﷺ said: 'Every prophet was granted signs by which people believed; but that which I have been given is divine revelation that Allah revealed to me, so I hope to have the greatest number of followers on the Day of Resurrection.'",
+              "en": null,
+              "en2": "Abū Hurairah ﵁ narrates that the Messenger of Allah ﷺ said: 'My likeness and the likeness of the prophets is that of a palace that was well built, with the place of one brick left out. People walked around it, marvelling at the beauty of its construction, except for the place of that brick. I was the one who filled the place of the brick: the building was sealed by me, and the messengers were sealed by me.' In another report: 'I am the brick, and I am the Seal of the Prophets.'",
               "note": "Mishkāt report 5745 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
               "n": 8,
               "ar": "وَعَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «مَا مِنَ الْأَنْبِيَاءِ مِنْ نَبِيٍّ إِلَّا قَدْ أُعْطِيَ مِنَ الْآيَاتِ مَا مِثْلُهُ آمَنَ عَلَيْهِ الْبَشَرُ وَإِنَّمَا كَانَ الَّذِي أُوتِيتُ وَحْيًا أَوْحَى اللَّهُ إِلَيَّ وَأَرْجُو أَنْ أَكُونَ أَكْثَرَهُمْ تَابِعًا يَوْمَ الْقِيَامَةِ» . مُتَّفَقٌ عَلَيْهِ",
-              "en": "Jābir ﵁ said, A. G. S. 'I have been given five qualities which no one was given before me: I have been given victory by throwing fear into the hearts of my enemies at a distance of a month's journey; the whole face of the earth has been made pure for me to worship upon; plunder has been made lawful for me; former Prophets were merely to their own sects, but I have been sent to all men; and I have been granted intercession.'",
-              "en2": "Jābir narrates that the Messenger of Allah ﷺ said: 'I have been granted five privileges given to no prophet before me: I was aided with awe inspiring fear across a month's journey; the entire earth was made for me a place of prayer and pure; spoils of war were made lawful for me; each prophet was sent solely to his own people while I was sent to all mankind; and I was granted intercession.'",
+              "en": "Abū Hurairah ﵁ said, A. G. S. 'There is no Prophet but was given miracles, which when the sects saw, they believed; I mean their miracles were particularly confined to their own time: and my miracle is the Korʾān, which was sent to me, and will remain for ever. Then I am hopeful of having more followers than any of the other Prophets.'",
+              "en2": "Abū Hurairah ﵁ narrates that the Messenger of Allah ﷺ said: 'Every prophet was given signs of the kind that led people to believe in him. What I was given was a revelation that Allah revealed to me, and I hope that I shall have the most followers among them on the Day of Resurrection.'",
               "note": "Mishkāt report 5746 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
               "n": 9,
               "ar": "وَعَنْ أَبِي هُرَيْرَةَ أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ:\n\" فُضِّلْتُ عَلَى الْأَنْبِيَاءِ بِسِتٍّ: أُعْطِيتُ جَوَامِعَ الْكَلِمِ وَنُصِرْتُ بِالرُّعْبِ وَأُحِلَّتْ لِيَ الْغَنَائِمُ وَجُعِلَتْ لِيَ الْأَرْضُ مَسْجِدًا وَطَهُورًا وَأُرْسِلْتُ إِلَى الْخَلْقِ كَافَّةً وَخُتِمَ بِيَ النَّبِيُّونَ \"\n. رَوَاهُ مُسلم",
-              "en": "Abū Hurairah ﵁ said, A. G. S. 'I have been given superiority over the Prophets in six things: I have been sent with Jawāmiʿ-ul-Kalim (concise words of immense meaning); I have been given victory by awe; plunder has been made lawful for me; the earth has been made pure and a place of prayer; I have been sent to all creation; and the Prophets are concluded by me.'",
-              "en2": "Abū Hurairah ﵁ narrates that the Messenger of Allah ﷺ said: 'I was given distinction over the prophets in six respects: I was given comprehensive speech (Jawāmiʿ al-Kalim); I was granted victory by awe; the spoils of war were made lawful for me; the earth was made for me a mosque and pure; I was sent to all creation; and the line of prophets was sealed through me.'",
+              "en": null,
+              "en2": "Abū Hurairah ﵁ narrates that the Messenger of Allah ﷺ said: 'I have been favoured above the prophets in six ways: I was given concise yet comprehensive speech (jawāmiʿ al-kalim); I was made victorious through awe cast into the hearts of enemies; the spoils of war were made lawful for me; the earth was made a place of prayer and a means of purification for me; I was sent to all of creation; and the prophets were sealed with me.'",
               "note": "Mishkāt report 5748 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 10,
               "ar": "وَعَن أَبِي هُرَيْرَةَ قَالَ: قَالُوا: يَا رَسُولَ اللَّهِ مَتَى وَجَبَتْ لَكَ النُّبُوَّةُ؟ قَالَ: «وَآدَمُ بَيْنَ الرُّوحِ وَالْجَسَدِ» . رَوَاهُ التِّرْمِذِيّ",
-              "en": "Al-ʿIrbāḍ-ibn-Sāriyah said, A. G. S. 'Verily I was in the presence of God the seal of the Prophets, while Adam was yet between water and clay. And I will inform you of the beginning of my affair: I am the supplication of my father Abraham, and the glad tidings of Jesus, and the vision of my mother which she saw when bearing me.'",
-              "en2": "Al-ʿIrbāḍ ibn Sāriyah narrates that the Messenger of Allah ﷺ said: 'I was recorded with Allah as the Seal of the Prophets while Adam was still kneaded in his clay. I shall tell you of my beginning: I am the supplication of my forefather Ibrāhīm, the glad tidings of ʿĪsā, and the dream of my mother when she gave birth to me, seeing a light that illuminated the palaces of the Levant.'",
-              "note": "Mishkāt report 5758 · Musnad Aḥmad & al-Bayhaqī"
+              "en": null,
+              "en2": "Abū Hurairah ﵁ narrates: 'They said: \"O Messenger of Allah ﷺ, when did prophethood become yours?\" He said: \"When Adam was between the spirit and the body.\"'",
+              "note": "Mishkāt report 5758 · Jāmiʿ al-Tirmidhī"
             },
             {
               "n": 11,
               "ar": "وَعَنْ أَبِي سَعِيدٍ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «أَنَا سَيِّدُ وَلَدِ آدَمَ يَوْمَ الْقِيَامَةِ وَلَا فَخْرَ وَبِيَدِي لِوَاءُ الْحَمْدِ وَلَا فَخْرَ. وَمَا مِنْ نَبِيٍّ يَوْمَئِذٍ آدَمُ فَمَنْ سِوَاهُ إِلَّا تَحْتَ لِوَائِي وَأَنَا أَوَّلُ مَنْ تَنْشَقُّ عَنْهُ الْأَرْضُ وَلَا فَخْرَ» . رَوَاهُ التِّرْمِذِيّ",
-              "en": "Abū Saʿīd al-Khudrī ﵁ said, A. G. S. 'I am the master of the children of Adam on the day of resurrection, and I do not boast; and in my hand will be the banner of praise (Liwāʾ-ul-Ḥamd), and I do not boast; and there will not be a Prophet on that day, from Adam and others, but will be under my banner.'",
-              "en2": "Abū Saʿīd al-Khudrī ﵁ narrates that the Messenger of Allah ﷺ said: 'I am the leader of the children of Adam on the Day of Resurrection, without boast; and in my hand shall be the Banner of Praise, without boast; and there shall not be a prophet on that day, from Adam onward, except that he shall stand beneath my banner.'",
+              "en": null,
+              "en2": "Abū Saʿīd al-Khudrī ﵁ narrates that the Messenger of Allah ﷺ said: 'I shall be the master of the children of Adam on the Day of Resurrection, and this is no boast. In my hand will be the banner of praise, and this is no boast. On that day there will be no prophet, Adam or anyone else, who is not beneath my banner. And I shall be the first from whom the earth is opened, and this is no boast.'",
               "note": "Mishkāt report 5761 · Jāmiʿ al-Tirmidhī"
             },
             {
               "n": 12,
               "ar": "وَعَن ابْن عَبَّاس قَالَ: جَلَسَ نَاسٌ مِنْ أَصْحَابِ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَخَرَجَ حَتَّى إِذَا دَنَا مِنْهُمْ سَمِعَهُمْ يَتَذَاكَرُونَ قَالَ بَعْضُهُمْ: إِنَّ اللَّهَ اتَّخَذَ إِبْرَاهِيمَ خَلِيلًا وَقَالَ آخَرُ: مُوسَى كَلَّمَهُ اللَّهُ تَكْلِيمًا وَقَالَ آخَرُ: فَعِيسَى كَلِمَةُ الله وروحه. وَقَالَ آخَرُ: آدَمُ اصْطَفَاهُ اللَّهُ فَخَرَجَ عَلَيْهِمْ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَقَالَ: «قَدْ سَمِعْتُ كَلَامَكُمْ وَعَجَبَكُمْ أَنَّ إِبْرَاهِيمَ خَلِيل الله وَهُوَ كَذَلِكَ وَآدَمُ اصْطَفَاهُ اللَّهُ وَهُوَ كَذَلِكَ أَلَا وَأَنَا حَبِيبُ اللَّهِ وَلَا فَخْرَ وَأَنَا حَامِلُ لِوَاءِ الْحَمْدِ يَوْمَ الْقِيَامَةِ تَحْتَهُ آدَمُ فَمَنْ دُونَهُ وَلَا فَخْرَ وَأَنَا أَوَّلُ شَافِعٍ وَأَوَّلُ مُشَفَّعٍ يَوْمَ الْقِيَامَةِ وَلَا فَخْرَ وَأَنَا أَوَّلُ مَنْ يُحَرِّكُ حَلَقَ الْجَنَّةِ فَيَفْتَحُ اللَّهُ لِي فَيُدْخِلُنِيهَا وَمَعِي فُقَرَاءُ الْمُؤْمِنِينَ وَلَا فَخْرَ وَأَنَا أَكْرَمُ الْأَوَّلِينَ وَالْآخَرِينَ عَلَى اللَّهِ وَلَا فَخر» . رَوَاهُ التِّرْمِذِيّ والدارمي",
-              "en": "Kaʿb-ibn-Mālik ﵁ said, A. G. S. 'Mankind will be assembled on the day of resurrection, and my sect and I shall be upon a high hill; and my Lord will clothe me in a green mantle, after which I shall have permission to speak, and I will say what God pleases I should say; and that is the Praised Station (al-Maqām-ul-Maḥmūd).'",
-              "en2": "Kaʿb ibn Mālik ﵁ narrates that the Messenger of Allah ﷺ said: 'The people will be resurrected on the Day of Standing, and I and my community will stand upon an elevated height. My Lord will clothe me in a robe of green, and grant me leave to speak, and I will utter that which He wills me to say. That is the Praised Station (al-Maqām al-Maḥmūd).'",
-              "note": "Mishkāt report 5762 · Jāmiʿ al-Tirmidhī"
+              "en": null,
+              "en2": "Ibn ʿAbbās ﵁ narrates: 'Some of the Companions of the Messenger of Allah ﷺ were sitting, and he came out until, when he drew near them, he heard them conversing. One said: \"Allah took Ibrāhīm ﵇ as His close friend (khalīl).\" Another said: \"Mūsā ﵇ was spoken to directly by Allah.\" Another said: \"ʿĪsā ﵇ is the word of Allah and a spirit from Him.\" And another said: \"Adam ﵇ was chosen by Allah.\" Then the Messenger of Allah ﷺ came out to them and said: \"I have heard your words and your wonder that Ibrāhīm ﵇ is the khalīl of Allah, and so he is; and that Adam ﵇ was chosen by Allah, and so he was. Yet I am the beloved of Allah, and this is no boast. I shall carry the banner of praise on the Day of Resurrection, with Adam and all others beneath it, and this is no boast. I shall be the first intercessor and the first whose intercession is accepted on the Day of Resurrection, and this is no boast. I shall be the first to move the rings of the gate of Paradise; Allah will open it for me and admit me, with the poor believers beside me, and this is no boast. And I am the most honoured of the first and the last in the sight of Allah, and this is no boast.\"'",
+              "note": "Mishkāt report 5762 · Jāmiʿ al-Tirmidhī & Sunan al-Dārimī"
             },
             {
               "n": 13,
               "ar": "عَنْ جُبَيْرِ بْنِ مُطْعَمٍ قَالَ: سَمِعْتُ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ:\n\" إنَّ لي أَسْمَاءً: أَنَا مُحَمَّدٌ وَأَنَا أَحْمَدُ وَأَنَا الْمَاحِي الَّذِي يَمْحُو اللَّهُ بِي الْكُفْرَ وَأَنَا الْحَاشِرُ الَّذِي يُحْشَرُ النَّاسُ عَلَى قَدَمِي وَأَنَا الْعَاقِبُ \"\n. وَالْعَاقِب: الَّذِي لَيْسَ بعده شَيْء. مُتَّفق عَلَيْهِ",
               "en": "Jubair-ibn-Muṭʿim said, I heard the Prophet say, 'Verily I have names: I am Muḥammad, and I am Aḥmad, and I am al-Māḥī (the eraser) by whom God effaces infidelity; and I am al-Ḥāshir (the gatherer) at whose feet mankind will be gathered together; and I am al-ʿĀqib (the last in succession) after whom there is no Prophet.'",
-              "en2": "Jubayr ibn Muṭʿim narrates: I heard the Prophet ﷺ say: 'I have several names: I am Muḥammad, and I am Aḥmad, and I am al-Māḥī (the Effacer) through whom Allah erases disbelief, and I am al-Ḥāshir (the Gatherer) at whose feet people will be assembled, and I am al-ʿĀqib (the Successor) after whom there shall be no prophet.'",
+              "en2": "Jubayr ibn Muṭʿim ﵁ narrates: 'I heard the Prophet ﷺ say: \"I have names. I am Muhammad; I am Aḥmad; I am al-Māḥī (the Eraser), through whom Allah erases disbelief; I am al-Ḥāshir (the Gatherer), at whose feet people will be gathered; and I am al-ʿĀqib (the Last).\"' And al-ʿĀqib is the one after whom there is nothing.",
               "note": "Mishkāt report 5776 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
               "n": 14,
               "ar": "وَعَن أبي مُوسَى الْأَشْعَرِيّ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يُسَمِّي لَنَا نَفْسَهُ أَسْمَاءً فَقَالَ: «أَنَا مُحَمَّدٌ وَأَحْمَدُ وَالْمُقَفِّي وَالْحَاشِرُ وَنَبِيُّ التَّوْبَةِ وَنَبِيُّ الرَّحْمَة» . رَوَاهُ مُسلم",
               "en": "Abū Mūsā al-Ashʿarī said, 'The Messenger of God named to us many of his names; some of them we remembered, and some we did not. He said: I am Muḥammad, and Aḥmad, and al-Muqaffī (the follower), and al-Ḥāshir, and the Prophet of Repentance, and the Prophet of Mercy.'",
-              "en2": "Abū Mūsā al-Ashʿarī narrates: The Messenger of Allah ﷺ recounted to us his names: 'I am Muḥammad, and Aḥmad, and al-Muqaffī (the final follower of the prophetic line), and al-Ḥāshir, and Nabiyy al-Tawbah (the Prophet of Repentance), and Nabiyy al-Raḥmah (the Prophet of Mercy).'",
+              "en2": "Abū Mūsā al-Ashʿarī ﵁ narrates: 'The Messenger of Allah ﷺ used to name himself to us with names, saying: \"I am Muhammad and Aḥmad, al-Muqaffī (the Follower), al-Ḥāshir (the Gatherer), the Prophet of Repentance and the Prophet of Mercy.\"'",
               "note": "Mishkāt report 5777 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 15,
               "ar": "وَعَنْ أُمِّ سُلَيْمٍ أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَانَ يَأْتِيهَا فَيَقِيلُ عِنْدَهَا فَتَبْسُطُ نِطْعًا فَيَقِيلُ عَلَيْهِ وَكَانَ كَثِيرَ الْعَرَقِ فَكَانَتْ تَجْمَعُ عَرَقَهُ فَتَجْعَلُهُ فِي الطِّيبِ. فَقَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «يَا أُمَّ سُلَيْمٍ مَا هَذَا؟» قَالَتْ: عَرَقُكَ نَجْعَلُهُ فِي طِيبِنَا وَهُوَ مِنْ أَطْيَبِ الطِّيبِ\nوَفِي رِوَايَةٍ قَالَتْ: يَا رَسُولَ اللَّهِ نَرْجُو بَرَكَتَهُ لِصِبْيَانِنَا قَالَ: «أصبت» . مُتَّفق عَلَيْهِ",
-              "en": "Sahl-ibn-Saʿd ﵁ said, A. G. S. 'I am your leader to the fountain of Kawthar: whoever comes to me will drink of it, and whoever drinks will never thirst again.'",
-              "en2": "Sahl ibn Saʿd ﵁ narrates that the Messenger of Allah ﷺ said: 'I am your forerunner at the Heavenly Basin (al-Ḥawḍ). Whoever passes by me shall drink, and whoever drinks from it shall never thirst again.'",
+              "en": null,
+              "en2": "Umm Sulaym ﵂ narrates: 'The Prophet ﷺ used to visit her and take a midday rest at her house. She would spread a leather mat for him and he would rest upon it. He sweated a great deal, so she would collect his sweat and put it into her perfume. The Prophet ﷺ said: \"O Umm Sulaym, what is this?\" She said: \"It is your sweat; we put it into our perfume, and it is among the finest of perfumes.\"' In another report she said: 'O Messenger of Allah, we hope for its blessing for our children.' He said: \"You are right.\"",
               "note": "Mishkāt report 5788 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             }
           ]
@@ -128,99 +128,99 @@
             {
               "n": 1,
               "ar": "وَعَن عبدِ الله بن سرجسٍ قَالَ: رَأَيْتُ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَأَكَلْتُ مَعَهُ خُبْزًا وَلَحْمًا - أَوْ قَالَ: ثَرِيدًا - ثُمَّ دُرْتُ خَلْفَهُ فَنَظَرْتُ إِلَى خَاتَمِ النُّبُوَّةِ بَيْنَ كَتِفَيْهِ عِنْدَ نَاغِضِ كَتِفِهِ الْيُسْرَى جُمْعًا عَلَيْهِ خيلال كأمثال الثآليل. رَوَاهُ مُسلم",
-              "en": "Anas ﵁ said, 'His majesty was neither very tall nor very short, nor very white like chalk, nor very brown; nor was his hair very curly, nor very straight, but between the two. God made him a Prophet in his fortieth year; and he dwelt in Mecca ten years, and ten years at Medīnah; and God caused him to die at the expiration of sixty years, when there were not twenty grey hairs in his blessed head and beard.'",
-              "en2": "Anas ibn Mālik ﵁ narrates: 'The Messenger of Allah ﷺ was of medium height, neither conspicuously tall nor short. His skin was neither chalky white nor dark, but luminous. His hair was neither exceedingly curly nor lank, but gentle waves. Allah commissioned him at forty, and he stayed ten years in Makkah and ten in Madinah. When Allah took his soul, there were not even twenty white hairs in his head and beard.'",
-              "note": "Mishkāt report 5780 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
+              "en": null,
+              "en2": "ʿAbdullāh ibn Sarjis ﵁ narrates: 'I saw the Prophet ﷺ and ate bread and meat with him—or he said, tharīd—then I went round behind him and looked at the Seal of Prophethood between his shoulders, near the soft part of his left shoulder, gathered together, with moles upon it like warts.'",
+              "note": "Mishkāt report 5780 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 2,
               "ar": "وَعَنْ أُمِّ خَالِدٍ بِنْتِ خَالِدِ بْنِ سَعِيدٍ قَالَتْ: أُتِيَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ بِثِيَابٍ فِيهَا خَمِيصَةٌ سَوْدَاءُ صَغِيرَةٌ فَقَالَ: «ائْتُونِي بِأُمِّ خَالِدٍ» فَأُتِيَ بِهَا تُحْمَلُ فَأَخَذَ الْخَمِيصَةَ بِيَدِهِ فَأَلْبَسَهَا. قَالَ: «أَبْلِي وَأَخْلِقِي ثُمَّ أَبْلِي وَأَخْلِقِي» وَكَانَ فِيهَا عَلَمٌ أَخْضَرُ أَوْ أَصْفَرُ. فَقَالَ: «يَا أُمَّ خَالِدٍ هَذَا سِنَاهْ» وَهِيَ بالحبشيَّةِ حسنَة. قَالَت: فذهبتُ أَلعبُ بخاتمِ النبوَّةِ فز برني أُبَيٍّ فَقَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «دعها» . رَوَاهُ البُخَارِيّ",
-              "en": "Barāʾ-ibn-ʿĀzib ﵁ said, 'His majesty was middle-sized, his shoulders broad; his hair reached the bottom of his ears. I saw him in a red striped garment, and I never saw any person look so handsome as the Prophet.'",
-              "en2": "Al-Barāʾ ibn ʿĀzib ﵁ narrates: 'The Messenger of Allah ﷺ was of medium stature, broad-shouldered, with hair flowing to the lobes of his ears. I once saw him in a red striped cloak, and I have never seen anything in creation more handsome than him.'",
-              "note": "Mishkāt report 5781 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
+              "en": null,
+              "en2": "Umm Khālid bint Khālid ibn Saʿīd ﵂ narrates: 'Some garments were brought to the Prophet ﷺ, among them a small black cloak (khamīṣah). He said: \"Bring me Umm Khālid.\" She was brought, carried [as a small child]. He took the cloak in his hand and put it on her, saying: \"May you wear it out, and wear it out again.\" It had a green or yellow mark on it. He said: \"O Umm Khālid, this is sanāh\"—which means \"beautiful\" in the Abyssinian tongue. She said: I began to play with the Seal of Prophethood, and my father rebuked me. The Messenger of Allah ﷺ said: \"Leave her.\"'",
+              "note": "Mishkāt report 5781 · Ṣaḥīḥ al-Bukhārī"
             },
             {
               "n": 3,
               "ar": "وَعَنْ أَنَسٍ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَيْسَ بِالطَّوِيلِ الْبَائِنِ وَلَا بِالْقَصِيرِ وَلَيْسَ بِالْأَبْيَضِ الْأَمْهَقِ وَلَا بِالْآدَمِ وَلَيْسَ بِالْجَعْدِ الْقَطَطِ وَلَا بِالسَّبْطِ بَعَثَهُ اللَّهُ عَلَى رَأْسِ أَرْبَعِينَ سَنَةً فَأَقَامَ بِمَكَّةَ عَشْرَ سِنِينَ وبالمدينة عشر سِنِين وتوفَّاه الله على رَأس سِتِّينَ سَنَةً وَلَيْسَ فِي رَأْسِهِ وَلِحْيَتِهِ عِشْرُونَ شَعْرَةً بَيْضَاءَ\nوَفِي رِوَايَةٍ يَصِفُ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: كَانَ رَبْعَةً مِنَ الْقَوْمِ لَيْسَ بِالطَّوِيلِ وَلَا بِالْقَصِيرِ أَزْهَرَ اللَّوْنِ. وَقَالَ: كَانَ شَعْرُ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِلَى أَنْصَافِ أُذُنَيْهِ\nوَفِي رِوَايَةٍ: بَيْنَ أُذُنَيْهِ وَعَاتِقِهِ. مُتَّفَقٌ عَلَيْهِ\nوَفِي رِوَايَةٍ لِلْبُخَارِيِّ قَالَ: كَانَ ضَخْمَ الرَّأْسِ وَالْقَدَمَيْنِ لَمْ أَرَ بَعْدَهُ وَلَا قَبْلَهُ مِثْلَهُ وَكَانَ سَبْطَ الكفَّينِ. وَفِي أُخْرَى لَهُ قَالَ: كَانَ شئن الْقَدَمَيْنِ وَالْكَفَّيْنِ",
-              "en": "Qatādah said, 'I asked Anas about the grey hairs of the Prophet, whether he dyed them. He said: He did not reach the need of dyeing; there were only a few grey hairs upon his temples, but Abū Bakr dyed his hair with henna and katam.'",
-              "en2": "Qatādah narrates: I asked Anas ibn Mālik: 'Did the Prophet ﷺ dye his hair?' He replied: 'He had no need to dye it; there were only a few white hairs near his temples, though Abū Bakr dyed his with henna and katam.'",
+              "en": null,
+              "en2": "Anas ibn Mālik ﵁ narrates: 'The Messenger of Allah ﷺ was neither very tall nor short, neither chalk-white nor dark, and his hair was neither tightly curled nor lank. Allah sent him at the age of forty; he stayed ten years in Makkah and ten years in Madinah, and Allah took him at the age of sixty, with not even twenty white hairs in his head and beard.' In another report, describing the Prophet ﷺ, he said: 'He was of medium height among people, neither tall nor short, of a radiant complexion. The hair of the Messenger of Allah ﷺ reached the middle of his ears'—and in another: 'between his ears and his shoulder.' In a report of al-Bukhārī he said: 'He was large of head and feet; I never saw anyone like him before or after him, and he was broad-palmed (sabṭ al-kaffayn).' And in another report of his: 'His feet and hands were thick (shathn).'",
               "note": "Mishkāt report 5782 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
               "n": 4,
               "ar": "وَعَنِ الْبَرَّاءِ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ مَرْبُوعًا بَعِيدَ مَا بَيْنَ الْمَنْكِبَيْنِ لَهُ شَعْرٌ بَلَغَ شَحْمَةَ أُذُنَيْهِ رَأَيْتُهُ فِي حُلَّةٍ حَمْرَاءَ لَمْ أَرَ شَيْئًا قَطُّ أَحْسَنَ مِنْهُ. مُتَّفَقٌ عَلَيْهِ\nوَفِي رِوَايَةٍ لِمُسْلِمٍ قَالَ: مَا رَأَيْتُ مِنْ ذِي لِمَّةٍ أَحْسَنَ فِي حُلَّةٍ حَمْرَاءَ مِنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ شَعْرُهُ يَضْرِبُ مَنْكِبَيْهِ بَعِيدٌ مَا بَيْنَ الْمَنْكِبَيْنِ لَيْسَ بِالطَّوِيلِ وَلَا بِالْقَصِيرِ",
-              "en": "Jābir-ibn-Samurah ﵁ said, 'His majesty had a wide mouth, with reddish-tinged white in his eyes, and lean heels.'",
-              "en2": "Jābir ibn Samurah ﵁ narrates: 'The Messenger of Allah ﷺ had a wide mouth (an attribute of eloquence), fine red strands in the whites of his eyes (a sign of beauty), and lean, well-shaped heels.'",
-              "note": "Mishkāt report 5783 · Ṣaḥīḥ Muslim"
+              "en": null,
+              "en2": "al-Barāʾ ﵁ narrates: 'The Messenger of Allah ﷺ was of medium height, broad between the shoulders, with hair reaching the lobes of his ears. I saw him in a red ḥullah (a two-piece garment), and I have never seen anything more beautiful than him.' In a report of Muslim he said: 'I never saw anyone with flowing hair more handsome in a red ḥullah than the Messenger of Allah ﷺ. His hair touched his shoulders, he was broad between the shoulders, neither tall nor short.'",
+              "note": "Mishkāt report 5783 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim; variant in Ṣaḥīḥ Muslim"
             },
             {
               "n": 5,
               "ar": "وَعَنْ سِمَاكِ بْنِ حَرْبٍ عَنْ جَابِرِ بْنِ سَمُرَةَ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ ضَلِيعَ الْفَمِ أَشْكَلَ الْعَيْنَيْنِ مَنْهُوشَ الْعَقِبَيْنِ قِيلَ لَسِمَاكٍ: مَا ضَلِيعُ الْفَمِ؟ قَالَ: عَظِيمُ الْفَمِ. قِيلَ: مَا أَشْكَلُ الْعَيْنَيْنِ؟ قَالَ: طَوِيلُ شَقِّ الْعَيْنِ. قِيلَ: مَا مَنْهُوشُ الْعَقِبَيْنِ؟ قَالَ: قليلُ لحم الْعقب. رَوَاهُ مُسلم",
-              "en": "Jābir-ibn-Samurah ﵁ said, 'I saw the seal of prophecy near his shoulders, which was like a pigeon's egg, in colour like his body.'",
-              "en2": "Jābir ibn Samurah ﵁ narrates: 'I saw the Seal of Prophethood situated between the Prophet's ﷺ shoulder-blades; it was an elevated mark like a pigeon's egg, matching the noble hue of his body.'",
+              "en": null,
+              "en2": "Simāk ibn Ḥarb narrates from Jābir ibn Samurah ﵁: 'The Messenger of Allah ﷺ was wide-mouthed (ḍalīʿ al-fam), long-eyed (ashkal al-ʿaynayn), with little flesh on his heels (manhūsh al-ʿaqibayn).' Simāk was asked: 'What is ḍalīʿ al-fam?' He said: 'Large of mouth.' It was said: 'What is ashkal al-ʿaynayn?' He said: 'Long in the cleft of the eye.' It was said: 'What is manhūsh al-ʿaqibayn?' He said: 'Having little flesh on the heel.'",
               "note": "Mishkāt report 5784 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 6,
               "ar": "وَعَنْ أَبِي الطُّفَيْلِ قَالَ: رَأَيْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَانَ أَبْيَضَ مَلِيحًا مقصدا \". رَوَاهُ مُسلم",
-              "en": "Anas ﵁ said, 'I never felt any silk or satin softer than the palms of his hands; and I never smelt any musk or ambergris sweeter than the fragrance of his noble body.'",
-              "en2": "Anas ibn Mālik ﵁ narrates: 'I never touched silk brocade softer than the palm of the Messenger of Allah ﷺ, nor did I ever inhale musk or ambergris sweeter than the scent of the Messenger of Allah ﷺ.'",
-              "note": "Mishkāt report 5785 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
+              "en": null,
+              "en2": "Abū al-Ṭufayl ﵁ narrates: 'I saw the Messenger of Allah ﷺ: he was fair-complexioned, comely and of moderate build.'",
+              "note": "Mishkāt report 5785 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 7,
               "ar": "وَعَنْ ثَابِتٍ قَالَ: سُئِلَ أَنَسٌ عَنْ خِضَابِ رَسُول الله صلى الله عَلَيْهِ وَسلم فَقَالَ: إِنَّهُ لَمْ يَبْلُغْ مَا يُخْضَبُ لَوْ شِئْتُ أَنْ أَعُدَّ شَمَطَاتِهِ فِي لِحْيَتِهِ - وَفِي رِوَايَةٍ: لَوْ شِئْتُ أَنْ أَعُدَّ شَمَطَاتٍ كُنَّ فِي رَأسه - فعلت. مُتَّفق عَلَيْهِ",
-              "en": "Anas ﵁ said, 'Verily the Prophet used to come to my mother's house and take a midday nap. She used to spread a leather mat for him; and when he perspired, she would collect his sweat and put it into her scent bottles. His majesty awoke and said: O Umm Sulaim! what art thou doing? She said: I put your perspiration into our perfumes, for it is the sweetest of scents.'",
-              "en2": "Anas ibn Mālik ﵁ narrates: 'The Prophet ﷺ would visit our home and take a midday rest. My mother, Umm Sulaym, would spread a leather mat for him, and when he slept and perspired, she would collect his perspiration and place it into her vials. The Prophet ﷺ awoke and asked: \"What are you doing, Umm Sulaym?\" She replied: \"We mingle your perspiration with our fragrance, for it is the finest of all scents!\"'",
+              "en": null,
+              "en2": "Thābit narrates: 'Anas ﵁ was asked about the dyeing of the hair of the Messenger of Allah ﷺ. He said: \"He had not reached the point of needing dye. If I had wished to count the white hairs in his beard—or, in another report, the white hairs that were in his head—I could have done so.\"'",
               "note": "Mishkāt report 5786 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
               "n": 8,
               "ar": "وَعَنْ أَنَسٍ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَزْهَرَ اللَّوْنِ كَانَ عَرَقُهُ اللُّؤْلُؤُ إِذَا مَشَى تَكَفَّأَ وَمَا مَسَسْتُ دِيبَاجَةً وَلَا حَرِيرًا أَلْيَنَ مِنْ كَفِّ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَلَا شمَمتُ مسكاً وَلَا عَنْبَرَةً أَطْيَبَ مِنْ رَائِحَةِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ. مُتَّفَقٌ عَلَيْهِ",
-              "en": "Jābir-ibn-Samurah ﵁ said, 'A man asked: Was his majesty's face like a sword (for brightness)? I said: No, but it was like the sun and the moon, radiant and circular.'",
-              "en2": "Jābir ibn Samurah ﵁ narrates: A man asked: 'Was the face of the Messenger of Allah ﷺ sharp and shining like a sword?' He replied: 'No, but radiant and luminous like the sun and the moon, with a noble roundness.'",
-              "note": "Mishkāt report 5787 · Ṣaḥīḥ Muslim"
+              "en": null,
+              "en2": "Anas ibn Mālik ﵁ narrates: 'The Messenger of Allah ﷺ was of a radiant complexion; his sweat was like pearls; and when he walked he inclined forward. I never touched brocade or silk softer than the palm of the Messenger of Allah ﷺ, and I never smelled musk or ambergris sweeter than the scent of the Prophet ﷺ.'",
+              "note": "Mishkāt report 5787 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
               "n": 9,
               "ar": "وَعَنْ جَابِرِ بْنِ سَمُرَةَ قَالَ: صَلَّيْتُ مَعَ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ صَلَاةَ الْأُولَى ثُمَّ خَرَجَ إِلَى أَهْلِهِ وَخَرَجْتُ مَعَهُ فَاسْتَقْبَلَهُ وِلْدَانٌ فَجَعَلَ يَمْسَحُ خَدَّيْ أَحَدِهِمْ وَاحِدًا وَاحِدًا وَأَمَّا أَنَا فَمَسَحَ خَدِّي فَوَجَدْتُ لِيَدِهِ بردا وريحاً كَأَنَّمَا أَخْرَجَهَا مِنْ جُؤْنَةِ عَطَّارٍ. رَوَاهُ مُسْلِمٌ",
               "en": "Jābir-ibn-Samurah ﵁ said, 'I said noon-day prayer with his majesty, after which he went towards his house, and I went with him. And some children came before him, and his majesty began to touch the cheeks of every one of them. And he stroked my cheek also; and I found his hand cold and fragrant, as if he had just taken it out of a perfumer's chest.'",
-              "en2": "Jābir ibn Samurah ﵁ narrates: 'I prayed Zuhr behind the Messenger of Allah ﷺ, then he walked towards his home and I followed him. Some children met him on the way, and he tenderly stroked the cheek of each one. He stroked my cheek as well, and I found his hand delightfully cool and so fragrant it was as though he had just drawn it from a perfumer's casket.'",
+              "en2": "Jābir ibn Samurah ﵁ narrates: 'I prayed the first prayer of the afternoon (ẓuhr) with the Messenger of Allah ﷺ. Then he went out to his family, and I went out with him. Some children met him, and he began to stroke the cheeks of each of them, one by one. As for me, he stroked my cheek, and I found his hand cool and fragrant, as though he had just taken it out of a perfumer’s bag.'",
               "note": "Mishkāt report 5789 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 10,
               "ar": "عَنْ عَلِيِّ بْنِ أَبِي طَالِبٍ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَيْسَ بالطويل وَلَا بالقصير ضخم الرَّأْس واللحية شئن الْكَفَّيْنِ وَالْقَدَمَيْنِ مُشْرَبًا حُمْرَةً ضَخْمَ الْكَرَادِيسِ طَوِيلَ المَسْرُبَةِ إِذا مَشى تكفَّأ تكفُّأً كَأَنَّمَا يَنْحَطُّ مِنْ صَبَبٍ لَمْ أَرَ قَبْلَهُ وَلَا بَعْدَهُ مِثْلَهُ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ. رَوَاهُ التِّرْمِذِيُّ وَقَالَ: هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ",
-              "en": "ʿAlī-ibn-Abī-Ṭālib ﵁ said, 'His majesty was neither tall nor short; he had a large head and a full beard; the palms of his hands and feet were solid; his chest and joints were broad; his hair reached his earlobes. When he walked, he leaned forward as if descending a steep slope. I never saw any person like him, before him or after him.'",
-              "en2": "Sayyidunā ʿAlī ﵁ ibn Abī Ṭālib ﵁ narrates: 'The Messenger of Allah ﷺ was neither tall nor short; he possessed a dignified head, a full beard, sturdy palms and feet, broad shoulders, and hair reaching his earlobes. When he walked, he stepped firmly, leaning forward as though walking down a slope. I never saw anyone like him, before him or after him.'",
+              "en": null,
+              "en2": "ʿAlī ibn Abī Ṭālib ﵁ narrates: 'The Messenger of Allah ﷺ was neither tall nor short; he was large of head and beard; thick of palm and foot (shathn al-kaffayn wa-al-qadamayn); of a complexion tinged with red; large of joints (ḍakhm al-karādīs); with a long line of hair from chest to navel (ṭawīl al-masrubah). When he walked he leaned forward, as though descending a slope. I never saw anyone like him, before him or after him ﷺ.' Al-Tirmidhī said: 'This is a good and sound (ḥasan ṣaḥīḥ) ḥadīth.'",
               "note": "Mishkāt report 5790 · Jāmiʿ al-Tirmidhī"
             },
             {
               "n": 11,
               "ar": "وَعَنْهُ كَانَ إِذَا وَصَفَ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: لَمْ يَكُنْ بِالطَّوِيلِ الْمُمَّغِطِ وَلَا بِالْقَصِيرِ الْمُتَرَدِّدِ وَكَانَ رَبْعَةً مِنَ الْقَوْمِ وَلَمْ يَكُنْ بِالْجَعْدِ الْقَطَطِ وَلَا بِالسَّبْطِ كَانَ جَعْدًا رَجِلًا وَلَمْ يَكُنْ بِالْمُطَهَّمِ وَلَا بِالْمُكَلْثَمِ وَكَانَ فِي الْوَجْهِ تَدْوِيرٌ أَبْيَضُ مُشْرَبٌ أَدْعَجُ الْعَيْنَيْنِ أَهْدَبُ الْأَشْفَارِ جَلِيلُ الْمَشَاشِ وَالْكَتَدِ أَجْرَدُ ذُو مَسْرُبةٍ شئن الْكَفَّيْنِ وَالْقَدَمَيْنِ إِذَا مَشَى يَتَقَلَّعُ كَأَنَّمَا يَمْشِي فِي صَبَبٍ وَإِذَا الْتَفَتَ الْتَفَتَ مَعًا بَيْنَ كَتِفَيْهِ خَاتَمُ النُّبُوَّةِ وَهُوَ خَاتَمُ النَّبِيِّينَ أَجْوَدُ النَّاسِ صَدْرًا وَأَصْدَقُ النَّاسِ لَهْجَةً وَأَلْيَنُهُمْ عَرِيكَةً وَأَكْرَمُهُمْ عَشِيرَةً مَنْ رَآهُ بَدِيهَةً هَابَهُ وَمَنْ خَالَطَهُ مَعْرِفَةً أَحَبَّهُ يَقُولُ نَاعِتُهُ: لَمْ أَرَ قَبْلَهُ وَلَا بَعْدَهُ مِثْلَهُ صَلَّى اللَّهُ عَلَيْهِ وَسلم. رَوَاهُ التِّرْمِذِيّ",
-              "en": "ʿAlī ﵁ described his majesty, saying: 'He was neither toweringly tall nor short, but of medium stature. His hair was not tightly curled nor limp, but wavy. His complexion was white with a reddish glow; his eyes wide and intensely dark with long lashes. Between his shoulders was the Seal of Prophethood. He was the most generous of people in heart, the most truthful in speech, the gentlest in nature, and the noblest in companionship. Whoever saw him unexpectedly stood in awe of him, and whoever consorted with him loved him. Whoever described him said: I never saw anyone like him, before him or since.'",
-              "en2": "Sayyidunā ʿAlī ﵁ described the Messenger of Allah ﷺ: 'He was neither toweringly tall nor stunted, but of dignified medium height. His hair was neither crisp curls nor lank, but with gentle wave. His skin was radiant white tinged with pink. He had wide black eyes, long eyelashes, broad joints, and the Seal of Prophethood between his shoulders. He was the most generous in heart, the most truthful in word, the gentlest in temper, and the noblest in companionship. Whoever beheld him suddenly felt reverence, and whoever came to know him loved him intimately. The one who described him could only say: \"I have never seen his like, before him or after him.\"' [ﷺ]",
+              "en": null,
+              "en2": "ʿAlī ﵁, when he described the Prophet ﷺ, said: 'He was not excessively tall, nor short and hunched, but of medium height among people. His hair was neither tightly curled nor lank, but wavy. He was neither heavy-faced nor round-faced, yet there was a roundness to his face. He was fair with a reddish tinge, with very black eyes and long lashes; large-jointed and broad between the shoulders; with little hair on his body apart from a fine line from chest to navel; thick of palm and foot. When he walked he lifted his feet as though walking down a slope, and when he turned he turned with his whole body. Between his shoulders was the Seal of Prophethood, and he is the Seal of the Prophets. He was the most generous of people in heart, the most truthful in speech, the gentlest in nature and the noblest in kinship. Whoever saw him suddenly stood in awe of him, and whoever mixed with him and came to know him loved him. His describer would say: I never saw anyone like him, before him or after him ﷺ.'",
               "note": "Mishkāt report 5791 · Jāmiʿ al-Tirmidhī"
             },
             {
               "n": 12,
               "ar": "وَعَنْ جَابِرٌ أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَمْ يَسْلُكْ طَرِيقًا فَيَتْبَعُهُ أَحَدٌ إِلَّا عرفَ أَنه قد سلكه من طيب عرقه - أَوْ قَالَ: مِنْ رِيحِ عَرَقِهِ - رَوَاهُ الدَّارِمِيُّ",
               "en": "Jābir ﵁ said, 'His majesty never went down any road, but that whoever went along that road after him knew that the Prophet had passed by, on account of the fragrant scent of his body.'",
-              "en2": "Jābir ibn ʿAbdillāh ﵁ narrates: 'The Prophet ﷺ never took any pathway in Madinah without anyone who followed in his footsteps knowing he had walked there, by the fragrant scent that remained behind him.'",
+              "en2": "Jābir ﵁ narrates: 'The Prophet ﷺ never walked along a path and was then followed along it by anyone without that person knowing that he had passed that way, from the fragrance of his sweat'—or he said, 'from the scent of his sweat.'",
               "note": "Mishkāt report 5792 · Sunan al-Dārimī"
             },
             {
               "n": 13,
               "ar": "عَنِ ابْنِ عَبَّاسٍ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَفْلَجَ الثَّنِيَّتَيْنِ إِذَا تَكَلَّمَ رُئِيَ كَالنُّورِ يَخْرُجُ مِنْ بَيْنِ ثَنَايَاهُ. رَوَاهُ الدَّارمِيّ",
-              "en": "Ibn ʿAbbās ﵁ said, 'The Prophet used to let his hair hang down, while the idolaters parted theirs; and the Prophet liked to agree with the People of the Book in things wherein he was not otherwise commanded; after that, he parted his hair.'",
-              "en2": "Ibn ʿAbbās ﵁ narrates: 'The Messenger of Allah ﷺ used to let his hair flow naturally without parting, whereas the polytheists parted their hair. The Prophet ﷺ preferred harmony with the People of the Book in matters where no specific command had come; subsequently, he parted his hair symmetrically.'",
-              "note": "Mishkāt report 5797 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
+              "en": null,
+              "en2": "Ibn ʿAbbās ﵁ narrates: 'The Messenger of Allah ﷺ had a gap between his front teeth (aflaj al-thaniyyatayn); when he spoke, something like light was seen coming out from between his front teeth.'",
+              "note": "Mishkāt report 5797 · Sunan al-Dārimī"
             },
             {
               "n": 14,
               "ar": "وَعَنْ كَعْبِ بْنِ مَالِكٍ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِذَا سُرَّ اسْتَنَارَ وَجْهُهُ حَتَّى كَأَنَّ وَجْهَهُ قِطْعَةُ قَمَرٍ وَكُنَّا نَعْرِفُ ذَلِكَ. مُتَّفَقٌ عَلَيْهِ",
               "en": "Kaʿb-ibn-Mālik ﵁ said, 'When his majesty was pleased, his blessed face shone like a piece of the full moon, and we used to recognise his joy by that.'",
-              "en2": "Kaʿb ibn Mālik ﵁ narrates: 'Whenever the Messenger of Allah ﷺ was filled with joy, his radiant countenance illuminated until it looked like a piece of the full moon; and by that radiance we always knew his happiness.'",
+              "en2": "Kaʿb ibn Mālik ﵁ narrates: 'When the Messenger of Allah ﷺ was pleased, his face would light up until it was as though his face were a piece of the moon, and we knew this about him.'",
               "note": "Mishkāt report 5798 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             }
           ]
@@ -232,71 +232,71 @@
             {
               "n": 1,
               "ar": "وَعَنْ أَنَسٍ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِذَا صَلَّى الْغَدَاةَ جَاءَ خَدَمُ الْمَدِينَةِ بِآنِيَتِهِمْ فِيهَا الْمَاءُ فَمَا يَأْتُونَ بإناءٍ إِلَّا غمسَ يدَه فِيهَا فرُبما جاؤوهُ بِالْغَدَاةِ الْبَارِدَةِ فَيَغْمِسُ يَدَهُ فِيهَا. رَوَاهُ مُسْلِمٌ",
-              "en": "Abū Saʿīd al-Khudrī ﵁ said, 'The Prophet was more modest than a virgin behind her curtain; and when he saw anything that displeased him, we knew it by his countenance.'",
-              "en2": "Abū Saʿīd al-Khudrī ﵁ narrates: 'The Prophet ﷺ was more modest and bashful than a maiden secluded behind her veil. When he witnessed anything he disliked, we could recognize it immediately upon his face.'",
-              "note": "Mishkāt report 5808 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
+              "en": null,
+              "en2": "Anas ibn Mālik ﵁ narrates: 'When the Messenger of Allah ﷺ had prayed the morning prayer, the servants of Madinah would come with their vessels containing water. Whatever vessel they brought, he would dip his hand into it; and sometimes they came to him on a cold morning, and he would dip his hand into it.'",
+              "note": "Mishkāt report 5808 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 2,
               "ar": "وَعَنْهُ قَالَ: كَانَتْ أَمَةٌ مِنْ إِمَاءِ أَهْلِ الْمَدِينَةِ تَأْخُذُ بِيَدِ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَتَنْطَلِقُ بِهِ حَيْثُ شَاءَتْ. رَوَاهُ البُخَارِيّ",
-              "en": "ʿĀʾeshah ﵂ said, 'I never saw the Prophet laugh so loudly as to see the uvula or roof of his mouth; his majesty only used to smile.'",
-              "en2": "Sayyidah ʿĀʾishah ﵂ narrates: 'I never saw the Prophet ﷺ laugh boisterously so that the uvula in his throat became visible; his laughter was always a gentle, radiant smile.'",
-              "note": "Mishkāt report 5809 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
+              "en": "Anas ﵁ said, 'There was a slave girl of Medīnah who used to take the Prophet by the hand, and lead him wherever she wished, to assist her in her wants.'",
+              "en2": "Anas ibn Mālik ﵁ narrates: 'Any one of the slave-girls of the people of Madinah would take the hand of the Messenger of Allah ﷺ and lead him wherever she wished.'",
+              "note": "Mishkāt report 5809 · Ṣaḥīḥ al-Bukhārī"
             },
             {
               "n": 3,
               "ar": "وَعَنْهُ أَنَّ امْرَأَةً كَانَتْ فِي عَقْلِهَا شَيْءٌ فَقَالَت: يَا رَسُول الله إِنِّي لِي إِلَيْكَ حَاجَّةً فَقَالَ: «يَا أُمَّ فُلَانٍ انْظُرِي أَيَّ السِّكَكِ شِئْتِ حَتَّى أَقْضِيَ لَكِ حَاجَتَكِ» فَخَلَا مَعَهَا فِي بَعْضِ الطُّرُقِ حَتَّى فرغت من حَاجَتهَا. رَوَاهُ مُسلم",
-              "en": "ʿĀʾeshah ﵂ said, 'His majesty's speech was not hurried like yours; but his words were distinct and clear, so that if any one wished to count them, he might have done so.'",
-              "en2": "Sayyidah ʿĀʾishah ﵂ narrates: 'The Messenger of Allah ﷺ did not speak rapidly and continuously like people do today; rather, his speech was so clear, measured, and distinct that anyone who wished to count his words could easily do so.'",
-              "note": "Mishkāt report 5810 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
+              "en": null,
+              "en2": "Anas ibn Mālik ﵁ narrates: 'A woman who was somewhat impaired in her reason said: \"O Messenger of Allah ﷺ, I have a need of you.\" He said: \"O mother of so-and-so, see in which of the lanes you wish, and I shall attend to your need.\" So he stood aside with her on one of the roads until she had finished what she needed.'",
+              "note": "Mishkāt report 5810 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 4,
               "ar": "وَعَنْ عَائِشَةَ قَالَتْ: مَا خُيِّرَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ بَيْنَ أَمْرَيْنِ قَطُّ إِلَّا أَخَذَ أَيْسَرَهُمَا مَا لَمْ يَكُنْ إِثْمًا فَإِنْ كَانَ إِثْمًا كَانَ أَبْعَدَ النَّاسِ مِنْهُ وَمَا انْتَقَمَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لِنَفْسِهِ فِي شَيْءٍ قَطُّ إِلَّا أَنْ يُنتهك حرمةُ الله فينتقم لله بهَا. مُتَّفق عَلَيْهِ",
-              "en": "Anas ﵁ said, 'When the Prophet spoke, he used to repeat his words three times, that they might be thoroughly understood from him; and when he gave a greeting, he greeted three times.'",
-              "en2": "Anas ibn Mālik ﵁ narrates: 'Whenever the Prophet ﷺ delivered an important statement, he would repeat it three times so that it would be fully comprehended; and when he arrived at a gathering, he would greet them with peace thrice.'",
-              "note": "Mishkāt report 5817 · Ṣaḥīḥ al-Bukhārī"
+              "en": null,
+              "en2": "ʿĀʾishah ﵂ narrates: 'The Messenger of Allah ﷺ was never given a choice between two matters without taking the easier of them, provided it was not sinful; if it was sinful, he was the furthest of people from it. And the Messenger of Allah ﷺ never took revenge for himself in anything, unless the sanctity of Allah was violated, in which case he took revenge for the sake of Allah.'",
+              "note": "Mishkāt report 5817 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
               "n": 5,
               "ar": "وَعَنْ أَنَسٍ أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَانَ إِذَا صَافَحَ الرَّجُلَ لَمْ يَنْزِعْ يَدَهُ مِنْ يَدِهِ حَتَّى يَكُونَ هُوَ الَّذِي يَنْزِعُ يَدَهُ وَلَا يَصْرِفُ وَجْهَهُ عَنْ وَجْهِهِ حَتَّى يَكُونَ هُوَ الَّذِي يَصْرِفُ وَجْهَهُ عَن وَجهه وَلم يُرَ مقدِّماً رُكْبَتَيْهِ بَين يَدي جليس لَهُ. رَوَاهُ التِّرْمِذِيّ",
-              "en": "ʿAbdullāh-ibn-al-Ḥārith ﵁ said, 'I never saw any one smile more than the Prophet.'",
-              "en2": "ʿAbdullāh ibn al-Ḥārith ﵁ narrates: 'I have never seen anyone in my life who smiled more frequently or radiantly than the Messenger of Allah ﷺ.'",
+              "en": "Anas ﵁ said, 'When any man shook hands with his majesty, he did not withdraw his noble hand until the other withdrew his; nor did he turn away his face until the other turned away; nor was he ever seen extending his knees before his companions.'",
+              "en2": "Anas ibn Mālik ﵁ narrates: 'When the Messenger of Allah ﷺ shook hands with a man, he did not withdraw his hand from the man’s hand until the man was the one to withdraw it, and he did not turn his face from the man’s face until the man was the one to turn away; and he was never seen stretching his knees out in front of anyone sitting with him.'",
               "note": "Mishkāt report 5824 · Jāmiʿ al-Tirmidhī"
             },
             {
               "n": 6,
               "ar": "وَعَنْهُ أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَانَ لَا يَدَّخِرُ شَيْئًا لِغَدٍ. رَوَاهُ التِّرْمِذِيّ",
-              "en": "Anas ﵁ said, 'When any man shook hands with his majesty, he did not withdraw his noble hand until the other withdrew his; nor did he turn away his face until the other turned away; nor was he ever seen extending his knees before his companions.'",
-              "en2": "Anas ibn Mālik ﵁ narrates: 'When anyone shook hands with the Prophet ﷺ, he never withdrew his hand until the other person let go; nor did he turn his face away until the person turned away; and he was never seen stretching his legs out in front of his companions in a gathering.'",
+              "en": null,
+              "en2": "Anas ibn Mālik ﵁ narrates: 'The Messenger of Allah ﷺ would not store up anything for the morrow.'",
               "note": "Mishkāt report 5825 · Jāmiʿ al-Tirmidhī"
             },
             {
               "n": 7,
               "ar": "وَعَنْ جَابِرِ بْنِ سَمُرَةَ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ طَوِيلَ الصَّمْتِ. رَوَاهُ فِي «شرح السّنة»",
-              "en": "Anas ﵁ said, 'When a man whispered into his majesty's ear, he did not remove his head until the other man finished; and he was never seen looking haughty.'",
-              "en2": "Anas ibn Mālik ﵁ narrates: 'Whenever anyone leaned in to whisper something into the Prophet's ﷺ ear, he never drew his head back until the person had finished speaking; and he attended to everyone with total presence.'",
-              "note": "Mishkāt report 5826 · Jāmiʿ al-Tirmidhī"
+              "en": null,
+              "en2": "Jābir ibn Samurah ﵁ narrates: 'The Messenger of Allah ﷺ would remain silent for long periods.'",
+              "note": "Mishkāt report 5826 · Sharḥ al-Sunnah (al-Baghawī)"
             },
             {
               "n": 8,
               "ar": "وَعَنْ عَائِشَةَ قَالَتْ: مَا كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَسْرُدُ سَرْدَكُمْ هَذَا وَلَكِنَّهُ كَانَ يَتَكَلَّمُ بِكَلَامٍ بَيْنَهُ فَصْلٌ يَحْفَظُهُ من جَلَسَ إِلَيْهِ. رَوَاهُ التِّرْمِذِيّ",
-              "en": "Jarīr-ibn-ʿAbdillāh ﵁ said, 'His majesty never secluded himself from me since I embraced Islām, and never saw me but with a smile.'",
-              "en2": "Jarīr ibn ʿAbdillāh ﵁ narrates: 'From the day I accepted Islam, the Messenger of Allah ﷺ never screened himself from me, and he never looked at me except with a warm smile upon his face.'",
-              "note": "Mishkāt report 5828 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
+              "en": null,
+              "en2": "ʿĀʾishah ﵂ narrates: 'The Messenger of Allah ﷺ did not speak in a rapid, continuous stream as you do; rather, he spoke with distinct words, clearly separated from one another, which whoever sat with him could memorise.'",
+              "note": "Mishkāt report 5828 · Jāmiʿ al-Tirmidhī"
             },
             {
               "n": 9,
               "ar": "وَعَنْ عَبْدِاللَّهِ بْنِ سَلَامٍ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ إِذَا جَلَسَ يَتَحَدَّثُ يُكْثِرُ أَنْ يَرْفَعَ طَرْفَهُ إِلَى السَّمَاء. رَوَاهُ أَبُو دَاوُد",
-              "en": "Abū Hurairah ﵁ said, 'They said: O Messenger of God! you joke with us. He said: Verily I do, but I say nothing but what is strictly true.'",
-              "en2": "Abū Hurairah ﵁ narrates: The Companions ﵃ said: 'O Messenger of Allah, you joke with us!' He replied: 'Yes, but I never speak anything except the absolute truth.'",
-              "note": "Mishkāt report 5830 · Jāmiʿ al-Tirmidhī"
+              "en": null,
+              "en2": "ʿAbdullāh ibn Salām ﵁ narrates: 'When the Messenger of Allah ﷺ sat talking, he would often raise his gaze to the sky.'",
+              "note": "Mishkāt report 5830 · Sunan Abī Dāwūd"
             },
             {
               "n": 10,
               "ar": "وَعَنْ أَبِي هُرَيْرَةَ قَالَ: مَا رَأَيْتُ شَيْئًا أَحْسَنَ مِنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَأَن الشَّمْس تجْرِي على وَجْهِهِ وَمَا رَأَيْتُ أَحَدًا أَسْرَعَ فِي مَشْيِهِ مِنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَأَنَّمَا الْأَرْضُ تُطْوَى لَهُ إِنَّا لَنُجْهِدُ أَنْفُسَنَا وَإنَّهُ لغير مكترث. رَوَاهُ التِّرْمِذِيّ",
               "en": "Abū Hurairah ﵁ said, 'I never saw any one handsomer than the Prophet; you might say the sun was moving in his face. And I never saw any one walk faster than he; you might say the ground was folded up for him: we were fatigued in walking with him, while he walked without effort.'",
-              "en2": "Abū Hurairah ﵁ narrates: 'I never saw anything more beautiful than the Messenger of Allah ﷺ; it was as if the sun itself was gliding across his face. And I never saw anyone walk with such swift, purposeful grace; it was as if the earth were being folded up before him. We would exert ourselves to keep pace, while he walked with effortless ease.'",
+              "en2": "Abū Hurairah ﵁ narrates: 'I never saw anything more beautiful than the Messenger of Allah ﷺ, as though the sun were running across his face; and I never saw anyone walk faster than the Messenger of Allah ﷺ, as though the earth were folded up for him. We would exert ourselves, while he was unconcerned.'",
               "note": "Mishkāt report 5795 · Jāmiʿ al-Tirmidhī"
             }
           ]
@@ -309,113 +309,113 @@
               "n": 1,
               "ar": "عَنْ أَنَسٍ قَالَ: خَدَمْتُ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ عَشْرَ سِنِينَ فَمَا قَالَ لِي: أُفٍّ وَلَا: لِمَ صَنَعْتَ؟ وَلَا: أَلَّا صَنَعْتَ؟ مُتَّفق عَلَيْهِ",
               "en": "Anas ﵁ said, 'I served the Prophet ten years; and he never said Uff! to me; and never said, Why didst thou do so? to anything I had done; nor, Why didst thou not do so? to anything I had neglected.'",
-              "en2": "Anas ibn Mālik ﵁ narrates: 'I served the Prophet ﷺ for ten full years. In all that time, he never once said \"Uff!\" to me in exasperation; nor did he ever question me about something I had done, saying \"Why did you do that?\", nor about something I had left undone, saying \"Why did you not do that?\"'",
+              "en2": "Anas ibn Mālik ﵁ narrates: 'I served the Prophet ﷺ for ten years, and he never said to me \"Uff!\", nor \"Why did you do that?\", nor \"Why did you not do that?\"'",
               "note": "Mishkāt report 5801 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
               "n": 2,
               "ar": "وَعَنْهُ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ مِنْ أَحْسَنِ النَّاسِ خُلُقًا فَأَرْسَلَنِي يَوْمًا لِحَاجَةٍ فَقُلْتُ: وَاللَّهِ لَا أَذْهَبُ وَفِي نَفْسِي أَنْ أَذْهَبَ لِمَا أَمَرَنِي بِهِ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَخَرَجْتُ حَتَّى أَمُرَّ عَلَى صِبْيَانٍ وَهُمْ يَلْعَبُونَ فِي السُّوقِ فَإِذَا بِرَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَدْ قَبَضَ بِقَفَايَ مِنْ وَرَائِي قَالَ: فَنَظَرْتُ إِلَيْهِ وَهُوَ يَضْحَكُ فَقَالَ: «يَا أُنَيْسُ ذَهَبْتَ حَيْثُ أَمَرْتُكَ؟» . قُلْتُ: نَعَمْ أَنَا أَذْهَبُ يَا رَسُول الله. رَوَاهُ مُسلم",
-              "en": "Anas ﵁ said, 'His majesty was the handsomest of men, and the most liberal, and the most brave. Verily one night the inhabitants of Medīnah were alarmed, and people went towards the noise; but his majesty had gone out before them upon a bare horse, with his sword slung to his neck, and said: Be not afraid, be not afraid!'",
-              "en2": "Anas ibn Mālik ﵁ narrates: 'The Prophet ﷺ was the best of men in appearance, the most generous of men, and the bravest of men. One night, the people of Madinah were terrified by a sudden noise, and people rushed toward the sound. They found that the Prophet ﷺ had already ridden out alone ahead of everyone on an unsaddled horse with his sword hung about his neck, reassuring them: \"Do not be alarmed! Do not be alarmed!\"'",
-              "note": "Mishkāt report 5802 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
+              "en": null,
+              "en2": "Anas ibn Mālik ﵁ narrates: 'The Messenger of Allah ﷺ was among the best of people in character. One day he sent me on an errand, and I said: \"By Allah, I shall not go,\" though in my heart I meant to go, for the Messenger of Allah ﷺ had commanded it. So I went out until I passed some boys playing in the market, and there was the Messenger of Allah ﷺ, who had taken hold of the back of my neck from behind. I looked at him, and he was laughing. He said: \"O Unays, did you go where I commanded you?\" I said: \"Yes, I am going, O Messenger of Allah.\"'",
+              "note": "Mishkāt report 5802 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 3,
               "ar": "وعنه قال : كنت أمشي مع رسول الله صلى الله عليه وسلم وعليه برد نجراني غليظ الحاشية فأدركه أعرابي فجبذه جبذة شديدة ورجع نبي الله صلى الله عليه وسلم في نحر الأعرابي حتى نظرت إلى صفحة عاتق رسول الله صلى الله عليه وسلم قد أثرت به حاشية البرد من شدة جبذته ثم قال : يا محمد مر لي من مال الله الذي عندك فالتفت إليه رسول الله صلى الله عليه وسلم ثم ضحك ثم أمر له بعطاء . متفق عليه",
               "en": "Anas ﵁ said, 'I was walking with the Prophet, and upon him was a Najrān cloak with a coarse border. A Bedouin came and gave his mantle a hard pull, so that I looked at the side of his majesty's neck, and the border of the cloth had marked it. After that the Bedouin said: O Muḥammad! order that some of God's property which you have may be given to me. Then the Prophet looked at him, and laughed, and ordered something to be given to him.'",
-              "en2": "Anas ibn Mālik ﵁ narrates: 'I was walking alongside the Messenger of Allah ﷺ while he was wearing a coarse Najrān mantle. A desert Bedouin approached and yanked his cloak with such violent force that I saw the red welt left on his neck by the hem. The Bedouin demanded: \"O Muḥammad! Order that I be given some of the wealth of Allah in your possession!\" The Prophet ﷺ turned to him, smiled with gentleness, and ordered that he be given a generous gift.'",
+              "en2": "Anas ibn Mālik ﵁ narrates: 'I was walking with the Messenger of Allah ﷺ, who was wearing a Najrānī cloak with a rough border. A Bedouin caught up with him and pulled it violently, and the Prophet of Allah ﷺ turned towards the Bedouin until I saw the side of the Messenger of Allah’s ﷺ shoulder marked by the border of the cloak from the force of the pull. Then the man said: \"O Muhammad, order that I be given some of Allah’s wealth that you have.\" The Messenger of Allah ﷺ turned to him and laughed, then ordered a gift for him.'",
               "note": "Mishkāt report 5803 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
               "n": 4,
               "ar": "وَعَنْهُ قَالَ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَحْسَنَ النَّاسِ وَأَجْوَدَ النَّاسِ وَأَشْجَعَ النَّاسِ وَلَقَدْ فَزِعَ أَهْلُ الْمَدِينَةِ ذَاتَ لَيْلَةٍ فَانْطَلَقَ النَّاسُ قِبَلَ الصَّوْتِ فَاسْتَقْبَلَهُمُ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَدْ سَبَقَ النَّاس إِلَى الصَّوْت هُوَ يَقُولُ: «لَمْ تُرَاعُوا لَمْ تُرَاعُوا» وَهُوَ عَلَى فَرَسٍ لِأَبِي طَلْحَةَ عُرْيٍ مَا عَلَيْهِ سَرْجٌ وَفِي عُنُقِهِ سَيْفٌ. فَقَالَ: «لَقَدْ وَجَدْتُهُ بَحْرًا» . مُتَّفق عَلَيْهِ",
-              "en": "Jābir ﵁ said, 'His majesty was never asked for anything to which he said No.'",
-              "en2": "Jābir ibn ʿAbdillāh ﵁ narrates: 'Never in his life was the Messenger of Allah ﷺ asked for anything and replied with \"No.\"'",
+              "en": null,
+              "en2": "Anas ibn Mālik ﵁ narrates: 'The Messenger of Allah ﷺ was the most handsome of people, the most generous of people and the bravest of people. One night the people of Madinah were alarmed, and the people set off towards the sound. The Prophet ﷺ met them, having already gone ahead of them to the sound, and he was saying: \"Do not be afraid, do not be afraid!\" He was riding a horse of Abū Ṭalḥah, bareback, with no saddle on it and a sword hanging from his neck. He said: \"I found it [the horse] like a sea.\"'",
               "note": "Mishkāt report 5804 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
               "n": 5,
               "ar": "وَعَن أنس إِنَّ رَجُلًا سَأَلَ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسلم غَنَمًا بَيْنَ جَبَلَيْنِ فَأَعْطَاهُ إِيَّاهُ فَأَتَى قَوْمَهُ فَقَالَ: أَي قوم أَسْلمُوا فو الله إِنَّ مُحَمَّدًا لَيُعْطِي عَطَاءً مَا يَخَافُ الْفَقْرَ. رَوَاهُ مُسلم",
-              "en": "Anas ﵁ said, 'There was a slave girl of Medīnah who used to take the Prophet by the hand, and lead him wherever she wished, to assist her in her wants.'",
-              "en2": "Anas ibn Mālik ﵁ narrates: 'Any young maidservant of Madinah could take the Messenger of Allah ﷺ by the hand, and lead him wherever she wished across the city until he helped fulfill her need.'",
-              "note": "Mishkāt report 5806 · Ṣaḥīḥ al-Bukhārī"
+              "en": null,
+              "en2": "Anas ibn Mālik ﵁ narrates: 'A man asked the Prophet ﷺ for a flock of sheep that filled the space between two mountains, and he gave it to him. The man went to his people and said: \"My people, become Muslims! By Allah, Muhammad gives such gifts that he does not fear poverty.\"'",
+              "note": "Mishkāt report 5806 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 6,
               "ar": "وَعَنْ جُبَيْرِ بْنِ مُطْعِمٍ بَيْنَمَا هُوَ يَسِيرُ مَعَ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ مَقْفَلَهُ مِنْ حُنَيْنٍ فَعَلِقَتِ الْأَعْرَابُ يَسْأَلُونَهُ حَتَّى اضْطَرُّوهُ إِلَى سَمُرَةٍ فَخَطَفَتْ رِدَاءَهُ فَوَقَفَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَقَالَ: «أَعْطُونِي رِدَائِي لَوْ كَانَ لِي عَدَدَ هَذِهِ الْعِضَاهِ نَعَمٌ لَقَسَمْتُهُ بَيْنَكُمْ ثُمَّ لَا تَجِدُونِي بَخِيلًا وَلَا كذوباً وَلَا جَبَانًا» . رَوَاهُ البُخَارِيّ",
-              "en": "Abū Hurairah ﵁ said, 'It was said to the Prophet: O Messenger of God! curse the infidels. He said: I was not sent for cursing, but I was sent a mercy.'",
-              "en2": "Abū Hurairah ﵁ narrates: It was said: 'O Messenger of Allah, invoke a curse against the polytheists!' He replied: 'I was not sent as a curser; I was sent only as an embodiment of mercy.'",
-              "note": "Mishkāt report 5807 · Ṣaḥīḥ Muslim"
+              "en": null,
+              "en2": "Jubayr ibn Muṭʿim ﵁ narrates that while he was travelling with the Messenger of Allah ﷺ on his return from Ḥunayn, some Bedouins kept clinging to him and asking, until they forced him towards a samurah tree, and it snatched his cloak. The Prophet ﷺ stopped and said: 'Give me my cloak! If I had as many livestock as these thorny trees, I would divide them among you, and then you would not find me miserly, nor a liar, nor a coward.'",
+              "note": "Mishkāt report 5807 · Ṣaḥīḥ al-Bukhārī"
             },
             {
               "n": 7,
               "ar": "وَعَنْهُ قَالَ: لَمْ يَكُنْ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَاحِشًا وَلَا لَعَّانًا وَلَا سَبَّابًا كَانَ يَقُولُ عِنْدَ الْمَعْتَبَةِ: «مَا لَهُ تربَ جَبينُه؟» . رَوَاهُ البُخَارِيّ",
-              "en": "Al-Aswad said, 'I asked ʿĀʾeshah: What did his majesty do within doors? She said: He used to serve his family; and when prayer-times came, he would go out to perform them.'",
-              "en2": "Al-Aswad narrates: I asked Sayyidah ʿĀʾishah ﵂: 'What did the Prophet ﷺ do inside his home?' She replied: 'He was constantly in the service of his household; and when the time for prayer arrived, he went out to pray.'",
+              "en": null,
+              "en2": "Anas ibn Mālik ﵁ narrates: 'The Messenger of Allah ﷺ was neither obscene, nor a curser, nor an abuser. When he reproached someone, he would say: \"What is the matter with him? May his forehead be dusty!\"'",
               "note": "Mishkāt report 5811 · Ṣaḥīḥ al-Bukhārī"
             },
             {
               "n": 8,
               "ar": "وَعَنْ أَبِي هُرَيْرَةَ قَالَ: قِيلَ: يَا رَسُولَ اللَّهِ ادْعُ عَلَى الْمُشْرِكِينَ. قَالَ: «إِنِّي لَمْ أُبْعَثْ لَعَّانًا وَإِنَّمَا بُعِثْتُ رَحْمَةً» . رَوَاهُ مُسْلِمٌ",
-              "en": "ʿĀʾeshah ﵂ said, 'His majesty never struck any one or any thing with his own hand (either his wives, slave-girls, or servants), except when he was fighting in the cause of God; and on his own account never felt revenge, except when the commandments of God were broken, and then he punished for the sake of God.'",
-              "en2": "Sayyidah ʿĀʾishah ﵂ narrates: 'The Messenger of Allah ﷺ never struck anyone with his hand in his entire life — neither a woman, nor a servant, nor anyone else — except when striving in the cause of Allah. Nor did he ever take revenge for any personal slight, unless the sacred boundaries of Allah were violated, in which case he acted purely for Allah.'",
+              "en": null,
+              "en2": "Abū Hurairah ﵁ narrates: 'It was said: \"O Messenger of Allah ﷺ, invoke a curse upon the polytheists.\" He said: \"I was not sent as a curser; I was sent only as a mercy.\"'",
               "note": "Mishkāt report 5812 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 9,
               "ar": "وَعَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ قَالَ: كَانَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَشَدَّ حَيَاءً مِنَ الْعَذْرَاءِ فِي خِدْرِهَا فَإِذَا رَأَى شَيْئًا يَكْرَهُهُ عَرَفْنَاهُ فِي وَجْهِهِ. مُتَّفَقٌ عَلَيْهِ",
-              "en": "ʿĀʾeshah ﵂ said, 'His majesty was never given a choice between two things, but he took the easiest of them, provided it was not sinful; but if it was sinful, he kept himself the farthest from it.'",
-              "en2": "Sayyidah ʿĀʾishah ﵂ narrates: 'Whenever the Messenger of Allah ﷺ was presented with a choice between two permissible matters, he consistently chose the easier of the two, so long as it was not sinful; but if it involved sin, he was the farthest of all people from it.'",
+              "en": "Abū Saʿīd al-Khudrī ﵁ said, 'The Prophet was more modest than a virgin behind her curtain; and when he saw anything that displeased him, we knew it by his countenance.'",
+              "en2": "Abū Saʿīd al-Khudrī ﵁ narrates: 'The Prophet ﷺ was more bashful than a maiden in her private chamber; and if he saw something he disliked, we knew it from his face.'",
               "note": "Mishkāt report 5813 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
               "n": 10,
               "ar": "وَعَنْهَا قَالَتْ: إِنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَمْ يَكُنْ يَسْرُدُ الْحَدِيثَ كَسَرْدِكُمْ كَانَ يُحَدِّثُ حَدِيثًا لَوْ عَدَّهُ الْعَادُّ لَأَحْصَاهُ. مُتَّفق عَلَيْهِ",
-              "en": "Qatādah said, 'I asked ʿĀʾeshah concerning the character of the Prophet. She said: His character was the Korʾān.'",
-              "en2": "Qatādah narrates: I asked Sayyidah ʿĀʾishah ﵂: 'O Mother of the Believers, tell me about the character of the Messenger of Allah ﷺ.' She replied: 'His character was the Qur'an itself.'",
-              "note": "Mishkāt report 5815 · Ṣaḥīḥ Muslim"
+              "en": "ʿĀʾeshah ﵂ said, 'His majesty's speech was not hurried like yours; but his words were distinct and clear, so that if any one wished to count them, he might have done so.'",
+              "en2": "ʿĀʾishah ﵂ narrates: 'The Messenger of Allah ﷺ did not speak in a continuous stream, as you do; he spoke in such a way that anyone who wished to count his words could have counted them.'",
+              "note": "Mishkāt report 5815 · Ṣaḥīḥ al-Bukhārī & Ṣaḥīḥ Muslim"
             },
             {
               "n": 11,
               "ar": "وَعَنْ عَائِشَةَ رَضِيَ اللَّهُ عَنْهَا قَالَتْ: لَمْ يَكُنْ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَاحِشًا وَلَا مُتَفَحِّشًا وَلَا سَخَّابًا فِي الْأَسْوَاقِ وَلَا يَجْزِي بِالسَّيِّئَةِ السَّيِّئَةَ وَلَكِنْ يَعْفُو وَيَصْفَحُ. رَوَاهُ التِّرْمِذِيّ",
               "en": "ʿĀʾeshah ﵂ said, 'The Prophet was not foul-mouthed, nor did he use coarse language, nor did he shout in the markets; nor did he return evil for evil; but he pardoned and overlooked.'",
-              "en2": "Sayyidah ʿĀʾishah ﵂ narrates: 'The Messenger of Allah ﷺ was never vulgar, nor indecent in speech, nor clamorous in the marketplaces. He never repaid evil with evil; rather, he pardoned, forgave, and overlooked.'",
+              "en2": "ʿĀʾishah ﵂ narrates: 'The Messenger of Allah ﷺ was neither obscene nor given to obscenity, nor clamorous in the markets. He did not repay an evil deed with an evil deed, but pardoned and overlooked.'",
               "note": "Mishkāt report 5820 · Jāmiʿ al-Tirmidhī"
             },
             {
               "n": 12,
               "ar": "وَعَنْ أَنَسٍ يُحَدِّثَ عَنِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَنَّهُ كانَ يعودُ المريضَ وَيتبع الْجِنَازَة ويجيب دَعْوَة الْمَمْلُوك ويركب الْحمار لَقَدْ رَأَيْتُهُ يَوْمَ خَيْبَرَ عَلَى حِمَارٍ خِطَامُهُ لِيفٌ. رَوَاهُ ابْنُ مَاجَهْ وَالْبَيْهَقِيُّ فِي «شُعَبِ الْإِيمَانِ»",
-              "en": "Anas ﵁ said, 'The Prophet used to visit the sick, and attend funerals, and would ride upon an ass, and would accept the invitation of the humblest slave.'",
-              "en2": "Anas ibn Mālik ﵁ narrates: 'The Messenger of Allah ﷺ would visit the sick, attend funerals, ride a simple donkey, and willingly accept the dinner invitation of even the humblest servant.'",
-              "note": "Mishkāt report 5821 · Jāmiʿ al-Tirmidhī"
+              "en": null,
+              "en2": "Anas ibn Mālik ﵁ narrates concerning the Prophet ﷺ that he used to visit the sick, follow funeral processions, accept the invitation of a slave, and ride a donkey: 'I saw him on the day of Khaybar on a donkey with a halter of palm fibre.'",
+              "note": "Mishkāt report 5821 · Sunan Ibn Mājah & al-Bayhaqī (Shuʿab al-Īmān)"
             },
             {
               "n": 13,
               "ar": "وَعَنْ عَائِشَةَ قَالَتْ: كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَخْصِفُ نَعْلَهُ وَيَخِيطُ ثَوْبَهُ وَيَعْمَلُ فِي بَيْتِهِ كَمَا يَعْمَلُ أَحَدُكُمْ فِي بَيْتِهِ وَقَالَتْ: كَانَ بَشَرًا مِنَ الْبَشَرِ يَفْلِي ثَوْبَهُ وَيَحْلُبُ شَاتَهُ وَيَخْدُمُ نَفْسَهُ. رَوَاهُ التِّرْمِذِيُّ",
-              "en": "ʿĀʾeshah ﵂ said, 'His majesty used to sew his own clothes, and mend his own sandals, and do what men do in their houses.'",
-              "en2": "Sayyidah ʿĀʾishah ﵂ was asked: 'What did the Messenger of Allah ﷺ do in his house?' She replied: 'He was a human being among human beings: he would inspect his garments, milk his own sheep, mend his sandals, and serve his own needs.'",
-              "note": "Mishkāt report 5822 · Jāmiʿ al-Tirmidhī & Musnad Aḥmad"
+              "en": null,
+              "en2": "ʿĀʾishah ﵂ narrates: 'The Messenger of Allah ﷺ used to mend his sandals, sew his garment and work in his house as one of you works in his house.' And she said: 'He was a human being among human beings: he would pick over his garment, milk his goat and serve himself.'",
+              "note": "Mishkāt report 5822 · Jāmiʿ al-Tirmidhī"
             },
             {
               "n": 14,
               "ar": "عَنْ عَمْرِو بْنِ سَعِيدٍ عَنْ أَنَسٍ قَالَ: مَا رَأَيْتُ أَحَدًا كَانَ أَرْحَمَ بِالْعِيَالِ مِنْ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ كَانَ إِبْرَاهِيمُ ابْنُهُ مُسْتَرْضَعًا فِي عَوَالِي الْمَدِينَةِ فَكَانَ يَنْطَلِقُ وَنَحْنُ مَعَهُ فَيَدْخُلُ الْبَيْتَ وَإِنَّهُ لَيُدَّخَنُ وَكَانَ ظِئْرُهُ قَيْنًا فَيَأْخُذُهُ فَيُقَبِّلُهُ ثُمَّ يَرْجِعُ. قَالَ عَمْرٌو: فَلَمَّا تُوُفِّيَ إِبْرَاهِيمُ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «إِنَّ إِبْرَاهِيمَ ابْنِي وَإِنَّهُ مَاتَ فِي الثَّدْيِ وَإِنَّ لَهُ لَظِئْرَيْنِ تُكْمِلَانِ رَضَاعَهُ فِي الْجَنَّةِ» . رَوَاهُ مُسْلِمٌ",
-              "en": "ʿAmr-ibn-Saʿīd said from Anas, who said, 'I never saw any one who was more compassionate towards his family and little children than the Prophet.'",
-              "en2": "Anas ibn Mālik ﵁ narrates: 'I have never seen anyone in all creation who was more compassionate, merciful, and tender towards children and household members than the Messenger of Allah ﷺ.'",
+              "en": null,
+              "en2": "Anas ibn Mālik ﵁ narrates, from ʿAmr ibn Saʿīd: 'I never saw anyone more merciful towards his family than the Messenger of Allah ﷺ. His son Ibrāhīm was being nursed in the upper district of Madinah, and he would set out, and we with him, and enter the house, which would be full of smoke, for the child’s foster-father was a blacksmith. He would take the child and kiss him, then return.' ʿAmr said: 'When Ibrāhīm died, the Messenger of Allah ﷺ said: \"Ibrāhīm is my son, and he died while still at the breast; he has two nurses who will complete his nursing in Paradise.\"'",
               "note": "Mishkāt report 5831 · Ṣaḥīḥ Muslim"
             },
             {
               "n": 15,
               "ar": "وَعَن عَليّ أَنَّ يهوديّاً يُقَالُ لَهُ: فُلَانٌ حَبْرٌ كَانَ لَهُ عَلَى رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي دَنَانِيرُ فَتَقَاضَى النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَقَالَ لَهُ: «يَا يَهُودِيُّ مَا عِنْدِي مَا أُعْطِيكَ» . قَالَ: فَإِنِّي لَا أُفَارِقُكَ يَا مُحَمَّدُ حَتَّى تُعْطِيَنِي. فَقَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «إِذًا أَجْلِسُ مَعَكَ» فَجَلَسَ مَعَهُ فَصَلَّى رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ الظُّهْرَ وَالْعَصْرَ وَالْمَغْرِبَ وَالْعِشَاءَ الْآخِرَةَ وَالْغَدَاةَ وَكَانَ أَصْحَابِ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَتَهَدَّدُونَهُ وَيَتَوَعَّدُونَهُ فَفَطِنَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ مَا الَّذِي يَصْنَعُونَ بِهِ. فَقَالُوا: يَا رَسُولَ اللَّهِ يَهُودِيٌّ يَحْبِسُكَ فَقَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «مَنَعَنِي رَبِّي أَنْ أَظْلِمَ مُعَاهِدًا وَغَيْرَهُ» فَلَمَّا تَرَجَّلَ النَّهَارُ قَالَ الْيَهُودِيُّ: أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّكَ رَسُولُ اللَّهِ وَشَطْرُ مَالِي فِي سبيلِ الله أَمَا وَاللَّهِ مَا فَعَلْتُ بِكَ الَّذِي فَعَلْتُ بِكَ إِلَّا لِأَنْظُرَ إِلَى نَعْتِكَ فِي التَّوْرَاةِ: مُحَمَّدُ بْنُ عَبْدِ اللَّهِ مَوْلِدُهُ بِمَكَّةَ وَمُهَاجَرُهُ بِطَيْبَةَ وَمُلْكُهُ بِالشَّامِ لَيْسَ بِفَظٍّ وَلَا غَلِيظٍ وَلَا سَخَّابٍ فِي الْأَسْوَاقِ وَلَا مُتَزَيٍّ بِالْفُحْشِ وَلَا قَوْلِ الْخَنَا أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَنَّكَ رَسُولُ اللَّهِ وَهَذَا مَالِي فَاحْكُمْ فِيهِ بِمَا أَرَاكَ اللَّهُ وَكَانَ الْيَهُودِيُّ كَثِيرَ المالِ. رَوَاهُ الْبَيْهَقِيّ فِي «دَلَائِل النُّبُوَّة»",
-              "en": "ʿAlī ﵁ said, 'A Jewish scholar had a claim of some Dinārs against his majesty, and demanded payment. The Prophet said: I have nothing to give thee. The Jew said: Then I will not quit thee until thou payest me. The Prophet said: Then I will sit with thee. And he sat with him until morning. And when the Jew saw his majesty's forbearance, he said: I bear witness that there is no God but God, and that thou art the Messenger of God; and half my wealth is in the path of God.'",
-              "en2": "Sayyidunā ʿAlī ﵁ narrates: 'A Jewish creditor came to the Prophet ﷺ demanding payment of a debt. The Prophet ﷺ said: \"I have nothing to give you right now.\" The man said: \"Then I will not leave your side until you pay me.\" The Prophet ﷺ replied: \"Then I shall sit with you.\" He remained seated with him through the day and night without displaying anger. At dawn, the man declared: \"I bear witness that there is no god but Allah and that you are the Messenger of Allah! By Allah, I only did this to test the description of you in the Torah: not harsh, not severe, not shouting in the markets, nor answering evil with evil. Half of my wealth is now dedicated in the path of Allah!\"'",
+              "en": null,
+              "en2": "Sayyidunā ʿAlī ﵁ narrates: 'A Jewish rabbi, called so-and-so, was owed some dīnārs by the Messenger of Allah ﷺ, and he demanded payment from the Prophet ﷺ. He said to him: \"O Jew, I have nothing with which to pay you.\" The man said: \"Then I shall not leave you, O Muhammad, until you pay me.\" The Messenger of Allah ﷺ said: \"Then I shall sit with you.\" So he sat with him, and the Messenger of Allah ﷺ prayed ẓuhr, ʿaṣr, maghrib, ʿishāʾ and fajr there. His Companions were threatening and warning the man, and the Messenger of Allah ﷺ realised what they were doing to him. They said: \"O Messenger of Allah, a Jew is detaining you!\" The Messenger of Allah ﷺ said: \"My Lord has forbidden me to wrong a person under covenant, or anyone else.\" When the day had risen high, the Jew said: \"I bear witness that there is no god but Allah, and I bear witness that you are the Messenger of Allah, and half of my wealth is in the way of Allah. By Allah, I did to you what I did only so as to see your description in the Torah: Muhammad son of ʿAbdullāh, his birthplace Makkah, his place of emigration Ṭaybah, his dominion in al-Shām; not harsh, not coarse, not clamorous in the markets, not adorned with indecency or foul speech. I bear witness that there is no god but Allah and that you are the Messenger of Allah. This is my wealth: judge concerning it as Allah shows you.\"' The Jew was a man of great wealth.",
               "note": "Mishkāt report 5832 · Dalāʾil al-Nubuwwah (al-Bayhaqī)"
             },
             {
               "n": 16,
               "ar": "وَعَنْ عَلِيٍّ أَنَّ أَبَا جَهْلٍ قَالَ لِلنَّبِيِّ صلى الله عَلَيْهِ وَسلم: إنَّا لَا نُكذِّبكَ ولكنْ نكذِّبُ بِمَا جئتَ بِهِ فَأَنْزَلَ اللَّهُ تَعَالَى فِيهِمْ: [فَإِنَّهُمْ لَا يُكَذِّبُونَكَ ولكنَّ الظالمينَ بآياتِ اللَّهِ يَجْحَدونَ] رَوَاهُ التِّرْمِذِيّ",
-              "en": "ʿĀʾeshah ﵂ said, A. G. S. 'I eat as a servant eats, and I sit as a servant sits; for verily I am a servant.'",
-              "en2": "Sayyidah ʿĀʾishah ﵂ narrates that the Messenger of Allah ﷺ said: 'I eat as a servant eats, and I sit as a servant sits; for truly I am a servant of Allah.'",
-              "note": "Mishkāt report 5834 · Sharḥ al-Sunnah (al-Baghawī)"
+              "en": null,
+              "en2": "Sayyidunā ʿAlī ﵁ narrates: 'Abū Jahl said to the Prophet ﷺ: \"We do not call you a liar, but we deny what you have brought.\" So Allah the Exalted revealed concerning them: \"For indeed they do not call you a liar, but the wrongdoers reject the signs of Allah\" (Qurʾān 6:33).'",
+              "note": "Mishkāt report 5834 · Jāmiʿ al-Tirmidhī"
             }
           ]
         }
