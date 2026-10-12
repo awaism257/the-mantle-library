@@ -1,7 +1,7 @@
 /* Mantle Library — service worker (offline-first).
    ⚠ Bump CACHE_VERSION after ANY change to any file before deploying — users
    will otherwise see stale files. */
-const CACHE_VERSION = 'mantle-v115';
+const CACHE_VERSION = 'mantle-v116';
 
 // App shell: everything needed to render the library fully offline.
 // Audio and album art are runtime-cached on first request so installs stay instant.
@@ -26,6 +26,10 @@ const PRECACHE_URLS = [
   'icons/icon-maskable-512.png',
   'icons/justquran-icon.png',
   'icons/munajaat-icon.png',
+  'icons/books/book-odes.jpg',
+  'icons/books/book-garden-vol1.jpg',
+  'icons/books/book-garden-vol2.jpg',
+  'icons/books/book-seerah-colouring.jpg',
   'icons/bg-tile-dark.jpg',
   'icons/bg-tile-light.jpg'
 ];

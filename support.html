@@ -149,6 +149,67 @@
         </div>
       </div>
 
+      <!-- Books Card (website only: removed inside the Android app, where
+           Google Play could treat it as advertising) -->
+      <div class="card" id="books-card">
+        <h2>Books from Munajaat Press</h2>
+        <p class="family-intro">
+          Printed and Kindle editions made by the same team. They are paid books sold on Amazon; the app itself stays free, with no ads.
+        </p>
+
+        <div class="app-item book-item">
+          <img class="book-item-cover" src="icons/books/book-odes.jpg" width="72" height="107" loading="lazy" alt="Cover of Odes and Litanies">
+          <div class="book-item-info">
+            <h3 class="app-item-name">Odes and Litanies in Praise of the Prophet ﷺ</h3>
+            <p class="app-item-desc">The Burdah, Bānat Suʿād and Dalāʾil al-Khayrāt in Arabic and English: the texts in this app, in one volume.</p>
+            <div class="book-item-links">
+              <a class="btn" href="https://www.amazon.co.uk/dp/B0HMLDCM2N" target="_blank" rel="noopener noreferrer">Amazon UK</a>
+              <a class="btn ghost" href="https://www.amazon.com/dp/B0HMLDCM2N" target="_blank" rel="noopener noreferrer">Amazon US</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="app-item book-item">
+          <img class="book-item-cover" src="icons/books/book-garden-vol1.jpg" width="72" height="107" loading="lazy" alt="Cover of The Garden of Purity, Volume 1">
+          <div class="book-item-info">
+            <h3 class="app-item-name">The Garden of Purity, Volume 1: The Dawn of Prophethood</h3>
+            <p class="app-item-desc">Mīrkhwānd's life of the Prophet ﷺ in modern English, from his ancestry to Badr and Uḥud, with editorial footnotes.</p>
+            <div class="book-item-links">
+              <a class="btn" href="https://www.amazon.co.uk/dp/B0HMLBZP9S" target="_blank" rel="noopener noreferrer">Amazon UK</a>
+              <a class="btn ghost" href="https://www.amazon.com/dp/B0HMLBZP9S" target="_blank" rel="noopener noreferrer">Amazon US</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="app-item book-item">
+          <img class="book-item-cover" src="icons/books/book-garden-vol2.jpg" width="72" height="107" loading="lazy" alt="Cover of The Garden of Purity, Volume 2">
+          <div class="book-item-info">
+            <h3 class="app-item-name">The Garden of Purity, Volume 2: The Madinan Years</h3>
+            <p class="app-item-desc">From the Trench and Ḥudaybiyyah to the Farewell Pilgrimage and the passing of the Prophet ﷺ.</p>
+            <div class="book-item-links">
+              <a class="btn" href="https://www.amazon.co.uk/dp/B0HMP9ZH3Q" target="_blank" rel="noopener noreferrer">Amazon UK</a>
+              <a class="btn ghost" href="https://www.amazon.com/dp/B0HMP9ZH3Q" target="_blank" rel="noopener noreferrer">Amazon US</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="app-item book-item">
+          <img class="book-item-cover" src="icons/books/book-seerah-colouring.jpg" width="72" height="72" loading="lazy" alt="Cover of My First Seerah Colouring Book">
+          <div class="book-item-info">
+            <h3 class="app-item-name">My First Seerah Colouring Book</h3>
+            <p class="app-item-desc">For children aged 4–9: 25 scenes from Makkah to Madinah, each with a short story. No people are drawn.</p>
+            <div class="book-item-links">
+              <a class="btn" href="https://www.amazon.co.uk/dp/B0HMP8ZHHD" target="_blank" rel="noopener noreferrer">Amazon UK</a>
+              <a class="btn ghost" href="https://www.amazon.com/dp/B0HMP8ZHHD" target="_blank" rel="noopener noreferrer">Amazon US</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        if (window.AndroidBridge) document.getElementById('books-card').remove();
+      </script>
+
       <!-- Support This App Card -->
       <div class="card">
         <h2>Support this app</h2>

@@ -2100,6 +2100,29 @@ html.light .app-item.active-app {
   margin: 0;
 }
 
+/* Books from Munajaat Press (support page) */
+.book-item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+.book-item-cover {
+  flex: 0 0 72px;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px var(--shadow);
+}
+.book-item-info { flex: 1; min-width: 0; }
+.book-item .app-item-name { font-size: 1rem; line-height: 1.35; }
+.book-item .app-item-desc { margin: 0.35rem 0 0.6rem !important; }
+.book-item-links { display: flex; gap: 8px; flex-wrap: wrap; }
+.book-item-links .btn { padding: 6px 16px; font-size: 0.84rem; margin: 0; }
+@media (max-width: 480px) {
+  .book-item { gap: 12px; padding: 0.9rem; }
+  .book-item-cover { flex-basis: 60px; width: 60px; }
+  .book-item-links .btn { padding: 5px 12px; }
+}
+
 .licence-table {
   width: 100%;
   border-collapse: collapse;
