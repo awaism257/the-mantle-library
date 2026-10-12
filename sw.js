@@ -1,7 +1,7 @@
 /* Mantle Library — service worker (offline-first).
    ⚠ Bump CACHE_VERSION after ANY change to any file before deploying — users
    will otherwise see stale files. */
-const CACHE_VERSION = 'mantle-v116';
+const CACHE_VERSION = 'mantle-v117';
 
 // App shell: everything needed to render the library fully offline.
 // Audio and album art are runtime-cached on first request so installs stay instant.
@@ -62,6 +62,10 @@ self.addEventListener('fetch', function (event) {
 
   // Only handle same-origin requests; this app makes no external requests.
   if (url.origin !== self.location.origin) return;
+
+  // Downloads (e.g. the printable sample PDF) go straight to the network
+  // so a one-off file doesn't take up space in the offline cache.
+  if (url.pathname.indexOf('/downloads/') !== -1) return;
 
   // Audio: cache-on-first-play (runtime caching). Serve from cache when
   // present; otherwise fetch from network and store a copy for offline use.
