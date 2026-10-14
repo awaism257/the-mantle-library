@@ -1012,6 +1012,22 @@ html.light .verse-card.is-active-verse {
   font-weight: bold;
 }
 
+/* Follow-along: the words being recited turn gold, not just the card border. */
+.verse-card .arabic-text,
+.verse-card .translation {
+  transition: color 250ms ease, text-shadow 250ms ease;
+}
+.verse-card.is-active-verse .arabic-text,
+.verse-card.is-active-verse .translation {
+  color: var(--gold) !important;
+}
+.verse-card.is-active-verse .arabic-text {
+  text-shadow: 0 0 12px rgba(214, 174, 94, 0.3);
+}
+html.light .verse-card.is-active-verse .arabic-text {
+  text-shadow: none;
+}
+
 .verse-label-refrain {
   font-size: 0.82rem;
   font-style: italic;

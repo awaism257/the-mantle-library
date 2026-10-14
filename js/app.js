@@ -44,6 +44,10 @@
   var currentReaderAudio = null;
   var currentReaderCleanup = null;
   var currentBookCleanup = null;
+  // Auto Mode hands the still-playing <audio> element to the next chapter's
+  // reader. Starting a fresh element from a timer is blocked or frozen while
+  // the phone screen is off; switching src inside 'ended' is not.
+  var handoffAudio = null;
 
   function formatTime(seconds) {
     if (isNaN(seconds) || seconds < 0) return '0:00';
@@ -54,7 +58,7 @@
 
   function clearView() {
     if (currentReaderAudio) {
-      currentReaderAudio.pause();
+      if (currentReaderAudio !== handoffAudio) currentReaderAudio.pause();
       currentReaderAudio = null;
     }
     if (typeof currentReaderCleanup === 'function') {
@@ -1188,8 +1192,43 @@
     footer.appendChild(prevBtn);
 
     if (audioData) {
-      var audio = el('audio', { preload: 'metadata', src: audioData.file });
+      var audio;
+      var adopted = false;
+      if (handoffAudio && handoffAudio.getAttribute('src') === audioData.file) {
+        audio = handoffAudio;
+        adopted = true;
+      } else {
+        if (handoffAudio) handoffAudio.pause();
+        audio = el('audio', { preload: 'metadata', src: audioData.file });
+      }
+      handoffAudio = null;
       currentReaderAudio = audio;
+
+      // Listeners are removed on hand-off so the next chapter's reader starts clean.
+      var audioListeners = [];
+      function onAudio(type, fn) {
+        audio.addEventListener(type, fn);
+        audioListeners.push([type, fn]);
+      }
+      function detachAudio() {
+        audioListeners.forEach(function (l) { audio.removeEventListener(l[0], l[1]); });
+        audioListeners = [];
+      }
+
+      // Keep playing on the same element: swap in the next chapter's file now,
+      // then let the router build that chapter's page around it.
+      function continueTo(index) {
+        var next = work.sections && work.sections[index];
+        if (next && next.audio && next.audio.file) {
+          detachAudio();
+          audio.src = next.audio.file;
+          audio.play().catch(function () {});
+          handoffAudio = audio;
+        } else {
+          try { window.sessionStorage.setItem('mantle_autoplay_next', '1'); } catch (e) {}
+        }
+        window.location.hash = workUrl + index;
+      }
 
       var progressBar = el('div', { class: 'reader-footer-progress-bar' });
       var progressContainer = el('div', { class: 'reader-footer-progress', 'aria-label': 'Audio timeline scrubber' }, [progressBar]);
@@ -1308,11 +1347,9 @@
               if (curIdx >= 0 && curIdx < timestamps.length - 1) {
                 window.MantleReaderPlayer.seekToVerse(timestamps[curIdx + 1].n);
               } else if (sectionIndex < totalSections - 1) {
-                try { window.sessionStorage.setItem('mantle_autoplay_next', '1'); } catch (e) {}
-                window.location.hash = workUrl + (sectionIndex + 1);
+                continueTo(sectionIndex + 1);
               } else if (loopEnabled) {
-                try { window.sessionStorage.setItem('mantle_autoplay_next', '1'); } catch (e) {}
-                window.location.hash = workUrl + '0';
+                continueTo(0);
               }
             } else {
               window.MantleReaderPlayer.seekToVerse(timestamps[0].n);
@@ -1365,6 +1402,7 @@
         window.removeEventListener('wheel', handleUserScroll);
         window.removeEventListener('touchmove', handleUserScroll);
         clearTimeout(userInterruptTimer);
+        detachAudio();
       };
 
       playBtn.addEventListener('click', function () {
@@ -1379,7 +1417,7 @@
         }
       });
 
-      audio.addEventListener('play', function () {
+      function onPlay() {
         nativeCall('onAudioState', true);
         playBtn.innerHTML = ICON_PAUSE;
         playBtn.setAttribute('aria-label', 'Pause recitation');
@@ -1390,9 +1428,10 @@
         if ('mediaSession' in navigator) {
           navigator.mediaSession.playbackState = 'playing';
         }
-      });
+      }
+      onAudio('play', onPlay);
 
-      audio.addEventListener('pause', function () {
+      onAudio('pause', function () {
         nativeCall('onAudioState', false);
         playBtn.innerHTML = ICON_PLAY;
         playBtn.setAttribute('aria-label', 'Play recitation');
@@ -1402,7 +1441,7 @@
         }
       });
 
-      audio.addEventListener('loadedmetadata', function () {
+      onAudio('loadedmetadata', function () {
         if (audio.duration && !isNaN(audio.duration)) {
           timerEl.textContent = formatTime(audio.currentTime) + ' / ' + formatTime(audio.duration);
         }
@@ -1412,7 +1451,7 @@
       var lastActiveNum = null;
       var lastActiveCard = null;
 
-      audio.addEventListener('timeupdate', function () {
+      onAudio('timeupdate', function () {
         var t = audio.currentTime;
         var dur = audio.duration || 1;
         var pct = Math.min(100, Math.max(0, (t / dur) * 100));
@@ -1493,7 +1532,7 @@
         }
       });
 
-      audio.addEventListener('ended', function () {
+      onAudio('ended', function () {
         nativeCall('onAudioState', false);
         playBtn.innerHTML = ICON_PLAY;
         if (lastActiveCard) lastActiveCard.classList.remove('is-active-verse');
@@ -1505,8 +1544,7 @@
 
         if (autoScroll) {
           if (sectionIndex < totalSections - 1) {
-            try { window.sessionStorage.setItem('mantle_autoplay_next', '1'); } catch (e) {}
-            window.location.hash = workUrl + (sectionIndex + 1);
+            continueTo(sectionIndex + 1);
             return;
           } else if (loopEnabled) {
             if (sectionIndex === 0) {
@@ -1515,8 +1553,7 @@
               audio.play().catch(function () {});
               return;
             }
-            try { window.sessionStorage.setItem('mantle_autoplay_next', '1'); } catch (e) {}
-            window.location.hash = workUrl + '0';
+            continueTo(0);
             return;
           }
         } else if (loopEnabled) {
@@ -1572,6 +1609,9 @@
           audio.play().catch(function () {});
         }
       };
+
+      // Adopted from the previous chapter already playing: sync the controls.
+      if (adopted && !audio.paused) onPlay();
 
       try {
         if (window.sessionStorage.getItem('mantle_autoplay_next') === '1') {
