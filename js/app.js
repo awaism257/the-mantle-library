@@ -48,6 +48,25 @@
   // reader. Starting a fresh element from a timer is blocked or frozen while
   // the phone screen is off; switching src inside 'ended' is not.
   var handoffAudio = null;
+  // The next chapter's recording, downloaded into memory while the current
+  // one plays (the phone stays awake then). Loading it from the network at
+  // the switch stalls once the screen is off and the phone dozes.
+  var nextChapterAudio = null; // { file, url }
+  var playingBlobUrl = null;
+
+  function prefetchChapterAudio(file) {
+    if (!file || (nextChapterAudio && nextChapterAudio.file === file)) return;
+    if (!window.fetch || !window.URL || !URL.createObjectURL) return;
+    fetch(file).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.blob();
+    }).then(function (blob) {
+      if (nextChapterAudio && nextChapterAudio.url !== playingBlobUrl) {
+        URL.revokeObjectURL(nextChapterAudio.url);
+      }
+      nextChapterAudio = { file: file, url: URL.createObjectURL(blob) };
+    }).catch(function () {});
+  }
 
   function formatTime(seconds) {
     if (isNaN(seconds) || seconds < 0) return '0:00';
@@ -1194,12 +1213,13 @@
     if (audioData) {
       var audio;
       var adopted = false;
-      if (handoffAudio && handoffAudio.getAttribute('src') === audioData.file) {
+      if (handoffAudio && handoffAudio.getAttribute('data-file') === audioData.file) {
         audio = handoffAudio;
         adopted = true;
       } else {
         if (handoffAudio) handoffAudio.pause();
-        audio = el('audio', { preload: 'metadata', src: audioData.file });
+        audio = el('audio', { preload: 'metadata', src: audioData.file, 'data-file': audioData.file });
+        if (playingBlobUrl) { URL.revokeObjectURL(playingBlobUrl); playingBlobUrl = null; }
       }
       handoffAudio = null;
       currentReaderAudio = audio;
@@ -1221,8 +1241,18 @@
         var next = work.sections && work.sections[index];
         if (next && next.audio && next.audio.file) {
           detachAudio();
-          audio.src = next.audio.file;
+          var oldBlob = playingBlobUrl;
+          if (nextChapterAudio && nextChapterAudio.file === next.audio.file) {
+            audio.src = nextChapterAudio.url;
+            playingBlobUrl = nextChapterAudio.url;
+            nextChapterAudio = null;
+          } else {
+            audio.src = next.audio.file;
+            playingBlobUrl = null;
+          }
+          audio.setAttribute('data-file', next.audio.file);
           audio.play().catch(function () {});
+          if (oldBlob && oldBlob !== playingBlobUrl) URL.revokeObjectURL(oldBlob);
           handoffAudio = audio;
         } else {
           try { window.sessionStorage.setItem('mantle_autoplay_next', '1'); } catch (e) {}
@@ -1427,6 +1457,11 @@
         scrollToActiveVerse(true);
         if ('mediaSession' in navigator) {
           navigator.mediaSession.playbackState = 'playing';
+        }
+        if (autoScroll) {
+          var nextIdx = sectionIndex < totalSections - 1 ? sectionIndex + 1 : (loopEnabled && sectionIndex > 0 ? 0 : -1);
+          var nextSec = nextIdx >= 0 && work.sections ? work.sections[nextIdx] : null;
+          if (nextSec && nextSec.audio) prefetchChapterAudio(nextSec.audio.file);
         }
       }
       onAudio('play', onPlay);
