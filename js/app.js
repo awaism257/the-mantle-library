@@ -34,6 +34,74 @@
     return node;
   }
 
+  /* ---------- "Couldn't load this audio" notice ----------
+     Shown when a recording the listener asked for fails to load (offline and
+     not yet saved for offline use, or the connection drops) or sits buffering
+     for AUDIO_STALL_MS without playing. Hidden again as soon as audio plays.
+     `listen` registers listeners (so callers can detach them later). */
+  var AUDIO_STALL_MS = 12000;
+  function createAudioNotice(audio, listen) {
+    listen = listen || function (type, fn) { audio.addEventListener(type, fn); };
+    var timer = null;
+    var attempted = false;
+    var retryBtn = el('button', { class: 'audio-error-retry', type: 'button', text: 'Try again' });
+    var notice = el('div', { class: 'audio-error', role: 'alert' }, [
+      el('span', { class: 'audio-error-text', text: 'Couldn’t load this audio. Check your internet connection, then try again.' }),
+      retryBtn
+    ]);
+    notice.hidden = true;
+
+    function stopTimer() { clearTimeout(timer); timer = null; }
+    // Pausing resets the play buttons (a failed load leaves the element "playing").
+    function show() {
+      stopTimer();
+      notice.hidden = false;
+      if (!audio.paused) audio.pause();
+    }
+    function hide() { stopTimer(); notice.hidden = true; }
+    function arm() {
+      stopTimer();
+      timer = setTimeout(function () {
+        timer = null;
+        if (!audio.paused && audio.readyState < 3) show();
+      }, AUDIO_STALL_MS);
+    }
+    // Play, reloading first if an earlier attempt left the element in an error state.
+    function play() {
+      attempted = true;
+      hide();
+      if (audio.error) {
+        var pos = audio.currentTime;
+        audio.load();
+        if (pos) { try { audio.currentTime = pos; } catch (e) {} }
+      }
+      var p = audio.play();
+      if (p && p.catch) {
+        p.catch(function (err) {
+          // Autoplay blocked, or interrupted by a pause/seek: not a loading problem.
+          if (err && (err.name === 'NotAllowedError' || err.name === 'AbortError')) return;
+          show();
+        });
+      }
+    }
+
+    listen('play', function () { attempted = true; if (audio.readyState < 3) arm(); });
+    listen('waiting', function () { if (!audio.paused) arm(); });
+    listen('playing', hide);
+    listen('pause', stopTimer);
+    listen('emptied', stopTimer);
+    listen('error', function () { if (attempted) show(); });
+    retryBtn.addEventListener('click', play);
+
+    return {
+      el: notice,
+      play: play,
+      // For playback already under way before these listeners were attached.
+      adopt: function () { attempted = true; if (!audio.paused && audio.readyState < 3) arm(); },
+      dispose: stopTimer
+    };
+  }
+
   var AR_DIGITS = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
   function toArabicNum(n) {
     return String(n).split('').map(function (d) {
@@ -426,6 +494,7 @@
       syncMediaSessionPosition(player);
     });
     children.push(player);
+    children.push(createAudioNotice(player).el);
 
     // Identified text and translation (verse cards, like the reader view).
     if (rec.text && Array.isArray(rec.text.sections) && rec.text.sections.length) {
@@ -1233,7 +1302,11 @@
       function detachAudio() {
         audioListeners.forEach(function (l) { audio.removeEventListener(l[0], l[1]); });
         audioListeners = [];
+        audioNotice.dispose();
       }
+      var audioNotice = createAudioNotice(audio, onAudio);
+      footer.appendChild(audioNotice.el);
+      function playAudio() { audioNotice.play(); }
 
       // Keep playing on the same element: swap in the next chapter's file now,
       // then let the router build that chapter's page around it.
@@ -1440,7 +1513,7 @@
           singleVerseNum = null; // Resume continuous chapter playback
           userInterrupted = false;
           clearTimeout(userInterruptTimer);
-          audio.play().catch(function () {});
+          playAudio();
           scrollToActiveVerse(true);
         } else {
           audio.pause();
@@ -1507,7 +1580,7 @@
           if (curSingleTs && curSingleTs.end > 0 && t >= (curSingleTs.end - 0.15)) {
             if (loopEnabled) {
               audio.currentTime = curSingleTs.start;
-              audio.play().catch(function () {});
+              playAudio();
               return;
             } else {
               audio.pause();
@@ -1585,7 +1658,7 @@
             if (sectionIndex === 0) {
               // Single-chapter work: the hash would not change, so restart in place.
               audio.currentTime = 0;
-              audio.play().catch(function () {});
+              playAudio();
               return;
             }
             continueTo(0);
@@ -1593,7 +1666,7 @@
           }
         } else if (loopEnabled) {
           audio.currentTime = 0;
-          audio.play().catch(function () {});
+          playAudio();
         }
       });
 
@@ -1606,7 +1679,7 @@
               userInterrupted = false;
               clearTimeout(userInterruptTimer);
               audio.currentTime = timestamps[k].start;
-              audio.play().catch(function () {});
+              playAudio();
               break;
             }
           }
@@ -1634,18 +1707,19 @@
           // If audio was paused on this verse, resume it in single-verse mode:
           if (lastActiveNum === verseNum && audio.currentTime >= targetTs.start && audio.currentTime < targetTs.end) {
             singleVerseNum = verseNum;
-            audio.play().catch(function () {});
+            playAudio();
             return;
           }
 
           // Otherwise seek to this verse and play only this verse:
           singleVerseNum = verseNum;
           audio.currentTime = targetTs.start;
-          audio.play().catch(function () {});
+          playAudio();
         }
       };
 
       // Adopted from the previous chapter already playing: sync the controls.
+      if (adopted) audioNotice.adopt();
       if (adopted && !audio.paused) onPlay();
 
       try {
