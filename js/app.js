@@ -52,6 +52,7 @@
     notice.hidden = true;
 
     function stopTimer() { clearTimeout(timer); timer = null; }
+    var stalled = false;
     // Pausing resets the play buttons (a failed load leaves the element "playing").
     function show() {
       stopTimer();
@@ -63,14 +64,16 @@
       stopTimer();
       timer = setTimeout(function () {
         timer = null;
-        if (!audio.paused && audio.readyState < 3) show();
+        if (!audio.paused && audio.readyState < 3) { stalled = true; show(); }
       }, AUDIO_STALL_MS);
     }
-    // Play, reloading first if an earlier attempt left the element in an error state.
+    // Play, reloading first if an earlier attempt failed or got stuck (a stuck
+    // download would otherwise be reused and stay stuck).
     function play() {
       attempted = true;
       hide();
-      if (audio.error) {
+      if (audio.error || stalled) {
+        stalled = false;
         var pos = audio.currentTime;
         audio.load();
         if (pos) { try { audio.currentTime = pos; } catch (e) {} }
@@ -87,7 +90,7 @@
 
     listen('play', function () { attempted = true; if (audio.readyState < 3) arm(); });
     listen('waiting', function () { if (!audio.paused) arm(); });
-    listen('playing', hide);
+    listen('playing', function () { stalled = false; hide(); });
     listen('pause', stopTimer);
     listen('emptied', stopTimer);
     listen('error', function () { if (attempted) show(); });

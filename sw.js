@@ -81,7 +81,10 @@ self.addEventListener('fetch', function (event) {
       caches.open(CACHE_VERSION).then(function (cache) {
         return cache.match(event.request).then(function (cached) {
           if (cached) return cached;
-          return fetch(event.request).then(function (response) {
+          // 'no-store' skips the browser's HTTP cache, which would otherwise make
+          // a retry wait behind an earlier download that got stuck. The offline
+          // copy still goes into this service-worker cache below.
+          return fetch(event.request, { cache: 'no-store' }).then(function (response) {
             if (response && response.ok) {
               cache.put(event.request, response.clone());
             }
